@@ -1,7 +1,7 @@
-—#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Autonomous Research Paper Analyzer
-Downloads papers from arXiv, analyzes them using a local LLM (DistilGPT2 via HuggingFace),
+Downloads papers from arXiv, analyzes them using DistilGPT2 (HuggingFace),
 and generates a structured HTML report for GitHub Pages.
 No API keys required.
 """
@@ -16,35 +16,34 @@ from pathlib import Path
 
 from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
 
-# ─── Configuration ────────────────────────────────────────────────────────────
+# Configuration
 ARXIV_BASE_URL = "https://export.arxiv.org/api/query"
 QUERY          = os.environ.get("ARXIV_QUERY", "large language models")
 MAX_RESULTS    = int(os.environ.get("MAX_RESULTS", "5"))
-MODEL_NAME     = "distilgpt2"          # ~82 MB — fits GitHub Actions RAM
+MODEL_NAME     = "distilgpt2"  # ~82 MB, fits GitHub Actions RAM
 OUTPUT_DIR     = Path("docs")
 DATA_FILE      = OUTPUT_DIR / "papers.json"
 REPORT_FILE    = OUTPUT_DIR / "index.html"
 
-# ─── 1. Fetch papers from arXiv ───────────────────────────────────────────────
-def fetch_arxiv_papers(query: str, max_results: int) -> list:
-    print(f"[arXiv] Fetching top {max_results} papers for: '{query}'")
+
+# 1. Fetch papers from arXiv
+def fetch_arxiv_papers(query, max_results):
+    print(f"[arXiv] Fetching top {max_results} papers for: {query!r}")
     params = urllib.parse.urlencode({
-        "search_query": f"ti:{query}",
+        "search_query": "ti:" + query,
         "start": 0,
         "max_results": max_results,
         "sortBy": "submittedDate",
         "sortOrder": "descending",
     })
-    url = f"{ARXIV_BASE_URL}?{params}"
+    url = ARXIV_BASE_URL + "?" + params
     print(f"[arXiv] URL: {url}")
-
     req = urllib.request.Request(
         url,
-        headers={"User-Agent": "arxiv-llm-analyzer/1.0 (github.com/PranayMahendrakar/arxiv-llm-analyzer)"}
+        headers={"User-Agent": "arxiv-llm-analyzer/1.0 (github.com/PranayMahendrakar)"}
     )
     with urllib.request.urlopen(req, timeout=30) as resp:
         xml_data = resp.read().decode("utf-8")
-
     ns = {"atom": "http://www.w3.org/2005/Atom"}
     root = ET.fromstring(xml_data)
     papers = []
@@ -57,25 +56,27 @@ def fetch_arxiv_papers(query: str, max_results: int) -> list:
             continue
         title   = title_el.text.strip().replace("\n", " ")
         summary = (summary_el.text or "").strip().replace("\n", " ")
-        authors = [a.find("atom:name", ns).text for a in entry.findall("atom:author", ns) if a.find("atom:name", ns) is not None]
-        link    = (id_el.text or "").strip()
-        pub     = (pub_el.text or "")[:10]
+        authors = [a.find("atom:name", ns).text
+                   for a in entry.findall("atom:author", ns)
+                   if a.find("atom:name", ns) is not None]
+        link       = (id_el.text or "").strip()
+        pub        = (pub_el.text or "")[:10]
         categories = [c.get("term", "") for c in entry.findall("atom:category", ns)]
         papers.append({
-            "title":      title,
-            "summary":    summary[:800],
-            "authors":    authors[:5],
-            "link":       link,
-            "published":  pub,
+            "title": title,
+            "summary": summary[:800],
+            "authors": authors[:5],
+            "link": link,
+            "published": pub,
             "categories": categories,
         })
     print(f"[arXiv] Retrieved {len(papers)} papers.")
     return papers
 
 
-# ─── 2. Load local LLM ────────────────────────────────────────────────────────
+# 2. Load local LLM
 def load_model():
-    print(f"[LLM] Loading {MODEL_NAME} …")
+    print(f"[LLM] Loading {MODEL_NAME} ...")
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
     model     = AutoModelForCausalLM.from_pretrained(MODEL_NAME)
     model.eval()
@@ -90,17 +91,14 @@ def load_model():
     return gen
 
 
-# ─── 3. Analyse a single paper ────────────────────────────────────────────────
-def analyse_paper(gen, paper: dict) -> dict:
-    title   = paper["title"][:150]
-    summary = paper["summary"][:350]
-
+# 3. Analyse a single paper
+def analyse_paper(gen, paper):
+    title = paper["title"][:150]
     prompts = {
-        "key_methods":  f"Paper: {title}.\nMethods:",
-        "datasets":     f"Paper: {title}.\nDatasets:",
-        "future_work":  f"Paper: {title}.\nFuture work:",
+        "key_methods":  f"Paper: {title}.\nMethods used:",
+        "datasets":     f"Paper: {title}.\nDatasets mentioned:",
+        "future_work":  f"Paper: {title}.\nFuture research:",
     }
-
     results = {}
     for field, prompt in prompts.items():
         try:
@@ -113,42 +111,30 @@ def analyse_paper(gen, paper: dict) -> dict:
             )
             generated = out[0]["generated_text"][len(prompt):].strip()
             sentence  = generated.split(".")[0].strip()
-            results[field] = (sentence[:120] + "…") if len(sentence) > 120 else sentence + "."
+            results[field] = sentence[:120] + "..." if len(sentence) > 120 else sentence + "."
         except Exception as e:
-            print(f"[LLM] Warning: {field} failed: {e}")
+            print(f"[LLM] Warning {field}: {e}")
             results[field] = "Analysis unavailable."
     return results
 
 
-# ─── 4. Build HTML dashboard ──────────────────────────────────────────────────
-CARD_TPL = """
-  <div class="card">
-    <div class="card-header">
-      <h2><a href="{link}" target="_blank" rel="noopener">{title}</a></h2>
-      <span class="meta">📅 {published} &nbsp;|&nbsp; 👥 {authors} &nbsp;|&nbsp; 🏷️ {categories}</span>
-    </div>
-    <div class="card-body">
-      <section class="full">
-        <h3>📄 Abstract</h3>
-        <p>{summary}</p>
-      </section>
-      <section>
-        <h3>🔬 Key Methods <span class="badge ai">AI</span></h3>
-        <p>{key_methods}</p>
-      </section>
-      <section>
-        <h3>📊 Datasets Used <span class="badge ai">AI</span></h3>
-        <p>{datasets}</p>
-      </section>
-      <section class="full">
-        <h3>🚀 Future Work <span class="badge ai">AI</span></h3>
-        <p>{future_work}</p>
-      </section>
-    </div>
+# 4. Build HTML dashboard
+CARD = """
+<div class="card">
+  <div class="card-header">
+    <h2><a href="{link}" target="_blank" rel="noopener">{title}</a></h2>
+    <span class="meta">Published: {published} | Authors: {authors} | Tags: {categories}</span>
   </div>
+  <div class="card-body">
+    <section class="full"><h3>Abstract</h3><p>{summary}</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>{key_methods}</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>{datasets}</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>{future_work}</p></section>
+  </div>
+</div>
 """
 
-HTML_PAGE = """<!DOCTYPE html>
+HTML_TMPL = """<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8"/>
@@ -163,7 +149,7 @@ HTML_PAGE = """<!DOCTYPE html>
     header p{{color:var(--mut);font-size:.85rem}}
     .pipe{{display:flex;gap:.4rem;flex-wrap:wrap;padding:.75rem 2rem;background:var(--sur);border-bottom:1px solid var(--bdr);align-items:center;font-size:.8rem;color:var(--mut)}}
     .step{{background:var(--bg);border:1px solid var(--bdr);border-radius:20px;padding:.25rem .7rem}}
-    .arr{{color:var(--acc)}}
+    .arr{{color:var(--acc);font-weight:bold}}
     .stats{{display:flex;gap:1rem;padding:.75rem 2rem;flex-wrap:wrap}}
     .stat{{background:var(--sur);border:1px solid var(--bdr);border-radius:8px;padding:.7rem 1rem;flex:1;min-width:130px}}
     .stat .n{{font-size:1.6rem;font-weight:700;color:var(--acc)}}
@@ -177,9 +163,9 @@ HTML_PAGE = """<!DOCTYPE html>
     .meta{{font-size:.75rem;color:var(--mut);display:block;margin-top:.3rem}}
     .card-body{{padding:1rem 1.25rem;display:grid;grid-template-columns:1fr 1fr;gap:.9rem}}
     .card-body .full{{grid-column:1/-1}}
-    section h3{{font-size:.8rem;text-transform:uppercase;letter-spacing:.05em;color:var(--mut);margin-bottom:.3rem;display:flex;align-items:center;gap:.4rem}}
+    section h3{{font-size:.8rem;text-transform:uppercase;letter-spacing:.05em;color:var(--mut);margin-bottom:.3rem}}
     section p{{font-size:.88rem}}
-    .badge{{font-size:.65rem;background:#388bfd22;border:1px solid #388bfd;border-radius:20px;padding:.05rem .4rem;color:var(--acc);text-transform:none;letter-spacing:0}}
+    .ai-badge{{font-size:.65rem;background:#388bfd22;border:1px solid #388bfd;border-radius:20px;padding:.05rem .4rem;color:var(--acc)}}
     footer{{text-align:center;padding:1.5rem;color:var(--mut);font-size:.75rem;border-top:1px solid var(--bdr);margin-top:1.5rem}}
     footer a{{color:var(--acc);text-decoration:none}}
     @media(max-width:600px){{.card-body{{grid-template-columns:1fr}}}}
@@ -187,18 +173,18 @@ HTML_PAGE = """<!DOCTYPE html>
 </head>
 <body>
 <header>
-  <div style="font-size:2rem">🔬</div>
+  <div style="font-size:2rem">&#128300;</div>
   <div>
     <h1>arXiv LLM Analyzer</h1>
-    <p>Autonomous AI-generated literature review — DistilGPT2 · HuggingFace · GitHub Actions · No API keys</p>
+    <p>Autonomous AI literature review | DistilGPT2 + HuggingFace + GitHub Actions | No API keys</p>
   </div>
 </header>
 <div class="pipe">
-  <span class="step">⚙️ GitHub Action</span><span class="arr">→</span>
-  <span class="step">📥 arXiv API</span><span class="arr">→</span>
-  <span class="step">🧠 DistilGPT2</span><span class="arr">→</span>
-  <span class="step">📝 HTML Report</span><span class="arr">→</span>
-  <span class="step">🌐 GitHub Pages</span>
+  <span class="step">GitHub Action</span><span class="arr">-&gt;</span>
+  <span class="step">arXiv API</span><span class="arr">-&gt;</span>
+  <span class="step">DistilGPT2</span><span class="arr">-&gt;</span>
+  <span class="step">HTML Report</span><span class="arr">-&gt;</span>
+  <span class="step">GitHub Pages</span>
 </div>
 <div class="stats">
   <div class="stat"><div class="n">{paper_count}</div><div class="l">Papers</div></div>
@@ -209,7 +195,7 @@ HTML_PAGE = """<!DOCTYPE html>
 <main>{cards}</main>
 <footer>
   <a href="https://github.com/PranayMahendrakar/arxiv-llm-analyzer">PranayMahendrakar/arxiv-llm-analyzer</a>
-  &nbsp;·&nbsp; Powered by <strong>DistilGPT2</strong> (HuggingFace Transformers) · No API keys · {updated_full}
+  | Powered by DistilGPT2 (HuggingFace Transformers) | No API keys | {updated_full}
 </footer>
 </body></html>
 """
@@ -218,19 +204,19 @@ HTML_PAGE = """<!DOCTYPE html>
 def build_html(papers, analyses):
     cards = ""
     for p, a in zip(papers, analyses):
-        cards += CARD_TPL.format(
+        cards += CARD.format(
             title       = p["title"],
             link        = p["link"],
             published   = p["published"],
             authors     = ", ".join(p["authors"]) or "Unknown",
             categories  = ", ".join(p["categories"][:3]),
-            summary     = p["summary"] or "No abstract available.",
+            summary     = p["summary"] or "No abstract.",
             key_methods = a.get("key_methods", "N/A"),
             datasets    = a.get("datasets", "N/A"),
             future_work = a.get("future_work", "N/A"),
         )
     now = datetime.datetime.utcnow()
-    return HTML_PAGE.format(
+    return HTML_TMPL.format(
         paper_count  = len(papers),
         model        = MODEL_NAME,
         query        = QUERY[:16],
@@ -240,29 +226,22 @@ def build_html(papers, analyses):
     )
 
 
-# ─── 5. Main ──────────────────────────────────────────────────────────────────
+# 5. Main
 def main():
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-
     papers   = fetch_arxiv_papers(QUERY, MAX_RESULTS)
-    if not papers:
-        print("[!] No papers retrieved — writing empty report.")
-
     gen      = load_model()
     analyses = []
     for i, paper in enumerate(papers, 1):
-        print(f"[LLM] Paper {i}/{len(papers)}: {paper['title'][:60]}…")
+        print(f"[LLM] Paper {i}/{len(papers)}: {paper['title'][:60]}...")
         analyses.append(analyse_paper(gen, paper))
-        print(f"      ✓ Done")
-
     data = [{"paper": p, "analysis": a} for p, a in zip(papers, analyses)]
     DATA_FILE.write_text(json.dumps(data, indent=2, ensure_ascii=False))
-    print(f"[IO] JSON  → {DATA_FILE}")
-
+    print(f"[IO] JSON -> {DATA_FILE}")
     html = build_html(papers, analyses)
     REPORT_FILE.write_text(html, encoding="utf-8")
-    print(f"[IO] HTML  → {REPORT_FILE}")
-    print("[✓] Pipeline complete!")
+    print(f"[IO] HTML -> {REPORT_FILE}")
+    print("[OK] Pipeline complete!")
 
 
 if __name__ == "__main__":
