@@ -1,0 +1,12 @@
+# Core HTTP client
+requests>=2.31.0
+
+# HuggingFace Transformers — use small model (DistilGPT2, ~82 MB)
+transformers>=4.40.0
+torch>=2.2.0 --index-url https://download.pytorch.org/whl/cpu
+
+# Tokenizers (fast tokenizer backend)
+tokenizers>=0.19.0
+
+# Accelerate (optional — speeds up inference slightly)
+accelerate>=0.29.0
