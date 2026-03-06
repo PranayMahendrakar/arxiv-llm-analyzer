@@ -1,0 +1,118 @@
+[
+  {
+    "paper": {
+      "title": "Transformer-Based Inpainting for Real-Time 3D Streaming in Sparse Multi-Camera Setups",
+      "summary": "High-quality 3D streaming from multiple cameras is crucial for immersive experiences in many AR/VR applications. The limited number of views - often due to real-time constraints - leads to missing information and incomplete surfaces in the rendered images. Existing approaches typically rely on simple heuristics for the hole filling, which can result in inconsistencies or visual artifacts. We propose to complete the missing textures using a novel, application-targeted inpainting method independent of the underlying representation as an image-based post-processing step after the novel view rendering. The method is designed as a standalone module compatible with any calibrated multi-camera system. For this we introduce a multi-view aware, transformer-based network architecture using spatio-te",
+      "authors": [
+        "Leif Van Holland",
+        "Domenic Zingsheim",
+        "Mana Takhsha",
+        "Hannah Dröge",
+        "Patrick Stotko"
+      ],
+      "link": "http://arxiv.org/abs/2603.05507v1",
+      "published": "2026-03-05",
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The first step was to create a simple implementation of the method to enable playback with 3D-printed images.",
+      "datasets": "http://gizmodo.",
+      "future_work": "Using the high resolution of the 3D printing technology, researchers have developed a method for making a 3D printer wit..."
+    }
+  },
+  {
+    "paper": {
+      "title": "FaceCam: Portrait Video Camera Control via Scale-Aware Conditioning",
+      "summary": "We introduce FaceCam, a system that generates video under customizable camera trajectories for monocular human portrait video input. Recent camera control approaches based on large video-generation models have shown promising progress but often exhibit geometric distortions and visual artifacts on portrait videos due to scale-ambiguous camera representations or 3D reconstruction errors. To overcome these limitations, we propose a face-tailored scale-aware representation for camera transformations that provides deterministic conditioning without relying on 3D priors. We train a video generation model on both multi-view studio captures and in-the-wild monocular videos, and introduce two camera-control data generation strategies: synthetic camera motion and multi-shot stitching, to exploit st",
+      "authors": [
+        "Weijie Lyu",
+        "Ming-Hsuan Yang",
+        "Zhixin Shu"
+      ],
+      "link": "http://arxiv.org/abs/2603.05506v1",
+      "published": "2026-03-05",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "Samples:\nSamples:\nThe sample using the Scale-Aware Conditioning Method:\nSample:\nSamples:\nThe sample using the Scale-Awar...",
+      "datasets": "http://www.",
+      "future_work": "Using a handheld camera to record live images in a handheld video camera could allow for real-time capture of motion."
+    }
+  },
+  {
+    "paper": {
+      "title": "Accelerating Text-to-Video Generation with Calibrated Sparse Attention",
+      "summary": "Recent diffusion models enable high-quality video generation, but suffer from slow runtimes. The large transformer-based backbones used in these models are bottlenecked by spatiotemporal attention. In this paper, we identify that a significant fraction of token-to-token connections consistently yield negligible scores across various inputs, and their patterns often repeat across queries. Thus, the attention computation in these cases can be skipped with little to no effect on the result. This observation continues to hold for connections among local token blocks. Motivated by this, we introduce CalibAtt, a training-free method that accelerates video generation via calibrated sparse attention. CalibAtt performs an offline calibration pass that identifies block-level sparsity and repetition ",
+      "authors": [
+        "Shai Yehezkel",
+        "Shahar Yadin",
+        "Noam Elata",
+        "Yaron Ostrovsky-Berman",
+        "Bahjat Kawar"
+      ],
+      "link": "http://arxiv.org/abs/2603.05503v1",
+      "published": "2026-03-05",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": ".",
+      "datasets": "Introduction\nThe main reason for the study of the effect of transcranial transcranial transcranial transcranial transcra...",
+      "future_work": "What if we could build a digital version of the internet that would take longer to deliver?\nWhat if we could build a dig..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Universal quantum computation with group surface codes",
+      "summary": "We introduce group surface codes, which are a natural generalization of the $\\mathbb{Z}_2$ surface code, and equivalent to quantum double models of finite groups with specific boundary conditions. We show that group surface codes can be leveraged to perform non-Clifford gates in $\\mathbb{Z}_2$ surface codes, thus enabling universal computation with well-established means of performing logical Clifford gates. Moreover, for suitably chosen groups, we demonstrate that arbitrary reversible classical gates can be implemented transversally in the group surface code. We present the logical operations in terms of a set of elementary logical operations, which include transversal logical gates, a means of transferring encoded information into and out of group surface codes, and preparation and reado",
+      "authors": [
+        "Naren Manjunath",
+        "Vieri Mattei",
+        "Apoorv Tiwari",
+        "Tyler D. Ellison"
+      ],
+      "link": "http://arxiv.org/abs/2603.05502v1",
+      "published": "2026-03-05",
+      "categories": [
+        "quant-ph",
+        "cond-mat.str-el"
+      ]
+    },
+    "analysis": {
+      "key_methods": "An online version of this paper was published in the Journal for Physical Review Letters on October 19, 2014.",
+      "datasets": "1.",
+      "future_work": "We could use quantum computing, quantum computing, quantum computing, and quantum computers to explore the use of quantu..."
+    }
+  },
+  {
+    "paper": {
+      "title": "POET-X: Memory-efficient LLM Training by Scaling Orthogonal Transformation",
+      "summary": "Efficient and stable training of large language models (LLMs) remains a core challenge in modern machine learning systems. To address this challenge, Reparameterized Orthogonal Equivalence Training (POET), a spectrum-preserving framework that optimizes each weight matrix through orthogonal equivalence transformation, has been proposed. Although POET provides strong training stability, its original implementation incurs high memory consumption and computational overhead due to intensive matrix multiplications. To overcome these limitations, we introduce POET-X, a scalable and memory-efficient variant that performs orthogonal equivalence transformations with significantly reduced computational cost. POET-X maintains the generalization and stability benefits of POET while achieving substantia",
+      "authors": [
+        "Zeju Qiu",
+        "Lixin Liu",
+        "Adrian Weller",
+        "Han Shi",
+        "Weiyang Liu"
+      ],
+      "link": "http://arxiv.org/abs/2603.05500v1",
+      "published": "2026-03-05",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The following algorithms were used to calculate the number of processors, processing cores, and memory (CPUs) used to pe...",
+      "datasets": "#include \"log.",
+      "future_work": "A more advanced, more efficient, and more efficient LLM training program."
+    }
+  }
+]

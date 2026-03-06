@@ -2,98 +2,135 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>arXiv LLM Analyzer — AI Literature Review</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>arXiv LLM Analyzer</title>
   <style>
-    :root{--bg:#0d1117;--surface:#161b22;--border:#30363d;--accent:#58a6ff;--text:#c9d1d9;--muted:#8b949e}
+    :root{--bg:#0d1117;--sur:#161b22;--bdr:#30363d;--acc:#58a6ff;--txt:#c9d1d9;--mut:#8b949e}
     *{box-sizing:border-box;margin:0;padding:0}
-    body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6;min-height:100vh;display:flex;flex-direction:column}
-    header{background:var(--surface);border-bottom:1px solid var(--border);padding:1.5rem 2rem;display:flex;align-items:center;gap:1rem}
-    header h1{font-size:1.5rem;color:var(--accent)}
-    header p{color:var(--muted);font-size:.9rem}
-    .pipeline{display:flex;gap:.5rem;flex-wrap:wrap;padding:1rem 2rem;background:var(--surface);border-bottom:1px solid var(--border);align-items:center;font-size:.85rem;color:var(--muted)}
-    .step{background:var(--bg);border:1px solid var(--border);border-radius:20px;padding:.3rem .8rem}
-    .arrow{color:var(--accent)}
-    .hero{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:4rem 2rem;text-align:center;gap:1.5rem}
-    .hero .icon{font-size:4rem;animation:pulse 2s ease-in-out infinite}
-    @keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
-    .hero h2{font-size:2rem;color:var(--accent)}
-    .hero p{color:var(--muted);max-width:520px;font-size:1rem}
-    .badges{display:flex;gap:.75rem;flex-wrap:wrap;justify-content:center;margin-top:.5rem}
-    .badge{background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:.4rem 1rem;font-size:.82rem;color:var(--text)}
-    .badge.ai{border-color:#388bfd;color:var(--accent)}
-    .status-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem;width:100%;max-width:760px;margin-top:1rem}
-    .status-card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:1.2rem;text-align:left}
-    .status-card .sc-icon{font-size:1.5rem;margin-bottom:.5rem}
-    .status-card h3{font-size:.85rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:.25rem}
-    .status-card p{font-size:.9rem}
-    .cta{background:var(--accent);color:#0d1117;border:none;border-radius:8px;padding:.75rem 1.5rem;font-size:1rem;font-weight:600;cursor:pointer;text-decoration:none;display:inline-block;margin-top:.5rem}
-    .cta:hover{opacity:.9}
-    footer{text-align:center;padding:1.5rem;color:var(--muted);font-size:.8rem;border-top:1px solid var(--border)}
-    footer a{color:var(--accent);text-decoration:none}
+    body{background:var(--bg);color:var(--txt);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}
+    header{background:var(--sur);border-bottom:1px solid var(--bdr);padding:1.5rem 2rem;display:flex;align-items:center;gap:1rem}
+    header h1{font-size:1.4rem;color:var(--acc)}
+    header p{color:var(--mut);font-size:.85rem}
+    .pipe{display:flex;gap:.4rem;flex-wrap:wrap;padding:.75rem 2rem;background:var(--sur);border-bottom:1px solid var(--bdr);align-items:center;font-size:.8rem;color:var(--mut)}
+    .step{background:var(--bg);border:1px solid var(--bdr);border-radius:20px;padding:.25rem .7rem}
+    .arr{color:var(--acc);font-weight:bold}
+    .stats{display:flex;gap:1rem;padding:.75rem 2rem;flex-wrap:wrap}
+    .stat{background:var(--sur);border:1px solid var(--bdr);border-radius:8px;padding:.7rem 1rem;flex:1;min-width:130px}
+    .stat .n{font-size:1.6rem;font-weight:700;color:var(--acc)}
+    .stat .l{font-size:.75rem;color:var(--mut);text-transform:uppercase;letter-spacing:.04em}
+    main{max-width:960px;margin:0 auto;padding:1rem 2rem;display:flex;flex-direction:column;gap:1.2rem}
+    .card{background:var(--sur);border:1px solid var(--bdr);border-radius:10px;overflow:hidden}
+    .card-header{padding:1rem 1.25rem;border-bottom:1px solid var(--bdr)}
+    .card-header h2{font-size:1rem}
+    .card-header a{color:var(--acc);text-decoration:none}
+    .card-header a:hover{text-decoration:underline}
+    .meta{font-size:.75rem;color:var(--mut);display:block;margin-top:.3rem}
+    .card-body{padding:1rem 1.25rem;display:grid;grid-template-columns:1fr 1fr;gap:.9rem}
+    .card-body .full{grid-column:1/-1}
+    section h3{font-size:.8rem;text-transform:uppercase;letter-spacing:.05em;color:var(--mut);margin-bottom:.3rem}
+    section p{font-size:.88rem}
+    .ai-badge{font-size:.65rem;background:#388bfd22;border:1px solid #388bfd;border-radius:20px;padding:.05rem .4rem;color:var(--acc)}
+    footer{text-align:center;padding:1.5rem;color:var(--mut);font-size:.75rem;border-top:1px solid var(--bdr);margin-top:1.5rem}
+    footer a{color:var(--acc);text-decoration:none}
+    @media(max-width:600px){.card-body{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
 <header>
-  <div style="font-size:2rem">🔬</div>
+  <div style="font-size:2rem">&#128300;</div>
   <div>
     <h1>arXiv LLM Analyzer</h1>
-    <p>Autonomous AI-generated literature review — powered by DistilGPT2 &amp; GitHub Actions</p>
+    <p>Autonomous AI literature review | DistilGPT2 + HuggingFace + GitHub Actions | No API keys</p>
   </div>
 </header>
-<div class="pipeline">
-  <span class="step">⚙️ GitHub Action</span><span class="arrow">→</span>
-  <span class="step">📥 arXiv Download</span><span class="arrow">→</span>
-  <span class="step">🧠 LLM Analysis</span><span class="arrow">→</span>
-  <span class="step">📝 Summary Gen</span><span class="arrow">→</span>
-  <span class="step">🌐 GitHub Pages</span>
+<div class="pipe">
+  <span class="step">GitHub Action</span><span class="arr">-&gt;</span>
+  <span class="step">arXiv API</span><span class="arr">-&gt;</span>
+  <span class="step">DistilGPT2</span><span class="arr">-&gt;</span>
+  <span class="step">HTML Report</span><span class="arr">-&gt;</span>
+  <span class="step">GitHub Pages</span>
 </div>
-<div class="hero">
-  <div class="icon">⏳</div>
-  <h2>First Analysis Pending</h2>
-  <p>
-    The workflow hasn't run yet. Trigger the GitHub Action manually or wait for the
-    daily schedule (06:00 UTC) to generate your first AI literature review.
-  </p>
-  <div class="badges">
-    <span class="badge ai">🧠 DistilGPT2</span>
-    <span class="badge">🐍 Python 3.11</span>
-    <span class="badge">🤗 HuggingFace Transformers</span>
-    <span class="badge">📥 arXiv API</span>
-    <span class="badge">🚫 No API Keys</span>
-    <span class="badge">✅ 100% Open-Source</span>
-  </div>
-
-  <div class="status-grid">
-    <div class="status-card">
-      <div class="sc-icon">📄</div>
-      <h3>Paper Summary</h3>
-      <p>Title, abstract, authors, and publication date from arXiv.</p>
-    </div>
-    <div class="status-card">
-      <div class="sc-icon">🔬</div>
-      <h3>Key Methods</h3>
-      <p>AI-extracted methodologies from each paper's abstract.</p>
-    </div>
-    <div class="status-card">
-      <div class="sc-icon">📊</div>
-      <h3>Datasets Used</h3>
-      <p>Benchmarks and datasets mentioned in the research.</p>
-    </div>
-    <div class="status-card">
-      <div class="sc-icon">🚀</div>
-      <h3>Future Work</h3>
-      <p>LLM-generated suggestions for future research directions.</p>
-    </div>
-  </div>
-
-  <a class="cta" href="https://github.com/PranayMahendrakar/arxiv-llm-analyzer/actions" target="_blank">
-    ▶ Trigger First Analysis
-  </a>
+<div class="stats">
+  <div class="stat"><div class="n">5</div><div class="l">Papers</div></div>
+  <div class="stat"><div class="n">distilgpt2</div><div class="l">LLM Model</div></div>
+  <div class="stat"><div class="n">large language m</div><div class="l">Query</div></div>
+  <div class="stat"><div class="n">2026-03-06</div><div class="l">Updated UTC</div></div>
 </div>
+<main>
+<div class="card">
+  <div class="card-header">
+    <h2><a href="http://arxiv.org/abs/2603.05507v1" target="_blank" rel="noopener">Transformer-Based Inpainting for Real-Time 3D Streaming in Sparse Multi-Camera Setups</a></h2>
+    <span class="meta">Published: 2026-03-05 | Authors: Leif Van Holland, Domenic Zingsheim, Mana Takhsha, Hannah Dröge, Patrick Stotko | Tags: cs.CV, cs.GR</span>
+  </div>
+  <div class="card-body">
+    <section class="full"><h3>Abstract</h3><p>High-quality 3D streaming from multiple cameras is crucial for immersive experiences in many AR/VR applications. The limited number of views - often due to real-time constraints - leads to missing information and incomplete surfaces in the rendered images. Existing approaches typically rely on simple heuristics for the hole filling, which can result in inconsistencies or visual artifacts. We propose to complete the missing textures using a novel, application-targeted inpainting method independent of the underlying representation as an image-based post-processing step after the novel view rendering. The method is designed as a standalone module compatible with any calibrated multi-camera system. For this we introduce a multi-view aware, transformer-based network architecture using spatio-te</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The first step was to create a simple implementation of the method to enable playback with 3D-printed images.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>http://gizmodo.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Using the high resolution of the 3D printing technology, researchers have developed a method for making a 3D printer wit...</p></section>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    <h2><a href="http://arxiv.org/abs/2603.05506v1" target="_blank" rel="noopener">FaceCam: Portrait Video Camera Control via Scale-Aware Conditioning</a></h2>
+    <span class="meta">Published: 2026-03-05 | Authors: Weijie Lyu, Ming-Hsuan Yang, Zhixin Shu | Tags: cs.CV</span>
+  </div>
+  <div class="card-body">
+    <section class="full"><h3>Abstract</h3><p>We introduce FaceCam, a system that generates video under customizable camera trajectories for monocular human portrait video input. Recent camera control approaches based on large video-generation models have shown promising progress but often exhibit geometric distortions and visual artifacts on portrait videos due to scale-ambiguous camera representations or 3D reconstruction errors. To overcome these limitations, we propose a face-tailored scale-aware representation for camera transformations that provides deterministic conditioning without relying on 3D priors. We train a video generation model on both multi-view studio captures and in-the-wild monocular videos, and introduce two camera-control data generation strategies: synthetic camera motion and multi-shot stitching, to exploit st</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>Samples:
+Samples:
+The sample using the Scale-Aware Conditioning Method:
+Sample:
+Samples:
+The sample using the Scale-Awar...</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>http://www.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Using a handheld camera to record live images in a handheld video camera could allow for real-time capture of motion.</p></section>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    <h2><a href="http://arxiv.org/abs/2603.05503v1" target="_blank" rel="noopener">Accelerating Text-to-Video Generation with Calibrated Sparse Attention</a></h2>
+    <span class="meta">Published: 2026-03-05 | Authors: Shai Yehezkel, Shahar Yadin, Noam Elata, Yaron Ostrovsky-Berman, Bahjat Kawar | Tags: cs.CV</span>
+  </div>
+  <div class="card-body">
+    <section class="full"><h3>Abstract</h3><p>Recent diffusion models enable high-quality video generation, but suffer from slow runtimes. The large transformer-based backbones used in these models are bottlenecked by spatiotemporal attention. In this paper, we identify that a significant fraction of token-to-token connections consistently yield negligible scores across various inputs, and their patterns often repeat across queries. Thus, the attention computation in these cases can be skipped with little to no effect on the result. This observation continues to hold for connections among local token blocks. Motivated by this, we introduce CalibAtt, a training-free method that accelerates video generation via calibrated sparse attention. CalibAtt performs an offline calibration pass that identifies block-level sparsity and repetition </p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>Introduction
+The main reason for the study of the effect of transcranial transcranial transcranial transcranial transcra...</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>What if we could build a digital version of the internet that would take longer to deliver?
+What if we could build a dig...</p></section>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    <h2><a href="http://arxiv.org/abs/2603.05502v1" target="_blank" rel="noopener">Universal quantum computation with group surface codes</a></h2>
+    <span class="meta">Published: 2026-03-05 | Authors: Naren Manjunath, Vieri Mattei, Apoorv Tiwari, Tyler D. Ellison | Tags: quant-ph, cond-mat.str-el</span>
+  </div>
+  <div class="card-body">
+    <section class="full"><h3>Abstract</h3><p>We introduce group surface codes, which are a natural generalization of the $\mathbb{Z}_2$ surface code, and equivalent to quantum double models of finite groups with specific boundary conditions. We show that group surface codes can be leveraged to perform non-Clifford gates in $\mathbb{Z}_2$ surface codes, thus enabling universal computation with well-established means of performing logical Clifford gates. Moreover, for suitably chosen groups, we demonstrate that arbitrary reversible classical gates can be implemented transversally in the group surface code. We present the logical operations in terms of a set of elementary logical operations, which include transversal logical gates, a means of transferring encoded information into and out of group surface codes, and preparation and reado</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>An online version of this paper was published in the Journal for Physical Review Letters on October 19, 2014.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>1.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>We could use quantum computing, quantum computing, quantum computing, and quantum computers to explore the use of quantu...</p></section>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    <h2><a href="http://arxiv.org/abs/2603.05500v1" target="_blank" rel="noopener">POET-X: Memory-efficient LLM Training by Scaling Orthogonal Transformation</a></h2>
+    <span class="meta">Published: 2026-03-05 | Authors: Zeju Qiu, Lixin Liu, Adrian Weller, Han Shi, Weiyang Liu | Tags: cs.LG, cs.AI, cs.CL</span>
+  </div>
+  <div class="card-body">
+    <section class="full"><h3>Abstract</h3><p>Efficient and stable training of large language models (LLMs) remains a core challenge in modern machine learning systems. To address this challenge, Reparameterized Orthogonal Equivalence Training (POET), a spectrum-preserving framework that optimizes each weight matrix through orthogonal equivalence transformation, has been proposed. Although POET provides strong training stability, its original implementation incurs high memory consumption and computational overhead due to intensive matrix multiplications. To overcome these limitations, we introduce POET-X, a scalable and memory-efficient variant that performs orthogonal equivalence transformations with significantly reduced computational cost. POET-X maintains the generalization and stability benefits of POET while achieving substantia</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The following algorithms were used to calculate the number of processors, processing cores, and memory (CPUs) used to pe...</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>#include "log.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>A more advanced, more efficient, and more efficient LLM training program.</p></section>
+  </div>
+</div>
+</main>
 <footer>
   <a href="https://github.com/PranayMahendrakar/arxiv-llm-analyzer">PranayMahendrakar/arxiv-llm-analyzer</a>
-  &nbsp;·&nbsp; Powered by DistilGPT2 (HuggingFace Transformers) · No API keys required
+  | Powered by DistilGPT2 (HuggingFace Transformers) | No API keys | 2026-03-06 14:44 UTC
 </footer>
-</body>
-</html>
+</body></html>
