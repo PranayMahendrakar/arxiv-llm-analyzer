@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>arXiv LLM Analyzer — AI Literature Review</title>
+  <style>
+    :root{--bg:#0d1117;--surface:#161b22;--border:#30363d;--accent:#58a6ff;--text:#c9d1d9;--muted:#8b949e}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6;min-height:100vh;display:flex;flex-direction:column}
+    header{background:var(--surface);border-bottom:1px solid var(--border);padding:1.5rem 2rem;display:flex;align-items:center;gap:1rem}
+    header h1{font-size:1.5rem;color:var(--accent)}
+    header p{color:var(--muted);font-size:.9rem}
+    .pipeline{display:flex;gap:.5rem;flex-wrap:wrap;padding:1rem 2rem;background:var(--surface);border-bottom:1px solid var(--border);align-items:center;font-size:.85rem;color:var(--muted)}
+    .step{background:var(--bg);border:1px solid var(--border);border-radius:20px;padding:.3rem .8rem}
+    .arrow{color:var(--accent)}
+    .hero{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:4rem 2rem;text-align:center;gap:1.5rem}
+    .hero .icon{font-size:4rem;animation:pulse 2s ease-in-out infinite}
+    @keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+    .hero h2{font-size:2rem;color:var(--accent)}
+    .hero p{color:var(--muted);max-width:520px;font-size:1rem}
+    .badges{display:flex;gap:.75rem;flex-wrap:wrap;justify-content:center;margin-top:.5rem}
+    .badge{background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:.4rem 1rem;font-size:.82rem;color:var(--text)}
+    .badge.ai{border-color:#388bfd;color:var(--accent)}
+    .status-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem;width:100%;max-width:760px;margin-top:1rem}
+    .status-card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:1.2rem;text-align:left}
+    .status-card .sc-icon{font-size:1.5rem;margin-bottom:.5rem}
+    .status-card h3{font-size:.85rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:.25rem}
+    .status-card p{font-size:.9rem}
+    .cta{background:var(--accent);color:#0d1117;border:none;border-radius:8px;padding:.75rem 1.5rem;font-size:1rem;font-weight:600;cursor:pointer;text-decoration:none;display:inline-block;margin-top:.5rem}
+    .cta:hover{opacity:.9}
+    footer{text-align:center;padding:1.5rem;color:var(--muted);font-size:.8rem;border-top:1px solid var(--border)}
+    footer a{color:var(--accent);text-decoration:none}
+  </style>
+</head>
+<body>
+<header>
+  <div style="font-size:2rem">🔬</div>
+  <div>
+    <h1>arXiv LLM Analyzer</h1>
+    <p>Autonomous AI-generated literature review — powered by DistilGPT2 &amp; GitHub Actions</p>
+  </div>
+</header>
+<div class="pipeline">
+  <span class="step">⚙️ GitHub Action</span><span class="arrow">→</span>
+  <span class="step">📥 arXiv Download</span><span class="arrow">→</span>
+  <span class="step">🧠 LLM Analysis</span><span class="arrow">→</span>
+  <span class="step">📝 Summary Gen</span><span class="arrow">→</span>
+  <span class="step">🌐 GitHub Pages</span>
+</div>
+<div class="hero">
+  <div class="icon">⏳</div>
+  <h2>First Analysis Pending</h2>
+  <p>
+    The workflow hasn't run yet. Trigger the GitHub Action manually or wait for the
+    daily schedule (06:00 UTC) to generate your first AI literature review.
+  </p>
+  <div class="badges">
+    <span class="badge ai">🧠 DistilGPT2</span>
+    <span class="badge">🐍 Python 3.11</span>
+    <span class="badge">🤗 HuggingFace Transformers</span>
+    <span class="badge">📥 arXiv API</span>
+    <span class="badge">🚫 No API Keys</span>
+    <span class="badge">✅ 100% Open-Source</span>
+  </div>
+
+  <div class="status-grid">
+    <div class="status-card">
+      <div class="sc-icon">📄</div>
+      <h3>Paper Summary</h3>
+      <p>Title, abstract, authors, and publication date from arXiv.</p>
+    </div>
+    <div class="status-card">
+      <div class="sc-icon">🔬</div>
+      <h3>Key Methods</h3>
+      <p>AI-extracted methodologies from each paper's abstract.</p>
+    </div>
+    <div class="status-card">
+      <div class="sc-icon">📊</div>
+      <h3>Datasets Used</h3>
+      <p>Benchmarks and datasets mentioned in the research.</p>
+    </div>
+    <div class="status-card">
+      <div class="sc-icon">🚀</div>
+      <h3>Future Work</h3>
+      <p>LLM-generated suggestions for future research directions.</p>
+    </div>
+  </div>
+
+  <a class="cta" href="https://github.com/PranayMahendrakar/arxiv-llm-analyzer/actions" target="_blank">
+    ▶ Trigger First Analysis
+  </a>
+</div>
+<footer>
+  <a href="https://github.com/PranayMahendrakar/arxiv-llm-analyzer">PranayMahendrakar/arxiv-llm-analyzer</a>
+  &nbsp;·&nbsp; Powered by DistilGPT2 (HuggingFace Transformers) · No API keys required
+</footer>
+</body>
+</html>
