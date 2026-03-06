@@ -1,0 +1,91 @@
+name: 🔬 arXiv Paper Analyzer
+
+on:
+  schedule:
+    # Runs every day at 06:00 UTC
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    inputs:
+      query:
+        description: "arXiv search query"
+        required: false
+        default: "large language models"
+      max_results:
+        description: "Number of papers to analyze"
+        required: false
+        default: "5"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  analyze-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      # ── 1. Checkout ────────────────────────────────────────────────────────
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+
+      # ── 2. Python setup ────────────────────────────────────────────────────
+      - name: 🐍 Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # ── 3. Cache pip + HuggingFace model ────────────────────────────────
+      - name: 📦 Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: pip-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
+          restore-keys: pip-${{ runner.os }}-
+
+      - name: 🤗 Cache HuggingFace model (distilgpt2)
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-distilgpt2-v1
+          restore-keys: hf-distilgpt2-
+
+      # ── 4. Install dependencies ───────────────────────────────────────────
+      - name: 📦 Install Python dependencies
+        run: pip install -r requirements.txt
+
+      # ── 5. Run the analyzer ───────────────────────────────────────────────
+      - name: 🧠 Run arXiv LLM Analyzer
+        env:
+          ARXIV_QUERY: ${{ github.event.inputs.query || 'large language models' }}
+          MAX_RESULTS: ${{ github.event.inputs.max_results || '5' }}
+          TRANSFORMERS_OFFLINE: "0"
+          HF_HUB_DISABLE_PROGRESS_BARS: "1"
+        run: python analyze_papers.py
+
+      # ── 6. Commit generated report back to repo ──────────────────────────
+      - name: 📝 Commit report to repository
+        run: |
+          git config --global user.name  "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          git diff --cached --quiet || git commit -m "🤖 Auto-update: arXiv analysis report [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git push
+
+      # ── 7. Deploy to GitHub Pages ─────────────────────────────────────────
+      - name: 🚀 Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/
+
+  deploy-pages:
+    needs: analyze-and-publish
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 🌐 Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
