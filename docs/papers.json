@@ -1,118 +1,120 @@
 [
   {
     "paper": {
-      "title": "Transformer-Based Inpainting for Real-Time 3D Streaming in Sparse Multi-Camera Setups",
-      "summary": "High-quality 3D streaming from multiple cameras is crucial for immersive experiences in many AR/VR applications. The limited number of views - often due to real-time constraints - leads to missing information and incomplete surfaces in the rendered images. Existing approaches typically rely on simple heuristics for the hole filling, which can result in inconsistencies or visual artifacts. We propose to complete the missing textures using a novel, application-targeted inpainting method independent of the underlying representation as an image-based post-processing step after the novel view rendering. The method is designed as a standalone module compatible with any calibrated multi-camera system. For this we introduce a multi-view aware, transformer-based network architecture using spatio-te",
+      "title": "Multimodal Large Language Models as Image Classifiers",
+      "summary": "Multimodal Large Language Models (MLLM) classification performance depends critically on evaluation protocol and ground truth quality. Studies comparing MLLMs with supervised and vision-language models report conflicting conclusions, and we show these conflicts stem from protocols that either inflate or underestimate performance. Across the most common evaluation protocols, we identify and fix key issues: model outputs that fall outside the provided class list and are discarded, inflated results from weak multiple-choice distractors, and an open-world setting that underperforms only due to poor output mapping. We additionally quantify the impact of commonly overlooked design choices - batch size, image ordering, and text encoder selection - showing they substantially affect accuracy. Evalu",
       "authors": [
-        "Leif Van Holland",
-        "Domenic Zingsheim",
-        "Mana Takhsha",
-        "Hannah Dröge",
-        "Patrick Stotko"
+        "Nikita Kisel",
+        "Illia Volkov",
+        "Klara Janouskova",
+        "Jiri Matas"
       ],
-      "link": "http://arxiv.org/abs/2603.05507v1",
-      "published": "2026-03-05",
+      "link": "http://arxiv.org/abs/2603.06578v1",
+      "published": "2026-03-06",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The analysis was carried out by the authors and is based on the Open Source Research (Open Source Software Foundation) a...",
+      "datasets": "1.",
+      "future_work": "Using multimodal and quadratic data to model multiple languages, we will be able to build a new model of the language la..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Omni-Diffusion: Unified Multimodal Understanding and Generation with Masked Discrete Diffusion",
+      "summary": "While recent multimodal large language models (MLLMs) have made impressive strides, they predominantly employ a conventional autoregressive architecture as their backbone, leaving significant room to explore effective and efficient alternatives in architectural design. Concurrently, recent studies have successfully applied discrete diffusion models to various domains, such as visual understanding and image generation, revealing their considerable potential as a promising backbone for multimodal systems. Drawing inspiration from these pioneering research, we introduce Omni-Diffusion, the first any-to-any multimodal language model built entirely on mask-based discrete diffusion models, which unifies understanding and generation across text, speech, and images. Omni-Diffusion employs a unifie",
+      "authors": [
+        "Lijiang Li",
+        "Zuwei Long",
+        "Yunhang Shen",
+        "Heting Gao",
+        "Haoyu Cao"
+      ],
+      "link": "http://arxiv.org/abs/2603.06577v1",
+      "published": "2026-03-06",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The first set of data collected is a single set of data from the data center.",
+      "datasets": "Abstract:\nWhen a system is made up of many discrete, multilayer, multilayer, and multilayer, the single single-object, m...",
+      "future_work": "A new and novel approach to designing the underlying information for the Illumina network is being presented at the Nati..."
+    }
+  },
+  {
+    "paper": {
+      "title": "BEVLM: Distilling Semantic Knowledge from LLMs into Bird's-Eye View Representations",
+      "summary": "The integration of Large Language Models (LLMs) into autonomous driving has attracted growing interest for their strong reasoning and semantic understanding abilities, which are essential for handling complex decision-making and long-tail scenarios. However, existing methods typically feed LLMs with tokens from multi-view and multi-frame images independently, leading to redundant computation and limited spatial consistency. This separation in visual processing hinders accurate 3D spatial reasoning and fails to maintain geometric coherence across views. On the other hand, Bird's-Eye View (BEV) representations learned from geometrically annotated tasks (e.g., object detection) provide spatial structure but lack the semantic richness of foundation vision encoders. To bridge this gap, we propo",
+      "authors": [
+        "Thomas Monninger",
+        "Shaoyuan Xie",
+        "Qi Alfred Chen",
+        "Sihao Ding"
+      ],
+      "link": "http://arxiv.org/abs/2603.06576v1",
+      "published": "2026-03-06",
       "categories": [
         "cs.CV",
-        "cs.GR"
-      ]
-    },
-    "analysis": {
-      "key_methods": "1) Multiply the pixels from the data to the data to the data to the data to the data to the data to the data to the data...",
-      "datasets": "The first model for the 3D video output, the first model for the 3D video output, the first model for the 3D video outpu...",
-      "future_work": "This is a new approach that would allow you to create a 3D rendering of the scene in 3D to see the shape of the object."
-    }
-  },
-  {
-    "paper": {
-      "title": "FaceCam: Portrait Video Camera Control via Scale-Aware Conditioning",
-      "summary": "We introduce FaceCam, a system that generates video under customizable camera trajectories for monocular human portrait video input. Recent camera control approaches based on large video-generation models have shown promising progress but often exhibit geometric distortions and visual artifacts on portrait videos due to scale-ambiguous camera representations or 3D reconstruction errors. To overcome these limitations, we propose a face-tailored scale-aware representation for camera transformations that provides deterministic conditioning without relying on 3D priors. We train a video generation model on both multi-view studio captures and in-the-wild monocular videos, and introduce two camera-control data generation strategies: synthetic camera motion and multi-shot stitching, to exploit st",
-      "authors": [
-        "Weijie Lyu",
-        "Ming-Hsuan Yang",
-        "Zhixin Shu"
-      ],
-      "link": "http://arxiv.org/abs/2603.05506v1",
-      "published": "2026-03-05",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": "Designing and implementation of face recognition\nCitations:\nBrent Schreibt, P.",
-      "datasets": "http://docs.",
-      "future_work": "Use the iPhone's FaceCam to control your portrait by using a handheld camera."
-    }
-  },
-  {
-    "paper": {
-      "title": "Accelerating Text-to-Video Generation with Calibrated Sparse Attention",
-      "summary": "Recent diffusion models enable high-quality video generation, but suffer from slow runtimes. The large transformer-based backbones used in these models are bottlenecked by spatiotemporal attention. In this paper, we identify that a significant fraction of token-to-token connections consistently yield negligible scores across various inputs, and their patterns often repeat across queries. Thus, the attention computation in these cases can be skipped with little to no effect on the result. This observation continues to hold for connections among local token blocks. Motivated by this, we introduce CalibAtt, a training-free method that accelerates video generation via calibrated sparse attention. CalibAtt performs an offline calibration pass that identifies block-level sparsity and repetition ",
-      "authors": [
-        "Shai Yehezkel",
-        "Shahar Yadin",
-        "Noam Elata",
-        "Yaron Ostrovsky-Berman",
-        "Bahjat Kawar"
-      ],
-      "link": "http://arxiv.org/abs/2603.05503v1",
-      "published": "2026-03-05",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The following methods were used:\nThe first two methods were used to measure the impact of a video on the visual cortex.",
-      "datasets": "http://www.",
-      "future_work": "A novel, non-linear approach to learning the brain."
-    }
-  },
-  {
-    "paper": {
-      "title": "Universal quantum computation with group surface codes",
-      "summary": "We introduce group surface codes, which are a natural generalization of the $\\mathbb{Z}_2$ surface code, and equivalent to quantum double models of finite groups with specific boundary conditions. We show that group surface codes can be leveraged to perform non-Clifford gates in $\\mathbb{Z}_2$ surface codes, thus enabling universal computation with well-established means of performing logical Clifford gates. Moreover, for suitably chosen groups, we demonstrate that arbitrary reversible classical gates can be implemented transversally in the group surface code. We present the logical operations in terms of a set of elementary logical operations, which include transversal logical gates, a means of transferring encoded information into and out of group surface codes, and preparation and reado",
-      "authors": [
-        "Naren Manjunath",
-        "Vieri Mattei",
-        "Apoorv Tiwari",
-        "Tyler D. Ellison"
-      ],
-      "link": "http://arxiv.org/abs/2603.05502v1",
-      "published": "2026-03-05",
-      "categories": [
-        "quant-ph",
-        "cond-mat.str-el"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The first generation of the basic quantum computer was created in 2005, when the first version of the new computational ...",
-      "datasets": "The quantum algorithm is based on the principle of group-state computation (WST).",
-      "future_work": "There are currently no known quantum hardware devices (as with quantum computing)."
-    }
-  },
-  {
-    "paper": {
-      "title": "POET-X: Memory-efficient LLM Training by Scaling Orthogonal Transformation",
-      "summary": "Efficient and stable training of large language models (LLMs) remains a core challenge in modern machine learning systems. To address this challenge, Reparameterized Orthogonal Equivalence Training (POET), a spectrum-preserving framework that optimizes each weight matrix through orthogonal equivalence transformation, has been proposed. Although POET provides strong training stability, its original implementation incurs high memory consumption and computational overhead due to intensive matrix multiplications. To overcome these limitations, we introduce POET-X, a scalable and memory-efficient variant that performs orthogonal equivalence transformations with significantly reduced computational cost. POET-X maintains the generalization and stability benefits of POET while achieving substantia",
-      "authors": [
-        "Zeju Qiu",
-        "Lixin Liu",
-        "Adrian Weller",
-        "Han Shi",
-        "Weiyang Liu"
-      ],
-      "link": "http://arxiv.org/abs/2603.05500v1",
-      "published": "2026-03-05",
-      "categories": [
-        "cs.LG",
         "cs.AI",
-        "cs.CL"
+        "cs.LG",
+        "cs.RO"
       ]
     },
     "analysis": {
-      "key_methods": "Procedure:\nWe used a subset of the sample and used a set of the standard ML training model.",
-      "datasets": ".",
-      "future_work": "Using the LMSF-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-."
+      "key_methods": "Using the same data, we created a series of tables that generate a representation of the dataset (based on the results o...",
+      "datasets": "Citation: B.",
+      "future_work": "One approach to understanding the language is to use the following simple expressions:\nThe two expressions are used in a..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Fly360: Omnidirectional Obstacle Avoidance within Drone View",
+      "summary": "Obstacle avoidance in unmanned aerial vehicles (UAVs), as a fundamental capability, has gained increasing attention with the growing focus on spatial intelligence. However, current obstacle-avoidance methods mainly depend on limited field-of-view sensors and are ill-suited for UAV scenarios which require full-spatial awareness when the movement direction differs from the UAV's heading. This limitation motivates us to explore omnidirectional obstacle avoidance for panoramic drones with full-view perception. We first study an under explored problem setting in which a UAV must generate collision-free motion in environments with obstacles from arbitrary directions, and then construct a benchmark that consists of three representative flight tasks. Based on such settings, we propose Fly360, a tw",
+      "authors": [
+        "Xiangkai Zhang",
+        "Dizhe Zhang",
+        "WenZhuo Cao",
+        "Zhaoliang Wan",
+        "Yingjie Niu"
+      ],
+      "link": "http://arxiv.org/abs/2603.06573v1",
+      "published": "2026-03-06",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ]
+    },
+    "analysis": {
+      "key_methods": "Pilot\nFlight 360: Drone View\nDrone View\nDrone View\nDrone View\nDrone View\nDrone View\nDrone View\nDrone View\nDrone View\nDro...",
+      "datasets": "http://www.",
+      "future_work": "One way to reduce the impact of drone movement, and make drones more effective for dealing with the natural obstacles."
+    }
+  },
+  {
+    "paper": {
+      "title": "SCOPE: Scene-Contextualized Incremental Few-Shot 3D Segmentation",
+      "summary": "Incremental Few-Shot (IFS) segmentation aims to learn new categories over time from only a few annotations. Although widely studied in 2D, it remains underexplored for 3D point clouds. Existing methods suffer from catastrophic forgetting or fail to learn discriminative prototypes under sparse supervision, and often overlook a key cue: novel categories frequently appear as unlabelled background in base-training scenes. We introduce SCOPE (Scene-COntextualised Prototype Enrichment), a plug-and-play background-guided prototype enrichment framework that integrates with any prototype-based 3D segmentation method. After base training, a class-agnostic segmentation model extracts high-confidence pseudo-instances from background regions to build a prototype pool. When novel classes arrive with few",
+      "authors": [
+        "Vishal Thengane",
+        "Zhaochong An",
+        "Tianjin Huang",
+        "Son Lam Phung",
+        "Abdesselam Bouzerdoum"
+      ],
+      "link": "http://arxiv.org/abs/2603.06572v1",
+      "published": "2026-03-06",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ]
+    },
+    "analysis": {
+      "key_methods": "Scopes, Image-Sharing, and Scene-Contextualization.",
+      "datasets": "http://www.",
+      "future_work": "Our first step is to use a video to display the entire scene with real-time and data-driven frames."
     }
   }
 ]
