@@ -1,120 +1,115 @@
 [
   {
     "paper": {
-      "title": "Multimodal Large Language Models as Image Classifiers",
-      "summary": "Multimodal Large Language Models (MLLM) classification performance depends critically on evaluation protocol and ground truth quality. Studies comparing MLLMs with supervised and vision-language models report conflicting conclusions, and we show these conflicts stem from protocols that either inflate or underestimate performance. Across the most common evaluation protocols, we identify and fix key issues: model outputs that fall outside the provided class list and are discarded, inflated results from weak multiple-choice distractors, and an open-world setting that underperforms only due to poor output mapping. We additionally quantify the impact of commonly overlooked design choices - batch size, image ordering, and text encoder selection - showing they substantially affect accuracy. Evalu",
+      "title": "Understanding thermal and quantum fluctuations in extended Kitaev-Yao-Lee spin-orbital model",
+      "summary": "Building upon the spin-1/2 Kitaev model on a honeycomb lattice, the Yao-Lee spin-orbital model provides exactly solvable quantum spin liquids with potentially better stability against perturbations due to the additional degree of freedom. Recently, the microscopic mechanism underlying the Yao-Lee interaction in honeycomb materials has been uncovered, leading to an extended Kitaev-Yao-Lee spin-orbital model when the celebrated Kugel-Khomskii interaction is included. Numerical studies of this model have identified various disordered phases, including a broad region of the nematic phase that is reminiscent of a spin-orbital liquid. Here, we investigate the origin and stability of this nematic phase via thermal and quantum fluctuations using classical Monte Carlo simulations and a generalized ",
       "authors": [
-        "Nikita Kisel",
-        "Illia Volkov",
-        "Klara Janouskova",
-        "Jiri Matas"
+        "Jiefu Cen",
+        "Hae-Young Kee"
       ],
-      "link": "http://arxiv.org/abs/2603.06578v1",
-      "published": "2026-03-06",
+      "link": "http://arxiv.org/abs/2603.08710v1",
+      "published": "2026-03-09",
       "categories": [
-        "cs.CV"
+        "cond-mat.str-el"
       ]
     },
     "analysis": {
-      "key_methods": "The analysis was carried out by the authors and is based on the Open Source Research (Open Source Software Foundation) a...",
-      "datasets": "1.",
-      "future_work": "Using multimodal and quadratic data to model multiple languages, we will be able to build a new model of the language la..."
+      "key_methods": ".",
+      "datasets": "For the Kitaev-Yao-Lee spin-orbital model, we use Kitaev-Yao-Lee spin-orbital model (Kitaev-Yao-Lee spin-orbital model),...",
+      "future_work": "Why the Earth's magnetic field and surface temperature are so different to the Earth's."
     }
   },
   {
     "paper": {
-      "title": "Omni-Diffusion: Unified Multimodal Understanding and Generation with Masked Discrete Diffusion",
-      "summary": "While recent multimodal large language models (MLLMs) have made impressive strides, they predominantly employ a conventional autoregressive architecture as their backbone, leaving significant room to explore effective and efficient alternatives in architectural design. Concurrently, recent studies have successfully applied discrete diffusion models to various domains, such as visual understanding and image generation, revealing their considerable potential as a promising backbone for multimodal systems. Drawing inspiration from these pioneering research, we introduce Omni-Diffusion, the first any-to-any multimodal language model built entirely on mask-based discrete diffusion models, which unifies understanding and generation across text, speech, and images. Omni-Diffusion employs a unifie",
+      "title": "Scale Space Diffusion",
+      "summary": "Diffusion models degrade images through noise, and reversing this process reveals an information hierarchy across timesteps. Scale-space theory exhibits a similar hierarchy via low-pass filtering. We formalize this connection and show that highly noisy diffusion states contain no more information than small, downsampled images - raising the question of why they must be processed at full resolution. To address this, we fuse scale spaces into the diffusion process by formulating a family of diffusion models with generalized linear degradations and practical implementations. Using downsampling as the degradation yields our proposed Scale Space Diffusion. To support Scale Space Diffusion, we introduce Flexi-UNet, a UNet variant that performs resolution-preserving and resolution-increasing deno",
       "authors": [
-        "Lijiang Li",
-        "Zuwei Long",
-        "Yunhang Shen",
-        "Heting Gao",
-        "Haoyu Cao"
+        "Soumik Mukhopadhyay",
+        "Prateksha Udhayanan",
+        "Abhinav Shrivastava"
       ],
-      "link": "http://arxiv.org/abs/2603.06577v1",
-      "published": "2026-03-06",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The first set of data collected is a single set of data from the data center.",
-      "datasets": "Abstract:\nWhen a system is made up of many discrete, multilayer, multilayer, and multilayer, the single single-object, m...",
-      "future_work": "A new and novel approach to designing the underlying information for the Illumina network is being presented at the Nati..."
-    }
-  },
-  {
-    "paper": {
-      "title": "BEVLM: Distilling Semantic Knowledge from LLMs into Bird's-Eye View Representations",
-      "summary": "The integration of Large Language Models (LLMs) into autonomous driving has attracted growing interest for their strong reasoning and semantic understanding abilities, which are essential for handling complex decision-making and long-tail scenarios. However, existing methods typically feed LLMs with tokens from multi-view and multi-frame images independently, leading to redundant computation and limited spatial consistency. This separation in visual processing hinders accurate 3D spatial reasoning and fails to maintain geometric coherence across views. On the other hand, Bird's-Eye View (BEV) representations learned from geometrically annotated tasks (e.g., object detection) provide spatial structure but lack the semantic richness of foundation vision encoders. To bridge this gap, we propo",
-      "authors": [
-        "Thomas Monninger",
-        "Shaoyuan Xie",
-        "Qi Alfred Chen",
-        "Sihao Ding"
-      ],
-      "link": "http://arxiv.org/abs/2603.06576v1",
-      "published": "2026-03-06",
+      "link": "http://arxiv.org/abs/2603.08709v1",
+      "published": "2026-03-09",
       "categories": [
         "cs.CV",
-        "cs.AI",
-        "cs.LG",
-        "cs.RO"
-      ]
-    },
-    "analysis": {
-      "key_methods": "Using the same data, we created a series of tables that generate a representation of the dataset (based on the results o...",
-      "datasets": "Citation: B.",
-      "future_work": "One approach to understanding the language is to use the following simple expressions:\nThe two expressions are used in a..."
-    }
-  },
-  {
-    "paper": {
-      "title": "Fly360: Omnidirectional Obstacle Avoidance within Drone View",
-      "summary": "Obstacle avoidance in unmanned aerial vehicles (UAVs), as a fundamental capability, has gained increasing attention with the growing focus on spatial intelligence. However, current obstacle-avoidance methods mainly depend on limited field-of-view sensors and are ill-suited for UAV scenarios which require full-spatial awareness when the movement direction differs from the UAV's heading. This limitation motivates us to explore omnidirectional obstacle avoidance for panoramic drones with full-view perception. We first study an under explored problem setting in which a UAV must generate collision-free motion in environments with obstacles from arbitrary directions, and then construct a benchmark that consists of three representative flight tasks. Based on such settings, we propose Fly360, a tw",
-      "authors": [
-        "Xiangkai Zhang",
-        "Dizhe Zhang",
-        "WenZhuo Cao",
-        "Zhaoliang Wan",
-        "Yingjie Niu"
-      ],
-      "link": "http://arxiv.org/abs/2603.06573v1",
-      "published": "2026-03-06",
-      "categories": [
-        "cs.RO",
         "cs.AI"
       ]
     },
     "analysis": {
-      "key_methods": "Pilot\nFlight 360: Drone View\nDrone View\nDrone View\nDrone View\nDrone View\nDrone View\nDrone View\nDrone View\nDrone View\nDro...",
-      "datasets": "http://www.",
-      "future_work": "One way to reduce the impact of drone movement, and make drones more effective for dealing with the natural obstacles."
+      "key_methods": "The standardized and non-reduced methods were used to make this project work.",
+      "datasets": "The following methods are available for building space-diffusion at scale:\nUsing this method, we can use a new system an...",
+      "future_work": "Liang's orbiter (SCH-2), the first solar system for the International Space Station, will be a major milestone for scien..."
     }
   },
   {
     "paper": {
-      "title": "SCOPE: Scene-Contextualized Incremental Few-Shot 3D Segmentation",
-      "summary": "Incremental Few-Shot (IFS) segmentation aims to learn new categories over time from only a few annotations. Although widely studied in 2D, it remains underexplored for 3D point clouds. Existing methods suffer from catastrophic forgetting or fail to learn discriminative prototypes under sparse supervision, and often overlook a key cue: novel categories frequently appear as unlabelled background in base-training scenes. We introduce SCOPE (Scene-COntextualised Prototype Enrichment), a plug-and-play background-guided prototype enrichment framework that integrates with any prototype-based 3D segmentation method. After base training, a class-agnostic segmentation model extracts high-confidence pseudo-instances from background regions to build a prototype pool. When novel classes arrive with few",
+      "title": "FVG-PT: Adaptive Foreground View-Guided Prompt Tuning for Vision-Language Models",
+      "summary": "CLIP-based prompt tuning enables pretrained Vision-Language Models (VLMs) to efficiently adapt to downstream tasks. Although existing studies have made significant progress, they pay limited attention to changes in the internal attention representations of VLMs during the tuning process. In this paper, we attribute the failure modes of prompt tuning predictions to shifts in foreground attention of the visual encoder, and propose Foreground View-Guided Prompt Tuning (FVG-PT), an adaptive plug-and-play foreground attention guidance module, to alleviate the shifts. Concretely, FVG-PT introduces a learnable Foreground Reliability Gate to automatically enhance the foreground view quality, applies a Foreground Distillation Compensation module to guide visual attention toward the foreground, and ",
       "authors": [
-        "Vishal Thengane",
-        "Zhaochong An",
-        "Tianjin Huang",
-        "Son Lam Phung",
-        "Abdesselam Bouzerdoum"
+        "Haoyang Li",
+        "Liang Wang",
+        "Siyu Zhou",
+        "Jiacheng Sun",
+        "Jing Jiang"
       ],
-      "link": "http://arxiv.org/abs/2603.06572v1",
-      "published": "2026-03-06",
+      "link": "http://arxiv.org/abs/2603.08708v1",
+      "published": "2026-03-09",
       "categories": [
-        "cs.CV",
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "R = {R} = {R} = {R} = {R} = {R} = {R} = {R} = {R} = {R} = {R} = {R} = {R}.",
+      "datasets": "FVG-PT: Adaptive Foreground View-Guided Prompt Tuning for Vision-Language Models.",
+      "future_work": "Using the EISS-PCR-SNP-X-S-R-X-R-X-R-X-R-X-R-X-R-X-R-X-R-X-R-."
+    }
+  },
+  {
+    "paper": {
+      "title": "Impermanent: A Live Benchmark for Temporal Generalization in Time Series Forecasting",
+      "summary": "Recent advances in time-series forecasting increasingly rely on pre-trained foundation-style models. While these models often claim broad generalization, existing evaluation protocols provide limited evidence. Indeed, most current benchmarks use static train-test splits that can easily lead to contamination as foundation models can inadvertently train on test data or perform model selection using test scores, which can inflate performance. We introduce Impermanent, a live benchmark that evaluates forecasting models under open-world temporal change by scoring forecasts sequentially over time on continuously updated data streams, enabling the study of temporal robustness, distributional shift, and performance stability rather than one-off accuracy on a frozen test set. Impermanent is instant",
+      "authors": [
+        "Azul Garza",
+        "Renée Rosillo",
+        "Rodrigo Mendoza-Smith",
+        "David Salinas",
+        "Andrew Robert Williams"
+      ],
+      "link": "http://arxiv.org/abs/2603.08707v1",
+      "published": "2026-03-09",
+      "categories": [
         "cs.LG"
       ]
     },
     "analysis": {
-      "key_methods": "Scopes, Image-Sharing, and Scene-Contextualization.",
-      "datasets": "http://www.",
-      "future_work": "Our first step is to use a video to display the entire scene with real-time and data-driven frames."
+      "key_methods": "The first step was to obtain a detailed understanding of the temporal nature of a temporal generalization strategy.",
+      "datasets": "C: ILS D-Wave, OGC-X, OGC-X, OGC-X, OGC-X, OGC-X, OGC-X, OGC-X, OGC-X, O.",
+      "future_work": "How to manage time series on a mobile device such as the iPad or iPhone."
+    }
+  },
+  {
+    "paper": {
+      "title": "Agentic Critical Training",
+      "summary": "Training large language models (LLMs) as autonomous agents often begins with imitation learning, but it only teaches agents what to do without understanding why: agents never contrast successful actions against suboptimal alternatives and thus lack awareness of action quality. Recent approaches attempt to address this by introducing self-reflection supervision derived from contrasts between expert and alternative actions. However, the training paradigm fundamentally remains imitation learning: the model imitates pre-constructed reflection text rather than learning to reason autonomously. We propose Agentic Critical Training (ACT), a reinforcement learning paradigm that trains agents to identify the better action among alternatives. By rewarding whether the model's judgment is correct, ACT ",
+      "authors": [
+        "Weize Liu",
+        "Minghui Liu",
+        "Sy-Tuyen Ho",
+        "Souradip Chakraborty",
+        "Xiyao Wang"
+      ],
+      "link": "http://arxiv.org/abs/2603.08706v1",
+      "published": "2026-03-09",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ]
+    },
+    "analysis": {
+      "key_methods": "1) An online survey of 1,000 teachers of 604 state-of-the-art classroom teachers in the United States;\n2) Interviewed te...",
+      "datasets": "Agentic Critical Training.",
+      "future_work": "This is a paper that explores the possibility of providing a systematic, comprehensive, and systematic training program ..."
     }
   }
 ]
