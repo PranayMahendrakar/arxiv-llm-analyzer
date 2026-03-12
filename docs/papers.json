@@ -1,119 +1,123 @@
 [
   {
     "paper": {
-      "title": "d-DNNF Modulo Theories: A General Framework for Polytime SMT Queries",
-      "summary": "In Knowledge Compilation (KC) a propositional knowledge base is compiled off-line into some target form, typically into deterministic decomposable negation normal form (d-DNNF) or one of its subcases, which is then used on-line to answer a large number of queries in polytime, such as clausal entailment, model counting, and others. The general idea is to push as much of the computational effort into the off-line compilation phase, which is amortized over all on-line polytime queries.   In this paper, we present for the first time a novel and general technique to leverage d-DNNF compilation and querying to SMT level. Intuitively, before d-DNNF compilation, the input SMT formula is combined with a list of pre-computed ad-hoc theory lemmas, so that the queries at SMT level reduce to those at p",
+      "title": "COMIC: Agentic Sketch Comedy Generation",
+      "summary": "We propose a fully automated AI system that produces short comedic videos similar to sketch shows such as Saturday Night Live. Starting with character references, the system employs a population of agents loosely based on real production studio roles, structured to optimize the quality and diversity of ideas and outputs through iterative competition, evaluation, and improvement. A key contribution is the introduction of LLM critics aligned with real viewer preferences through the analysis of a corpus of comedy videos on YouTube to automatically evaluate humor. Our experiments show that our framework produces results approaching the quality of professionally produced sketches while demonstrating state-of-the-art performance in video generation.",
       "authors": [
-        "Gabriele Masina",
-        "Emanuale Civini",
-        "Massimo Michelutti",
-        "Giuseppe Spallitta",
-        "Roberto Sebastiani"
+        "Susung Hong",
+        "Brian Curless",
+        "Ira Kemelmacher-Shlizerman",
+        "Steve Seitz"
       ],
-      "link": "http://arxiv.org/abs/2603.09975v1",
-      "published": "2026-03-10",
+      "link": "http://arxiv.org/abs/2603.11048v1",
+      "published": "2026-03-11",
       "categories": [
-        "cs.LO"
-      ]
-    },
-    "analysis": {
-      "key_methods": "For the first time, we have implemented the following functions:\nfunc get_analogue_interval() {\nfunc get_analogue_interv...",
-      "datasets": "The following table summarizes the following concepts:\nAn implementation of an implementation of a type-safe object.",
-      "future_work": "The new framework for the language to be used in the future."
-    }
-  },
-  {
-    "paper": {
-      "title": "Probing Physics Beyond the Standard Model through Combined Analyses of Next-Generation Type Ia Supernova, CMB, and BAO Surveys",
-      "summary": "Observations of Type Ia supernovae (SNIa), baryon acoustic oscillations (BAO), and the cosmic microwave background (CMB), which probe the late-, intermediate-, and early-universe epochs, respectively, provide complementary constraints on the expansion history of the Universe. In this work, we forecast constraints on dark energy and other extensions to the standard cosmological model by combining the SNIa sample expected from the Vera C. Rubin Observatory's Legacy Survey of Space and Time (LSST), data from current and forthcoming CMB surveys, and BAO measurements from the Dark Energy Spectroscopic Instrument (DESI). For the CMB, we use temperature, polarization, and lensing power spectra ($TT/EE/TE/φφ$) from South Pole Telescope, the planned Advanced Simons Observatory, and a CMB-S4-like ex",
-      "authors": [
-        "Srinivasan Raghunathan",
-        "Ayan Mitra",
-        "Nikolina Šarčević",
-        "Fei Ge",
-        "Corentin Ravoux"
-      ],
-      "link": "http://arxiv.org/abs/2603.09973v1",
-      "published": "2026-03-10",
-      "categories": [
-        "astro-ph.CO"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The first two experiments were performed on a single-subjected, first-generation, and second-generation, and third-gener...",
-      "datasets": "The CMB and BAO Surveys are the first to be used in the history of the universe.",
-      "future_work": "Large-scale models to study the relationship between large and small particle physics, and to better identify the mechan..."
-    }
-  },
-  {
-    "paper": {
-      "title": "From Data Statistics to Feature Geometry: How Correlations Shape Superposition",
-      "summary": "A central idea in mechanistic interpretability is that neural networks represent more features than they have dimensions, arranging them in superposition to form an over-complete basis. This framing has been influential, motivating dictionary learning approaches such as sparse autoencoders. However, superposition has mostly been studied in idealized settings where features are sparse and uncorrelated. In these settings, superposition is typically understood as introducing interference that must be minimized geometrically and filtered out by non-linearities such as ReLUs, yielding local structures like regular polytopes. We show that this account is incomplete for realistic data by introducing Bag-of-Words Superposition (BOWS), a controlled setting to encode binary bag-of-words representati",
-      "authors": [
-        "Lucas Prieto",
-        "Edward Stevinson",
-        "Melih Barsbey",
-        "Tolga Birdal",
-        "Pedro A. M. Mediano"
-      ],
-      "link": "http://arxiv.org/abs/2603.09972v1",
-      "published": "2026-03-10",
-      "categories": [
-        "cs.LG",
+        "cs.CV",
         "cs.AI",
+        "cs.CL",
+        "cs.MA",
+        "cs.NE"
+      ]
+    },
+    "analysis": {
+      "key_methods": "1)\n2)\n3)\n4)\n5)\n6)\n7)\n8)\n9)\n10)\n11)\n12)\n13)\n14)\n15)\n16)\n17.",
+      "datasets": ".",
+      "future_work": "A sketch comedy show and show about a young boy, the characters and the characters from the show."
+    }
+  },
+  {
+    "paper": {
+      "title": "LiTo: Surface Light Field Tokenization",
+      "summary": "We propose a 3D latent representation that jointly models object geometry and view-dependent appearance. Most prior works focus on either reconstructing 3D geometry or predicting view-independent diffuse appearance, and thus struggle to capture realistic view-dependent effects. Our approach leverages that RGB-depth images provide samples of a surface light field. By encoding random subsamples of this surface light field into a compact set of latent vectors, our model learns to represent both geometry and appearance within a unified 3D latent space. This representation reproduces view-dependent effects such as specular highlights and Fresnel reflections under complex lighting. We further train a latent flow matching model on this representation to learn its distribution conditioned on a sin",
+      "authors": [
+        "Jen-Hao Rick Chang",
+        "Xiaoming Zhao",
+        "Dorian Chan",
+        "Oncel Tuzel"
+      ],
+      "link": "http://arxiv.org/abs/2603.11047v1",
+      "published": "2026-03-11",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.GR"
+      ]
+    },
+    "analysis": {
+      "key_methods": "Matter\nMatter type.",
+      "datasets": "1) http://www.",
+      "future_work": "This is a paper that will be published in the journal Materials and Methods."
+    }
+  },
+  {
+    "paper": {
+      "title": "On Utility Maximization under Multivariate Fake Stationary Affine Volterra Models",
+      "summary": "This paper is concerned with Merton's portfolio optimization problem in a Volterra stochastic environment described by a multivariate fake stationary Volterra--Heston model. Due to the non-Markovianity and non-semimartingality of the underlying processes, the classical stochastic control approach cannot be directly applied in this setting. Instead, the problem is tackled using a stochastic factor solution to a Riccati backward stochastic differential equation (BSDE). Our approach is inspired by the martingale optimality principle combined with a suitable verification argument. The resulting optimal strategies for Merton's problems are derived in semi-closed form depending on the solutions to time-dependent multivariate Riccati-Volterra equations. Numerical results on a two dimensional fake",
+      "authors": [
+        "Emmanuel Gnabeyeu"
+      ],
+      "link": "http://arxiv.org/abs/2603.11046v1",
+      "published": "2026-03-11",
+      "categories": [
+        "math.OC",
+        "math.PR",
+        "q-fin.CP"
+      ]
+    },
+    "analysis": {
+      "key_methods": "Methods and Methods:.",
+      "datasets": "A key element of the model is the number of nodes.",
+      "future_work": "Using the same model for all the experiments, I think we can improve on that."
+    }
+  },
+  {
+    "paper": {
+      "title": "Agentar-Fin-OCR",
+      "summary": "In this paper, we propose Agentar-Fin-OCR, a document parsing system tailored to financial-domain documents, transforming ultra-long financial PDFs into semantically consistent, highly accurate, structured outputs with auditing-grade provenance. To address finance-specific challenges such as complex layouts, cross-page structural discontinuities, and cell-level referencing capability, Agentar-Fin-OCR combines (1) a Cross-page Contents Consolidation algorithm to restore continuity across pages and a Document-level Heading Hierarchy Reconstruction (DHR) module to build a globally consistent Table of Contents (TOC) tree for structure-aware retrieval, and (2) a difficulty-adaptive curriculum learning training strategy for table parsing, together with a CellBBoxRegressor module that uses struct",
+      "authors": [
+        "Siyi Qian",
+        "Xiongfei Bai",
+        "Bingtao Fu",
+        "Yichen Lu",
+        "Gaoyang Zhang"
+      ],
+      "link": "http://arxiv.org/abs/2603.11044v1",
+      "published": "2026-03-11",
+      "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "The following graphs were provided by the Department of Energy:\nA diagram was provided by the Department of Energy:\nA di...",
-      "datasets": "Geometry: How Correlations Shape Superposition.",
-      "future_work": "How Correlations Shape Superposition."
+      "key_methods": ".",
+      "datasets": ":\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-.",
+      "future_work": "http://www."
     }
   },
   {
     "paper": {
-      "title": "TiPToP: A Modular Open-Vocabulary Planning System for Robotic Manipulation",
-      "summary": "We present TiPToP, an extensible modular system that combines pretrained vision foundation models with an existing Task and Motion Planner (TAMP) to solve multi-step manipulation tasks directly from input RGB images and natural-language instructions. Our system aims to be simple and easy-to-use: it can be installed and run on a standard DROID setup in under one hour and adapted to new embodiments with minimal effort. We evaluate TiPToP -- which requires zero robot data -- over 28 tabletop manipulation tasks in simulation and the real world and find it matches or outperforms $π_{0.5}\\text{-DROID}$, a vision-language-action (VLA) model fine-tuned on 350 hours of embodiment-specific demonstrations. TiPToP's modular architecture enables us to analyze the system's failure modes at the component",
+      "title": "V2M-Zero: Zero-Pair Time-Aligned Video-to-Music Generation",
+      "summary": "Generating music that temporally aligns with video events is challenging for existing text-to-music models, which lack fine-grained temporal control. We introduce V2M-Zero, a zero-pair video-to-music generation approach that outputs time-aligned music for video. Our method is motivated by a key observation: temporal synchronization requires matching when and how much change occurs, not what changes. While musical and visual events differ semantically, they exhibit shared temporal structure that can be captured independently within each modality. We capture this structure through event curves computed from intra-modal similarity using pretrained music and video encoders. By measuring temporal change within each modality independently, these curves provide comparable representations across m",
       "authors": [
-        "William Shen",
-        "Nishanth Kumar",
-        "Sahit Chintalapudi",
-        "Jie Wang",
-        "Christopher Watson"
+        "Yan-Bo Lin",
+        "Jonah Casebeer",
+        "Long Mai",
+        "Aniruddha Mahapatra",
+        "Gedas Bertasius"
       ],
-      "link": "http://arxiv.org/abs/2603.09971v1",
-      "published": "2026-03-10",
+      "link": "http://arxiv.org/abs/2603.11042v1",
+      "published": "2026-03-11",
       "categories": [
-        "cs.RO"
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "cs.MM",
+        "cs.SD"
       ]
     },
     "analysis": {
-      "key_methods": "1) Randomized trial-control design ( Randomized trial-control design; Randomized trial-control design; Randomized trial-...",
-      "datasets": ".",
-      "future_work": "More on:."
-    }
-  },
-  {
-    "paper": {
-      "title": "CREATE: Testing LLMs for Associative Creativity",
-      "summary": "A key component of creativity is associative reasoning: the ability to draw novel yet meaningful connections between concepts. We introduce CREATE, a benchmark designed to evaluate models' capacity for creative associative reasoning. CREATE requires models to generate sets of paths connecting concepts in a model's parametric knowledge. Paths should have high specificity (distinctiveness and closeness of the concept connection) and high diversity (dissimilarity from other paths), and models are scored more highly if they produce a larger set of strong, diverse paths. This task shares demands of real creativity tasks like hypothesis generation, including an extremely large search space, but enables collection of a sizable benchmark with objective answer grading. Evaluation of frontier models",
-      "authors": [
-        "Manya Wadhwa",
-        "Tiasa Singha Roy",
-        "Harvey Lederman",
-        "Junyi Jessy Li",
-        "Greg Durrett"
-      ],
-      "link": "http://arxiv.org/abs/2603.09970v1",
-      "published": "2026-03-10",
-      "categories": [
-        "cs.CL"
-      ]
-    },
-    "analysis": {
-      "key_methods": "A search for ‹‹‹‹ for ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹�.",
-      "datasets": "You can use the 'dasem2' command in the 'dasem2' command with the 'dasem2' command in the 'dasem2' command with the 'das...",
-      "future_work": "Bibliography\nBibliography:\nBibliography:\nBibliography:\nBibliography:."
+      "key_methods": "We created a \"Zero\" game using a music player called V2M-Zero (the \"Zero\" version of the game).",
+      "datasets": "As you can imagine, the \"M\" and \"Z\" are two of the most common types of music.",
+      "future_work": "How to create an audio-video-video-video-video-video-video-video-video-video-video-video-video-video-video-video-video-v..."
     }
   }
 ]
