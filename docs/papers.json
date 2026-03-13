@@ -1,123 +1,117 @@
 [
   {
     "paper": {
-      "title": "COMIC: Agentic Sketch Comedy Generation",
-      "summary": "We propose a fully automated AI system that produces short comedic videos similar to sketch shows such as Saturday Night Live. Starting with character references, the system employs a population of agents loosely based on real production studio roles, structured to optimize the quality and diversity of ideas and outputs through iterative competition, evaluation, and improvement. A key contribution is the introduction of LLM critics aligned with real viewer preferences through the analysis of a corpus of comedy videos on YouTube to automatically evaluate humor. Our experiments show that our framework produces results approaching the quality of professionally produced sketches while demonstrating state-of-the-art performance in video generation.",
+      "title": "EVATok: Adaptive Length Video Tokenization for Efficient Visual Autoregressive Generation",
+      "summary": "Autoregressive (AR) video generative models rely on video tokenizers that compress pixels into discrete token sequences. The length of these token sequences is crucial for balancing reconstruction quality against downstream generation computational cost. Traditional video tokenizers apply a uniform token assignment across temporal blocks of different videos, often wasting tokens on simple, static, or repetitive segments while underserving dynamic or complex ones. To address this inefficiency, we introduce $\\textbf{EVATok}$, a framework to produce $\\textbf{E}$fficient $\\textbf{V}$ideo $\\textbf{A}$daptive $\\textbf{Tok}$enizers. Our framework estimates optimal token assignments for each video to achieve the best quality-cost trade-off, develops lightweight routers for fast prediction of these",
       "authors": [
-        "Susung Hong",
-        "Brian Curless",
-        "Ira Kemelmacher-Shlizerman",
-        "Steve Seitz"
+        "Tianwei Xiong",
+        "Jun Hao Liew",
+        "Zilong Huang",
+        "Zhijie Lin",
+        "Jiashi Feng"
       ],
-      "link": "http://arxiv.org/abs/2603.11048v1",
-      "published": "2026-03-11",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.CL",
-        "cs.MA",
-        "cs.NE"
-      ]
-    },
-    "analysis": {
-      "key_methods": "1)\n2)\n3)\n4)\n5)\n6)\n7)\n8)\n9)\n10)\n11)\n12)\n13)\n14)\n15)\n16)\n17.",
-      "datasets": ".",
-      "future_work": "A sketch comedy show and show about a young boy, the characters and the characters from the show."
-    }
-  },
-  {
-    "paper": {
-      "title": "LiTo: Surface Light Field Tokenization",
-      "summary": "We propose a 3D latent representation that jointly models object geometry and view-dependent appearance. Most prior works focus on either reconstructing 3D geometry or predicting view-independent diffuse appearance, and thus struggle to capture realistic view-dependent effects. Our approach leverages that RGB-depth images provide samples of a surface light field. By encoding random subsamples of this surface light field into a compact set of latent vectors, our model learns to represent both geometry and appearance within a unified 3D latent space. This representation reproduces view-dependent effects such as specular highlights and Fresnel reflections under complex lighting. We further train a latent flow matching model on this representation to learn its distribution conditioned on a sin",
-      "authors": [
-        "Jen-Hao Rick Chang",
-        "Xiaoming Zhao",
-        "Dorian Chan",
-        "Oncel Tuzel"
-      ],
-      "link": "http://arxiv.org/abs/2603.11047v1",
-      "published": "2026-03-11",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.GR"
-      ]
-    },
-    "analysis": {
-      "key_methods": "Matter\nMatter type.",
-      "datasets": "1) http://www.",
-      "future_work": "This is a paper that will be published in the journal Materials and Methods."
-    }
-  },
-  {
-    "paper": {
-      "title": "On Utility Maximization under Multivariate Fake Stationary Affine Volterra Models",
-      "summary": "This paper is concerned with Merton's portfolio optimization problem in a Volterra stochastic environment described by a multivariate fake stationary Volterra--Heston model. Due to the non-Markovianity and non-semimartingality of the underlying processes, the classical stochastic control approach cannot be directly applied in this setting. Instead, the problem is tackled using a stochastic factor solution to a Riccati backward stochastic differential equation (BSDE). Our approach is inspired by the martingale optimality principle combined with a suitable verification argument. The resulting optimal strategies for Merton's problems are derived in semi-closed form depending on the solutions to time-dependent multivariate Riccati-Volterra equations. Numerical results on a two dimensional fake",
-      "authors": [
-        "Emmanuel Gnabeyeu"
-      ],
-      "link": "http://arxiv.org/abs/2603.11046v1",
-      "published": "2026-03-11",
-      "categories": [
-        "math.OC",
-        "math.PR",
-        "q-fin.CP"
-      ]
-    },
-    "analysis": {
-      "key_methods": "Methods and Methods:.",
-      "datasets": "A key element of the model is the number of nodes.",
-      "future_work": "Using the same model for all the experiments, I think we can improve on that."
-    }
-  },
-  {
-    "paper": {
-      "title": "Agentar-Fin-OCR",
-      "summary": "In this paper, we propose Agentar-Fin-OCR, a document parsing system tailored to financial-domain documents, transforming ultra-long financial PDFs into semantically consistent, highly accurate, structured outputs with auditing-grade provenance. To address finance-specific challenges such as complex layouts, cross-page structural discontinuities, and cell-level referencing capability, Agentar-Fin-OCR combines (1) a Cross-page Contents Consolidation algorithm to restore continuity across pages and a Document-level Heading Hierarchy Reconstruction (DHR) module to build a globally consistent Table of Contents (TOC) tree for structure-aware retrieval, and (2) a difficulty-adaptive curriculum learning training strategy for table parsing, together with a CellBBoxRegressor module that uses struct",
-      "authors": [
-        "Siyi Qian",
-        "Xiongfei Bai",
-        "Bingtao Fu",
-        "Yichen Lu",
-        "Gaoyang Zhang"
-      ],
-      "link": "http://arxiv.org/abs/2603.11044v1",
-      "published": "2026-03-11",
+      "link": "http://arxiv.org/abs/2603.12267v1",
+      "published": "2026-03-12",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": ".",
-      "datasets": ":\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-.",
-      "future_work": "http://www."
+      "key_methods": "The ECT (ECT) was designed to improve the performance of ECTs in the context of a broader problem.",
+      "datasets": ".",
+      "future_work": "https://www."
     }
   },
   {
     "paper": {
-      "title": "V2M-Zero: Zero-Pair Time-Aligned Video-to-Music Generation",
-      "summary": "Generating music that temporally aligns with video events is challenging for existing text-to-music models, which lack fine-grained temporal control. We introduce V2M-Zero, a zero-pair video-to-music generation approach that outputs time-aligned music for video. Our method is motivated by a key observation: temporal synchronization requires matching when and how much change occurs, not what changes. While musical and visual events differ semantically, they exhibit shared temporal structure that can be captured independently within each modality. We capture this structure through event curves computed from intra-modal similarity using pretrained music and video encoders. By measuring temporal change within each modality independently, these curves provide comparable representations across m",
+      "title": "MM-CondChain: A Programmatically Verified Benchmark for Visually Grounded Deep Compositional Reasoning",
+      "summary": "Multimodal Large Language Models (MLLMs) are increasingly used to carry out visual workflows such as navigating GUIs, where the next step depends on verified visual compositional conditions (e.g., \"if a permission dialog appears and the color of the interface is green, click Allow\") and the process may branch or terminate early. Yet this capability remains under-evaluated: existing benchmarks focus on shallow-compositions or independent-constraints rather than deeply chained compositional conditionals. In this paper, we introduce MM-CondChain, a benchmark for visually grounded deep compositional reasoning. Each benchmark instance is organized as a multi-layer reasoning chain, where every layer contains a non-trivial compositional condition grounded in visual evidence and built from multipl",
       "authors": [
-        "Yan-Bo Lin",
-        "Jonah Casebeer",
-        "Long Mai",
-        "Aniruddha Mahapatra",
-        "Gedas Bertasius"
+        "Haozhan Shen",
+        "Shilin Yan",
+        "Hongwei Xue",
+        "Shuaiqi Lu",
+        "Xiaojun Tang"
       ],
-      "link": "http://arxiv.org/abs/2603.11042v1",
-      "published": "2026-03-11",
+      "link": "http://arxiv.org/abs/2603.12266v1",
+      "published": "2026-03-12",
       "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.LG",
-        "cs.MM",
-        "cs.SD"
+        "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "We created a \"Zero\" game using a music player called V2M-Zero (the \"Zero\" version of the game).",
-      "datasets": "As you can imagine, the \"M\" and \"Z\" are two of the most common types of music.",
-      "future_work": "How to create an audio-video-video-video-video-video-video-video-video-video-video-video-video-video-video-video-video-v..."
+      "key_methods": "As part of the MSDN Code.",
+      "datasets": "http://www.",
+      "future_work": "The project has a long list of major challenges and opportunities to test new approaches."
+    }
+  },
+  {
+    "paper": {
+      "title": "OmniStream: Mastering Perception, Reconstruction and Action in Continuous Streams",
+      "summary": "Modern visual agents require representations that are general, causal, and physically structured to operate in real-time streaming environments. However, current vision foundation models remain fragmented, specializing narrowly in image semantic perception, offline temporal modeling, or spatial geometry. This paper introduces OmniStream, a unified streaming visual backbone that effectively perceives, reconstructs, and acts from diverse visual inputs. By incorporating causal spatiotemporal attention and 3D rotary positional embeddings (3D-RoPE), our model supports efficient, frame-by-frame online processing of video streams via a persistent KV-cache. We pre-train OmniStream using a synergistic multi-task framework coupling static and temporal representation learning, streaming geometric rec",
+      "authors": [
+        "Yibin Yan",
+        "Jilan Xu",
+        "Shangzhe Di",
+        "Haoning Wu",
+        "Weidi Xie"
+      ],
+      "link": "http://arxiv.org/abs/2603.12265v1",
+      "published": "2026-03-12",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "A) A single-threaded event pipeline has been created using the Hadoop Streaming Protocol (Hadoop) and the Hadoop Streami...",
+      "datasets": "https://www.",
+      "future_work": "Using the OpenStream API to be an open source streamer, we believe that open-source streamers are a great way to use thi..."
+    }
+  },
+  {
+    "paper": {
+      "title": "GRADE: Benchmarking Discipline-Informed Reasoning in Image Editing",
+      "summary": "Unified multimodal models target joint understanding, reasoning, and generation, but current image editing benchmarks are largely confined to natural images and shallow commonsense reasoning, offering limited assessment of this capability under structured, domain-specific constraints. In this work, we introduce GRADE, the first benchmark to assess discipline-informed knowledge and reasoning in image editing. GRADE comprises 520 carefully curated samples across 10 academic domains, spanning from natural science to social science. To support rigorous evaluation, we propose a multi-dimensional evaluation protocol that jointly assesses Discipline Reasoning, Visual Consistency, and Logical Readability. Extensive experiments on 20 state-of-the-art open-source and closed-source models reveal subs",
+      "authors": [
+        "Mingxin Liu",
+        "Ziqian Fan",
+        "Zhaokai Wang",
+        "Leyao Gu",
+        "Zirun Zhu"
+      ],
+      "link": "http://arxiv.org/abs/2603.12264v1",
+      "published": "2026-03-12",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The use of grinder and video camera was designed to create the necessary visualizations of images and images from a numb...",
+      "datasets": "Image Editing is a popular tool for learning from the images and images of human beings.",
+      "future_work": "The use of image editing techniques in image editing and editing is currently being tackled by Adobe's new Video Editing..."
+    }
+  },
+  {
+    "paper": {
+      "title": "$Ψ_0$: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation",
+      "summary": "We introduce $Ψ_0$ (Psi-Zero), an open foundation model to address challenging humanoid loco-manipulation tasks. While existing approaches often attempt to address this fundamental problem by co-training on large and diverse human and humanoid data, we argue that this strategy is suboptimal due to the fundamental kinematic and motion disparities between humans and humanoid robots. Therefore, data efficiency and model performance remain unsatisfactory despite the considerable data volume. To address this challenge, \\ours\\;decouples the learning process to maximize the utility of heterogeneous data sources. Specifically, we propose a staged training paradigm with different learning objectives: First, we autoregressively pre-train a VLM backbone on large-scale egocentric human videos to acqui",
+      "authors": [
+        "Songlin Wei",
+        "Hongyi Jing",
+        "Boqian Li",
+        "Zhenyu Zhao",
+        "Jiageng Mao"
+      ],
+      "link": "http://arxiv.org/abs/2603.12263v1",
+      "published": "2026-03-12",
+      "categories": [
+        "cs.RO"
+      ]
+    },
+    "analysis": {
+      "key_methods": ".",
+      "datasets": "- The basic model is that machines are independent of one another and are not part of any organism.",
+      "future_work": "Theoretical Applications\nTheoretical applications of the Open Foundation Model for Humanoid Loco-Manipulation and the Mo..."
     }
   }
 ]
