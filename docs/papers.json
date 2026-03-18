@@ -1,118 +1,120 @@
 [
   {
     "paper": {
-      "title": "Towards Generalizable Robotic Manipulation in Dynamic Environments",
-      "summary": "Vision-Language-Action (VLA) models excel in static manipulation but struggle in dynamic environments with moving targets. This performance gap primarily stems from a scarcity of dynamic manipulation datasets and the reliance of mainstream VLAs on single-frame observations, restricting their spatiotemporal reasoning capabilities. To address this, we introduce DOMINO, a large-scale dataset and benchmark for generalizable dynamic manipulation, featuring 35 tasks with hierarchical complexities, over 110K expert trajectories, and a multi-dimensional evaluation suite. Through comprehensive experiments, we systematically evaluate existing VLAs on dynamic tasks, explore effective training strategies for dynamic awareness, and validate the generalizability of dynamic data. Furthermore, we propose ",
+      "title": "WorldCam: Interactive Autoregressive 3D Gaming Worlds with Camera Pose as a Unifying Geometric Representation",
+      "summary": "Recent advances in video diffusion transformers have enabled interactive gaming world models that allow users to explore generated environments over extended horizons. However, existing approaches struggle with precise action control and long-horizon 3D consistency. Most prior works treat user actions as abstract conditioning signals, overlooking the fundamental geometric coupling between actions and the 3D world, whereby actions induce relative camera motions that accumulate into a global camera pose within a 3D world. In this paper, we establish camera pose as a unifying geometric representation to jointly ground immediate action control and long-term 3D consistency. First, we define a physics-based continuous action space and represent user inputs in the Lie algebra to derive precise 6-",
       "authors": [
-        "Heng Fang",
-        "Shangru Li",
-        "Shuhan Wang",
-        "Xuanyang Xi",
-        "Dingkang Liang"
+        "Jisu Nam",
+        "Yicong Hong",
+        "Chun-Hao Paul Huang",
+        "Feng Liu",
+        "JoungBin Lee"
       ],
-      "link": "http://arxiv.org/abs/2603.15620v1",
-      "published": "2026-03-16",
+      "link": "http://arxiv.org/abs/2603.16871v1",
+      "published": "2026-03-17",
       "categories": [
-        "cs.CV",
-        "cs.RO"
+        "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": ".",
-      "datasets": "Facts:\nWings:\nFacts:\nFacts:\nFacts:\nFacts:\nFacts:\nFacts:\nFacts:\nFacts:\nFacts:\nFacts:\nF.",
-      "future_work": "Future work in dynamic environments."
+      "key_methods": "A.",
+      "datasets": "- (6): The most interesting aspect of the game is that it can be used to make a 3D map, to measure the difference betwee...",
+      "future_work": "New physics, computational algorithms, and social networks with virtual reality applications."
     }
   },
   {
     "paper": {
-      "title": "Mixture-of-Depths Attention",
-      "summary": "Scaling depth is a key driver for large language models (LLMs). Yet, as LLMs become deeper, they often suffer from signal degradation: informative features formed in shallow layers are gradually diluted by repeated residual updates, making them harder to recover in deeper layers. We introduce mixture-of-depths attention (MoDA), a mechanism that allows each attention head to attend to sequence KV pairs at the current layer and depth KV pairs from preceding layers. We further describe a hardware-efficient algorithm for MoDA that resolves non-contiguous memory-access patterns, achieving 97.3% of FlashAttention-2's efficiency at a sequence length of 64K. Experiments on 1.5B-parameter models demonstrate that MoDA consistently outperforms strong baselines. Notably, it improves average perplexity",
+      "title": "Demystifing Video Reasoning",
+      "summary": "Recent advances in video generation have revealed an unexpected phenomenon: diffusion-based video models exhibit non-trivial reasoning capabilities. Prior work attributes this to a Chain-of-Frames (CoF) mechanism, where reasoning is assumed to unfold sequentially across video frames. In this work, we challenge this assumption and uncover a fundamentally different mechanism. We show that reasoning in video models instead primarily emerges along the diffusion denoising steps. Through qualitative analysis and targeted probing experiments, we find that models explore multiple candidate solutions in early denoising steps and progressively converge to a final answer, a process we term Chain-of-Steps (CoS). Beyond this core mechanism, we identify several emergent reasoning behaviors critical to m",
       "authors": [
-        "Lianghui Zhu",
-        "Yuxin Fang",
-        "Bencheng Liao",
-        "Shijie Wang",
-        "Tianheng Cheng"
+        "Ruisi Wang",
+        "Zhongang Cai",
+        "Fanyi Pu",
+        "Junxiang Xu",
+        "Wanqi Yin"
       ],
-      "link": "http://arxiv.org/abs/2603.15619v1",
-      "published": "2026-03-16",
+      "link": "http://arxiv.org/abs/2603.16870v1",
+      "published": "2026-03-17",
       "categories": [
-        "cs.CL",
+        "cs.CV",
         "cs.AI"
       ]
     },
     "analysis": {
-      "key_methods": ".",
-      "datasets": "Evaluation:\n\"The number of times a player has moved from one tile to another, the number of times the player has moved f...",
-      "future_work": "A comparison of the data provided by the Mixture of the D-Z-Z-Z-Z-Z-Z-Z-Z-Z-Z-Z-Z-Z-Z-Z-Z-Z-Z-."
+      "key_methods": "The data were collected using a database of the 5,000 individuals who were randomly assigned to 10 different studies.",
+      "datasets": "I'll send a bunch of videos about the Demystifing Video Reasoning.",
+      "future_work": "More advanced methods to understand and understand the mechanisms behind the behavior of the brain."
     }
   },
   {
     "paper": {
-      "title": "Look Before Acting: Enhancing Vision Foundation Representations for Vision-Language-Action Models",
-      "summary": "Vision-Language-Action (VLA) models have recently emerged as a promising paradigm for robotic manipulation, in which reliable action prediction critically depends on accurately interpreting and integrating visual observations conditioned on language instructions. Although recent works have sought to enhance the visual capabilities of VLA models, most approaches treat the LLM backbone as a black box, providing limited insight into how visual information is grounded into action generation. Therefore, we perform a systematic analysis of multiple VLA models across different action-generation paradigms and observe that sensitivity to visual tokens progressively decreases in deeper layers during action generation. Motivated by this observation, we propose \\textbf{DeepVision-VLA}, built on a \\tex",
+      "title": "SegviGen: Repurposing 3D Generative Model for Part Segmentation",
+      "summary": "We introduce SegviGen, a framework that repurposes native 3D generative models for 3D part segmentation. Existing pipelines either lift strong 2D priors into 3D via distillation or multi-view mask aggregation, often suffering from cross-view inconsistency and blurred boundaries, or explore native 3D discriminative segmentation, which typically requires large-scale annotated 3D data and substantial training resources. In contrast, SegviGen leverages the structured priors encoded in pretrained 3D generative model to induce segmentation through distinctive part colorization, establishing a novel and efficient framework for part segmentation. Specifically, SegviGen encodes a 3D asset and predicts part-indicative colors on active voxels of a geometry-aligned reconstruction. It supports interact",
       "authors": [
-        "Yulin Luo",
-        "Hao Chen",
-        "Zhuangzhe Wu",
-        "Bowen Sui",
-        "Jiaming Liu"
+        "Lin Li",
+        "Haoran Feng",
+        "Zehuan Huang",
+        "Haohua Chen",
+        "Wenbo Nie"
       ],
-      "link": "http://arxiv.org/abs/2603.15618v1",
-      "published": "2026-03-16",
+      "link": "http://arxiv.org/abs/2603.16869v1",
+      "published": "2026-03-17",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "Designing the model of the language used in this paper\nPetitioning a questionnaire (PQ)\nA Questionnaire for the use of P...",
-      "datasets": "In the paper, we present the following models of the Vision Foundation's Vision-language-action models:\nIn the paper, we...",
-      "future_work": "Implementing and utilizing the current standards in the field of Vision-Language-Action Models to implement a more effic..."
+      "key_methods": "The paper was submitted to the National Science Foundation via email.",
+      "datasets": "SegviGen\nSegviGen: Repurposing 3D Generative Model for Part Segmentation.",
+      "future_work": "We can further develop a more flexible (and more flexible) model for the future of the network."
     }
   },
   {
     "paper": {
-      "title": "HorizonMath: Measuring AI Progress Toward Mathematical Discovery with Automatic Verification",
-      "summary": "Can AI make progress on important, unsolved mathematical problems? Large language models are now capable of sophisticated mathematical and scientific reasoning, but whether they can perform novel research is still widely debated and underexplored. We introduce HorizonMath, a benchmark of over 100 predominantly unsolved problems spanning 8 domains in computational and applied mathematics, paired with an open-source evaluation framework for automated verification. Our benchmark targets a class of problems where discovery is hard, requiring meaningful mathematical insight, but verification is computationally efficient and simple. Because these solutions are unknown, HorizonMath is immune to data contamination, and most state-of-the-art models score near 0%. Existing research-level benchmarks ",
+      "title": "Efficient Reasoning on the Edge",
+      "summary": "Large language models (LLMs) with chain-of-thought reasoning achieve state-of-the-art performance across complex problem-solving tasks, but their verbose reasoning traces and large context requirements make them impractical for edge deployment. These challenges include high token generation costs, large KV-cache footprints, and inefficiencies when distilling reasoning capabilities into smaller models for mobile devices. Existing approaches often rely on distilling reasoning traces from larger models into smaller models, which are verbose and stylistically redundant, undesirable for on-device inference. In this work, we propose a lightweight approach to enable reasoning in small LLMs using LoRA adapters combined with supervised fine-tuning. We further introduce budget forcing via reinforcem",
       "authors": [
-        "Erik Y. Wang",
-        "Sumeet Motwani",
-        "James V. Roggeveen",
-        "Eliot Hodges",
-        "Dulhan Jayalath"
+        "Yelysei Bondarenko",
+        "Thomas Hehn",
+        "Rob Hesselink",
+        "Romain Lepert",
+        "Fabio Valerio Massoli"
       ],
-      "link": "http://arxiv.org/abs/2603.15617v1",
-      "published": "2026-03-16",
+      "link": "http://arxiv.org/abs/2603.16867v1",
+      "published": "2026-03-17",
       "categories": [
-        "cs.LG"
+        "cs.LG",
+        "cs.CL"
       ]
     },
     "analysis": {
-      "key_methods": "The following software was developed by Microsoft.",
-      "datasets": ".",
-      "future_work": "In addition to using the AI to measure AI progress, we plan to introduce a series of important developments in machine l..."
+      "key_methods": "A set of experiments conducted by the authors used the standard statistical procedure used to estimate the probability o...",
+      "datasets": "The reason why I am an expert on the issue of data privacy:\nA few years ago, I was interested in the use of open-source ...",
+      "future_work": "How to Implement a State-Machine Learning Machine Learning Machine Learning Machine Learning Machine Learning Machine Le..."
     }
   },
   {
     "paper": {
-      "title": "GlyphPrinter: Region-Grouped Direct Preference Optimization for Glyph-Accurate Visual Text Rendering",
-      "summary": "Generating accurate glyphs for visual text rendering is essential yet challenging. Existing methods typically enhance text rendering by training on a large amount of high-quality scene text images, but the limited coverage of glyph variations and excessive stylization often compromise glyph accuracy, especially for complex or out-of-domain characters. Some methods leverage reinforcement learning to alleviate this issue, yet their reward models usually depend on text recognition systems that are insensitive to fine-grained glyph errors, so images with incorrect glyphs may still receive high rewards. Inspired by Direct Preference Optimization (DPO), we propose GlyphPrinter, a preference-based text rendering method that eliminates reliance on explicit reward models. However, the standard DPO ",
+      "title": "MessyKitchens: Contact-rich object-level 3D scene reconstruction",
+      "summary": "Monocular 3D scene reconstruction has recently seen significant progress. Powered by the modern neural architectures and large-scale data, recent methods achieve high performance in depth estimation from a single image. Meanwhile, reconstructing and decomposing common scenes into individual 3D objects remains a hard challenge due to the large variety of objects, frequent occlusions and complex object relations. Notably, beyond shape and pose estimation of individual objects, applications in robotics and animation require physically-plausible scene reconstruction where objects obey physical principles of non-penetration and realistic contacts. In this work we advance object-level scene reconstruction along two directions. First, we introduceMessyKitchens, a new dataset with real-world scene",
       "authors": [
-        "Xincheng Shuai",
-        "Ziye Li",
-        "Henghui Ding",
-        "Dacheng Tao"
+        "Junaid Ahmed Ansari",
+        "Ran Ding",
+        "Fabio Pizzati",
+        "Ivan Laptev"
       ],
-      "link": "http://arxiv.org/abs/2603.15616v1",
-      "published": "2026-03-16",
+      "link": "http://arxiv.org/abs/2603.16868v1",
+      "published": "2026-03-17",
       "categories": [
-        "cs.CV"
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
       ]
     },
     "analysis": {
-      "key_methods": ".",
-      "datasets": "RPM: GlyphPrinter: Region-Grouped Direct Preference Optimization for Glyph-Accurate Visual Text Rendering.",
-      "future_work": "This paper describes a basic architecture of photomicrographs and how they can be used to produce realistic visualizatio..."
+      "key_methods": "1.",
+      "datasets": "CGI:\nCGI:\nCGI:\nCGI:\nCGI:\nCGI:\nCGI:\nCGI:\nCGI:\nCGI:\nCGI:\nCGI:\nC.",
+      "future_work": "Using a high-resolution 3D-based 3D-based 3D-based 3D-based 3D-based 3D-based 3D-based 3D-based 3D-based 3D-based 3D-bas..."
     }
   }
 ]
