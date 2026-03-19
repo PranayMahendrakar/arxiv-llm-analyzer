@@ -54,90 +54,98 @@
   <div class="stat"><div class="n">5</div><div class="l">Papers</div></div>
   <div class="stat"><div class="n">distilgpt2</div><div class="l">LLM Model</div></div>
   <div class="stat"><div class="n">large language m</div><div class="l">Query</div></div>
-  <div class="stat"><div class="n">2026-03-18</div><div class="l">Updated UTC</div></div>
+  <div class="stat"><div class="n">2026-03-19</div><div class="l">Updated UTC</div></div>
 </div>
 <main>
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2603.16871v1" target="_blank" rel="noopener">WorldCam: Interactive Autoregressive 3D Gaming Worlds with Camera Pose as a Unifying Geometric Representation</a></h2>
-    <span class="meta">Published: 2026-03-17 | Authors: Jisu Nam, Yicong Hong, Chun-Hao Paul Huang, Feng Liu, JoungBin Lee | Tags: cs.CV</span>
+    <h2><a href="http://arxiv.org/abs/2603.18004v1" target="_blank" rel="noopener">Unified Spatio-Temporal Token Scoring for Efficient Video VLMs</a></h2>
+    <span class="meta">Published: 2026-03-18 | Authors: Jianrui Zhang, Yue Yang, Rohun Tripathi, Winson Han, Ranjay Krishna | Tags: cs.CV, cs.AI, cs.LG</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Recent advances in video diffusion transformers have enabled interactive gaming world models that allow users to explore generated environments over extended horizons. However, existing approaches struggle with precise action control and long-horizon 3D consistency. Most prior works treat user actions as abstract conditioning signals, overlooking the fundamental geometric coupling between actions and the 3D world, whereby actions induce relative camera motions that accumulate into a global camera pose within a 3D world. In this paper, we establish camera pose as a unifying geometric representation to jointly ground immediate action control and long-term 3D consistency. First, we define a physics-based continuous action space and represent user inputs in the Lie algebra to derive precise 6-</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>A.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>- (6): The most interesting aspect of the game is that it can be used to make a 3D map, to measure the difference betwee...</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>New physics, computational algorithms, and social networks with virtual reality applications.</p></section>
+    <section class="full"><h3>Abstract</h3><p>Token pruning is essential for enhancing the computational efficiency of vision-language models (VLMs), particularly for video-based tasks where temporal redundancy is prevalent. Prior approaches typically prune tokens either (1) within the vision transformer (ViT) exclusively for unimodal perception tasks such as action recognition and object segmentation, without adapting to downstream vision-language tasks; or (2) only within the LLM while leaving the ViT output intact, often requiring complex text-conditioned token selection mechanisms. In this paper, we introduce Spatio-Temporal Token Scoring (STTS), a simple and lightweight module that prunes vision tokens across both the ViT and the LLM without text conditioning or token merging, and is fully compatible with end-to-end training. By </p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>Samples
+Using a video, as shown in the following table, a sequence of the VLMs can be generated using a network of multi...</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>I've used this space to produce a set of simple video video memory devices that use the same process.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>The basic concept of a distributed video storage platform with high resolution video storage is presented in The New Yor...</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2603.16870v1" target="_blank" rel="noopener">Demystifing Video Reasoning</a></h2>
-    <span class="meta">Published: 2026-03-17 | Authors: Ruisi Wang, Zhongang Cai, Fanyi Pu, Junxiang Xu, Wanqi Yin | Tags: cs.CV, cs.AI</span>
+    <h2><a href="http://arxiv.org/abs/2603.18003v1" target="_blank" rel="noopener">Universal Skeleton Understanding via Differentiable Rendering and MLLMs</a></h2>
+    <span class="meta">Published: 2026-03-18 | Authors: Ziyi Wang, Peiming Li, Xinshun Wang, Yang Tang, Kai-Kuang Ma | Tags: cs.CV</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Recent advances in video generation have revealed an unexpected phenomenon: diffusion-based video models exhibit non-trivial reasoning capabilities. Prior work attributes this to a Chain-of-Frames (CoF) mechanism, where reasoning is assumed to unfold sequentially across video frames. In this work, we challenge this assumption and uncover a fundamentally different mechanism. We show that reasoning in video models instead primarily emerges along the diffusion denoising steps. Through qualitative analysis and targeted probing experiments, we find that models explore multiple candidate solutions in early denoising steps and progressively converge to a final answer, a process we term Chain-of-Steps (CoS). Beyond this core mechanism, we identify several emergent reasoning behaviors critical to m</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The data were collected using a database of the 5,000 individuals who were randomly assigned to 10 different studies.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>I'll send a bunch of videos about the Demystifing Video Reasoning.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>More advanced methods to understand and understand the mechanisms behind the behavior of the brain.</p></section>
+    <section class="full"><h3>Abstract</h3><p>Multimodal large language models (MLLMs) exhibit strong visual-language reasoning, yet remain confined to their native modalities and cannot directly process structured, non-visual data such as human skeletons. Existing methods either compress skeleton dynamics into lossy feature vectors for text alignment, or quantize motion into discrete tokens that generalize poorly across heterogeneous skeleton formats. We present SkeletonLLM, which achieves universal skeleton understanding by translating arbitrary skeleton sequences into the MLLM's native visual modality. At its core is DrAction, a differentiable, format-agnostic renderer that converts skeletal kinematics into compact image sequences. Because the pipeline is end-to-end differentiable, MLLM gradients can directly guide the rendering to</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The use of a nonlinear method to estimate the total number of skeletal components that are needed to form a skeletal ske...</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>Pizza:
+Stick-up Pizza:
+Frito-Lay:
+Tuna:
+Shops:
+Dinner:
+Stacks:
+We all know this.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>[1]
+(2]
+[3]
+[4]
+[5]
+[6]
+[7]
+[8]
+[9]
+[10]
+[11].</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2603.16869v1" target="_blank" rel="noopener">SegviGen: Repurposing 3D Generative Model for Part Segmentation</a></h2>
-    <span class="meta">Published: 2026-03-17 | Authors: Lin Li, Haoran Feng, Zehuan Huang, Haohua Chen, Wenbo Nie | Tags: cs.CV</span>
+    <h2><a href="http://arxiv.org/abs/2603.18002v1" target="_blank" rel="noopener">Loc3R-VLM: Language-based Localization and 3D Reasoning with Vision-Language Models</a></h2>
+    <span class="meta">Published: 2026-03-18 | Authors: Kevin Qu, Haozhe Qi, Mihai Dusmanu, Mahdi Rad, Rui Wang | Tags: cs.CV, cs.AI, cs.CL</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>We introduce SegviGen, a framework that repurposes native 3D generative models for 3D part segmentation. Existing pipelines either lift strong 2D priors into 3D via distillation or multi-view mask aggregation, often suffering from cross-view inconsistency and blurred boundaries, or explore native 3D discriminative segmentation, which typically requires large-scale annotated 3D data and substantial training resources. In contrast, SegviGen leverages the structured priors encoded in pretrained 3D generative model to induce segmentation through distinctive part colorization, establishing a novel and efficient framework for part segmentation. Specifically, SegviGen encodes a 3D asset and predicts part-indicative colors on active voxels of a geometry-aligned reconstruction. It supports interact</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The paper was submitted to the National Science Foundation via email.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>SegviGen
-SegviGen: Repurposing 3D Generative Model for Part Segmentation.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>We can further develop a more flexible (and more flexible) model for the future of the network.</p></section>
+    <section class="full"><h3>Abstract</h3><p>Multimodal Large Language Models (MLLMs) have made impressive progress in connecting vision and language, but they still struggle with spatial understanding and viewpoint-aware reasoning. Recent efforts aim to augment the input representations with geometric cues rather than explicitly teaching models to reason in 3D space. We introduce Loc3R-VLM, a framework that equips 2D Vision-Language Models with advanced 3D understanding capabilities from monocular video input. Inspired by human spatial cognition, Loc3R-VLM relies on two joint objectives: global layout reconstruction to build a holistic representation of the scene structure, and explicit situation modeling to anchor egocentric perspective. These objectives provide direct spatial supervision that grounds both perception and language i</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The data of the first version of the library was obtained from the original dataset.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>I’m not sure if I think this is the best translation for the current version of the dataset.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>IIT/TensorFlow (as well as related research) on the effect of 2D models on localization and 3D reasoning.</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2603.16867v1" target="_blank" rel="noopener">Efficient Reasoning on the Edge</a></h2>
-    <span class="meta">Published: 2026-03-17 | Authors: Yelysei Bondarenko, Thomas Hehn, Rob Hesselink, Romain Lepert, Fabio Valerio Massoli | Tags: cs.LG, cs.CL</span>
+    <h2><a href="http://arxiv.org/abs/2603.18001v1" target="_blank" rel="noopener">EchoGen: Cycle-Consistent Learning for Unified Layout-Image Generation and Understanding</a></h2>
+    <span class="meta">Published: 2026-03-18 | Authors: Kai Zou, Hongbo Liu, Dian Zheng, Jianxiong Gao, Zhiwei Zhao | Tags: cs.CV</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Large language models (LLMs) with chain-of-thought reasoning achieve state-of-the-art performance across complex problem-solving tasks, but their verbose reasoning traces and large context requirements make them impractical for edge deployment. These challenges include high token generation costs, large KV-cache footprints, and inefficiencies when distilling reasoning capabilities into smaller models for mobile devices. Existing approaches often rely on distilling reasoning traces from larger models into smaller models, which are verbose and stylistically redundant, undesirable for on-device inference. In this work, we propose a lightweight approach to enable reasoning in small LLMs using LoRA adapters combined with supervised fine-tuning. We further introduce budget forcing via reinforcem</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>A set of experiments conducted by the authors used the standard statistical procedure used to estimate the probability o...</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>The reason why I am an expert on the issue of data privacy:
-A few years ago, I was interested in the use of open-source ...</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>How to Implement a State-Machine Learning Machine Learning Machine Learning Machine Learning Machine Learning Machine Le...</p></section>
+    <section class="full"><h3>Abstract</h3><p>In this work, we present EchoGen, a unified framework for layout-to-image generation and image grounding, capable of generating images with accurate layouts and high fidelity to text descriptions (e.g., spatial relationships), while grounding the image robustly at the same time. We believe that image grounding possesses strong text and layout understanding abilities, which can compensate for the corresponding limitations in layout-to-image generation. At the same time, images generated from layouts exhibit high diversity in content, thereby enhancing the robustness of image grounding. Jointly training both tasks within a unified model can promote performance improvements for each. However, we identify that this joint training paradigm encounters several optimization challenges and results </p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>Bibliographic information:
+Bibliographic information:
+Bibliographic information:
+Bibliographic information:
+Bibliographi...</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>http://www.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>We're looking at a number of different approaches to learning, including a new approach called "Reverse-Learning".</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2603.16868v1" target="_blank" rel="noopener">MessyKitchens: Contact-rich object-level 3D scene reconstruction</a></h2>
-    <span class="meta">Published: 2026-03-17 | Authors: Junaid Ahmed Ansari, Ran Ding, Fabio Pizzati, Ivan Laptev | Tags: cs.CV, cs.AI, cs.RO</span>
+    <h2><a href="http://arxiv.org/abs/2603.17998v1" target="_blank" rel="noopener">The Unreasonable Effectiveness of Text Embedding Interpolation for Continuous Image Steering</a></h2>
+    <span class="meta">Published: 2026-03-18 | Authors: Yigit Ekin, Yossi Gandelsman | Tags: cs.CV</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Monocular 3D scene reconstruction has recently seen significant progress. Powered by the modern neural architectures and large-scale data, recent methods achieve high performance in depth estimation from a single image. Meanwhile, reconstructing and decomposing common scenes into individual 3D objects remains a hard challenge due to the large variety of objects, frequent occlusions and complex object relations. Notably, beyond shape and pose estimation of individual objects, applications in robotics and animation require physically-plausible scene reconstruction where objects obey physical principles of non-penetration and realistic contacts. In this work we advance object-level scene reconstruction along two directions. First, we introduceMessyKitchens, a new dataset with real-world scene</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>1.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>CGI:
-CGI:
-CGI:
-CGI:
-CGI:
-CGI:
-CGI:
-CGI:
-CGI:
-CGI:
-CGI:
-CGI:
-C.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Using a high-resolution 3D-based 3D-based 3D-based 3D-based 3D-based 3D-based 3D-based 3D-based 3D-based 3D-based 3D-bas...</p></section>
+    <section class="full"><h3>Abstract</h3><p>We present a training-free framework for continuous and controllable image editing at test time for text-conditioned generative models. In contrast to prior approaches that rely on additional training or manual user intervention, we find that a simple steering in the text-embedding space is sufficient to produce smooth edit control. Given a target concept (e.g., enhancing photorealism or changing facial expression), we use a large language model to automatically construct a small set of debiased contrastive prompt pairs, from which we compute a steering vector in the generator's text-encoder space. We then add this vector directly to the input prompt representation to control generation along the desired semantic axis. To obtain a continuous control, we propose an elastic range search proc</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>Maintain a minimum of 30 frames per second of text.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>Tutorials.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>How to ensure that text can be made in a more consistent fashion.</p></section>
   </div>
 </div>
 </main>
 <footer>
   <a href="https://github.com/PranayMahendrakar/arxiv-llm-analyzer">PranayMahendrakar/arxiv-llm-analyzer</a>
-  | Powered by DistilGPT2 (HuggingFace Transformers) | No API keys | 2026-03-18 07:02 UTC
+  | Powered by DistilGPT2 (HuggingFace Transformers) | No API keys | 2026-03-19 06:58 UTC
 </footer>
 </body></html>
