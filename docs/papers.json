@@ -1,118 +1,121 @@
 [
   {
     "paper": {
-      "title": "Unified Spatio-Temporal Token Scoring for Efficient Video VLMs",
-      "summary": "Token pruning is essential for enhancing the computational efficiency of vision-language models (VLMs), particularly for video-based tasks where temporal redundancy is prevalent. Prior approaches typically prune tokens either (1) within the vision transformer (ViT) exclusively for unimodal perception tasks such as action recognition and object segmentation, without adapting to downstream vision-language tasks; or (2) only within the LLM while leaving the ViT output intact, often requiring complex text-conditioned token selection mechanisms. In this paper, we introduce Spatio-Temporal Token Scoring (STTS), a simple and lightweight module that prunes vision tokens across both the ViT and the LLM without text conditioning or token merging, and is fully compatible with end-to-end training. By ",
+      "title": "Generation Models Know Space: Unleashing Implicit 3D Priors for Scene Understanding",
+      "summary": "While Multimodal Large Language Models demonstrate impressive semantic capabilities, they often suffer from spatial blindness, struggling with fine-grained geometric reasoning and physical dynamics. Existing solutions typically rely on explicit 3D modalities or complex geometric scaffolding, which are limited by data scarcity and generalization challenges. In this work, we propose a paradigm shift by leveraging the implicit spatial prior within large-scale video generation models. We posit that to synthesize temporally coherent videos, these models inherently learn robust 3D structural priors and physical laws. We introduce VEGA-3D (Video Extracted Generative Awareness), a plug-and-play framework that repurposes a pre-trained video diffusion model as a Latent World Simulator. By extracting",
       "authors": [
-        "Jianrui Zhang",
-        "Yue Yang",
-        "Rohun Tripathi",
-        "Winson Han",
-        "Ranjay Krishna"
+        "Xianjin Wu",
+        "Dingkang Liang",
+        "Tianrui Feng",
+        "Kui Xia",
+        "Yumeng Zhang"
       ],
-      "link": "http://arxiv.org/abs/2603.18004v1",
-      "published": "2026-03-18",
+      "link": "http://arxiv.org/abs/2603.19235v1",
+      "published": "2026-03-19",
       "categories": [
         "cs.CV",
-        "cs.AI",
-        "cs.LG"
+        "cs.RO"
       ]
     },
     "analysis": {
-      "key_methods": "Samples\nUsing a video, as shown in the following table, a sequence of the VLMs can be generated using a network of multi...",
-      "datasets": "I've used this space to produce a set of simple video video memory devices that use the same process.",
-      "future_work": "The basic concept of a distributed video storage platform with high resolution video storage is presented in The New Yor..."
+      "key_methods": "Methods used:\nObjectives:\nMethods:\nA random-accessed list of the models (for a particular goal) was constructed to repre...",
+      "datasets": "Batteries are the first steps into a new understanding for the role of space.",
+      "future_work": "In the next few years, we will be working on three new models of space exploration in which we use real-time data to mod..."
     }
   },
   {
     "paper": {
-      "title": "Universal Skeleton Understanding via Differentiable Rendering and MLLMs",
-      "summary": "Multimodal large language models (MLLMs) exhibit strong visual-language reasoning, yet remain confined to their native modalities and cannot directly process structured, non-visual data such as human skeletons. Existing methods either compress skeleton dynamics into lossy feature vectors for text alignment, or quantize motion into discrete tokens that generalize poorly across heterogeneous skeleton formats. We present SkeletonLLM, which achieves universal skeleton understanding by translating arbitrary skeleton sequences into the MLLM's native visual modality. At its core is DrAction, a differentiable, format-agnostic renderer that converts skeletal kinematics into compact image sequences. Because the pipeline is end-to-end differentiable, MLLM gradients can directly guide the rendering to",
+      "title": "Matryoshka Gaussian Splatting",
+      "summary": "The ability to render scenes at adjustable fidelity from a single model, known as level of detail (LoD), is crucial for practical deployment of 3D Gaussian Splatting (3DGS). Existing discrete LoD methods expose only a limited set of operating points, while concurrent continuous LoD approaches enable smoother scaling but often suffer noticeable quality degradation at full capacity, making LoD a costly design decision. We introduce Matryoshka Gaussian Splatting (MGS), a training framework that enables continuous LoD for standard 3DGS pipelines without sacrificing full-capacity rendering quality. MGS learns a single ordered set of Gaussians such that rendering any prefix, the first k splats, produces a coherent reconstruction whose fidelity improves smoothly with increasing budget. Our key id",
       "authors": [
-        "Ziyi Wang",
-        "Peiming Li",
-        "Xinshun Wang",
-        "Yang Tang",
-        "Kai-Kuang Ma"
+        "Zhilin Guo",
+        "Boqiao Zhang",
+        "Hakan Aktas",
+        "Kyle Fogarty",
+        "Jeffrey Hu"
       ],
-      "link": "http://arxiv.org/abs/2603.18003v1",
-      "published": "2026-03-18",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The use of a nonlinear method to estimate the total number of skeletal components that are needed to form a skeletal ske...",
-      "datasets": "Pizza:\nStick-up Pizza:\nFrito-Lay:\nTuna:\nShops:\nDinner:\nStacks:\nWe all know this.",
-      "future_work": "[1]\n(2]\n[3]\n[4]\n[5]\n[6]\n[7]\n[8]\n[9]\n[10]\n[11]."
-    }
-  },
-  {
-    "paper": {
-      "title": "Loc3R-VLM: Language-based Localization and 3D Reasoning with Vision-Language Models",
-      "summary": "Multimodal Large Language Models (MLLMs) have made impressive progress in connecting vision and language, but they still struggle with spatial understanding and viewpoint-aware reasoning. Recent efforts aim to augment the input representations with geometric cues rather than explicitly teaching models to reason in 3D space. We introduce Loc3R-VLM, a framework that equips 2D Vision-Language Models with advanced 3D understanding capabilities from monocular video input. Inspired by human spatial cognition, Loc3R-VLM relies on two joint objectives: global layout reconstruction to build a holistic representation of the scene structure, and explicit situation modeling to anchor egocentric perspective. These objectives provide direct spatial supervision that grounds both perception and language i",
-      "authors": [
-        "Kevin Qu",
-        "Haozhe Qi",
-        "Mihai Dusmanu",
-        "Mahdi Rad",
-        "Rui Wang"
-      ],
-      "link": "http://arxiv.org/abs/2603.18002v1",
-      "published": "2026-03-18",
+      "link": "http://arxiv.org/abs/2603.19234v1",
+      "published": "2026-03-19",
       "categories": [
         "cs.CV",
+        "cs.GR"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The following data was extracted from the dataset, using the following code:\nThe following code was extracted from the d...",
+      "datasets": "[9a] Matryoshka Gaussian Splatting.",
+      "future_work": "Using a simple algorithm to calculate the probability of a collision with a certain number of points on the surface of a..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Cubic Discrete Diffusion: Discrete Visual Generation on High-Dimensional Representation Tokens",
+      "summary": "Visual generation with discrete tokens has gained significant attention as it enables a unified token prediction paradigm shared with language models, promising seamless multimodal architectures. However, current discrete generation methods remain limited to low-dimensional latent tokens (typically 8-32 dims), sacrificing the semantic richness essential for understanding. While high-dimensional pretrained representations (768-1024 dims) could bridge this gap, their discrete generation poses fundamental challenges. In this paper, we present Cubic Discrete Diffusion (CubiD), the first discrete generation model for high-dimensional representations. CubiD performs fine-grained masking throughout the high-dimensional discrete representation -- any dimension at any position can be masked and pre",
+      "authors": [
+        "Yuqing Wang",
+        "Chuofan Ma",
+        "Zhijie Lin",
+        "Yao Teng",
+        "Lijun Yu"
+      ],
+      "link": "http://arxiv.org/abs/2603.19232v1",
+      "published": "2026-03-19",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": ".",
+      "datasets": ".",
+      "future_work": "For more information on this project, please visit this page and follow me on Twitter."
+    }
+  },
+  {
+    "paper": {
+      "title": "Not All Features Are Created Equal: A Mechanistic Study of Vision-Language-Action Models",
+      "summary": "Vision-Language-Action (VLA) models combine perception, language, and motor control in a single architecture, yet how they translate multimodal inputs into actions remains poorly understood. We apply activation injection, sparse autoencoders (SAEs), and linear probes to six models spanning 80M--7B parameters across 394,000+ rollout episodes on four benchmarks. The visual pathway dominates action generation across all architectures: injecting baseline activations into null-prompt episodes recovers near-identical behavior, while cross-task injection steers robots toward source-task positions (99.8\\% of X-VLA episodes align with the source trajectory), exposing spatially bound motor programs tied to scene coordinates rather than abstract task representations. Language sensitivity depends on t",
+      "authors": [
+        "Bryce Grant",
+        "Xijia Zhao",
+        "Peng Wang"
+      ],
+      "link": "http://arxiv.org/abs/2603.19233v1",
+      "published": "2026-03-19",
+      "categories": [
+        "cs.RO"
+      ]
+    },
+    "analysis": {
+      "key_methods": "A simple, elegant, and useful system of model-based analysis of visual and auditory signals.",
+      "datasets": "The only way to study Vision-Language-Action models is to study the language-action models to study the language-action ...",
+      "future_work": "An early test of this kind could help to understand the basic concepts of vision-language-action models."
+    }
+  },
+  {
+    "paper": {
+      "title": "NavTrust: Benchmarking Trustworthiness for Embodied Navigation",
+      "summary": "There are two major categories of embodied navigation: Vision-Language Navigation (VLN), where agents navigate by following natural language instructions; and Object-Goal Navigation (OGN), where agents navigate to a specified target object. However, existing work primarily evaluates model performance under nominal conditions, overlooking the potential corruptions that arise in real-world settings. To address this gap, we present NavTrust, a unified benchmark that systematically corrupts input modalities, including RGB, depth, and instructions, in realistic scenarios and evaluates their impact on navigation performance. To our best knowledge, NavTrust is the first benchmark that exposes embodied navigation agents to diverse RGB-Depth corruptions and instruction variations in a unified frame",
+      "authors": [
+        "Huaide Jiang",
+        "Yash Chaudhary",
+        "Yuping Wang",
+        "Zehao Wang",
+        "Raghav Sharma"
+      ],
+      "link": "http://arxiv.org/abs/2603.19229v1",
+      "published": "2026-03-19",
+      "categories": [
+        "cs.RO",
         "cs.AI",
-        "cs.CL"
+        "cs.CV",
+        "cs.LG",
+        "eess.SY"
       ]
     },
     "analysis": {
-      "key_methods": "The data of the first version of the library was obtained from the original dataset.",
-      "datasets": "I’m not sure if I think this is the best translation for the current version of the dataset.",
-      "future_work": "IIT/TensorFlow (as well as related research) on the effect of 2D models on localization and 3D reasoning."
-    }
-  },
-  {
-    "paper": {
-      "title": "EchoGen: Cycle-Consistent Learning for Unified Layout-Image Generation and Understanding",
-      "summary": "In this work, we present EchoGen, a unified framework for layout-to-image generation and image grounding, capable of generating images with accurate layouts and high fidelity to text descriptions (e.g., spatial relationships), while grounding the image robustly at the same time. We believe that image grounding possesses strong text and layout understanding abilities, which can compensate for the corresponding limitations in layout-to-image generation. At the same time, images generated from layouts exhibit high diversity in content, thereby enhancing the robustness of image grounding. Jointly training both tasks within a unified model can promote performance improvements for each. However, we identify that this joint training paradigm encounters several optimization challenges and results ",
-      "authors": [
-        "Kai Zou",
-        "Hongbo Liu",
-        "Dian Zheng",
-        "Jianxiong Gao",
-        "Zhiwei Zhao"
-      ],
-      "link": "http://arxiv.org/abs/2603.18001v1",
-      "published": "2026-03-18",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": "Bibliographic information:\nBibliographic information:\nBibliographic information:\nBibliographic information:\nBibliographi...",
-      "datasets": "http://www.",
-      "future_work": "We're looking at a number of different approaches to learning, including a new approach called \"Reverse-Learning\"."
-    }
-  },
-  {
-    "paper": {
-      "title": "The Unreasonable Effectiveness of Text Embedding Interpolation for Continuous Image Steering",
-      "summary": "We present a training-free framework for continuous and controllable image editing at test time for text-conditioned generative models. In contrast to prior approaches that rely on additional training or manual user intervention, we find that a simple steering in the text-embedding space is sufficient to produce smooth edit control. Given a target concept (e.g., enhancing photorealism or changing facial expression), we use a large language model to automatically construct a small set of debiased contrastive prompt pairs, from which we compute a steering vector in the generator's text-encoder space. We then add this vector directly to the input prompt representation to control generation along the desired semantic axis. To obtain a continuous control, we propose an elastic range search proc",
-      "authors": [
-        "Yigit Ekin",
-        "Yossi Gandelsman"
-      ],
-      "link": "http://arxiv.org/abs/2603.17998v1",
-      "published": "2026-03-18",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": "Maintain a minimum of 30 frames per second of text.",
-      "datasets": "Tutorials.",
-      "future_work": "How to ensure that text can be made in a more consistent fashion."
+      "key_methods": "The following are excerpted from the article in the original article.",
+      "datasets": "Cocoa, C++, C++\nC++, C++\nC++, C++\nAll of these are very useful tools.",
+      "future_work": "To learn more about the use of these tools, first-timers and other potential applications should use the original versio..."
     }
   }
 ]
