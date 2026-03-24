@@ -54,78 +54,89 @@
   <div class="stat"><div class="n">5</div><div class="l">Papers</div></div>
   <div class="stat"><div class="n">distilgpt2</div><div class="l">LLM Model</div></div>
   <div class="stat"><div class="n">large language m</div><div class="l">Query</div></div>
-  <div class="stat"><div class="n">2026-03-22</div><div class="l">Updated UTC</div></div>
+  <div class="stat"><div class="n">2026-03-24</div><div class="l">Updated UTC</div></div>
 </div>
 <main>
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2603.19235v1" target="_blank" rel="noopener">Generation Models Know Space: Unleashing Implicit 3D Priors for Scene Understanding</a></h2>
-    <span class="meta">Published: 2026-03-19 | Authors: Xianjin Wu, Dingkang Liang, Tianrui Feng, Kui Xia, Yumeng Zhang | Tags: cs.CV, cs.RO</span>
+    <h2><a href="http://arxiv.org/abs/2603.22286v1" target="_blank" rel="noopener">WorldCache: Content-Aware Caching for Accelerated Video World Models</a></h2>
+    <span class="meta">Published: 2026-03-23 | Authors: Umair Nawaz, Ahmed Heakl, Ufaq Khan, Abdelrahman Shaker, Salman Khan | Tags: cs.CV, cs.AI, cs.CL</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>While Multimodal Large Language Models demonstrate impressive semantic capabilities, they often suffer from spatial blindness, struggling with fine-grained geometric reasoning and physical dynamics. Existing solutions typically rely on explicit 3D modalities or complex geometric scaffolding, which are limited by data scarcity and generalization challenges. In this work, we propose a paradigm shift by leveraging the implicit spatial prior within large-scale video generation models. We posit that to synthesize temporally coherent videos, these models inherently learn robust 3D structural priors and physical laws. We introduce VEGA-3D (Video Extracted Generative Awareness), a plug-and-play framework that repurposes a pre-trained video diffusion model as a Latent World Simulator. By extracting</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>Figure 1.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>The following table summarizes the data we used for the model:
-The model we used for the model: The model we used for th...</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>The way in which you can develop your own models for the environment and its environment.</p></section>
+    <section class="full"><h3>Abstract</h3><p>Diffusion Transformers (DiTs) power high-fidelity video world models but remain computationally expensive due to sequential denoising and costly spatio-temporal attention. Training-free feature caching accelerates inference by reusing intermediate activations across denoising steps; however, existing methods largely rely on a Zero-Order Hold assumption i.e., reusing cached features as static snapshots when global drift is small. This often leads to ghosting artifacts, blur, and motion inconsistencies in dynamic scenes. We propose \textbf{WorldCache}, a Perception-Constrained Dynamical Caching framework that improves both when and how to reuse features. WorldCache introduces motion-adaptive thresholds, saliency-weighted drift estimation, optimal approximation via blending and warping, and p</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>1.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>DNS:
+GJ:
+JNC:
+JNC:
+JNC:
+JNC:
+JNC:
+JNC:
+JNC:
+JNC:
+JNC:
+JNC:
+J.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>The future of video video generation, as well as the need for a powerful and scalable data-driven video platform, could ...</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2603.19234v1" target="_blank" rel="noopener">Matryoshka Gaussian Splatting</a></h2>
-    <span class="meta">Published: 2026-03-19 | Authors: Zhilin Guo, Boqiao Zhang, Hakan Aktas, Kyle Fogarty, Jeffrey Hu | Tags: cs.CV, cs.GR</span>
+    <h2><a href="http://arxiv.org/abs/2603.22285v1" target="_blank" rel="noopener">VideoDetective: Clue Hunting via both Extrinsic Query and Intrinsic Relevance for Long Video Understanding</a></h2>
+    <span class="meta">Published: 2026-03-23 | Authors: Ruoliu Yang, Chu Wu, Caifeng Shan, Ran He, Chaoyou Fu | Tags: cs.CV</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>The ability to render scenes at adjustable fidelity from a single model, known as level of detail (LoD), is crucial for practical deployment of 3D Gaussian Splatting (3DGS). Existing discrete LoD methods expose only a limited set of operating points, while concurrent continuous LoD approaches enable smoother scaling but often suffer noticeable quality degradation at full capacity, making LoD a costly design decision. We introduce Matryoshka Gaussian Splatting (MGS), a training framework that enables continuous LoD for standard 3DGS pipelines without sacrificing full-capacity rendering quality. MGS learns a single ordered set of Gaussians such that rendering any prefix, the first k splats, produces a coherent reconstruction whose fidelity improves smoothly with increasing budget. Our key id</p></section>
+    <section class="full"><h3>Abstract</h3><p>Long video understanding remains challenging for multimodal large language models (MLLMs) due to limited context windows, which necessitate identifying sparse query-relevant video segments. However, existing methods predominantly localize clues based solely on the query, overlooking the video's intrinsic structure and varying relevance across segments. To address this, we propose VideoDetective, a framework that integrates query-to-segment relevance and inter-segment affinity for effective clue hunting in long-video question answering. Specifically, we divide a video into various segments and represent them as a visual-temporal affinity graph built from visual similarity and temporal proximity. We then perform a Hypothesis-Verification-Refinement loop to estimate relevance scores of observ</p></section>
     <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>There are many other ways of making a Splatting script.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>The paper was published in Physical Review Letters in January 2015.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>1) Clue Hunting (the term for short video capture) is the term for video capture.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>The National Science Foundation, National Institutes of Health, and the National Science Foundation, are funding the cre...</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2603.19232v1" target="_blank" rel="noopener">Cubic Discrete Diffusion: Discrete Visual Generation on High-Dimensional Representation Tokens</a></h2>
-    <span class="meta">Published: 2026-03-19 | Authors: Yuqing Wang, Chuofan Ma, Zhijie Lin, Yao Teng, Lijun Yu | Tags: cs.CV</span>
+    <h2><a href="http://arxiv.org/abs/2603.22283v1" target="_blank" rel="noopener">End-to-End Training for Unified Tokenization and Latent Denoising</a></h2>
+    <span class="meta">Published: 2026-03-23 | Authors: Shivam Duggal, Xingjian Bai, Zongze Wu, Richard Zhang, Eli Shechtman | Tags: cs.CV, cs.AI, cs.GR</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Visual generation with discrete tokens has gained significant attention as it enables a unified token prediction paradigm shared with language models, promising seamless multimodal architectures. However, current discrete generation methods remain limited to low-dimensional latent tokens (typically 8-32 dims), sacrificing the semantic richness essential for understanding. While high-dimensional pretrained representations (768-1024 dims) could bridge this gap, their discrete generation poses fundamental challenges. In this paper, we present Cubic Discrete Diffusion (CubiD), the first discrete generation model for high-dimensional representations. CubiD performs fine-grained masking throughout the high-dimensional discrete representation -- any dimension at any position can be masked and pre</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The paper shows that, in the most efficient way, the algorithm for generating a finite bit of data is a function of the ...</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>[The table below is based on the current distribution of all binary data, but it does not reflect many data sets, but th...</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Using the principles of the Caufieldian calculus, we can generate a coherent, efficient, coherent system for computation.</p></section>
+    <section class="full"><h3>Abstract</h3><p>Latent diffusion models (LDMs) enable high-fidelity synthesis by operating in learned latent spaces. However, training state-of-the-art LDMs requires complex staging: a tokenizer must be trained first, before the diffusion model can be trained in the frozen latent space. We propose UNITE - an autoencoder architecture for unified tokenization and latent diffusion. UNITE consists of a Generative Encoder that serves as both image tokenizer and latent generator via weight sharing. Our key insight is that tokenization and generation can be viewed as the same latent inference problem under different conditioning regimes: tokenization infers latents from fully observed images, whereas generation infers them from noise together with text or class conditioning. Motivated by this, we introduce a sin</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>"The Tokenization and Denoising process is a well documented process that is successful in facilitating the development ...</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>The research is funded by the US Department of State Department of Energy, the Department of Justice and the National Sc...</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2603.19233v1" target="_blank" rel="noopener">Not All Features Are Created Equal: A Mechanistic Study of Vision-Language-Action Models</a></h2>
-    <span class="meta">Published: 2026-03-19 | Authors: Bryce Grant, Xijia Zhao, Peng Wang | Tags: cs.RO</span>
+    <h2><a href="http://arxiv.org/abs/2603.22282v1" target="_blank" rel="noopener">UniMotion: A Unified Framework for Motion-Text-Vision Understanding and Generation</a></h2>
+    <span class="meta">Published: 2026-03-23 | Authors: Ziyi Wang, Xinshun Wang, Shuang Chen, Yang Cong, Mengyuan Liu | Tags: cs.CV, cs.AI</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Vision-Language-Action (VLA) models combine perception, language, and motor control in a single architecture, yet how they translate multimodal inputs into actions remains poorly understood. We apply activation injection, sparse autoencoders (SAEs), and linear probes to six models spanning 80M--7B parameters across 394,000+ rollout episodes on four benchmarks. The visual pathway dominates action generation across all architectures: injecting baseline activations into null-prompt episodes recovers near-identical behavior, while cross-task injection steers robots toward source-task positions (99.8\% of X-VLA episodes align with the source trajectory), exposing spatially bound motor programs tied to scene coordinates rather than abstract task representations. Language sensitivity depends on t</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>We used a video game to look at the effects of vision and visual stimuli on a human body.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>In the earlier article, there has been a lot of criticism from the public, but the most significant ones seem to be the ...</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>A New Approach to Visualizing Vision-Language-Action Models.</p></section>
+    <section class="full"><h3>Abstract</h3><p>We present UniMotion, to our knowledge the first unified framework for simultaneous understanding and generation of human motion, natural language, and RGB images within a single architecture. Existing unified models handle only restricted modality subsets (e.g., Motion-Text or static Pose-Image) and predominantly rely on discrete tokenization, which introduces quantization errors and disrupts temporal continuity. UniMotion overcomes both limitations through a core principle: treating motion as a first-class continuous modality on equal footing with RGB. A novel Cross-Modal Aligned Motion VAE (CMA-VAE) and symmetric dual-path embedders construct parallel continuous pathways for Motion and RGB within a shared LLM backbone. To inject visual-semantic priors into motion representations without</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The basic framework for motion-text-visioning is the Motion-Text-Vision-Vision-Vision-Vision-Vision-Vision-Vision-Vision...</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Using a new interface from Apple and Microsoft to use this technology, the first major application application for this ...</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2603.19229v1" target="_blank" rel="noopener">NavTrust: Benchmarking Trustworthiness for Embodied Navigation</a></h2>
-    <span class="meta">Published: 2026-03-19 | Authors: Huaide Jiang, Yash Chaudhary, Yuping Wang, Zehao Wang, Raghav Sharma | Tags: cs.RO, cs.AI, cs.CV</span>
+    <h2><a href="http://arxiv.org/abs/2603.22281v1" target="_blank" rel="noopener">ThinkJEPA: Empowering Latent World Models with Large Vision-Language Reasoning Model</a></h2>
+    <span class="meta">Published: 2026-03-23 | Authors: Haichao Zhang, Yijiang Li, Shwai He, Tushar Nagarajan, Mingfei Chen | Tags: cs.CV, cs.AI, cs.CL</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>There are two major categories of embodied navigation: Vision-Language Navigation (VLN), where agents navigate by following natural language instructions; and Object-Goal Navigation (OGN), where agents navigate to a specified target object. However, existing work primarily evaluates model performance under nominal conditions, overlooking the potential corruptions that arise in real-world settings. To address this gap, we present NavTrust, a unified benchmark that systematically corrupts input modalities, including RGB, depth, and instructions, in realistic scenarios and evaluates their impact on navigation performance. To our best knowledge, NavTrust is the first benchmark that exposes embodied navigation agents to diverse RGB-Depth corruptions and instruction variations in a unified frame</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The PNAS paper was presented in the Proceedings of the National Academy of Sciences.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>I can’t get a good idea.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Using a network of networks to track, analyze and use data on navigation-related systems
-Future research: Using a networ...</p></section>
+    <section class="full"><h3>Abstract</h3><p>Recent progress in latent world models (e.g., V-JEPA2) has shown promising capability in forecasting future world states from video observations. Nevertheless, dense prediction from a short observation window limits temporal context and can bias predictors toward local, low-level extrapolation, making it difficult to capture long-horizon semantics and reducing downstream utility. Vision--language models (VLMs), in contrast, provide strong semantic grounding and general knowledge by reasoning over uniformly sampled frames, but they are not ideal as standalone dense predictors due to compute-driven sparse sampling, a language-output bottleneck that compresses fine-grained interaction states into text-oriented representations, and a data-regime mismatch when adapting to small action-condition</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>A sample of the 50 million children with more than 1,000 siblings, ages 8 and under, were recruited.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>Here are some examples of all the features of the human brain that are used to predict a person's appearance.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Why does a computer model be able to predict the future of humans?
+[1] The "brain model" is an idea that has been develo...</p></section>
   </div>
 </div>
 </main>
 <footer>
   <a href="https://github.com/PranayMahendrakar/arxiv-llm-analyzer">PranayMahendrakar/arxiv-llm-analyzer</a>
-  | Powered by DistilGPT2 (HuggingFace Transformers) | No API keys | 2026-03-22 06:52 UTC
+  | Powered by DistilGPT2 (HuggingFace Transformers) | No API keys | 2026-03-24 07:04 UTC
 </footer>
 </body></html>
