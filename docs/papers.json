@@ -1,128 +1,116 @@
 [
   {
     "paper": {
-      "title": "WorldCache: Content-Aware Caching for Accelerated Video World Models",
-      "summary": "Diffusion Transformers (DiTs) power high-fidelity video world models but remain computationally expensive due to sequential denoising and costly spatio-temporal attention. Training-free feature caching accelerates inference by reusing intermediate activations across denoising steps; however, existing methods largely rely on a Zero-Order Hold assumption i.e., reusing cached features as static snapshots when global drift is small. This often leads to ghosting artifacts, blur, and motion inconsistencies in dynamic scenes. We propose \\textbf{WorldCache}, a Perception-Constrained Dynamical Caching framework that improves both when and how to reuse features. WorldCache introduces motion-adaptive thresholds, saliency-weighted drift estimation, optimal approximation via blending and warping, and p",
+      "title": "OccAny: Generalized Unconstrained Urban 3D Occupancy",
+      "summary": "Relying on in-domain annotations and precise sensor-rig priors, existing 3D occupancy prediction methods are limited in both scalability and out-of-domain generalization. While recent visual geometry foundation models exhibit strong generalization capabilities, they were mainly designed for general purposes and lack one or more key ingredients required for urban occupancy prediction, namely metric prediction, geometry completion in cluttered scenes and adaptation to urban scenarios. We address this gap and present OccAny, the first unconstrained urban 3D occupancy model capable of operating on out-of-domain uncalibrated scenes to predict and complete metric occupancy coupled with segmentation features. OccAny is versatile and can predict occupancy from sequential, monocular, or surround-vi",
       "authors": [
-        "Umair Nawaz",
-        "Ahmed Heakl",
-        "Ufaq Khan",
-        "Abdelrahman Shaker",
-        "Salman Khan"
+        "Anh-Quan Cao",
+        "Tuan-Hung Vu"
       ],
-      "link": "http://arxiv.org/abs/2603.22286v1",
-      "published": "2026-03-23",
+      "link": "http://arxiv.org/abs/2603.23502v1",
+      "published": "2026-03-24",
       "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.CL",
-        "cs.LG"
+        "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "1.",
-      "datasets": "DNS:\nGJ:\nJNC:\nJNC:\nJNC:\nJNC:\nJNC:\nJNC:\nJNC:\nJNC:\nJNC:\nJNC:\nJ.",
-      "future_work": "The future of video video generation, as well as the need for a powerful and scalable data-driven video platform, could ..."
+      "key_methods": "Materials:\n1) Density Induced in a 2D 3D model\n2) Density Induced in a 3D model\n3) Density Induced in a 3D model\n4) Dens...",
+      "datasets": "Havings:\nE-mail:\nhttp://www.",
+      "future_work": "A variety of non-natural materials and materials."
     }
   },
   {
     "paper": {
-      "title": "VideoDetective: Clue Hunting via both Extrinsic Query and Intrinsic Relevance for Long Video Understanding",
-      "summary": "Long video understanding remains challenging for multimodal large language models (MLLMs) due to limited context windows, which necessitate identifying sparse query-relevant video segments. However, existing methods predominantly localize clues based solely on the query, overlooking the video's intrinsic structure and varying relevance across segments. To address this, we propose VideoDetective, a framework that integrates query-to-segment relevance and inter-segment affinity for effective clue hunting in long-video question answering. Specifically, we divide a video into various segments and represent them as a visual-temporal affinity graph built from visual similarity and temporal proximity. We then perform a Hypothesis-Verification-Refinement loop to estimate relevance scores of observ",
+      "title": "MedObvious: Exposing the Medical Moravec's Paradox in VLMs via Clinical Triage",
+      "summary": "Vision Language Models (VLMs) are increasingly used for tasks like medical report generation and visual question answering. However, fluent diagnostic text does not guarantee safe visual understanding. In clinical practice, interpretation begins with pre-diagnostic sanity checks: verifying that the input is valid to read (correct modality and anatomy, plausible viewpoint and orientation, and no obvious integrity violations). Existing benchmarks largely assume this step is solved, and therefore miss a critical failure mode: a model can produce plausible narratives even when the input is inconsistent or invalid. We introduce MedObvious, a 1,880-task benchmark that isolates input validation as a set-level consistency capability over small multi-panel image sets: the model must identify whethe",
       "authors": [
-        "Ruoliu Yang",
-        "Chu Wu",
-        "Caifeng Shan",
-        "Ran He",
-        "Chaoyou Fu"
+        "Ufaq Khan",
+        "Umair Nawaz",
+        "L D M S S Teja",
+        "Numaan Saeed",
+        "Muhammad Bilal"
       ],
-      "link": "http://arxiv.org/abs/2603.22285v1",
-      "published": "2026-03-23",
+      "link": "http://arxiv.org/abs/2603.23501v1",
+      "published": "2026-03-24",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    "analysis": {
+      "key_methods": ".",
+      "datasets": "The medical-mortality ratio of the age-old person who was born to a woman in the early 2000s was 1.",
+      "future_work": "To test whether this technique can be used in treatment of an autoimmune condition or a chronic disease, we would need t..."
+    }
+  },
+  {
+    "paper": {
+      "title": "UniGRPO: Unified Policy Optimization for Reasoning-Driven Visual Generation",
+      "summary": "Unified models capable of interleaved generation have emerged as a promising paradigm, with the community increasingly converging on autoregressive modeling for text and flow matching for image generation. To advance this direction, we propose a unified reinforcement learning framework tailored for interleaved generation. We validate our approach on its fundamental unit: a single round of reasoning-driven image generation, where the model first expands the user prompt through reasoning, followed by image synthesis. Formulating this multimodal generation process as a Markov Decision Process with sparse terminal rewards, we introduce UniGRPO to jointly optimize text and image generation policies using GRPO. Adopting a minimalist methodology to avoid over-design, we leverage established train",
+      "authors": [
+        "Jie Liu",
+        "Zilyu Ye",
+        "Linxiao Yuan",
+        "Shenhan Zhu",
+        "Yu Gao"
+      ],
+      "link": "http://arxiv.org/abs/2603.23500v1",
+      "published": "2026-03-24",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The data from the ‘Sputnik‘ study, published in Proceedings of the National Academy of Sciences, showed that the ‘C‘Sput...",
+      "datasets": "The following are the most common datasets for the Microsoft SQL Server (MS SQL Server) platform and are most likely the...",
+      "future_work": "I will be presenting the paper at the University of California Santa Cruz this fall."
+    }
+  },
+  {
+    "paper": {
+      "title": "DA-Flow: Degradation-Aware Optical Flow Estimation with Diffusion Models",
+      "summary": "Optical flow models trained on high-quality data often degrade severely when confronted with real-world corruptions such as blur, noise, and compression artifacts. To overcome this limitation, we formulate Degradation-Aware Optical Flow, a new task targeting accurate dense correspondence estimation from real-world corrupted videos. Our key insight is that the intermediate representations of image restoration diffusion models are inherently corruption-aware but lack temporal awareness. To address this limitation, we lift the model to attend across adjacent frames via full spatio-temporal attention, and empirically demonstrate that the resulting features exhibit zero-shot correspondence capabilities. Based on this finding, we present DA-Flow, a hybrid architecture that fuses these diffusion ",
+      "authors": [
+        "Jaewon Min",
+        "Jaeeun Lee",
+        "Yeji Choi",
+        "Paul Hyunbin Cho",
+        "Jin Hyeon Kim"
+      ],
+      "link": "http://arxiv.org/abs/2603.23499v1",
+      "published": "2026-03-24",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
       "key_methods": ".",
-      "datasets": "1) Clue Hunting (the term for short video capture) is the term for video capture.",
-      "future_work": "The National Science Foundation, National Institutes of Health, and the National Science Foundation, are funding the cre..."
-    }
-  },
-  {
-    "paper": {
-      "title": "End-to-End Training for Unified Tokenization and Latent Denoising",
-      "summary": "Latent diffusion models (LDMs) enable high-fidelity synthesis by operating in learned latent spaces. However, training state-of-the-art LDMs requires complex staging: a tokenizer must be trained first, before the diffusion model can be trained in the frozen latent space. We propose UNITE - an autoencoder architecture for unified tokenization and latent diffusion. UNITE consists of a Generative Encoder that serves as both image tokenizer and latent generator via weight sharing. Our key insight is that tokenization and generation can be viewed as the same latent inference problem under different conditioning regimes: tokenization infers latents from fully observed images, whereas generation infers them from noise together with text or class conditioning. Motivated by this, we introduce a sin",
-      "authors": [
-        "Shivam Duggal",
-        "Xingjian Bai",
-        "Zongze Wu",
-        "Richard Zhang",
-        "Eli Shechtman"
-      ],
-      "link": "http://arxiv.org/abs/2603.22283v1",
-      "published": "2026-03-23",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.GR",
-        "cs.LG"
-      ]
-    },
-    "analysis": {
-      "key_methods": ".",
-      "datasets": "\"The Tokenization and Denoising process is a well documented process that is successful in facilitating the development ...",
-      "future_work": "The research is funded by the US Department of State Department of Energy, the Department of Justice and the National Sc..."
-    }
-  },
-  {
-    "paper": {
-      "title": "UniMotion: A Unified Framework for Motion-Text-Vision Understanding and Generation",
-      "summary": "We present UniMotion, to our knowledge the first unified framework for simultaneous understanding and generation of human motion, natural language, and RGB images within a single architecture. Existing unified models handle only restricted modality subsets (e.g., Motion-Text or static Pose-Image) and predominantly rely on discrete tokenization, which introduces quantization errors and disrupts temporal continuity. UniMotion overcomes both limitations through a core principle: treating motion as a first-class continuous modality on equal footing with RGB. A novel Cross-Modal Aligned Motion VAE (CMA-VAE) and symmetric dual-path embedders construct parallel continuous pathways for Motion and RGB within a shared LLM backbone. To inject visual-semantic priors into motion representations without",
-      "authors": [
-        "Ziyi Wang",
-        "Xinshun Wang",
-        "Shuang Chen",
-        "Yang Cong",
-        "Mengyuan Liu"
-      ],
-      "link": "http://arxiv.org/abs/2603.22282v1",
-      "published": "2026-03-23",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The basic framework for motion-text-visioning is the Motion-Text-Vision-Vision-Vision-Vision-Vision-Vision-Vision-Vision...",
       "datasets": ".",
-      "future_work": "Using a new interface from Apple and Microsoft to use this technology, the first major application application for this ..."
+      "future_work": "How Do We Get Fastly To Read and Record Signal-Resonance?."
     }
   },
   {
     "paper": {
-      "title": "ThinkJEPA: Empowering Latent World Models with Large Vision-Language Reasoning Model",
-      "summary": "Recent progress in latent world models (e.g., V-JEPA2) has shown promising capability in forecasting future world states from video observations. Nevertheless, dense prediction from a short observation window limits temporal context and can bias predictors toward local, low-level extrapolation, making it difficult to capture long-horizon semantics and reducing downstream utility. Vision--language models (VLMs), in contrast, provide strong semantic grounding and general knowledge by reasoning over uniformly sampled frames, but they are not ideal as standalone dense predictors due to compute-driven sparse sampling, a language-output bottleneck that compresses fine-grained interaction states into text-oriented representations, and a data-regime mismatch when adapting to small action-condition",
+      "title": "WildWorld: A Large-Scale Dataset for Dynamic World Modeling with Actions and Explicit State toward Generative ARPG",
+      "summary": "Dynamical systems theory and reinforcement learning view world evolution as latent-state dynamics driven by actions, with visual observations providing partial information about the state. Recent video world models attempt to learn this action-conditioned dynamics from data. However, existing datasets rarely match the requirement: they typically lack diverse and semantically meaningful action spaces, and actions are directly tied to visual observations rather than mediated by underlying states. As a result, actions are often entangled with pixel-level changes, making it difficult for models to learn structured world dynamics and maintain consistent evolution over long horizons. In this paper, we propose WildWorld, a large-scale action-conditioned world modeling dataset with explicit state ",
       "authors": [
-        "Haichao Zhang",
-        "Yijiang Li",
-        "Shwai He",
-        "Tushar Nagarajan",
-        "Mingfei Chen"
+        "Zhen Li",
+        "Zian Meng",
+        "Shuwei Shi",
+        "Wenshuo Peng",
+        "Yuwei Wu"
       ],
-      "link": "http://arxiv.org/abs/2603.22281v1",
-      "published": "2026-03-23",
+      "link": "http://arxiv.org/abs/2603.23497v1",
+      "published": "2026-03-24",
       "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.CL",
-        "cs.LG",
-        "cs.RO"
+        "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "A sample of the 50 million children with more than 1,000 siblings, ages 8 and under, were recruited.",
-      "datasets": "Here are some examples of all the features of the human brain that are used to predict a person's appearance.",
-      "future_work": "Why does a computer model be able to predict the future of humans?\n[1] The \"brain model\" is an idea that has been develo..."
+      "key_methods": "The modelers were trained on a set of 20-point-scale data sets from the dataset from the dataset as a whole.",
+      "datasets": "I’ve been working on a large-scale dataset with many different kinds of data, and I’m sure those are some of the best kn...",
+      "future_work": "Using the data from the WildWorld ARPG dataset and the state of the data in a distributed, highly distributed, non-linea..."
     }
   }
 ]
