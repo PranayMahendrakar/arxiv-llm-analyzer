@@ -1,116 +1,118 @@
 [
   {
     "paper": {
-      "title": "OccAny: Generalized Unconstrained Urban 3D Occupancy",
-      "summary": "Relying on in-domain annotations and precise sensor-rig priors, existing 3D occupancy prediction methods are limited in both scalability and out-of-domain generalization. While recent visual geometry foundation models exhibit strong generalization capabilities, they were mainly designed for general purposes and lack one or more key ingredients required for urban occupancy prediction, namely metric prediction, geometry completion in cluttered scenes and adaptation to urban scenarios. We address this gap and present OccAny, the first unconstrained urban 3D occupancy model capable of operating on out-of-domain uncalibrated scenes to predict and complete metric occupancy coupled with segmentation features. OccAny is versatile and can predict occupancy from sequential, monocular, or surround-vi",
+      "title": "Polynomial Speedup in Diffusion Models with the Multilevel Euler-Maruyama Method",
+      "summary": "We introduce the Multilevel Euler-Maruyama (ML-EM) method compute solutions of SDEs and ODEs using a range of approximators $f^1,\\dots,f^k$ to the drift $f$ with increasing accuracy and computational cost, only requiring a few evaluations of the most accurate $f^k$ and many evaluations of the less costly $f^1,\\dots,f^{k-1}$. If the drift lies in the so-called Harder than Monte Carlo (HTMC) regime, i.e. it requires $ε^{-γ}$ compute to be $ε$-approximated for some $γ>2$, then ML-EM $ε$-approximates the solution of the SDE with $ε^{-γ}$ compute, improving over the traditional EM rate of $ε^{-γ-1}$. In other terms it allows us to solve the SDE at the same cost as a single evaluation of the drift. In the context of diffusion models, the different levels $f^{1},\\dots,f^{k}$ are obtained by train",
       "authors": [
-        "Anh-Quan Cao",
-        "Tuan-Hung Vu"
+        "Arthur Jacot"
       ],
-      "link": "http://arxiv.org/abs/2603.23502v1",
-      "published": "2026-03-24",
+      "link": "http://arxiv.org/abs/2603.24594v1",
+      "published": "2026-03-25",
       "categories": [
-        "cs.CV"
+        "cs.LG",
+        "math.NA",
+        "stat.ML"
       ]
     },
     "analysis": {
-      "key_methods": "Materials:\n1) Density Induced in a 2D 3D model\n2) Density Induced in a 3D model\n3) Density Induced in a 3D model\n4) Dens...",
-      "datasets": "Havings:\nE-mail:\nhttp://www.",
-      "future_work": "A variety of non-natural materials and materials."
+      "key_methods": "1) A linear, linear, diagonal matrix, and a linear, parallel matrix.",
+      "datasets": "Courses: Mathematics, Physics, Physics, Computer, Computer, Computer, Computer, Computer, Computer, Computer, Computer, ...",
+      "future_work": "More information about the paper is available in a PDF file."
     }
   },
   {
     "paper": {
-      "title": "MedObvious: Exposing the Medical Moravec's Paradox in VLMs via Clinical Triage",
-      "summary": "Vision Language Models (VLMs) are increasingly used for tasks like medical report generation and visual question answering. However, fluent diagnostic text does not guarantee safe visual understanding. In clinical practice, interpretation begins with pre-diagnostic sanity checks: verifying that the input is valid to read (correct modality and anatomy, plausible viewpoint and orientation, and no obvious integrity violations). Existing benchmarks largely assume this step is solved, and therefore miss a critical failure mode: a model can produce plausible narratives even when the input is inconsistent or invalid. We introduce MedObvious, a 1,880-task benchmark that isolates input validation as a set-level consistency capability over small multi-panel image sets: the model must identify whethe",
+      "title": "Vibe Coding XR: Accelerating AI + XR Prototyping with XR Blocks and Gemini",
+      "summary": "While large language models have accelerated software development through \"vibe coding\", prototyping intelligent Extended Reality (XR) experiences remains inaccessible due to the friction of complex game engines and low-level sensor integration. To bridge this gap, we contribute XR Blocks, an open-source, modular WebXR framework that abstracts spatial computing complexities into high-level, human-centered primitives. Building upon this foundation, we present Vibe Coding XR, an end-to-end rapid prototyping workflow that leverages LLMs to translate natural language intent directly into functional XR software. Using a web-based interface, creators can transform high-level prompts (e.g., \"create a dandelion that reacts to hand\") into interactive WebXR applications in under a minute. We provide",
       "authors": [
-        "Ufaq Khan",
-        "Umair Nawaz",
-        "L D M S S Teja",
-        "Numaan Saeed",
-        "Muhammad Bilal"
+        "Ruofei Du",
+        "Benjamin Hersh",
+        "David Li",
+        "Nels Numan",
+        "Xun Qian"
       ],
-      "link": "http://arxiv.org/abs/2603.23501v1",
-      "published": "2026-03-24",
+      "link": "http://arxiv.org/abs/2603.24591v1",
+      "published": "2026-03-25",
       "categories": [
-        "cs.CV",
-        "cs.AI",
+        "cs.HC"
+      ]
+    },
+    "analysis": {
+      "key_methods": "Schematic of the original code:\nThe original code is generated using XR on a Python interpreter (see the XR Code page) [...",
+      "datasets": "-XR (c)\n-XR (c)\n-XR (d)\n-XR (e)\n-XR (f).",
+      "future_work": "You can see what is going on in the next couple years if you don't like the idea of using XR Blocks."
+    }
+  },
+  {
+    "paper": {
+      "title": "YingMusic-Singer: Controllable Singing Voice Synthesis with Flexible Lyric Manipulation and Annotation-free Melody Guidance",
+      "summary": "Regenerating singing voices with altered lyrics while preserving melody consistency remains challenging, as existing methods either offer limited controllability or require laborious manual alignment. We propose YingMusic-Singer, a fully diffusion-based model enabling melody-controllable singing voice synthesis with flexible lyric manipulation. The model takes three inputs: an optional timbre reference, a melody-providing singing clip, and modified lyrics, without manual alignment. Trained with curriculum learning and Group Relative Policy Optimization, YingMusic-Singer achieves stronger melody preservation and lyric adherence than Vevo2, the most comparable baseline supporting melody control without manual alignment. We also introduce LyricEditBench, the first benchmark for melody-preserv",
+      "authors": [
+        "Chunbo Hao",
+        "Junjie Zheng",
+        "Guobin Ma",
+        "Yuepeng Jiang",
+        "Huakang Chen"
+      ],
+      "link": "http://arxiv.org/abs/2603.24589v1",
+      "published": "2026-03-25",
+      "categories": [
+        "eess.AS",
+        "cs.SD"
+      ]
+    },
+    "analysis": {
+      "key_methods": ".",
+      "datasets": "Lumina:\nPhanolinergic, Acneurotic, Cerebellar, and Cerebellar.",
+      "future_work": "How to use a flexible and flexible Lyric Manipulation and Annotation-free Melody Guidance."
+    }
+  },
+  {
+    "paper": {
+      "title": "DreamerAD: Efficient Reinforcement Learning via Latent World Model for Autonomous Driving",
+      "summary": "We introduce DreamerAD, the first latent world model framework that enables efficient reinforcement learning for autonomous driving by compressing diffusion sampling from 100 steps to 1 - achieving 80x speedup while maintaining visual interpretability. Training RL policies on real-world driving data incurs prohibitive costs and safety risks. While existing pixel-level diffusion world models enable safe imagination-based training, they suffer from multi-step diffusion inference latency (2s/frame) that prevents high-frequency RL interaction. Our approach leverages denoised latent features from video generation models through three key mechanisms: (1) shortcut forcing that reduces sampling complexity via recursive multi-resolution step compression, (2) an autoregressive dense reward model ope",
+      "authors": [
+        "Pengxuan Yang",
+        "Yupeng Zheng",
+        "Deheng Qian",
+        "Zebin Xing",
+        "Qichao Zhang"
+      ],
+      "link": "http://arxiv.org/abs/2603.24587v1",
+      "published": "2026-03-25",
+      "categories": [
+        "cs.LG",
+        "cs.RO"
+      ]
+    },
+    "analysis": {
+      "key_methods": "For the first time, the human brain uses a neural network to learn, learn, and respond to tasks in ways that could be de...",
+      "datasets": "The main goal of this paper is to provide a tool for solving problems in an autonomous environment.",
+      "future_work": "Using the Latent World Model to learn about the future of autonomous driving."
+    }
+  },
+  {
+    "paper": {
+      "title": "Comparing Developer and LLM Biases in Code Evaluation",
+      "summary": "As LLMs are increasingly used as judges in code applications, they should be evaluated in realistic interactive settings that capture partial context and ambiguous intent. We present TRACE (Tool for Rubric Analysis in Code Evaluation), a framework that evaluates LLM judges' ability to predict human preferences and automatically extracts rubric items to reveal systematic biases in how humans and models weigh each item. Across three modalities -- chat-based programming, IDE autocompletion, and instructed code editing -- we use TRACE to measure how well LLM judges align with developer preferences. Among 13 different models, the best judges underperform human annotators by 12-23%. TRACE identifies 35 significant sources of misalignment between humans and judges across interaction modalities, t",
+      "authors": [
+        "Aditya Mittal",
+        "Ryan Shar",
+        "Zichu Wu",
+        "Shyam Agarwal",
+        "Tongshuang Wu"
+      ],
+      "link": "http://arxiv.org/abs/2603.24586v1",
+      "published": "2026-03-25",
+      "categories": [
+        "cs.SE",
         "cs.CL"
       ]
     },
     "analysis": {
-      "key_methods": ".",
-      "datasets": "The medical-mortality ratio of the age-old person who was born to a woman in the early 2000s was 1.",
-      "future_work": "To test whether this technique can be used in treatment of an autoimmune condition or a chronic disease, we would need t..."
-    }
-  },
-  {
-    "paper": {
-      "title": "UniGRPO: Unified Policy Optimization for Reasoning-Driven Visual Generation",
-      "summary": "Unified models capable of interleaved generation have emerged as a promising paradigm, with the community increasingly converging on autoregressive modeling for text and flow matching for image generation. To advance this direction, we propose a unified reinforcement learning framework tailored for interleaved generation. We validate our approach on its fundamental unit: a single round of reasoning-driven image generation, where the model first expands the user prompt through reasoning, followed by image synthesis. Formulating this multimodal generation process as a Markov Decision Process with sparse terminal rewards, we introduce UniGRPO to jointly optimize text and image generation policies using GRPO. Adopting a minimalist methodology to avoid over-design, we leverage established train",
-      "authors": [
-        "Jie Liu",
-        "Zilyu Ye",
-        "Linxiao Yuan",
-        "Shenhan Zhu",
-        "Yu Gao"
-      ],
-      "link": "http://arxiv.org/abs/2603.23500v1",
-      "published": "2026-03-24",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The data from the ‘Sputnik‘ study, published in Proceedings of the National Academy of Sciences, showed that the ‘C‘Sput...",
-      "datasets": "The following are the most common datasets for the Microsoft SQL Server (MS SQL Server) platform and are most likely the...",
-      "future_work": "I will be presenting the paper at the University of California Santa Cruz this fall."
-    }
-  },
-  {
-    "paper": {
-      "title": "DA-Flow: Degradation-Aware Optical Flow Estimation with Diffusion Models",
-      "summary": "Optical flow models trained on high-quality data often degrade severely when confronted with real-world corruptions such as blur, noise, and compression artifacts. To overcome this limitation, we formulate Degradation-Aware Optical Flow, a new task targeting accurate dense correspondence estimation from real-world corrupted videos. Our key insight is that the intermediate representations of image restoration diffusion models are inherently corruption-aware but lack temporal awareness. To address this limitation, we lift the model to attend across adjacent frames via full spatio-temporal attention, and empirically demonstrate that the resulting features exhibit zero-shot correspondence capabilities. Based on this finding, we present DA-Flow, a hybrid architecture that fuses these diffusion ",
-      "authors": [
-        "Jaewon Min",
-        "Jaeeun Lee",
-        "Yeji Choi",
-        "Paul Hyunbin Cho",
-        "Jin Hyeon Kim"
-      ],
-      "link": "http://arxiv.org/abs/2603.23499v1",
-      "published": "2026-03-24",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": ".",
-      "datasets": ".",
-      "future_work": "How Do We Get Fastly To Read and Record Signal-Resonance?."
-    }
-  },
-  {
-    "paper": {
-      "title": "WildWorld: A Large-Scale Dataset for Dynamic World Modeling with Actions and Explicit State toward Generative ARPG",
-      "summary": "Dynamical systems theory and reinforcement learning view world evolution as latent-state dynamics driven by actions, with visual observations providing partial information about the state. Recent video world models attempt to learn this action-conditioned dynamics from data. However, existing datasets rarely match the requirement: they typically lack diverse and semantically meaningful action spaces, and actions are directly tied to visual observations rather than mediated by underlying states. As a result, actions are often entangled with pixel-level changes, making it difficult for models to learn structured world dynamics and maintain consistent evolution over long horizons. In this paper, we propose WildWorld, a large-scale action-conditioned world modeling dataset with explicit state ",
-      "authors": [
-        "Zhen Li",
-        "Zian Meng",
-        "Shuwei Shi",
-        "Wenshuo Peng",
-        "Yuwei Wu"
-      ],
-      "link": "http://arxiv.org/abs/2603.23497v1",
-      "published": "2026-03-24",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The modelers were trained on a set of 20-point-scale data sets from the dataset from the dataset as a whole.",
-      "datasets": "I’ve been working on a large-scale dataset with many different kinds of data, and I’m sure those are some of the best kn...",
-      "future_work": "Using the data from the WildWorld ARPG dataset and the state of the data in a distributed, highly distributed, non-linea..."
+      "key_methods": "The Compaq Toolkit - which is available for free to anyone.",
+      "datasets": "This article contains references to the following references in C++ code:\nThere are three types of code evaluated:\nCompa...",
+      "future_work": "A new approach using LLM to investigate and apply LLM's unique approach to code evaluation."
     }
   }
 ]
