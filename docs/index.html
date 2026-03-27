@@ -54,84 +54,80 @@
   <div class="stat"><div class="n">5</div><div class="l">Papers</div></div>
   <div class="stat"><div class="n">distilgpt2</div><div class="l">LLM Model</div></div>
   <div class="stat"><div class="n">large language m</div><div class="l">Query</div></div>
-  <div class="stat"><div class="n">2026-03-26</div><div class="l">Updated UTC</div></div>
+  <div class="stat"><div class="n">2026-03-27</div><div class="l">Updated UTC</div></div>
 </div>
 <main>
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2603.24594v1" target="_blank" rel="noopener">Polynomial Speedup in Diffusion Models with the Multilevel Euler-Maruyama Method</a></h2>
-    <span class="meta">Published: 2026-03-25 | Authors: Arthur Jacot | Tags: cs.LG, math.NA, stat.ML</span>
+    <h2><a href="http://arxiv.org/abs/2603.25746v1" target="_blank" rel="noopener">ShotStream: Streaming Multi-Shot Video Generation for Interactive Storytelling</a></h2>
+    <span class="meta">Published: 2026-03-26 | Authors: Yawen Luo, Xiaoyu Shi, Junhao Zhuang, Yutian Chen, Quande Liu | Tags: cs.CV</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>We introduce the Multilevel Euler-Maruyama (ML-EM) method compute solutions of SDEs and ODEs using a range of approximators $f^1,\dots,f^k$ to the drift $f$ with increasing accuracy and computational cost, only requiring a few evaluations of the most accurate $f^k$ and many evaluations of the less costly $f^1,\dots,f^{k-1}$. If the drift lies in the so-called Harder than Monte Carlo (HTMC) regime, i.e. it requires $ε^{-γ}$ compute to be $ε$-approximated for some $γ>2$, then ML-EM $ε$-approximates the solution of the SDE with $ε^{-γ}$ compute, improving over the traditional EM rate of $ε^{-γ-1}$. In other terms it allows us to solve the SDE at the same cost as a single evaluation of the drift. In the context of diffusion models, the different levels $f^{1},\dots,f^{k}$ are obtained by train</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>1) A linear, linear, diagonal matrix, and a linear, parallel matrix.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>Courses: Mathematics, Physics, Physics, Computer, Computer, Computer, Computer, Computer, Computer, Computer, Computer, ...</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>More information about the paper is available in a PDF file.</p></section>
+    <section class="full"><h3>Abstract</h3><p>Multi-shot video generation is crucial for long narrative storytelling, yet current bidirectional architectures suffer from limited interactivity and high latency. We propose ShotStream, a novel causal multi-shot architecture that enables interactive storytelling and efficient on-the-fly frame generation. By reformulating the task as next-shot generation conditioned on historical context, ShotStream allows users to dynamically instruct ongoing narratives via streaming prompts. We achieve this by first fine-tuning a text-to-video model into a bidirectional next-shot generator, which is then distilled into a causal student via Distribution Matching Distillation. To overcome the challenges of inter-shot consistency and error accumulation inherent in autoregressive generation, we introduce two</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>For the first time, we created a 2D, 3D, and 4D video game game.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>The following is a video from Wikipedia: http://wiki.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>How to design and build a video game platform that will allow interactive games to be played, and how to develop video g...</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2603.24591v1" target="_blank" rel="noopener">Vibe Coding XR: Accelerating AI + XR Prototyping with XR Blocks and Gemini</a></h2>
-    <span class="meta">Published: 2026-03-25 | Authors: Ruofei Du, Benjamin Hersh, David Li, Nels Numan, Xun Qian | Tags: cs.HC</span>
+    <h2><a href="http://arxiv.org/abs/2603.25744v1" target="_blank" rel="noopener">MuRF: Unlocking the Multi-Scale Potential of Vision Foundation Models</a></h2>
+    <span class="meta">Published: 2026-03-26 | Authors: Bocheng Zou, Mu Cai, Mark Stanley, Dingfu Lu, Yong Jae Lee | Tags: cs.CV</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>While large language models have accelerated software development through "vibe coding", prototyping intelligent Extended Reality (XR) experiences remains inaccessible due to the friction of complex game engines and low-level sensor integration. To bridge this gap, we contribute XR Blocks, an open-source, modular WebXR framework that abstracts spatial computing complexities into high-level, human-centered primitives. Building upon this foundation, we present Vibe Coding XR, an end-to-end rapid prototyping workflow that leverages LLMs to translate natural language intent directly into functional XR software. Using a web-based interface, creators can transform high-level prompts (e.g., "create a dandelion that reacts to hand") into interactive WebXR applications in under a minute. We provide</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>Schematic of the original code:
-The original code is generated using XR on a Python interpreter (see the XR Code page) [...</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>-XR (c)
--XR (c)
--XR (d)
--XR (e)
--XR (f).</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>You can see what is going on in the next couple years if you don't like the idea of using XR Blocks.</p></section>
+    <section class="full"><h3>Abstract</h3><p>Vision Foundation Models (VFMs) have become the cornerstone of modern computer vision, offering robust representations across a wide array of tasks. While recent advances allow these models to handle varying input sizes during training, inference typically remains restricted to a single, fixed scale. This prevalent single-scale paradigm overlooks a fundamental property of visual perception: varying resolutions offer complementary inductive biases, where low-resolution views excel at global semantic recognition and high-resolution views are essential for fine-grained refinement. In this work, we propose Multi-Resolution Fusion (MuRF), a simple yet universally effective strategy to harness this synergy at inference time. Instead of relying on a single view, MuRF constructs a unified represen</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>-In-depth, multi-level, mult-level, multi-level, multi-level mult-level and multi-level multi-level multi-level models w...</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>A guide to our research on how to utilize the multi-scale potential of vision Foundation Model models
+We have completed ...</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2603.24589v1" target="_blank" rel="noopener">YingMusic-Singer: Controllable Singing Voice Synthesis with Flexible Lyric Manipulation and Annotation-free Melody Guidance</a></h2>
-    <span class="meta">Published: 2026-03-25 | Authors: Chunbo Hao, Junjie Zheng, Guobin Ma, Yuepeng Jiang, Huakang Chen | Tags: eess.AS, cs.SD</span>
+    <h2><a href="http://arxiv.org/abs/2603.25743v1" target="_blank" rel="noopener">RefAlign: Representation Alignment for Reference-to-Video Generation</a></h2>
+    <span class="meta">Published: 2026-03-26 | Authors: Lei Wang, YuXin Song, Ge Wu, Haocheng Feng, Hang Zhou | Tags: cs.CV</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Regenerating singing voices with altered lyrics while preserving melody consistency remains challenging, as existing methods either offer limited controllability or require laborious manual alignment. We propose YingMusic-Singer, a fully diffusion-based model enabling melody-controllable singing voice synthesis with flexible lyric manipulation. The model takes three inputs: an optional timbre reference, a melody-providing singing clip, and modified lyrics, without manual alignment. Trained with curriculum learning and Group Relative Policy Optimization, YingMusic-Singer achieves stronger melody preservation and lyric adherence than Vevo2, the most comparable baseline supporting melody control without manual alignment. We also introduce LyricEditBench, the first benchmark for melody-preserv</p></section>
+    <section class="full"><h3>Abstract</h3><p>Reference-to-video (R2V) generation is a controllable video synthesis paradigm that constrains the generation process using both text prompts and reference images, enabling applications such as personalized advertising and virtual try-on. In practice, existing R2V methods typically introduce additional high-level semantic or cross-modal features alongside the VAE latent representation of the reference image and jointly feed them into the diffusion Transformer (DiT). These auxiliary representations provide semantic guidance and act as implicit alignment signals, which can partially alleviate pixel-level information leakage in the VAE latent space. However, they may still struggle to address copy--paste artifacts and multi-subject confusion caused by modality mismatch across heterogeneous en</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>First, we used a series of tables to represent the primary and main content of the Web.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>(1) The first generation of the ‘Frequency’s are the first, next, and final generation of the ‘Frequency’s and the subse...</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>.</p></section>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    <h2><a href="http://arxiv.org/abs/2603.25742v1" target="_blank" rel="noopener">Pseudogap and Non-Fermi-liquid criticality in double Kondo model for bilayer nickelates</a></h2>
+    <span class="meta">Published: 2026-03-26 | Authors: Jing-Yu Zhao, Ya-Hui Zhang | Tags: cond-mat.str-el</span>
+  </div>
+  <div class="card-body">
+    <section class="full"><h3>Abstract</h3><p>Motivated by recent experimental progress on high-temperature superconductivity in bilayer nickelates, we investigate the phase diagram of the normal state in a bilayer Kondo lattice model using single-site dynamical mean-field theory (DMFT). When the interlayer tunneling $t_\perp$ is absent, we identify a non-Fermi-liquid (NFL) critical point tuned by the interlayer spin coupling $J_\perp$ or hole doping $x$, which separates a standard Fermi liquid in the overdoped region from a distinct pseudogap (PG) metal in the underdoped regime. This PG phase, which we term the `second Fermi liquid' (sFL), exhibits small hole pockets and violates the perturbative Luttinger theorem despite the absence of symmetry breaking or fractionalization. The PG metal behaves like a heavy Fermi liquid, with small</p></section>
     <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>Lumina:
-Phanolinergic, Acneurotic, Cerebellar, and Cerebellar.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>How to use a flexible and flexible Lyric Manipulation and Annotation-free Melody Guidance.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>A number of papers have been published on the topic of the use of a non-Fermi-liquid criticality molecule:
+The following...</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Possible ways to generate zinc-ionate-based nickel-based nickel-based nickel-based nickel-based nickel-based nickel-base...</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2603.24587v1" target="_blank" rel="noopener">DreamerAD: Efficient Reinforcement Learning via Latent World Model for Autonomous Driving</a></h2>
-    <span class="meta">Published: 2026-03-25 | Authors: Pengxuan Yang, Yupeng Zheng, Deheng Qian, Zebin Xing, Qichao Zhang | Tags: cs.LG, cs.RO</span>
+    <h2><a href="http://arxiv.org/abs/2603.25741v1" target="_blank" rel="noopener">Vega: Learning to Drive with Natural Language Instructions</a></h2>
+    <span class="meta">Published: 2026-03-26 | Authors: Sicheng Zuo, Yuxuan Li, Wenzhao Zheng, Zheng Zhu, Jie Zhou | Tags: cs.CV, cs.AI, cs.RO</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>We introduce DreamerAD, the first latent world model framework that enables efficient reinforcement learning for autonomous driving by compressing diffusion sampling from 100 steps to 1 - achieving 80x speedup while maintaining visual interpretability. Training RL policies on real-world driving data incurs prohibitive costs and safety risks. While existing pixel-level diffusion world models enable safe imagination-based training, they suffer from multi-step diffusion inference latency (2s/frame) that prevents high-frequency RL interaction. Our approach leverages denoised latent features from video generation models through three key mechanisms: (1) shortcut forcing that reduces sampling complexity via recursive multi-resolution step compression, (2) an autoregressive dense reward model ope</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>For the first time, the human brain uses a neural network to learn, learn, and respond to tasks in ways that could be de...</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>The main goal of this paper is to provide a tool for solving problems in an autonomous environment.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Using the Latent World Model to learn about the future of autonomous driving.</p></section>
-  </div>
-</div>
-
-<div class="card">
-  <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2603.24586v1" target="_blank" rel="noopener">Comparing Developer and LLM Biases in Code Evaluation</a></h2>
-    <span class="meta">Published: 2026-03-25 | Authors: Aditya Mittal, Ryan Shar, Zichu Wu, Shyam Agarwal, Tongshuang Wu | Tags: cs.SE, cs.CL</span>
-  </div>
-  <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>As LLMs are increasingly used as judges in code applications, they should be evaluated in realistic interactive settings that capture partial context and ambiguous intent. We present TRACE (Tool for Rubric Analysis in Code Evaluation), a framework that evaluates LLM judges' ability to predict human preferences and automatically extracts rubric items to reveal systematic biases in how humans and models weigh each item. Across three modalities -- chat-based programming, IDE autocompletion, and instructed code editing -- we use TRACE to measure how well LLM judges align with developer preferences. Among 13 different models, the best judges underperform human annotators by 12-23%. TRACE identifies 35 significant sources of misalignment between humans and judges across interaction modalities, t</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The Compaq Toolkit - which is available for free to anyone.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>This article contains references to the following references in C++ code:
-There are three types of code evaluated:
-Compa...</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>A new approach using LLM to investigate and apply LLM's unique approach to code evaluation.</p></section>
+    <section class="full"><h3>Abstract</h3><p>Vision-language-action models have reshaped autonomous driving to incorporate languages into the decision-making process. However, most existing pipelines only utilize the language modality for scene descriptions or reasoning and lack the flexibility to follow diverse user instructions for personalized driving. To address this, we first construct a large-scale driving dataset (InstructScene) containing around 100,000 scenes annotated with diverse driving instructions with the corresponding trajectories. We then propose a unified Vision-Language-World-Action model, Vega, for instruction-based generation and planning. We employ the autoregressive paradigm to process visual inputs (vision) and language instructions (language) and the diffusion paradigm to generate future predictions (world mo</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>Tasks were created using the L.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>Reverse of the EVGA GeForce GTX 980 Ti
+Introduction:
+The GeForce GTX 980 Ti is a unique and highly anticipated EVGA GeFo...</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>For example, I've been working on a series of applications using the Spanish language to teach students about the natura...</p></section>
   </div>
 </div>
 </main>
 <footer>
   <a href="https://github.com/PranayMahendrakar/arxiv-llm-analyzer">PranayMahendrakar/arxiv-llm-analyzer</a>
-  | Powered by DistilGPT2 (HuggingFace Transformers) | No API keys | 2026-03-26 07:07 UTC
+  | Powered by DistilGPT2 (HuggingFace Transformers) | No API keys | 2026-03-27 07:07 UTC
 </footer>
 </body></html>
