@@ -1,116 +1,117 @@
 [
   {
     "paper": {
-      "title": "ShotStream: Streaming Multi-Shot Video Generation for Interactive Storytelling",
-      "summary": "Multi-shot video generation is crucial for long narrative storytelling, yet current bidirectional architectures suffer from limited interactivity and high latency. We propose ShotStream, a novel causal multi-shot architecture that enables interactive storytelling and efficient on-the-fly frame generation. By reformulating the task as next-shot generation conditioned on historical context, ShotStream allows users to dynamically instruct ongoing narratives via streaming prompts. We achieve this by first fine-tuning a text-to-video model into a bidirectional next-shot generator, which is then distilled into a causal student via Distribution Matching Distillation. To overcome the challenges of inter-shot consistency and error accumulation inherent in autoregressive generation, we introduce two",
+      "title": "Gen-Searcher: Reinforcing Agentic Search for Image Generation",
+      "summary": "Recent image generation models have shown strong capabilities in generating high-fidelity and photorealistic images. However, they are fundamentally constrained by frozen internal knowledge, thus often failing on real-world scenarios that are knowledge-intensive or require up-to-date information. In this paper, we present Gen-Searcher, as the first attempt to train a search-augmented image generation agent, which performs multi-hop reasoning and search to collect the textual knowledge and reference images needed for grounded generation. To achieve this, we construct a tailored data pipeline and curate two high-quality datasets, Gen-Searcher-SFT-10k and Gen-Searcher-RL-6k, containing diverse search-intensive prompts and corresponding ground-truth synthesis images. We further introduce KnowG",
       "authors": [
-        "Yawen Luo",
-        "Xiaoyu Shi",
-        "Junhao Zhuang",
-        "Yutian Chen",
-        "Quande Liu"
+        "Kaituo Feng",
+        "Manyuan Zhang",
+        "Shuang Chen",
+        "Yunlong Lin",
+        "Kaixuan Fan"
       ],
-      "link": "http://arxiv.org/abs/2603.25746v1",
-      "published": "2026-03-26",
+      "link": "http://arxiv.org/abs/2603.28767v1",
+      "published": "2026-03-30",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "The first step to getting to the most current and current media is to use your browser.",
-      "datasets": "This is a video of the action, which is shown in a preview.",
-      "future_work": "›\nhttps://www."
+      "key_methods": "In the first article in this series we discuss how to generate images that have an image that is not in the image.",
+      "datasets": "RSS:\nData Mining\nData Mining\nData Mining\nData Mining\nData Mining\nData Mining\nData Mining\nData Mining\nData Mining\nData Mi...",
+      "future_work": "Future DNA Research, Cell, and Cell Applications."
     }
   },
   {
     "paper": {
-      "title": "MuRF: Unlocking the Multi-Scale Potential of Vision Foundation Models",
-      "summary": "Vision Foundation Models (VFMs) have become the cornerstone of modern computer vision, offering robust representations across a wide array of tasks. While recent advances allow these models to handle varying input sizes during training, inference typically remains restricted to a single, fixed scale. This prevalent single-scale paradigm overlooks a fundamental property of visual perception: varying resolutions offer complementary inductive biases, where low-resolution views excel at global semantic recognition and high-resolution views are essential for fine-grained refinement. In this work, we propose Multi-Resolution Fusion (MuRF), a simple yet universally effective strategy to harness this synergy at inference time. Instead of relying on a single view, MuRF constructs a unified represen",
+      "title": "HandX: Scaling Bimanual Motion and Interaction Generation",
+      "summary": "Synthesizing human motion has advanced rapidly, yet realistic hand motion and bimanual interaction remain underexplored. Whole-body models often miss the fine-grained cues that drive dexterous behavior, finger articulation, contact timing, and inter-hand coordination, and existing resources lack high-fidelity bimanual sequences that capture nuanced finger dynamics and collaboration. To fill this gap, we present HandX, a unified foundation spanning data, annotation, and evaluation. We consolidate and filter existing datasets for quality, and collect a new motion-capture dataset targeting underrepresented bimanual interactions with detailed finger dynamics. For scalable annotation, we introduce a decoupled strategy that extracts representative motion features, e.g., contact events and finger",
       "authors": [
-        "Bocheng Zou",
-        "Mu Cai",
-        "Mark Stanley",
-        "Dingfu Lu",
-        "Yong Jae Lee"
+        "Zimu Zhang",
+        "Yucheng Zhang",
+        "Xiyan Xu",
+        "Ziyin Wang",
+        "Sirui Xu"
       ],
-      "link": "http://arxiv.org/abs/2603.25744v1",
-      "published": "2026-03-26",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": "[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [.",
-      "datasets": "A number of examples of the implementation of this approach are already on the web.",
-      "future_work": "More information on the project will be published in the next issue of PLOS ONE."
-    }
-  },
-  {
-    "paper": {
-      "title": "RefAlign: Representation Alignment for Reference-to-Video Generation",
-      "summary": "Reference-to-video (R2V) generation is a controllable video synthesis paradigm that constrains the generation process using both text prompts and reference images, enabling applications such as personalized advertising and virtual try-on. In practice, existing R2V methods typically introduce additional high-level semantic or cross-modal features alongside the VAE latent representation of the reference image and jointly feed them into the diffusion Transformer (DiT). These auxiliary representations provide semantic guidance and act as implicit alignment signals, which can partially alleviate pixel-level information leakage in the VAE latent space. However, they may still struggle to address copy--paste artifacts and multi-subject confusion caused by modality mismatch across heterogeneous en",
-      "authors": [
-        "Lei Wang",
-        "YuXin Song",
-        "Ge Wu",
-        "Haocheng Feng",
-        "Hang Zhou"
-      ],
-      "link": "http://arxiv.org/abs/2603.25743v1",
-      "published": "2026-03-26",
+      "link": "http://arxiv.org/abs/2603.28766v1",
+      "published": "2026-03-30",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
       "key_methods": ".",
-      "datasets": "(n)A.",
-      "future_work": "The use of the term align is to develop a method for understanding the use of the term align."
+      "datasets": "(Table 1:\nTable 2:\nTable 3:\nTable 4:\nTable 5:\nTable 6:\nTable 7:\nTable 8:\nTable 9:\nTable 10:\nTable 11:\nTable 12:.",
+      "future_work": "How to learn about the underlying algorithms in real time."
     }
   },
   {
     "paper": {
-      "title": "Pseudogap and Non-Fermi-liquid criticality in double Kondo model for bilayer nickelates",
-      "summary": "Motivated by recent experimental progress on high-temperature superconductivity in bilayer nickelates, we investigate the phase diagram of the normal state in a bilayer Kondo lattice model using single-site dynamical mean-field theory (DMFT). When the interlayer tunneling $t_\\perp$ is absent, we identify a non-Fermi-liquid (NFL) critical point tuned by the interlayer spin coupling $J_\\perp$ or hole doping $x$, which separates a standard Fermi liquid in the overdoped region from a distinct pseudogap (PG) metal in the underdoped regime. This PG phase, which we term the `second Fermi liquid' (sFL), exhibits small hole pockets and violates the perturbative Luttinger theorem despite the absence of symmetry breaking or fractionalization. The PG metal behaves like a heavy Fermi liquid, with small",
+      "title": "Adaptive Block-Scaled Data Types",
+      "summary": "NVFP4 has grown increasingly popular as a 4-bit format for quantizing large language models due to its hardware support and its ability to retain useful information with relatively few bits per parameter. However, the format is not without limitations: recent work has shown that NVFP4 suffers from its error distribution, resulting in large amounts of quantization error on near-maximal values in each group of 16 values. In this work, we leverage this insight to design new Adaptive Block-Scaled Data Types that can adapt to the distribution of their input values. For four-bit quantization, our proposed IF4 (Int/Float 4) data type selects between FP4 and INT4 representations for each group of 16 values, which are then scaled by an E4M3 scale factor as is done with NVFP4. The selected data type",
       "authors": [
-        "Jing-Yu Zhao",
-        "Ya-Hui Zhang"
+        "Jack Cook",
+        "Hyemin S. Lee",
+        "Kathryn Le",
+        "Junxian Guo",
+        "Giovanni Traverso"
       ],
-      "link": "http://arxiv.org/abs/2603.25742v1",
-      "published": "2026-03-26",
+      "link": "http://arxiv.org/abs/2603.28765v1",
+      "published": "2026-03-30",
       "categories": [
-        "cond-mat.str-el"
+        "cs.CL"
       ]
     },
     "analysis": {
-      "key_methods": ".",
-      "datasets": "The non-proliferous gas of the BHPLC model is about 3.",
-      "future_work": "Bolstered in a novel, non-invasive, non-invasive, non-invasive, non-invasive, non-invasive, non-invasive, non-invasive, ..."
+      "key_methods": "Using the following methods:\n(a)\n(b)\n(c)\n(d)\n(e)\n(f)\n(g)\n(h)\n(i)\n(ii)\n(iii.",
+      "datasets": "The Data Types.",
+      "future_work": "Modeling a ‐-system-specific model for a distributed distributed distributed ledger system."
     }
   },
   {
     "paper": {
-      "title": "Vega: Learning to Drive with Natural Language Instructions",
-      "summary": "Vision-language-action models have reshaped autonomous driving to incorporate languages into the decision-making process. However, most existing pipelines only utilize the language modality for scene descriptions or reasoning and lack the flexibility to follow diverse user instructions for personalized driving. To address this, we first construct a large-scale driving dataset (InstructScene) containing around 100,000 scenes annotated with diverse driving instructions with the corresponding trajectories. We then propose a unified Vision-Language-World-Action model, Vega, for instruction-based generation and planning. We employ the autoregressive paradigm to process visual inputs (vision) and language instructions (language) and the diffusion paradigm to generate future predictions (world mo",
+      "title": "Geometry-aware similarity metrics for neural representations on Riemannian and statistical manifolds",
+      "summary": "Similarity measures are widely used to interpret the representational geometries used by neural networks to solve tasks. Yet, because existing methods compare the extrinsic geometry of representations in state space, rather than their intrinsic geometry, they may fail to capture subtle yet crucial distinctions between fundamentally different neural network solutions. Here, we introduce metric similarity analysis (MSA), a novel method which leverages tools from Riemannian geometry to compare the intrinsic geometry of neural representations under the manifold hypothesis. We show that MSA can be used to i) disentangle features of neural computations in deep networks with different learning regimes, ii) compare nonlinear dynamics, and iii) investigate diffusion models. Hence, we introduce a ma",
       "authors": [
-        "Sicheng Zuo",
-        "Yuxuan Li",
-        "Wenzhao Zheng",
-        "Zheng Zhu",
-        "Jie Zhou"
+        "N Alex Cayco Gajic",
+        "Arthur Pellegrino"
       ],
-      "link": "http://arxiv.org/abs/2603.25741v1",
-      "published": "2026-03-26",
+      "link": "http://arxiv.org/abs/2603.28764v1",
+      "published": "2026-03-30",
       "categories": [
-        "cs.CV",
+        "cs.LG",
         "cs.AI",
-        "cs.RO"
+        "math.DG",
+        "q-bio.NC"
       ]
     },
     "analysis": {
-      "key_methods": "Directional motion was used.",
-      "datasets": "Vega: Learning to Drive with Natural Language Instructions.",
-      "future_work": "To get started, you can sign up here."
+      "key_methods": "To evaluate the similarity metrics used in the previous version of the graph, the following algorithms were used:\nFirst,...",
+      "datasets": "Brief Introduction\nIn response to a request for an example for an example for an example for an example for an example f...",
+      "future_work": "In collaboration with E-Breen and colleagues, we plan to introduce an algorithmic approach to neural representation usin..."
+    }
+  },
+  {
+    "paper": {
+      "title": "PoseDreamer: Scalable and Photorealistic Human Data Generation Pipeline with Diffusion Models",
+      "summary": "Acquiring labeled datasets for 3D human mesh estimation is challenging due to depth ambiguities and the inherent difficulty of annotating 3D geometry from monocular images. Existing datasets are either real, with manually annotated 3D geometry and limited scale, or synthetic, rendered from 3D engines that provide precise labels but suffer from limited photorealism, low diversity, and high production costs. In this work, we explore a third path: generated data. We introduce PoseDreamer, a novel pipeline that leverages diffusion models to generate large-scale synthetic datasets with 3D mesh annotations. Our approach combines controllable image generation with Direct Preference Optimization for control alignment, curriculum-based hard sample mining, and multi-stage quality filtering. Together",
+      "authors": [
+        "Lorenza Prospero",
+        "Orest Kupyn",
+        "Ostap Viniavskyi",
+        "João F. Henriques",
+        "Christian Rupprecht"
+      ],
+      "link": "http://arxiv.org/abs/2603.28763v1",
+      "published": "2026-03-30",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": ".",
+      "datasets": ".",
+      "future_work": "Theoretical and Technical Research, Proceedings of the National Academy of Sciences, 2009, DOI: 10."
     }
   }
 ]
