@@ -54,114 +54,82 @@
   <div class="stat"><div class="n">5</div><div class="l">Papers</div></div>
   <div class="stat"><div class="n">distilgpt2</div><div class="l">LLM Model</div></div>
   <div class="stat"><div class="n">large language m</div><div class="l">Query</div></div>
-  <div class="stat"><div class="n">2026-04-09</div><div class="l">Updated UTC</div></div>
+  <div class="stat"><div class="n">2026-04-10</div><div class="l">Updated UTC</div></div>
 </div>
 <main>
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2604.07350v1" target="_blank" rel="noopener">Fast Spatial Memory with Elastic Test-Time Training</a></h2>
-    <span class="meta">Published: 2026-04-08 | Authors: Ziqiao Ma, Xueyang Yu, Haoyu Zhen, Yuncong Yang, Joyce Chai | Tags: cs.CV, cs.GR, cs.LG</span>
+    <h2><a href="http://arxiv.org/abs/2604.08548v1" target="_blank" rel="noopener">ETCH-X: Robustify Expressive Body Fitting to Clothed Humans with Composable Datasets</a></h2>
+    <span class="meta">Published: 2026-04-09 | Authors: Xiaoben Li, Jingyi Wu, Zeyu Cai, Yu Siyuan, Boqian Li | Tags: cs.CV</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Large Chunk Test-Time Training (LaCT) has shown strong performance on long-context 3D reconstruction, but its fully plastic inference-time updates remain vulnerable to catastrophic forgetting and overfitting. As a result, LaCT is typically instantiated with a single large chunk spanning the full input sequence, falling short of the broader goal of handling arbitrarily long sequences in a single pass. We propose Elastic Test-Time Training inspired by elastic weight consolidation, that stabilizes LaCT fast-weight updates with a Fisher-weighted elastic prior around a maintained anchor state. The anchor evolves as an exponential moving average of past fast weights to balance stability and plasticity. Based on this updated architecture, we introduce Fast Spatial Memory (FSM), an efficient and s</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The data from the top of the web site is displayed on the top of the page.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>-
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>The Fast Spatial Memory with Elastic Test-Time Training.</p></section>
+    <section class="full"><h3>Abstract</h3><p>Human body fitting, which aligns parametric body models such as SMPL to raw 3D point clouds of clothed humans, serves as a crucial first step for downstream tasks like animation and texturing. An effective fitting method should be both locally expressive-capturing fine details such as hands and facial features-and globally robust to handle real-world challenges, including clothing dynamics, pose variations, and noisy or partial inputs. Existing approaches typically excel in only one aspect, lacking an all-in-one solution.We upgrade ETCH to ETCH-X, which leverages a tightness-aware fitting paradigm to filter out clothing dynamics ("undress"), extends expressiveness with SMPL-X, and replaces explicit sparse markers (which are highly sensitive to partial data) with implicit dense corresponden</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>We used a simple, simple, self-sustaining algorithm:
+If we didn't know what to do, we would need to write a simple, self...</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>So what do you think? Does this mean the ability to create and manage your body isn't just a matter of personal preferen...</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>A new, more sophisticated, more cost-effective, and more reliable method of quantifying body fat loss
+The New York Times...</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2604.07348v1" target="_blank" rel="noopener">MoRight: Motion Control Done Right</a></h2>
-    <span class="meta">Published: 2026-04-08 | Authors: Shaowei Liu, Xuanchi Ren, Tianchang Shen, Huan Ling, Saurabh Gupta | Tags: cs.CV, cs.AI, cs.GR</span>
+    <h2><a href="http://arxiv.org/abs/2604.08546v1" target="_blank" rel="noopener">When Numbers Speak: Aligning Textual Numerals and Visual Instances in Text-to-Video Diffusion Models</a></h2>
+    <span class="meta">Published: 2026-04-09 | Authors: Zhengyang Sun, Yu Chen, Xin Zhou, Xiaofan Li, Xiwu Chen | Tags: cs.CV</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Generating motion-controlled videos--where user-specified actions drive physically plausible scene dynamics under freely chosen viewpoints--demands two capabilities: (1) disentangled motion control, allowing users to separately control the object motion and adjust camera viewpoint; and (2) motion causality, ensuring that user-driven actions trigger coherent reactions from other objects rather than merely displacing pixels. Existing methods fall short on both fronts: they entangle camera and object motion into a single tracking signal and treat motion as kinematic displacement without modeling causal relationships between object motion. We introduce MoRight, a unified framework that addresses both limitations through disentangled motion modeling. Object motion is specified in a canonical st</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>1.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>Data:
-Datasets referenced:
-Datasets mentioned:
-Datasets referenced:
-Datasets referenced:
-Datasets referenced:
-Datasets r...</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>The problem of motion controls is hard to solve.</p></section>
+    <section class="full"><h3>Abstract</h3><p>Text-to-video diffusion models have enabled open-ended video synthesis, but often struggle with generating the correct number of objects specified in a prompt. We introduce NUMINA , a training-free identify-then-guide framework for improved numerical alignment. NUMINA identifies prompt-layout inconsistencies by selecting discriminative self- and cross-attention heads to derive a countable latent layout. It then refines this layout conservatively and modulates cross-attention to guide regeneration. On the introduced CountBench, NUMINA improves counting accuracy by up to 7.4% on Wan2.1-1.3B, and by 4.9% and 5.5% on 5B and 14B models, respectively. Furthermore, CLIP alignment is improved while maintaining temporal consistency. These results demonstrate that structural guidance complements see</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The first step in this paper is to use the following mathematical models to create a text-to-video diffusion model.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>We have created a new method to make text-to-video diffraction models which use a graphical interface called the Image P...</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>The results of 3D modeling of the text-to-video Diffusion Model (DMS), a non-linear or stochastic model, will be publish...</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2604.07347v1" target="_blank" rel="noopener">Temporal Structure Mediates the Robustness and Collapse of Plant-Pollinator Networks</a></h2>
-    <span class="meta">Published: 2026-04-08 | Authors: Tom Clegg, Thilo Gross | Tags: physics.soc-ph, q-bio.PE</span>
+    <h2><a href="http://arxiv.org/abs/2604.08545v1" target="_blank" rel="noopener">Act Wisely: Cultivating Meta-Cognitive Tool Use in Agentic Multimodal Models</a></h2>
+    <span class="meta">Published: 2026-04-09 | Authors: Shilin Yan, Jintao Tong, Hongwei Xue, Xiaojun Tang, Yangyang Wang | Tags: cs.CV, cs.AI</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Mutualistic networks provide a powerful way to describe and analyse plant-pollinator communities and their structure over time. While these networks capture the complex interdependencies that link population fates across the season, they can be hard to untangle, preventing us from understanding the emergence of community-scale properties and responses to perturbation. Here, we address this problem by developing a structural model of a plant-pollinator community that explicitly incorporates seasonal turnover and the temporal nature of species interactions. We analyse our model using percolation methods from network science to derive simple analytical solutions linking network structure to emergent community diversity. Our findings reveal that temporal structure organises community diversity</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>We can also use a very simple technique to understand the structure of the brain and its functions in this case.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Experimental techniques to improve the quality of the network and the ability of the researchers to adapt to new opportu...</p></section>
+    <section class="full"><h3>Abstract</h3><p>The advent of agentic multimodal models has empowered systems to actively interact with external environments. However, current agents suffer from a profound meta-cognitive deficit: they struggle to arbitrate between leveraging internal knowledge and querying external utilities. Consequently, they frequently fall prey to blind tool invocation, resorting to reflexive tool execution even when queries are resolvable from the raw visual context. This pathological behavior precipitates severe latency bottlenecks and injects extraneous noise that derails sound reasoning. Existing reinforcement learning protocols attempt to mitigate this via a scalarized reward that penalizes tool usage. Yet, this coupled formulation creates an irreconcilable optimization dilemma: an aggressive penalty suppresses</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The use of the meta-cognitive tool can be considered as a tool if it is used to develop an understanding of the agentic ...</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>1) Intuitively we can infer the value of the value of the target agent in the case of a query, and 2) In this case, you ...</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Using meta-cognitive tools for evaluating an agentic multimodal model is needed.</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2604.07346v1" target="_blank" rel="noopener">Interaction-Mediated Non-Reciprocal Dynamics in Open Quantum Systems: From an Exactly Solvable Model to Generic Behavior</a></h2>
-    <span class="meta">Published: 2026-04-08 | Authors: Pietro Borchia, Johannes Knolle, Andreas Nunnenkamp | Tags: quant-ph, cond-mat.mes-hall</span>
+    <h2><a href="http://arxiv.org/abs/2604.08544v1" target="_blank" rel="noopener">SIM1: Physics-Aligned Simulator as Zero-Shot Data Scaler in Deformable Worlds</a></h2>
+    <span class="meta">Published: 2026-04-09 | Authors: Yunsong Zhou, Hangxu Liu, Xuekun Jiang, Xing Shen, Yuanzhen Zhou | Tags: cs.RO, cs.AI, cs.CV</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Reservoir engineering has emerged as a powerful paradigm to realize non-reciprocal dynamics in open quantum many-body systems. Here, we show that density-density interactions can transfer bath-induced non-reciprocity between different degrees of freedom. Specifically, we investigate a one-dimensional lattice of spin-$\frac{1}{2}$ fermions with all-to-all Hatsugai-Kohmoto interactions in the presence of an engineered reservoir. We establish the exact solvability of the Lindbladian dynamics and show that the interplay between non-reciprocity and interactions qualitatively reshapes the dynamics of excitations. Remarkably, interactions induce directional drift even in spin sectors that are not directly coupled to the reservoir. By analyzing a driven-dissipative Fermi-Hubbard chain, we show tha</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>Introduction
-The paper describes the fundamental mechanisms of the interaction-mediated non-reciprocal interactions of t...</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>C.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>A computational model for the interaction-mediated non-reciprocal dynamics in open quantum systems.</p></section>
+    <section class="full"><h3>Abstract</h3><p>Robotic manipulation with deformable objects represents a data-intensive regime in embodied learning, where shape, contact, and topology co-evolve in ways that far exceed the variability of rigids. Although simulation promises relief from the cost of real-world data acquisition, prevailing sim-to-real pipelines remain rooted in rigid-body abstractions, producing mismatched geometry, fragile soft dynamics, and motion primitives poorly suited for cloth interaction. We posit that simulation fails not for being synthetic, but for being ungrounded. To address this, we introduce SIM1, a physics-aligned real-to-sim-to-real data engine that grounds simulation in the physical world. Given limited demonstrations, the system digitizes scenes into metric-consistent twins, calibrates deformable dynamic</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>For a real world simulation on a microchip, let's look at how we can create a simulation using the GPU, a type of graphi...</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>Nvidia GeForce GTX 970 GPU
+Intel AMD Radeon R9 290 GPU
+Intel AMD Radeon R9 290 GPU
+Intel AMD Radeon R9 290 GPU
+Intel AMD...</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Using the 3D printed data from the 3D printed data from the 3D printed data from the 3D printed data from the 3D printed...</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2604.07345v1" target="_blank" rel="noopener">Measurement of Generative AI Workload Power Profiles for Whole-Facility Data Center Infrastructure Planning</a></h2>
-    <span class="meta">Published: 2026-04-08 | Authors: Roberto Vercellino, Jared Willard, Gustavo Campos, Weslley da Silva Pereira, Olivia Hull | Tags: eess.SY, cs.DC, cs.LG</span>
+    <h2><a href="http://arxiv.org/abs/2604.08543v1" target="_blank" rel="noopener">E-3DPSM: A State Machine for Event-Based Egocentric 3D Human Pose Estimation</a></h2>
+    <span class="meta">Published: 2026-04-09 | Authors: Mayur Deshmukh, Hiroyasu Akada, Helge Rhodin, Christian Theobalt, Vladislav Golyanik | Tags: cs.CV</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>The rapid growth of generative artificial intelligence (AI) has introduced unprecedented computational demands, driving significant increases in the energy footprint of data centers. However, existing power consumption data is largely proprietary and reported at varying resolutions, creating challenges for estimating whole-facility energy use and planning infrastructure. In this work, we present a methodology that bridges this gap by linking high-resolution workload power measurements to whole-facility energy demand. Using NLR's high-performance computing data center equipped with NVIDIA H100 GPUs, we measure power consumption of AI workloads at 0.1-second resolution for AI training, fine-tuning and inference jobs. Workloads are characterized using MLCommons benchmarks for model training a</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>The project was run with the following two main data centers:
-RANETO IT
-RANETO IT
-RANETO IT
-RANETO IT
-RANETO IT
-RANETO I...</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Brief introduction:
-I'm going to introduce a new approach based on a couple of years of work that I've done.</p></section>
+    <section class="full"><h3>Abstract</h3><p>Event cameras offer multiple advantages in monocular egocentric 3D human pose estimation from head-mounted devices, such as millisecond temporal resolution, high dynamic range, and negligible motion blur. Existing methods effectively leverage these properties, but suffer from low 3D estimation accuracy, insufficient in many applications (e.g., immersive VR/AR). This is due to the design not being fully tailored towards event streams (e.g., their asynchronous and continuous nature), leading to high sensitivity to self-occlusions and temporal jitter in the estimates. This paper rethinks the setting and introduces E-3DPSM, an event-driven continuous pose state machine for event-based egocentric 3D human pose estimation. E-3DPSM aligns continuous human motion with fine-grained event dynamics; </p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>Modeling of the Human Pose Estimation.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>Ego, I think the first thing I like about the E3DPSM is the fact that it is a super-reliable 3D platform and can be easi...</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>E-3DPSM: A State Machine for Event-Based Egocentric 3D Human Pose Estimation.</p></section>
   </div>
 </div>
 </main>
 <footer>
   <a href="https://github.com/PranayMahendrakar/arxiv-llm-analyzer">PranayMahendrakar/arxiv-llm-analyzer</a>
-  | Powered by DistilGPT2 (HuggingFace Transformers) | No API keys | 2026-04-09 07:21 UTC
+  | Powered by DistilGPT2 (HuggingFace Transformers) | No API keys | 2026-04-10 07:27 UTC
 </footer>
 </body></html>

@@ -1,122 +1,120 @@
 [
   {
     "paper": {
-      "title": "Fast Spatial Memory with Elastic Test-Time Training",
-      "summary": "Large Chunk Test-Time Training (LaCT) has shown strong performance on long-context 3D reconstruction, but its fully plastic inference-time updates remain vulnerable to catastrophic forgetting and overfitting. As a result, LaCT is typically instantiated with a single large chunk spanning the full input sequence, falling short of the broader goal of handling arbitrarily long sequences in a single pass. We propose Elastic Test-Time Training inspired by elastic weight consolidation, that stabilizes LaCT fast-weight updates with a Fisher-weighted elastic prior around a maintained anchor state. The anchor evolves as an exponential moving average of past fast weights to balance stability and plasticity. Based on this updated architecture, we introduce Fast Spatial Memory (FSM), an efficient and s",
+      "title": "ETCH-X: Robustify Expressive Body Fitting to Clothed Humans with Composable Datasets",
+      "summary": "Human body fitting, which aligns parametric body models such as SMPL to raw 3D point clouds of clothed humans, serves as a crucial first step for downstream tasks like animation and texturing. An effective fitting method should be both locally expressive-capturing fine details such as hands and facial features-and globally robust to handle real-world challenges, including clothing dynamics, pose variations, and noisy or partial inputs. Existing approaches typically excel in only one aspect, lacking an all-in-one solution.We upgrade ETCH to ETCH-X, which leverages a tightness-aware fitting paradigm to filter out clothing dynamics (\"undress\"), extends expressiveness with SMPL-X, and replaces explicit sparse markers (which are highly sensitive to partial data) with implicit dense corresponden",
       "authors": [
-        "Ziqiao Ma",
-        "Xueyang Yu",
-        "Haoyu Zhen",
-        "Yuncong Yang",
-        "Joyce Chai"
+        "Xiaoben Li",
+        "Jingyi Wu",
+        "Zeyu Cai",
+        "Yu Siyuan",
+        "Boqian Li"
       ],
-      "link": "http://arxiv.org/abs/2604.07350v1",
-      "published": "2026-04-08",
+      "link": "http://arxiv.org/abs/2604.08548v1",
+      "published": "2026-04-09",
       "categories": [
-        "cs.CV",
-        "cs.GR",
-        "cs.LG"
+        "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "The data from the top of the web site is displayed on the top of the page.",
-      "datasets": "-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-.",
-      "future_work": "The Fast Spatial Memory with Elastic Test-Time Training."
+      "key_methods": "We used a simple, simple, self-sustaining algorithm:\nIf we didn't know what to do, we would need to write a simple, self...",
+      "datasets": "So what do you think? Does this mean the ability to create and manage your body isn't just a matter of personal preferen...",
+      "future_work": "A new, more sophisticated, more cost-effective, and more reliable method of quantifying body fat loss\nThe New York Times..."
     }
   },
   {
     "paper": {
-      "title": "MoRight: Motion Control Done Right",
-      "summary": "Generating motion-controlled videos--where user-specified actions drive physically plausible scene dynamics under freely chosen viewpoints--demands two capabilities: (1) disentangled motion control, allowing users to separately control the object motion and adjust camera viewpoint; and (2) motion causality, ensuring that user-driven actions trigger coherent reactions from other objects rather than merely displacing pixels. Existing methods fall short on both fronts: they entangle camera and object motion into a single tracking signal and treat motion as kinematic displacement without modeling causal relationships between object motion. We introduce MoRight, a unified framework that addresses both limitations through disentangled motion modeling. Object motion is specified in a canonical st",
+      "title": "When Numbers Speak: Aligning Textual Numerals and Visual Instances in Text-to-Video Diffusion Models",
+      "summary": "Text-to-video diffusion models have enabled open-ended video synthesis, but often struggle with generating the correct number of objects specified in a prompt. We introduce NUMINA , a training-free identify-then-guide framework for improved numerical alignment. NUMINA identifies prompt-layout inconsistencies by selecting discriminative self- and cross-attention heads to derive a countable latent layout. It then refines this layout conservatively and modulates cross-attention to guide regeneration. On the introduced CountBench, NUMINA improves counting accuracy by up to 7.4% on Wan2.1-1.3B, and by 4.9% and 5.5% on 5B and 14B models, respectively. Furthermore, CLIP alignment is improved while maintaining temporal consistency. These results demonstrate that structural guidance complements see",
       "authors": [
-        "Shaowei Liu",
-        "Xuanchi Ren",
-        "Tianchang Shen",
-        "Huan Ling",
-        "Saurabh Gupta"
+        "Zhengyang Sun",
+        "Yu Chen",
+        "Xin Zhou",
+        "Xiaofan Li",
+        "Xiwu Chen"
       ],
-      "link": "http://arxiv.org/abs/2604.07348v1",
-      "published": "2026-04-08",
+      "link": "http://arxiv.org/abs/2604.08546v1",
+      "published": "2026-04-09",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The first step in this paper is to use the following mathematical models to create a text-to-video diffusion model.",
+      "datasets": "We have created a new method to make text-to-video diffraction models which use a graphical interface called the Image P...",
+      "future_work": "The results of 3D modeling of the text-to-video Diffusion Model (DMS), a non-linear or stochastic model, will be publish..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Act Wisely: Cultivating Meta-Cognitive Tool Use in Agentic Multimodal Models",
+      "summary": "The advent of agentic multimodal models has empowered systems to actively interact with external environments. However, current agents suffer from a profound meta-cognitive deficit: they struggle to arbitrate between leveraging internal knowledge and querying external utilities. Consequently, they frequently fall prey to blind tool invocation, resorting to reflexive tool execution even when queries are resolvable from the raw visual context. This pathological behavior precipitates severe latency bottlenecks and injects extraneous noise that derails sound reasoning. Existing reinforcement learning protocols attempt to mitigate this via a scalarized reward that penalizes tool usage. Yet, this coupled formulation creates an irreconcilable optimization dilemma: an aggressive penalty suppresses",
+      "authors": [
+        "Shilin Yan",
+        "Jintao Tong",
+        "Hongwei Xue",
+        "Xiaojun Tang",
+        "Yangyang Wang"
+      ],
+      "link": "http://arxiv.org/abs/2604.08545v1",
+      "published": "2026-04-09",
       "categories": [
         "cs.CV",
+        "cs.AI"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The use of the meta-cognitive tool can be considered as a tool if it is used to develop an understanding of the agentic ...",
+      "datasets": "1) Intuitively we can infer the value of the value of the target agent in the case of a query, and 2) In this case, you ...",
+      "future_work": "Using meta-cognitive tools for evaluating an agentic multimodal model is needed."
+    }
+  },
+  {
+    "paper": {
+      "title": "SIM1: Physics-Aligned Simulator as Zero-Shot Data Scaler in Deformable Worlds",
+      "summary": "Robotic manipulation with deformable objects represents a data-intensive regime in embodied learning, where shape, contact, and topology co-evolve in ways that far exceed the variability of rigids. Although simulation promises relief from the cost of real-world data acquisition, prevailing sim-to-real pipelines remain rooted in rigid-body abstractions, producing mismatched geometry, fragile soft dynamics, and motion primitives poorly suited for cloth interaction. We posit that simulation fails not for being synthetic, but for being ungrounded. To address this, we introduce SIM1, a physics-aligned real-to-sim-to-real data engine that grounds simulation in the physical world. Given limited demonstrations, the system digitizes scenes into metric-consistent twins, calibrates deformable dynamic",
+      "authors": [
+        "Yunsong Zhou",
+        "Hangxu Liu",
+        "Xuekun Jiang",
+        "Xing Shen",
+        "Yuanzhen Zhou"
+      ],
+      "link": "http://arxiv.org/abs/2604.08544v1",
+      "published": "2026-04-09",
+      "categories": [
+        "cs.RO",
         "cs.AI",
-        "cs.GR",
-        "cs.LG",
-        "cs.RO"
+        "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "1.",
-      "datasets": "Data:\nDatasets referenced:\nDatasets mentioned:\nDatasets referenced:\nDatasets referenced:\nDatasets referenced:\nDatasets r...",
-      "future_work": "The problem of motion controls is hard to solve."
+      "key_methods": "For a real world simulation on a microchip, let's look at how we can create a simulation using the GPU, a type of graphi...",
+      "datasets": "Nvidia GeForce GTX 970 GPU\nIntel AMD Radeon R9 290 GPU\nIntel AMD Radeon R9 290 GPU\nIntel AMD Radeon R9 290 GPU\nIntel AMD...",
+      "future_work": "Using the 3D printed data from the 3D printed data from the 3D printed data from the 3D printed data from the 3D printed..."
     }
   },
   {
     "paper": {
-      "title": "Temporal Structure Mediates the Robustness and Collapse of Plant-Pollinator Networks",
-      "summary": "Mutualistic networks provide a powerful way to describe and analyse plant-pollinator communities and their structure over time. While these networks capture the complex interdependencies that link population fates across the season, they can be hard to untangle, preventing us from understanding the emergence of community-scale properties and responses to perturbation. Here, we address this problem by developing a structural model of a plant-pollinator community that explicitly incorporates seasonal turnover and the temporal nature of species interactions. We analyse our model using percolation methods from network science to derive simple analytical solutions linking network structure to emergent community diversity. Our findings reveal that temporal structure organises community diversity",
+      "title": "E-3DPSM: A State Machine for Event-Based Egocentric 3D Human Pose Estimation",
+      "summary": "Event cameras offer multiple advantages in monocular egocentric 3D human pose estimation from head-mounted devices, such as millisecond temporal resolution, high dynamic range, and negligible motion blur. Existing methods effectively leverage these properties, but suffer from low 3D estimation accuracy, insufficient in many applications (e.g., immersive VR/AR). This is due to the design not being fully tailored towards event streams (e.g., their asynchronous and continuous nature), leading to high sensitivity to self-occlusions and temporal jitter in the estimates. This paper rethinks the setting and introduces E-3DPSM, an event-driven continuous pose state machine for event-based egocentric 3D human pose estimation. E-3DPSM aligns continuous human motion with fine-grained event dynamics; ",
       "authors": [
-        "Tom Clegg",
-        "Thilo Gross"
+        "Mayur Deshmukh",
+        "Hiroyasu Akada",
+        "Helge Rhodin",
+        "Christian Theobalt",
+        "Vladislav Golyanik"
       ],
-      "link": "http://arxiv.org/abs/2604.07347v1",
-      "published": "2026-04-08",
+      "link": "http://arxiv.org/abs/2604.08543v1",
+      "published": "2026-04-09",
       "categories": [
-        "physics.soc-ph",
-        "q-bio.PE"
+        "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": ".",
-      "datasets": "We can also use a very simple technique to understand the structure of the brain and its functions in this case.",
-      "future_work": "Experimental techniques to improve the quality of the network and the ability of the researchers to adapt to new opportu..."
-    }
-  },
-  {
-    "paper": {
-      "title": "Interaction-Mediated Non-Reciprocal Dynamics in Open Quantum Systems: From an Exactly Solvable Model to Generic Behavior",
-      "summary": "Reservoir engineering has emerged as a powerful paradigm to realize non-reciprocal dynamics in open quantum many-body systems. Here, we show that density-density interactions can transfer bath-induced non-reciprocity between different degrees of freedom. Specifically, we investigate a one-dimensional lattice of spin-$\\frac{1}{2}$ fermions with all-to-all Hatsugai-Kohmoto interactions in the presence of an engineered reservoir. We establish the exact solvability of the Lindbladian dynamics and show that the interplay between non-reciprocity and interactions qualitatively reshapes the dynamics of excitations. Remarkably, interactions induce directional drift even in spin sectors that are not directly coupled to the reservoir. By analyzing a driven-dissipative Fermi-Hubbard chain, we show tha",
-      "authors": [
-        "Pietro Borchia",
-        "Johannes Knolle",
-        "Andreas Nunnenkamp"
-      ],
-      "link": "http://arxiv.org/abs/2604.07346v1",
-      "published": "2026-04-08",
-      "categories": [
-        "quant-ph",
-        "cond-mat.mes-hall"
-      ]
-    },
-    "analysis": {
-      "key_methods": "Introduction\nThe paper describes the fundamental mechanisms of the interaction-mediated non-reciprocal interactions of t...",
-      "datasets": "C.",
-      "future_work": "A computational model for the interaction-mediated non-reciprocal dynamics in open quantum systems."
-    }
-  },
-  {
-    "paper": {
-      "title": "Measurement of Generative AI Workload Power Profiles for Whole-Facility Data Center Infrastructure Planning",
-      "summary": "The rapid growth of generative artificial intelligence (AI) has introduced unprecedented computational demands, driving significant increases in the energy footprint of data centers. However, existing power consumption data is largely proprietary and reported at varying resolutions, creating challenges for estimating whole-facility energy use and planning infrastructure. In this work, we present a methodology that bridges this gap by linking high-resolution workload power measurements to whole-facility energy demand. Using NLR's high-performance computing data center equipped with NVIDIA H100 GPUs, we measure power consumption of AI workloads at 0.1-second resolution for AI training, fine-tuning and inference jobs. Workloads are characterized using MLCommons benchmarks for model training a",
-      "authors": [
-        "Roberto Vercellino",
-        "Jared Willard",
-        "Gustavo Campos",
-        "Weslley da Silva Pereira",
-        "Olivia Hull"
-      ],
-      "link": "http://arxiv.org/abs/2604.07345v1",
-      "published": "2026-04-08",
-      "categories": [
-        "eess.SY",
-        "cs.DC",
-        "cs.LG"
-      ]
-    },
-    "analysis": {
-      "key_methods": ".",
-      "datasets": "The project was run with the following two main data centers:\nRANETO IT\nRANETO IT\nRANETO IT\nRANETO IT\nRANETO IT\nRANETO I...",
-      "future_work": "Brief introduction:\nI'm going to introduce a new approach based on a couple of years of work that I've done."
+      "key_methods": "Modeling of the Human Pose Estimation.",
+      "datasets": "Ego, I think the first thing I like about the E3DPSM is the fact that it is a super-reliable 3D platform and can be easi...",
+      "future_work": "E-3DPSM: A State Machine for Event-Based Egocentric 3D Human Pose Estimation."
     }
   }
 ]
