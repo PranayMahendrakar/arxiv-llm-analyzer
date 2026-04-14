@@ -1,120 +1,119 @@
 [
   {
     "paper": {
-      "title": "ETCH-X: Robustify Expressive Body Fitting to Clothed Humans with Composable Datasets",
-      "summary": "Human body fitting, which aligns parametric body models such as SMPL to raw 3D point clouds of clothed humans, serves as a crucial first step for downstream tasks like animation and texturing. An effective fitting method should be both locally expressive-capturing fine details such as hands and facial features-and globally robust to handle real-world challenges, including clothing dynamics, pose variations, and noisy or partial inputs. Existing approaches typically excel in only one aspect, lacking an all-in-one solution.We upgrade ETCH to ETCH-X, which leverages a tightness-aware fitting paradigm to filter out clothing dynamics (\"undress\"), extends expressiveness with SMPL-X, and replaces explicit sparse markers (which are highly sensitive to partial data) with implicit dense corresponden",
+      "title": "Pair2Scene: Learning Local Object Relations for Procedural Scene Generation",
+      "summary": "Generating high-fidelity 3D indoor scenes remains a significant challenge due to data scarcity and the complexity of modeling intricate spatial relations. Current methods often struggle to scale beyond training distribution to dense scenes or rely on LLMs/VLMs that lack the ability for precise spatial reasoning. Building on top of the observation that object placement relies mainly on local dependencies instead of information-redundant global distributions, in this paper, we propose Pair2Scene, a novel procedural generation framework that integrates learned local rules with scene hierarchies and physics-based algorithms. These rules mainly capture two types of inter-object relations, namely support relations that follow physical hierarchies, and functional relations that reflect semantic l",
       "authors": [
-        "Xiaoben Li",
-        "Jingyi Wu",
-        "Zeyu Cai",
-        "Yu Siyuan",
-        "Boqian Li"
+        "Xingjian Ran",
+        "Shujie Zhang",
+        "Weipeng Zhong",
+        "Li Luo",
+        "Bo Dai"
       ],
-      "link": "http://arxiv.org/abs/2604.08548v1",
-      "published": "2026-04-09",
+      "link": "http://arxiv.org/abs/2604.11808v1",
+      "published": "2026-04-13",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "The use of a data model of both body and brain as a model of body composition.",
-      "datasets": "A great addition to the workflow in the beginning of the project is the ability to create a single set of data to be sto...",
-      "future_work": "A more robust data-driven approach to the human health and survival of new organisms."
+      "key_methods": "Methods:\nThe following methods were used to determine the local object relationship using a method that was based on a l...",
+      "datasets": "One of the most well-known examples of the approach is the simple, easy-to-learn algorithm.",
+      "future_work": "The study is supported by the National Institute of Standards and Technology (NIST), the US National Science Foundation ..."
     }
   },
   {
     "paper": {
-      "title": "When Numbers Speak: Aligning Textual Numerals and Visual Instances in Text-to-Video Diffusion Models",
-      "summary": "Text-to-video diffusion models have enabled open-ended video synthesis, but often struggle with generating the correct number of objects specified in a prompt. We introduce NUMINA , a training-free identify-then-guide framework for improved numerical alignment. NUMINA identifies prompt-layout inconsistencies by selecting discriminative self- and cross-attention heads to derive a countable latent layout. It then refines this layout conservatively and modulates cross-attention to guide regeneration. On the introduced CountBench, NUMINA improves counting accuracy by up to 7.4% on Wan2.1-1.3B, and by 4.9% and 5.5% on 5B and 14B models, respectively. Furthermore, CLIP alignment is improved while maintaining temporal consistency. These results demonstrate that structural guidance complements see",
+      "title": "Physics-Informed State Space Models for Reliable Solar Irradiance Forecasting in Off-Grid Systems",
+      "summary": "The stable operation of autonomous off-grid photovoltaic systems dictates reliance on solar forecasting algorithms that respect atmospheric thermodynamics. Contemporary deep learning models consistently exhibit critical anomalies, primarily severe temporal phase lags during cloud transients and physically impossible nocturnal power generation. To resolve this divergence between data-driven modeling and deterministic celestial mechanics, this research introduces the Thermodynamic Liquid Manifold Network. The proposed methodology projects 15 meteorological and geometric variables into a Koopman-linearized Riemannian manifold to systematically map complex climatic dynamics. The architecture integrates a Spectral Calibration unit and a multiplicative Thermodynamic Alpha-Gate. This system synth",
       "authors": [
-        "Zhengyang Sun",
-        "Yu Chen",
-        "Xin Zhou",
-        "Xiaofan Li",
-        "Xiwu Chen"
+        "Mohammed Ezzaldin Babiker Abdullah"
       ],
-      "link": "http://arxiv.org/abs/2604.08546v1",
-      "published": "2026-04-09",
+      "link": "http://arxiv.org/abs/2604.11807v1",
+      "published": "2026-04-13",
       "categories": [
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": ".",
-      "datasets": "In order to achieve the ability to accurately estimate the relative positions of the input and output, we have a method ...",
-      "future_work": "More information about how to implement text-to-video diffusion models can be found here."
-    }
-  },
-  {
-    "paper": {
-      "title": "Act Wisely: Cultivating Meta-Cognitive Tool Use in Agentic Multimodal Models",
-      "summary": "The advent of agentic multimodal models has empowered systems to actively interact with external environments. However, current agents suffer from a profound meta-cognitive deficit: they struggle to arbitrate between leveraging internal knowledge and querying external utilities. Consequently, they frequently fall prey to blind tool invocation, resorting to reflexive tool execution even when queries are resolvable from the raw visual context. This pathological behavior precipitates severe latency bottlenecks and injects extraneous noise that derails sound reasoning. Existing reinforcement learning protocols attempt to mitigate this via a scalarized reward that penalizes tool usage. Yet, this coupled formulation creates an irreconcilable optimization dilemma: an aggressive penalty suppresses",
-      "authors": [
-        "Shilin Yan",
-        "Jintao Tong",
-        "Hongwei Xue",
-        "Xiaojun Tang",
-        "Yangyang Wang"
-      ],
-      "link": "http://arxiv.org/abs/2604.08545v1",
-      "published": "2026-04-09",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ]
-    },
-    "analysis": {
-      "key_methods": ".",
-      "datasets": ".",
-      "future_work": "Can we test an agent's model of the world?\nMaurice G."
-    }
-  },
-  {
-    "paper": {
-      "title": "SIM1: Physics-Aligned Simulator as Zero-Shot Data Scaler in Deformable Worlds",
-      "summary": "Robotic manipulation with deformable objects represents a data-intensive regime in embodied learning, where shape, contact, and topology co-evolve in ways that far exceed the variability of rigids. Although simulation promises relief from the cost of real-world data acquisition, prevailing sim-to-real pipelines remain rooted in rigid-body abstractions, producing mismatched geometry, fragile soft dynamics, and motion primitives poorly suited for cloth interaction. We posit that simulation fails not for being synthetic, but for being ungrounded. To address this, we introduce SIM1, a physics-aligned real-to-sim-to-real data engine that grounds simulation in the physical world. Given limited demonstrations, the system digitizes scenes into metric-consistent twins, calibrates deformable dynamic",
-      "authors": [
-        "Yunsong Zhou",
-        "Hangxu Liu",
-        "Xuekun Jiang",
-        "Xing Shen",
-        "Yuanzhen Zhou"
-      ],
-      "link": "http://arxiv.org/abs/2604.08544v1",
-      "published": "2026-04-09",
-      "categories": [
-        "cs.RO",
+        "cs.LG",
         "cs.AI",
-        "cs.CV"
+        "eess.SY"
       ]
     },
     "analysis": {
-      "key_methods": "First, in some cases, the data to be sent to the server is not always equal to the data it is sending to the server.",
-      "datasets": "SIM1: Physics-Aligned Simulator as Zero-Shot Data Scaler in Deformable Worlds.",
-      "future_work": "."
+      "key_methods": "Rethinking, Designing, and Designing:\n\nUsing a simple, flexible, and cost-effective model, Rethinking, Designing, and De...",
+      "datasets": "Theoretical model (3) is a very basic model that allows us to do predictions based on the current status of the sun.",
+      "future_work": "“We“re developing the theoretical solutions to some of the problems that affect the energy landscape within the Sun,“and..."
     }
   },
   {
     "paper": {
-      "title": "E-3DPSM: A State Machine for Event-Based Egocentric 3D Human Pose Estimation",
-      "summary": "Event cameras offer multiple advantages in monocular egocentric 3D human pose estimation from head-mounted devices, such as millisecond temporal resolution, high dynamic range, and negligible motion blur. Existing methods effectively leverage these properties, but suffer from low 3D estimation accuracy, insufficient in many applications (e.g., immersive VR/AR). This is due to the design not being fully tailored towards event streams (e.g., their asynchronous and continuous nature), leading to high sensitivity to self-occlusions and temporal jitter in the estimates. This paper rethinks the setting and introduces E-3DPSM, an event-driven continuous pose state machine for event-based egocentric 3D human pose estimation. E-3DPSM aligns continuous human motion with fine-grained event dynamics; ",
+      "title": "Detecting Safety Violations Across Many Agent Traces",
+      "summary": "To identify safety violations, auditors often search over large sets of agent traces. This search is difficult because failures are often rare, complex, and sometimes even adversarially hidden and only detectable when multiple traces are analyzed together. These challenges arise in diverse settings such as misuse campaigns, covert sabotage, reward hacking, and prompt injection. Existing approaches struggle here for several reasons. Per-trace judges miss failures that only become visible across traces, naive agentic auditing does not scale to large trace collections, and fixed monitors are brittle to unanticipated behaviors. We introduce Meerkat, which combines clustering with agentic search to uncover violations specified in natural language. Through structured search and adaptive investig",
       "authors": [
-        "Mayur Deshmukh",
-        "Hiroyasu Akada",
-        "Helge Rhodin",
-        "Christian Theobalt",
-        "Vladislav Golyanik"
+        "Adam Stein",
+        "Davis Brown",
+        "Hamed Hassani",
+        "Mayur Naik",
+        "Eric Wong"
       ],
-      "link": "http://arxiv.org/abs/2604.08543v1",
-      "published": "2026-04-09",
+      "link": "http://arxiv.org/abs/2604.11806v1",
+      "published": "2026-04-13",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    "analysis": {
+      "key_methods": "In the 1980s, the U.",
+      "datasets": "“The FBI and the U.",
+      "future_work": "Using a multi-step approach to the investigation, we are now able to identify the best way to identify the best way to i..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Solving Physics Olympiad via Reinforcement Learning on Physics Simulators",
+      "summary": "We have witnessed remarkable advances in LLM reasoning capabilities with the advent of DeepSeek-R1. However, much of this progress has been fueled by the abundance of internet question-answer (QA) pairs, a major bottleneck going forward, since such data is limited in scale and concentrated mainly in domains like mathematics. In contrast, other sciences such as physics lack large-scale QA datasets to effectively train reasoning-capable models. In this work, we show that physics simulators can serve as a powerful alternative source of supervision for training LLMs for physical reasoning. We generate random scenes in physics engines, create synthetic question-answer pairs from simulated interactions, and train LLMs using reinforcement learning on this synthetic data. Our models exhibit zero-s",
+      "authors": [
+        "Mihir Prabhudesai",
+        "Aryan Satpathy",
+        "Yangmin Li",
+        "Zheyang Qin",
+        "Nikash Bhardwaj"
+      ],
+      "link": "http://arxiv.org/abs/2604.11805v1",
+      "published": "2026-04-13",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CV",
+        "cs.RO"
+      ]
+    },
+    "analysis": {
+      "key_methods": "We used the PNAS Open Source Software License, which is available on the Google Scholar and is available on the Google S...",
+      "datasets": "The first step is to develop a functional proof-of-concept game, and a proof-of-concept game, or even a proof-of-concept...",
+      "future_work": "Theoretical, Physical and Computational Science\nI have recently discussed the effects of quantum mechanical properties o..."
+    }
+  },
+  {
+    "paper": {
+      "title": "OmniShow: Unifying Multimodal Conditions for Human-Object Interaction Video Generation",
+      "summary": "In this work, we study Human-Object Interaction Video Generation (HOIVG), which aims to synthesize high-quality human-object interaction videos conditioned on text, reference images, audio, and pose. This task holds significant practical value for automating content creation in real-world applications, such as e-commerce demonstrations, short video production, and interactive entertainment. However, existing approaches fail to accommodate all these requisite conditions. We present OmniShow, an end-to-end framework tailored for this practical yet challenging task, capable of harmonizing multimodal conditions and delivering industry-grade performance. To overcome the trade-off between controllability and quality, we introduce Unified Channel-wise Conditioning for efficient image and pose inj",
+      "authors": [
+        "Donghao Zhou",
+        "Guisheng Liu",
+        "Hao Yang",
+        "Jiatong Li",
+        "Jingyu Lin"
+      ],
+      "link": "http://arxiv.org/abs/2604.11804v1",
+      "published": "2026-04-13",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": ".",
-      "datasets": "To show how E-3DPSM works, see:\nE-3DPSM: A State Machine for Event-Based Egocentric 3D Human Pose Estimation.",
-      "future_work": "In addition to the data from the latest E3DPSM project (ESI), we will be able to use an algorithm to estimate the distan..."
+      "key_methods": "1.",
+      "datasets": "Courses:\nMapping of Visualization:\nConciliation of Visualization with Visualization.",
+      "future_work": "Methods to Use Emulating Systems for Interaction\nThe human-object interaction algorithm (Hadoop) was developed using the..."
     }
   }
 ]
