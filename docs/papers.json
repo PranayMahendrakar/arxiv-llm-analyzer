@@ -1,117 +1,122 @@
 [
   {
     "paper": {
-      "title": "Thermodynamic signatures of non-Hermiticity in Dirac materials via quantum capacitance",
-      "summary": "Non-Hermitian band descriptions capture how loss, gain, and environmental coupling reshape quantum matter, yet most experimental tests rely on wave-based or dynamical probes. Here we establish a new equilibrium route to exceptional physics in Dirac materials: in the weakly non-Hermitian regime, the thermodynamic density of states and the quantum capacitance exhibit a universal equilibrium approach to the exceptional point. In our minimal non-reciprocal graphene model, the hopping imbalance reduces the Dirac velocity as $v_F=v\\sqrt{1-β^2}$, implying that the low-energy density of states, the thermodynamic density of states, and the quantum capacitance all scale as $(1-β^2)^{-1}$ as $|β|\\to 1^-$. Consequently, at charge neutrality the quantum capacitance remains linear in temperature but wit",
+      "title": "Gravitational-wave lensing beyond rays: a disordered-system approach",
+      "summary": "We develop a framework to describe gravitational wave propagation through a stochastic distribution of weak gravitational lenses beyond the geometric optics limit. We model the lens distribution as a static random background field and formulate the problem in the language of quenched disorder, treating the disorder averaged density matrix as the fundamental object from which observables are computed. Using the Schwinger Keldysh formalism, we construct a path-integral representation of the averaged density matrix and derive its explicit form perturbatively for a suitable class of couplings. The result naturally separates into a quadratic exponential term, which governs the suppression of phase sensitive contributions in the averaged description, and a purely oscillatory contribution, which ",
       "authors": [
-        "Juan Pablo Esparza",
-        "Francisco J. Peña",
-        "Patricio Vargas",
-        "Vladimir Juričić"
+        "Ripalta Amoruso",
+        "Ginevra Braga",
+        "Alice Garoffolo",
+        "Francescopaolo Lopez",
+        "Nicola Bartolo"
       ],
-      "link": "http://arxiv.org/abs/2604.14150v1",
-      "published": "2026-04-15",
-      "categories": [
-        "cond-mat.mes-hall",
-        "quant-ph"
-      ]
-    },
-    "analysis": {
-      "key_methods": ".",
-      "datasets": "Kamata Karpala, Zeta Pazana, Sami Zaitra and Javed Bhatt, Zena Prakashan, Zanyu E.",
-      "future_work": "A new approach for photohistochemistry of thermodynamic properties."
-    }
-  },
-  {
-    "paper": {
-      "title": "One Token per Highly Selective Frame: Towards Extreme Compression for Long Video Understanding",
-      "summary": "Long video understanding is inherently challenging for vision-language models (VLMs) because of the extensive number of frames. With each video frame typically expanding into tens or hundreds of tokens, the limited context length of large language models (LLMs) forces the VLMs to perceive the frames sparsely and lose temporal information. To address this, we explore extreme video token compression towards \\emph{one token per frame} at the final LLM layer. Our key insight is that heuristic-based compression, widely adopted by previous methods, is prone to information loss, and this necessitates supervising LLM layers into \\emph{learnable} and \\emph{progressive} modules for \\emph{token-level compression} (LP-Comp). Such compression enables our VLM to digest 2x-4x more frames with improved pe",
-      "authors": [
-        "Zheyu Zhang",
-        "Ziqi Pang",
-        "Shixing Chen",
-        "Xiang Hao",
-        "Vimal Bhat"
-      ],
-      "link": "http://arxiv.org/abs/2604.14149v1",
-      "published": "2026-04-15",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The first was analysis of the video.",
-      "datasets": "Coding: C++, Java, Objective-C, Java, Java (with Java support), Python, JavaScript, Java, Java (with Java support), Pyth...",
-      "future_work": "We were looking for an extremely fast frame."
-    }
-  },
-  {
-    "paper": {
-      "title": "Seedance 2.0: Advancing Video Generation for World Complexity",
-      "summary": "Seedance 2.0 is a new native multi-modal audio-video generation model, officially released in China in early February 2026. Compared with its predecessors, Seedance 1.0 and 1.5 Pro, Seedance 2.0 adopts a unified, highly efficient, and large-scale architecture for multi-modal audio-video joint generation. This allows it to support four input modalities: text, image, audio, and video, by integrating one of the most comprehensive suites of multi-modal content reference and editing capabilities available in the industry to date. It delivers substantial, well-rounded improvements across all key sub-dimensions of video and audio generation. In both expert evaluations and public user tests, the model has demonstrated performance on par with the leading levels in the field. Seedance 2.0 supports d",
-      "authors": [
-        "Team Seedance",
-        "De Chen",
-        "Liyang Chen",
-        "Xin Chen",
-        "Ying Chen"
-      ],
-      "link": "http://arxiv.org/abs/2604.14148v1",
-      "published": "2026-04-15",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": "1.",
-      "datasets": "https://www.",
-      "future_work": "What are the implications of these new techniques?\nHow to Use the Seedance and Seedance to Create a Genome-Based Smart G..."
-    }
-  },
-  {
-    "paper": {
-      "title": "ROSE: Retrieval-Oriented Segmentation Enhancement",
-      "summary": "Existing segmentation models based on multimodal large language models (MLLMs), such as LISA, often struggle with novel or emerging entities due to their inability to incorporate up-to-date knowledge. To address this challenge, we introduce the Novel Emerging Segmentation Task (NEST), which focuses on segmenting (i) novel entities that MLLMs fail to recognize due to their absence from training data, and (ii) emerging entities that exist within the model's knowledge but demand up-to-date external information for accurate recognition. To support the study of NEST, we construct a NEST benchmark using an automated pipeline that generates news-related data samples for comprehensive evaluation. Additionally, we propose ROSE: Retrieval-Oriented Segmentation Enhancement, a plug-and-play framework ",
-      "authors": [
-        "Song Tang",
-        "Guangquan Jie",
-        "Henghui Ding",
-        "Yu-Gang Jiang"
-      ],
-      "link": "http://arxiv.org/abs/2604.14147v1",
-      "published": "2026-04-15",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The main purpose of this paper was to study the neural activity of neural networks under the supervision of a neuroscien...",
-      "datasets": "The following table shows the following table for the ROSE:\nROSE: Retrieval-Oriented Segmentation Enhancement\nROSE: Retr...",
-      "future_work": "A large-scale, multi-scale, multi-layered, multilayer system, a multi-layered, multi-layered, multi-layered, multi-layer..."
-    }
-  },
-  {
-    "paper": {
-      "title": "TDCOSMO XXV: A \"soup-to-nuts\" 6.5% $H_0$ measurement $-$ strong lensing and dynamics with a maximally flexible mass sheet",
-      "summary": "We present a blind time-delay cosmography measurement of the Hubble constant $H_0$ based on the quadruply imaged quasar SDSSJ1433+6007. Our analysis combines deep Hubble Space Telescope imaging, extended time-delay monitoring from the Wendelstein and Maidanak Observatories, and spatially resolved stellar kinematics from the Keck Cosmic Web Imager and Reionization Mapper. We build a robust lens model to reconstruct the mass distribution and high-signal-to-noise kinematic maps to break the mass-sheet degeneracy (MSD), explicitly accounting for the lens galaxy's oblateness, rotation, and anisotropy. Furthermore, we constrain the external convergence ($κ_{\\rm ext}$) by characterizing the line-of-sight environment using wide-field photometry from the Dark Energy Spectroscopic Instrument (DESI) ",
-      "authors": [
-        "William Sheu",
-        "Tommaso Treu",
-        "Martin Millon",
-        "Frédéric Dux",
-        "Devon Williams"
-      ],
-      "link": "http://arxiv.org/abs/2604.14145v1",
-      "published": "2026-04-15",
+      "link": "http://arxiv.org/abs/2604.15313v1",
+      "published": "2026-04-16",
       "categories": [
         "astro-ph.CO",
-        "astro-ph.GA"
+        "cond-mat.dis-nn",
+        "gr-qc"
       ]
     },
     "analysis": {
-      "key_methods": "1.",
-      "datasets": "1.",
-      "future_work": "TDCOSMO XXV: A \"soup-to-nuts\" 6."
+      "key_methods": "This paper uses the LIGO/LIGO/LIGO/LIGO/LIGO/LIGO/LIGO/LIGO/LIGO/LIGO/LIGO/LIG.",
+      "datasets": "http://fossil.",
+      "future_work": "In the future, researchers at the University of Michigan will develop a method to capture and analyze the light of a giv..."
+    }
+  },
+  {
+    "paper": {
+      "title": "LeapAlign: Post-Training Flow Matching Models at Any Generation Step by Building Two-Step Trajectories",
+      "summary": "This paper focuses on the alignment of flow matching models with human preferences. A promising way is fine-tuning by directly backpropagating reward gradients through the differentiable generation process of flow matching. However, backpropagating through long trajectories results in prohibitive memory costs and gradient explosion. Therefore, direct-gradient methods struggle to update early generation steps, which are crucial for determining the global structure of the final image. To address this issue, we introduce LeapAlign, a fine-tuning method that reduces computational cost and enables direct gradient propagation from reward to early generation steps. Specifically, we shorten the long trajectory into only two steps by designing two consecutive leaps, each skipping multiple ODE sampl",
+      "authors": [
+        "Zhanhao Liang",
+        "Tao Yang",
+        "Jie Wu",
+        "Chengjian Feng",
+        "Liang Zheng"
+      ],
+      "link": "http://arxiv.org/abs/2604.15311v1",
+      "published": "2026-04-16",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "We first implemented a single-step model, which was based on a pipeline that is run in parallel with the flow model.",
+      "datasets": "The last one is the following:\nThe first one is the following:\nThe second one is the following:\nThe third one is the fol...",
+      "future_work": "The LeapAlign model can be used to model specific training networks using the LeapAlign model to map or characterize the..."
+    }
+  },
+  {
+    "paper": {
+      "title": "TokenLight: Precise Lighting Control in Images using Attribute Tokens",
+      "summary": "This paper presents a method for image relighting that enables precise and continuous control over multiple illumination attributes in a photograph. We formulate relighting as a conditional image generation task and introduce attribute tokens to encode distinct lighting factors such as intensity, color, ambient illumination, diffuse level, and 3D light positions. The model is trained on a large-scale synthetic dataset with ground-truth lighting annotations, supplemented by a small set of real captures to enhance realism and generalization. We validate our approach across a variety of relighting tasks, including controlling in-scene lighting fixtures and editing environment illumination using virtual light sources, on synthetic and real images. Our method achieves state-of-the-art quantitat",
+      "authors": [
+        "Sumit Chaturvedi",
+        "Yannick Hold-Geoffroy",
+        "Mengwei Ren",
+        "Jingyuan Liu",
+        "He Zhang"
+      ],
+      "link": "http://arxiv.org/abs/2604.15310v1",
+      "published": "2026-04-16",
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ]
+    },
+    "analysis": {
+      "key_methods": "Using Attribute Tokens\nFirst, we need to create a template using Attribute Tokens.",
+      "datasets": "In the first image, we want to create a map that will use the same way that the image was created.",
+      "future_work": "To improve the workflow, we need to implement a new standard for the TokenLight API."
+    }
+  },
+  {
+    "paper": {
+      "title": "MM-WebAgent: A Hierarchical Multimodal Web Agent for Webpage Generation",
+      "summary": "The rapid progress of Artificial Intelligence Generated Content (AIGC) tools enables images, videos, and visualizations to be created on demand for webpage design, offering a flexible and increasingly adopted paradigm for modern UI/UX. However, directly integrating such tools into automated webpage generation often leads to style inconsistency and poor global coherence, as elements are generated in isolation. We propose MM-WebAgent, a hierarchical agentic framework for multimodal webpage generation that coordinates AIGC-based element generation through hierarchical planning and iterative self-reflection. MM-WebAgent jointly optimizes global layout, local multimodal content, and their integration, producing coherent and visually consistent webpages. We further introduce a benchmark for mult",
+      "authors": [
+        "Yan Li",
+        "Zezi Zeng",
+        "Yifan Yang",
+        "Yuqing Yang",
+        "Ning Liao"
+      ],
+      "link": "http://arxiv.org/abs/2604.15309v1",
+      "published": "2026-04-16",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    "analysis": {
+      "key_methods": "Meter-scale mapping of web pages.",
+      "datasets": "http://www.",
+      "future_work": "Future research:\nRelevant papers:\nhttp://www."
+    }
+  },
+  {
+    "paper": {
+      "title": "RAD-2: Scaling Reinforcement Learning in a Generator-Discriminator Framework",
+      "summary": "High-level autonomous driving requires motion planners capable of modeling multimodal future uncertainties while remaining robust in closed-loop interactions. Although diffusion-based planners are effective at modeling complex trajectory distributions, they often suffer from stochastic instabilities and the lack of corrective negative feedback when trained purely with imitation learning. To address these issues, we propose RAD-2, a unified generator-discriminator framework for closed-loop planning. Specifically, a diffusion-based generator is used to produce diverse trajectory candidates, while an RL-optimized discriminator reranks these candidates according to their long-term driving quality. This decoupled design avoids directly applying sparse scalar rewards to the full high-dimensional",
+      "authors": [
+        "Hao Gao",
+        "Shaoyu Chen",
+        "Yifan Zhu",
+        "Yuehao Song",
+        "Wenyu Liu"
+      ],
+      "link": "http://arxiv.org/abs/2604.15308v1",
+      "published": "2026-04-16",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The main part of the program is to create a generator-discriminator framework for the reinforcement learning (GRF) progr...",
+      "datasets": "I've been working on a framework for many years, but I'm not one to use it.",
+      "future_work": "Using the same approach as previous approaches, we can improve our tools for generating efficient, scalable and scalable..."
     }
   }
 ]
