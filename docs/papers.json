@@ -1,122 +1,112 @@
 [
   {
     "paper": {
-      "title": "Gravitational-wave lensing beyond rays: a disordered-system approach",
-      "summary": "We develop a framework to describe gravitational wave propagation through a stochastic distribution of weak gravitational lenses beyond the geometric optics limit. We model the lens distribution as a static random background field and formulate the problem in the language of quenched disorder, treating the disorder averaged density matrix as the fundamental object from which observables are computed. Using the Schwinger Keldysh formalism, we construct a path-integral representation of the averaged density matrix and derive its explicit form perturbatively for a suitable class of couplings. The result naturally separates into a quadratic exponential term, which governs the suppression of phase sensitive contributions in the averaged description, and a purely oscillatory contribution, which ",
+      "title": "Repurposing 3D Generative Model for Autoregressive Layout Generation",
+      "summary": "We introduce LaviGen, a framework that repurposes 3D generative models for 3D layout generation. Unlike previous methods that infer object layouts from textual descriptions, LaviGen operates directly in the native 3D space, formulating layout generation as an autoregressive process that explicitly models geometric relations and physical constraints among objects, producing coherent and physically plausible 3D scenes. To further enhance this process, we propose an adapted 3D diffusion model that integrates scene, object, and instruction information and employs a dual-guidance self-rollout distillation mechanism to improve efficiency and spatial accuracy. Extensive experiments on the LayoutVLM benchmark show LaviGen achieves superior 3D layout generation performance, with 19% higher physical",
       "authors": [
-        "Ripalta Amoruso",
-        "Ginevra Braga",
-        "Alice Garoffolo",
-        "Francescopaolo Lopez",
-        "Nicola Bartolo"
+        "Haoran Feng",
+        "Yifan Niu",
+        "Zehuan Huang",
+        "Yang-Tian Sun",
+        "Chunchao Guo"
       ],
-      "link": "http://arxiv.org/abs/2604.15313v1",
-      "published": "2026-04-16",
-      "categories": [
-        "astro-ph.CO",
-        "cond-mat.dis-nn",
-        "gr-qc"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The first three images (1) were taken in the first two phases (1) and the second (2) were taken by radio telescopes (1).",
-      "datasets": "For the most part, I don't think there's a single way to create a telescope at large, or even a small, and yet very spec...",
-      "future_work": "See also:\nReferences."
-    }
-  },
-  {
-    "paper": {
-      "title": "LeapAlign: Post-Training Flow Matching Models at Any Generation Step by Building Two-Step Trajectories",
-      "summary": "This paper focuses on the alignment of flow matching models with human preferences. A promising way is fine-tuning by directly backpropagating reward gradients through the differentiable generation process of flow matching. However, backpropagating through long trajectories results in prohibitive memory costs and gradient explosion. Therefore, direct-gradient methods struggle to update early generation steps, which are crucial for determining the global structure of the final image. To address this issue, we introduce LeapAlign, a fine-tuning method that reduces computational cost and enables direct gradient propagation from reward to early generation steps. Specifically, we shorten the long trajectory into only two steps by designing two consecutive leaps, each skipping multiple ODE sampl",
-      "authors": [
-        "Zhanhao Liang",
-        "Tao Yang",
-        "Jie Wu",
-        "Chengjian Feng",
-        "Liang Zheng"
-      ],
-      "link": "http://arxiv.org/abs/2604.15311v1",
-      "published": "2026-04-16",
+      "link": "http://arxiv.org/abs/2604.16299v1",
+      "published": "2026-04-17",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "Step 1: Implement the LeapAlign code by following the following code:\nStep 2: Build a template model:\nStep 3: Create a t...",
-      "datasets": ".",
-      "future_work": "Can we do better with the idea of a single-step model?\nFuture research: Can we do better with the idea of a single-step ..."
+      "key_methods": "Preventing 3D Generative Model for Autoregressive Layout Generation\nExtracting from the HTML file:\n[1]\n[2]\n[3]\n[4]\n[5] [...",
+      "datasets": "For the past several months we have developed an effort to create a scalable, scalable, and scalable way to generate dat...",
+      "future_work": "Using 3D Generative Model for Autoregressive Layout Generation."
     }
   },
   {
     "paper": {
-      "title": "TokenLight: Precise Lighting Control in Images using Attribute Tokens",
-      "summary": "This paper presents a method for image relighting that enables precise and continuous control over multiple illumination attributes in a photograph. We formulate relighting as a conditional image generation task and introduce attribute tokens to encode distinct lighting factors such as intensity, color, ambient illumination, diffuse level, and 3D light positions. The model is trained on a large-scale synthetic dataset with ground-truth lighting annotations, supplemented by a small set of real captures to enhance realism and generalization. We validate our approach across a variety of relighting tasks, including controlling in-scene lighting fixtures and editing environment illumination using virtual light sources, on synthetic and real images. Our method achieves state-of-the-art quantitat",
+      "title": "FineCog-Nav: Integrating Fine-grained Cognitive Modules for Zero-shot Multimodal UAV Navigation",
+      "summary": "UAV vision-language navigation (VLN) requires an agent to navigate complex 3D environments from an egocentric perspective while following ambiguous multi-step instructions over long horizons. Existing zero-shot methods remain limited, as they often rely on large base models, generic prompts, and loosely coordinated modules. In this work, we propose FineCog-Nav, a top-down framework inspired by human cognition that organizes navigation into fine-grained modules for language processing, perception, attention, memory, imagination, reasoning, and decision-making. Each module is driven by a moderate-sized foundation model with role-specific prompts and structured input-output protocols, enabling effective collaboration and improved interpretability. To support fine-grained evaluation, we constr",
       "authors": [
-        "Sumit Chaturvedi",
-        "Yannick Hold-Geoffroy",
-        "Mengwei Ren",
-        "Jingyuan Liu",
-        "He Zhang"
+        "Dian Shao",
+        "Zhengzheng Xu",
+        "Peiyang Wang",
+        "Like Liu",
+        "Yule Wang"
       ],
-      "link": "http://arxiv.org/abs/2604.15310v1",
-      "published": "2026-04-16",
+      "link": "http://arxiv.org/abs/2604.16298v1",
+      "published": "2026-04-17",
       "categories": [
         "cs.CV",
-        "cs.GR"
+        "cs.RO"
       ]
     },
     "analysis": {
-      "key_methods": "Attribute Tokens: Attribute Tokens: Attribute Tokens: Attribute Tokens: Attribute Tokens: Attribute Tokens: Attribute To...",
-      "datasets": "Source: http://pintalk.",
-      "future_work": "We’ve heard a lot about the use of the Trite token, but not really."
+      "key_methods": "To demonstrate how to integrate fine-grained cognitive modules into a multi-rotation, multi-rotation system, and to demo...",
+      "datasets": "The current versions of the OS use the same type of data structures and are not as useful as the current versions of the...",
+      "future_work": "The first step of a comprehensive, user-friendly interactive approach to the UAV navigation system is to provide a high-..."
     }
   },
   {
     "paper": {
-      "title": "MM-WebAgent: A Hierarchical Multimodal Web Agent for Webpage Generation",
-      "summary": "The rapid progress of Artificial Intelligence Generated Content (AIGC) tools enables images, videos, and visualizations to be created on demand for webpage design, offering a flexible and increasingly adopted paradigm for modern UI/UX. However, directly integrating such tools into automated webpage generation often leads to style inconsistency and poor global coherence, as elements are generated in isolation. We propose MM-WebAgent, a hierarchical agentic framework for multimodal webpage generation that coordinates AIGC-based element generation through hierarchical planning and iterative self-reflection. MM-WebAgent jointly optimizes global layout, local multimodal content, and their integration, producing coherent and visually consistent webpages. We further introduce a benchmark for mult",
+      "title": "Resolution-Agnostic Lensless Imaging via Fourier Neural Operators",
+      "summary": "Lensless cameras based on thin diffusers offer a compact alternative to conventional refractive imaging but rely on computational reconstruction, since the diffuser's point spread function (PSF) globally multiplexes every scene point across the sensor. Here, we report a Fourier Neural Operator (FNO) framework for this reconstruction task. Because a linear shift-invariant forward model reduces to a pointwise multiplication in Fourier space, the spectral-domain kernel of an FNO layer is structurally aligned with the DiffuserCam inverse problem. Using a compact DiffuserCam prototype and a 25,000-image natural-scene dataset, our FNO improves upon a U-Net baseline of comparable parameter count by $2.14$~dB in PSNR and $0.11$ in SSIM. The same FNO, trained exclusively at $128 \\times 128$, recons",
       "authors": [
-        "Yan Li",
-        "Zezi Zeng",
-        "Yifan Yang",
-        "Yuqing Yang",
-        "Ning Liao"
+        "Kerem Ekec",
+        "Uğur Teğin"
       ],
-      "link": "http://arxiv.org/abs/2604.15309v1",
-      "published": "2026-04-16",
+      "link": "http://arxiv.org/abs/2604.16295v1",
+      "published": "2026-04-17",
       "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.CL"
+        "physics.optics"
       ]
     },
     "analysis": {
-      "key_methods": "In addition, the following types of Web-agent are used:\nWeb-agent: Web-agent: Web-agent: Web-agent: Web-agent: Web-agent...",
-      "datasets": "#include <stdio.",
-      "future_work": "In this article, I will try to answer questions related to web pages on the Internet."
+      "key_methods": "In this paper, we utilized an X-ray image of the top of the screen while scanning the background.",
+      "datasets": "https://www.",
+      "future_work": "Agnostic Lensless Imaging via Fourier Neural Operators."
     }
   },
   {
     "paper": {
-      "title": "RAD-2: Scaling Reinforcement Learning in a Generator-Discriminator Framework",
-      "summary": "High-level autonomous driving requires motion planners capable of modeling multimodal future uncertainties while remaining robust in closed-loop interactions. Although diffusion-based planners are effective at modeling complex trajectory distributions, they often suffer from stochastic instabilities and the lack of corrective negative feedback when trained purely with imitation learning. To address these issues, we propose RAD-2, a unified generator-discriminator framework for closed-loop planning. Specifically, a diffusion-based generator is used to produce diverse trajectory candidates, while an RL-optimized discriminator reranks these candidates according to their long-term driving quality. This decoupled design avoids directly applying sparse scalar rewards to the full high-dimensional",
+      "title": "Fluctuating Pair Density Wave in Finite-temperature Phase Diagram of the $t$-$t^\\prime$ Hubbard Model",
+      "summary": "The Hubbard model and its extensions are canonical theoretical frameworks for understanding correlated electronic states, including those in high-$T_c$ cuprates. Here, we use state-of-the-art thermal tensor network method to map out the temperature-doping phase diagram of the $t$-$t^\\prime$ Hubbard model. On the electron-doped side, we find a $d$-wave superconducting (dSC) regime, supporting the scenario of high-$T_c$ superconductivity. In contrast, on the hole-doped side, no robust dSC phase is detected. Instead, a finite-temperature regime dominated by strong pair-density-wave (PDW) fluctuations emerges, which may eventually give way to charge density wave order upon further cooling. The PDW state exhibits inter-arc pairing with net momentum near $(0, π)$, distinct from the zero-momentum",
       "authors": [
-        "Hao Gao",
-        "Shaoyu Chen",
-        "Yifan Zhu",
-        "Yuehao Song",
-        "Wenyu Liu"
+        "Qiaoyi Li",
+        "Yang Qi",
+        "Wei Li"
       ],
-      "link": "http://arxiv.org/abs/2604.15308v1",
-      "published": "2026-04-16",
+      "link": "http://arxiv.org/abs/2604.16293v1",
+      "published": "2026-04-17",
       "categories": [
-        "cs.CV"
+        "cond-mat.str-el",
+        "cond-mat.supr-con"
       ]
     },
     "analysis": {
-      "key_methods": "The generator code is available in the repository: https://github.",
-      "datasets": "RSS/RSS: Dataflow.",
-      "future_work": "In this post, we will explore how to implement the RAD-2 framework that we already learned about in the last post."
+      "key_methods": "(1) Multiply the $t$ and the $t$ and $t$ from $t$ into a continuous phase.",
+      "datasets": "Density Wave on the Finite-Temperature Phase Diagram of the $t$-$t^\\prime$ Hubbard Model.",
+      "future_work": "Using the same method, the equations (and the general rules of \"equation,\" \"coherent\" and \"finite-temperature\" ) are app..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Global dynamics and regime shifts in a resource-consumer model with facilitation and habitat loss",
+      "summary": "Modelling how populations respond to habitat loss is crucial for understanding ecosystem stability, especially when positive interactions among resource species, such as plant-plant facilitation, play a key role. Habitat loss not only reduces available organic nutrients and space for primary producers but also disrupts the positive feedbacks that sustain resource populations, thereby affecting consumer persistence and the overall system's stability. We analyse a cubic planar model describing resource-consumer dynamics with facilitation under progressive habitat loss. Our study characterizes the parameter space and enumerates all the phase portraits within the Poincaré disk under ecologically relevant conditions. We show that the system has a unique stable limit cycle and characterize analy",
+      "authors": [
+        "Teodoro Mayayo",
+        "Josep Sardanyés",
+        "Joan Torregrosa"
+      ],
+      "link": "http://arxiv.org/abs/2604.16291v1",
+      "published": "2026-04-17",
+      "categories": [
+        "math.DS"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The data from the World Bank and the International Energy Agency (IEA) and the IEA.",
+      "datasets": "Data sources:\nData sources:\nNotes:\nReferences:\nhttp://www.",
+      "future_work": "The evolution of resource-consumer models in the world of energy production requires significant support from the global..."
     }
   }
 ]
