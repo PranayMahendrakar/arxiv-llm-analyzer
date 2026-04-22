@@ -1,111 +1,119 @@
 [
   {
     "paper": {
-      "title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
-      "summary": "Mathematical problem solving remains a challenging test of reasoning for large language and multimodal models, yet existing benchmarks are limited in size, language coverage, and task diversity. We introduce MathNet, a high-quality, large-scale, multimodal, and multilingual dataset of Olympiad-level math problems together with a benchmark for evaluating mathematical reasoning in generative models and mathematical retrieval in embedding-based systems. MathNet spans 47 countries, 17 languages, and two decades of competitions, comprising 30,676 expert-authored problems with solutions across diverse domains. In addition to the core dataset, we construct a retrieval benchmark consisting of mathematically equivalent and structurally similar problem pairs curated by human experts.   MathNet suppo",
+      "title": "Tstars-Tryon 1.0: Robust and Realistic Virtual Try-On for Diverse Fashion Items",
+      "summary": "Recent advances in image generation and editing have opened new opportunities for virtual try-on. However, existing methods still struggle to meet complex real-world demands. We present Tstars-Tryon 1.0, a commercial-scale virtual try-on system that is robust, realistic, versatile, and highly efficient. First, our system maintains a high success rate across challenging cases like extreme poses, severe illumination variations, motion blur, and other in-the-wild conditions. Second, it delivers highly photorealistic results with fine-grained details, faithfully preserving garment texture, material properties, and structural characteristics, while largely avoiding common AI-generated artifacts. Third, beyond apparel try-on, our model supports flexible multi-image composition (up to 6 reference",
       "authors": [
-        "Shaden Alshammari",
-        "Kevin Wen",
-        "Abrar Zainal",
-        "Mark Hamilton",
-        "Navid Safaei"
+        "Mengting Chen",
+        "Zhengrui Chen",
+        "Yongchao Du",
+        "Zuan Gao",
+        "Taihang Hu"
       ],
-      "link": "http://arxiv.org/abs/2604.18584v1",
-      "published": "2026-04-20",
-      "categories": [
-        "cs.AI",
-        "cs.DL",
-        "cs.IR",
-        "cs.LG"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The first step was to determine a numerical order of magnitude of the problem.",
-      "datasets": "The two papers describe two kinds of problem solving algorithms:\nThe first is a mathematical theory of the natural world.",
-      "future_work": "We are excited to see that we can use the math-based math-based algorithm for the computation of scientific questions in..."
-    }
-  },
-  {
-    "paper": {
-      "title": "MUA: Mobile Ultra-detailed Animatable Avatars",
-      "summary": "Building photorealistic, animatable full-body digital humans remains a longstanding challenge in computer graphics and vision. Recent advances in animatable avatar modeling have largely progressed along two directions: improving the fidelity of dynamic geometry and appearance, or reducing computational complexity to enable deployment on resource-constrained platforms, e.g., VR headsets. However, existing approaches fail to achieve both goals simultaneously: Ultra-high-fidelity avatars typically require substantial computation on server-class GPUs, whereas lightweight avatars often suffer from limited surface dynamics, reduced appearance details, and noticeable artifacts. To bridge this gap, we propose a novel animatable avatar representation, termed Wavelet-guided Multi-level Spatial Facto",
-      "authors": [
-        "Heming Zhu",
-        "Guoxing Sun",
-        "Marc Habermann"
-      ],
-      "link": "http://arxiv.org/abs/2604.18583v1",
-      "published": "2026-04-20",
+      "link": "http://arxiv.org/abs/2604.19748v1",
+      "published": "2026-04-21",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "The visual effects were performed as a group.",
-      "datasets": "The first time I saw a real-life avatar (or even just a human) I was a little confused.",
-      "future_work": "U."
+      "key_methods": "-The aim of this test was to determine whether a designer or designer has a real experience with a portfolio of products...",
+      "datasets": "The first example of the concept of this is the t-shirt which is used to sell clothes with real clothes.",
+      "future_work": "For a list of the coolest designs from the recent season, check out our recent Diverse Fashion Items, which are availabl..."
     }
   },
   {
     "paper": {
-      "title": "Sessa: Selective State Space Attention",
-      "summary": "Modern sequence models are dominated by Transformers, where self-attention mixes information from the visible context in an input-dependent way. However, when retrieval is not sharp and attention remains diffuse over an effective support $S_{\\mathrm{eff}}(t)$, the influence of any individual token is diluted, typically scaling as $O(1/S_{\\mathrm{eff}}(t))$ and reaching $O(1/\\ell)$ for old tokens in full-prefix settings. Structured state-space models process sequences recurrently through an explicit feedback path; selective variants such as Mamba make this feedback input-dependent, yet when freeze time cannot be sustained over long intervals, their long-range sensitivity decays exponentially with lag. Existing architectures therefore either retrieve from the past in a single read or propaga",
+      "title": "AnyRecon: Arbitrary-View 3D Reconstruction with Video Diffusion Model",
+      "summary": "Sparse-view 3D reconstruction is essential for modeling scenes from casual captures, but remain challenging for non-generative reconstruction. Existing diffusion-based approaches mitigates this issues by synthesizing novel views, but they often condition on only one or two capture frames, which restricts geometric consistency and limits scalability to large or diverse scenes. We propose AnyRecon, a scalable framework for reconstruction from arbitrary and unordered sparse inputs that preserves explicit geometric control while supporting flexible conditioning cardinality. To support long-range conditioning, our method constructs a persistent global scene memory via a prepended capture view cache, and removes temporal compression to maintain frame-level correspondence under large viewpoint ch",
       "authors": [
-        "Liubomyr Horbatko"
+        "Yutian Chen",
+        "Shi Guo",
+        "Renbiao Jin",
+        "Tianshuo Yang",
+        "Xin Cai"
       ],
-      "link": "http://arxiv.org/abs/2604.18580v1",
-      "published": "2026-04-20",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CL"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The study was carried out in the Republic of Korea, Korea, and the Republic of China.",
-      "datasets": "The following are some of the few things you should know about this course:\nThe first step is to set the time you’ll nee...",
-      "future_work": "Explore further:."
-    }
-  },
-  {
-    "paper": {
-      "title": "Agentic Forecasting using Sequential Bayesian Updating of Linguistic Beliefs",
-      "summary": "We present BLF (Bayesian Linguistic Forecaster), an agentic system for binary forecasting that achieves state-of-the-art performance on the ForecastBench benchmark. The system is built on three ideas. (1) A Bayesian linguistic belief state: a semi-structured representation combining numerical probability estimates with natural-language evidence summaries, updated by the LLM at each step of an iterative tool-use loop. This contrasts with the common approach of appending all retrieved evidence to an ever-growing context. (2) Hierarchical multi-trial aggregation: running $K$ independent trials and combining them using logit-space shrinkage with a data-dependent prior. (3) Hierarchical calibration: Platt scaling with a hierarchical prior, which avoids over-shrinking extreme predictions for sou",
-      "authors": [
-        "Kevin Murphy"
-      ],
-      "link": "http://arxiv.org/abs/2604.18576v1",
-      "published": "2026-04-20",
-      "categories": [
-        "cs.AI"
-      ]
-    },
-    "analysis": {
-      "key_methods": "A.",
-      "datasets": "I hope you enjoyed this post!.",
-      "future_work": "The authors consider the possibility of a new approach to the attribution problem."
-    }
-  },
-  {
-    "paper": {
-      "title": "ReCap: Lightweight Referential Grounding for Coherent Story Visualization",
-      "summary": "Story Visualization aims to generate a sequence of images that faithfully depicts a textual narrative that preserve character identity, spatial configuration, and stylistic coherence as the narratives unfold. Maintaining such cross-frame consistency has traditionally relied on explicit memory banks, architectural expansion, or auxiliary language models, resulting in substantial parameter growth and inference overhead. We introduce ReCap, a lightweight consistency framework that improves character stability and visual fidelity without modifying the base diffusion backbone. ReCap's CORE (COnditional frame REferencing) module treats anaphors, in our case pronouns, as visual anchors, activating only when characters are referred to by a pronoun and conditioning on the preceding frame to propaga",
-      "authors": [
-        "Aditya Arora",
-        "Akshita Gupta",
-        "Pau Rodriguez",
-        "Marcus Rohrbach"
-      ],
-      "link": "http://arxiv.org/abs/2604.18575v1",
-      "published": "2026-04-20",
+      "link": "http://arxiv.org/abs/2604.19747v1",
+      "published": "2026-04-21",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "The authors have used a two-dimensional 3D model and a 3D model to assess the properties of the structure of a structure...",
+      "key_methods": "The following code was written as an example of the approach we used in the previous post.",
+      "datasets": "A simple model of a 3D reconstruction of a 3D reconstruction of a 3D reconstruction of a 3D reconstruction of a 3D recon...",
+      "future_work": "A simple new way to solve the problem of the infinite wave propagation."
+    }
+  },
+  {
+    "paper": {
+      "title": "Calibration-Induced Systematics in SALT3 Training and Their Impact on Dark Energy Constraints from Stage IV Supernova Surveys",
+      "summary": "In the coming years, the Vera Rubin Observatory's Legacy Survey of Space and Time (Rubin-LSST) and the Nancy Grace Roman Space Telescope's (Roman) High Latitude Time Domain Survey (HLTDS) are expected to discover more than a million Type Ia supernovae (SNe Ia), several orders of magnitude more than current samples and with a tighter control on systematic uncertainties. One of the largest systematic uncertainties in cosmological analyses with SNe Ia is the accuracy of the spectro-photometric model for SNe Ia time series data, which depends on the photometric calibration of the surveys. To quantify the impact of this uncertainty, we analyze simulated Rubin-LSST and HLTDS data, perturb the photometric zero-points and filter mean wavelengths, and propagate these systematics to spectral model r",
+      "authors": [
+        "Kene Anumba",
+        "David 0. Jones",
+        "Richard Kessler",
+        "Daniel Scolnic",
+        "W. D'Arcy Kenworthy"
+      ],
+      "link": "http://arxiv.org/abs/2604.19746v1",
+      "published": "2026-04-21",
+      "categories": [
+        "astro-ph.CO"
+      ]
+    },
+    "analysis": {
+      "key_methods": ".",
+      "datasets": "RSS: Calibration-Induced Systematics in SALT3 Training and Their Impact on Dark Energy Constraints from Stage IV Superno...",
+      "future_work": "The first step in the development of a scalable, multi-stage, high-speed, high-speed, high-speed, high-speed high-speed,..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Precision Kinematic Sunyaev--Zel'dovich Measurements Across Halo Mass and Redshift with DESI DR2 and ACT DR6: Part II. Bright Galaxy Survey and Emission-Line Galaxies",
+      "summary": "We present the first high-significance spectroscopic stacked kinetic Sunyaev-Zel'dovich (kSZ) measurements of circumgalactic gas profiles for both Bright Galaxy Survey (BGS) and Emission Line Galaxy (ELG) tracers, combining DESI Data Release 2 with ACT Data Release 6. Using reconstructed line-of-sight velocities from the DESI galaxies and high-resolution ACT temperature maps, we detect the kSZ signal at high significance, reaching signal-to-noise ratios of up to $\\sim$9 for BGS and $\\sim$7.5 for ELGs in optimal stellar-mass selections. Together with the LRG measurements presented in Paper I, these constitute the most significant kSZ detections from any spectroscopic survey to date. We perform the analysis in both real and harmonic space, obtaining consistent results. By splitting both trac",
+      "authors": [
+        "B. Hadzhiyska",
+        "S. Ferraro",
+        "F. J. Qu",
+        "B. Ried Guachalla",
+        "E. Schaan"
+      ],
+      "link": "http://arxiv.org/abs/2604.19745v1",
+      "published": "2026-04-21",
+      "categories": [
+        "astro-ph.CO",
+        "astro-ph.GA"
+      ]
+    },
+    "analysis": {
+      "key_methods": "In the study, the authors used a 1.",
       "datasets": "http://www.",
-      "future_work": "Further work may be needed to understand the properties of the lightweight refractive index (Fraction index) on the surf..."
+      "future_work": "Reverse with multiple imaging techniques, and large-scale field work, and to make a better understanding of the underlyi..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Precision Kinematic Sunyaev--Zel'dovich Measurements Across Halo Mass and Redshift with DESI DR2 and ACT DR6: Part I. Luminous Red Galaxies",
+      "summary": "We present the most precise measurements of the kinetic Sunyaev-Zel'dovich (kSZ) effect around luminous red galaxies to date, detecting the signal at $18σ$ significance in both harmonic and configuration space. Our analysis cross-correlates 2.4 million spectroscopic LRGs from the Dark Energy Spectroscopic Instrument (DESI) DR2 sample with Data Release 6 (DR6) of the Atacama Cosmology Telescope (ACT). We develop a novel harmonic-space cross-correlation approach using momentum-weighted kSZ templates, yielding nearly uncorrelated bandpowers within a framework consistent with other large-scale structure analyses. By incorporating the LRG halo occupation distribution (HOD) and its uncertainty, we convert measured galaxy gas profiles into halo gas profiles and provide generalized Navarro-Frenk-W",
+      "authors": [
+        "F. J. Qu",
+        "B. Ried Guachalla",
+        "E. Schaan",
+        "B. Hadzhiyska",
+        "S. Ferraro"
+      ],
+      "link": "http://arxiv.org/abs/2604.19744v1",
+      "published": "2026-04-21",
+      "categories": [
+        "astro-ph.CO",
+        "astro-ph.GA"
+      ]
+    },
+    "analysis": {
+      "key_methods": "Using a light field and an image spectrometer\nUsing a real-time image spectrometer\nUsing a real-time image spectrometer\n...",
+      "datasets": "Here is how the Solar System uses the ZELI DR2, the LUTEL, to measure the Sun's solar radiation.",
+      "future_work": "Luminous Red Galaxies, Part II, Part III, Part IV and Part V of the Large Hadron Collider."
     }
   }
 ]
