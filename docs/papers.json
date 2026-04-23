@@ -1,119 +1,112 @@
 [
   {
     "paper": {
-      "title": "Tstars-Tryon 1.0: Robust and Realistic Virtual Try-On for Diverse Fashion Items",
-      "summary": "Recent advances in image generation and editing have opened new opportunities for virtual try-on. However, existing methods still struggle to meet complex real-world demands. We present Tstars-Tryon 1.0, a commercial-scale virtual try-on system that is robust, realistic, versatile, and highly efficient. First, our system maintains a high success rate across challenging cases like extreme poses, severe illumination variations, motion blur, and other in-the-wild conditions. Second, it delivers highly photorealistic results with fine-grained details, faithfully preserving garment texture, material properties, and structural characteristics, while largely avoiding common AI-generated artifacts. Third, beyond apparel try-on, our model supports flexible multi-image composition (up to 6 reference",
+      "title": "Self-regulated galaxy evolution within a self-consistently varying galaxy-wide IMF",
+      "summary": "Semi-analytical evolution models of galaxies are a useful and computationally inexpensive tool for fast assessment of individual properties and their evolution. In this work, specifically the influence of a metallicity and star-formation rate (SFR) dependent galaxy-wide stellar initial mass function (IGIMF) on the self-regulation of star-formation in a galaxy is of interest. All models -- both non-varying gwIMFs and the IGIMF -- reproduce reasonable gas fractions, gas depletion timescales and the main sequence of star-forming galaxies. However, only the IGIMF model accurately predicts the mass-metallicity relation and provides a more comprehensive description of quenched elliptical galaxies. For massive ellipticals all models suggest the need for an additional gas heating source to reach a",
       "authors": [
-        "Mengting Chen",
-        "Zhengrui Chen",
-        "Yongchao Du",
-        "Zuan Gao",
-        "Taihang Hu"
+        "Lukas Hof",
+        "Pavel Kroupa",
+        "Gerhard Hensler",
+        "Jan Pflamm-Altenburg"
       ],
-      "link": "http://arxiv.org/abs/2604.19748v1",
-      "published": "2026-04-21",
+      "link": "http://arxiv.org/abs/2604.20843v1",
+      "published": "2026-04-22",
       "categories": [
-        "cs.CV"
+        "astro-ph.GA"
       ]
     },
     "analysis": {
-      "key_methods": "-The aim of this test was to determine whether a designer or designer has a real experience with a portfolio of products...",
-      "datasets": "The first example of the concept of this is the t-shirt which is used to sell clothes with real clothes.",
-      "future_work": "For a list of the coolest designs from the recent season, check out our recent Diverse Fashion Items, which are availabl..."
+      "key_methods": "First, the data were collected from the first post-processing of the data using the following steps:\n1.",
+      "datasets": "Greece:\nGreece:\nGreece:\nGreece:\nGreece:\nGreece:\nGreece:\nGreece:\nGreece:\nGreece:.",
+      "future_work": "The study was carried out in the European Space Agency's Astrophysical Observatory of the Southern Observatory (ESA)."
     }
   },
   {
     "paper": {
-      "title": "AnyRecon: Arbitrary-View 3D Reconstruction with Video Diffusion Model",
-      "summary": "Sparse-view 3D reconstruction is essential for modeling scenes from casual captures, but remain challenging for non-generative reconstruction. Existing diffusion-based approaches mitigates this issues by synthesizing novel views, but they often condition on only one or two capture frames, which restricts geometric consistency and limits scalability to large or diverse scenes. We propose AnyRecon, a scalable framework for reconstruction from arbitrary and unordered sparse inputs that preserves explicit geometric control while supporting flexible conditioning cardinality. To support long-range conditioning, our method constructs a persistent global scene memory via a prepended capture view cache, and removes temporal compression to maintain frame-level correspondence under large viewpoint ch",
+      "title": "SpeechParaling-Bench: A Comprehensive Benchmark for Paralinguistic-Aware Speech Generation",
+      "summary": "Paralinguistic cues are essential for natural human-computer interaction, yet their evaluation in Large Audio-Language Models (LALMs) remains limited by coarse feature coverage and the inherent subjectivity of assessment. To address these challenges, we introduce SpeechParaling-Bench, a comprehensive benchmark for paralinguistic-aware speech generation. It expands existing coverage from fewer than 50 to over 100 fine-grained features, supported by more than 1,000 English-Chinese parallel speech queries, and is organized into three progressively challenging tasks: fine-grained control, intra-utterance variation, and context-aware adaptation. To enable reliable evaluation, we further develop a pairwise comparison pipeline, in which candidate responses are evaluated against a fixed baseline b",
       "authors": [
-        "Yutian Chen",
-        "Shi Guo",
-        "Renbiao Jin",
-        "Tianshuo Yang",
-        "Xin Cai"
+        "Ruohan Liu",
+        "Shukang Yin",
+        "Tao Wang",
+        "Dong Zhang",
+        "Weiji Zhuang"
       ],
-      "link": "http://arxiv.org/abs/2604.19747v1",
-      "published": "2026-04-21",
+      "link": "http://arxiv.org/abs/2604.20842v1",
+      "published": "2026-04-22",
       "categories": [
-        "cs.CV"
+        "cs.CL",
+        "cs.AI",
+        "cs.SD"
       ]
     },
     "analysis": {
-      "key_methods": "The following code was written as an example of the approach we used in the previous post.",
-      "datasets": "A simple model of a 3D reconstruction of a 3D reconstruction of a 3D reconstruction of a 3D reconstruction of a 3D recon...",
-      "future_work": "A simple new way to solve the problem of the infinite wave propagation."
+      "key_methods": "A sample of 20 participants, 5 participants, and 50 were trained to perform a full-scale version of the SpeechParalingui...",
+      "datasets": "One of the basic features of the OpenCV language is its ability to analyze the performance of speech processing and perf...",
+      "future_work": "Mapping and Interaction with the Common Ground\nAchieving the Common Ground can be done by comparing the different approa..."
     }
   },
   {
     "paper": {
-      "title": "Calibration-Induced Systematics in SALT3 Training and Their Impact on Dark Energy Constraints from Stage IV Supernova Surveys",
-      "summary": "In the coming years, the Vera Rubin Observatory's Legacy Survey of Space and Time (Rubin-LSST) and the Nancy Grace Roman Space Telescope's (Roman) High Latitude Time Domain Survey (HLTDS) are expected to discover more than a million Type Ia supernovae (SNe Ia), several orders of magnitude more than current samples and with a tighter control on systematic uncertainties. One of the largest systematic uncertainties in cosmological analyses with SNe Ia is the accuracy of the spectro-photometric model for SNe Ia time series data, which depends on the photometric calibration of the surveys. To quantify the impact of this uncertainty, we analyze simulated Rubin-LSST and HLTDS data, perturb the photometric zero-points and filter mean wavelengths, and propagate these systematics to spectral model r",
+      "title": "DeVI: Physics-based Dexterous Human-Object Interaction via Synthetic Video Imitation",
+      "summary": "Recent advances in video generative models enable the synthesis of realistic human-object interaction videos across a wide range of scenarios and object categories, including complex dexterous manipulations that are difficult to capture with motion capture systems. While the rich interaction knowledge embedded in these synthetic videos holds strong potential for motion planning in dexterous robotic manipulation, their limited physical fidelity and purely 2D nature make them difficult to use directly as imitation targets in physics-based character control. We present DeVI (Dexterous Video Imitation), a novel framework that leverages text-conditioned synthetic videos to enable physically plausible dexterous agent control for interacting with unseen target objects. To overcome the imprecision",
       "authors": [
-        "Kene Anumba",
-        "David 0. Jones",
-        "Richard Kessler",
-        "Daniel Scolnic",
-        "W. D'Arcy Kenworthy"
+        "Hyeonwoo Kim",
+        "Jeonghwan Kim",
+        "Kyungwon Cho",
+        "Hanbyul Joo"
       ],
-      "link": "http://arxiv.org/abs/2604.19746v1",
-      "published": "2026-04-21",
+      "link": "http://arxiv.org/abs/2604.20841v1",
+      "published": "2026-04-22",
       "categories": [
-        "astro-ph.CO"
+        "cs.CV"
       ]
     },
     "analysis": {
       "key_methods": ".",
-      "datasets": "RSS: Calibration-Induced Systematics in SALT3 Training and Their Impact on Dark Energy Constraints from Stage IV Superno...",
-      "future_work": "The first step in the development of a scalable, multi-stage, high-speed, high-speed, high-speed, high-speed high-speed,..."
+      "datasets": "T-Rex and X-Ray: A New Approach to Data Manipulation (E.",
+      "future_work": "To create a new, better-funded tool to use the powerful video-imitation tool, the researchers are using the new video-im..."
     }
   },
   {
     "paper": {
-      "title": "Precision Kinematic Sunyaev--Zel'dovich Measurements Across Halo Mass and Redshift with DESI DR2 and ACT DR6: Part II. Bright Galaxy Survey and Emission-Line Galaxies",
-      "summary": "We present the first high-significance spectroscopic stacked kinetic Sunyaev-Zel'dovich (kSZ) measurements of circumgalactic gas profiles for both Bright Galaxy Survey (BGS) and Emission Line Galaxy (ELG) tracers, combining DESI Data Release 2 with ACT Data Release 6. Using reconstructed line-of-sight velocities from the DESI galaxies and high-resolution ACT temperature maps, we detect the kSZ signal at high significance, reaching signal-to-noise ratios of up to $\\sim$9 for BGS and $\\sim$7.5 for ELGs in optimal stellar-mass selections. Together with the LRG measurements presented in Paper I, these constitute the most significant kSZ detections from any spectroscopic survey to date. We perform the analysis in both real and harmonic space, obtaining consistent results. By splitting both trac",
+      "title": "Homogeneous $\\mathbb Z/2$-Harmonic Forms and Spinors on $\\R^4$ from Regular 4-Polytopes",
+      "summary": "We describe novel local singularity models for $\\mathbb Z/2$ harmonic 1-forms, self-dual 2-forms and spinors in dimension 4. These models are homogeneous versions on $\\R^4$ whose singular sets are cones on the 1-skeletal of certain regular 4-dimensional polytopes.",
       "authors": [
-        "B. Hadzhiyska",
-        "S. Ferraro",
-        "F. J. Qu",
-        "B. Ried Guachalla",
-        "E. Schaan"
+        "Clifford Taubes",
+        "Yingying Wu"
       ],
-      "link": "http://arxiv.org/abs/2604.19745v1",
-      "published": "2026-04-21",
+      "link": "http://arxiv.org/abs/2604.20840v1",
+      "published": "2026-04-22",
       "categories": [
-        "astro-ph.CO",
-        "astro-ph.GA"
+        "math.DG",
+        "math.AP"
       ]
     },
     "analysis": {
-      "key_methods": "In the study, the authors used a 1.",
-      "datasets": "http://www.",
-      "future_work": "Reverse with multiple imaging techniques, and large-scale field work, and to make a better understanding of the underlyi..."
+      "key_methods": "For the first time, the simplest of the three monads, a random number generator (or an arbitrarily-defined set of pseudo...",
+      "datasets": "[1]\n[2]\n[3]\n[4]\n[5]\n[6]\n[7]\n[8]\n[9]\n[10]\n[11]\n[12]\n[.",
+      "future_work": "Bibliography:\nKierlein, L."
     }
   },
   {
     "paper": {
-      "title": "Precision Kinematic Sunyaev--Zel'dovich Measurements Across Halo Mass and Redshift with DESI DR2 and ACT DR6: Part I. Luminous Red Galaxies",
-      "summary": "We present the most precise measurements of the kinetic Sunyaev-Zel'dovich (kSZ) effect around luminous red galaxies to date, detecting the signal at $18σ$ significance in both harmonic and configuration space. Our analysis cross-correlates 2.4 million spectroscopic LRGs from the Dark Energy Spectroscopic Instrument (DESI) DR2 sample with Data Release 6 (DR6) of the Atacama Cosmology Telescope (ACT). We develop a novel harmonic-space cross-correlation approach using momentum-weighted kSZ templates, yielding nearly uncorrelated bandpowers within a framework consistent with other large-scale structure analyses. By incorporating the LRG halo occupation distribution (HOD) and its uncertainty, we convert measured galaxy gas profiles into halo gas profiles and provide generalized Navarro-Frenk-W",
+      "title": "High-Girth Regular Quantum LDPC Codes from Affine-Coset Structures",
+      "summary": "We construct a quantum low-density parity-check code family from a length-512 Calderbank-Shor-Steane base matrix pair. The base pair is $(3,8)$-regular, both Tanner graphs have girth 8 , and the base code has parameters $[[512,174,8]]$. The construction uses affine cosets of six 3-dimensional subspaces of $\\mathbb{F}_2^9$ as check supports, and then applies circulant permutation matrix (CPM) lifts. The main decoding experiment uses the CPM-lifted code with lift factor $P=32$, which has parameters $[[16384, 4142, \\leq 40]]$, under the code-capacity depolarizing model. A belief-propagation decoder with post-processing achieved frame error rate about $10^{-8}$ at $p=$ 0.085 , and one observed logical residual of weight 40 gives a decoder-derived upper bound $d \\leq 40$.",
       "authors": [
-        "F. J. Qu",
-        "B. Ried Guachalla",
-        "E. Schaan",
-        "B. Hadzhiyska",
-        "S. Ferraro"
+        "Koki Okada",
+        "Kenta Kasai"
       ],
-      "link": "http://arxiv.org/abs/2604.19744v1",
-      "published": "2026-04-21",
+      "link": "http://arxiv.org/abs/2604.20838v1",
+      "published": "2026-04-22",
       "categories": [
-        "astro-ph.CO",
-        "astro-ph.GA"
+        "quant-ph"
       ]
     },
     "analysis": {
-      "key_methods": "Using a light field and an image spectrometer\nUsing a real-time image spectrometer\nUsing a real-time image spectrometer\n...",
-      "datasets": "Here is how the Solar System uses the ZELI DR2, the LUTEL, to measure the Sun's solar radiation.",
-      "future_work": "Luminous Red Galaxies, Part II, Part III, Part IV and Part V of the Large Hadron Collider."
+      "key_methods": "The HPLC coding scheme:\nThe HPLC coding scheme:\nThe HPLC coding scheme:\nThe HPLC coding scheme:\nThe HPLC coding scheme:\n...",
+      "datasets": "Data in the data in the table below are based on the frequency of LDPC codes and the frequency of local LDPC codes.",
+      "future_work": "A common understanding of the properties of quantum entanglement is the ability to transfer information between a single..."
     }
   }
 ]
