@@ -1,116 +1,115 @@
 [
   {
     "paper": {
-      "title": "How Do AI Agents Spend Your Money? Analyzing and Predicting Token Consumption in Agentic Coding Tasks",
-      "summary": "The wide adoption of AI agents in complex human workflows is driving rapid growth in LLM token consumption. When agents are deployed on tasks that require a significant amount of tokens, three questions naturally arise: (1) Where do AI agents spend the tokens? (2) Which models are more token-efficient? and (3) Can agents predict their token usage before task execution? In this paper, we present the first systematic study of token consumption patterns in agentic coding tasks. We analyze trajectories from eight frontier LLMs on SWE-bench Verified and evaluate models' ability to predict their own token costs before task execution. We find that: (1) agentic tasks are uniquely expensive, consuming 1000x more tokens than code reasoning and code chat, with input tokens rather than output tokens d",
+      "title": "World-R1: Reinforcing 3D Constraints for Text-to-Video Generation",
+      "summary": "Recent video foundation models demonstrate impressive visual synthesis but frequently suffer from geometric inconsistencies. While existing methods attempt to inject 3D priors via architectural modifications, they often incur high computational costs and limit scalability. We propose World-R1, a framework that aligns video generation with 3D constraints through reinforcement learning. To facilitate this alignment, we introduce a specialized pure text dataset tailored for world simulation. Utilizing Flow-GRPO, we optimize the model using feedback from pre-trained 3D foundation models and vision-language models to enforce structural coherence without altering the underlying architecture. We further employ a periodic decoupled training strategy to balance rigid geometric consistency with dyna",
       "authors": [
-        "Longju Bai",
-        "Zhemin Huang",
-        "Xingyao Wang",
-        "Jiao Sun",
-        "Rada Mihalcea"
+        "Weijie Wang",
+        "Xiaoxuan He",
+        "Youping Gu",
+        "Yifan Yang",
+        "Zeyu Zhang"
       ],
-      "link": "http://arxiv.org/abs/2604.22750v1",
-      "published": "2026-04-24",
+      "link": "http://arxiv.org/abs/2604.24764v1",
+      "published": "2026-04-27",
       "categories": [
-        "cs.CL",
-        "cs.CY",
-        "cs.HC",
-        "cs.SE"
+        "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "1.",
-      "datasets": "The top five cryptocurrencies do not have a lot of data to store, and only a small portion of it is used for the purpose...",
-      "future_work": "How Do AI Agents Spend Your Money? Analyzing and Predicting Token Consumption in Agentic Coding Tasks."
+      "key_methods": "A.",
+      "datasets": "Data:\nCoding for the World-R1: Reinforcing 3D Constraints for Text-to-Video Generation.",
+      "future_work": "The authors are the authors of the paper:\n“The paper is currently available in the online journal Abstract for the Study..."
     }
   },
   {
     "paper": {
-      "title": "Representational Harms in LLM-Generated Narratives Against Global Majority Nationalities",
-      "summary": "Large language models (LLMs) are increasingly used for text generation tasks from everyday use to high-stakes enterprise and government applications, including simulated interviews with asylum seekers. While many works highlight the new potential applications of LLMs, there are risks of LLMs encoding and perpetuating harmful biases about non-dominant communities across the globe. To better evaluate and mitigate such harms, more research examining how LLMs portray diverse individuals is needed. In this work, we study how national origin identities are portrayed by widely-adopted LLMs in response to open-ended narrative generation prompts. Our findings demonstrate the presence of persistent representational harms by national origin, including harmful stereotypes, erasure, and one-dimensional",
+      "title": "Tuna-2: Pixel Embeddings Beat Vision Encoders for Multimodal Understanding and Generation",
+      "summary": "Unified multimodal models typically rely on pretrained vision encoders and use separate visual representations for understanding and generation, creating misalignment between the two tasks and preventing fully end-to-end optimization from raw pixels. We introduce Tuna-2, a native unified multimodal model that performs visual understanding and generation directly based on pixel embeddings. Tuna-2 drastically simplifies the model architecture by employing simple patch embedding layers to encode visual input, completely discarding the modular vision encoder designs such as the VAE or the representation encoder. Experiments show that Tuna-2 achieves state-of-the-art performance in multimodal benchmarks, demonstrating that unified pixel-space modelling can fully compete with latent-space approa",
       "authors": [
-        "Ilana Nguyen",
-        "Harini Suresh",
-        "Thema Monroe-White",
-        "Evan Shieh"
+        "Zhiheng Liu",
+        "Weiming Ren",
+        "Xiaoke Huang",
+        "Shoufa Chen",
+        "Tianhong Li"
       ],
-      "link": "http://arxiv.org/abs/2604.22749v1",
-      "published": "2026-04-24",
+      "link": "http://arxiv.org/abs/2604.24763v1",
+      "published": "2026-04-27",
       "categories": [
-        "cs.CL"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The Global Largest, fastest growing and largest Largest Largest Largest Largest Largest Largest Largest Largest Largest ...",
-      "datasets": "Data:\nTable of Contents:\nTable of Contents:\nTable of Contents:\nTable of Contents:\nTable of Contents:\nTable of Contents:\n...",
-      "future_work": "Received October 20, 2016, from the Center for the Study of Global Change."
-    }
-  },
-  {
-    "paper": {
-      "title": "Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond",
-      "summary": "As AI systems move from generating text to accomplishing goals through sustained interaction, the ability to model environment dynamics becomes a central bottleneck. Agents that manipulate objects, navigate software, coordinate with others, or design experiments require predictive environment models, yet the term world model carries different meanings across research communities. We introduce a \"levels x laws\" taxonomy organized along two axes. The first defines three capability levels: L1 Predictor, which learns one-step local transition operators; L2 Simulator, which composes them into multi-step, action-conditioned rollouts that respect domain laws; and L3 Evolver, which autonomously revises its own model when predictions fail against new evidence. The second identifies four governing-l",
-      "authors": [
-        "Meng Chu",
-        "Xuan Billy Zhang",
-        "Kevin Qinghong Lin",
-        "Lingdong Kong",
-        "Jize Zhang"
-      ],
-      "link": "http://arxiv.org/abs/2604.22748v1",
-      "published": "2026-04-24",
-      "categories": [
-        "cs.AI"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The following table summarizes the data gathered on the first day of the project:\nTable 1.",
-      "datasets": ".",
-      "future_work": "Gramming and design of large-scale networked networks, using smart contracts, and the blockchain."
-    }
-  },
-  {
-    "paper": {
-      "title": "Code for All: Educational Applications of the \"Vibe Coding\" Hackathon in Programming Education across All Skill Levels",
-      "summary": "The emergence of large language models has enabled vibe coding, a natural language approach to programming in which users describe intent and AI generates or revises code, potentially broadening access to programming while preserving meaningful learning outcomes. We investigate its educational value through a month-long online hackathon that welcomed participants from multiple countries, ranging from complete beginners to experienced developers. The hackathon offered three tracks with increasing technical demands. Spark emphasized basic frontend functionality and dynamic features such as buttons, forms, and API calls. Build required backend or database integration. Launch targeted production ready web applications, including deployment. Participants were required to develop projects using ",
-      "authors": [
-        "Ashley J. Chen",
-        "Yijia Cao",
-        "Minghao Shao",
-        "Ramesh Karri",
-        "Muhammad Shafique"
-      ],
-      "link": "http://arxiv.org/abs/2604.22747v1",
-      "published": "2026-04-24",
-      "categories": [
-        "cs.SE"
-      ]
-    },
-    "analysis": {
-      "key_methods": "There are several methods to develop interactive code using the Vibe Coding Hackathon:\nMethod 1: Create a program with t...",
-      "datasets": "The last time I took part in the Hackathon, I was in a booth with a hacker named M.",
-      "future_work": "The \"Vibe Coding\" Hackathon in Programming Education across All Skill Levels."
-    }
-  },
-  {
-    "paper": {
-      "title": "Relaxation-Informed Training of Neural Network Surrogate Models",
-      "summary": "ReLU neural networks trained as surrogate models can be embedded exactly in mixed-integer linear programs (MILPs), enabling global optimization over the learned function. The tractability of the resulting MILP depends on structural properties of the network, i.e., the number of binary variables in associated formulations and the tightness of the continuous LP relaxation. These properties are determined during training, yet standard training objectives (prediction loss with classical weight regularization) offer no mechanism to directly control them. This work studies training regularizers that directly target downstream MILP tractability. Specifically, we propose simple bound-based regularizers that penalize the big-M constants of MILP formulations and/or the number of unstable neurons. Mo",
-      "authors": [
-        "Calvin Tsay"
-      ],
-      "link": "http://arxiv.org/abs/2604.22746v1",
-      "published": "2026-04-24",
-      "categories": [
-        "math.OC",
-        "cs.LG"
+        "cs.CV"
       ]
     },
     "analysis": {
       "key_methods": ".",
-      "datasets": "Sectures and Methods are presented at the end of this series.",
-      "future_work": "An increasing number of studies have examined the possibility of using a neural network to train neural network models."
+      "datasets": "Figure 1: The Pixel Embeddings Beat Vision Encoders.",
+      "future_work": "Kris W."
+    }
+  },
+  {
+    "paper": {
+      "title": "Cosmological Impact of Redshift-Dependent Type Ia Supernovae Calibration",
+      "summary": "Type Ia supernovae (SNIa) play a central role in constraining the late-time expansion history of the Universe and are directly implicated in current cosmological tensions. Motivated by the possibility of unaccounted redshift-dependent calibration systematics or new physics, we investigate the impact of a phenomenological correction to SNIa magnitudes that scales with cosmic look-back time. We parameterize this effect with a free amplitude and constrain it using a combination of cosmic microwave background, baryon acoustic oscillation, and SNIa data, considering both $Λ$CDM and dynamical dark energy models. Importantly, our parameterization is not intended to serve as a proxy for SNIa progenitor age, as current observations show no significant difference in standardized SNIa brightness betw",
+      "authors": [
+        "Seyed Hamidreza Mirpoorian",
+        "Meng-Xiang Lin",
+        "Levon Pogosian"
+      ],
+      "link": "http://arxiv.org/abs/2604.24761v1",
+      "published": "2026-04-27",
+      "categories": [
+        "astro-ph.CO"
+      ]
+    },
+    "analysis": {
+      "key_methods": ".",
+      "datasets": "As previously reported, there is a strong possibility that the amount of energy lost by a supernovae in a single day (C/...",
+      "future_work": "Theoretical Modeling and the Analysis of Redshift-Dependent Type Ia Supernovae Calibration (1."
+    }
+  },
+  {
+    "paper": {
+      "title": "Contracting Tensor Networks with Generalized Belief Propagation",
+      "summary": "Recent years have seen a growing interest in the use of belief propagation - an algorithm originally introduced for performing statistical inference on graphical models - for approximate, but highly efficient, tensor network contraction. Here, we detail how to apply generalized belief propagation (GBP) - where messages are passed within a hierarchy of overlapping regions of the tensor network - to approximately contract tensor networks and obtain accurate results. The original belief propagation algorithm is a corner case of this approach, corresponding to a particularly simple choice of regions of the tensor network. We implement the GBP algorithm for a number of different region choices on a range of two- and three-dimensional, infinite and finite tensor networks, solving the correspondi",
+      "authors": [
+        "Joseph Tindall",
+        "Grace M. Sommers",
+        "Hilbert Kappen"
+      ],
+      "link": "http://arxiv.org/abs/2604.24760v1",
+      "published": "2026-04-27",
+      "categories": [
+        "quant-ph",
+        "cond-mat.stat-mech",
+        "physics.comp-ph"
+      ]
+    },
+    "analysis": {
+      "key_methods": ".",
+      "datasets": "The following is based on the following diagram:\nThe following diagram is made using a computer-based model of the neura...",
+      "future_work": "How to make sense of the idea of a human being with a brain that is capable of processing a mind, a body, or even a pers..."
+    }
+  },
+  {
+    "paper": {
+      "title": "The lifetime of 100,000 molecular clouds in the nearby Universe",
+      "summary": "Multiple mechanisms are proposed for the formation of giant molecular clouds (GMCs), from gravitational free-fall caused by self-gravity to stellar feedback-driven gas compression. Both the galactic environment and galaxy conditions could play an additional role in enhancing the formation via their gas surface density and star formation activity. In this paper, we make use of a catalog of 108,466 GMCs identified by F770W PHANGS--JWST imaging across 66 galaxies at a homogenized resolution of 30~pc. We measure the mass spectra in various galactic regions, whose power-law slopes vary from $-1.2$ to $-2.0$. We then estimate the formation time of each cloud using a model where GMCs form from multiple feedback compression, and find that clouds with masses $\\leq 10^{5}\\,M_{\\odot}$ form, on averag",
+      "authors": [
+        "Z. Bazzi",
+        "M. I. N. Kobayashi",
+        "D. Colombo",
+        "F. Bigiel",
+        "A. K. Leroy"
+      ],
+      "link": "http://arxiv.org/abs/2604.24759v1",
+      "published": "2026-04-27",
+      "categories": [
+        "astro-ph.GA"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The molecular cloud of the Universe (the first step in understanding the nature and scope of the Universe) was formed fr...",
+      "datasets": "The galaxy is one of the most famous galaxies, as well as a few of the most powerful stars of all time and the last know...",
+      "future_work": "The evolution of the quantum field of physics, the field of physics, and the quantum physics of chemistry."
     }
   }
 ]
