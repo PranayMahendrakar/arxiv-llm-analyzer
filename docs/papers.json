@@ -1,115 +1,115 @@
 [
   {
     "paper": {
-      "title": "World-R1: Reinforcing 3D Constraints for Text-to-Video Generation",
-      "summary": "Recent video foundation models demonstrate impressive visual synthesis but frequently suffer from geometric inconsistencies. While existing methods attempt to inject 3D priors via architectural modifications, they often incur high computational costs and limit scalability. We propose World-R1, a framework that aligns video generation with 3D constraints through reinforcement learning. To facilitate this alignment, we introduce a specialized pure text dataset tailored for world simulation. Utilizing Flow-GRPO, we optimize the model using feedback from pre-trained 3D foundation models and vision-language models to enforce structural coherence without altering the underlying architecture. We further employ a periodic decoupled training strategy to balance rigid geometric consistency with dyna",
+      "title": "Recursive Multi-Agent Systems",
+      "summary": "Recursive or looped language models have recently emerged as a new scaling axis by iteratively refining the same model computation over latent states to deepen reasoning. We extend such scaling principle from a single model to multi-agent systems, and ask: Can agent collaboration itself be scaled through recursion? To this end, we introduce RecursiveMAS, a recursive multi-agent framework that casts the entire system as a unified latent-space recursive computation. RecursiveMAS connects heterogeneous agents as a collaboration loop through the lightweight RecursiveLink module, enabling in-distribution latent thoughts generation and cross-agent latent state transfer. To optimize our framework, we develop an inner-outer loop learning algorithm for iterative whole-system co-optimization through",
       "authors": [
-        "Weijie Wang",
-        "Xiaoxuan He",
-        "Youping Gu",
-        "Yifan Yang",
-        "Zeyu Zhang"
+        "Xiyuan Yang",
+        "Jiaru Zou",
+        "Rui Pan",
+        "Ruizhong Qiu",
+        "Pan Lu"
       ],
-      "link": "http://arxiv.org/abs/2604.24764v1",
-      "published": "2026-04-27",
+      "link": "http://arxiv.org/abs/2604.25917v1",
+      "published": "2026-04-28",
       "categories": [
-        "cs.CV"
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
       ]
     },
     "analysis": {
-      "key_methods": "A.",
-      "datasets": "Data:\nCoding for the World-R1: Reinforcing 3D Constraints for Text-to-Video Generation.",
-      "future_work": "The authors are the authors of the paper:\n“The paper is currently available in the online journal Abstract for the Study..."
+      "key_methods": "The goal is to provide an automated solution for the use of multi-agent systems.",
+      "datasets": "2) Theoretical Applications – In particular:\n3) In the context of the application, you can use multiple agents in the ap...",
+      "future_work": "In order to develop a multi-agent system, we need to use a set of methods to manage complex tasks in a scalable and scal..."
     }
   },
   {
     "paper": {
-      "title": "Tuna-2: Pixel Embeddings Beat Vision Encoders for Multimodal Understanding and Generation",
-      "summary": "Unified multimodal models typically rely on pretrained vision encoders and use separate visual representations for understanding and generation, creating misalignment between the two tasks and preventing fully end-to-end optimization from raw pixels. We introduce Tuna-2, a native unified multimodal model that performs visual understanding and generation directly based on pixel embeddings. Tuna-2 drastically simplifies the model architecture by employing simple patch embedding layers to encode visual input, completely discarding the modular vision encoder designs such as the VAE or the representation encoder. Experiments show that Tuna-2 achieves state-of-the-art performance in multimodal benchmarks, demonstrating that unified pixel-space modelling can fully compete with latent-space approa",
+      "title": "DV-World: Benchmarking Data Visualization Agents in Real-World Scenarios",
+      "summary": "Real-world data visualization (DV) requires native environmental grounding, cross-platform evolution, and proactive intent alignment. Yet, existing benchmarks often suffer from code-sandbox confinement, single-language creation-only tasks, and assumption of perfect intent. To bridge these gaps, we introduce DV-World, a benchmark of 260 tasks designed to evaluate DV agents across real-world professional lifecycles. DV-World spans three domains: DV-Sheet for native spreadsheet manipulation including chart and dashboard creation as well as diagnostic repair; DV-Evolution for adapting and restructuring reference visual artifacts to fit new data across diverse programming paradigms and DV-Interact for proactive intent alignment with a user simulator that mimics real-world ambiguous requirements",
       "authors": [
-        "Zhiheng Liu",
-        "Weiming Ren",
-        "Xiaoke Huang",
-        "Shoufa Chen",
-        "Tianhong Li"
+        "Jinxiang Meng",
+        "Shaoping Huang",
+        "Fangyu Lei",
+        "Jingyu Guo",
+        "Haoxiang Liu"
       ],
-      "link": "http://arxiv.org/abs/2604.24763v1",
-      "published": "2026-04-27",
+      "link": "http://arxiv.org/abs/2604.25914v1",
+      "published": "2026-04-28",
       "categories": [
-        "cs.CV"
+        "cs.CL"
       ]
     },
     "analysis": {
-      "key_methods": ".",
-      "datasets": "Figure 1: The Pixel Embeddings Beat Vision Encoders.",
-      "future_work": "Kris W."
+      "key_methods": "The following table summarizes the data from a sample of the following table:\nThe following table summarizes the data fr...",
+      "datasets": "Annotation: A\nData Set:\nA Map Set (a)\nA Map Set (b)\nA Map Set (c)\nA Map Set (d)\nA Map Set (e)\nA Map Set (f.",
+      "future_work": "Valdivar, R."
     }
   },
   {
     "paper": {
-      "title": "Cosmological Impact of Redshift-Dependent Type Ia Supernovae Calibration",
-      "summary": "Type Ia supernovae (SNIa) play a central role in constraining the late-time expansion history of the Universe and are directly implicated in current cosmological tensions. Motivated by the possibility of unaccounted redshift-dependent calibration systematics or new physics, we investigate the impact of a phenomenological correction to SNIa magnitudes that scales with cosmic look-back time. We parameterize this effect with a free amplitude and constrain it using a combination of cosmic microwave background, baryon acoustic oscillation, and SNIa data, considering both $Λ$CDM and dynamical dark energy models. Importantly, our parameterization is not intended to serve as a proxy for SNIa progenitor age, as current observations show no significant difference in standardized SNIa brightness betw",
+      "title": "Credit Limits beyond Full Collateralization in Decentralized Micropayments: Incentive Conditions",
+      "summary": "In decentralized non-custodial micropayments, the central challenge is not whether payments can be executed directly, but under what conditions such systems can offer credit limits without requiring full collateral backing. Existing approaches typically tie available credit to posted collateral, causing liquidity requirements to scale with transaction volume and settlement exposure and limiting the practical usefulness of credit-based micropayments. This paper characterizes the incentive conditions under which credit-based non-custodial micropayments can operate beyond full collateralization while remaining incentive compatible. We model repeated buyer--merchant interactions under public monitoring and identify the roles of bounded exposure, verifiable settlement outcomes, and continuation",
       "authors": [
-        "Seyed Hamidreza Mirpoorian",
-        "Meng-Xiang Lin",
-        "Levon Pogosian"
+        "Chien-Chih Chen",
+        "Wojciech Golab"
       ],
-      "link": "http://arxiv.org/abs/2604.24761v1",
-      "published": "2026-04-27",
+      "link": "http://arxiv.org/abs/2604.25913v1",
+      "published": "2026-04-28",
       "categories": [
-        "astro-ph.CO"
+        "cs.GT",
+        "cs.CR"
       ]
     },
     "analysis": {
-      "key_methods": ".",
-      "datasets": "As previously reported, there is a strong possibility that the amount of energy lost by a supernovae in a single day (C/...",
-      "future_work": "Theoretical Modeling and the Analysis of Redshift-Dependent Type Ia Supernovae Calibration (1."
+      "key_methods": "The study was conducted during the European Cooperative Agricultural Experiment (EAS) in the Netherlands.",
+      "datasets": "The current study was published in the Journal of the American Chemical Society.",
+      "future_work": "A model of the energy-efficient electric grid."
     }
   },
   {
     "paper": {
-      "title": "Contracting Tensor Networks with Generalized Belief Propagation",
-      "summary": "Recent years have seen a growing interest in the use of belief propagation - an algorithm originally introduced for performing statistical inference on graphical models - for approximate, but highly efficient, tensor network contraction. Here, we detail how to apply generalized belief propagation (GBP) - where messages are passed within a hierarchy of overlapping regions of the tensor network - to approximately contract tensor networks and obtain accurate results. The original belief propagation algorithm is a corner case of this approach, corresponding to a particularly simple choice of regions of the tensor network. We implement the GBP algorithm for a number of different region choices on a range of two- and three-dimensional, infinite and finite tensor networks, solving the correspondi",
+      "title": "From short-lived to long-lived clouds: impact of star formation models on giant molecular cloud evolution in simulations of an NGC 300-like galaxy",
+      "summary": "Multi-wavelength observations of molecular and ionized gas indicate that GMCs are short-lived, generally dispersing within one or two dynamical timescales. To investigate the physical origin of these short lifetimes and the role of star formation prescriptions, we conduct radiation-hydrodynamic simulations of an NGC 300-like disk galaxy with RAMSES-RT. We compare two distinct star formation models, one based on a local gravo-thermo-turbulent (GTT) condition and the other employing sink particles, to examine how star formation and feedback collectively regulate GMC evolution. The sink-particle-based model yields bursty yet self-regulated global star formation rates of $0.1$-$0.5$ $M_{\\odot}\\,yr^{-1}$ and produces GMC lifetimes of $\\sim20$-$30$ Myr, with star formation efficiencies (SFEs) pe",
       "authors": [
-        "Joseph Tindall",
-        "Grace M. Sommers",
-        "Hilbert Kappen"
+        "Daniel Han",
+        "Taysun Kimm",
+        "Cheonsu Kang",
+        "Jaehyun Lee",
+        "Harley Katz"
       ],
-      "link": "http://arxiv.org/abs/2604.24760v1",
-      "published": "2026-04-27",
-      "categories": [
-        "quant-ph",
-        "cond-mat.stat-mech",
-        "physics.comp-ph"
-      ]
-    },
-    "analysis": {
-      "key_methods": ".",
-      "datasets": "The following is based on the following diagram:\nThe following diagram is made using a computer-based model of the neura...",
-      "future_work": "How to make sense of the idea of a human being with a brain that is capable of processing a mind, a body, or even a pers..."
-    }
-  },
-  {
-    "paper": {
-      "title": "The lifetime of 100,000 molecular clouds in the nearby Universe",
-      "summary": "Multiple mechanisms are proposed for the formation of giant molecular clouds (GMCs), from gravitational free-fall caused by self-gravity to stellar feedback-driven gas compression. Both the galactic environment and galaxy conditions could play an additional role in enhancing the formation via their gas surface density and star formation activity. In this paper, we make use of a catalog of 108,466 GMCs identified by F770W PHANGS--JWST imaging across 66 galaxies at a homogenized resolution of 30~pc. We measure the mass spectra in various galactic regions, whose power-law slopes vary from $-1.2$ to $-2.0$. We then estimate the formation time of each cloud using a model where GMCs form from multiple feedback compression, and find that clouds with masses $\\leq 10^{5}\\,M_{\\odot}$ form, on averag",
-      "authors": [
-        "Z. Bazzi",
-        "M. I. N. Kobayashi",
-        "D. Colombo",
-        "F. Bigiel",
-        "A. K. Leroy"
-      ],
-      "link": "http://arxiv.org/abs/2604.24759v1",
-      "published": "2026-04-27",
+      "link": "http://arxiv.org/abs/2604.25911v1",
+      "published": "2026-04-28",
       "categories": [
         "astro-ph.GA"
       ]
     },
     "analysis": {
-      "key_methods": "The molecular cloud of the Universe (the first step in understanding the nature and scope of the Universe) was formed fr...",
-      "datasets": "The galaxy is one of the most famous galaxies, as well as a few of the most powerful stars of all time and the last know...",
-      "future_work": "The evolution of the quantum field of physics, the field of physics, and the quantum physics of chemistry."
+      "key_methods": "The study was supported by the National Science Foundation and the National Science Foundation.",
+      "datasets": "An NGC 300-like galaxy, a massive galaxy, is a giant galaxy, and it has a large number of important properties that are ...",
+      "future_work": "Using star formation models, a new study of the gas-rich NGC 300-like galaxy in the same galaxy shows that NGC 300-like ..."
+    }
+  },
+  {
+    "paper": {
+      "title": "How Fast Should a Model Commit to Supervision? Training Reasoning Models on the Tsallis Loss Continuum",
+      "summary": "Adapting reasoning models to new tasks during post-training with only output-level supervision stalls under reinforcement learning from verifiable rewards (RLVR) when the initial success probability $p_0$ is small. Using the Tsallis $q$-logarithm, we define a loss family $J_Q$ that interpolates between RLVR (at $q{=}0$, the exploitation pole) and the log-marginal-likelihood over latent trajectories (at $q{=}1$, the density-estimation pole). All members share the same per-example gradient direction, differing only by a scalar amplification $P_{θ^{-q}}$ that reweights each instance independently of the learning rate. This amplification is the mechanism that addresses cold-start stalling: under gradient flow, the exploitation pole requires $Ω(\\frac{1}{p_0})$ time to escape cold start, while t",
+      "authors": [
+        "Chu-Cheng Lin",
+        "Eugene Ie"
+      ],
+      "link": "http://arxiv.org/abs/2604.25907v1",
+      "published": "2026-04-28",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ]
+    },
+    "analysis": {
+      "key_methods": "In the first ten minutes of the study, five of the models had identical results, with the same weights for the two diffe...",
+      "datasets": "The Tsallis Loss Continuum is a recurrent recurrent neural network model that combines both the loss of the original mem...",
+      "future_work": "What is the next step?."
     }
   }
 ]
