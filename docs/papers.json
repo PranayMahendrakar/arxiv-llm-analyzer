@@ -1,119 +1,114 @@
 [
   {
     "paper": {
-      "title": "HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation",
-      "summary": "Driving world models serve as a pivotal technology for autonomous driving by simulating environmental dynamics. However, existing approaches predominantly focus on future scene generation, often overlooking comprehensive 3D scene understanding. Conversely, while Large Language Models (LLMs) demonstrate impressive reasoning capabilities, they lack the capacity to predict future geometric evolution, creating a significant disparity between semantic interpretation and physical simulation. To bridge this gap, we propose HERMES++, a unified driving world model that integrates 3D scene understanding and future geometry prediction within a single framework. Our approach addresses the distinct requirements of these tasks through synergistic designs. First, a BEV representation consolidates multi-v",
+      "title": "Posterior Augmented Flow Matching",
+      "summary": "Flow matching (FM) trains a time-dependent vector field that transports samples from a simple prior to a complex data distribution. However, for high-dimensional images, each training sample supervises only a single trajectory and intermediate point, yielding an extremely sparse and high-variance training signal. This under-constrained supervision can cause flow collapse, where the learned dynamics memorize specific source-target pairings, mapping diverse inputs to overly similar outputs, failing to generalize. We introduce Posterior-Augmented Flow Matching (PAFM), a theoretically grounded generalization of FM that replaces single-target supervision with an expectation over an approximate posterior of valid target completions for a given intermediate state and condition. PAFM factorizes th",
       "authors": [
-        "Xin Zhou",
-        "Dingkang Liang",
-        "Xiwu Chen",
-        "Feiyang Tan",
-        "Dingyuan Zhang"
+        "George Stoica",
+        "Sayak Paul",
+        "Matthew Wallingford",
+        "Vivek Ramanujan",
+        "Abhay Nori"
       ],
-      "link": "http://arxiv.org/abs/2604.28196v1",
-      "published": "2026-04-30",
+      "link": "http://arxiv.org/abs/2605.00825v1",
+      "published": "2026-05-01",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "Implementation:\nImplementation:\nImplementation:\nImplementation:\nImplementation:\nIn the next step, we will create our own...",
-      "datasets": "The idea of 3D scene modeling is a common idea in most research projects, but it is not the only one that has been used ...",
-      "future_work": "The New York Times, The Washington Post, and the New York Times."
+      "key_methods": "An algorithm developed by Kaspersky Lab.",
+      "datasets": "In this blog post I will show you how to use the Google Analytics API to generate a MapReduce graph in real time.",
+      "future_work": "A testable and automated testing of a graph structure and the way it works."
     }
   },
   {
     "paper": {
-      "title": "OmniRobotHome: A Multi-Camera Platform for Real-Time Multiadic Human-Robot Interaction",
-      "summary": "Human-robot collaboration has been studied primarily in dyadic or sequential settings. However, real homes require multiadic collaboration, where multiple humans and robots share a workspace, acting concurrently on interleaved subtasks with tight spatial and temporal coupling. This regime remains underexplored because close-proximity interaction between humans, robots, and objects creates persistent occlusion and rapid state changes, making reliable real-time 3D tracking the central bottleneck. No existing platform provides the real-time, occlusion-robust, room-scale perception needed to make this regime experimentally tractable. We present OmniRobotHome, the first room-scale residential platform that unifies wide-area real-time 3D human and object perception with coordinated multi-robot a",
+      "title": "Reliability, Robustness, and Resilience Modeling for Surveillance System in Advanced Air Mobility Operations",
+      "summary": "Ensuring the safe and efficient operation of Advanced Air Mobility (AAM) in low-altitude airspace requires a reliable, robust, and resilient surveillance system capable of continuously detecting, identifying, and tracking aircraft under both normal and off-nominal conditions. To address this need, this study develops a comprehensive 3R modeling framework, reliability, robustness, and resilience, for the Surveillance for Advanced Air Mobility (SAM) system, with a focus on the optimal design and operation of a multi-type sensor network. Under normal operating conditions, the reliability model determines the baseline sensor types, quantities, and locations required to satisfy surveillance coverage and detection requirements. To address external perturbations, such as adverse weather condition",
       "authors": [
-        "Junyoung Lee",
-        "Sookwan Han",
-        "Jeonghwan Kim",
-        "Inhee Lee",
-        "Mingi Choi"
+        "Esrat Farhana Dulia",
+        "Caleb Adams",
+        "Syed Arbab Mohd Shihab",
+        "Ruben Del Rosario"
       ],
-      "link": "http://arxiv.org/abs/2604.28197v1",
-      "published": "2026-04-30",
+      "link": "http://arxiv.org/abs/2605.00823v1",
+      "published": "2026-05-01",
       "categories": [
-        "cs.RO",
-        "cs.CV"
+        "math.NA"
       ]
     },
     "analysis": {
-      "key_methods": "A.",
-      "datasets": ".",
-      "future_work": "Using the OmniRobot Home API to build an app for robots around real-time virtual reality is essential."
+      "key_methods": "The project and research were conducted by the Aeronautics and Space Administration, United States Air Force, the Nation...",
+      "datasets": "The C-Series R1R1R1R1R1R1L0R0R1L0R0R1L0R1L0R1L0R1L0R1L0R1L.",
+      "future_work": "Achieving the reliability, reliability, and resilience of the air force‒s air force using the most reliable, reliable an..."
     }
   },
   {
     "paper": {
-      "title": "Covariant Locally Localized Gravity and vDVZ Continuity",
-      "summary": "The Karch-Randall braneworld concerns the physics of an AdS$_{d}$ brane embedded in an ambient gravitational AdS$_{d+1}$ spacetime. The gravitational theory induced on the AdS$_{d}$ brane has a very light but massive graviton. It has been established that the zero graviton mass limit of the $d$-dimensional graviton propagator is smooth at tree-level. Furthermore, this smoothness was conjectured to persist to the quantum level. This conjecture suggests that the massive graviton on the AdS$_{d}$ brane is due to spontaneous symmetry breaking, which is consistent with its holographic dual description. In this letter, we show that the zero mass limit of the partition function is a theory of a massless graviton and a decoupled massive vector. The zero mass limit is not the basic Randall-Sundrum ",
+      "title": "PEARLS: Two Distinct Populations of AGN Hosts Moving Between Star Formation and Quiescence",
+      "summary": "We present the results of AGN--host-galaxy decomposition using JWST/NIRCam, HST/ACS, and HST/WFC3 imaging of the North Ecliptic Pole Time Domain Field (NEP-TDF). The light-profiles of 36 NIRCam-selected AGN candidates are modeled for measurement of their point sources, and point source-subtracted host-galaxy emission is used in SED modeling for star formation rate (SFR) estimation. Offsets from the canonical star-forming main sequence (SFMS) show that the host galaxies form two distinct groups distinguished by their star formation: a ``bridge'' between the moderate SFRs of radio sources and low SFRs of X-ray sources, and a cleanly-separated ``branch'' above $Δ\\rm SFMS = -1$ whose SFR trends positively with AGN fraction. Branch galaxies include late-type galaxies with X-ray and radio detect",
       "authors": [
-        "Hao Geng",
-        "Moritz Merz",
-        "Lisa Randall"
+        "Gibson B. Bowling",
+        "Rafael Ortiz",
+        "S. P. Willner",
+        "Seth H. Cohen",
+        "Timothy Carleton"
       ],
-      "link": "http://arxiv.org/abs/2604.28194v1",
-      "published": "2026-04-30",
+      "link": "http://arxiv.org/abs/2605.00822v1",
+      "published": "2026-05-01",
       "categories": [
-        "hep-th",
-        "gr-qc",
+        "astro-ph.GA"
+      ]
+    },
+    "analysis": {
+      "key_methods": ".",
+      "datasets": "1) The G4A1 (G5B), PIM (G6B) and C1 (G7B) have been observed for the first time, with the latter having been studied as ...",
+      "future_work": "The first-ever study of AGN host populations that are in the vicinity of the planet Earth could reveal the differences b..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Optimization of Weak Lensing Lightcone Simulations for Higher-Order Statistics in the LSST era",
+      "summary": "We present a framework for generating lightcone simulations tailored to the analysis of Stage-IV cosmic shear data using Higher-Order Statistics (HOS). We revisit key design choices from previous simulation campaigns and re-optimize several internal parameters, benchmarking accuracy through changes in $χ^2$ of cosmic shear statistics under survey conditions mimicking 10 years of observations from the Legacy Survey of Space and Time (LSST). We find that discretizing the lightcone uniformly in scale factor yields higher accuracy than commonly adopted schemes such as uniform spacing in redshift or comoving distance. While $N_{\\rm part} = 1024^3$ simulation particles (corresponding to a mass resolution of $m_{\\rm part} = 2.08\\times10^{10}M_\\odot$) is sufficient to model two-point statistics up",
+      "authors": [
+        "J. Mena-Fernández",
+        "C. Doux",
+        "J. Harnois-Déraps",
+        "K. Heitmann",
+        "C. Combet"
+      ],
+      "link": "http://arxiv.org/abs/2605.00821v1",
+      "published": "2026-05-01",
+      "categories": [
+        "astro-ph.CO"
+      ]
+    },
+    "analysis": {
+      "key_methods": "Introduction\nThe LSST is a new type of data-processing system developed in the 1960s by the University of Southern Calif...",
+      "datasets": "Data:\nLISPS4\n(1)\nPJL-A:\nBJL-B:\nJL-B:\nJL-B:\nJL-B:\nJL-B:.",
+      "future_work": "More information on the LSST simulation can be found at the Open Science meeting, and by visiting our website at http://..."
+    }
+  },
+  {
+    "paper": {
+      "title": "W-boson helicity fractions in top decay as probes of dimension-6 and dimension-8 SMEFT operators",
+      "summary": "Precision measurements of top-quark decays provide powerful probes of physics beyond the Standard Model (SM). While the impact of dimension-6 operators in the SM Effective Field Theory (SMEFT) has been extensively studied, the role of dimension-8 contributions remains largely unexplored, despite their potential importance as experimental precision improves. In this work, we present a combined analysis of dimension-6 and a representative subset of dimension-8 SMEFT effects using the W-boson helicity fractions in top-quark decays. We compute the leading-order contributions of these operators to the top-quark decay width and helicity fractions, and perform one-parameter and selected two-parameter $χ^{2}$ fits to the combined ATLAS and CMS measurements at a reference scale $Λ=1$~TeV. From the ",
+      "authors": [
+        "Afsaneh Kianfar",
+        "Gholamhossein Haghighat",
+        "Mojtaba Mohammadi Najafabadi"
+      ],
+      "link": "http://arxiv.org/abs/2605.00819v1",
+      "published": "2026-05-01",
+      "categories": [
         "hep-ph"
       ]
     },
     "analysis": {
-      "key_methods": "The basic design of the gravity equation\nIntroduction\nThe gravity equation is used to calculate the velocity of the obje...",
-      "datasets": "(8) The U.",
-      "future_work": "We know from the recent research that some of the strongest effects of gravity on our climate are when it comes to the m..."
-    }
-  },
-  {
-    "paper": {
-      "title": "LaST-R1: Reinforcing Action via Adaptive Physical Latent Reasoning for VLA Models",
-      "summary": "Vision-Language-Action (VLA) models have increasingly incorporated reasoning mechanisms for complex robotic manipulation. However, existing approaches share a critical limitation: whether employing explicit linguistic reasoning that suffers from latency and discretization, or utilizing more expressive continuous latent reasoning, they are predominantly confined to static imitation learning that limits adaptability and generalization. While online reinforcement learning (RL) has been introduced to VLAs to enable trial-and-error exploration, current methods exclusively optimize the vanilla action space, bypassing the underlying physical reasoning process. In this paper, we present \\textbf{LaST-R1}, a unified VLA framework that integrates latent Chain-of-Thought (CoT) reasoning over physical ",
-      "authors": [
-        "Hao Chen",
-        "Jiaming Liu",
-        "Zhonghao Yan",
-        "Nuowei Han",
-        "Renrui Zhang"
-      ],
-      "link": "http://arxiv.org/abs/2604.28192v1",
-      "published": "2026-04-30",
-      "categories": [
-        "cs.RO",
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": "In the first step of the experiment, we measured the effectiveness of a simple linear regression model (RMS) using a lin...",
-      "datasets": "I have used the models to explore the properties of the spatial data, but there is no evidence any such modeling has bee...",
-      "future_work": "Modeling a system in which a single neuron is not only a single neuron, but also a single neuron, is able to predict the..."
-    }
-  },
-  {
-    "paper": {
-      "title": "Representation Fréchet Loss for Visual Generation",
-      "summary": "We show that Fréchet Distance (FD), long considered impractical as a training objective, can in fact be effectively optimized in the representation space. Our idea is simple: decouple the population size for FD estimation (e.g., 50k) from the batch size for gradient computation (e.g., 1024). We term this approach FD-loss. Optimizing FD-loss reveals several surprising findings. First, post-training a base generator with FD-loss in different representation spaces consistently improves visual quality. Under the Inception feature space, a one-step generator achieves0.72 FID on ImageNet 256x256. Second, the same FD-loss repurposes multi-step generators into strong one-step generators without teacher distillation, adversarial training or per-sample targets. Third, FID can misrank visual quality:",
-      "authors": [
-        "Jiawei Yang",
-        "Zhengyang Geng",
-        "Xuan Ju",
-        "Yonglong Tian",
-        "Yue Wang"
-      ],
-      "link": "http://arxiv.org/abs/2604.28190v1",
-      "published": "2026-04-30",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": "Bibliographic information:\nThe authors:\nVivni M.",
-      "datasets": ".",
-      "future_work": "Visualization for Visualizing."
+      "key_methods": "1.",
+      "datasets": "W-boson helicity fractions in top decay as probes of dimension-6 and dimension-8 SMEFT operators.",
+      "future_work": "The main goal of this paper is to investigate the existence of a number of possible mechanisms that could be used to cre..."
     }
   }
 ]
