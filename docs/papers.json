@@ -1,114 +1,115 @@
 [
   {
     "paper": {
-      "title": "Posterior Augmented Flow Matching",
-      "summary": "Flow matching (FM) trains a time-dependent vector field that transports samples from a simple prior to a complex data distribution. However, for high-dimensional images, each training sample supervises only a single trajectory and intermediate point, yielding an extremely sparse and high-variance training signal. This under-constrained supervision can cause flow collapse, where the learned dynamics memorize specific source-target pairings, mapping diverse inputs to overly similar outputs, failing to generalize. We introduce Posterior-Augmented Flow Matching (PAFM), a theoretically grounded generalization of FM that replaces single-target supervision with an expectation over an approximate posterior of valid target completions for a given intermediate state and condition. PAFM factorizes th",
+      "title": "Syn4D: A Multiview Synthetic 4D Dataset",
+      "summary": "Dense 3D reconstruction and tracking of dynamic scenes from monocular video remains an important open challenge in computer vision. Progress in this area has been constrained by the scarcity of high-quality datasets with dense, complete, and accurate geometric annotations. To address this limitation, we introduce Syn4D, a multiview synthetic dataset of dynamic scenes that includes ground-truth camera motion, depth maps, dense tracking, and parametric human pose annotations. A key feature of Syn4D is the ability to unproject any pixel into 3D to any time and to any camera. We conduct extensive evaluations across multiple downstream tasks to demonstrate the utility and effectiveness of the proposed dataset, including 4D scene reconstruction, 3D point tracking, geometry-aware camera retargeti",
       "authors": [
-        "George Stoica",
-        "Sayak Paul",
-        "Matthew Wallingford",
-        "Vivek Ramanujan",
-        "Abhay Nori"
+        "Zeren Jiang",
+        "Yushi Lan",
+        "Yihang Luo",
+        "Yufan Deng",
+        "Zihang Lai"
       ],
-      "link": "http://arxiv.org/abs/2605.00825v1",
-      "published": "2026-05-01",
+      "link": "http://arxiv.org/abs/2605.05207v1",
+      "published": "2026-05-06",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "An algorithm developed by Kaspersky Lab.",
-      "datasets": "In this blog post I will show you how to use the Google Analytics API to generate a MapReduce graph in real time.",
-      "future_work": "A testable and automated testing of a graph structure and the way it works."
+      "key_methods": "\"A multiview demonstration of the use of a 3D graphics processing system (3D printing) in 3D rendering systems.",
+      "datasets": "The next step in this application is to use a multiview interface to define the type of data that will be applied to a m...",
+      "future_work": "We are now working on a multiview to use the same data in 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D."
     }
   },
   {
     "paper": {
-      "title": "Reliability, Robustness, and Resilience Modeling for Surveillance System in Advanced Air Mobility Operations",
-      "summary": "Ensuring the safe and efficient operation of Advanced Air Mobility (AAM) in low-altitude airspace requires a reliable, robust, and resilient surveillance system capable of continuously detecting, identifying, and tracking aircraft under both normal and off-nominal conditions. To address this need, this study develops a comprehensive 3R modeling framework, reliability, robustness, and resilience, for the Surveillance for Advanced Air Mobility (SAM) system, with a focus on the optimal design and operation of a multi-type sensor network. Under normal operating conditions, the reliability model determines the baseline sensor types, quantities, and locations required to satisfy surveillance coverage and detection requirements. To address external perturbations, such as adverse weather condition",
+      "title": "Taming Outlier Tokens in Diffusion Transformers",
+      "summary": "We study outlier tokens in Diffusion Transformers (DiTs) for image generation. Prior work has shown that Vision Transformers (ViTs) can produce a small number of high-norm tokens that attract disproportionate attention while carrying limited local information, but their role in generative models remains underexplored. We show that this phenomenon appears in both the encoder and denoiser of modern Representation Autoencoder (RAE)-DiT pipelines: pretrained ViT encoders can produce outlier representations, and DiTs themselves can develop internal outlier tokens, especially in intermediate layers. Moreover, simply masking high-norm tokens does not improve performance, indicating that the problem is not only caused by a few extreme values, but is more closely related to corrupted local patch se",
       "authors": [
-        "Esrat Farhana Dulia",
-        "Caleb Adams",
-        "Syed Arbab Mohd Shihab",
-        "Ruben Del Rosario"
+        "Xiaoyu Wu",
+        "Yifei Wang",
+        "Tsu-Jui Fu",
+        "Liang-Chieh Chen",
+        "Zhe Gan"
       ],
-      "link": "http://arxiv.org/abs/2605.00823v1",
-      "published": "2026-05-01",
+      "link": "http://arxiv.org/abs/2605.05206v1",
+      "published": "2026-05-06",
       "categories": [
-        "math.NA"
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
       ]
     },
     "analysis": {
-      "key_methods": "The project and research were conducted by the Aeronautics and Space Administration, United States Air Force, the Nation...",
-      "datasets": "The C-Series R1R1R1R1R1R1L0R0R1L0R0R1L0R1L0R1L0R1L0R1L0R1L.",
-      "future_work": "Achieving the reliability, reliability, and resilience of the air force‒s air force using the most reliable, reliable an..."
+      "key_methods": "One of the biggest differences between the two types of tokens is that the tokens are generated from the same transistor...",
+      "datasets": "The fact that the original Transformers had a special ability to turn their entire inventory into a new, multi-player ga...",
+      "future_work": "The Evolution of the Transformer Transformer Transformers."
     }
   },
   {
     "paper": {
-      "title": "PEARLS: Two Distinct Populations of AGN Hosts Moving Between Star Formation and Quiescence",
-      "summary": "We present the results of AGN--host-galaxy decomposition using JWST/NIRCam, HST/ACS, and HST/WFC3 imaging of the North Ecliptic Pole Time Domain Field (NEP-TDF). The light-profiles of 36 NIRCam-selected AGN candidates are modeled for measurement of their point sources, and point source-subtracted host-galaxy emission is used in SED modeling for star formation rate (SFR) estimation. Offsets from the canonical star-forming main sequence (SFMS) show that the host galaxies form two distinct groups distinguished by their star formation: a ``bridge'' between the moderate SFRs of radio sources and low SFRs of X-ray sources, and a cleanly-separated ``branch'' above $Δ\\rm SFMS = -1$ whose SFR trends positively with AGN fraction. Branch galaxies include late-type galaxies with X-ray and radio detect",
+      "title": "Mixed-Parity Altermagnetism in Collinear Spin-Orbital Magnets",
+      "summary": "Altermagnetism has so far mainly been understood in its even- and odd-parity forms. We show that collinear antiferromagnets with zero net magnetization can also host mixed-parity spin splitting, namely neither purely even nor purely odd in momentum. We identify the symmetry conditions for such mixed-parity altermagnetism and show that, in two dimensions, it can arise in spin-orbital magnets when the two antiparallel spin sectors are related by a single mirror symmetry. Using a two-sublattice two-orbital model, we demonstrate that circularly polarized light induces mixed-parity altermagnetism at finite staggered potential and odd-parity spin-orbital altermagnetism at zero staggered potential. Mixed-parity altermagnetism thereby emerges as the intermediate spin-split regime between even- and",
       "authors": [
-        "Gibson B. Bowling",
-        "Rafael Ortiz",
-        "S. P. Willner",
-        "Seth H. Cohen",
-        "Timothy Carleton"
+        "Zheng-Yang Zhuang",
+        "Jin-Xin Hu",
+        "Song-Bo Zhang",
+        "Lun-Hui Hu",
+        "Zhongbo Yan"
       ],
-      "link": "http://arxiv.org/abs/2605.00822v1",
-      "published": "2026-05-01",
+      "link": "http://arxiv.org/abs/2605.05205v1",
+      "published": "2026-05-06",
       "categories": [
-        "astro-ph.GA"
+        "cond-mat.mes-hall"
       ]
     },
     "analysis": {
       "key_methods": ".",
-      "datasets": "1) The G4A1 (G5B), PIM (G6B) and C1 (G7B) have been observed for the first time, with the latter having been studied as ...",
-      "future_work": "The first-ever study of AGN host populations that are in the vicinity of the planet Earth could reveal the differences b..."
+      "datasets": ".",
+      "future_work": "http://www."
     }
   },
   {
     "paper": {
-      "title": "Optimization of Weak Lensing Lightcone Simulations for Higher-Order Statistics in the LSST era",
-      "summary": "We present a framework for generating lightcone simulations tailored to the analysis of Stage-IV cosmic shear data using Higher-Order Statistics (HOS). We revisit key design choices from previous simulation campaigns and re-optimize several internal parameters, benchmarking accuracy through changes in $χ^2$ of cosmic shear statistics under survey conditions mimicking 10 years of observations from the Legacy Survey of Space and Time (LSST). We find that discretizing the lightcone uniformly in scale factor yields higher accuracy than commonly adopted schemes such as uniform spacing in redshift or comoving distance. While $N_{\\rm part} = 1024^3$ simulation particles (corresponding to a mass resolution of $m_{\\rm part} = 2.08\\times10^{10}M_\\odot$) is sufficient to model two-point statistics up",
+      "title": "D-OPSD: On-Policy Self-Distillation for Continuously Tuning Step-Distilled Diffusion Models",
+      "summary": "The landscape of high-performance image generation models is currently shifting from the inefficient multi-step ones to the efficient few-step counterparts (e.g, Z-Image-Turbo and FLUX.2-klein). However, these models present significant challenges for directly continuous supervised fine-tuning. For example, applying the commonly used fine-tuning technique would compromises their inherent few-step inference capability. To address this, we propose D-OPSD, a novel training paradigm for step-distilled diffusion models that enables on-policy learning during supervised fine-tuning. We first find that the modern diffusion model where the LLM/VLM serves as the encoder can inherit its encoder's in-context capabilities. This enables us to make the training as an on-policy self-distillation process. ",
       "authors": [
-        "J. Mena-Fernández",
-        "C. Doux",
-        "J. Harnois-Déraps",
-        "K. Heitmann",
-        "C. Combet"
+        "Dengyang Jiang",
+        "Xin Jin",
+        "Dongyang Liu",
+        "Zanyi Wang",
+        "Mingzhe Zheng"
       ],
-      "link": "http://arxiv.org/abs/2605.00821v1",
-      "published": "2026-05-01",
+      "link": "http://arxiv.org/abs/2605.05204v1",
+      "published": "2026-05-06",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "Method\nThe method was used to generate a D-OPSD-D-OPSD model using a simple, simple, and simple, error-prone approach.",
+      "datasets": "In the previous post, I’d discussed how to create and test a distributed distributed system.",
+      "future_work": "The following is a guide to a new approach to self-distillation that aims to address the need to create and maintain sep..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Non-conservation and time non-locality of biased tracers",
+      "summary": "We study the effect of ongoing formation and merger on the assumed number conservation of biased tracers. Using a Lagrangian approach we present a model of the number density which accounts for such effects. The model is nonlocal in time, reflecting the gradual assembly of tracers from the underlying matter. The loss of tracers through merger is modelled by an environmentally-dependent sink, such that the merger rate is proportional to the local number density (higher probability of an event in higher density regions). We derive from our model a formula for the linear bias of non-conserved tracers, showing that such tracers debias more rapidly than conserved ones. Over time the large-scale power becomes increasingly suppressed relative to the conserved prediction, behaviour which has been ",
+      "authors": [
+        "Lawrence Dam"
+      ],
+      "link": "http://arxiv.org/abs/2605.05203v1",
+      "published": "2026-05-06",
       "categories": [
         "astro-ph.CO"
       ]
     },
     "analysis": {
-      "key_methods": "Introduction\nThe LSST is a new type of data-processing system developed in the 1960s by the University of Southern Calif...",
-      "datasets": "Data:\nLISPS4\n(1)\nPJL-A:\nBJL-B:\nJL-B:\nJL-B:\nJL-B:\nJL-B:.",
-      "future_work": "More information on the LSST simulation can be found at the Open Science meeting, and by visiting our website at http://..."
-    }
-  },
-  {
-    "paper": {
-      "title": "W-boson helicity fractions in top decay as probes of dimension-6 and dimension-8 SMEFT operators",
-      "summary": "Precision measurements of top-quark decays provide powerful probes of physics beyond the Standard Model (SM). While the impact of dimension-6 operators in the SM Effective Field Theory (SMEFT) has been extensively studied, the role of dimension-8 contributions remains largely unexplored, despite their potential importance as experimental precision improves. In this work, we present a combined analysis of dimension-6 and a representative subset of dimension-8 SMEFT effects using the W-boson helicity fractions in top-quark decays. We compute the leading-order contributions of these operators to the top-quark decay width and helicity fractions, and perform one-parameter and selected two-parameter $χ^{2}$ fits to the combined ATLAS and CMS measurements at a reference scale $Λ=1$~TeV. From the ",
-      "authors": [
-        "Afsaneh Kianfar",
-        "Gholamhossein Haghighat",
-        "Mojtaba Mohammadi Najafabadi"
-      ],
-      "link": "http://arxiv.org/abs/2605.00819v1",
-      "published": "2026-05-01",
-      "categories": [
-        "hep-ph"
-      ]
-    },
-    "analysis": {
-      "key_methods": "1.",
-      "datasets": "W-boson helicity fractions in top decay as probes of dimension-6 and dimension-8 SMEFT operators.",
-      "future_work": "The main goal of this paper is to investigate the existence of a number of possible mechanisms that could be used to cre..."
+      "key_methods": ".",
+      "datasets": "Brief summary:\nWe investigated the effects of the bias on the direction of tracers.",
+      "future_work": "."
     }
   }
 ]
