@@ -1,118 +1,117 @@
 [
   {
     "paper": {
-      "title": "Unveiling Hidden Lyman Alpha Emitters in the DESI DR1 Data",
-      "summary": "We present an automatic method based on machine-learning convolutional neural network (CNN) architecture to detect Lyman alpha emitters (LAE) hidden in the Data Release 1 spectroscopic dataset of the Dark Energy Spectroscopic Instrument (DESI). Those LAEs mostly have incorrect redshift estimations because the current DESI pipeline is not designed to detect and measure the redshifts of galaxies at $z>2$. To uncover those sources, we first visually inspect thousands of DESI spectra and construct a sample, consisting of both LAEs and non-LAEs, for training and testing the CNN-based model to (1) detect LAEs in DESI spectra and (2) determine their Ly$α$ redshifts. The final model yields $95.2\\%$ purity and $95.9\\%$ completeness for detecting LAEs. We apply this model to approximately $2\\times10",
+      "title": "ATLAS: Agentic or Latent Visual Reasoning? One Word is Enough for Both",
+      "summary": "Visual reasoning, often interleaved with intermediate visual states, has emerged as a promising direction in the field. A straightforward approach is to directly generate images via unified models during reasoning, but this is computationally expensive and architecturally non-trivial. Recent alternatives include agentic reasoning through code or tool calls, and latent reasoning with learnable hidden embeddings. However, agentic methods incur context-switching latency from external execution, while latent methods lack task generalization and are difficult to train with autoregressive parallelization. To combine their strengths while mitigating their limitations, we propose ATLAS, a framework in which a single discrete 'word', termed as a functional token, serves both as an agentic operation",
       "authors": [
-        "Jui-Kuan Chan",
-        "Ting-Wen Lan",
-        "J. Xavier Prochaska",
-        "Shun Saito",
-        "J. Aguilar"
+        "Ziyu Guo",
+        "Rain Liu",
+        "Xinyan Chen",
+        "Pheng-Ann Heng"
       ],
-      "link": "http://arxiv.org/abs/2605.12503v1",
-      "published": "2026-05-12",
-      "categories": [
-        "astro-ph.GA"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The DIAA was a set of 3D images and data from the DIAA and the DIAA were used as a sample.",
-      "datasets": ".",
-      "future_work": "This is the first data ever made available by the National Academies of Sciences."
-    }
-  },
-  {
-    "paper": {
-      "title": "Covering Human Action Space for Computer Use: Data Synthesis and Benchmark",
-      "summary": "Computer-use agents (CUAs) automate on-screen work, as illustrated by GPT-5.4 and Claude. Yet their reliability on complex, low-frequency interactions is still poor, limiting user trust. Our analysis of failure cases from advanced models suggests a long-tail pattern in GUI operations, where a relatively small fraction of complex and diverse interactions accounts for a disproportionate share of task failures. We hypothesize that this issue largely stems from the scarcity of data for complex interactions. To address this problem, we propose a new benchmark CUActSpot for evaluating models' capabilities on complex interactions across five modalities: GUI, text, table, canvas, and natural image, as well as a variety of actions (click, drag, draw, etc.), covering a broader range of interaction t",
-      "authors": [
-        "Miaosen Zhang",
-        "Xiaohan Zhao",
-        "Zhihong Tan",
-        "Zhou Huoshen",
-        "Yijia Fan"
-      ],
-      "link": "http://arxiv.org/abs/2605.12501v1",
-      "published": "2026-05-12",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": "Data Synthesis and Benchmark.",
-      "datasets": "S.",
-      "future_work": "Creating a Computer-Based Human Action Space for Computing."
-    }
-  },
-  {
-    "paper": {
-      "title": "SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture",
-      "summary": "Recent large vision-language models (VLMs) remain fundamentally constrained by a persistent dichotomy: understanding and generation are treated as distinct problems, leading to fragmented architectures, cascaded pipelines, and misaligned representation spaces. We argue that this divide is not merely an engineering artifact, but a structural limitation that hinders the emergence of native multimodal intelligence. Hence, we introduce SenseNova-U1, a native unified multimodal paradigm built upon NEO-unify, in which understanding and generation evolve as synergistic views of a single underlying process. We launch two native unified variants, SenseNova-U1-8B-MoT and SenseNova-U1-A3B-MoT, built on dense (8B) and mixture-of-experts (30B-A3B) understanding baselines, respectively. Designed from fi",
-      "authors": [
-        "Haiwen Diao",
-        "Penghao Wu",
-        "Hanming Deng",
-        "Jiahao Wang",
-        "Shihao Bai"
-      ],
-      "link": "http://arxiv.org/abs/2605.12500v1",
-      "published": "2026-05-12",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The NEO-unify architecture is a new project that involves using a variety of open source software for the NEO-unify arch...",
-      "datasets": "-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-.",
-      "future_work": "Explore further:\n\nThis paper has been presented in the Journal of Neuroanatomical Research (DOI: 10."
-    }
-  },
-  {
-    "paper": {
-      "title": "EgoForce: Forearm-Guided Camera-Space 3D Hand Pose from a Monocular Egocentric Camera",
-      "summary": "Reconstructing the absolute 3D pose and shape of the hands from the user's viewpoint using a single head-mounted camera is crucial for practical egocentric interaction in AR/VR, telepresence, and hand-centric manipulation tasks, where sensing must remain compact and unobtrusive. While monocular RGB methods have made progress, they remain constrained by depth-scale ambiguity and struggle to generalize across the diverse optical configurations of head-mounted devices. As a result, models typically require extensive training on device-specific datasets, which are costly and laborious to acquire. This paper addresses these challenges by introducing EgoForce, a monocular 3D hand reconstruction framework that recovers robust, absolute 3D hand pose and its position from the user's (camera-space) ",
-      "authors": [
-        "Christen Millerdurai",
-        "Shaoxiang Wang",
-        "Yaxu Xie",
-        "Vladislav Golyanik",
-        "Didier Stricker"
-      ],
-      "link": "http://arxiv.org/abs/2605.12498v1",
-      "published": "2026-05-12",
+      "link": "http://arxiv.org/abs/2605.15198v1",
+      "published": "2026-05-14",
       "categories": [
         "cs.CV",
-        "cs.GR"
+        "cs.AI",
+        "cs.CL"
       ]
     },
     "analysis": {
-      "key_methods": "The study was undertaken by a team of 3D hand poseers at the University of Florida.",
-      "datasets": "In the video above, the camera is also called the \"Globe-Cable\" (GPSS) and is connected to the camera and it is connecte...",
-      "future_work": "The use of a telescope to record a face-to-face shot is already underway, and scientists are hopeful that they can be us..."
+      "key_methods": "I used the data from the National Science Foundation's online survey.",
+      "datasets": "Datasets discussed for the last time are a series of data sets for the human body, but the first data set for the human ...",
+      "future_work": "At least one new model of the brain (and another) identifies a key feature of the brain that allows us to reason."
     }
   },
   {
     "paper": {
-      "title": "From Web to Pixels: Bringing Agentic Search into Visual Perception",
-      "summary": "Visual perception connects high-level semantic understanding to pixel-level perception, but most existing settings assume that the decisive evidence for identifying a target is already in the image or frozen model knowledge. We study a more practical yet harder open-world case where a visible object must first be resolved from external facts, recent events, long-tail entities, or multi-hop relations before it can be localized. We formalize this challenge as Perception Deep Research and introduce WebEye, an object-anchored benchmark with verifiable evidence, knowledge-intensive queries, precise box/mask annotations, and three task views: Search-based Grounding, Search-based Segmentation, and Search-based VQA. WebEyes contains 120 images, 473 annotated object instances, 645 unique QA pairs, ",
+      "title": "Primordial Black Hole from Tensor-induced Density Fluctuation: First-order Phase Transitions and Domain Walls",
+      "summary": "We present a novel \\textit{gauge-invariant and minimal} formation mechanism of primordial black holes (PBHs) in first-order phase transition (FOPT) and domain walls (DW) separately. This is based on the first-order tensor perturbations, generated during FOPT from bubble collisions \\& sound waves, and from DW annihilation, sourcing curvature, at second-order in perturbation theory. We show that the PBH formation implies \\textit{model-independent constraints} on FOPT parameters ($β/H, α, T_{\\star}$ ) and on DW parameters, ($α_{\\rm ann}, V_{\\rm bias}, σ$), from existing PBH constraints. We find that asteroid mass PBHs can become the entire dark matter (DM) of the Universe, for $T_{\\star} \\in (4 \\times 10^{2}, 10^{4})$ GeV, for $β/H \\simeq 6$, involving $α>\\mathcal{O}(1)$ values. The correspon",
       "authors": [
-        "Bokang Yang",
-        "Xinyi Sun",
-        "Kaituo Feng",
-        "Xingping Dong",
-        "Dongming Wu"
+        "Utkarsh Kumar",
+        "Anish Ghoshal"
       ],
-      "link": "http://arxiv.org/abs/2605.12497v1",
-      "published": "2026-05-12",
+      "link": "http://arxiv.org/abs/2605.15197v1",
+      "published": "2026-05-14",
       "categories": [
-        "cs.CV"
+        "astro-ph.CO"
       ]
     },
     "analysis": {
       "key_methods": ".",
+      "datasets": "http://www.",
+      "future_work": "Future Density Fluctuation and Density Fluctuation in the Physical Universe."
+    }
+  },
+  {
+    "paper": {
+      "title": "RefDecoder: Enhancing Visual Generation with Conditional Video Decoding",
+      "summary": "Video generation powers a vast array of downstream applications. However, while the de facto standard, i.e., latent diffusion models, typically employ heavily conditioned denoising networks, their decoders often remain unconditional. We observe that this architectural asymmetry leads to significant loss of detail and inconsistency relative to the input image. To address this, we argue that the decoder requires equal conditioning to preserve structural integrity. We introduce RefDecoder, a reference-conditioned video VAE decoder by injecting high-fidelity reference image signal directly into the decoding process via reference attention. Specifically, a lightweight image encoder maps the reference frame into the detail-rich high-dimensional tokens, which are co-processed with the denoised vi",
+      "authors": [
+        "Xiang Fan",
+        "Yuheng Wang",
+        "Bohan Fang",
+        "Zhongzheng Ren",
+        "Ranjay Krishna"
+      ],
+      "link": "http://arxiv.org/abs/2605.15196v1",
+      "published": "2026-05-14",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ]
+    },
+    "analysis": {
+      "key_methods": "1.",
       "datasets": ".",
-      "future_work": "How to use the new information in order to optimize search results."
+      "future_work": "Using the same techniques, we could potentially develop a powerful high-resolution graphics processor and better perform..."
+    }
+  },
+  {
+    "paper": {
+      "title": "VGGT-$Ω$",
+      "summary": "Recent feed-forward reconstruction models, such as VGGT, have proven competitive with traditional optimization-based reconstructors while also providing geometry-aware features useful for other tasks. Here, we show that the quality of these models scales predictably with model and data size. We do so by introducing VGGT-$Ω$, which substantially improves reconstruction accuracy, efficiency, and capabilities for both static and dynamic scenes. To enable training this model at an unprecedented scale, we introduce architectural changes that improve training efficiency, a high-quality data annotation pipeline that supports dynamic scenes, and a self-supervised learning protocol. We simplify VGGT's architecture by using a single dense prediction head with multi-task supervision and removing the ",
+      "authors": [
+        "Jianyuan Wang",
+        "Minghao Chen",
+        "Shangzhan Zhang",
+        "Nikita Karaev",
+        "Johannes Schönberger"
+      ],
+      "link": "http://arxiv.org/abs/2605.15195v1",
+      "published": "2026-05-14",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "1.",
+      "datasets": "1) The first row of the matrix is the number of the vertices that have a number of vertices, and the number of vertices ...",
+      "future_work": "More information\nA new approach to determining the relationship between the two data sets would be needed."
+    }
+  },
+  {
+    "paper": {
+      "title": "Non-Invertible Symmetries on Tensor-Product Hilbert Spaces and Quantum Cellular Automata",
+      "summary": "We investigate realizations of (1+1)-dimensional fusion category symmetries on tensor-product Hilbert spaces, allowing for mixing with quantum cellular automata (QCAs). It was argued recently that any such realizable symmetry must be weakly integral. We develop a systematic analysis of QCA-refined realizations of fusion categories and prove two statements. First, we show that, under certain physical assumptions on defects, any QCA-refined realization has QCA and symmetry-operator indices determined by the categorical data, up to the freedom of redefining the symmetry operators. Second, we construct a lattice model that provides a QCA-refined realization for any weakly integral fusion category symmetry on a tensor product Hilbert space. We also compute indices of the QCAs in our lattice mod",
+      "authors": [
+        "Rui Wen",
+        "Kansei Inamura",
+        "Sakura Schafer-Nameki"
+      ],
+      "link": "http://arxiv.org/abs/2605.15194v1",
+      "published": "2026-05-14",
+      "categories": [
+        "cond-mat.str-el",
+        "hep-th",
+        "math.CT",
+        "quant-ph"
+      ]
+    },
+    "analysis": {
+      "key_methods": "Batteries\n\n\n\n\n\nThe data was collected from two small, non-invasive experiments.",
+      "datasets": "Raspberry Pi 3\nCherry Pi 3\nPower Supply:\nPowered by USB (3.",
+      "future_work": "."
     }
   }
 ]
