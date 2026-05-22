@@ -54,78 +54,80 @@
   <div class="stat"><div class="n">5</div><div class="l">Papers</div></div>
   <div class="stat"><div class="n">distilgpt2</div><div class="l">LLM Model</div></div>
   <div class="stat"><div class="n">large language m</div><div class="l">Query</div></div>
-  <div class="stat"><div class="n">2026-05-19</div><div class="l">Updated UTC</div></div>
+  <div class="stat"><div class="n">2026-05-22</div><div class="l">Updated UTC</div></div>
 </div>
 <main>
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2605.18754v1" target="_blank" rel="noopener">Can These Views Be One Scene? Evaluating Multiview 3D Consistency when 3D Foundation Models Hallucinate</a></h2>
-    <span class="meta">Published: 2026-05-18 | Authors: Soumava Paul, Prakhar Kaushik, Alan Yuille | Tags: cs.CV</span>
+    <h2><a href="http://arxiv.org/abs/2605.22821v1" target="_blank" rel="noopener">Tokenisation via Convex Relaxations</a></h2>
+    <span class="meta">Published: 2026-05-21 | Authors: Jan Tempus, Philip Whittington, Craig W. Schmidt, Dennis Komm, Tiago Pimentel | Tags: cs.CL, cs.LG</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Multiview 3D evaluation assumes that the images being scored are observations of one static 3D scene. This assumption can fail in NVS and sparse-view reconstruction: inputs or generated outputs may contain artifacts, outlier frames, repeated views, or noise, yet still receive high 3D consistency scores. Existing reference-based metrics require ground truth, while ground-truth-free metrics such as MEt3R depend on learned reconstruction backbones whose failure modes are poorly characterized. We study this reliability problem by comparing neural reconstruction priors with classical geometric verification. We introduce \benchmark, a controlled robustness benchmark for multiview 3D consistency, and a parametric family that decomposes neural metrics into backbone, residual, and aggregation compo</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The following methods were used to study the effect of 3D model models on the performance of the three dimensions:
-M: th...</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>The data shows that the best way to predict the future of 3D is to use a simple model as a model that only predicts the ...</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>A 3D model for model-based modeling systems.</p></section>
+    <section class="full"><h3>Abstract</h3><p>Tokenisation is an integral part of the current NLP pipeline. Current tokenisation algorithms such as BPE and Unigram are greedy algorithms -- they make locally optimal decisions without considering the resulting vocabulary as a whole. We instead formulate tokeniser construction as a linear program and solve it using convex optimisation tools, yielding a new algorithm we call ConvexTok. We find ConvexTok consistently improves intrinsic tokenisation metrics and the bits-per-byte (BpB) achieved by language models; it also improves downstream task performance, but less consistently. Furthermore, ConvexTok allows the user to certify how far their tokeniser is from optimal, with respect to a certain objective, via a lower bound, and we empirically find it to be within 1\% of optimal at common v</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The following table summarizes the results:
+In short, tokens are tokens that are not tokens that were created by the Eth...</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>So, for example, we can say that we want to allow transactions on GitHub that use a bitcoin address that they use to mak...</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>What's next?
+Explore further: How do we get from micro-finance to the world's largest private sector
+For more informatio...</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2605.18753v1" target="_blank" rel="noopener">DashAttention: Differentiable and Adaptive Sparse Hierarchical Attention</a></h2>
-    <span class="meta">Published: 2026-05-18 | Authors: Yuxiang Huang, Nuno M. T. Gonçalves, Federico Alvetreti, Lei Li, Xu Han | Tags: cs.CL, cs.AI, cs.LG</span>
+    <h2><a href="http://arxiv.org/abs/2605.22823v1" target="_blank" rel="noopener">Which Way Did It Move? Diagnosing and Overcoming Directional Motion Blindness in Video-LLMs</a></h2>
+    <span class="meta">Published: 2026-05-21 | Authors: Jongseo Lee, Hyuntak Lee, Sunghun Kim, Sooa Kim, Jihoon Chung | Tags: cs.CV</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Current hierarchical attention methods, such as NSA and InfLLMv2, select the top-k relevant key-value (KV) blocks based on coarse attention scores and subsequently apply fine-grained softmax attention on the selected tokens. However, the top-k operation assumes the number of relevant tokens for any query is fixed and it precludes the gradient flow between the sparse and dense stages. In this work, we propose DashAttention (Differentiable and Adaptive Sparse Hierarchical Attention), which leverages the adaptively sparse $α$-entmax transformation to select a variable number of blocks according to the current query in the first stage. This in turn provides a prior for the second-stage softmax attention, keeping the entire hierarchy fully differentiable. Contrary to other hierarchical attentio</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>A study of 2,000 individuals, aged between 50 and 69, from one of the oldest and most comprehensive databases on the Int...</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>The researchers in this paper are focusing on the role of cognitive and emotional regulation in the development of healt...</p></section>
+    <section class="full"><h3>Abstract</h3><p>Video Large Language Models (Video-LLMs) have made rapid progress on temporal video understanding, yet many fail at a basic perceptual primitive: signed image-plane motion direction. On simple videos of a single object moving left, right, up, or down, most Video-LLMs perform near chance, with above-chance cases largely attributable to prediction biases rather than genuine direction understanding. We call this failure directional motion blindness. We localize the failure by tracing motion direction information through the Video-LLM pipeline. Motion direction remains linearly accessible from the vision encoder, projector, and LLM hidden states, but the readout fails to bind this signal to the correct verbal answer option, revealing a direction binding gap. Although synthetic motion direction</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>1) A video-LLMs were created for the use of a computer; 2) The video-LLMs were constructed on a computer.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>So, now I wanted to get my own data on the motion.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>What Is A Video-LLM?.</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2605.18752v1" target="_blank" rel="noopener">Traditional statistical representations outperform generative AI in identifying expert peer reviewers</a></h2>
-    <span class="meta">Published: 2026-05-18 | Authors: Vicente Amado Olivo, Tereza Jerabkova, Jakub Klencki, John Carpenter, Mario Malički | Tags: cs.IR, astro-ph.IM, cs.DL</span>
+    <h2><a href="http://arxiv.org/abs/2605.22820v1" target="_blank" rel="noopener">Integrable Elasticity via Neural Demand Potentials</a></h2>
+    <span class="meta">Published: 2026-05-21 | Authors: Carlos Heredia, Daniel Roncel | Tags: cs.LG</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>The exponential growth of scientific submissions has strained the peer review system. Despite the rapidly expanding global pool of researchers, this unprecedented scale has rendered the previous approach of manual expert identification unfeasible. Therefore, institutions have naturally turned to Large Language Models (LLMs) to automate intricate processes like expert reviewer identification. However, the reliability of these new models in accurately identifying domain experts lacks rigorous evaluation. We conduct a comprehensive empirical evaluation of statistical and AI-driven expertise identification methodologies to benchmark their reliability and limitations. Framing expert identification as an information retrieval problem, we utilize the distributed peer review system of a major inte</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The authors were:.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>I have been working on the new version of the paper for some time now with several of the big players.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>.</p></section>
+    <section class="full"><h3>Abstract</h3><p>We propose the Integrable Context-Dependent Demand Network (ICDN), a demand-first neural model for multiproduct retail demand. The model learns log-demand as a smooth, context-conditioned function of log-prices, allowing elasticities to be derived exactly from the learned demand surface. On the Dominick's beer dataset, ICDN improves out-of-sample generalization over a directed log-log benchmark and yields more stable, economically plausible elasticity estimates, especially for weakly identified cross-price effects.</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The first section of the paper is an introduction to the concepts of entrancedural reinforcement learning.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>The following table has been used to represent a set of pre-trained sets of post-trained convolutional neural networks f...</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Open source, open source, and open source
+MOSCOW: In the future, a number of open source projects can be developed for t...</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2605.18750v1" target="_blank" rel="noopener">A Readiness-Driven Runtime for Pipeline-Parallel Training under Runtime Variability</a></h2>
-    <span class="meta">Published: 2026-05-18 | Authors: Ruitao Liu, Xinyang Tian, Shuo Chen, Tingrui Zhang, Guang Yang | Tags: cs.DC, cs.LG</span>
+    <h2><a href="http://arxiv.org/abs/2605.22819v1" target="_blank" rel="noopener">Cambrian-P: Pose-Grounded Video Understanding</a></h2>
+    <span class="meta">Published: 2026-05-21 | Authors: Jihan Yang, Zifan Zhao, Xichen Pan, Shusheng Yang, Junyi Zhang | Tags: cs.CV</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Pipeline parallelism is a key technique for scaling large-model training, but modern workloads exhibit runtime variability in computation and communication. Existing pipeline systems typically consume static, profiled, or adaptively generated schedules as pre-committed execution orders. When realized task readiness diverges from the pre-committed order, stages may wait for not-yet-ready work even though other executable work is available, creating stage misalignment, idle bubbles, and reduced utilization.   We present Runtime-Readiness-First Pipeline (RRFP), a readiness-driven runtime for pipeline-parallel training. RRFP changes how schedules are consumed at runtime: instead of treating a schedule as a sequence that stages must wait to follow, it treats the schedule as a non-binding hint o</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>import { "Routes" , "Runs" , "Runs" , "Runs" , "Runs" } from 'run' import { "Runs' , "Runs" , "Runs" ,.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>The pipeline-parallel training is called:
-As noted in my last blog post on the implementation of the pipeline-parallel-t...</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>A lot of data is required for the pipeline.</p></section>
+    <section class="full"><h3>Abstract</h3><p>Camera pose matters. The position and orientation of each viewpoint define a shared spatial coordinate frame that relates observations across video frames. Yet this signal is largely absent from multimodal LLMs (MLLMs) for video understanding, which process frames as isolated 2D snapshots, instead of the persistent scene humans perceive. We revisit pose as a lightweight supervisory signal and introduce Cambrian-P, a video MLLM augmented with per-frame learnable camera tokens and a pose regression head. With a carefully designed sampling scheme, the model achieves substantial gains of 4.5-6.5% on spatial reasoning benchmarks such as VSI-Bench, generalizes across eight additional spatial and general video QA benchmarks, and, as a byproduct, achieves state of the art streaming pose estimation</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>To determine the depth and shape of the ground, an earthquake-wave survey using an X-ray telescope.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>2.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>The Cambrian-P: Pose-Grounded Video Understanding.</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2605.18749v1" target="_blank" rel="noopener">WavFlow: Audio Generation in Waveform Space</a></h2>
-    <span class="meta">Published: 2026-05-18 | Authors: Feiyan Zhou, Luyuan Wang, Shoufa Chen, Zhe Wang, Zhiheng Liu | Tags: cs.SD, cs.CV</span>
+    <h2><a href="http://arxiv.org/abs/2605.22818v1" target="_blank" rel="noopener">MotiMotion: Motion-Controlled Video Generation with Visual Reasoning</a></h2>
+    <span class="meta">Published: 2026-05-21 | Authors: Lee Hsin-Ying, Hanwen Jiang, Yiqun Mei, Jing Shi, Ming-Hsuan Yang | Tags: cs.CV</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Modern audio generation predominantly relies on latent-space compression, introducing additional complexity and potential information loss. In this work, we challenge this paradigm with WavFlow, a framework that generates high-fidelity audio directly in raw waveform space without intermediate representations. To overcome the inherent difficulties of modeling high-dimensional and low-energy signals, we reshape audio into 2D token grids through waveform patchify and introduce amplitude lifting to align signal scales, enabling stable optimization via direct x-prediction in flow matching. To capture complex semantic alignment and temporal synchronization, we leverage an automated data pipeline to curate 5 million high-quality video-text-audio triplets, allowing the model to learn fine-grained </p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>In this article, we will explore how to use WavFlow to achieve a very simple, easy-to-use application for audio generati...</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>1) An RDF2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>A novel way to generate sound effects and generate sound effects for the first time.</p></section>
+    <section class="full"><h3>Abstract</h3><p>Current motion-controlled image-to-video generation models rigidly follow user-provided trajectories that are often sparse, imprecise, and causally incomplete. Such reliance often yields unnatural or implausible outcomes, especially by missing secondary causal consequences. To address this, we introduce MotiMotion, a novel framework that reformulates motion control as a reasoning-then-generation problem. To encourage causally grounded and commonsense-consistent interactions, we leverage a training-free vision-language reasoner to refine image-space coordinates of primary trajectories and to hallucinate plausible secondary motions. To further improve motion naturalness, we propose a confidence-aware control scheme that modulates guidance strength, enabling the model to closely follow high-c</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>Video Generation with Visual Reasoning.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>MotiMotion: Motion-Controlled Video Generation with Visual Reasoning.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>MotiMotion: Motion-Controlled Video Generation with Visual Reasoning.</p></section>
   </div>
 </div>
 </main>
 <footer>
   <a href="https://github.com/PranayMahendrakar/arxiv-llm-analyzer">PranayMahendrakar/arxiv-llm-analyzer</a>
-  | Powered by DistilGPT2 (HuggingFace Transformers) | No API keys | 2026-05-19 09:40 UTC
+  | Powered by DistilGPT2 (HuggingFace Transformers) | No API keys | 2026-05-22 09:00 UTC
 </footer>
 </body></html>
