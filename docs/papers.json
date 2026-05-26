@@ -1,115 +1,119 @@
 [
   {
     "paper": {
-      "title": "Tokenisation via Convex Relaxations",
-      "summary": "Tokenisation is an integral part of the current NLP pipeline. Current tokenisation algorithms such as BPE and Unigram are greedy algorithms -- they make locally optimal decisions without considering the resulting vocabulary as a whole. We instead formulate tokeniser construction as a linear program and solve it using convex optimisation tools, yielding a new algorithm we call ConvexTok. We find ConvexTok consistently improves intrinsic tokenisation metrics and the bits-per-byte (BpB) achieved by language models; it also improves downstream task performance, but less consistently. Furthermore, ConvexTok allows the user to certify how far their tokeniser is from optimal, with respect to a certain objective, via a lower bound, and we empirically find it to be within 1\\% of optimal at common v",
+      "title": "Unifying Early and Late Dark Energy: Dynamical Requirements and Obstructions",
+      "summary": "We investigate whether early- and late-time dark energy could arise from a single scalar field. Adopting a bottom-up perspective, we first identify the sequence of dynamical regimes that any unified scenario must traverse to account for both an early dark energy phase relevant for pre-recombination solutions of the Hubble tension and the late-time acceleration of the Universe. We derive the corresponding requirements on the scalar energy density and equation of state. We then adopt a complementary top-down perspective and translate these requirements into constraints on the phase-space structure of minimally coupled scalar fields with tracking-like dynamics. We show that satisfying all requirements necessitates a potential with three distinct slopes, arranged in a steep-steeper-shallow hie",
       "authors": [
-        "Jan Tempus",
-        "Philip Whittington",
-        "Craig W. Schmidt",
-        "Dennis Komm",
-        "Tiago Pimentel"
+        "William Giarè",
+        "Jeremy Sakstein"
       ],
-      "link": "http://arxiv.org/abs/2605.22821v1",
-      "published": "2026-05-21",
+      "link": "http://arxiv.org/abs/2605.26116v1",
+      "published": "2026-05-25",
       "categories": [
-        "cs.CL",
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-ph"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The following studies were conducted in the late 1970s and early 1980s.",
+      "datasets": ".",
+      "future_work": "A."
+    }
+  },
+  {
+    "paper": {
+      "title": "MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research",
+      "summary": "We present MobileGym, a browser-hosted, lightweight, fully controllable environment for everyday mobile use, targeting interaction fidelity without replicating proprietary backends. It enables two capabilities previously out of reach for everyday apps: verifiable outcome signals through deterministic state-based judging over structured JSON state, and scalable online RL through low-cost parallel rollouts. The full environment state is captured, configured, forked, and compared as structured JSON, and a single server can host hundreds of parallel instances, with about 400 MB memory per instance and about 3 s cold start. A layered state model and a declarative task-definition framework keep state programmability and task creation practical at scale, and a single programmatic judging mechanis",
+      "authors": [
+        "Dingbang Wu",
+        "Rui Hao",
+        "Haiyang Wang",
+        "Shuzhe Wu",
+        "Han Xiao"
+      ],
+      "link": "http://arxiv.org/abs/2605.26114v1",
+      "published": "2026-05-25",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    "analysis": {
+      "key_methods": "Using the mobile GUI agent model, we generated a graphical version of the agent model and implemented a model for the ne...",
+      "datasets": "Piercing MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research.",
+      "future_work": "We need to develop a framework for this approach and to make use of the new tools (and frameworks) available for testing..."
+    }
+  },
+  {
+    "paper": {
+      "title": "From Model Scaling to System Scaling: Scaling the Harness in Agentic AI",
+      "summary": "This paper studies the next major bottleneck in agentic AI as system scaling, not only model scaling: the design of auditable, persistent, modular, and verifiable architectures around foundation models. We refer to this shift as scaling the harness: treating the structured execution layer around a foundation model as a first-class object of design, evaluation, and optimization. Although recent large language models enable agents to use tools, retrieve information, maintain memory, and execute long-horizon workflows, evaluation remains largely model-centric, often reducing agents to final-task success while treating memory, retrieval, tool use, orchestration, verification, and governance as secondary implementation details. This framing is increasingly inadequate because agent performance e",
+      "authors": [
+        "Shangding Gu"
+      ],
+      "link": "http://arxiv.org/abs/2605.26112v1",
+      "published": "2026-05-25",
+      "categories": [
+        "cs.AI",
         "cs.LG"
       ]
     },
     "analysis": {
-      "key_methods": "The tokenisation process, using the tokens of the tokenisation process, is the same as the tokenisation process.",
-      "datasets": "The Tokenisation is a new way to be developed and used in a business model.",
-      "future_work": "Reach me in the comment section\n[email protected]."
+      "key_methods": "The model-scaling algorithm was used to evaluate the impact of agents on performance.",
+      "datasets": "A few months ago, a study of a set of the same data sets showed that the same set of data sets of the same data sets of ...",
+      "future_work": "In a future, we will consider a system-based approach to AI."
     }
   },
   {
     "paper": {
-      "title": "Which Way Did It Move? Diagnosing and Overcoming Directional Motion Blindness in Video-LLMs",
-      "summary": "Video Large Language Models (Video-LLMs) have made rapid progress on temporal video understanding, yet many fail at a basic perceptual primitive: signed image-plane motion direction. On simple videos of a single object moving left, right, up, or down, most Video-LLMs perform near chance, with above-chance cases largely attributable to prediction biases rather than genuine direction understanding. We call this failure directional motion blindness. We localize the failure by tracing motion direction information through the Video-LLM pipeline. Motion direction remains linearly accessible from the vision encoder, projector, and LLM hidden states, but the readout fails to bind this signal to the correct verbal answer option, revealing a direction binding gap. Although synthetic motion direction",
+      "title": "Squeezing Capacity from Multimodal Large Language Models for Subject-driven Generation",
+      "summary": "Subject-driven image generation aims to synthesize new images that preserve the identity of the given subject while following textual instructions. Existing approaches often encode text and reference images separately. This limits cross-modal reasoning abilities and causes copy-paste artifacts. Recent frameworks that connect multimodal models and diffusion models improve instruction following, but largely overlook identity preservation. To address these limitations, we condition diffusion models on Multimodal Large Language Models (MLLMs) that jointly encode text and reference images, and augment it with VAE-based identity conditioning. A novel Dual Layer Aggregation (DLA) module is designed to aggregate multi-level MLLM features for optimal conditioning, and a multi-stage denoising strate",
       "authors": [
-        "Jongseo Lee",
-        "Hyuntak Lee",
-        "Sunghun Kim",
-        "Sooa Kim",
-        "Jihoon Chung"
+        "Shuhong Zheng",
+        "Aashish Kumar Misraa",
+        "Yu-Teng Li",
+        "Yu-Jhe Li",
+        "Igor Gilitschenski"
       ],
-      "link": "http://arxiv.org/abs/2605.22823v1",
-      "published": "2026-05-21",
+      "link": "http://arxiv.org/abs/2605.26111v1",
+      "published": "2026-05-25",
       "categories": [
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": "Citation: T.",
-      "datasets": "\"E-mailed: [email protected]\n\"Emailed: [email protected]\n\"Emailed: [email protected]\n\"Emailed: [email protected]\n\"Emaile...",
-      "future_work": "How to Use Different Visualizations to Improve Speech and Visualization\nA few years ago, I wrote a book on the effective..."
-    }
-  },
-  {
-    "paper": {
-      "title": "Integrable Elasticity via Neural Demand Potentials",
-      "summary": "We propose the Integrable Context-Dependent Demand Network (ICDN), a demand-first neural model for multiproduct retail demand. The model learns log-demand as a smooth, context-conditioned function of log-prices, allowing elasticities to be derived exactly from the learned demand surface. On the Dominick's beer dataset, ICDN improves out-of-sample generalization over a directed log-log benchmark and yields more stable, economically plausible elasticity estimates, especially for weakly identified cross-price effects.",
-      "authors": [
-        "Carlos Heredia",
-        "Daniel Roncel"
-      ],
-      "link": "http://arxiv.org/abs/2605.22820v1",
-      "published": "2026-05-21",
-      "categories": [
-        "cs.LG"
-      ]
-    },
-    "analysis": {
-      "key_methods": "For a given example:\n[1]\n[2]\n[3]\n[4]\n[5]\n[6]\n[7]\n[8]\n[9]\n[10]\n[11].",
-      "datasets": "For this post, I‬m going to look at the following concepts:\n1) Model:\n2) Model:\n3) Model:\n4) Model:\n5) Model:\n6) Model:\n...",
-      "future_work": "A common mechanism for the availability of neural networks using neural network networks for performance analysis."
-    }
-  },
-  {
-    "paper": {
-      "title": "Cambrian-P: Pose-Grounded Video Understanding",
-      "summary": "Camera pose matters. The position and orientation of each viewpoint define a shared spatial coordinate frame that relates observations across video frames. Yet this signal is largely absent from multimodal LLMs (MLLMs) for video understanding, which process frames as isolated 2D snapshots, instead of the persistent scene humans perceive. We revisit pose as a lightweight supervisory signal and introduce Cambrian-P, a video MLLM augmented with per-frame learnable camera tokens and a pose regression head. With a carefully designed sampling scheme, the model achieves substantial gains of 4.5-6.5% on spatial reasoning benchmarks such as VSI-Bench, generalizes across eight additional spatial and general video QA benchmarks, and, as a byproduct, achieves state of the art streaming pose estimation",
-      "authors": [
-        "Jihan Yang",
-        "Zifan Zhao",
-        "Xichen Pan",
-        "Shusheng Yang",
-        "Junyi Zhang"
-      ],
-      "link": "http://arxiv.org/abs/2605.22819v1",
-      "published": "2026-05-21",
-      "categories": [
-        "cs.CV"
+        "cs.CV",
+        "cs.AI",
+        "cs.GR",
+        "cs.LG",
+        "cs.MM"
       ]
     },
     "analysis": {
       "key_methods": ".",
-      "datasets": "http://www.",
-      "future_work": "Peculiarism and Polymorphism."
+      "datasets": "The above data are based on previous work, including the following datasets:\nThe data are based on the following dataset...",
+      "future_work": "More information:\nPunisher et al."
     }
   },
   {
     "paper": {
-      "title": "MotiMotion: Motion-Controlled Video Generation with Visual Reasoning",
-      "summary": "Current motion-controlled image-to-video generation models rigidly follow user-provided trajectories that are often sparse, imprecise, and causally incomplete. Such reliance often yields unnatural or implausible outcomes, especially by missing secondary causal consequences. To address this, we introduce MotiMotion, a novel framework that reformulates motion control as a reasoning-then-generation problem. To encourage causally grounded and commonsense-consistent interactions, we leverage a training-free vision-language reasoner to refine image-space coordinates of primary trajectories and to hallucinate plausible secondary motions. To further improve motion naturalness, we propose a confidence-aware control scheme that modulates guidance strength, enabling the model to closely follow high-c",
+      "title": "Prism: A Plug-in Reproducible Infrastructure for Scalable Multimodal Continual Instruction Tuning",
+      "summary": "Multimodal Large Language Models (MLLMs) achieve versatility by reformulating diverse tasks into a unified instruction-following framework via instruction tuning. However, real-world deployment requires continuous adaptation to emerging tasks, motivating Multimodal Continual Instruction Tuning (MCIT). Despite its growing importance, current MCIT research is hindered by severe engineering bottlenecks. Existing methods are typically implemented by directly modifying the base MLLM codebase, which imposes substantial implementation overhead and yields method-specific architectures that severely limit code reuse and fair comparison. To address this, we introduce Prism, a plug-in reproducible codebase specifically designed for scalable MCIT research. It separates algorithmic development from the",
       "authors": [
-        "Lee Hsin-Ying",
-        "Hanwen Jiang",
-        "Yiqun Mei",
-        "Jing Shi",
-        "Ming-Hsuan Yang"
+        "Jun-Tao Tang",
+        "Yu-Cheng Shi",
+        "Zhen-Hao Xie",
+        "Da-Wei Zhou"
       ],
-      "link": "http://arxiv.org/abs/2605.22818v1",
-      "published": "2026-05-21",
+      "link": "http://arxiv.org/abs/2605.26110v1",
+      "published": "2026-05-25",
       "categories": [
+        "cs.LG",
+        "cs.CL",
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "The video generation is a simple programmable video generation.",
-      "datasets": "The same features that were mentioned above are not present in the new version of the game (i.",
-      "future_work": "The future of video production and marketing will allow us to make video production in a more reliable and cost-effectiv..."
+      "key_methods": "Sensors:\nStranium-based, L-DOP, and a hybrid L-DOP (LDP) architecture.",
+      "datasets": "The following table provides a few example of software-based programming, but they are no guarantee that the most effici...",
+      "future_work": "Abstract:\nThis is a paper that will prove to be a great example of a better and more widely-used approach to the scalabi..."
     }
   }
 ]
