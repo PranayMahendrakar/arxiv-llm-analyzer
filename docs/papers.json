@@ -1,114 +1,119 @@
 [
   {
     "paper": {
-      "title": "Representation Forcing for Bottleneck-Free Unified Multimodal Models",
-      "summary": "Unified multimodal models (UMMs) aim to handle perception and generation in a single model. Yet existing UMMs still rely on a frozen, separately pretrained VAE for image generation, imposing a structural bottleneck. Naively removing it introduces a quality gap, as the model must learn both high-level structure and low-level details from raw pixels. In this paper, we propose Representation Forcing (RF), a technique that closes this gap by making representation prediction a native capability of the model. Concretely, RF forces the decoder to autoregressively predict visual representations as intermediate tokens before pixels; these tokens then stay in context to guide pixel diffusion within the same backbone. By turning representations from perception outputs into generation targets, RF elim",
+      "title": "Thinking in Blender: Staged Executable Inverse Graphics with Vision-Language Models",
+      "summary": "Inverse graphics is a longstanding and highly underconstrained problem that seeks to reconstruct images as editable 3D scenes which can be rendered, relit, and manipulated. In this work, we investigate whether pretrained vision-language models (VLMs) can perform executable inverse graphics directly from a single image by reconstructing a scene as an editable Blender program, without relying on specialized 2D or 3D foundation models, differentiable rendering, or multi-view supervision. We introduce Staged Executable Inverse Graphics (SEIG), an agentic framework that reconstructs a 3D scene from a single image by progressively refining scene factors including geometry, materials, composition, and lighting directly in executable Blender code space. We evaluate our framework across diverse sce",
       "authors": [
-        "Yuqing Wang",
-        "Zhijie Lin",
-        "Ceyuan Yang",
-        "Yang Zhao",
-        "Fei Xiao"
+        "Guangzhao He",
+        "Rundong Luo",
+        "Wei-Chiu Ma",
+        "Hadar Averbuch-Elor"
       ],
-      "link": "http://arxiv.org/abs/2605.31604v1",
-      "published": "2026-05-29",
+      "link": "http://arxiv.org/abs/2606.02580v1",
+      "published": "2026-06-01",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "In the first iteration of the OpenCV models, we used a set of functions to define the model and the model, making it har...",
-      "datasets": "Numerous datasets have been created for the purpose of generating a simplified functional model of the distributed distr...",
-      "future_work": "Using a single-point function to map a single-point approach to the problem using a single-point approach, we can take a..."
+      "key_methods": "1.",
+      "datasets": "The following are available in the following languages:\n#!/bin/sh --format: --format: --format: --format: --format: --fo...",
+      "future_work": "Designing a Vision-Language Model."
     }
   },
   {
     "paper": {
-      "title": "Lumos-Nexus: Efficient Frequency Bridging with Homogeneous Latent Space for Video Unified Models",
-      "summary": "Connector-based video unified models have demonstrated strong capability in instruction-grounded video synthesis, but integrating a large high-fidelity generator into the unified training loop is computationally prohibitive, limiting achievable visual quality. We therefore propose Lumos-Nexus, a training-efficient unified video generation framework that facilitates the development of strong reasoning-driven generation capabilities while significantly enhancing visual fidelity. Lumos-Nexus adopts a two-stage design: 1) During training, only a lightweight generator is aligned with the understanding block to learn to take in reasoning-driven semantic control. 2) During inference, we introduce Unified Progressive Frequency Bridging (UPFB) to progressively hand off generation to a high-capacity",
+      "title": "New Windows on Heavy Dark Matter: Mineral Melt Modelling and X-Ray Readout for Muscovite Mica",
+      "summary": "Muscovite mica is a translucent, layered silicate mineral whose basal cleavage, low radiogenic background, gigayear exposures, and demonstrated track retention over geological timescales make it a compelling target for rare particle searches. In this work, we develop a new framework for detecting heavy composite dark matter using muscovite mica as a paleodetector. We model melt track formation by heavy composite dark matter transiting through mica using a Sedov-Taylor thermal spike formalism, and validate the sub-micron regime with SRIM/TRIM simulations of nuclear recoil cascades, which also calibrate the phonon efficiency governing local energy deposition. We demonstrate a novel readout method using rapid X-ray fluorescence mapping with a copper backing contrast technique, capable of iden",
       "authors": [
-        "Jiazheng Xing",
-        "Hangjie Yuan",
-        "Lingling Cai",
-        "Xinyu Liu",
-        "Yujie Wei"
+        "Yilda Boukhtouchen",
+        "Joseph Bramante",
+        "Andrew Buchanan",
+        "Alexander Hayes",
+        "Matthew Leybourne"
       ],
-      "link": "http://arxiv.org/abs/2605.31603v1",
-      "published": "2026-05-29",
+      "link": "http://arxiv.org/abs/2606.02579v1",
+      "published": "2026-06-01",
+      "categories": [
+        "hep-ph",
+        "hep-ex"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The Mica-Mica-Mica-Mica-Mica-Mica-Mica-Mica-Mica-Mica-Mica-Mica-Mica-Mica-Mica-Mica.",
+      "datasets": "The results are in this paper.",
+      "future_work": "The next step: A new, novel, and exciting new technique for determining the properties of iron and nickel."
+    }
+  },
+  {
+    "paper": {
+      "title": "Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling",
+      "summary": "Recent multimodal large language models have demonstrated strong reasoning ability, yet their reliability as automated evaluators remains limited by a critical weakness: when visual evidence conflicts with textual cues, MLLM judges tend to reward plausible narratives over perceptually correct answers. We identify and systematically analyze this phenomenon, which we term Perceptual Judgment Bias. Through controlled visual perturbations, existing multimodal judges frequently anchor on the response text instead of their own visual perception, leading to inconsistent and non-verifiable evaluations. To address this issue, we introduce the Perceptually Perturbed Judgment Dataset, which constructs minimally edited counterfactual responses that isolate perceptual errors and enable verifiable super",
+      "authors": [
+        "Seojeong Park",
+        "Jiho Choi",
+        "Junyong Kang",
+        "Seonho Lee",
+        "Jaeyo Shin"
+      ],
+      "link": "http://arxiv.org/abs/2606.02578v1",
+      "published": "2026-06-01",
       "categories": [
         "cs.CV",
         "cs.AI"
       ]
     },
     "analysis": {
-      "key_methods": ".",
-      "datasets": "We’ve just heard that there are many more examples of open source workflows available, so we were interested to hear abo...",
-      "future_work": "We also have a paper on the future of quantum gravity, which is published in Physical Review Letters."
+      "key_methods": "The study was conducted in tandem with the Cognitive Sciences Center and the University of Rochester.",
+      "datasets": "The following two papers have been presented to us through the Proceedings of the National Academy of Sciences (PNAS) (s...",
+      "future_work": "In the future, researchers will need to understand the dynamics of a human brain."
     }
   },
   {
     "paper": {
-      "title": "Normal approximations in nonparametric empirical Bayes",
-      "summary": "Empirical Bayes analyses routinely model noisy measurements of latent parameters as normal, justifying this by an informal appeal to the central limit theorem (CLT). This paper puts this heuristic appeal on firmer analytical grounds. We show that the denoising regret of the nonparametric maximum likelihood estimator (NPMLE) and related sieve methods is controlled by the rate attained under exact normality, plus a term reflecting the quality of the CLT approximation. The CLT need only hold marginally for each coordinate, and moreover only on average, without needing high-dimensional normal approximations. We identify two asymptotic regimes in which the normal approximation is adequate and the empirical Bayesian prior remains informative, and we show that our guarantees are robust to depende",
+      "title": "RoboDream: Compositional World Models for Scalable Robot Data Synthesis",
+      "summary": "Scaling robot learning requires large-scale, diverse demonstrations, yet real-world data collection via teleoperation remains prohibitively expensive and time-consuming. While video diffusion models offer a promising avenue for data scaling, existing generative approaches are often limited to superficial visual augmentation, or suffer from embodiment hallucinations that yield physically infeasible motions. We present a generalizable embodiment-centric world model that achieves scalable data generation by synthesizing photorealistic demonstrations with novel objects, in novel scenes, and from novel viewpoints. Our approach anchors generation to rendered robot motion while conditioning on explicit scene and object priors, effectively decoupling trajectory execution from environment synthesis",
       "authors": [
-        "Jiafeng Chen",
-        "Nabarun Deb",
-        "Nikolaos Ignatiadis"
+        "Junjie Ye",
+        "Rong Xue",
+        "Basile Van Hoorick",
+        "Runhao Li",
+        "Harshitha Rajaprakash"
       ],
-      "link": "http://arxiv.org/abs/2605.31599v1",
-      "published": "2026-05-29",
+      "link": "http://arxiv.org/abs/2606.02577v1",
+      "published": "2026-06-01",
       "categories": [
-        "math.ST"
-      ]
-    },
-    "analysis": {
-      "key_methods": "Tables\n\nTo be compared the data, we used the following methods:\n(A) Mapping of Bayes.",
-      "datasets": "A large dataset of all the observed datasets is available, including the dataset I created for the analysis.",
-      "future_work": "A comprehensive, flexible, and consistent empirical approach to the nature and nature of the data set."
-    }
-  },
-  {
-    "paper": {
-      "title": "Linear Scaling Video VLMs for Long Video Understanding",
-      "summary": "Video vision-language models (VLMs) are increasingly used in long-horizon and streaming settings, yet most video encoders still rely on spatiotemporal self-attention, causing compute and latency to grow quadratically with the number of frames. Existing efficiency methods improve scalability but often lose accuracy relative to full self-attention, for example through aggressive frame/token dropping or coarse attention approximations. We introduce StateKV, an inference-time method that adapts pretrained long-video VLMs to linear-time video prefill by carrying cross-frame context in a fixed-capacity, importance-based recurrent state, paired with a second full per-frame cache used for decoding. Across three long-video benchmarks and seven models spanning three families and multiple scales, Sta",
-      "authors": [
-        "Cristobal Eyzaguirre",
-        "Jiajun Wu",
-        "Juan Carlos Niebles"
-      ],
-      "link": "http://arxiv.org/abs/2605.31598v1",
-      "published": "2026-05-29",
-      "categories": [
+        "cs.RO",
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "The video was used as part of a collaboration between the University of Hawaii and the University of Maryland.",
-      "datasets": "The VLMs are a bit more complex than the LMs, but they also allow for interesting and useful data about the speed of mot...",
-      "future_work": "How to use linear scaling, scaling and scaling to build faster, user-friendly video VLMs for fast video playback."
+      "key_methods": "To explore how to use the Java library in a functional way, I wrote an abstracting paper in Java:\nThe Abstracting of a F...",
+      "datasets": "PNG-ID: 0x0b00e7d8ab5a0a0b3a8b5d8b5d8b5d8b5d8b7c\nThe source code for this.",
+      "future_work": "We have just added a new class of 'skeleton' to our existing 'skeleton', which can be a flexible and flexible body in a ..."
     }
   },
   {
     "paper": {
-      "title": "SOCO: Benchmarking Semantic Object Correspondence in Vision Foundation Models",
-      "summary": "Measuring structured object understanding in vision foundation models remains challenging due to inconsistent evaluation protocols and limited part-level supervision. Semantic correspondence (SC) evaluates this capability by testing whether object parts can be matched across instances and categories under large variations in appearance, viewpoint, and geometry. To enable a systematic SC evaluation, we introduce SOCO, a new benchmark for Semantic Object Correspondence that introduces a taxonomy of correspondence types and provides consistent, functionally meaningful keypoint annotations across 100 categories and over 1M correspondence pairs. In addition, SOCO includes keypoint language descriptions, enabling the evaluation of large vision-language models (LVLMs) and their fine-grained part-",
+      "title": "ProtoAda: Prototype-Guided Adaptive Adapter Expansion and Geometric Consolidation for Multimodal Continual Instruction Tuning",
+      "summary": "Multimodal Large Language Models (MLLMs) achieve strong performance through instruction tuning, but real-world deployment requires them to continually acquire new vision-language capabilities, making Multimodal Continual Instruction Tuning (MCIT) essential. To reduce inter-task interference and promote collaboration, recent methods often employ sparse architectures like Mixture of LoRA Experts with image-text similarity routing. However, tasks with distinct response structures could share highly similar visual-linguistic semantics and thus be wrongly routed to the same expert; image-text similarity alone is insufficient for reliable task assignment. For example, an expert in a grounding task requiring coordinate prediction may be biased toward producing short textual answers after learning",
       "authors": [
-        "Olaf Dünkel",
-        "Basavaraj Sunagad",
-        "Haoran Wang",
-        "David T. Hoffmann",
-        "Christian Theobalt"
+        "Yu-Cheng Shi",
+        "Zhen-Hao Xie",
+        "Jun-Tao Tang",
+        "Da-Wei Zhou"
       ],
-      "link": "http://arxiv.org/abs/2605.31597v1",
-      "published": "2026-05-29",
+      "link": "http://arxiv.org/abs/2606.02576v1",
+      "published": "2026-06-01",
       "categories": [
-        "cs.CV"
+        "cs.CV",
+        "cs.LG"
       ]
     },
     "analysis": {
-      "key_methods": "First, we used the following two test cases:\nThe first, we used the following two tests:\nThe second, we used the followi...",
-      "datasets": "C++\nC++\nC++\nC++\nC++\nC++\nC++\nC++\nC++\nC++\nC++\nC++\nC++\nC++\nC++\nC++\nC.",
-      "future_work": "P."
+      "key_methods": "A new version of Figure 1, a step-by-step, design based on the principle of the †solution of a linear number generator f...",
+      "datasets": "The first is a simple and elegant, scalable and comprehensive version of the ProtoAda.",
+      "future_work": "This study, first published in the Journal of Applied Physics, is a step toward a more general understanding of the role..."
     }
   }
 ]
