@@ -54,79 +54,103 @@
   <div class="stat"><div class="n">5</div><div class="l">Papers</div></div>
   <div class="stat"><div class="n">distilgpt2</div><div class="l">LLM Model</div></div>
   <div class="stat"><div class="n">large language m</div><div class="l">Query</div></div>
-  <div class="stat"><div class="n">2026-06-02</div><div class="l">Updated UTC</div></div>
+  <div class="stat"><div class="n">2026-06-06</div><div class="l">Updated UTC</div></div>
 </div>
 <main>
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2606.02580v1" target="_blank" rel="noopener">Thinking in Blender: Staged Executable Inverse Graphics with Vision-Language Models</a></h2>
-    <span class="meta">Published: 2026-06-01 | Authors: Guangzhao He, Rundong Luo, Wei-Chiu Ma, Hadar Averbuch-Elor | Tags: cs.CV</span>
+    <h2><a href="http://arxiv.org/abs/2606.06493v1" target="_blank" rel="noopener">HANDOFF: Humanoid Agentic Task-Space Whole-Body Control via Distilled Complementary Teachers</a></h2>
+    <span class="meta">Published: 2026-06-04 | Authors: Lizhi Yang, Junheng Li, Nehar Poddar, Yiling Hou, Gio Huh | Tags: cs.RO, cs.AI, cs.LG</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Inverse graphics is a longstanding and highly underconstrained problem that seeks to reconstruct images as editable 3D scenes which can be rendered, relit, and manipulated. In this work, we investigate whether pretrained vision-language models (VLMs) can perform executable inverse graphics directly from a single image by reconstructing a scene as an editable Blender program, without relying on specialized 2D or 3D foundation models, differentiable rendering, or multi-view supervision. We introduce Staged Executable Inverse Graphics (SEIG), an agentic framework that reconstructs a 3D scene from a single image by progressively refining scene factors including geometry, materials, composition, and lighting directly in executable Blender code space. We evaluate our framework across diverse sce</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>1.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>The following are available in the following languages:
-#!/bin/sh --format: --format: --format: --format: --format: --fo...</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Designing a Vision-Language Model.</p></section>
+    <section class="full"><h3>Abstract</h3><p>For a humanoid robot to be deployed in the real world, the choice of command space (i.e., the interface between task planning and whole-body control) is crucial. Existing whole-body controllers typically demand dense kinematic or spatial references that planners struggle to synthesize from task semantics. We instead propose a compact, explicit interface that is intuitive, general, modular, and expressive enough for diverse manipulation skills. To this end, we introduce HANDOFF, a single humanoid whole-body controller that follows this interface and is distilled via multi-teacher KL distillation under a context-conditioned gating scheme into a mixture-of-experts student from three complementary specialists: whole-body motion tracking with safety-filtered data, locomotion, and fall-recovery.</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>-
+-
+-
+-
+To collect the results of experiments and provide a method for the analysis of the data, we needn't require any ...</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>In the last article, I outlined the concept of distilling neural nets using a process called neural nets.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>HANDOFF: The Future of Humanoid Agentsic Task-Space Whole-Body Control via Distilled Complementary Teachers.</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2606.02579v1" target="_blank" rel="noopener">New Windows on Heavy Dark Matter: Mineral Melt Modelling and X-Ray Readout for Muscovite Mica</a></h2>
-    <span class="meta">Published: 2026-06-01 | Authors: Yilda Boukhtouchen, Joseph Bramante, Andrew Buchanan, Alexander Hayes, Matthew Leybourne | Tags: hep-ph, hep-ex</span>
+    <h2><a href="http://arxiv.org/abs/2606.06492v1" target="_blank" rel="noopener">Code2LoRA: Hypernetwork-Generated Adapters for Code Language Models under Software Evolution</a></h2>
+    <span class="meta">Published: 2026-06-04 | Authors: Liliana Hotsko, Yinxi Li, Yuntian Deng, Pengyu Nie | Tags: cs.SE, cs.AI, cs.CL</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Muscovite mica is a translucent, layered silicate mineral whose basal cleavage, low radiogenic background, gigayear exposures, and demonstrated track retention over geological timescales make it a compelling target for rare particle searches. In this work, we develop a new framework for detecting heavy composite dark matter using muscovite mica as a paleodetector. We model melt track formation by heavy composite dark matter transiting through mica using a Sedov-Taylor thermal spike formalism, and validate the sub-micron regime with SRIM/TRIM simulations of nuclear recoil cascades, which also calibrate the phonon efficiency governing local energy deposition. We demonstrate a novel readout method using rapid X-ray fluorescence mapping with a copper backing contrast technique, capable of iden</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The Mica-Mica-Mica-Mica-Mica-Mica-Mica-Mica-Mica-Mica-Mica-Mica-Mica-Mica-Mica-Mica.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>The results are in this paper.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>The next step: A new, novel, and exciting new technique for determining the properties of iron and nickel.</p></section>
+    <section class="full"><h3>Abstract</h3><p>Code language models need repository-level context to resolve imports, APIs, and project conventions. Existing methods inject this knowledge as long inputs (retrieved through RAG or dependency analysis) or through per-repository fine-tuning and LoRA -- costly at repository scale and brittle to evolving codebases. We introduce Code2LoRA, a hypernetwork framework that generates repository-specific LoRA adapters, effectively injecting repository knowledge with zero inference-time token overhead. Code2LoRA supports two usage scenarios: Code2LoRA-Static converts a single repository snapshot into an adapter, suitable for comprehension of stable codebases; while Code2LoRA-Evo maintains an adapter backed by a GRU hidden state updated per code diff, suitable for active development of evolving codeb</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>Data extraction and retrieval of data from binary data
+Data extraction and retrieval of data from binary data
+Data extra...</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>I wrote the code for this project in the last year and I was very pleased to learn that there is an excellent library of...</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>In the case of HyperNetwork-Generated Adapters, we are interested in how we will implement HyperNodes.</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2606.02578v1" target="_blank" rel="noopener">Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling</a></h2>
-    <span class="meta">Published: 2026-06-01 | Authors: Seojeong Park, Jiho Choi, Junyong Kang, Seonho Lee, Jaeyo Shin | Tags: cs.CV, cs.AI</span>
+    <h2><a href="http://arxiv.org/abs/2606.06491v1" target="_blank" rel="noopener">TempoVLA: Learning Speed-Controllable Vision-Language-Action Policies</a></h2>
+    <span class="meta">Published: 2026-06-04 | Authors: Dong Jing, Jingchen Nie, Tianqi Zhang, Jiaqi Liu, Huaxiu Yao | Tags: cs.RO, cs.AI</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Recent multimodal large language models have demonstrated strong reasoning ability, yet their reliability as automated evaluators remains limited by a critical weakness: when visual evidence conflicts with textual cues, MLLM judges tend to reward plausible narratives over perceptually correct answers. We identify and systematically analyze this phenomenon, which we term Perceptual Judgment Bias. Through controlled visual perturbations, existing multimodal judges frequently anchor on the response text instead of their own visual perception, leading to inconsistent and non-verifiable evaluations. To address this issue, we introduce the Perceptually Perturbed Judgment Dataset, which constructs minimally edited counterfactual responses that isolate perceptual errors and enable verifiable super</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The study was conducted in tandem with the Cognitive Sciences Center and the University of Rochester.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>The following two papers have been presented to us through the Proceedings of the National Academy of Sciences (PNAS) (s...</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>In the future, researchers will need to understand the dynamics of a human brain.</p></section>
+    <section class="full"><h3>Abstract</h3><p>Robot manipulation alternates between low-risk transit phases that call for fast execution and high-risk contact stages that demand slow, precise motion. Yet existing Vision-Language-Action models (VLAs) only inherit a single fixed speed from training demonstrations. Prior efforts to accelerate VLAs through model compression, KV-cache reuse, or reinforcement learning only shift the policy from one fixed speed to another, and leave deceleration almost unexplored. We observe that the magnitude of each predicted action already governs how fast the robot moves, opening a direct route to controllable execution speed. We turn this observation into TempoVLA, a single VLA whose execution speed is controlled by an explicit condition. TempoVLA combines two coupled components. (1) A data-side Variabl</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>Directors:
+
+Harmon and H.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>Cypheric language language
+Tiny language
+Tiny language
+Tiny language
+Tiny language
+Tiny language
+Tiny language
+Tiny lang...</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Podcasts:
+http://wagazine.</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2606.02577v1" target="_blank" rel="noopener">RoboDream: Compositional World Models for Scalable Robot Data Synthesis</a></h2>
-    <span class="meta">Published: 2026-06-01 | Authors: Junjie Ye, Rong Xue, Basile Van Hoorick, Runhao Li, Harshitha Rajaprakash | Tags: cs.RO, cs.CV</span>
+    <h2><a href="http://arxiv.org/abs/2606.06489v1" target="_blank" rel="noopener">The Missing Central Limit Theorems for Local Functionals of Berry's Random Wave Model</a></h2>
+    <span class="meta">Published: 2026-06-04 | Authors: Francesco Grotto | Tags: math.PR</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Scaling robot learning requires large-scale, diverse demonstrations, yet real-world data collection via teleoperation remains prohibitively expensive and time-consuming. While video diffusion models offer a promising avenue for data scaling, existing generative approaches are often limited to superficial visual augmentation, or suffer from embodiment hallucinations that yield physically infeasible motions. We present a generalizable embodiment-centric world model that achieves scalable data generation by synthesizing photorealistic demonstrations with novel objects, in novel scenes, and from novel viewpoints. Our approach anchors generation to rendered robot motion while conditioning on explicit scene and object priors, effectively decoupling trajectory execution from environment synthesis</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>To explore how to use the Java library in a functional way, I wrote an abstracting paper in Java:
-The Abstracting of a F...</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>PNG-ID: 0x0b00e7d8ab5a0a0b3a8b5d8b5d8b5d8b5d8b7c
-The source code for this.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>We have just added a new class of 'skeleton' to our existing 'skeleton', which can be a flexible and flexible body in a ...</p></section>
+    <section class="full"><h3>Abstract</h3><p>Central Limit Theorems for integrals of third degree Hermite polynomials of Berry's random wave model on increasingly large domains are proved in dimensions 2 and 3. These were the missing cases for a complete description of limit theorems for integral functionals of monochromatic random waves based on the Wiener chaos decomposition.</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>Bibliographic information:
+Bibliographic information:
+Bibliographic information:
+Bibliographic information:
+Bibliographi...</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>The paper presents a new approach for the Bayesian Bayesian Bayesian Bayesian Bayesian Model.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>In the next decade, researchers from the University of California Berkeley will be able to map the local function of the...</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2606.02576v1" target="_blank" rel="noopener">ProtoAda: Prototype-Guided Adaptive Adapter Expansion and Geometric Consolidation for Multimodal Continual Instruction Tuning</a></h2>
-    <span class="meta">Published: 2026-06-01 | Authors: Yu-Cheng Shi, Zhen-Hao Xie, Jun-Tao Tang, Da-Wei Zhou | Tags: cs.CV, cs.LG</span>
+    <h2><a href="http://arxiv.org/abs/2606.06485v1" target="_blank" rel="noopener">PAR3D: A Unified 3D-MLLM with Part-Aware Representation for Scene Understanding</a></h2>
+    <span class="meta">Published: 2026-06-04 | Authors: Shaohui Dai, Yansong Qu, You Shen, Shengchuan Zhang, Liujuan Cao | Tags: cs.CV</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Multimodal Large Language Models (MLLMs) achieve strong performance through instruction tuning, but real-world deployment requires them to continually acquire new vision-language capabilities, making Multimodal Continual Instruction Tuning (MCIT) essential. To reduce inter-task interference and promote collaboration, recent methods often employ sparse architectures like Mixture of LoRA Experts with image-text similarity routing. However, tasks with distinct response structures could share highly similar visual-linguistic semantics and thus be wrongly routed to the same expert; image-text similarity alone is insufficient for reliable task assignment. For example, an expert in a grounding task requiring coordinate prediction may be biased toward producing short textual answers after learning</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>A new version of Figure 1, a step-by-step, design based on the principle of the †solution of a linear number generator f...</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>The first is a simple and elegant, scalable and comprehensive version of the ProtoAda.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>This study, first published in the Journal of Applied Physics, is a step toward a more general understanding of the role...</p></section>
+    <section class="full"><h3>Abstract</h3><p>Recent advances in 3D multimodal large language models (3D-MLLMs) have enabled unified solutions for 3D scene understanding tasks, including visual question answering, captioning, and referring segmentation. However, existing 3D-MLLMs remain largely object-centric, limiting their ability to model fine-grained part structures that are essential for embodied interaction with 3D environments. In this work, we present PAR3D, a unified part-aware 3D-MLLM framework that enables models to understand, reason about, and ground both objects and their parts in 3D scenes. To enable training and evaluation of part-aware 3D scene understanding, we introduce ScenePart, a synthetic 3D scene dataset with part-level annotations and language instructions. We further develop Part-Aware 3D Representation Learn</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The first step was to demonstrate how parallel computation is done in a data structure.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>For example, the following table shows the following table:
+[1]
+[2]
+[3]
+[4]
+[5]
+[6]
+So, the diagram below is a good star...</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>A comprehensive guide to creating the 3D-MLLM.</p></section>
   </div>
 </div>
 </main>
 <footer>
   <a href="https://github.com/PranayMahendrakar/arxiv-llm-analyzer">PranayMahendrakar/arxiv-llm-analyzer</a>
-  | Powered by DistilGPT2 (HuggingFace Transformers) | No API keys | 2026-06-02 10:21 UTC
+  | Powered by DistilGPT2 (HuggingFace Transformers) | No API keys | 2026-06-06 08:32 UTC
 </footer>
 </body></html>
