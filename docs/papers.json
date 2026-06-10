@@ -1,120 +1,119 @@
 [
   {
     "paper": {
-      "title": "Latent Spatial Memory for Video World Models",
-      "summary": "Video world models that maintain 3D spatial consistency across generated frames typically rely on explicit point cloud memory constructed in RGB space. This design is both computationally expensive, requiring repeated rendering and VAE encoding, and inherently lossy, as the round trip through pixel space discards rich features of the learned latent representation. In this paper, we introduce \\emph{latent spatial memory} for video world models, a persistent 3D cache that stores scene information directly in the diffusion latent space, avoiding pixel-space reconstruction. Building on this, we propose Mirage, a latent-space spatial memory framework that constructs the memory by lifting latent tokens into 3D via depth-guided back-projection and queries it by synthesizing novel views through di",
+      "title": "When to Align, When to Predict: A Phase Diagram for Multimodal Learning",
+      "summary": "Cross-modal alignment (CA) and cross-modal prediction (CP) are the dominant paradigms for multimodal representation learning, yet there is no systematic understanding of when each succeeds, when each fails, and when cross-modal training helps at all -- a gap that leaves practitioners, especially in scientific domains like biomedicine or astrophysics, with heterogeneous instruments and multiple levels of organization and measurement, unable to diagnose why standard methods underperform the best single modality. We develop a unified linear framework that addresses both questions. Under a spiked signal-plus-noise model with structured cross-modal nuisance correlation, we derive separation ratios for both objectives that expose complementary failure modes: alignment whitens each modality and f",
       "authors": [
-        "Weijie Wang",
-        "Haoyu Zhao",
-        "Yifan Yang",
-        "Feng Chen",
-        "Zeyu Zhang"
+        "Ilay Kamai",
+        "Hugues Van Assel",
+        "Aviv Regev",
+        "Hagai B. Perets",
+        "Randall Balestriero"
       ],
-      "link": "http://arxiv.org/abs/2606.09828v1",
-      "published": "2026-06-08",
+      "link": "http://arxiv.org/abs/2606.11190v1",
+      "published": "2026-06-09",
       "categories": [
-        "cs.CV"
+        "cs.LG"
       ]
     },
     "analysis": {
-      "key_methods": "We used the following methods:\nWe used the following methods:\nWe used the following methods:\nWe used the following metho...",
-      "datasets": "http://www.",
-      "future_work": "How to use the Latent Spatial Memory in Game Development\n\nThis article has been adapted from the book."
+      "key_methods": "For the study of the first quarter of 2015, the authors provided a list of 10 topics.",
+      "datasets": "Predicting is a process that involves three steps:\nThe first is to predict the outcome of a problem\nThe second method is...",
+      "future_work": "To evaluate how to identify potential candidates using the system to predict outcomes, we used a 3-Mutation approach dev..."
     }
   },
   {
     "paper": {
-      "title": "MemoryVLA++: Temporal Modeling via Memory and Imagination in Vision-Language-Action Models",
-      "summary": "Temporal modeling is essential for robotic manipulation, as effective control requires both memory of past interactions and imagination of future states. However, most VLA models rely primarily on the current observation and therefore struggle with long-horizon, temporally dependent tasks. Cognitive science suggests that humans rely on working memory to buffer short-lived context, the hippocampal system to preserve episodic memory of past experience, and internal models to imagine possible future state evolution. Inspired by these mechanisms, we propose MemoryVLA++, a full temporal modeling framework that equips VLA models with memory and imagination for robotic manipulation. A pretrained VLM encodes the current observation into perceptual and cognitive tokens, forming working memory. Thes",
+      "title": "A Unifying Lens on Supervised Fine-Tuning Through Target Distribution Design",
+      "summary": "Supervised fine-tuning (SFT) typically maximizes the likelihood of every token in a demonstrated trajectory. However, an observed token can be non-unique, noisy, or misaligned with the model prior. Strictly fitting toward this one-hot target may be suboptimal, especially when the pretrained model encodes a rich knowledge prior. In this work, we reinterpret SFT as target distribution design: instead of studying only the loss objective, we analyze the token-level target that the loss drives the model to match. We introduce the Q-target framework, which decomposes SFT supervision into two explicit choices: (1) how strongly to rely on the observed token, and (2) how to allocate the remaining probability mass over alternatives. This perspective unifies many existing SFT variants as implicit cho",
       "authors": [
-        "Hao Shi",
-        "Weiye Li",
-        "Bin Xie",
-        "Yulin Wang",
-        "Renping Zhou"
+        "Tong Xie",
+        "Yuanhao Ban",
+        "Yunqi Hong",
+        "Sohyun An",
+        "Yihang Chen"
       ],
-      "link": "http://arxiv.org/abs/2606.09827v1",
-      "published": "2026-06-08",
-      "categories": [
-        "cs.RO",
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": "We have generated a collection of pre-designed memory model for the language-action model.",
-      "datasets": "The following models are provided for each model in the paper.",
-      "future_work": "Discovery of memory-related structures in vision-language-action models, including the neural network, and computational..."
-    }
-  },
-  {
-    "paper": {
-      "title": "OmniGameArena: A Unified UE5 Benchmark for VLM Game Agents with Improvement Dynamics",
-      "summary": "Vision-language model (VLM) agents are increasingly deployed in interactive game environments. Yet game benchmarks for VLM agents typically report a single first-attempt score per (agent, game) pair, focus on single-agent Solo play, and lack unified protocols for evaluating heterogeneous agent classes (commercial VLMs, open-weight VLMs, and specialized game policies) on the same footing. We address these gaps with OmniGameArena, a real-time benchmark of twelve newly built Unreal Engine 5 games spanning Solo (7), PvP (3), and Coop (2) with unified action interfaces, and the Improvement Dynamics Curve (IDC), an agentic-reflection harness in which a tool-using reflector LLM autonomously refines a bounded skill prompt across multiple rounds. Beyond cold-start leaderboard scores, IDC exposes tw",
-      "authors": [
-        "Mingxian Lin",
-        "Shengju Qian",
-        "Yuqi Liu",
-        "Yi-Hua Huang",
-        "Yiyu Wang"
-      ],
-      "link": "http://arxiv.org/abs/2606.09826v1",
-      "published": "2026-06-08",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ]
-    },
-    "analysis": {
-      "key_methods": "(a) For the purposes of this article, I am using a 3D printer to perform the calculations of the AI, the AI, and the pla...",
-      "datasets": "I am always pleased to hear that I have been able to develop a multi-core system using OmniGameArena.",
-      "future_work": "I really hope this project will help some developers find the best way to program with the UE5."
-    }
-  },
-  {
-    "paper": {
-      "title": "An Agency-Transferring Model-Free Policy Enhancement Technique",
-      "summary": "Training reinforcement learning (RL) policies from scratch is   costly: it requires careful reward and environment design,   extensive tuning, and substantial computation.   Yet many control problems already have a functional but   suboptimal policy available as a baseline.   This paper proposes a method for embedding such a baseline into   the RL training process, simultaneously improving training   efficiency relative to from-scratch methods and producing a   learning policy that outperforms the baseline.   At each step, the method arbitrates between the baseline policy   and a trainable learning policy, initially relying strongly on   the baseline policy and then progressively transferring agency to   the learning policy.   By the end of training, the learning policy is a standalone   n",
-      "authors": [
-        "Anton Bolychev",
-        "Georgiy Malaniya",
-        "Sinan Ibrahim",
-        "Pavel Osinenko"
-      ],
-      "link": "http://arxiv.org/abs/2606.09825v1",
-      "published": "2026-06-08",
+      "link": "http://arxiv.org/abs/2606.11189v1",
+      "published": "2026-06-09",
       "categories": [
         "cs.LG",
         "cs.AI",
-        "eess.SY",
-        "math.OC"
+        "cs.CL"
       ]
     },
     "analysis": {
-      "key_methods": "The authors identified all the data in the study, including their own data, and compared it to the data of the current d...",
-      "datasets": "First and foremost, we need to get a high-quality and fast-forward-transformation model that allows us to use the data w...",
-      "future_work": "A new approach for the research of the data-processing and retrieval of data, for example, is needed to explore the mech..."
+      "key_methods": "Samples from the US National Institute of Standards and Technology and an analysis of nearly 400,000 samples taken each ...",
+      "datasets": ".",
+      "future_work": "Using super-selective super-selective super-selective super-selective super-selective super-selective super-selective su..."
     }
   },
   {
     "paper": {
-      "title": "TSseek: Regular Expression-Based Similarity Search for Distributed Time Series Datasets",
-      "summary": "Similarity search is a fundamental operation in time series analysis. Most existing techniques, however, require users to supply a precise sequence of values (typically an entire time series object) as the query input. This rigid requirement limits real-world applications, where users instead want to express patterns, trends, or value ranges. Flexible, pattern-based search has been explored in text retrieval and complex event processing, but remains underexplored for large-scale distributed time series.   To close this gap, we propose TSseek, a regular-expression-powered search framework for distributed time series datasets. TSseek's query language enables users to compose patterns encompassing trends, value ranges, and wildcard segments. We show that conventional approximation techniques ",
+      "title": "ARM: An AutoRegressive Large Multimodal Model with Unified Discrete Representations",
+      "summary": "This paper introduces ARM, a discrete representation-based AutoRegressive Model that unifies image understanding, generation, and editing within a next-token prediction framework. ARM is built on three efforts: first, we train a discrete semantic visual tokenizer that maps images into compact token sequences. Our tokenizer is supervised with multiple objectives that jointly promote semantic discriminability, language alignment and faithful reconstruction, thereby supporting diverse tasks in a shared latent space. With this, we train a 7B autoregressive model over large-scale text and image token sequences, seamlessly developing vision-language perception and generation capabilities. Finally, to further improve preference-aligned behavior for text-to-image generation and instruction-guided ",
       "authors": [
-        "Xiaoshuai Li",
-        "Khalid Alnuaim",
-        "Mohamed Y. Eltabakh",
-        "Elke A. Rundensteiner"
+        "Junke Wang",
+        "Xiao Wang",
+        "Jiacheng Pan",
+        "Xuefeng Hu",
+        "Feng Li"
       ],
-      "link": "http://arxiv.org/abs/2606.09824v1",
-      "published": "2026-06-08",
+      "link": "http://arxiv.org/abs/2606.11188v1",
+      "published": "2026-06-09",
       "categories": [
-        "cs.DB"
+        "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": ".",
-      "datasets": "The SSE team recently published a paper entitled \"SSE and SSE: Regular Expression-Based Similarity Search for Distribute...",
-      "future_work": "In this paper, we summarize the main findings of this paper and summarize the main results of previous papers."
+      "key_methods": "A) A total of 32,000 single, single, single-modular, single-modular, multi-modular, single-modular single-modular, singl...",
+      "datasets": "[1] A single-phase-based linear model with multiple linear models; a linear model with multiple linear models; a linear ...",
+      "future_work": "Risk and development\nIn the past several years, the United States has been seeking ways to increase its capacity to deli..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Next Forcing: Causal World Modeling with Multi-Chunk Prediction",
+      "summary": "Autoregressive video generation has emerged as a powerful paradigm for World Action Models (WAMs). However, existing approaches suffer from slow training convergence and limited converged accuracy, particularly at high frame rates, as the training supervision is confined to the current chunk without explicit signals about future dynamics; they also suffer from slow inference due to iterative video denoising. In this paper, we present Next Forcing, a multi-chunk prediction (MCP) framework for causal world modeling that enables faster training, higher accuracy, and accelerated inference. Inspired by multi-token prediction in large language models, Next Forcing introduces an MCP training objective that augments the main model with lightweight auxiliary MCP modules to simultaneously denoise vi",
+      "authors": [
+        "Gangwei Xu",
+        "Qihang Zhang",
+        "Jiaming Zhou",
+        "Xing Zhu",
+        "Yujun Shen"
+      ],
+      "link": "http://arxiv.org/abs/2606.11187v1",
+      "published": "2026-06-09",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "the Monte Carlo, Monte Carlo, and Monte Carlo simulations using the Monte Carlo Modeling approach.",
+      "datasets": "I think people have seen that more than anything.",
+      "future_work": "Using a method called Riemann-Mayer algorithm to predict the global economic and financial markets, the next generation ..."
+    }
+  },
+  {
+    "paper": {
+      "title": "AnyMod-LLVE: Low-Light Video Enhancement with Modality-Agnostic Inference",
+      "summary": "Low-light video enhancement (LLVE) remains a challenging task due to severe information degradation under low-illumination conditions. Recent multimodal approaches have significantly improved enhancement performance by incorporating auxiliary modalities, such as event streams and infrared images. However, these methods typically assume the availability of these modalities at inference, which is often not feasible in real-world scenarios. To solve this problem, in this work, we propose AMNet, a unified multimodal framework for LLVE, to support flexible modality-agnostic inference, where auxiliary modalities may be unavailable. To address the issue of modality absence, we introduce a Spatial-Spectral Dual-Gated Translator that learns the correspondence between auxiliary modalities and RGB in",
+      "authors": [
+        "Hangfeng Liang",
+        "Yutao Hu",
+        "Yanhan Hu",
+        "Xiaohan Wu",
+        "Wenqi Shao"
+      ],
+      "link": "http://arxiv.org/abs/2606.11186v1",
+      "published": "2026-06-09",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "Agnostic inference (with the same name) is a technique where a modality is an extension of the input field.",
+      "datasets": "(1) It's always good to see the data and the data, but the other way around, as we'll see, is that the data is pretty mu...",
+      "future_work": "An approach to modality-Agnostic Inference that enables high-performance video enhancement by modality-Agnostic Inferenc..."
     }
   }
 ]
