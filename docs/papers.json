@@ -1,119 +1,115 @@
 [
   {
     "paper": {
-      "title": "When to Align, When to Predict: A Phase Diagram for Multimodal Learning",
-      "summary": "Cross-modal alignment (CA) and cross-modal prediction (CP) are the dominant paradigms for multimodal representation learning, yet there is no systematic understanding of when each succeeds, when each fails, and when cross-modal training helps at all -- a gap that leaves practitioners, especially in scientific domains like biomedicine or astrophysics, with heterogeneous instruments and multiple levels of organization and measurement, unable to diagnose why standard methods underperform the best single modality. We develop a unified linear framework that addresses both questions. Under a spiked signal-plus-noise model with structured cross-modal nuisance correlation, we derive separation ratios for both objectives that expose complementary failure modes: alignment whitens each modality and f",
+      "title": "Reroute, Don't Remove: Recoverable Visual Token Routing for Vision-Language Models",
+      "summary": "Vision-language models (VLMs) project images into hundreds to thousands of visual tokens, making decoder inference expensive in both attention computation and KV-cache memory. Existing visual-token reduction methods largely follow a rank-and-remove paradigm: they score visual tokens, keep a compact subset, and permanently discard the rest. We show that this irreversible action is fragile because visual-token importance changes across decoder depth; tokens ranked low at one stage may become relevant in later layers, especially for grounding-sensitive queries. We propose Reroute, a training-free plug-in that replaces removal with recoverable routing. At each routing stage, selected vision tokens pass through decoder blocks, while deferred tokens bypass the stage and re-enter the candidate po",
       "authors": [
-        "Ilay Kamai",
-        "Hugues Van Assel",
-        "Aviv Regev",
-        "Hagai B. Perets",
-        "Randall Balestriero"
+        "Cheng-Yu Yang",
+        "Shao-Yuan Lo",
+        "Yu-Lun Liu"
       ],
-      "link": "http://arxiv.org/abs/2606.11190v1",
-      "published": "2026-06-09",
+      "link": "http://arxiv.org/abs/2606.12412v1",
+      "published": "2026-06-10",
       "categories": [
+        "cs.CV",
+        "cs.AI"
+      ]
+    },
+    "analysis": {
+      "key_methods": "* * * * = {\n\n\n}\n* * * = {\n\n}\n}\n* * * = {\n}\n}\n\n* * = {\n}\n}\n* * = {\n}.",
+      "datasets": "The next step is to re-import the image file into a new file called src/src/src/src/src/src/src/src/src/src/src/src/src/...",
+      "future_work": "New-in-the-future data-driven and more powerful data structures to allow for more sophisticated user interfaces to be us..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Context-Driven Incremental Compression for Multi-Turn Dialogue Generation",
+      "summary": "Modern conversational agents condition on an ever-growing dialogue history at each turn, incurring redundant attention and encoding costs that grow with conversation length. Naive truncation or summarization degrades fidelity, while existing context compressors lack cross-turn memory sharing or revision, causing information loss and compounding errors in long dialogues. We revisit the context compression under conversational dynamics and empirically present its fragility. To improve both efficiency and robustness, we introduce Context-Driven Incremental Compression (C-DIC), which treats a conversation as interleaved contextual threads and stores revisable per-thread compression states in a single, compact dialogue memory. At each turn, a lightweight retrieve, revise, and write-back loop sh",
+      "authors": [
+        "Yeongseo Jung",
+        "Jaehyeok Kim",
+        "Eunseo Jung",
+        "Jiachuan Wang",
+        "Yongqi Zhang"
+      ],
+      "link": "http://arxiv.org/abs/2606.12411v1",
+      "published": "2026-06-10",
+      "categories": [
+        "cs.CL",
         "cs.LG"
       ]
     },
     "analysis": {
-      "key_methods": "For the study of the first quarter of 2015, the authors provided a list of 10 topics.",
-      "datasets": "Predicting is a process that involves three steps:\nThe first is to predict the outcome of a problem\nThe second method is...",
-      "future_work": "To evaluate how to identify potential candidates using the system to predict outcomes, we used a 3-Mutation approach dev..."
+      "key_methods": ".",
+      "datasets": "Graphic :\nFor more information about the syntax of the new “context-driven” code we will be using in this post.",
+      "future_work": "How to build a better communication system for multi-turn dialog generation."
     }
   },
   {
     "paper": {
-      "title": "A Unifying Lens on Supervised Fine-Tuning Through Target Distribution Design",
-      "summary": "Supervised fine-tuning (SFT) typically maximizes the likelihood of every token in a demonstrated trajectory. However, an observed token can be non-unique, noisy, or misaligned with the model prior. Strictly fitting toward this one-hot target may be suboptimal, especially when the pretrained model encodes a rich knowledge prior. In this work, we reinterpret SFT as target distribution design: instead of studying only the loss objective, we analyze the token-level target that the loss drives the model to match. We introduce the Q-target framework, which decomposes SFT supervision into two explicit choices: (1) how strongly to rely on the observed token, and (2) how to allocate the remaining probability mass over alternatives. This perspective unifies many existing SFT variants as implicit cho",
+      "title": "When direct detection constrains reheating temperature: freeze-in with stronger couplings and inflaton-seeded freeze-in",
+      "summary": "Recent results from the DAMIC-M and PandaX collaborations have excluded the standard freeze-in production of dark matter for masses in the range $3~\\mathrm{MeV} \\lesssim m_χ\\lesssim 1~\\mathrm{GeV}$ in the context of extensions of the Standard Model featuring an additional ultra-light $U(1)_{\\rm X}$ gauge boson. In this work, we analyze the constraints induced by DAMIC-M and PandaX results on the reheating temperature in freeze-in models at stronger coupling, or when a non-thermal source (such as inflaton decay) comes into play. We identify viable scenarios in which the DM relic abundance is correctly reproduced while evading current experimental bounds on the electron-scattering cross section, $\\overlineσ_\\mathrm{e}$. In particular, we show that for reheating temperatures below the electro",
       "authors": [
-        "Tong Xie",
-        "Yuanhao Ban",
-        "Yunqi Hong",
-        "Sohyun An",
-        "Yihang Chen"
+        "Xavier Bertou",
+        "Olivier Deligny",
+        "Mathieu Gross",
+        "Yann Mambrini",
+        "Issam-Eddine Mellouki"
       ],
-      "link": "http://arxiv.org/abs/2606.11189v1",
-      "published": "2026-06-09",
+      "link": "http://arxiv.org/abs/2606.12408v1",
+      "published": "2026-06-10",
       "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CL"
+        "hep-ph",
+        "astro-ph.CO"
       ]
     },
     "analysis": {
-      "key_methods": "Samples from the US National Institute of Standards and Technology and an analysis of nearly 400,000 samples taken each ...",
-      "datasets": ".",
-      "future_work": "Using super-selective super-selective super-selective super-selective super-selective super-selective super-selective su..."
+      "key_methods": "The method used in this paper was used as a basis for using the high-pressure system.",
+      "datasets": "The most recent temperature data was on the basis of the observation of all four observations of the N-tectonic system.",
+      "future_work": "Copper-based thermal modelling is an exciting idea to study how hot and cold air plays an important role in cooling temp..."
     }
   },
   {
     "paper": {
-      "title": "ARM: An AutoRegressive Large Multimodal Model with Unified Discrete Representations",
-      "summary": "This paper introduces ARM, a discrete representation-based AutoRegressive Model that unifies image understanding, generation, and editing within a next-token prediction framework. ARM is built on three efforts: first, we train a discrete semantic visual tokenizer that maps images into compact token sequences. Our tokenizer is supervised with multiple objectives that jointly promote semantic discriminability, language alignment and faithful reconstruction, thereby supporting diverse tasks in a shared latent space. With this, we train a 7B autoregressive model over large-scale text and image token sequences, seamlessly developing vision-language perception and generation capabilities. Finally, to further improve preference-aligned behavior for text-to-image generation and instruction-guided ",
+      "title": "How Seemingly Inconsequential Design Choices Dictate Performance of LLMs in Pathology",
+      "summary": "General-purpose large language models (LLMs) are routinely used as baselines when evaluating specialized pathology models on whole-slide images (WSIs). Because WSIs exceed contemporary model context limits, LLM baselines routinely use small, high-magnification patches processed independently via majority voting, without systematic evaluation of seemingly inconsequential design choices such as patch size, patch count, and magnification. Generalist LLMs have consistently underperformed specialized systems, reinforcing the perception that domain-specific training or architectural adaptation is necessary for pathology tasks involving WSIs. Here, we conduct a systematic factorial analysis of four input design factors: inference mode, patch size, magnification, and patch count. We demonstrate th",
       "authors": [
-        "Junke Wang",
-        "Xiao Wang",
-        "Jiacheng Pan",
-        "Xuefeng Hu",
-        "Feng Li"
+        "Kian R. Weihrauch",
+        "Thomas A. Buckley",
+        "William Lotter",
+        "Arjun K. Manrai"
       ],
-      "link": "http://arxiv.org/abs/2606.11188v1",
-      "published": "2026-06-09",
+      "link": "http://arxiv.org/abs/2606.12407v1",
+      "published": "2026-06-10",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "A) A total of 32,000 single, single, single-modular, single-modular, multi-modular, single-modular single-modular, singl...",
-      "datasets": "[1] A single-phase-based linear model with multiple linear models; a linear model with multiple linear models; a linear ...",
-      "future_work": "Risk and development\nIn the past several years, the United States has been seeking ways to increase its capacity to deli..."
+      "key_methods": "P.",
+      "datasets": "A lot of researchers have written about how \"high-performance\" optimization is often performed in the context of the \"hi...",
+      "future_work": "How Seemingly Inconsequential Design Choices Dictate Performance of LLMs in Pathology."
     }
   },
   {
     "paper": {
-      "title": "Next Forcing: Causal World Modeling with Multi-Chunk Prediction",
-      "summary": "Autoregressive video generation has emerged as a powerful paradigm for World Action Models (WAMs). However, existing approaches suffer from slow training convergence and limited converged accuracy, particularly at high frame rates, as the training supervision is confined to the current chunk without explicit signals about future dynamics; they also suffer from slow inference due to iterative video denoising. In this paper, we present Next Forcing, a multi-chunk prediction (MCP) framework for causal world modeling that enables faster training, higher accuracy, and accelerated inference. Inspired by multi-token prediction in large language models, Next Forcing introduces an MCP training objective that augments the main model with lightweight auxiliary MCP modules to simultaneously denoise vi",
+      "title": "Bounding the Effect of HOD Assumptions on Small-Scale Clustering Constraints",
+      "summary": "Small-scale galaxy clustering is expected to contain substantial cosmological information, but the extent to which this information constrains halo-based cosmologies independent of an assumed galaxy--halo connection remains unclear. We quantify this dependence using LRG-like mock galaxy catalogs built from 81 cosmologies in the {\\tt \\textsc{AbacusSummit}} suite. We analyze two-point correlation function multipoles on scales ranging from $5$--$80$ Mpc/$h$ and compare two limiting treatments, the \\enquote{floor} and \\enquote{ceiling}, of the standard five-parameter HOD model. In the conservative floor case, we impose only broad initial HOD bounds and profile over HOD parameters to determine the minimum constraining power available; we accomplish this with {\\tt HODmin}, a two-stage global opt",
       "authors": [
-        "Gangwei Xu",
-        "Qihang Zhang",
-        "Jiaming Zhou",
-        "Xing Zhu",
-        "Yujun Shen"
+        "Nick Magnelli",
+        "Zachery Brown",
+        "Lado Samushia"
       ],
-      "link": "http://arxiv.org/abs/2606.11187v1",
-      "published": "2026-06-09",
+      "link": "http://arxiv.org/abs/2606.12405v1",
+      "published": "2026-06-10",
       "categories": [
-        "cs.CV"
+        "astro-ph.CO"
       ]
     },
     "analysis": {
-      "key_methods": "the Monte Carlo, Monte Carlo, and Monte Carlo simulations using the Monte Carlo Modeling approach.",
-      "datasets": "I think people have seen that more than anything.",
-      "future_work": "Using a method called Riemann-Mayer algorithm to predict the global economic and financial markets, the next generation ..."
-    }
-  },
-  {
-    "paper": {
-      "title": "AnyMod-LLVE: Low-Light Video Enhancement with Modality-Agnostic Inference",
-      "summary": "Low-light video enhancement (LLVE) remains a challenging task due to severe information degradation under low-illumination conditions. Recent multimodal approaches have significantly improved enhancement performance by incorporating auxiliary modalities, such as event streams and infrared images. However, these methods typically assume the availability of these modalities at inference, which is often not feasible in real-world scenarios. To solve this problem, in this work, we propose AMNet, a unified multimodal framework for LLVE, to support flexible modality-agnostic inference, where auxiliary modalities may be unavailable. To address the issue of modality absence, we introduce a Spatial-Spectral Dual-Gated Translator that learns the correspondence between auxiliary modalities and RGB in",
-      "authors": [
-        "Hangfeng Liang",
-        "Yutao Hu",
-        "Yanhan Hu",
-        "Xiaohan Wu",
-        "Wenqi Shao"
-      ],
-      "link": "http://arxiv.org/abs/2606.11186v1",
-      "published": "2026-06-09",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": "Agnostic inference (with the same name) is a technique where a modality is an extension of the input field.",
-      "datasets": "(1) It's always good to see the data and the data, but the other way around, as we'll see, is that the data is pretty mu...",
-      "future_work": "An approach to modality-Agnostic Inference that enables high-performance video enhancement by modality-Agnostic Inferenc..."
+      "key_methods": ".",
+      "datasets": "Bounded the Effect of HOD Assumptions on Small-Scale Clustering Constraints.",
+      "future_work": "The most promising results from the study are from the study of the effect on small-scale clustering, which is a questio..."
     }
   }
 ]
