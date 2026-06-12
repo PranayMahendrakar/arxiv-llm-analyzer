@@ -1,115 +1,118 @@
 [
   {
     "paper": {
-      "title": "Reroute, Don't Remove: Recoverable Visual Token Routing for Vision-Language Models",
-      "summary": "Vision-language models (VLMs) project images into hundreds to thousands of visual tokens, making decoder inference expensive in both attention computation and KV-cache memory. Existing visual-token reduction methods largely follow a rank-and-remove paradigm: they score visual tokens, keep a compact subset, and permanently discard the rest. We show that this irreversible action is fragile because visual-token importance changes across decoder depth; tokens ranked low at one stage may become relevant in later layers, especially for grounding-sensitive queries. We propose Reroute, a training-free plug-in that replaces removal with recoverable routing. At each routing stage, selected vision tokens pass through decoder blocks, while deferred tokens bypass the stage and re-enter the candidate po",
+      "title": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
+      "summary": "Large language model (LLM) agents have achieved strong performance on a wide range of benchmarks, yet most evaluations assume static environments. In contrast, real-world deployment is inherently dynamic, requiring agents to continually align their knowledge, skills, and behavior with changing environments and updated task conditions. To address this gap, we introduce EvoArena, a benchmark suite that models environment changes as sequences of progressive updates across terminal, software, and social domains. We further propose EvoMem, a patch-based memory paradigm that records memory evolution as structured update histories, enabling agents to reason about environmental evolution through changes in their memory. Experiments show that current agents struggle on EvoArena, achieving an averag",
       "authors": [
-        "Cheng-Yu Yang",
-        "Shao-Yuan Lo",
-        "Yu-Lun Liu"
+        "Jundong Xu",
+        "Qingchuan Li",
+        "Jiaying Wu",
+        "Yihuai Lan",
+        "Shuyue Stella Li"
       ],
-      "link": "http://arxiv.org/abs/2606.12412v1",
-      "published": "2026-06-10",
+      "link": "http://arxiv.org/abs/2606.13681v1",
+      "published": "2026-06-11",
       "categories": [
-        "cs.CV",
+        "cs.CL"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The primary goal of the algorithm was to determine if or not a specific memory is a specific memory.",
+      "datasets": ".",
+      "future_work": "An overview of the new features and strategies for building and controlling LLM Agent in dynamic environments."
+    }
+  },
+  {
+    "paper": {
+      "title": "Learning to Reason by Analogy via Retrieval-Augmented Reinforcement Fine-Tuning",
+      "summary": "Retrieval-augmented generation (RAG) has become a standard mechanism for grounding language models in external knowledge, yet conventional retrieval based on lexical or semantic similarity is poorly suited for complex reasoning tasks: a semantically similar problem may demand an entirely different solution strategy, while a superficially different problem may share the same underlying reasoning pattern. We propose Retrieval-Augmented Reinforcement Fine-Tuning (RA-RFT), a post-training framework that teaches language models to reason by analogy. RA-RFT uses gold-relevance distillation to train a retriever that ranks contexts by expected reasoning benefit rather than semantic overlap, and then fine-tunes the policy model via reinforcement fine-tuning methods with retrieved analogous demonstr",
+      "authors": [
+        "Zilin Xiao",
+        "Qi Ma",
+        "Chun-cheng Jason Chen",
+        "Xintao Chen",
+        "Avinash Atreya"
+      ],
+      "link": "http://arxiv.org/abs/2606.13680v1",
+      "published": "2026-06-11",
+      "categories": [
+        "cs.CL",
         "cs.AI"
       ]
     },
     "analysis": {
-      "key_methods": "* * * * = {\n\n\n}\n* * * = {\n\n}\n}\n* * * = {\n}\n}\n\n* * = {\n}\n}\n* * = {\n}.",
-      "datasets": "The next step is to re-import the image file into a new file called src/src/src/src/src/src/src/src/src/src/src/src/src/...",
-      "future_work": "New-in-the-future data-driven and more powerful data structures to allow for more sophisticated user interfaces to be us..."
+      "key_methods": "A.",
+      "datasets": "A large list of questions about how to implement a process is a very powerful and efficient way to implement a process.",
+      "future_work": "In collaboration with the German Institute for Social and Cultural Studies (WEITS), we have developed new strategies to ..."
     }
   },
   {
     "paper": {
-      "title": "Context-Driven Incremental Compression for Multi-Turn Dialogue Generation",
-      "summary": "Modern conversational agents condition on an ever-growing dialogue history at each turn, incurring redundant attention and encoding costs that grow with conversation length. Naive truncation or summarization degrades fidelity, while existing context compressors lack cross-turn memory sharing or revision, causing information loss and compounding errors in long dialogues. We revisit the context compression under conversational dynamics and empirically present its fragility. To improve both efficiency and robustness, we introduce Context-Driven Incremental Compression (C-DIC), which treats a conversation as interleaved contextual threads and stores revisable per-thread compression states in a single, compact dialogue memory. At each turn, a lightweight retrieve, revise, and write-back loop sh",
+      "title": "InterleaveThinker: Reinforcing Agentic Interleaved Generation",
+      "summary": "Recent image generators have demonstrated impressive photorealism and instruction-following capabilities in single-image generation and editing. However, constrained by their architectures, they cannot achieve interleaved generation (text-image sequence), which has crucial applications in visual narratives, guidance, and embodied manipulation. Even the latest open-source Unified Multimodal Models (UMMs) exhibit limited performance in this regard. In this paper, we introduce InterleaveThinker, the first multi-agent pipeline designed to endow any existing image generator with interleaved generation capabilities. Specifically, we employ a planner agent to organize the image-text input sequence, instructing the image generator on the required execution at each step. Subsequently, we introduce ",
       "authors": [
-        "Yeongseo Jung",
-        "Jaehyeok Kim",
-        "Eunseo Jung",
-        "Jiachuan Wang",
-        "Yongqi Zhang"
+        "Dian Zheng",
+        "Harry Lee",
+        "Manyuan Zhang",
+        "Kaituo Feng",
+        "Zoey Guo"
       ],
-      "link": "http://arxiv.org/abs/2606.12411v1",
-      "published": "2026-06-10",
-      "categories": [
-        "cs.CL",
-        "cs.LG"
-      ]
-    },
-    "analysis": {
-      "key_methods": ".",
-      "datasets": "Graphic :\nFor more information about the syntax of the new “context-driven” code we will be using in this post.",
-      "future_work": "How to build a better communication system for multi-turn dialog generation."
-    }
-  },
-  {
-    "paper": {
-      "title": "When direct detection constrains reheating temperature: freeze-in with stronger couplings and inflaton-seeded freeze-in",
-      "summary": "Recent results from the DAMIC-M and PandaX collaborations have excluded the standard freeze-in production of dark matter for masses in the range $3~\\mathrm{MeV} \\lesssim m_χ\\lesssim 1~\\mathrm{GeV}$ in the context of extensions of the Standard Model featuring an additional ultra-light $U(1)_{\\rm X}$ gauge boson. In this work, we analyze the constraints induced by DAMIC-M and PandaX results on the reheating temperature in freeze-in models at stronger coupling, or when a non-thermal source (such as inflaton decay) comes into play. We identify viable scenarios in which the DM relic abundance is correctly reproduced while evading current experimental bounds on the electron-scattering cross section, $\\overlineσ_\\mathrm{e}$. In particular, we show that for reheating temperatures below the electro",
-      "authors": [
-        "Xavier Bertou",
-        "Olivier Deligny",
-        "Mathieu Gross",
-        "Yann Mambrini",
-        "Issam-Eddine Mellouki"
-      ],
-      "link": "http://arxiv.org/abs/2606.12408v1",
-      "published": "2026-06-10",
-      "categories": [
-        "hep-ph",
-        "astro-ph.CO"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The method used in this paper was used as a basis for using the high-pressure system.",
-      "datasets": "The most recent temperature data was on the basis of the observation of all four observations of the N-tectonic system.",
-      "future_work": "Copper-based thermal modelling is an exciting idea to study how hot and cold air plays an important role in cooling temp..."
-    }
-  },
-  {
-    "paper": {
-      "title": "How Seemingly Inconsequential Design Choices Dictate Performance of LLMs in Pathology",
-      "summary": "General-purpose large language models (LLMs) are routinely used as baselines when evaluating specialized pathology models on whole-slide images (WSIs). Because WSIs exceed contemporary model context limits, LLM baselines routinely use small, high-magnification patches processed independently via majority voting, without systematic evaluation of seemingly inconsequential design choices such as patch size, patch count, and magnification. Generalist LLMs have consistently underperformed specialized systems, reinforcing the perception that domain-specific training or architectural adaptation is necessary for pathology tasks involving WSIs. Here, we conduct a systematic factorial analysis of four input design factors: inference mode, patch size, magnification, and patch count. We demonstrate th",
-      "authors": [
-        "Kian R. Weihrauch",
-        "Thomas A. Buckley",
-        "William Lotter",
-        "Arjun K. Manrai"
-      ],
-      "link": "http://arxiv.org/abs/2606.12407v1",
-      "published": "2026-06-10",
+      "link": "http://arxiv.org/abs/2606.13679v1",
+      "published": "2026-06-11",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "P.",
-      "datasets": "A lot of researchers have written about how \"high-performance\" optimization is often performed in the context of the \"hi...",
-      "future_work": "How Seemingly Inconsequential Design Choices Dictate Performance of LLMs in Pathology."
+      "key_methods": "The purpose of this paper was to examine the effects of induced brain activation on the brain's ability to generate an a...",
+      "datasets": "InterleaveThinker: The InterleaveThinker: The InterleaveThinker: The InterleaveThinker: The InterleaveThinker: The Inter...",
+      "future_work": "In response to the recent findings, the authors of this paper, the authors of the paper and the authors of this paper, A..."
     }
   },
   {
     "paper": {
-      "title": "Bounding the Effect of HOD Assumptions on Small-Scale Clustering Constraints",
-      "summary": "Small-scale galaxy clustering is expected to contain substantial cosmological information, but the extent to which this information constrains halo-based cosmologies independent of an assumed galaxy--halo connection remains unclear. We quantify this dependence using LRG-like mock galaxy catalogs built from 81 cosmologies in the {\\tt \\textsc{AbacusSummit}} suite. We analyze two-point correlation function multipoles on scales ranging from $5$--$80$ Mpc/$h$ and compare two limiting treatments, the \\enquote{floor} and \\enquote{ceiling}, of the standard five-parameter HOD model. In the conservative floor case, we impose only broad initial HOD bounds and profile over HOD parameters to determine the minimum constraining power available; we accomplish this with {\\tt HODmin}, a two-stage global opt",
+      "title": "A model of local and global reciprocity",
+      "summary": "We often decide how to treat friends based on observations of their past behavior, whereas actions toward strangers are typically guided by their public reputations. These two kinds of information underlie two classical mechanisms for the evolution of cooperation$\\unicode{x2014}$direct and indirect reciprocity$\\unicode{x2014}$which have largely been studied in isolation. They are not interchangeable: we can recall the past actions of only a small circle of close contacts, whereas for the far larger pool of strangers we must rely on public reputations. Here we develop a mathematical framework built on this distinction. Each individual engages in direct reciprocity in local games within a finite neighborhood of friends, whose actions they observe directly, and in indirect reciprocity in glob",
       "authors": [
-        "Nick Magnelli",
-        "Zachery Brown",
-        "Lado Samushia"
+        "Mari Kawakatsu",
+        "Yohsuke Murase",
+        "Taylor A. Kessinger",
+        "Joshua B. Plotkin"
       ],
-      "link": "http://arxiv.org/abs/2606.12405v1",
-      "published": "2026-06-10",
+      "link": "http://arxiv.org/abs/2606.13678v1",
+      "published": "2026-06-11",
       "categories": [
-        "astro-ph.CO"
+        "physics.soc-ph",
+        "q-bio.PE"
       ]
     },
     "analysis": {
-      "key_methods": ".",
-      "datasets": "Bounded the Effect of HOD Assumptions on Small-Scale Clustering Constraints.",
-      "future_work": "The most promising results from the study are from the study of the effect on small-scale clustering, which is a questio..."
+      "key_methods": "All data collection and analysis was conducted by a 2-year-old male student who was in the U.",
+      "datasets": "[2]\n[3]\n[4]\n[5]\n[6]\n[7]\n[8]\n[9]\n[10]\n[11]\n[12]\n[13].",
+      "future_work": "To examine a broader and broader model of reciprocity in the global economy, we will use a series of models of reciproci..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Improving Robotic Generalist Policies via Flow Reversal Steering",
+      "summary": "Generalist policies can learn a wide range of skills from diverse robot datasets. In order to solve or improve on challenging news tasks, we need a way to infer and invoke the appropriate actions from the policy's rich behavioral prior, especially when directly commanding the policy fails. We focus on flow matching generalists and propose Flow Reversal Steering (FRS): a method that takes suboptimal but ``reasonable'' actions, finds their latent noises by passing them through the flow policy in reverse, and maps them to nearby generalist action modes. We evaluate FRS across many simulated and real-world manipulation settings. First, FRS can turn coarse semantic guidance from humans or vision-language models (VLMs) into corresponding good robot actions, improving zero-shot control. These gai",
+      "authors": [
+        "Andy Tang",
+        "William Chen",
+        "Andrew Wagenmaker",
+        "Chelsea Finn",
+        "Sergey Levine"
+      ],
+      "link": "http://arxiv.org/abs/2606.13675v1",
+      "published": "2026-06-11",
+      "categories": [
+        "cs.RO"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The following information is provided for the purpose of this paper.",
+      "datasets": "The data, along with the data sets discussed in the previous section, have been used to identify trends in both the fede...",
+      "future_work": "Using these new techniques to develop a more accurate approach to the road for self-driving cars, and the future of high..."
     }
   }
 ]

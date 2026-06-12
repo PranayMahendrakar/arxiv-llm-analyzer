@@ -54,93 +54,87 @@
   <div class="stat"><div class="n">5</div><div class="l">Papers</div></div>
   <div class="stat"><div class="n">distilgpt2</div><div class="l">LLM Model</div></div>
   <div class="stat"><div class="n">large language m</div><div class="l">Query</div></div>
-  <div class="stat"><div class="n">2026-06-11</div><div class="l">Updated UTC</div></div>
+  <div class="stat"><div class="n">2026-06-12</div><div class="l">Updated UTC</div></div>
 </div>
 <main>
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2606.12412v1" target="_blank" rel="noopener">Reroute, Don't Remove: Recoverable Visual Token Routing for Vision-Language Models</a></h2>
-    <span class="meta">Published: 2026-06-10 | Authors: Cheng-Yu Yang, Shao-Yuan Lo, Yu-Lun Liu | Tags: cs.CV, cs.AI</span>
+    <h2><a href="http://arxiv.org/abs/2606.13681v1" target="_blank" rel="noopener">EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments</a></h2>
+    <span class="meta">Published: 2026-06-11 | Authors: Jundong Xu, Qingchuan Li, Jiaying Wu, Yihuai Lan, Shuyue Stella Li | Tags: cs.CL</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Vision-language models (VLMs) project images into hundreds to thousands of visual tokens, making decoder inference expensive in both attention computation and KV-cache memory. Existing visual-token reduction methods largely follow a rank-and-remove paradigm: they score visual tokens, keep a compact subset, and permanently discard the rest. We show that this irreversible action is fragile because visual-token importance changes across decoder depth; tokens ranked low at one stage may become relevant in later layers, especially for grounding-sensitive queries. We propose Reroute, a training-free plug-in that replaces removal with recoverable routing. At each routing stage, selected vision tokens pass through decoder blocks, while deferred tokens bypass the stage and re-enter the candidate po</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>* * * * = {
-
-
-}
-* * * = {
-
-}
-}
-* * * = {
-}
-}
-
-* * = {
-}
-}
-* * = {
-}.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>The next step is to re-import the image file into a new file called src/src/src/src/src/src/src/src/src/src/src/src/src/...</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>New-in-the-future data-driven and more powerful data structures to allow for more sophisticated user interfaces to be us...</p></section>
+    <section class="full"><h3>Abstract</h3><p>Large language model (LLM) agents have achieved strong performance on a wide range of benchmarks, yet most evaluations assume static environments. In contrast, real-world deployment is inherently dynamic, requiring agents to continually align their knowledge, skills, and behavior with changing environments and updated task conditions. To address this gap, we introduce EvoArena, a benchmark suite that models environment changes as sequences of progressive updates across terminal, software, and social domains. We further propose EvoMem, a patch-based memory paradigm that records memory evolution as structured update histories, enabling agents to reason about environmental evolution through changes in their memory. Experiments show that current agents struggle on EvoArena, achieving an averag</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The primary goal of the algorithm was to determine if or not a specific memory is a specific memory.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>An overview of the new features and strategies for building and controlling LLM Agent in dynamic environments.</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2606.12411v1" target="_blank" rel="noopener">Context-Driven Incremental Compression for Multi-Turn Dialogue Generation</a></h2>
-    <span class="meta">Published: 2026-06-10 | Authors: Yeongseo Jung, Jaehyeok Kim, Eunseo Jung, Jiachuan Wang, Yongqi Zhang | Tags: cs.CL, cs.LG</span>
+    <h2><a href="http://arxiv.org/abs/2606.13680v1" target="_blank" rel="noopener">Learning to Reason by Analogy via Retrieval-Augmented Reinforcement Fine-Tuning</a></h2>
+    <span class="meta">Published: 2026-06-11 | Authors: Zilin Xiao, Qi Ma, Chun-cheng Jason Chen, Xintao Chen, Avinash Atreya | Tags: cs.CL, cs.AI</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Modern conversational agents condition on an ever-growing dialogue history at each turn, incurring redundant attention and encoding costs that grow with conversation length. Naive truncation or summarization degrades fidelity, while existing context compressors lack cross-turn memory sharing or revision, causing information loss and compounding errors in long dialogues. We revisit the context compression under conversational dynamics and empirically present its fragility. To improve both efficiency and robustness, we introduce Context-Driven Incremental Compression (C-DIC), which treats a conversation as interleaved contextual threads and stores revisable per-thread compression states in a single, compact dialogue memory. At each turn, a lightweight retrieve, revise, and write-back loop sh</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>Graphic :
-For more information about the syntax of the new “context-driven” code we will be using in this post.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>How to build a better communication system for multi-turn dialog generation.</p></section>
+    <section class="full"><h3>Abstract</h3><p>Retrieval-augmented generation (RAG) has become a standard mechanism for grounding language models in external knowledge, yet conventional retrieval based on lexical or semantic similarity is poorly suited for complex reasoning tasks: a semantically similar problem may demand an entirely different solution strategy, while a superficially different problem may share the same underlying reasoning pattern. We propose Retrieval-Augmented Reinforcement Fine-Tuning (RA-RFT), a post-training framework that teaches language models to reason by analogy. RA-RFT uses gold-relevance distillation to train a retriever that ranks contexts by expected reasoning benefit rather than semantic overlap, and then fine-tunes the policy model via reinforcement fine-tuning methods with retrieved analogous demonstr</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>A.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>A large list of questions about how to implement a process is a very powerful and efficient way to implement a process.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>In collaboration with the German Institute for Social and Cultural Studies (WEITS), we have developed new strategies to ...</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2606.12408v1" target="_blank" rel="noopener">When direct detection constrains reheating temperature: freeze-in with stronger couplings and inflaton-seeded freeze-in</a></h2>
-    <span class="meta">Published: 2026-06-10 | Authors: Xavier Bertou, Olivier Deligny, Mathieu Gross, Yann Mambrini, Issam-Eddine Mellouki | Tags: hep-ph, astro-ph.CO</span>
+    <h2><a href="http://arxiv.org/abs/2606.13679v1" target="_blank" rel="noopener">InterleaveThinker: Reinforcing Agentic Interleaved Generation</a></h2>
+    <span class="meta">Published: 2026-06-11 | Authors: Dian Zheng, Harry Lee, Manyuan Zhang, Kaituo Feng, Zoey Guo | Tags: cs.CV</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Recent results from the DAMIC-M and PandaX collaborations have excluded the standard freeze-in production of dark matter for masses in the range $3~\mathrm{MeV} \lesssim m_χ\lesssim 1~\mathrm{GeV}$ in the context of extensions of the Standard Model featuring an additional ultra-light $U(1)_{\rm X}$ gauge boson. In this work, we analyze the constraints induced by DAMIC-M and PandaX results on the reheating temperature in freeze-in models at stronger coupling, or when a non-thermal source (such as inflaton decay) comes into play. We identify viable scenarios in which the DM relic abundance is correctly reproduced while evading current experimental bounds on the electron-scattering cross section, $\overlineσ_\mathrm{e}$. In particular, we show that for reheating temperatures below the electro</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The method used in this paper was used as a basis for using the high-pressure system.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>The most recent temperature data was on the basis of the observation of all four observations of the N-tectonic system.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Copper-based thermal modelling is an exciting idea to study how hot and cold air plays an important role in cooling temp...</p></section>
+    <section class="full"><h3>Abstract</h3><p>Recent image generators have demonstrated impressive photorealism and instruction-following capabilities in single-image generation and editing. However, constrained by their architectures, they cannot achieve interleaved generation (text-image sequence), which has crucial applications in visual narratives, guidance, and embodied manipulation. Even the latest open-source Unified Multimodal Models (UMMs) exhibit limited performance in this regard. In this paper, we introduce InterleaveThinker, the first multi-agent pipeline designed to endow any existing image generator with interleaved generation capabilities. Specifically, we employ a planner agent to organize the image-text input sequence, instructing the image generator on the required execution at each step. Subsequently, we introduce </p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The purpose of this paper was to examine the effects of induced brain activation on the brain's ability to generate an a...</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>InterleaveThinker: The InterleaveThinker: The InterleaveThinker: The InterleaveThinker: The InterleaveThinker: The Inter...</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>In response to the recent findings, the authors of this paper, the authors of the paper and the authors of this paper, A...</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2606.12407v1" target="_blank" rel="noopener">How Seemingly Inconsequential Design Choices Dictate Performance of LLMs in Pathology</a></h2>
-    <span class="meta">Published: 2026-06-10 | Authors: Kian R. Weihrauch, Thomas A. Buckley, William Lotter, Arjun K. Manrai | Tags: cs.CV</span>
+    <h2><a href="http://arxiv.org/abs/2606.13678v1" target="_blank" rel="noopener">A model of local and global reciprocity</a></h2>
+    <span class="meta">Published: 2026-06-11 | Authors: Mari Kawakatsu, Yohsuke Murase, Taylor A. Kessinger, Joshua B. Plotkin | Tags: physics.soc-ph, q-bio.PE</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>General-purpose large language models (LLMs) are routinely used as baselines when evaluating specialized pathology models on whole-slide images (WSIs). Because WSIs exceed contemporary model context limits, LLM baselines routinely use small, high-magnification patches processed independently via majority voting, without systematic evaluation of seemingly inconsequential design choices such as patch size, patch count, and magnification. Generalist LLMs have consistently underperformed specialized systems, reinforcing the perception that domain-specific training or architectural adaptation is necessary for pathology tasks involving WSIs. Here, we conduct a systematic factorial analysis of four input design factors: inference mode, patch size, magnification, and patch count. We demonstrate th</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>P.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>A lot of researchers have written about how "high-performance" optimization is often performed in the context of the "hi...</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>How Seemingly Inconsequential Design Choices Dictate Performance of LLMs in Pathology.</p></section>
+    <section class="full"><h3>Abstract</h3><p>We often decide how to treat friends based on observations of their past behavior, whereas actions toward strangers are typically guided by their public reputations. These two kinds of information underlie two classical mechanisms for the evolution of cooperation$\unicode{x2014}$direct and indirect reciprocity$\unicode{x2014}$which have largely been studied in isolation. They are not interchangeable: we can recall the past actions of only a small circle of close contacts, whereas for the far larger pool of strangers we must rely on public reputations. Here we develop a mathematical framework built on this distinction. Each individual engages in direct reciprocity in local games within a finite neighborhood of friends, whose actions they observe directly, and in indirect reciprocity in glob</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>All data collection and analysis was conducted by a 2-year-old male student who was in the U.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>[2]
+[3]
+[4]
+[5]
+[6]
+[7]
+[8]
+[9]
+[10]
+[11]
+[12]
+[13].</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>To examine a broader and broader model of reciprocity in the global economy, we will use a series of models of reciproci...</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2606.12405v1" target="_blank" rel="noopener">Bounding the Effect of HOD Assumptions on Small-Scale Clustering Constraints</a></h2>
-    <span class="meta">Published: 2026-06-10 | Authors: Nick Magnelli, Zachery Brown, Lado Samushia | Tags: astro-ph.CO</span>
+    <h2><a href="http://arxiv.org/abs/2606.13675v1" target="_blank" rel="noopener">Improving Robotic Generalist Policies via Flow Reversal Steering</a></h2>
+    <span class="meta">Published: 2026-06-11 | Authors: Andy Tang, William Chen, Andrew Wagenmaker, Chelsea Finn, Sergey Levine | Tags: cs.RO</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Small-scale galaxy clustering is expected to contain substantial cosmological information, but the extent to which this information constrains halo-based cosmologies independent of an assumed galaxy--halo connection remains unclear. We quantify this dependence using LRG-like mock galaxy catalogs built from 81 cosmologies in the {\tt \textsc{AbacusSummit}} suite. We analyze two-point correlation function multipoles on scales ranging from $5$--$80$ Mpc/$h$ and compare two limiting treatments, the \enquote{floor} and \enquote{ceiling}, of the standard five-parameter HOD model. In the conservative floor case, we impose only broad initial HOD bounds and profile over HOD parameters to determine the minimum constraining power available; we accomplish this with {\tt HODmin}, a two-stage global opt</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>Bounded the Effect of HOD Assumptions on Small-Scale Clustering Constraints.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>The most promising results from the study are from the study of the effect on small-scale clustering, which is a questio...</p></section>
+    <section class="full"><h3>Abstract</h3><p>Generalist policies can learn a wide range of skills from diverse robot datasets. In order to solve or improve on challenging news tasks, we need a way to infer and invoke the appropriate actions from the policy's rich behavioral prior, especially when directly commanding the policy fails. We focus on flow matching generalists and propose Flow Reversal Steering (FRS): a method that takes suboptimal but ``reasonable'' actions, finds their latent noises by passing them through the flow policy in reverse, and maps them to nearby generalist action modes. We evaluate FRS across many simulated and real-world manipulation settings. First, FRS can turn coarse semantic guidance from humans or vision-language models (VLMs) into corresponding good robot actions, improving zero-shot control. These gai</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The following information is provided for the purpose of this paper.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>The data, along with the data sets discussed in the previous section, have been used to identify trends in both the fede...</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Using these new techniques to develop a more accurate approach to the road for self-driving cars, and the future of high...</p></section>
   </div>
 </div>
 </main>
 <footer>
   <a href="https://github.com/PranayMahendrakar/arxiv-llm-analyzer">PranayMahendrakar/arxiv-llm-analyzer</a>
-  | Powered by DistilGPT2 (HuggingFace Transformers) | No API keys | 2026-06-11 10:21 UTC
+  | Powered by DistilGPT2 (HuggingFace Transformers) | No API keys | 2026-06-12 10:10 UTC
 </footer>
 </body></html>
