@@ -1,118 +1,113 @@
 [
   {
     "paper": {
-      "title": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
-      "summary": "Large language model (LLM) agents have achieved strong performance on a wide range of benchmarks, yet most evaluations assume static environments. In contrast, real-world deployment is inherently dynamic, requiring agents to continually align their knowledge, skills, and behavior with changing environments and updated task conditions. To address this gap, we introduce EvoArena, a benchmark suite that models environment changes as sequences of progressive updates across terminal, software, and social domains. We further propose EvoMem, a patch-based memory paradigm that records memory evolution as structured update histories, enabling agents to reason about environmental evolution through changes in their memory. Experiments show that current agents struggle on EvoArena, achieving an averag",
+      "title": "The Edges of Planetary Systems: Falling Off the Kuiper Cliff in a Dissipating Gas Disk",
+      "summary": "Probably the last planetesimals to have formed from dust in the solar nebula are Cold Classical Kuiper belt objects (CCKBOs). To the extent that they are isolated and unchanged since birth, CCKBOs offer direct insights into nebular processes. Their population density drops abruptly beyond a heliocentric radius of $\\sim$47 au, a feature known as the \"Kuiper Cliff\". We show with global, 1D (radial), time-dependent models how gaseous protoplanetary disks that disperse from magnetic and photoevaporative winds leave behind planetesimal disks with Cliff-like outer edges. The gas disperses from the inside out, creating transitional disks whose inner cavities expand from $\\lesssim$ 1 au to $\\gtrsim$ 100 au. Gas at the cavity boundary presents a pressure maximum toward which dust particles drift, t",
       "authors": [
-        "Jundong Xu",
-        "Qingchuan Li",
-        "Jiaying Wu",
-        "Yihuai Lan",
-        "Shuyue Stella Li"
+        "Rixin Li",
+        "Eugene Chiang"
       ],
-      "link": "http://arxiv.org/abs/2606.13681v1",
-      "published": "2026-06-11",
+      "link": "http://arxiv.org/abs/2606.14704v1",
+      "published": "2026-06-12",
       "categories": [
-        "cs.CL"
+        "astro-ph.EP"
       ]
     },
     "analysis": {
-      "key_methods": "A group of automated models that were able to analyze and analyze the data in realtime, were used to analyze and analyze...",
-      "datasets": "A very early example of a dynamic environment is a dynamic environment with multiple processes, and I think it is import...",
-      "future_work": "Theoretical, Procedural, and Artificial Intelligence (AI)\nThis paper uses a new paper from the Department of Defense, De..."
+      "key_methods": "The Kuiper Cliff is the best-known water-cooled, and most important water-cooled, and most important water-cooled, and m...",
+      "datasets": "The Edges of Planetary Systems: Falling Off the Kuiper Cliff in a Dissipating Gas Disk.",
+      "future_work": "How to use the same kind of technology for the future."
     }
   },
   {
     "paper": {
-      "title": "Learning to Reason by Analogy via Retrieval-Augmented Reinforcement Fine-Tuning",
-      "summary": "Retrieval-augmented generation (RAG) has become a standard mechanism for grounding language models in external knowledge, yet conventional retrieval based on lexical or semantic similarity is poorly suited for complex reasoning tasks: a semantically similar problem may demand an entirely different solution strategy, while a superficially different problem may share the same underlying reasoning pattern. We propose Retrieval-Augmented Reinforcement Fine-Tuning (RA-RFT), a post-training framework that teaches language models to reason by analogy. RA-RFT uses gold-relevance distillation to train a retriever that ranks contexts by expected reasoning benefit rather than semantic overlap, and then fine-tunes the policy model via reinforcement fine-tuning methods with retrieved analogous demonstr",
+      "title": "Gaze Heads: How VLMs Look at What They Describe",
+      "summary": "How a vision-language model internally solves the task of describing an image is far from obvious. We find that the model develops a specific mechanism for this: a small set of attention heads in its language-model backbone, which we call gaze heads, whose attention tracks the image region the model is currently describing. We find them with a simple correlation score from a few forward passes, using comic strips as a controlled testbed where narrative order is laid out spatially. These gaze heads do not just track the image tokens being described: redirecting their attention to a chosen region forces the VLM to describe that region instead. A single attention-mask intervention on the top-100 gaze heads, fewer than 9% of all heads, steers the model's answer to any chosen comic panel at 83.",
       "authors": [
-        "Zilin Xiao",
-        "Qi Ma",
-        "Chun-cheng Jason Chen",
-        "Xintao Chen",
-        "Avinash Atreya"
+        "Rohit Gandikota",
+        "David Bau"
       ],
-      "link": "http://arxiv.org/abs/2606.13680v1",
-      "published": "2026-06-11",
+      "link": "http://arxiv.org/abs/2606.14703v1",
+      "published": "2026-06-12",
       "categories": [
+        "cs.CV",
         "cs.CL",
-        "cs.AI"
+        "cs.LG"
       ]
     },
     "analysis": {
-      "key_methods": "The basic algorithm of learning is to use a simple, yet fast algorithm to evaluate a set of objects.",
-      "datasets": "There are a lot of examples to be found in this article, but here are some of the most well-known examples:\nI've compile...",
-      "future_work": "Learning to Reason by Analogy."
+      "key_methods": "First-hand, we are not going to use any of the above methods in a single article, but we'll use Gaze Head to determine w...",
+      "datasets": "The first thing to notice about the current design is that we have not made the data set that we have.",
+      "future_work": "A team of researchers from the University of Illinois at Urbana-Champaign designed a three-dimensional model that uses t..."
     }
   },
   {
     "paper": {
-      "title": "InterleaveThinker: Reinforcing Agentic Interleaved Generation",
-      "summary": "Recent image generators have demonstrated impressive photorealism and instruction-following capabilities in single-image generation and editing. However, constrained by their architectures, they cannot achieve interleaved generation (text-image sequence), which has crucial applications in visual narratives, guidance, and embodied manipulation. Even the latest open-source Unified Multimodal Models (UMMs) exhibit limited performance in this regard. In this paper, we introduce InterleaveThinker, the first multi-agent pipeline designed to endow any existing image generator with interleaved generation capabilities. Specifically, we employ a planner agent to organize the image-text input sequence, instructing the image generator on the required execution at each step. Subsequently, we introduce ",
+      "title": "OmniVideo-100K: A Dataset for Audio-Visual Reasoning through Structured Scripts and Evidence Chains",
+      "summary": "Current automated pipelines for audio-visual Question Answering (QA) generally adopt a ``video-caption-QA'' paradigm. However, these methods typically segment videos into short clips and generate separate descriptions for audio and visual modalities. This decoupled processing severs inherent associations between sounds and their visual sources, while independent clip processing often causes inconsistent descriptions of the same entity across segments. Furthermore, coupling long-text comprehension and QA synthesis into a single step often restricts models to localized events, yielding questions lacking long-term temporal connections and deep cross-modal reasoning. To address these issues, we propose an automated data engine featuring two mechanisms: (1) \\textbf{Entity-Anchored Video Scripti",
       "authors": [
-        "Dian Zheng",
-        "Harry Lee",
-        "Manyuan Zhang",
-        "Kaituo Feng",
-        "Zoey Guo"
+        "Xinyue Cai",
+        "Chaoyou Fu",
+        "Yi-Fan Zhang",
+        "Ran He",
+        "Caifeng Shan"
       ],
-      "link": "http://arxiv.org/abs/2606.13679v1",
-      "published": "2026-06-11",
+      "link": "http://arxiv.org/abs/2606.14702v1",
+      "published": "2026-06-12",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "Methods:\n1.",
-      "datasets": ".",
-      "future_work": "The Future of InterleaveThinker\nThe next step for the future of interleave thinker is to find out which way to make the ..."
+      "key_methods": "Reception and Response\nThe following is an excerpt from a paper published in IEEE Transactions on Graphics.",
+      "datasets": "Tutorials:\n- A Dataset for Audio-Visual Reasoning through Structured Scripts and Evidence Chains.",
+      "future_work": "The paper has been applied to several high-frequency audio systems."
     }
   },
   {
     "paper": {
-      "title": "A model of local and global reciprocity",
-      "summary": "We often decide how to treat friends based on observations of their past behavior, whereas actions toward strangers are typically guided by their public reputations. These two kinds of information underlie two classical mechanisms for the evolution of cooperation$\\unicode{x2014}$direct and indirect reciprocity$\\unicode{x2014}$which have largely been studied in isolation. They are not interchangeable: we can recall the past actions of only a small circle of close contacts, whereas for the far larger pool of strangers we must rely on public reputations. Here we develop a mathematical framework built on this distinction. Each individual engages in direct reciprocity in local games within a finite neighborhood of friends, whose actions they observe directly, and in indirect reciprocity in glob",
+      "title": "RATS! Patches Talk Through Registers: Emergent Parts in Register Attention Transformers",
+      "summary": "When humans see a bird, they recognize far more than just \"bird\" -- they see a head, wings, and talons, a structured assembly of reusable parts that can be identified across every bird they have ever seen. We ask whether a self-supervised visual model can discover the same compositional structure on its own. To this end, we propose RATS (Register Attention Transformers), which decomposes the classification token into N learnable register tokens that route patch information through an L->N->N->L bottleneck via a three-step compress-communicate-broadcast attention. The N registers are partitioned across the H attention heads, so that registers assigned to different heads do not interact with each other. Without auxiliary losses or part annotations, each register spontaneously specializes int",
       "authors": [
-        "Mari Kawakatsu",
-        "Yohsuke Murase",
-        "Taylor A. Kessinger",
-        "Joshua B. Plotkin"
+        "Timing Yang",
+        "Predrag Neskovic",
+        "Jansen Seheult",
+        "Wenchao Han",
+        "Anand Bhattad"
       ],
-      "link": "http://arxiv.org/abs/2606.13678v1",
-      "published": "2026-06-11",
+      "link": "http://arxiv.org/abs/2606.14701v1",
+      "published": "2026-06-12",
       "categories": [
-        "physics.soc-ph",
-        "q-bio.PE"
+        "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "Single-digit letters were used.",
-      "datasets": "I have a new book, The Theory of Local and Global reciprocity by John DeFilippo, co-authored by David R.",
-      "future_work": "The theory of reciprocity is discussed below."
+      "key_methods": "[1]\n[2]\n[3]\n[4]\n[5]\n[6]\n[7]\n[8]\n[9]\n[10]\n[11]\n[12]\n[.",
+      "datasets": "Rats:\nRats:\nRats:\nRats:\nRats:\nRats:\nRats:\nRats:\nRats:\nRats:\nRats:\nRats:\nR.",
+      "future_work": "[ edit ]\nAfter several years of research that's been done, I'm finally working on a new project for the RATS library."
     }
   },
   {
     "paper": {
-      "title": "Improving Robotic Generalist Policies via Flow Reversal Steering",
-      "summary": "Generalist policies can learn a wide range of skills from diverse robot datasets. In order to solve or improve on challenging news tasks, we need a way to infer and invoke the appropriate actions from the policy's rich behavioral prior, especially when directly commanding the policy fails. We focus on flow matching generalists and propose Flow Reversal Steering (FRS): a method that takes suboptimal but ``reasonable'' actions, finds their latent noises by passing them through the flow policy in reverse, and maps them to nearby generalist action modes. We evaluate FRS across many simulated and real-world manipulation settings. First, FRS can turn coarse semantic guidance from humans or vision-language models (VLMs) into corresponding good robot actions, improving zero-shot control. These gai",
+      "title": "RepFusion: Leveraging Multimodal Priors for Denoising in Representation Space",
+      "summary": "Large language models (LLMs) are widely used in text-to-image (T2I) systems, but they are typically limited to text encoding, while denoising is handled by newly trained generative backbones. The emergence of representation autoencoders (RAEs) shifts the generation target toward semantically structured visual representations, creating a latent space that is more compatible with pretrained LLM priors. Inspired by multimodal LLMs (MLLMs), where an MLP projector is sufficient to align clean visual representations with a pretrained LLM, we repurpose the MLLM itself as a noisy representation encoder, extending this mechanism from clean to noisy inputs. We present RepFusion, which uses the resulting MLLM outputs as the conditioning signal for a diffusion transformer. In controlled comparisons at",
       "authors": [
-        "Andy Tang",
-        "William Chen",
-        "Andrew Wagenmaker",
-        "Chelsea Finn",
-        "Sergey Levine"
+        "Xichen Pan",
+        "Aashu Singh",
+        "Satya Narayan Shukla",
+        "Xiangjun Fan",
+        "Shlok Kumar Mishra"
       ],
-      "link": "http://arxiv.org/abs/2606.13675v1",
-      "published": "2026-06-11",
+      "link": "http://arxiv.org/abs/2606.14700v1",
+      "published": "2026-06-12",
       "categories": [
-        "cs.RO"
+        "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "We used an algorithm to create a random algorithm.",
-      "datasets": "The current state of the state of the world is in serious doubt, and if we are going to take a position on a policy that...",
-      "future_work": "This paper will be published in the Proceedings of the National Academy of Sciences."
+      "key_methods": ".",
+      "datasets": "Davies:\nDavies:\nDavies:\nDavies:\nDavies:\nDavies:\nDavies:\nDavies:\nDavies:\nDavies:.",
+      "future_work": "Use of the same method to achieve a better global representation of the planet\nLite paper: [PDF]\nAbstract\n\n\n\n\nWe can bui..."
     }
   }
 ]
