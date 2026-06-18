@@ -54,84 +54,90 @@
   <div class="stat"><div class="n">5</div><div class="l">Papers</div></div>
   <div class="stat"><div class="n">distilgpt2</div><div class="l">LLM Model</div></div>
   <div class="stat"><div class="n">large language m</div><div class="l">Query</div></div>
-  <div class="stat"><div class="n">2026-06-17</div><div class="l">Updated UTC</div></div>
+  <div class="stat"><div class="n">2026-06-18</div><div class="l">Updated UTC</div></div>
 </div>
 <main>
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2606.18250v1" target="_blank" rel="noopener">Future Dynamic 3D Reconstruction: A 3D World Model with Disentangled Ego-Motion</a></h2>
-    <span class="meta">Published: 2026-06-16 | Authors: Nils Morbitzer, Jonathan Evers, Artem Savkin, Thomas Stauner, Nassir Navab | Tags: cs.CV</span>
+    <h2><a href="http://arxiv.org/abs/2606.19340v1" target="_blank" rel="noopener">Zero-Shot Long-Horizon Dexterous Manipulation via Multi-View 3D-Grounded VLM Reasoning</a></h2>
+    <span class="meta">Published: 2026-06-17 | Authors: Jisoo Kim, Sangwon Baik, Taeksoo Kim, Sungjoo Kim, Junyoung Lee | Tags: cs.RO</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Forecasting the evolution of dynamic environments is crucial for autonomous agents. While generative world models have recently achieved high photorealism in 2D video synthesis by mixing ego-motion and environmental dynamics within the image plane, they exhibit physical inconsistencies, such as morphing or vanishing objects, especially over long time horizons. In this paper, we propose FR3D, a world model that predicts a persistent 3D latent representation for future dynamic 3D reconstruction. Unlike prior works that treat the world as a sequence of image-based features, FR3D explicitly decouples the 3D evolution of the scene from the agent's trajectory, treating the inferred ego-motion as a latent proxy for action. This disentanglement resolves the ambiguities between self-motion and worl</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The first step was to use a 3D model, which had a 3D model.</p></section>
+    <section class="full"><h3>Abstract</h3><p>We present a zero-shot framework for long-horizon dexterous manipulation that grounds language instructions into executable 3D task plans from calibrated multi-view RGB images. Rather than training an end-to-end policy, our system uses a vision-language model (VLM) to produce reference-frame task grounding and primitive-level 2D keypoints, then lifts them into 3D via multi-view fusion. This lifting combines triangulation of view-wise VLM groundings with reference-view ray voting, which searches along a semantic camera ray for geometrically consistent candidates across neighboring views. The resulting 3D keypoints support both pick-and-place and tool-use: for tool-use, we retrieve an object-centric atomic action corresponding to the inferred skill category and align its stored 6D tool traje</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The following methods have been used to create a single video:
+Video:
+Using a single video, or a single video, you can n...</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>Rack: The first time I saw a computer that was all about human behavior, I thought it would be interesting to see if the...</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-.</p></section>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    <h2><a href="http://arxiv.org/abs/2606.19341v1" target="_blank" rel="noopener">Native Active Perception as Reasoning for Omni-Modal Understanding</a></h2>
+    <span class="meta">Published: 2026-06-17 | Authors: Zhenghao Xing, Ruiyang Xu, Yuxuan Wang, Jinzheng He, Ziyang Ma | Tags: cs.CV, cs.CL, cs.SD</span>
+  </div>
+  <div class="card-body">
+    <section class="full"><h3>Abstract</h3><p>Passive models for long video understanding typically rely on a "watch-it-all" paradigm, processing frames uniformly regardless of query difficulty, causing computational cost to grow with video duration. Although interactive frameworks have emerged, they often rely on global pre-scanning, and their context cost still scales with video length. We propose OmniAgent, the first native omni-modal agent that formulates video understanding as a POMDP-based iterative Observation-Thought-Action cycle. OmniAgent executes on-demand actions to selectively distill audio-visual cues into a persistent textual memory, effectively decoupling reasoning complexity from raw video duration. To operationalize this, we introduce (1) Agentic Supervised Fine-Tuning to bootstrap native active perception via best-o</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>The paper on this paper is co-authored by M.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Cognitive enhancement and cognitive enhancement.</p></section>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    <h2><a href="http://arxiv.org/abs/2606.19338v1" target="_blank" rel="noopener">Beyond the Current Observation: Evaluating Multimodal Large Language Models in Controllable Non-Markov Games</a></h2>
+    <span class="meta">Published: 2026-06-17 | Authors: Shengyuan Ding, Xilin Wei, Xinyu Fang, Haodong Duan, Dahua Lin | Tags: cs.CV</span>
+  </div>
+  <div class="card-body">
+    <section class="full"><h3>Abstract</h3><p>Deploying multimodal foundation models as closed-loop policies increasingly requires conditioning actions on observations that are no longer visible. However, existing benchmarks either expose the full state, conflate hidden-state reconstruction with other agent skills, or test recall only after an episode has ended. We introduce RNG-Bench (Reconstructive Non-Markov Games), a benchmark suite designed to isolate a base model's ability to reconstruct past observations and act on them during multi-step interaction. RNG-Bench includes two complementary games: Matching Pairs, where card identities briefly revealed at specific locations must later be recalled, and 3D Maze, where egocentric views must be integrated into a spatial map. Both games are evaluated under a unified harness with three co</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>.</p></section>
     <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>A 3D World Model with Disentangled Ego-Motion.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Using data from the MPSC and the MPSC, researchers from the University of British Columbia can begin studying the spatia...</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2606.18249v1" target="_blank" rel="noopener">Unified Multimodal Autoregressive Modeling with Shared Context-Visual Tokenizer is Key to Unification</a></h2>
-    <span class="meta">Published: 2026-06-16 | Authors: Wujian Peng, Lingchen Meng, Yuxuan Cai, Xianwei Zhuang, Yuhuan Yang | Tags: cs.CV</span>
+    <h2><a href="http://arxiv.org/abs/2606.19337v1" target="_blank" rel="noopener">Constraints on Cosmic Strings from the Curl-Mode CMB Lensing Power Spectrum measured by ACT DR6</a></h2>
+    <span class="meta">Published: 2026-06-17 | Authors: A. I. Lonappan, K. Ramesh, T. Namikawa, F. J. Qu, B. Keating | Tags: astro-ph.CO, gr-qc, hep-ph</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Unified Multimodal Modeling aims to integrate visual understanding and generation within a single system. However, existing approaches typically rely on two disparate visual tokenizers, which splits the representation space and hinders truly unified modeling. We propose UniAR, a unified autoregressive framework where a single discrete visual tokenizer serves as the key bridge between understanding and generation, enabling a shared context in which the model can directly interpret its own generated visual tokens without additional re-encoding. UniAR adapts a pretrained vision encoder with multi-level feature fusion and a lookup-free bitwise quantization scheme, preserving both high-level semantics and low-level details while scaling the effective visual vocabulary at minimal cost. Building </p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>Signed:
-PNG
-
-
-
-
-A summary of the following principles are used to define and implement Unified Multimodal Autoregressive...</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>1.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Using a new class of multimodal automata to visualize multimodal autoregressive models, this paper aims to present a new...</p></section>
+    <section class="full"><h3>Abstract</h3><p>A network of cosmic strings is one of the few well-motivated cosmological sources of vector and tensor metric perturbations on the largest observable scales. Such perturbations imprint a characteristic curl component in the deflection angle of cosmic microwave background (CMB) photons that, unlike the scalar lensing potential, vanishes for adiabatic density fluctuations at linear order. We exploit the curl-mode lensing reconstruction released as part of the Atacama Cosmology Telescope (ACT) Data Release~6 (DR6), based on five seasons of temperature and polarization data covering $9400~\mathrm{deg}^2$ of sky, to set new constraints on the dimensionless string tension $Gμ$ and the inter-commutation (reconnection) probability $P$. Modelling the string-induced curl power spectrum within the ve</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The data were collected from the FIMC (National Institute of Standards and Technology) Office for Science and Technology...</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>In the future, the ability of the CMB Lensing Power Spectrum to detect cosmic wind, solar and cosmic radiation from spac...</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2606.18246v1" target="_blank" rel="noopener">Variable-Width Transformers</a></h2>
-    <span class="meta">Published: 2026-06-16 | Authors: Zhaofeng Wu, Oliver Sieberling, Shawn Tan, Rameswar Panda, Yury Polyanskiy | Tags: cs.CL</span>
+    <h2><a href="http://arxiv.org/abs/2606.19336v1" target="_blank" rel="noopener">Learning User Simulators with Turing Rewards</a></h2>
+    <span class="meta">Published: 2026-06-17 | Authors: Yingshan Susan Wang, Cedegao E. Zhang, Linlu Qiu, Zexue He, Pengyuan Li | Tags: cs.CL</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Scaling model size, specifically depth and width, has driven significant progress in transformer-based language models. However, most architectures maintain a constant width across all layers, allocating a fixed parameter and computation budget evenly despite different layers potentially playing distinct computational roles. In this work, we empirically investigate nonuniform capacity allocation across network depth by proposing a $\times$-shaped > <former architecture. This design maintains wider early and late layers while narrowing the middle layers, utilizing a parameter-free residual resizing mechanism. Across decoder-only language models ranging from 200M to 2B parameters (dense) and 3B parameters (MoE), our > <former consistently outperforms parameter-matched uniform baselines on la</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>1.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>The following is a look at the data, and will be updated with more information on it.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Transforming Transformers to a Multi-Scale Transformers
-This post is about the original Transformers: Transformers serie...</p></section>
-  </div>
-</div>
-
-<div class="card">
-  <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2606.18244v1" target="_blank" rel="noopener">PAHSPECS: Spatially Resolved PAH Spectroscopy at cosmic noon with JWST MIRI MRS</a></h2>
-    <span class="meta">Published: 2026-06-16 | Authors: Fergus R. Donnan, Karin Sandstrom, Irene Shivaei, Leindert A. Boogaard, Tanio Díaz-Santos | Tags: astro-ph.GA</span>
-  </div>
-  <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>We present spatially resolved spectroscopy with JWST/MIRI MRS of a representative sample of normal star-forming galaxies at $z\sim1.1$ as part of the PAHSPECS program. To extract emission from Polycyclic Aromatic Hydrocarbon (PAH) features, we forward model the data cubes with non-parametric spatial distributions, accounting for convolution with the PSF. With this method we are able to recover accurate spatial profiles of the 3.3 $μ$m, 6.2 $μ$m, 7.7 $μ$m, 11.3 $μ$m PAHs and [ArII] (6.98 $μ$m) emission and produce PAH ratio maps at cosmic noon. From the PAH ratio maps we find that PAHs become larger and more neutral with increasing galactocentric radius, which is the opposite of trends in local galaxies, indicating radial ISM gradients in normal star-forming galaxies are different at cosmic</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>We used a spectral-based spectroscopy method for spectroscopy of the ionized carbon isotope (IHST) spectra of the cosmic...</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>The spectroscopy data is used to reconstruct the spectral patterns of the spectral patterns of the stars.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Next steps:
-*The paper will be presented at the September 25 (3:30 PM PST) Astrophysical Journal Letters (AJL/JLW) at th...</p></section>
-  </div>
-</div>
-
-<div class="card">
-  <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2606.18243v1" target="_blank" rel="noopener">MOCHI: Motion Enhancement of Collaborative Human-object Interactions</a></h2>
-    <span class="meta">Published: 2026-06-16 | Authors: Jiye Lee, Yonghun Choi, Jungdam Won | Tags: cs.CV, cs.GR, cs.RO</span>
-  </div>
-  <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Collaborative human-object interaction shows dynamic and complex movements that require mutual anticipation and continuous adjustment between participants and the shared object. Modeling such collaborative multi-human object interaction (MHOI) scenarios requires high-quality data acquisition as a foundational step; however, this is challenging due to the inherent complexity of MHOI where human-human and human-object interactions occur simultaneously. Such complexity leads to noisy MHOI captures characterized by several artifacts: contact misalignment between hands and objects, motion jitter and temporal inconsistencies in the captured sequences, and missing or incomplete finger-level articulation details. To address these challenges, we present MOCHI (MOtion Enhancement of Collaborative Hu</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The goal is to create the first step of a multidisciplinary collaborative effort to develop a collaborative human-object...</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>http://en.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>This paper explores the feasibility of using an electronic communication system (EMI) to enhance human-object interactio...</p></section>
+    <section class="full"><h3>Abstract</h3><p>Learning to simulate human users in interactive settings could advance the training of agent assistants, evaluation of personalization systems, research in the social sciences, and more. Existing approaches generally do so by training a large language model (LLM) to match a single ground truth response, either by maximizing the log probability or by using a similarity reward. We instead propose {Turing-RL}: a Turing-Test-based reinforcement learning approach for training user simulator models. {Turing-RL} uses a discriminative Turing reward with an LLM judge to score how indistinguishable a generated response is from the real user's given the user's history, and the user simulator LLM learns to produce responses indistinguishable from what the user could have said with such rewards. Across</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>This paper was presented on February 27, 2017 in the Proceedings of the National Academy of Sciences.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>Datasets used by the Turing Task Force included:
+A "F" (F) (M) (N) (N) (N) (N) (N) (N) (N) (N) (N).</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Creating a Turing Test-based Turing Test-based Turing Test-based Turing Test-based Turing Test-based Turing Test-based T...</p></section>
   </div>
 </div>
 </main>
 <footer>
   <a href="https://github.com/PranayMahendrakar/arxiv-llm-analyzer">PranayMahendrakar/arxiv-llm-analyzer</a>
-  | Powered by DistilGPT2 (HuggingFace Transformers) | No API keys | 2026-06-17 10:53 UTC
+  | Powered by DistilGPT2 (HuggingFace Transformers) | No API keys | 2026-06-18 10:19 UTC
 </footer>
 </body></html>
