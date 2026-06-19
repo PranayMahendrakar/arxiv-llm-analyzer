@@ -1,121 +1,115 @@
 [
   {
     "paper": {
-      "title": "Zero-Shot Long-Horizon Dexterous Manipulation via Multi-View 3D-Grounded VLM Reasoning",
-      "summary": "We present a zero-shot framework for long-horizon dexterous manipulation that grounds language instructions into executable 3D task plans from calibrated multi-view RGB images. Rather than training an end-to-end policy, our system uses a vision-language model (VLM) to produce reference-frame task grounding and primitive-level 2D keypoints, then lifts them into 3D via multi-view fusion. This lifting combines triangulation of view-wise VLM groundings with reference-view ray voting, which searches along a semantic camera ray for geometrically consistent candidates across neighboring views. The resulting 3D keypoints support both pick-and-place and tool-use: for tool-use, we retrieve an object-centric atomic action corresponding to the inferred skill category and align its stored 6D tool traje",
+      "title": "MemoryWAM: Efficient World Action Modeling with Persistent Memory",
+      "summary": "Robust robotic manipulation in the real world requires not only an understanding of the current observation, but also memory and dynamics modeling. World action models (WAMs) possess these capabilities by jointly modeling visual foresight and actions conditioned on both current and historical observations, making them a promising paradigm for robotic manipulation. However, existing WAMs face a fundamental trade-off: methods with efficient inference typically condition only on a bounded window of recent observations and therefore struggle in non-Markovian environments, whereas methods that preserve long histories incur time and space costs that grow substantially with sequence length. To address this challenge, we introduce MemoryWAM, a world action model with efficient persistent memory. M",
       "authors": [
-        "Jisoo Kim",
-        "Sangwon Baik",
-        "Taeksoo Kim",
-        "Sungjoo Kim",
-        "Junyoung Lee"
+        "Sizhe Yang",
+        "Juncheng Mu",
+        "Tianming Wei",
+        "Chenhao Lu",
+        "Xiaofan Li"
       ],
-      "link": "http://arxiv.org/abs/2606.19340v1",
-      "published": "2026-06-17",
+      "link": "http://arxiv.org/abs/2606.20562v1",
+      "published": "2026-06-18",
       "categories": [
         "cs.RO"
       ]
     },
     "analysis": {
-      "key_methods": "The following methods have been used to create a single video:\nVideo:\nUsing a single video, or a single video, you can n...",
-      "datasets": "Rack: The first time I saw a computer that was all about human behavior, I thought it would be interesting to see if the...",
-      "future_work": "-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-."
+      "key_methods": "The model is based on the following data on the following variables:\nData: Persistent Memory(x, y)\nResults:\nThis dataset...",
+      "datasets": ".",
+      "future_work": "Optimizing MemoryWAM without using Persistent Memory."
     }
   },
   {
     "paper": {
-      "title": "Native Active Perception as Reasoning for Omni-Modal Understanding",
-      "summary": "Passive models for long video understanding typically rely on a \"watch-it-all\" paradigm, processing frames uniformly regardless of query difficulty, causing computational cost to grow with video duration. Although interactive frameworks have emerged, they often rely on global pre-scanning, and their context cost still scales with video length. We propose OmniAgent, the first native omni-modal agent that formulates video understanding as a POMDP-based iterative Observation-Thought-Action cycle. OmniAgent executes on-demand actions to selectively distill audio-visual cues into a persistent textual memory, effectively decoupling reasoning complexity from raw video duration. To operationalize this, we introduce (1) Agentic Supervised Fine-Tuning to bootstrap native active perception via best-o",
+      "title": "TimeProVe: Propose, then Verify for Efficient Long Video Temporal Reasoning in Activities of Daily Living",
+      "summary": "Long Video Question Answering (LVQA) requires identifying sparse, query-relevant evidence within hours-long untrimmed videos. Existing approaches either process videos densely with large vision-language models (VLMs), incurring prohibitive computational cost, or rely on sparse caption-based reasoning, which often misses temporally localized and motion-centric evidence. We introduce TimeProVe, a cost-efficient hybrid framework for temporally grounded reasoning in long videos. TimeProVe first employs lightweight modules to generate action-grounded answer--evidence hypotheses and subsequently invokes an expensive VLM only for targeted verification. The core of our framework lies in the Action-based Candidate Evidence (ACE) module, which converts temporally localized actions into query-conditi",
       "authors": [
-        "Zhenghao Xing",
-        "Ruiyang Xu",
-        "Yuxuan Wang",
-        "Jinzheng He",
-        "Ziyang Ma"
+        "Arkaprava Sinha",
+        "Dominick Reilly",
+        "Siddharth Krishnan",
+        "Hieu Le",
+        "Srijan Das"
       ],
-      "link": "http://arxiv.org/abs/2606.19341v1",
-      "published": "2026-06-17",
-      "categories": [
-        "cs.CV",
-        "cs.CL",
-        "cs.SD"
-      ]
-    },
-    "analysis": {
-      "key_methods": ".",
-      "datasets": "The paper on this paper is co-authored by M.",
-      "future_work": "Cognitive enhancement and cognitive enhancement."
-    }
-  },
-  {
-    "paper": {
-      "title": "Beyond the Current Observation: Evaluating Multimodal Large Language Models in Controllable Non-Markov Games",
-      "summary": "Deploying multimodal foundation models as closed-loop policies increasingly requires conditioning actions on observations that are no longer visible. However, existing benchmarks either expose the full state, conflate hidden-state reconstruction with other agent skills, or test recall only after an episode has ended. We introduce RNG-Bench (Reconstructive Non-Markov Games), a benchmark suite designed to isolate a base model's ability to reconstruct past observations and act on them during multi-step interaction. RNG-Bench includes two complementary games: Matching Pairs, where card identities briefly revealed at specific locations must later be recalled, and 3D Maze, where egocentric views must be integrated into a spatial map. Both games are evaluated under a unified harness with three co",
-      "authors": [
-        "Shengyuan Ding",
-        "Xilin Wei",
-        "Xinyu Fang",
-        "Haodong Duan",
-        "Dahua Lin"
-      ],
-      "link": "http://arxiv.org/abs/2606.19338v1",
-      "published": "2026-06-17",
+      "link": "http://arxiv.org/abs/2606.20561v1",
+      "published": "2026-06-18",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
+      "key_methods": "Study design:\nStudy design:\nStudy design:\nStudy design:\nStudy design:\nStudy design:\nStudy design:\nStudy design:\nStudy de...",
+      "datasets": "The most common way to make sense of a video is to consider what happened to the last three days of your daily life as a...",
+      "future_work": "Siemens, J."
+    }
+  },
+  {
+    "paper": {
+      "title": "How Transparent is DiffusionGemma?",
+      "summary": "LLM reasoning transparency is a critical affordance for understanding model decisions, mitigating misuse and misalignment, and debugging surprising model behaviors. However, DiffusionGemma performs a larger fraction of its computation in a continuous latent space; does this make its reasoning less transparent? We study this question by decomposing transparency into two components: variable transparency, whether we understand intermediate snapshots of a model's computational state; and algorithmic transparency, whether we can use these snapshots to reconstruct the process by which the model arrived at its outputs. Naively, DiffusionGemma has poor variable transparency: its opaque serial depth, the amount of serial computation that occurs in between interpretable model states, seems at first",
+      "authors": [
+        "Joshua Engels",
+        "Callum McDougall",
+        "Bilal Chughtai",
+        "Janos Kramar",
+        "Senthoran Rajamanoharan"
+      ],
+      "link": "http://arxiv.org/abs/2606.20560v1",
+      "published": "2026-06-18",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ]
+    },
+    "analysis": {
+      "key_methods": "Using a software program,\nusing a distributed version control system\nusing a distributed version control system (CVS)\nBy...",
+      "datasets": ".",
+      "future_work": "I‪ve been working around designing a transparent system, but I don‪t know any better."
+    }
+  },
+  {
+    "paper": {
+      "title": "UNIEGO: Proxies as Mediators for Unified Egocentric Video Representation Learning",
+      "summary": "Egocentric video understanding is inherently limited by the narrow perspective of wearable cameras: a single viewpoint, a single modality, a single model cannot capture the full richness of human action. We argue that a truly expressive egocentric representation must subsume complementary knowledge across viewpoints, modalities, and foundation model representations, yet remain deployable from egocentric video alone. To this end, we introduce a hierarchical multi-teacher distillation framework that produces UNIEGO, a unified egocentric encoder trained with nine teachers spanning ego-exo viewpoints, RGB, depth, and skeleton modalities, and four foundation models. Rather than distilling directly from heterogeneous teachers whose incompatible architectures and feature geometries induce conflic",
+      "authors": [
+        "Wenhao Chi",
+        "Arkaprava Sinha",
+        "Dominick Reilly",
+        "Hieu Le",
+        "Srijan Das"
+      ],
+      "link": "http://arxiv.org/abs/2606.20559v1",
+      "published": "2026-06-18",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ]
+    },
+    "analysis": {
       "key_methods": ".",
-      "datasets": ".",
-      "future_work": "Using data from the MPSC and the MPSC, researchers from the University of British Columbia can begin studying the spatia..."
+      "datasets": "We recently published a paper in the journal Nature that demonstrates how the use of the term \"median\" can be used in th...",
+      "future_work": "A few years ago, I ran a simple-looking interactive video that showed that there is a very well-known relationship betwe..."
     }
   },
   {
     "paper": {
-      "title": "Constraints on Cosmic Strings from the Curl-Mode CMB Lensing Power Spectrum measured by ACT DR6",
-      "summary": "A network of cosmic strings is one of the few well-motivated cosmological sources of vector and tensor metric perturbations on the largest observable scales. Such perturbations imprint a characteristic curl component in the deflection angle of cosmic microwave background (CMB) photons that, unlike the scalar lensing potential, vanishes for adiabatic density fluctuations at linear order. We exploit the curl-mode lensing reconstruction released as part of the Atacama Cosmology Telescope (ACT) Data Release~6 (DR6), based on five seasons of temperature and polarization data covering $9400~\\mathrm{deg}^2$ of sky, to set new constraints on the dimensionless string tension $Gμ$ and the inter-commutation (reconnection) probability $P$. Modelling the string-induced curl power spectrum within the ve",
+      "title": "Observation of electroweak production of pairs of Z bosons in proton-proton collisions at 13 TeV",
+      "summary": "The first evidence of electroweak (EW) production of pairs of Z bosons in association with two jets (jj) in the final state ZZjj $\\to$ $\\ell\\ellνν$jj, where $\\ell$ = e, $μ$, is reported by the CMS experiment. The analysis is based on a data sample of proton-proton (pp) collisions at $\\sqrt{s}$ = 13 TeV, corresponding to an integrated luminosity of 138 fb$^{-1}$. Events are selected by requiring exactly two leptons of same flavor and opposite charge, large missing transverse momentum, and two jets with a large rapidity separation and large invariant mass. The EW production cross section in a fiducial volume is $σ_{\\mathrm{EW}}$(pp $\\to$ ZZjj $\\to$ $\\ell\\ellνν$jj) = 0.37$^{+0.14}_{-0.12}$ (stat)$^{+0.06}_{-0.06}$ (syst) fb, in agreement with the standard model prediction of 0.39 $\\pm$ 0.06 f",
       "authors": [
-        "A. I. Lonappan",
-        "K. Ramesh",
-        "T. Namikawa",
-        "F. J. Qu",
-        "B. Keating"
+        " CMS Collaboration"
       ],
-      "link": "http://arxiv.org/abs/2606.19337v1",
-      "published": "2026-06-17",
+      "link": "http://arxiv.org/abs/2606.20558v1",
+      "published": "2026-06-18",
       "categories": [
-        "astro-ph.CO",
-        "gr-qc",
-        "hep-ph"
+        "hep-ex"
       ]
     },
     "analysis": {
-      "key_methods": "The data were collected from the FIMC (National Institute of Standards and Technology) Office for Science and Technology...",
-      "datasets": ".",
-      "future_work": "In the future, the ability of the CMB Lensing Power Spectrum to detect cosmic wind, solar and cosmic radiation from spac..."
-    }
-  },
-  {
-    "paper": {
-      "title": "Learning User Simulators with Turing Rewards",
-      "summary": "Learning to simulate human users in interactive settings could advance the training of agent assistants, evaluation of personalization systems, research in the social sciences, and more. Existing approaches generally do so by training a large language model (LLM) to match a single ground truth response, either by maximizing the log probability or by using a similarity reward. We instead propose {Turing-RL}: a Turing-Test-based reinforcement learning approach for training user simulator models. {Turing-RL} uses a discriminative Turing reward with an LLM judge to score how indistinguishable a generated response is from the real user's given the user's history, and the user simulator LLM learns to produce responses indistinguishable from what the user could have said with such rewards. Across",
-      "authors": [
-        "Yingshan Susan Wang",
-        "Cedegao E. Zhang",
-        "Linlu Qiu",
-        "Zexue He",
-        "Pengyuan Li"
-      ],
-      "link": "http://arxiv.org/abs/2606.19336v1",
-      "published": "2026-06-17",
-      "categories": [
-        "cs.CL"
-      ]
-    },
-    "analysis": {
-      "key_methods": "This paper was presented on February 27, 2017 in the Proceedings of the National Academy of Sciences.",
-      "datasets": "Datasets used by the Turing Task Force included:\nA \"F\" (F) (M) (N) (N) (N) (N) (N) (N) (N) (N) (N).",
-      "future_work": "Creating a Turing Test-based Turing Test-based Turing Test-based Turing Test-based Turing Test-based Turing Test-based T..."
+      "key_methods": ".",
+      "datasets": "An early study of the strength of Z bosons in proton collisions showed that the strength of Z bosons in proton collision...",
+      "future_work": "Theoretical, experimental and practical applications of this approach to the quantum mechanical and the quantum mechanic..."
     }
   }
 ]
