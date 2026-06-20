@@ -17,9 +17,9 @@
       ]
     },
     "analysis": {
-      "key_methods": "The model is based on the following data on the following variables:\nData: Persistent Memory(x, y)\nResults:\nThis dataset...",
-      "datasets": ".",
-      "future_work": "Optimizing MemoryWAM without using Persistent Memory."
+      "key_methods": "The first step of the model is to generate a subset of the information needed to generate a subset of the information ne...",
+      "datasets": "The problem with the LDAB is that it takes a lot of memory to store a whole array of data, but each number of bytes will...",
+      "future_work": "Using Persistent Memory."
     }
   },
   {
@@ -40,9 +40,9 @@
       ]
     },
     "analysis": {
-      "key_methods": "Study design:\nStudy design:\nStudy design:\nStudy design:\nStudy design:\nStudy design:\nStudy design:\nStudy design:\nStudy de...",
-      "datasets": "The most common way to make sense of a video is to consider what happened to the last three days of your daily life as a...",
-      "future_work": "Siemens, J."
+      "key_methods": "Figure 1.",
+      "datasets": "Efficient Video Temporal Reasoning in Activities of Daily Living.",
+      "future_work": "We present a paper on the implementation of the TimeProve approach which uses the time-prove approach."
     }
   },
   {
@@ -64,9 +64,9 @@
       ]
     },
     "analysis": {
-      "key_methods": "Using a software program,\nusing a distributed version control system\nusing a distributed version control system (CVS)\nBy...",
-      "datasets": ".",
-      "future_work": "I‪ve been working around designing a transparent system, but I don‪t know any better."
+      "key_methods": "1) TKD (TKD: 15) TKD: 15) TKD: 15) TKD: 15) TKD: 15) TKD: 15) TKD: 15) T.",
+      "datasets": "The following are the examples of the results:\nA simple example of our approach in our case is our simple method to conv...",
+      "future_work": "How to Reverse Color and Color in the Digital Color of Color."
     }
   },
   {
@@ -89,8 +89,8 @@
     },
     "analysis": {
       "key_methods": ".",
-      "datasets": "We recently published a paper in the journal Nature that demonstrates how the use of the term \"median\" can be used in th...",
-      "future_work": "A few years ago, I ran a simple-looking interactive video that showed that there is a very well-known relationship betwe..."
+      "datasets": "Sydney: The only group of people with the ability to understand video, and therefore can use this to train in the next g...",
+      "future_work": "Globalizing Information and Media in the Digital Age."
     }
   },
   {
@@ -108,8 +108,8 @@
     },
     "analysis": {
       "key_methods": ".",
-      "datasets": "An early study of the strength of Z bosons in proton collisions showed that the strength of Z bosons in proton collision...",
-      "future_work": "Theoretical, experimental and practical applications of this approach to the quantum mechanical and the quantum mechanic..."
+      "datasets": "A:\nA:\nA:\nA:\nA:\nA:\nA:\nB:\nA:\nB:\nB:\nC:\nA:\nC:\nA:\nD:\nB.",
+      "future_work": "The analysis of the two states of the electron-inhibiting electron-inhibiting electron-inhibiting electron-inhibiting el..."
     }
   }
 ]
