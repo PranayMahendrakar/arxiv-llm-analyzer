@@ -1,115 +1,118 @@
 [
   {
     "paper": {
-      "title": "MemoryWAM: Efficient World Action Modeling with Persistent Memory",
-      "summary": "Robust robotic manipulation in the real world requires not only an understanding of the current observation, but also memory and dynamics modeling. World action models (WAMs) possess these capabilities by jointly modeling visual foresight and actions conditioned on both current and historical observations, making them a promising paradigm for robotic manipulation. However, existing WAMs face a fundamental trade-off: methods with efficient inference typically condition only on a bounded window of recent observations and therefore struggle in non-Markovian environments, whereas methods that preserve long histories incur time and space costs that grow substantially with sequence length. To address this challenge, we introduce MemoryWAM, a world action model with efficient persistent memory. M",
+      "title": "Lift4D: Harmonizing Single-View 3D Estimation for 4D Reconstruction In-the-Wild",
+      "summary": "Reconstructing dynamic non-rigid objects from monocular video requires integrating visual cues from direct observations with data-driven priors over geometry and appearance. Prior approaches either learn to directly predict 4D representations from visual input or initialize a 3D representation that is subsequently deformed and refined based on video evidence. However, the former are constrained by the scarcity of 4D training data, while the latter leverage priors only for the initial reconstruction and rely solely on video supervision thereafter; neither handles complex in-the-wild scenarios with large deformations and occlusions well. We present Lift4D, a test-time optimization framework that addresses both limitations. First, we adapt an existing single-view 3D reconstruction model to yi",
       "authors": [
-        "Sizhe Yang",
-        "Juncheng Mu",
-        "Tianming Wei",
-        "Chenhao Lu",
-        "Xiaofan Li"
+        "Yehonathan Litman",
+        "Xiaoxuan Ma",
+        "Manan Shah",
+        "Nicolas Ugrinovic",
+        "Kris Kitani"
       ],
-      "link": "http://arxiv.org/abs/2606.20562v1",
-      "published": "2026-06-18",
+      "link": "http://arxiv.org/abs/2606.23688v1",
+      "published": "2026-06-22",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The four-dimensional spatial analysis of a single-view 3D reconstruction was performed using the two-dimensional spatial...",
+      "datasets": "Data:\nData:\nRotation: 1,2,3,4\nData:\nRotation: 3,2,3,4,4\nData:\nData:\nRotation: 3,2,3,4.",
+      "future_work": "Using a 3D model of the 3D model, we can create a 3D model of the 3D model."
+    }
+  },
+  {
+    "paper": {
+      "title": "Randomized YaRN Improves Length Generalization for Long-Context Reasoning",
+      "summary": "Large language models (LLMs) are typically pretrained on short sequences and then extended to work on longer sequences with additional training. However, such LLMs still struggle to further generalize to very long sequences. We propose Randomized YaRN, a training method that improves length generalization by combining YaRN-based positional extrapolation with randomized positional encoding and a length curriculum. During training on short context data, tokens are assigned YaRN positional encodings sampled from a larger position range, exposing the model to out-of-distribution positional representations even on short-context inputs. We evaluate Randomized YaRN on two challenging long-context reasoning benchmarks, BABILong and Multi-Round Coreference Resolution (MRCR). When training on data w",
+      "authors": [
+        "Manas Mehta",
+        "Fangcong Yin",
+        "Greg Durrett"
+      ],
+      "link": "http://arxiv.org/abs/2606.23687v1",
+      "published": "2026-06-22",
+      "categories": [
+        "cs.CL"
+      ]
+    },
+    "analysis": {
+      "key_methods": ".",
+      "datasets": "The most recent study (http://www.",
+      "future_work": "For all the work that I've done, we need to make a major mistake."
+    }
+  },
+  {
+    "paper": {
+      "title": "LIBERO-Safety: A Comprehensive Benchmark for Physical and Semantic Safety in Vision-Language-Action Models",
+      "summary": "Despite the impressive manipulation capabilities of Vision-Language-Action (VLA) models, their operational safety under strict constraints remains largely unverified. To address this, we introduce a parametric safety benchmark to procedurally generate safety-critical scenarios with comprehensive stochasticity. To overcome the scalability bottlenecks of human teleoperation, we develop a novel keypose-driven data generation pipeline. Leveraging this infrastructure, we curate a large-scale dataset of 19,664 strictly collision-free demonstrations with extensive domain randomization. We then conduct a systematic cross-paradigm evaluation of eight VLA and two embodied foundation models. Our analysis reveals a critical generalization-safety tension: although high-diversity training fosters safer ",
+      "authors": [
+        "Rongxu Cui",
+        "Zongzheng Zhang",
+        "Jingrui Pang",
+        "Haohan Chi",
+        "Jinbang Guo"
+      ],
+      "link": "http://arxiv.org/abs/2606.23686v1",
+      "published": "2026-06-22",
       "categories": [
         "cs.RO"
       ]
     },
     "analysis": {
       "key_methods": ".",
-      "datasets": "Data structures\nThe first of the three Datasets, which was started by the C++ codebase, was created by the C++ compiler.",
-      "future_work": "How memory models in the real world are implemented in the real world by a team of researchers."
+      "datasets": "The purpose of the paper is to provide a basic summary of the key criteria for evaluating safety in vision-language-acti...",
+      "future_work": "."
     }
   },
   {
     "paper": {
-      "title": "TimeProVe: Propose, then Verify for Efficient Long Video Temporal Reasoning in Activities of Daily Living",
-      "summary": "Long Video Question Answering (LVQA) requires identifying sparse, query-relevant evidence within hours-long untrimmed videos. Existing approaches either process videos densely with large vision-language models (VLMs), incurring prohibitive computational cost, or rely on sparse caption-based reasoning, which often misses temporally localized and motion-centric evidence. We introduce TimeProVe, a cost-efficient hybrid framework for temporally grounded reasoning in long videos. TimeProVe first employs lightweight modules to generate action-grounded answer--evidence hypotheses and subsequently invokes an expensive VLM only for targeted verification. The core of our framework lies in the Action-based Candidate Evidence (ACE) module, which converts temporally localized actions into query-conditi",
+      "title": "LaST-HD: Learning Latent Physical Reasoning from Scalable Human Data for Robot Manipulation",
+      "summary": "Human-hand demonstrations provide a direct and scalable source of physical interaction data for robot learning. While manual retargeting is indispensable for establishing kinematic action correspondence across different morphologies, robust transfer requires going beyond geometry to address the underlying alignment of physical dynamics between human and robot manipulation. To address this, we introduce LaST-HD, a novel human-to-robot action learning paradigm that extends reasoning-before-acting VLA by aligning human-hand and robot demonstrations in a shared latent reasoning space. Rather than mimicking human kinematics, LaST-HD trains an auxiliary action-conditioned world model on unpaired human-hand and robot trajectories to synthesize unified latent targets. After aligning cross-embodime",
       "authors": [
-        "Arkaprava Sinha",
-        "Dominick Reilly",
-        "Siddharth Krishnan",
-        "Hieu Le",
-        "Srijan Das"
+        "Jiaming Liu",
+        "Yinxi Wang",
+        "Chenyang Gu",
+        "Siyuan Qian",
+        "Xiangju Mi"
       ],
-      "link": "http://arxiv.org/abs/2606.20561v1",
-      "published": "2026-06-18",
+      "link": "http://arxiv.org/abs/2606.23685v1",
+      "published": "2026-06-22",
       "categories": [
-        "cs.CV"
+        "cs.RO"
       ]
     },
     "analysis": {
       "key_methods": ".",
-      "datasets": "Bacteria: A single bacterium is an essential component of the microbiome.",
-      "future_work": "A number of papers have linked the duration of video sessions to how long-term work can be completed."
+      "datasets": "-Rocables:\n-Rocables:\n-Rocables:\n-Rocables:\n-Rocables:\n-Rocables:\n-Rocables:\n-Rocables:\n-.",
+      "future_work": "What can we expect from LISP-based machine learning?\nAbstract: LISP-based machine learning is a very powerful and import..."
     }
   },
   {
     "paper": {
-      "title": "How Transparent is DiffusionGemma?",
-      "summary": "LLM reasoning transparency is a critical affordance for understanding model decisions, mitigating misuse and misalignment, and debugging surprising model behaviors. However, DiffusionGemma performs a larger fraction of its computation in a continuous latent space; does this make its reasoning less transparent? We study this question by decomposing transparency into two components: variable transparency, whether we understand intermediate snapshots of a model's computational state; and algorithmic transparency, whether we can use these snapshots to reconstruct the process by which the model arrived at its outputs. Naively, DiffusionGemma has poor variable transparency: its opaque serial depth, the amount of serial computation that occurs in between interpretable model states, seems at first",
+      "title": "Emergent Andreev Reflection from a Lattice Duality Defect",
+      "summary": "Andreev reflection converts an incoming fermion into an outgoing hole and is usually tied to a superconducting interface. We show that an analogous charge-conjugating boundary condition emerges from a purely lattice duality defect. Starting from a Majorana representation of the transverse-field Ising chain, we construct a folded lattice model in which a boundary Majorana impurity implements a one-site translation of a staggered Majorana chain. In the continuum, this translation becomes a chiral fermion-parity defect: it flips the sign of the only left-moving Majorana mode while leaving the right-moving mode unchanged. When the two Majorana modes are recombined into a complex fermion in the folded geometry, this sign flip becomes the Andreev-like boundary condition. Our lattice formulation ",
       "authors": [
-        "Joshua Engels",
-        "Callum McDougall",
-        "Bilal Chughtai",
-        "Janos Kramar",
-        "Senthoran Rajamanoharan"
+        "Atsushi Ueda",
+        "Tokiro Numasawa",
+        "Boris De Vos",
+        "Masataka Watanabe"
       ],
-      "link": "http://arxiv.org/abs/2606.20560v1",
-      "published": "2026-06-18",
+      "link": "http://arxiv.org/abs/2606.23684v1",
+      "published": "2026-06-22",
       "categories": [
-        "cs.LG",
-        "cs.AI"
+        "cond-mat.str-el",
+        "cond-mat.stat-mech",
+        "hep-lat",
+        "hep-th",
+        "quant-ph"
       ]
     },
     "analysis": {
-      "key_methods": "The use of the technique used to create a transparent image was based on the assumption that the image is at least a bit...",
-      "datasets": "Datasets from the original book are the following:\nThe following:\nThe table above shows the data that was extracted from...",
-      "future_work": "We propose that we could use transparent to reduce the number of transistors in the semiconductor industry, but only if ..."
-    }
-  },
-  {
-    "paper": {
-      "title": "UNIEGO: Proxies as Mediators for Unified Egocentric Video Representation Learning",
-      "summary": "Egocentric video understanding is inherently limited by the narrow perspective of wearable cameras: a single viewpoint, a single modality, a single model cannot capture the full richness of human action. We argue that a truly expressive egocentric representation must subsume complementary knowledge across viewpoints, modalities, and foundation model representations, yet remain deployable from egocentric video alone. To this end, we introduce a hierarchical multi-teacher distillation framework that produces UNIEGO, a unified egocentric encoder trained with nine teachers spanning ego-exo viewpoints, RGB, depth, and skeleton modalities, and four foundation models. Rather than distilling directly from heterogeneous teachers whose incompatible architectures and feature geometries induce conflic",
-      "authors": [
-        "Wenhao Chi",
-        "Arkaprava Sinha",
-        "Dominick Reilly",
-        "Hieu Le",
-        "Srijan Das"
-      ],
-      "link": "http://arxiv.org/abs/2606.20559v1",
-      "published": "2026-06-18",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ]
-    },
-    "analysis": {
-      "key_methods": ".",
-      "datasets": "IEEE: P.",
-      "future_work": "In this new article, I will look at the different ways we can use technology to inform our own development, on the basis..."
-    }
-  },
-  {
-    "paper": {
-      "title": "Observation of electroweak production of pairs of Z bosons in proton-proton collisions at 13 TeV",
-      "summary": "The first evidence of electroweak (EW) production of pairs of Z bosons in association with two jets (jj) in the final state ZZjj $\\to$ $\\ell\\ellνν$jj, where $\\ell$ = e, $μ$, is reported by the CMS experiment. The analysis is based on a data sample of proton-proton (pp) collisions at $\\sqrt{s}$ = 13 TeV, corresponding to an integrated luminosity of 138 fb$^{-1}$. Events are selected by requiring exactly two leptons of same flavor and opposite charge, large missing transverse momentum, and two jets with a large rapidity separation and large invariant mass. The EW production cross section in a fiducial volume is $σ_{\\mathrm{EW}}$(pp $\\to$ ZZjj $\\to$ $\\ell\\ellνν$jj) = 0.37$^{+0.14}_{-0.12}$ (stat)$^{+0.06}_{-0.06}$ (syst) fb, in agreement with the standard model prediction of 0.39 $\\pm$ 0.06 f",
-      "authors": [
-        " CMS Collaboration"
-      ],
-      "link": "http://arxiv.org/abs/2606.20558v1",
-      "published": "2026-06-18",
-      "categories": [
-        "hep-ex"
-      ]
-    },
-    "analysis": {
-      "key_methods": ".",
-      "datasets": "1) Theoretical modeling\n2) Theoretical modeling\n3) Theoretical modeling\n4) Theoretical modeling\n5) Theoretical modeling\n...",
-      "future_work": "Using the same theoretical approach, including the same theoretical techniques, the detection of superconducting Z boson..."
+      "key_methods": "Results of meta-analysis:\n\nResults of meta-analysis:\nResults of meta-analysis:\nResults of meta-analysis:\nResults of meta...",
+      "datasets": "The primary explanation for these two models was to explain the difference between the two models and the two models.",
+      "future_work": "The effects of a Lattice Duality Defect on the development of new approaches for the field of genetics, genetics, and ge..."
     }
   }
 ]
