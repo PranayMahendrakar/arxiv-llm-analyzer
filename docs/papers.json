@@ -1,115 +1,117 @@
 [
   {
     "paper": {
-      "title": "DiffusionBench: On Holistic Evaluation of Diffusion Transformers",
-      "summary": "Diffusion transformer (DiT) research on image generation has converged to a single evaluation setup: class-conditional generation on ImageNet. While methods improve the FID and related metrics, it is increasingly unclear whether they reflect real progress in generative modeling. The natural alternative, i.e., text-to-image (T2I) generation, is perceived as too costly or inconvenient to train and evaluate and is often skipped. We argue that this perception no longer holds. We introduce NanoGen, a unified DiT training and evaluation framework. NanoGen matches state-of-the-art DiT baselines on ImageNet and, with 12 lines of configuration change, also trains competitive text-to-image models. It currently supports RAE, VAE, pixel-space, and MeanFlow diffusion methods under both ImageNet and T2I",
+      "title": "Positron-Emitting and Electron-Capturing Double-Beta Processes in the Standard Model and Beyond",
+      "summary": "We study positron-emitting and electron-capturing double-beta-decay modes as probes complementary to the usual double beta decay. Motivated by the proposed NuDoubt++ experiment, we analyze the candidate isotopes ${}^{78}$Kr, ${}^{106}$Cd, and ${}^{124}$Xe, providing nuclear matrix elements and phase-space factors for both neutrinoful and neutrinoless modes. For the Standard-Model channels, we find that $2ν$ECEC and $2νβ^+$EC are the most experimentally accessible, whereas $2νβ^+β^+$ remains strongly phase-space suppressed. For the neutrinoless channel, we interpret a projected sensitivity of $T_{1/2}^{0ν} = 10^{24}$ y in terms of dimension-seven SMEFT operators and find sensitivity to lepton-number-violating new-physics scales of order 1-100 TeV. We further show that measurements in multip",
       "authors": [
-        "Xingjian Leng",
-        "Jaskirat Singh",
-        "Zhanhao Liang",
-        "Ethan Smith",
-        "Martin Bell"
+        "Lukáš Gráf",
+        "Jenni Kotila",
+        "Oliver Scholer"
       ],
-      "link": "http://arxiv.org/abs/2606.24888v1",
-      "published": "2026-06-23",
+      "link": "http://arxiv.org/abs/2606.26097v1",
+      "published": "2026-06-24",
       "categories": [
-        "cs.CV"
+        "hep-ph",
+        "nucl-ex",
+        "nucl-th"
       ]
     },
     "analysis": {
-      "key_methods": "A test was performed using a two-factor test, followed by a two-factor test.",
-      "datasets": "(1).",
-      "future_work": "Hieron:\nKaszewski:\nKaszewski:\nBauer:\nKaszewski:\nLipps:\nBauer:\nKaszewski:\nKaszewski:\nK."
+      "key_methods": ".",
+      "datasets": "In my previous article I mentioned the two different methods of generating data in the Standard Model:\nAs a way to gener...",
+      "future_work": "This paper explores the benefits of double-alpha and the potential benefits of double-alpha."
     }
   },
   {
     "paper": {
-      "title": "InSight: Self-Guided Skill Acquisition via Steerable VLAs",
-      "summary": "Vision-language-action (VLA) models can learn manipulation skills from demonstrations, but their capabilities are bounded by the skills in the training data. We present InSight, a framework that unlocks autonomous skill acquisition by rendering VLAs steerable at the primitive-action level (e.g., \"move gripper to the bowl\", \"lift upward\", \"pour the bottle\"). InSight consists of two primary stages: (1) an automated segmentation pipeline that partitions demonstrations into labeled primitives via VLM plan decomposition and end-effector poses to enable VLA primitive steerability, and (2) a VLM-guided data flywheel that identifies missing primitives required to accomplish a novel task, autonomously attempts demonstrations of the missing primitives with VLM-proposed low-level control, and automat",
+      "title": "A Population of Little Red Dot-like Quasars in SDSS",
+      "summary": "Compact and red sources in the high redshift ($z\\sim5$) Universe, known as \"Little Red Dots\" (LRDs), are among JWST's most intriguing discoveries. These sources have broad Balmer emission lines, weak X-ray emission, and unique spectral energy distributions (SEDs) poorly fit by either stellar or AGN templates. Local analogs of LRDs allow for detailed studies of the underlying physical processes with archival multi-wavelength datasets unavailable in the high-$z$ Universe. We show that the SDSS $ugriz$ filters at $z\\approx0.4, 0.8$ overlap well with the JWST filters used to select LRDs at $z\\sim5$. We use SDSS quasars to define a sample of $\\sim1300$ Local Red Dots (LoRDs) which share the same photometric colors of LRDs. A subset of the LoRD sample selected to have V-shaped continua ($N=244$)",
       "authors": [
-        "Maggie Wang",
-        "Lars Osterberg",
-        "Stephen Tian",
-        "Ola Shorinwa",
-        "Jiajun Wu"
+        "Quinn O. Casey",
+        "Ryan C. Hickox",
+        "Nikko J. Cleri",
+        "Jonathan H. Cohn",
+        "David M. Alexander"
       ],
-      "link": "http://arxiv.org/abs/2606.24884v1",
-      "published": "2026-06-23",
+      "link": "http://arxiv.org/abs/2606.26098v1",
+      "published": "2026-06-24",
+      "categories": [
+        "astro-ph.GA"
+      ]
+    },
+    "analysis": {
+      "key_methods": "Study design was conducted on August 19, 2009 through June 30, 2009 to investigate the effect of the SDSS on the size of...",
+      "datasets": "Predicting the future by mapping the data on the world, we can predict that the future can be a lot like that.",
+      "future_work": "A new survey of the world's largest quasars in a single dataset was published today in the Proceedings of the National A..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Higher Berry curvature, second Chern numbers and magnetoelectric coupling in crystalline insulators",
+      "summary": "We rewrite a lattice model of the four-dimensional Chern insulator as a family of translationally-invariant infinite chains over the three-dimensional Brillouin zone and compute its higher three-form Berry curvature using infinite matrix product states (iMPS). We calculate the topological phase diagram of the associated Dixmier--Douady--Kapustin--Spodyneiko (DDKS) number as a function of the model's mass term, and show that it is exactly congruent to the phase diagram in terms of the second Chern number, the analytic expression of which is known for this particular model. This agreement demonstrates that higher Berry curvature can be used to compute second Chern numbers in a manifestly quantized manner. Motivated by the connection between the second Chern form and the Chern--Simons axion c",
+      "authors": [
+        "Niclas Heinsdorf",
+        "Ken Shiozaki"
+      ],
+      "link": "http://arxiv.org/abs/2606.26096v1",
+      "published": "2026-06-24",
+      "categories": [
+        "cond-mat.str-el",
+        "quant-ph"
+      ]
+    },
+    "analysis": {
+      "key_methods": ".",
+      "datasets": "Fruit (N)\nBamboo (C)\nBamboo (C)\nBamboo (C).",
+      "future_work": "Using the same techniques, researchers from the NIST Group at University of Pennsylvania and the National Institute of S..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Learning Action Priors for Cross-embodiment Robot Manipulation",
+      "summary": "Most Vision-Language-Action (VLA) models build on a Vision-Language Model (VLM) backbone by attaching an action module and optimizing the full policy jointly. This design inherits strong visual and linguistic priors from the VLM, but leaves the action module to learn physical motion almost from scratch. As a result, the policy lacks an explicit motion prior, forcing early optimization to simultaneously discover temporal action dynamics and cross-modal alignment, a challenge further amplified in cross-embodiment settings. In this work, we propose to pretrain the action module with motion priors before cross-modal VLA alignment. Specifically, we introduce a two-stage training framework that equips the action module with cross-embodiment temporal motion structure before VLA training begins. I",
+      "authors": [
+        "Dong Jing",
+        "Tianqi Zhang",
+        "Jiaqi Liu",
+        "Jinman Zhao",
+        "Zelong Sun"
+      ],
+      "link": "http://arxiv.org/abs/2606.26095v1",
+      "published": "2026-06-24",
       "categories": [
         "cs.RO",
         "cs.AI",
-        "cs.LG"
-      ]
-    },
-    "analysis": {
-      "key_methods": "Using a machine learning algorithm that was run on the machine learning method, we trained the trained participants in a...",
-      "datasets": "The most common form of skill acquisition is taking a simple approach.",
-      "future_work": "A group of researchers has found that the most active users of self-discovery technologies are those who are less motiva..."
-    }
-  },
-  {
-    "paper": {
-      "title": "BenchX: Benchmarking AI Models for Cancer Detection and Localization with Demographic and Protocol Biases",
-      "summary": "Artificial intelligence (AI) has achieved remarkable success in medical imaging, but it is widely recognized that these models often perform inconsistently across real-world clinical settings. Such inconsistencies occur when patient demographics and imaging protocols vary, for example, in detecting small tumors, analyzing scans from different contrast phases, or evaluating patients of different ages or sexes. To quantify these inconsistencies, we develop a large-scale, open benchmark of 85,355 CT scans that systematically evaluates 12 tumor-detection AI models across tumor size, location, patient subgroup, and imaging protocol. We leverage large language models (LLMs) to extract and organize subgroup information from clinical data, which makes the analysis both scalable and reproducible. O",
-      "authors": [
-        "Qi Chen",
-        "Wenxuan Li",
-        "Pedro R. A. S. Bassi",
-        "Xinze Zhou",
-        "Jakob Wasserthal"
-      ],
-      "link": "http://arxiv.org/abs/2606.24883v1",
-      "published": "2026-06-23",
-      "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
       "key_methods": ".",
-      "datasets": "The following datasets are in the current version of the DataFrame.",
-      "future_work": "More sophisticated algorithms on different fields, and more automated software development."
-    }
-  },
-  {
-    "paper": {
-      "title": "Queues with Correlated Service Times -- the $M/M_D/c$ Model",
-      "summary": "This paper studies multi-server queueing systems with correlated service times, modeled as the $M/M_D/c$ queue, which is a natural extension of the recent work by Thapa and Zhao \\cite{Thapa-Zhao:2026}. In this model, arrivals follow a Poisson process, while service times across servers exhibit dependence captured by the Marshall--Olkin multivariate exponential distribution (MO-MVED).   We first develop a rigorous sample-path construction of the system and establish that the resulting queueing process is a continuous-time Markov chain. We then analyze the stationary behavior of the $M/M_D/c$ model. In the homogeneous case, we derive a complete solution via geometric tail structure and explicit boundary equations, recovering a tractable one-dimensional representation. In the heterogeneous ca",
-      "authors": [
-        "Qihui Bu",
-        "Suman Thapa",
-        "Yiqiang Q. Zhao"
-      ],
-      "link": "http://arxiv.org/abs/2606.24881v1",
-      "published": "2026-06-23",
-      "categories": [
-        "math.PR"
-      ]
-    },
-    "analysis": {
-      "key_methods": "1) Download the spreadsheet and print the name of the Model.",
-      "datasets": "The first version of this book has the following \"data\" format:\nThe second version uses the \"data\" format for the \"data\"...",
-      "future_work": "Mapping a network of distributed networks, which can be used to monitor the activity of your mobile devices."
-    }
-  },
-  {
-    "paper": {
-      "title": "Stability Checking of Markov Jump Linear Systems via Probabilistic Temporal Logic (Extended Version)",
-      "summary": "Markov jump linear systems (MJLSs) model dynamical phenomena subject to random switching among multiple linear modes, driven by an underlying Markov chain. Classical notions such as mean and mean-square stability characterize the long-term asymptotic behaviour of the first and second moments of an MJLS, but they can be overly conservative or even misleading when only a specific subset of initial conditions is of interest. We tackle this challenge through the lens of model checking, where reasoning about specific sets of initial conditions is intrinsic to the approach. We begin by formalizing probabilistic computation tree logic (PCTL) on MJLSs, enabling the specification of state-based temporal properties for these systems. Building on this foundation, we extend the logic to capture moment",
-      "authors": [
-        "Lena Becker",
-        "Holger Hermanns"
-      ],
-      "link": "http://arxiv.org/abs/2606.24880v1",
-      "published": "2026-06-23",
-      "categories": [
-        "cs.LO",
-        "cs.FL"
-      ]
-    },
-    "analysis": {
-      "key_methods": "Bulk.",
       "datasets": ".",
-      "future_work": "Using a linear system to estimate the probability that a given number of times a group of individuals were in the same g..."
+      "future_work": "Theoretical and Applied Science (3)."
+    }
+  },
+  {
+    "paper": {
+      "title": "RevengeBench: Reverse Engineering Code-Space Policies from Behavioral Experiments",
+      "summary": "For most of scientific history, researchers studying behavior could only infer hidden mechanisms from outward actions: an inverse problem that becomes more tractable when observation is augmented by targeted intervention. We pose a computational analogue: given only behavioral traces of an agent in a game environment, can a learner reconstruct the underlying decision program as executable code, and how much does this reconstruction improve with the ability to design controlled experiments? We introduce RevengeBench, a benchmark of 75 LLM generated, Elo-calibrated policies across five game environments, drawn from CodeClash tournament trajectories. The learner observes the hidden target policy play against sampled opponents and designs behavioral probes in the form of custom opponent polici",
+      "authors": [
+        "Babak Rahmani",
+        "Sebastian Dziadzio",
+        "Joschka Strüber",
+        "Sergio Hernández-Gutiérrez",
+        "Matthias Bethge"
+      ],
+      "link": "http://arxiv.org/abs/2606.26094v1",
+      "published": "2026-06-24",
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    "analysis": {
+      "key_methods": "This study was led by Mark McDonough, a PhD candidate at the University of Sheffield and coauthor of the original paper,...",
+      "datasets": "The most significant differences between the two approaches are the different approaches, but the differences between th...",
+      "future_work": "We believe that the most important role in understanding the mechanisms of change in the human behavior is to understand..."
     }
   }
 ]
