@@ -1,120 +1,113 @@
 [
   {
     "paper": {
-      "title": "DanceOPD: On-Policy Generative Field Distillation",
-      "summary": "Modern image generation demands a single model that unifies diverse capabilities, including text-to-image (T2I), local editing, and global editing. However, these capabilities are rarely naturally aligned and often conflict. For instance, editing tends to degrade T2I performance, while global and local editing interfere with each other. Consequently, effectively composing these capabilities has become a central challenge for image generation model training. To tackle this, we introduce DanceOPD, an on-policy generative field distillation framework for flow-matching models that routes each sample to one capability field, queries one low-noise student-induced state, and trains with a simple velocity MSE objective. With each capability source defined as a velocity field over the shared flow s",
+      "title": "PerceptionRubrics: Calibrating Multimodal Evaluation to Human Perception",
+      "summary": "We introduce PerceptionRubrics, a rubric-based evaluation framework that addresses the gap between saturated benchmark scores and real-world brittleness. Shifting evaluation from holistic semantic matching to rigorous atomic auditing, PerceptionRubrics pairs 1,038 information-dense images with over 12,000 instance-specific rubrics. These criteria are derived from golden captions constructed via a novel Circular Peer-Review consensus pipeline and then distilled into a dual-stream system of Must-Right (essential facts) and Easy-Wrong (fine-grained details) rubrics. Crucially, PerceptionRubrics implements a Gated Scoring mechanism: unlike linear averages, failure on mandatory visual facts triggers sharp binary penalties. Extensive evaluation yields critical insights: (1) The Reliability Gap: ",
       "authors": [
-        "Wei Zhou",
-        "Xiongwei Zhu",
-        "Zelin Xu",
-        "Bo Dong",
-        "Lixue Gong"
+        "Yana Wei",
+        "Hongbo Peng",
+        "Yanlin Lai",
+        "Liang Zhao",
+        "Kangheng Lin"
       ],
-      "link": "http://arxiv.org/abs/2606.27377v1",
-      "published": "2026-06-25",
-      "categories": [
-        "cs.CV",
-        "cs.CL",
-        "cs.LG"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The following analysis was conducted using a statistical analysis of the sample size (n = 1036,95% confidence interval) ...",
-      "datasets": "-The following table is for a graph.",
-      "future_work": "Future research:\nTheoretical applications:\nFuture research:\nFuture research:\nAbstract."
-    }
-  },
-  {
-    "paper": {
-      "title": "Ask, Solve, Generate: Self-Evolving Unified Multimodal Understanding and Generation via Self-Consistency Rewards",
-      "summary": "Most unified large multimodal models (LMMs) that support both visual understanding and image generation still rely on curated post-training supervision, such as human annotations, preference labels, or external reward models. We ask whether a unified LMM can improve both abilities autonomously using only unlabeled images. We propose a self-evolving training framework with three internal roles: a Proposer that generates visual questions, a Solver that answers and evaluates them, and a Generator that synthesizes images. Training uses only self-derived consistency signals, without human annotations, preference labels, or task-trained external reward/judge models. To stabilize learning, we introduce Solver Token Entropy (STE), a continuous difficulty signal based on token-level prediction unce",
-      "authors": [
-        "Ritesh Thawkar",
-        "Shravan Venkatraman",
-        "Omkar Thawakar",
-        "Abdelrahman Shaker",
-        "Fahad Khan"
-      ],
-      "link": "http://arxiv.org/abs/2606.27376v1",
-      "published": "2026-06-25",
+      "link": "http://arxiv.org/abs/2606.28322v1",
+      "published": "2026-06-26",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "Masters:\nIn-class students on an online community.",
-      "datasets": "This is a very similar project, but with different ideas, concepts, and ideas, the two are mutually incompatible.",
-      "future_work": "This paper is based on a paper published in the journal Science."
+      "key_methods": ".",
+      "datasets": "This topic was originally published on the website of the National Institute of Standards and Technology.",
+      "future_work": "Analyses of the neural system."
     }
   },
   {
     "paper": {
-      "title": "Scalable Behavior Cloning with Open Data, Training, and Evaluation",
-      "summary": "We introduce ABC, a fully open-source stack for manipulation with behavior cloning. At its core is ABC-130K: the largest open-source teleoperation dataset to date, featuring 3,500 hours of data spanning over 130K episodes across 195 diverse tasks. Furthermore, we open-source our accessible hardware setup, training infrastructure, and simulation pipeline. We also release 400 hours of sim-teleop data and provide a co-training recipe that produces correlated simulation and real-world evaluation, offering a reliable proxy for ablating model-design and training decisions before costly real-world evaluation. We explore various training recipes and compare common architectural choices for Diffusion Transformers (DiT) and Vision-Language-Action (VLA) models, grounding our findings in real-world ev",
+      "title": "StructSplat: Generalizable 3D Gaussian Splatting from Uncalibrated Sparse Views",
+      "summary": "We present StructSplat, a feed-forward and generalizable 3D Gaussian reconstruction framework that operates directly on uncalibrated images without requiring camera parameters. Existing methods either rely on per-scene optimization or assume known camera poses, and often entangle geometry and appearance within a unified backbone, limiting reconstruction fidelity and generalization. Our key idea is to adopt a structured representation that organizes geometry, semantic, and texture cues with explicit roles in the reconstruction process. Specifically, we introduce a pixel-aligned feature injection mechanism to enable accurate texture modeling from 2D observations, incorporate semantic-aware priors to improve global consistency, and design a camera alignment strategy to prevent information lea",
       "authors": [
-        "Arthur Allshire",
-        "Himanshu Gaurav Singh",
-        "Ritvik Singh",
-        "Adam Rashid",
-        "Hongsuk Choi"
+        "Jia-Chen Zhao",
+        "Beiqi Chen",
+        "Xinyang Chen",
+        "Guangcong Wang",
+        "Liqiang Nie"
       ],
-      "link": "http://arxiv.org/abs/2606.27375v1",
-      "published": "2026-06-25",
+      "link": "http://arxiv.org/abs/2606.28321v1",
+      "published": "2026-06-26",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "Scalability of 3D Gaussian Splatting\nData used:\nScalability of 3D Gaussian Splatting from Uncalibrated Sparse Views.",
+      "datasets": ".",
+      "future_work": "The next step is to create custom Gaussian splatting methods."
+    }
+  },
+  {
+    "paper": {
+      "title": "WARP-RM: A Warp-Augmented Relative Progress Reward Model for Data Curation",
+      "summary": "Scaling imitation learning requires large datasets, yet human teleoperation inevitably produces mixed-quality demonstrations containing hesitations and recoveries. Prior frame-level progress reward models supervise on absolute temporal progress proxies that suffer from label noise, or require costly human annotations to define subtask boundaries. We present WARP (Warp-Augmented Relative Progress), a novel fully self-supervised algorithm for learning dense, signed relative progress magnitudes directly from successful demonstrations. WARP generates per-frame progress targets via time-warp augmentations of demonstrations (variable playback speeds and reversals) and we train WARP-RM to predict the normalized elapsed time between input frames. Aggregating these predictions across overlapping wi",
+      "authors": [
+        "Justin Yu",
+        "Andrew Goldberg",
+        "Kavish Kondap",
+        "Karim El-Refai",
+        "Ethan Ransing"
+      ],
+      "link": "http://arxiv.org/abs/2606.28320v1",
+      "published": "2026-06-26",
       "categories": [
         "cs.RO"
       ]
     },
     "analysis": {
-      "key_methods": ".",
-      "datasets": "The above are the first step in the study to make it possible for people to design and implement systems for data proces...",
-      "future_work": "Data on the future of open data, and the future of open data."
+      "key_methods": "Study:\nA group of participants in the study (P = 0.",
+      "datasets": "Ragnarok is a world-class virtual reality game that puts a single player on a world-class starship.",
+      "future_work": "The research on the effects of magnetic magnetic fields on the spatial and spatial structure of human brains will be pub..."
     }
   },
   {
     "paper": {
-      "title": "World Action Models Enable Continual Imitation Learning with Recurrent Generative Replays",
-      "summary": "Going beyond predicting robot actions, World Action Models (WAMs) can also generate future visual observations. We build on this generative capability to propose Recurrent Generative Replay (REGEN), a continual imitation learning framework that synthesizes pseudo-replay trajectories, enabling a robot policy to rehearse previously learned tasks without storing their original human demonstrations. During continual adaptation, REGEN recursively queries the WAM to synthesize pseudo-replay trajectories conditioned only on prior task instructions and current-task observations. Experiments in both simulation and real-world manipulation settings show that REGEN reduces catastrophic forgetting by up to $50\\%$ relative to sequential fine-tuning, while approaching the performance of privileged experi",
+      "title": "Near-threshold scattering of proton and Omega baryon and possible bound states",
+      "summary": "We study the near-threshold scattering and bound-state structure of the $NΩ$ system by solving the Lippmann-Schwinger (L-S) equation within the framework of the meson exchange model and the Pomeron exchange model. The numerical results indicate that after incorporating the Pomeron exchange mechanism, the observables of the ${^5}S{_2}$ channel, such as the binding energy, scattering length, and effective range, agree better with the experimental measurements. In addition, The Pomeron exchange can provide an extra attractive interaction to make the hadronic state more compact. We also predict the scattering behavior of the ${^3}S{_1}$ channel and confirm that a weak quasi-bound state exists in this channel. Future experimental measurements on the ${^3}S{_1}$ channel will provide an important",
       "authors": [
-        "Manish Kumar Govind",
-        "Dominick Reilly",
-        "Smit Patel",
-        "Hieu Le",
-        "Srijan Das"
+        "Yu-Jie Feng",
+        "Qian Wang",
+        "Qiang Zhao"
       ],
-      "link": "http://arxiv.org/abs/2606.27374v1",
-      "published": "2026-06-25",
+      "link": "http://arxiv.org/abs/2606.28319v1",
+      "published": "2026-06-26",
       "categories": [
-        "cs.RO",
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": "We first used a few different methods to teach us how to use the network in real time.",
-      "datasets": ".",
-      "future_work": "\"Future research:\n\"Future research:\n\"Future research:\n\"Future research:\n\"Future research:\n\"Future research:\n\"Future rese..."
-    }
-  },
-  {
-    "paper": {
-      "title": "Paying More Attention to Visual Tokens in Self-Evolving Large Multimodal Models",
-      "summary": "Recently, self-evolving large multimodal models (LMMs) have received attention for improving visual reasoning in a purely unsupervised setting. However, multi-role self-play and self-consistency reward schemes in existing self-evolving LMMs optimize answer agreement without ensuring the decoder attends to visual content, relying instead on statistical language priors to produce self consistent outputs. This leads to a persistent failure mode we term visual under-conditioning, where the decoder relies on language priors rather than the image during generation, manifesting as insufficient attention to visual tokens. As a result, current self-evolving LMMs struggle on vision--language understanding tasks such as image captioning and visual question answering. To address this, we propose VISE ",
-      "authors": [
-        "Shravan Venkatraman",
-        "Ritesh Thawkar",
-        "Omkar Thawakar",
-        "Rao Muhammad Anwer",
-        "Hisham Cholakkal"
-      ],
-      "link": "http://arxiv.org/abs/2606.27373v1",
-      "published": "2026-06-25",
-      "categories": [
-        "cs.CV"
+        "hep-ph"
       ]
     },
     "analysis": {
       "key_methods": ".",
-      "datasets": "\"The first, and most important, concept of the self-Evolving network is to produce a multiverse of multiverse-connected ...",
-      "future_work": "A paper outlining our findings in the current paper is available in the journal Nature Communications."
+      "datasets": "Citations:\nKosterman et al.",
+      "future_work": "The high quality of ionic photons used in the study was made possible using a new method to capture and analyze the elec..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Drift Behavior in a Bounded-Confidence Opinion Model with Media Influence",
+      "summary": "People's opinions can change both from their interactions with each other and from their interactions with media sources. Bounded-confidence models (BCMs) of opinion dynamics provide one framework to study such dynamics. In a BCM, the nodes of a network are agents with continuous-valued opinions, and these agents interact with each other via the edges of the network. In this paper, we extend the original Deffuant--Weisbuch (DW) BCM by incorporating influence from two media sources -- one with a positive value and one with a negative value -- to capture the effects of a polarized media landscape. We show both numerically and analytically that our extended DW model exhibits drifting behavior in which a large cluster of opinions shifts toward one of the media agents. We analyze how the drift ",
+      "authors": [
+        "Oliver Zheng",
+        "Mason A. Porter"
+      ],
+      "link": "http://arxiv.org/abs/2606.28318v1",
+      "published": "2026-06-26",
+      "categories": [
+        "physics.soc-ph",
+        "cs.SI"
+      ]
+    },
+    "analysis": {
+      "key_methods": ".",
+      "datasets": "“I think that the trend is that people tend to be more confident in their results than they are in their own data.",
+      "future_work": "(1)\nCrowd-sourced data analysis and analysis\n(2)\nCrowd-sourcing is a method for evaluating the behavior of people, and i..."
     }
   }
 ]
