@@ -1,113 +1,117 @@
 [
   {
     "paper": {
-      "title": "PerceptionRubrics: Calibrating Multimodal Evaluation to Human Perception",
-      "summary": "We introduce PerceptionRubrics, a rubric-based evaluation framework that addresses the gap between saturated benchmark scores and real-world brittleness. Shifting evaluation from holistic semantic matching to rigorous atomic auditing, PerceptionRubrics pairs 1,038 information-dense images with over 12,000 instance-specific rubrics. These criteria are derived from golden captions constructed via a novel Circular Peer-Review consensus pipeline and then distilled into a dual-stream system of Must-Right (essential facts) and Easy-Wrong (fine-grained details) rubrics. Crucially, PerceptionRubrics implements a Gated Scoring mechanism: unlike linear averages, failure on mandatory visual facts triggers sharp binary penalties. Extensive evaluation yields critical insights: (1) The Reliability Gap: ",
+      "title": "FaceMoE: Mixture of Experts for Low-Resolution Face Recognition",
+      "summary": "Low-resolution face recognition (LR-FR) remains a challenging task due to poor feature extraction and aggregation, as probe images often contain limited identity information resulting from extreme degradations such as blur, occlusion, and low contrast. Additionally, the domain gap between high-resolution (HR) gallery images and low-resolution (LR) probe images poses a significant challenge. A single feature encoder struggles to generalize effectively across both domains when fine-tuned on an LR dataset, and this issue is further magnified by catastrophic forgetting. To address these challenges, we propose FaceMoE, an effective adaptation of Mixture of Experts (MoE) transfomer architecture for low-resolution face-recognition . Specifically, we introduce multiple specialized feed-forward net",
       "authors": [
-        "Yana Wei",
-        "Hongbo Peng",
-        "Yanlin Lai",
-        "Liang Zhao",
-        "Kangheng Lin"
+        "Kartik Narayan",
+        "Vishal M. Patel"
       ],
-      "link": "http://arxiv.org/abs/2606.28322v1",
-      "published": "2026-06-26",
+      "link": "http://arxiv.org/abs/2606.32040v1",
+      "published": "2026-06-30",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": ".",
-      "datasets": "This topic was originally published on the website of the National Institute of Standards and Technology.",
-      "future_work": "Analyses of the neural system."
-    }
-  },
-  {
-    "paper": {
-      "title": "StructSplat: Generalizable 3D Gaussian Splatting from Uncalibrated Sparse Views",
-      "summary": "We present StructSplat, a feed-forward and generalizable 3D Gaussian reconstruction framework that operates directly on uncalibrated images without requiring camera parameters. Existing methods either rely on per-scene optimization or assume known camera poses, and often entangle geometry and appearance within a unified backbone, limiting reconstruction fidelity and generalization. Our key idea is to adopt a structured representation that organizes geometry, semantic, and texture cues with explicit roles in the reconstruction process. Specifically, we introduce a pixel-aligned feature injection mechanism to enable accurate texture modeling from 2D observations, incorporate semantic-aware priors to improve global consistency, and design a camera alignment strategy to prevent information lea",
-      "authors": [
-        "Jia-Chen Zhao",
-        "Beiqi Chen",
-        "Xinyang Chen",
-        "Guangcong Wang",
-        "Liqiang Nie"
-      ],
-      "link": "http://arxiv.org/abs/2606.28321v1",
-      "published": "2026-06-26",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": "Scalability of 3D Gaussian Splatting\nData used:\nScalability of 3D Gaussian Splatting from Uncalibrated Sparse Views.",
+      "key_methods": "A standard technique, developed by Dr.",
       "datasets": ".",
-      "future_work": "The next step is to create custom Gaussian splatting methods."
+      "future_work": "Using the latest technology, we will present results from the new FaceMoE 3D sensor that will be used in a range of faci..."
     }
   },
   {
     "paper": {
-      "title": "WARP-RM: A Warp-Augmented Relative Progress Reward Model for Data Curation",
-      "summary": "Scaling imitation learning requires large datasets, yet human teleoperation inevitably produces mixed-quality demonstrations containing hesitations and recoveries. Prior frame-level progress reward models supervise on absolute temporal progress proxies that suffer from label noise, or require costly human annotations to define subtask boundaries. We present WARP (Warp-Augmented Relative Progress), a novel fully self-supervised algorithm for learning dense, signed relative progress magnitudes directly from successful demonstrations. WARP generates per-frame progress targets via time-warp augmentations of demonstrations (variable playback speeds and reversals) and we train WARP-RM to predict the normalized elapsed time between input frames. Aggregating these predictions across overlapping wi",
+      "title": "GEAR: Guided End-to-End AutoRegression for Image Synthesis",
+      "summary": "Visual generative models are typically trained in two stages. A tokenizer is first trained for reconstruction and then frozen, after which a generator is trained on its discrete indices or continuous latents. This decoupling leaves the tokenizer unaware of what the generator finds easy to model. We present GEAR (Guided End-to-end AutoRegression), which trains a vector-quantized (VQ) tokenizer and an autoregressive (AR) generator jointly and end-to-end, guided by representation alignment. The key obstacle is that the VQ index fed to the AR model is non-differentiable, so gradients cannot reach the tokenizer, and a straight-through estimator collapses. GEAR resolves this with a dual read-out of the codebook assignment. A hard, one-hot branch trains the AR with next-token prediction, while a ",
       "authors": [
-        "Justin Yu",
-        "Andrew Goldberg",
-        "Kavish Kondap",
-        "Karim El-Refai",
-        "Ethan Ransing"
+        "Bin Lin",
+        "Zheyuan Liu",
+        "Chenguo Lin",
+        "Sixiang Chen",
+        "Yunyang Ge"
       ],
-      "link": "http://arxiv.org/abs/2606.28320v1",
-      "published": "2026-06-26",
+      "link": "http://arxiv.org/abs/2606.32039v1",
+      "published": "2026-06-30",
       "categories": [
-        "cs.RO"
+        "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "Study:\nA group of participants in the study (P = 0.",
-      "datasets": "Ragnarok is a world-class virtual reality game that puts a single player on a world-class starship.",
-      "future_work": "The research on the effects of magnetic magnetic fields on the spatial and spatial structure of human brains will be pub..."
+      "key_methods": "First, we created a small box to create a custom image and then created a custom image with a full-size scale to produce...",
+      "datasets": "Image Synthesis (a) is the first technique used to describe a linear geometry of a system of elements in a single line.",
+      "future_work": "Lara L."
     }
   },
   {
     "paper": {
-      "title": "Near-threshold scattering of proton and Omega baryon and possible bound states",
-      "summary": "We study the near-threshold scattering and bound-state structure of the $NΩ$ system by solving the Lippmann-Schwinger (L-S) equation within the framework of the meson exchange model and the Pomeron exchange model. The numerical results indicate that after incorporating the Pomeron exchange mechanism, the observables of the ${^5}S{_2}$ channel, such as the binding energy, scattering length, and effective range, agree better with the experimental measurements. In addition, The Pomeron exchange can provide an extra attractive interaction to make the hadronic state more compact. We also predict the scattering behavior of the ${^3}S{_1}$ channel and confirm that a weak quasi-bound state exists in this channel. Future experimental measurements on the ${^3}S{_1}$ channel will provide an important",
+      "title": "Introspective Coupling: Self-Explanation Training Tracks Behavioral Change Despite Fixed Supervision",
+      "summary": "When does training language models (LMs) to generate explanations of their predictions yield faithful introspection, rather than superficial imitation? We study LMs trained to explain which features of their inputs influenced their behavior, using models' counterfactual behavior on modified inputs as supervision. Surprisingly, we find that LMs trained on fixed counterfactual explanations derived from earlier checkpoints of themselves, or even from behaviorally similar models in different families, frequently produce explanations more faithful to their own current behaviors than to those of their training targets. This \"introspective\" coupling between LM explanations and behaviors occurs when training explanations remain sufficiently correlated with current behaviors over the course of trai",
       "authors": [
-        "Yu-Jie Feng",
-        "Qian Wang",
-        "Qiang Zhao"
+        "Zifan Carl Guo",
+        "Laura Ruis",
+        "Jacob Andreas",
+        "Belinda Z. Li"
       ],
-      "link": "http://arxiv.org/abs/2606.28319v1",
-      "published": "2026-06-26",
+      "link": "http://arxiv.org/abs/2606.32038v1",
+      "published": "2026-06-30",
       "categories": [
-        "hep-ph"
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
       ]
     },
     "analysis": {
-      "key_methods": ".",
-      "datasets": "Citations:\nKosterman et al.",
-      "future_work": "The high quality of ionic photons used in the study was made possible using a new method to capture and analyze the elec..."
+      "key_methods": "The participants were asked to describe their own experiences with the following tasks, which were:\n\n1) One of two tasks...",
+      "datasets": "I'm going to be a part of a lot of this series with a lot of questions, but I hope you're interested in it.",
+      "future_work": "What are the implications of self-explanation?\nThis paper explores changes in self-explanation in the future."
     }
   },
   {
     "paper": {
-      "title": "Drift Behavior in a Bounded-Confidence Opinion Model with Media Influence",
-      "summary": "People's opinions can change both from their interactions with each other and from their interactions with media sources. Bounded-confidence models (BCMs) of opinion dynamics provide one framework to study such dynamics. In a BCM, the nodes of a network are agents with continuous-valued opinions, and these agents interact with each other via the edges of the network. In this paper, we extend the original Deffuant--Weisbuch (DW) BCM by incorporating influence from two media sources -- one with a positive value and one with a negative value -- to capture the effects of a polarized media landscape. We show both numerically and analytically that our extended DW model exhibits drifting behavior in which a large cluster of opinions shifts toward one of the media agents. We analyze how the drift ",
+      "title": "QVal: Cheaply Evaluating Dense Supervision Signals for Long-Horizon LLM Agents",
+      "summary": "LLM agents increasingly act over long horizons, where a single trajectory can contain hundreds or thousands of actions. In these settings, outcome-only rewards provide too sparse guidance, failing to inform the model about the goodness of intermediate actions. Dense supervision methods aim to solve this problem by scoring intermediate steps, from intrinsic confidence to self-distillation and embedding similarities. However, it is common practice to evaluate them by measuring the downstream performance of a training pipeline that integrates them. This is expensive, conflates supervision quality with training engineering confounders, and renders different methodological families requiring distinct training setups incomparable. As a result, dense supervision methods are rarely benchmarked on ",
       "authors": [
-        "Oliver Zheng",
-        "Mason A. Porter"
+        "Sergio Hernández-Gutiérrez",
+        "Matteo Merler",
+        "Ilze Amanda Auzina",
+        "Joschka Strüber",
+        "Ameya Prabhu"
       ],
-      "link": "http://arxiv.org/abs/2606.28318v1",
-      "published": "2026-06-26",
+      "link": "http://arxiv.org/abs/2606.32034v1",
+      "published": "2026-06-30",
       "categories": [
-        "physics.soc-ph",
-        "cs.SI"
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
       ]
     },
     "analysis": {
-      "key_methods": ".",
-      "datasets": "“I think that the trend is that people tend to be more confident in their results than they are in their own data.",
-      "future_work": "(1)\nCrowd-sourced data analysis and analysis\n(2)\nCrowd-sourcing is a method for evaluating the behavior of people, and i..."
+      "key_methods": "The authors used EIA as the primary investigator to evaluate the ability of people in the field to accurately assess the...",
+      "datasets": "The first thing we need is a bit of code.",
+      "future_work": "What is there to do with the data?\nYou can see that if you are looking for a solution to the problem of color, you can s..."
+    }
+  },
+  {
+    "paper": {
+      "title": "SpheRoPE: Zero-Shot Optimization-Free 360 Panorama Generation with Spherical RoPE",
+      "summary": "We present a zero-shot, training-free and optimization-free framework for generating 360 panoramic images and videos by directly injecting spherical priors into pre-trained diffusion transformers. Existing methods either rely on costly fine-tuning on scarce panoramic data that limits generalization, or leverage multi-step optimization that incurs prohibitive inference latency. We observe that contemporary generative models natively exhibit some panoramic priors from large-scale training. However, these emergent capabilities are insufficient, as the models fundamentally fail to satisfy the rigorous topological constraints imposed by equirectangular projection (ERP). We introduce a zero-shot and optimization-free approach that resolves these constraints at inference time. Spherical RoPE repl",
+      "authors": [
+        "Or Hirschorn",
+        "Aaron Olender",
+        "Eli Alshan",
+        "Ianir Ideses",
+        "Lior Fritz"
+      ],
+      "link": "http://arxiv.org/abs/2606.32033v1",
+      "published": "2026-06-30",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The objective of this study was to evaluate the use of a high-resolution lens with a high-resolution camera with a high-...",
+      "datasets": "Maintaining a resolution of 3.",
+      "future_work": "How to use Spherical RoPE."
     }
   }
 ]
