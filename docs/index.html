@@ -54,79 +54,89 @@
   <div class="stat"><div class="n">5</div><div class="l">Papers</div></div>
   <div class="stat"><div class="n">distilgpt2</div><div class="l">LLM Model</div></div>
   <div class="stat"><div class="n">large language m</div><div class="l">Query</div></div>
-  <div class="stat"><div class="n">2026-07-06</div><div class="l">Updated UTC</div></div>
+  <div class="stat"><div class="n">2026-07-07</div><div class="l">Updated UTC</div></div>
 </div>
 <main>
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2607.02517v1" target="_blank" rel="noopener">WorldDirector: Building Controllable World Simulators with Persistent Dynamic Memory</a></h2>
-    <span class="meta">Published: 2026-07-02 | Authors: Hanlin Wang, Hao Ouyang, Qiuyu Wang, Wen Wang, Qingyan Bai | Tags: cs.CV</span>
+    <h2><a href="http://arxiv.org/abs/2607.05396v1" target="_blank" rel="noopener">From Fixed to Free Cameras: Calibration-Free View-Robust Vision-Language-Action Model</a></h2>
+    <span class="meta">Published: 2026-07-06 | Authors: Wenhao Li, Xueying Jiang, Quanhao Qian, Deli Zhao, Shijian Lu | Tags: cs.CV, cs.AI, cs.LG</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>We present WorldDirector, a highly controllable video world model framework designed for persistent dynamic object memory and unrestricted viewpoint exploration. Unlike existing world models that entangle physical dynamics with pixel rendering and rely on continuous visual observation to sustain motion, our framework explicitly decouples semantic motion orchestration from visual generation. By leveraging an LLM to coordinate 3D trajectories with camera movements and subsequently employing these orchestrated trajectories as control signals for video generation, our approach ensures strict physical logic and appearance stability, successfully preserving the exact visual identities of dynamic entities even when they re-enter the scene after prolonged periods out of view. Experimental results </p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The above examples will show how to build a game using Persistent Dynamic Memory.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Building a world simulation with persistent memory.</p></section>
+    <section class="full"><h3>Abstract</h3><p>Real-world robot deployment rarely maintains the training-stage camera setup, where cameras often experience repositioning or remounting depending on actual scenarios. Existing view-robust Vision-Language-Action (VLA) policies tolerate such camera variations only when the camera extrinsics are explicitly provided, making them fragile and hard to use especially when view robustness is critical. We argue that the policy should not be told where the camera is, but rather figure it out by itself. To this end, we introduce Camera-Centric VLA (CamVLA), a new VLA model that decouples manipulation controls from camera geometry by predicting (i) a camera-centric end-effector action expressed in the local camera frame, and (ii) a 6-DoF hand-eye matrix relating cameras to the robot base. A determinis</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>In this paper, we have created a free-camera model that shows the use of a camera in a city as a way of connecting the t...</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>This is a model that is used in many different ways to make a webcam, but it isn't the only tool that needs to be used b...</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>For example, the use of dynamic images to display images is a good way to monitor movements and provide a rich, interact...</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2607.02516v1" target="_blank" rel="noopener">Alignment Is All You Need For X-to-4D Generation</a></h2>
-    <span class="meta">Published: 2026-07-02 | Authors: Qiaowei Miao, Kehan Li, Yawei Luo, Yi Yang | Tags: cs.CV</span>
+    <h2><a href="http://arxiv.org/abs/2607.05394v1" target="_blank" rel="noopener">Weak-to-Strong Generalization via Direct On-Policy Distillation</a></h2>
+    <span class="meta">Published: 2026-07-06 | Authors: Shiyuan Feng, Huan-ang Gao, Haohan Chi, Hanlin Wu, Zhilong Zhang | Tags: cs.LG, cs.AI, cs.CL</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Generative diffusion models excel at synthesizing high-quality images, videos, and 3D content under multimodal control. However, arbitrary user-defined modality-to-4D (X-to-4D) generation remains challenging due to the high cost of constructing diverse datasets and the limited scalability of existing methods. This paper presents Align4D, a flexible framework that translates any-modal input into coherent video-3D pairs, using video to guide 4D motion and 3D data to shape 4D geometry. Align4D introduces three key techniques: (1) Object Distance Alignment, which searches Video-Aligned and Multiview-Aligned Object Distances (VAOD/MAOD), respectively, to reconcile 4D renderings with video and the priors of multiview diffusion models; (2) Motion-Geometry Joint Alignment, which constrains known a</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>As a new version of the project, this is an open source project.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>X-to-4D generation : Theoretically, the X-to-4D generation is all you need for X-to-4D generation.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Next steps:
-In order to do so, we need to first understand the many complex relationships between a high-density grid an...</p></section>
+    <section class="full"><h3>Abstract</h3><p>Reinforcement learning with verifiable rewards (RLVR) is a powerful recipe for improving language-model reasoning, but it is expensive to repeat on every new strong model because the target model must generate many rollouts during training. As models scale, post-training itself becomes a bottleneck. We study a weak-to-strong alternative: run RL on a smaller model where rollouts are cheaper, then reuse what that RL run learned to improve a stronger target model. Directly distilling the post-RL weak teacher is not enough, because the teacher's final policy mixes useful RL gains with the limitations of the smaller model. We propose Direct On-Policy Distillation (Direct-OPD), which transfers the teacher's RL-induced policy shift instead. Direct-OPD compares the post-RL teacher with its own pre</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>In this paper, I describe the basic methods used to perform the evaluation of a set of parameters in a single program.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>The last thing you need to do is check the data set and copy it to your server.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Lack-to-Strong Generalization through Direct On-Policy Distillation.</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2607.02515v1" target="_blank" rel="noopener">PointDiT: Pixel-Space Diffusion for Monocular Geometry Estimation</a></h2>
-    <span class="meta">Published: 2026-07-02 | Authors: Haofei Xu, Rundi Wu, Philipp Henzler, Nikolai Kalischek, Michael Oechsle | Tags: cs.CV</span>
+    <h2><a href="http://arxiv.org/abs/2607.05393v1" target="_blank" rel="noopener">Interpretable Human-Label-Free Deep Learning for Real-Bogus Classification with Uncertainty Quantification</a></h2>
+    <span class="meta">Published: 2026-07-06 | Authors: Raphaël Bonnet-Guerrini, Bruno Sanchez, Dominique Fouchez, Benjamin Racine, Maya Guy | Tags: astro-ph.IM, astro-ph.GA, astro-ph.HE</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>State-of-the-art single-image 3D reconstruction methods often rely on complex hybrid architectures and loss functions, or compress geometry into latent spaces in order to leverage pre-trained latent diffusion models. In this work, we show that such architectural overhead and intricate loss formulations are unnecessary. We introduce a minimalist pixel-space Diffusion Transformer, built on a plain ViT, that operates directly on raw 3D point map patches and is conditioned on image tokens from a pre-trained DINOv3. Unlike existing latent diffusion approaches, we train our diffusion backbone entirely from scratch, eliminating the need for point map tokenizers. Despite its simplicity, our approach surpasses complex latent-based diffusion models while remaining significantly simpler than hybrid a</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>A.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>A few common findings:
-A lot of the time we spent staring at the sky with our eye on the sky at night, we were able to s...</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>We need to make sure a way to test the same techniques in the real world using the same materials as the real world.</p></section>
+    <section class="full"><h3>Abstract</h3><p>Time-domain surveys generate many transient candidates, making Real-Bogus classification a critical step in automated discovery pipelines. Reliable labels are costly, while community labels can be noisy and survey-dependent. We aim to develop a Real-Bogus classification framework that can be trained without human-labeled data using injected transients and bogus-dominated survey data, remains robust under strong class contamination, and provides calibrated uncertainty quantification. We combine simulated transient injections with a contaminated survey class and train a dual-network model using asymmetric co-teaching for classes with different label-noise levels. We evaluate performance on a benchmark subset and analyze the learned representation with latent-space visualization tools. For un</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>This article is part of the "Deep Learning History" series, which is part of "Deep Learning History" series.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>In this paper we will explore the potential of the use of deep learning techniques for classification, identifying and c...</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2607.02514v1" target="_blank" rel="noopener">Distributed Attacks in Persistent-State AI Control</a></h2>
-    <span class="meta">Published: 2026-07-02 | Authors: Josh Hills, Ida Caspary, Asa Cooper Stickland | Tags: cs.AI</span>
+    <h2><a href="http://arxiv.org/abs/2607.05392v1" target="_blank" rel="noopener">SynCity 3000: Bootstrapping Scene-Scale 3D Diffusion</a></h2>
+    <span class="meta">Published: 2026-07-06 | Authors: Paul Engstler, Iro Laina, Christian Rupprecht, Andrea Vedaldi | Tags: cs.CV</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>As AI coding agents become more autonomous, they increasingly ship code iteratively, with the codebase persisting across sessions. This persistence creates a new attack surface: a misaligned or prompt-injected agent can distribute attacks across pull requests (PRs) and time its payload for the PR with the best natural cover. To study the resulting dynamics, we introduce Iterative VibeCoding, a setting for AI control, the study of safely deploying capable but potentially untrusted AI. In Iterative VibeCoding, a coding agent builds software over a sequence of PRs in a persistent codebase while pursuing a covert side task. Our benchmark includes two task families: CLI tools and Flask web services, across 20 total task variations. We use Claude Sonnet 4.5 as the attack agent and GPT-4o as the </p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>Using the Persistent-State AI Control.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>We are working to create a data warehouse that will let you store your data in a RESTful-State model.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Concurrent research:.</p></section>
+    <section class="full"><h3>Abstract</h3><p>We present SynCity 3000, a framework for generating 3D scenes that are globally coherent while enabling fine-grained layout control. Building on the ability of current image-to-3D generators to produce complex 3D assets from a single image, we extend this capability to the scale of entire scenes by adapting the generator to be applicable as a convolutional operator. We achieve this by fine-tuning the model on scene-like data generated by a new synthetic data engine, which we propose to address the scarcity of 3D scene data for training. The convolutional generator is then applied to a dimetric image of the entire scene, generated from the user prompt, resulting in 3D scenes of arbitrary size and complexity. Across diverse prompts and layouts, SynCity 3000 produces large, coherent, and deta</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>In the above example:
+To test the impact of the current build on the scene, it was necessary to use a different set of t...</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>- The new Clang 3D platform can be made using the Clang 3D platform.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>The above image is a work in progress with the new 3D Diffusion, a tool that is now available for use with various 3D 3D...</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2607.02513v1" target="_blank" rel="noopener">LACUNA: A Testbed for Evaluating Localization Precision for LLM Unlearning</a></h2>
-    <span class="meta">Published: 2026-07-02 | Authors: Matteo Boglioni, Thibault Rousset, Siva Reddy, Marius Mosbach, Verna Dankers | Tags: cs.CL, cs.AI, cs.LG</span>
+    <h2><a href="http://arxiv.org/abs/2607.05391v1" target="_blank" rel="noopener">LLM-as-a-Verifier: A General-Purpose Verification Framework</a></h2>
+    <span class="meta">Published: 2026-07-06 | Authors: Jacky Kwok, Shulu Li, Pranav Atreya, Yuejiang Liu, Yixing Jiang | Tags: cs.AI, cs.CL, cs.LG</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>LLMs memorize sensitive training data, including personally identifiable information (PII), creating a pressing need for reliable post hoc removal methods. Unlearning has emerged as a promising solution, with state-of-the-art(SOTA) methods often following a localize-first, unlearn-second paradigm that targets specific model parameters. However, existing benchmarks evaluate unlearning solely at the output level, leaving open the question of whether unlearning truly erases knowledge from a model's parameters or merely obfuscates it, a concern reinforced by the success of resurfacing attacks. To bridge this gap, we introduce LACUNA: the first unlearning testbed with ground-truth parameter-level localization. LACUNA injects PII of synthetic individuals into predefined parameters of 1B and 7B O</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>a statistical analysis of the data set from the LSAT for LLM Unlearning (LSAT).</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>Here are a few samples from the LLM Unlearning Project:
-To compare the LLM Unlearning Project, they provided a set of ba...</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>The CMA and the LLM-LACUNA collaboration is the first study of the impact of LACUNA on LACUNA.</p></section>
+    <section class="full"><h3>Abstract</h3><p>Scaling pre-training, post-training, and test-time compute have become the central paradigms for improving the capabilities of LLMs. In this work, we identify verification, the ability to determine the correctness of a solution, as a new scaling axis. To unlock this and demonstrate its effectiveness, we introduce LLM-as-a-Verifier, a general-purpose verification framework that provides fine-grained feedback for agentic tasks without requiring additional training. Unlike standard LM judges that prompt LLMs to produce discrete scores for candidate solutions, LLM-as-a-Verifier computes the expectation over the distribution of scoring token logits to generate continuous scores. This probabilistic formulation enables verification to scale along multiple dimensions: (1) score granularity, (2) re</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>We used the LLMS standard library for the validation of a standard library.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>[1]
+[2]
+[3]
+[4]
+[5]
+[6]
+[7]
+[8]
+[9]
+[10]
+[11]
+[12]
+[.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Bibliographic Abstracts: Bibliographic Abstracts: Bibliographic Abstracts: Bibliographic Abstracts: Bibliographic Abstra...</p></section>
   </div>
 </div>
 </main>
 <footer>
   <a href="https://github.com/PranayMahendrakar/arxiv-llm-analyzer">PranayMahendrakar/arxiv-llm-analyzer</a>
-  | Powered by DistilGPT2 (HuggingFace Transformers) | No API keys | 2026-07-06 10:17 UTC
+  | Powered by DistilGPT2 (HuggingFace Transformers) | No API keys | 2026-07-07 09:38 UTC
 </footer>
 </body></html>
