@@ -1,129 +1,114 @@
 [
   {
     "paper": {
-      "title": "From Fixed to Free Cameras: Calibration-Free View-Robust Vision-Language-Action Model",
-      "summary": "Real-world robot deployment rarely maintains the training-stage camera setup, where cameras often experience repositioning or remounting depending on actual scenarios. Existing view-robust Vision-Language-Action (VLA) policies tolerate such camera variations only when the camera extrinsics are explicitly provided, making them fragile and hard to use especially when view robustness is critical. We argue that the policy should not be told where the camera is, but rather figure it out by itself. To this end, we introduce Camera-Centric VLA (CamVLA), a new VLA model that decouples manipulation controls from camera geometry by predicting (i) a camera-centric end-effector action expressed in the local camera frame, and (ii) a 6-DoF hand-eye matrix relating cameras to the robot base. A determinis",
+      "title": "Skipping the rungs! Calibrating distance indicators through their clustering with galaxies",
+      "summary": "We show that angular cross-correlations between distance indicators and galaxy redshift catalogues, when interpreted within an assumed cosmological model, can constrain potential biases in distance measurements induced by calibration systematics. As a test case, we consider a simple scenario in which a constant calibration offset $ΔM$ shifts all observed distances by a multiplicative factor, and we produce Fisher forecasts for the constraining power on $ΔM$ and $H_0$ from existing and upcoming surveys. In our most optimistic scenario, based on the expected number of SN Ia observed by LSST and the DESI final data release, we find $σ_{ΔM} \\approx 0.05$ and $σ_{H_0} \\approx 1.81~\\mathrm{km~s^{-1}~Mpc^{-1}}$. This has important implications for the Hubble tension, since explaining the discrepa",
       "authors": [
-        "Wenhao Li",
-        "Xueying Jiang",
-        "Quanhao Qian",
-        "Deli Zhao",
-        "Shijian Lu"
+        "Madeline L. Cross-Parkin",
+        "Leonardo Giani",
+        "Cullan Howlett",
+        "Tamara M. Davis"
       ],
-      "link": "http://arxiv.org/abs/2607.05396v1",
-      "published": "2026-07-06",
+      "link": "http://arxiv.org/abs/2607.06567v1",
+      "published": "2026-07-07",
+      "categories": [
+        "astro-ph.CO"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The analysis of the clustering in all galaxies, with the aim of determining the relative distances between galaxies, was...",
+      "datasets": "Calibrating distance indicators as the primary source of the number of galaxies.",
+      "future_work": "What’s next?\nThis article is a continuation of a series of articles by Scott Schlesinger, co-author of the book, \"A Guid..."
+    }
+  },
+  {
+    "paper": {
+      "title": "The Chiral Random-Matrix Ensemble of the Type-IIB Axion--Dilaton Wormhole Partition Function",
+      "summary": "I construct a microscopic ADHM/chiral-Wishart representative of the reduced charge-sector coefficient $W_ν[b]$ that enters the Type-IIB axion--dilaton wormhole partition function $Z_{\\rm wh}(θ;b)$. I fix the axion-charge sector, equivalently the form-field-flux sector, which plays the exact same structural role as a fixed-topology sector in QCD: it supplies the domain where I compute the microscopic coefficient before forming the final theta sum. At $E=0$, the axion--dilaton radial family reaches its BPS instanton endpoint. After I impose the Hamiltonian constraint, gauge quotient, charge-sector boundary condition, and collective zero-mode quotient, the physical quadratic fluctuation operator at that endpoint becomes a positive adjoint square. Its non-zero spectrum is therefore a squared s",
+      "authors": [
+        "Soo-Jong Rey"
+      ],
+      "link": "http://arxiv.org/abs/2607.06566v1",
+      "published": "2026-07-07",
+      "categories": [
+        "hep-th"
+      ]
+    },
+    "analysis": {
+      "key_methods": "1.",
+      "datasets": "RUNS: The Chiral Random-Matrix\nRUNS: The Chiral Random-Matrix\nRUNS: The Chiral Random-Matrix\nRUNS: The Chiral Random-Mat...",
+      "future_work": "The Chiral Random-Matrix Ensemble of the Type-IIB Axion--Dilaton Wormhole Partition Function."
+    }
+  },
+  {
+    "paper": {
+      "title": "ELSA3D: Elastic Semantic Anchoring for Unified 3D Understanding and Generation",
+      "summary": "Unified 3D foundation models aspire to generate 3D assets and reason about them in language within a single backbone, but their text-3D interaction remains largely implicit. Existing methods concatenate text and 3D tokens into a flat sequence and rely on self-attention, collapsing coarse structural cues and fine geometric details into one undifferentiated representation. We introduce ELSA3D, a unified 3D model that addresses this with elastic semantic anchoring, structuring language and geometric reasoning jointly along matched abstraction scales. ELSA3D represents geometry with a scale-aware octree tokenizer and introduces Anchor Tokens, sparse cross-modal units that select semantic cues, route them to the most relevant 3D scale, retrieve scale-specific geometric evidence, and write the f",
+      "authors": [
+        "Tianjiao Yu",
+        "Xinzhuo Li",
+        "Yifan Shen",
+        "Onkar Susladkar",
+        "Yuanzhe Liu"
+      ],
+      "link": "http://arxiv.org/abs/2607.06565v1",
+      "published": "2026-07-07",
       "categories": [
         "cs.CV",
-        "cs.AI",
-        "cs.LG",
-        "cs.RO"
-      ]
-    },
-    "analysis": {
-      "key_methods": "In this paper, we have created a free-camera model that shows the use of a camera in a city as a way of connecting the t...",
-      "datasets": "This is a model that is used in many different ways to make a webcam, but it isn't the only tool that needs to be used b...",
-      "future_work": "For example, the use of dynamic images to display images is a good way to monitor movements and provide a rich, interact..."
-    }
-  },
-  {
-    "paper": {
-      "title": "Weak-to-Strong Generalization via Direct On-Policy Distillation",
-      "summary": "Reinforcement learning with verifiable rewards (RLVR) is a powerful recipe for improving language-model reasoning, but it is expensive to repeat on every new strong model because the target model must generate many rollouts during training. As models scale, post-training itself becomes a bottleneck. We study a weak-to-strong alternative: run RL on a smaller model where rollouts are cheaper, then reuse what that RL run learned to improve a stronger target model. Directly distilling the post-RL weak teacher is not enough, because the teacher's final policy mixes useful RL gains with the limitations of the smaller model. We propose Direct On-Policy Distillation (Direct-OPD), which transfers the teacher's RL-induced policy shift instead. Direct-OPD compares the post-RL teacher with its own pre",
-      "authors": [
-        "Shiyuan Feng",
-        "Huan-ang Gao",
-        "Haohan Chi",
-        "Hanlin Wu",
-        "Zhilong Zhang"
-      ],
-      "link": "http://arxiv.org/abs/2607.05394v1",
-      "published": "2026-07-06",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CL"
-      ]
-    },
-    "analysis": {
-      "key_methods": "In this paper, I describe the basic methods used to perform the evaluation of a set of parameters in a single program.",
-      "datasets": "The last thing you need to do is check the data set and copy it to your server.",
-      "future_work": "Lack-to-Strong Generalization through Direct On-Policy Distillation."
-    }
-  },
-  {
-    "paper": {
-      "title": "Interpretable Human-Label-Free Deep Learning for Real-Bogus Classification with Uncertainty Quantification",
-      "summary": "Time-domain surveys generate many transient candidates, making Real-Bogus classification a critical step in automated discovery pipelines. Reliable labels are costly, while community labels can be noisy and survey-dependent. We aim to develop a Real-Bogus classification framework that can be trained without human-labeled data using injected transients and bogus-dominated survey data, remains robust under strong class contamination, and provides calibrated uncertainty quantification. We combine simulated transient injections with a contaminated survey class and train a dual-network model using asymmetric co-teaching for classes with different label-noise levels. We evaluate performance on a benchmark subset and analyze the learned representation with latent-space visualization tools. For un",
-      "authors": [
-        "Raphaël Bonnet-Guerrini",
-        "Bruno Sanchez",
-        "Dominique Fouchez",
-        "Benjamin Racine",
-        "Maya Guy"
-      ],
-      "link": "http://arxiv.org/abs/2607.05393v1",
-      "published": "2026-07-06",
-      "categories": [
-        "astro-ph.IM",
-        "astro-ph.GA",
-        "astro-ph.HE",
         "cs.AI",
         "cs.LG"
       ]
     },
     "analysis": {
-      "key_methods": ".",
-      "datasets": "This article is part of the \"Deep Learning History\" series, which is part of \"Deep Learning History\" series.",
-      "future_work": "In this paper we will explore the potential of the use of deep learning techniques for classification, identifying and c..."
+      "key_methods": "Elastic Semantic Anchoring for Unified 3D Understanding and Generation.",
+      "datasets": "Elastic Semantic Anchoring for Unified 3D Understanding and Generation.",
+      "future_work": "Data science and machine learning systems."
     }
   },
   {
     "paper": {
-      "title": "SynCity 3000: Bootstrapping Scene-Scale 3D Diffusion",
-      "summary": "We present SynCity 3000, a framework for generating 3D scenes that are globally coherent while enabling fine-grained layout control. Building on the ability of current image-to-3D generators to produce complex 3D assets from a single image, we extend this capability to the scale of entire scenes by adapting the generator to be applicable as a convolutional operator. We achieve this by fine-tuning the model on scene-like data generated by a new synthetic data engine, which we propose to address the scarcity of 3D scene data for training. The convolutional generator is then applied to a dimetric image of the entire scene, generated from the user prompt, resulting in 3D scenes of arbitrary size and complexity. Across diverse prompts and layouts, SynCity 3000 produces large, coherent, and deta",
+      "title": "Lift3D-VLA: Lifting VLA Models to 3D Geometry and Dynamics-Aware Manipulation",
+      "summary": "Recently, Vision-Language-Action (VLA) models have demonstrated strong generalization across diverse tasks. However, effective robotic manipulation in physical environments fundamentally requires geometric understanding and spatial reasoning. While some VLA approaches attempt to incorporate 3D information, they are constrained by limited data availability and geometric information loss in current 3D encoding pipelines, and fail to jointly capture 3D geometry and temporally structured actions in dynamic environments. To address these limitations, we introduce Lift3D-VLA, a unified VLA framework that equips models with explicit 3D point cloud reasoning and enables temporally coherent action generation. First, building upon our previous work Lift3D, an enhanced 2D model-lifting strategy is pr",
       "authors": [
-        "Paul Engstler",
-        "Iro Laina",
-        "Christian Rupprecht",
-        "Andrea Vedaldi"
+        "Jiaming Liu",
+        "Qingpo Wuwu",
+        "Nuowei Han",
+        "Hao Chen",
+        "Zhuoyang Liu"
       ],
-      "link": "http://arxiv.org/abs/2607.05392v1",
-      "published": "2026-07-06",
+      "link": "http://arxiv.org/abs/2607.06564v1",
+      "published": "2026-07-07",
       "categories": [
+        "cs.RO",
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "In the above example:\nTo test the impact of the current build on the scene, it was necessary to use a different set of t...",
-      "datasets": "- The new Clang 3D platform can be made using the Clang 3D platform.",
-      "future_work": "The above image is a work in progress with the new 3D Diffusion, a tool that is now available for use with various 3D 3D..."
+      "key_methods": "The following is an example of the transformation of VLA models to 3D geometries.",
+      "datasets": "Analysing the data from the 1,5,000-meter high-voltage 4-D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D.",
+      "future_work": "Using 3D models on 3D geometry and dynamics is important for understanding the relationship between the two systems."
     }
   },
   {
     "paper": {
-      "title": "LLM-as-a-Verifier: A General-Purpose Verification Framework",
-      "summary": "Scaling pre-training, post-training, and test-time compute have become the central paradigms for improving the capabilities of LLMs. In this work, we identify verification, the ability to determine the correctness of a solution, as a new scaling axis. To unlock this and demonstrate its effectiveness, we introduce LLM-as-a-Verifier, a general-purpose verification framework that provides fine-grained feedback for agentic tasks without requiring additional training. Unlike standard LM judges that prompt LLMs to produce discrete scores for candidate solutions, LLM-as-a-Verifier computes the expectation over the distribution of scoring token logits to generate continuous scores. This probabilistic formulation enables verification to scale along multiple dimensions: (1) score granularity, (2) re",
+      "title": "Minimum Energies and Magnetic Field Strengths of Edge-brightened Compact Symmetric Objects",
+      "summary": "Compact symmetric objects (CSOs) are subkiloparsec radio sources with two-sided emission about a core resulting from jets that are not relativistically beamed towards the observer. This relative simplicity makes them attractive targets to study the launching and evolution of relativistic jets. We use radio surveys and spatially resolved VLBA observations to estimate the minimum energies and magnetic field strengths of a subset of edge-brightened CSOs (CSO-2s). These are necessary to test models of CSO-2 formation via stellar capture and evolution via synchrotron cooling. By treating the observed X-ray emission of CSO-2s as inverse Compton emission from synchrotron and external photon fields, we estimate a mean departure from the minimum energy magnetic field strengths of ${\\sim}2\\times$, s",
       "authors": [
-        "Jacky Kwok",
-        "Shulu Li",
-        "Pranav Atreya",
-        "Yuejiang Liu",
-        "Yixing Jiang"
+        "Tirth D. Surti",
+        "Martijn S. S. L. Oei",
+        "Anthony C. S. Readhead",
+        "Andrew G. Sullivan"
       ],
-      "link": "http://arxiv.org/abs/2607.05391v1",
-      "published": "2026-07-06",
+      "link": "http://arxiv.org/abs/2607.06562v1",
+      "published": "2026-07-07",
       "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.LG",
-        "cs.MA",
-        "cs.RO"
+        "astro-ph.HE"
       ]
     },
     "analysis": {
-      "key_methods": "We used the LLMS standard library for the validation of a standard library.",
-      "datasets": "[1]\n[2]\n[3]\n[4]\n[5]\n[6]\n[7]\n[8]\n[9]\n[10]\n[11]\n[12]\n[.",
-      "future_work": "Bibliographic Abstracts: Bibliographic Abstracts: Bibliographic Abstracts: Bibliographic Abstracts: Bibliographic Abstra..."
+      "key_methods": "The minimum Energies and magnetic field Strengths of Edge-brightened Compact Symmetric Objects.",
+      "datasets": "1.",
+      "future_work": "The potential of magnetic field and field lasers would help to develop a wide range of magnetic field and field lasers."
     }
   }
 ]
