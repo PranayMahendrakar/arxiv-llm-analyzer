@@ -1,114 +1,118 @@
 [
   {
     "paper": {
-      "title": "Skipping the rungs! Calibrating distance indicators through their clustering with galaxies",
-      "summary": "We show that angular cross-correlations between distance indicators and galaxy redshift catalogues, when interpreted within an assumed cosmological model, can constrain potential biases in distance measurements induced by calibration systematics. As a test case, we consider a simple scenario in which a constant calibration offset $ΔM$ shifts all observed distances by a multiplicative factor, and we produce Fisher forecasts for the constraining power on $ΔM$ and $H_0$ from existing and upcoming surveys. In our most optimistic scenario, based on the expected number of SN Ia observed by LSST and the DESI final data release, we find $σ_{ΔM} \\approx 0.05$ and $σ_{H_0} \\approx 1.81~\\mathrm{km~s^{-1}~Mpc^{-1}}$. This has important implications for the Hubble tension, since explaining the discrepa",
+      "title": "Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning",
+      "summary": "Structure-property relationships are foundational to biology, chemistry and materials science, where function, reactivity and physical response emerge from spatial, chemical and periodic organization. Mechanistically explaining these relationships requires interpreting structural evidence through scientific principles and physical constraints, from stereochemistry and bonding to symmetry, energetics and periodic order. However, applying artificial intelligence to this process presents a joint challenge of representation and reasoning: models must preserve domain-native structural information while showing how specific evidence supports predictions under these constraints. Here we introduce SciReasoner, a multimodal scientific foundation model for native structural reasoning across proteins",
       "authors": [
-        "Madeline L. Cross-Parkin",
-        "Leonardo Giani",
-        "Cullan Howlett",
-        "Tamara M. Davis"
+        "Chen Tang",
+        "Yizhou Wang",
+        "Jianyu Wu",
+        "Lintao Wang",
+        "Shixiang Tang"
       ],
-      "link": "http://arxiv.org/abs/2607.06567v1",
-      "published": "2026-07-07",
+      "link": "http://arxiv.org/abs/2607.07708v1",
+      "published": "2026-07-08",
       "categories": [
-        "astro-ph.CO"
+        "cs.CL",
+        "cs.AI",
+        "cs.CE",
+        "cs.LG"
       ]
     },
     "analysis": {
-      "key_methods": "The analysis of the clustering in all galaxies, with the aim of determining the relative distances between galaxies, was...",
-      "datasets": "Calibrating distance indicators as the primary source of the number of galaxies.",
-      "future_work": "What’s next?\nThis article is a continuation of a series of articles by Scott Schlesinger, co-author of the book, \"A Guid..."
+      "key_methods": "We used a deep-learning algorithm to solve the problem of understanding structural principles with deep-learning neural ...",
+      "datasets": "1.",
+      "future_work": "The Nature of Structural Reasoning."
     }
   },
   {
     "paper": {
-      "title": "The Chiral Random-Matrix Ensemble of the Type-IIB Axion--Dilaton Wormhole Partition Function",
-      "summary": "I construct a microscopic ADHM/chiral-Wishart representative of the reduced charge-sector coefficient $W_ν[b]$ that enters the Type-IIB axion--dilaton wormhole partition function $Z_{\\rm wh}(θ;b)$. I fix the axion-charge sector, equivalently the form-field-flux sector, which plays the exact same structural role as a fixed-topology sector in QCD: it supplies the domain where I compute the microscopic coefficient before forming the final theta sum. At $E=0$, the axion--dilaton radial family reaches its BPS instanton endpoint. After I impose the Hamiltonian constraint, gauge quotient, charge-sector boundary condition, and collective zero-mode quotient, the physical quadratic fluctuation operator at that endpoint becomes a positive adjoint square. Its non-zero spectrum is therefore a squared s",
+      "title": "The Subversive Role of Excessive External Shear in Concealing Lensing Anomalies",
+      "summary": "To best reproduce observed multiply-lensed lensed images, lens models usually incorporate shear attributed to objects unrelated to the lensing galaxy (i.e., external shear): whether it be neighbouring galaxies not explicitly included in the lens model or other cosmic structures along the sightline. When constrained solely by the positions of image counterparts, such lens models, even those utilising simple ellipsoidal mass distributions, can satisfactorily -- if not near perfectly -- reproduce the observed image positions, but often leave significant differences in flux ratios between the predicted and observed images. For the narrow-line regions (NLRs) of quasars, which are too large to be affected by micro-lensing from stars in the lensing galaxy, the flux ratio anomalies thus left are c",
       "authors": [
-        "Soo-Jong Rey"
+        "Amruth Alfred",
+        "Shashpal Singh",
+        "Rommulus Francis Lewis",
+        "Alex Chow",
+        "Jeremy Lim"
       ],
-      "link": "http://arxiv.org/abs/2607.06566v1",
-      "published": "2026-07-07",
+      "link": "http://arxiv.org/abs/2607.07709v1",
+      "published": "2026-07-08",
       "categories": [
-        "hep-th"
+        "astro-ph.CO",
+        "astro-ph.GA"
       ]
     },
     "analysis": {
       "key_methods": "1.",
-      "datasets": "RUNS: The Chiral Random-Matrix\nRUNS: The Chiral Random-Matrix\nRUNS: The Chiral Random-Matrix\nRUNS: The Chiral Random-Mat...",
-      "future_work": "The Chiral Random-Matrix Ensemble of the Type-IIB Axion--Dilaton Wormhole Partition Function."
+      "datasets": "There are three major ways to manipulate your image, for example by using an image as a focal point.",
+      "future_work": "An online review of a review of a research paper published in Current Biology, doi:10."
     }
   },
   {
     "paper": {
-      "title": "ELSA3D: Elastic Semantic Anchoring for Unified 3D Understanding and Generation",
-      "summary": "Unified 3D foundation models aspire to generate 3D assets and reason about them in language within a single backbone, but their text-3D interaction remains largely implicit. Existing methods concatenate text and 3D tokens into a flat sequence and rely on self-attention, collapsing coarse structural cues and fine geometric details into one undifferentiated representation. We introduce ELSA3D, a unified 3D model that addresses this with elastic semantic anchoring, structuring language and geometric reasoning jointly along matched abstraction scales. ELSA3D represents geometry with a scale-aware octree tokenizer and introduces Anchor Tokens, sparse cross-modal units that select semantic cues, route them to the most relevant 3D scale, retrieve scale-specific geometric evidence, and write the f",
+      "title": "Co-LMLM: Continuous-Query Limited Memory Language Models",
+      "summary": "Limited memory language models (LMLMs) externalize factual knowledge during pretraining to a knowledge base (KB), rather than memorizing it in their weights. During generation, the model then fetches knowledge from the KB as needed. This recently introduced paradigm provides multiple advantages, including knowledge control capabilities that remain beyond conventional LLMs. We propose continuous-query LMLM (CO-LMLM), where the KB pairs continuous keys with textual knowledge values, a significant departure from prior reliance on relational KB and queries. CO-LMLM generates flexible vector queries at minimal cost, while still integrating human-readable and attributable retrieved knowledge into its generation. We pair this design with an annotation pipeline that tags free-form factual spans in",
       "authors": [
-        "Tianjiao Yu",
-        "Xinzhuo Li",
-        "Yifan Shen",
-        "Onkar Susladkar",
-        "Yuanzhe Liu"
+        "Yair Feldman",
+        "Linxi Zhao",
+        "Nathan Godey",
+        "Dongyoung Go",
+        "Yilun Hua"
       ],
-      "link": "http://arxiv.org/abs/2607.06565v1",
-      "published": "2026-07-07",
+      "link": "http://arxiv.org/abs/2607.07707v1",
+      "published": "2026-07-08",
       "categories": [
-        "cs.CV",
+        "cs.CL",
         "cs.AI",
         "cs.LG"
       ]
     },
     "analysis": {
-      "key_methods": "Elastic Semantic Anchoring for Unified 3D Understanding and Generation.",
-      "datasets": "Elastic Semantic Anchoring for Unified 3D Understanding and Generation.",
-      "future_work": "Data science and machine learning systems."
+      "key_methods": "In the first part of the study, we used the C++ language-specific C++ programming language to create a complete set of C...",
+      "datasets": "The C++ Standard Library\nThe C++ Standard Library\nThe C++ Standard Library is a library for code written and evaluated i...",
+      "future_work": "."
     }
   },
   {
     "paper": {
-      "title": "Lift3D-VLA: Lifting VLA Models to 3D Geometry and Dynamics-Aware Manipulation",
-      "summary": "Recently, Vision-Language-Action (VLA) models have demonstrated strong generalization across diverse tasks. However, effective robotic manipulation in physical environments fundamentally requires geometric understanding and spatial reasoning. While some VLA approaches attempt to incorporate 3D information, they are constrained by limited data availability and geometric information loss in current 3D encoding pipelines, and fail to jointly capture 3D geometry and temporally structured actions in dynamic environments. To address these limitations, we introduce Lift3D-VLA, a unified VLA framework that equips models with explicit 3D point cloud reasoning and enables temporally coherent action generation. First, building upon our previous work Lift3D, an enhanced 2D model-lifting strategy is pr",
+      "title": "The Key to Going Linear: Analysis-Driven Transformer Linearization",
+      "summary": "The quadratic cost of causal self-attention severely bottlenecks long-context transformer inference. While numerous post hoc linearization pipelines exist, it is difficult to identify which components preserve model quality. This work isolates the effect of state update design in a strict frozen-backbone regime. We show that softmax relies on key-dependent, rank-1 orthogonal projections, elucidating why delta-style networks outperform purely gated accumulation. We identify a potential source of approximation errors and introduce structural interventions, specifically sink tokens, short convolutions, and fixed-budget cache routing, which reduces the remaining gap. We scale this linearization approach across LLaMA and Qwen models up to 32B parameters, outperforming prior post hoc baselines o",
       "authors": [
-        "Jiaming Liu",
-        "Qingpo Wuwu",
-        "Nuowei Han",
-        "Hao Chen",
-        "Zhuoyang Liu"
+        "Anna Kuzina",
+        "Paul N. Whatmough",
+        "Babak Ehteshami Bejnordi"
       ],
-      "link": "http://arxiv.org/abs/2607.06564v1",
-      "published": "2026-07-07",
+      "link": "http://arxiv.org/abs/2607.07706v1",
+      "published": "2026-07-08",
       "categories": [
-        "cs.RO",
-        "cs.CV"
+        "cs.LG"
       ]
     },
     "analysis": {
-      "key_methods": "The following is an example of the transformation of VLA models to 3D geometries.",
-      "datasets": "Analysing the data from the 1,5,000-meter high-voltage 4-D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D.",
-      "future_work": "Using 3D models on 3D geometry and dynamics is important for understanding the relationship between the two systems."
+      "key_methods": "The data were obtained using a model (which is similar to what you might expect in a linear model) and a model (which is...",
+      "datasets": "One of the advantages of using a linearization is that it allows the user to think about the linearization of a given wa...",
+      "future_work": "The key to going linear is to understand the properties of linearization."
     }
   },
   {
     "paper": {
-      "title": "Minimum Energies and Magnetic Field Strengths of Edge-brightened Compact Symmetric Objects",
-      "summary": "Compact symmetric objects (CSOs) are subkiloparsec radio sources with two-sided emission about a core resulting from jets that are not relativistically beamed towards the observer. This relative simplicity makes them attractive targets to study the launching and evolution of relativistic jets. We use radio surveys and spatially resolved VLBA observations to estimate the minimum energies and magnetic field strengths of a subset of edge-brightened CSOs (CSO-2s). These are necessary to test models of CSO-2 formation via stellar capture and evolution via synchrotron cooling. By treating the observed X-ray emission of CSO-2s as inverse Compton emission from synchrotron and external photon fields, we estimate a mean departure from the minimum energy magnetic field strengths of ${\\sim}2\\times$, s",
+      "title": "Radio emission from close-in exoplanets: Can we extend the radio-magnetic scaling law to the sub-Alfvénic stellar wind regime?",
+      "summary": "Observations of exoplanetary radio aurora can directly probe planetary magnetic fields and magnetic star-planet interactions. However, the search for exoplanetary radio aurora has been without confirmed detections despite favorable predictions based on extrapolations of the radio-magnetic scaling law (RMSL). The RMSL is based on solar system planets in the super-Alvenic solar wind and it is unclear whether the RMSL holds for close-in exoplanets in more magnetic, sub-Alfvenic winds. We aim to test whether the relation can be extended to sub-Alfvenic stellar winds. We employ 3D magnetohydrodynamic simulations of the magnetosphere of a Jupiter-like planet at various distances from the Sun to study the expected radio power, considering atmospheric photoionization, a solar wind model with nomin",
       "authors": [
-        "Tirth D. Surti",
-        "Martijn S. S. L. Oei",
-        "Anthony C. S. Readhead",
-        "Andrew G. Sullivan"
+        "Filip Elekes",
+        "Aline A. Vidotto"
       ],
-      "link": "http://arxiv.org/abs/2607.06562v1",
-      "published": "2026-07-07",
+      "link": "http://arxiv.org/abs/2607.07704v1",
+      "published": "2026-07-08",
       "categories": [
-        "astro-ph.HE"
+        "astro-ph.EP"
       ]
     },
     "analysis": {
-      "key_methods": "The minimum Energies and magnetic field Strengths of Edge-brightened Compact Symmetric Objects.",
-      "datasets": "1.",
-      "future_work": "The potential of magnetic field and field lasers would help to develop a wide range of magnetic field and field lasers."
+      "key_methods": ".",
+      "datasets": "Alfvénic stellar wind regime is a more accurate and more reliable method of calculating the minimum energy required for ...",
+      "future_work": "The goal of this paper is to test the theory of the existence of a planet and its inner Solar System."
     }
   }
 ]
