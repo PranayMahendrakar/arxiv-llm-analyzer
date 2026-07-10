@@ -1,118 +1,116 @@
 [
   {
     "paper": {
-      "title": "Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning",
-      "summary": "Structure-property relationships are foundational to biology, chemistry and materials science, where function, reactivity and physical response emerge from spatial, chemical and periodic organization. Mechanistically explaining these relationships requires interpreting structural evidence through scientific principles and physical constraints, from stereochemistry and bonding to symmetry, energetics and periodic order. However, applying artificial intelligence to this process presents a joint challenge of representation and reasoning: models must preserve domain-native structural information while showing how specific evidence supports predictions under these constraints. Here we introduce SciReasoner, a multimodal scientific foundation model for native structural reasoning across proteins",
+      "title": "Wat3R: Underwater 3D Geometry Learning without Annotations",
+      "summary": "Estimating 3D geometry in underwater environments presents unique challenges due to light attenuation, scattering, and the absence of large-scale, high-quality 3D annotations. Pioneering methods rely on massive dense annotations that are impractical in underwater settings. In this paper, we propose Wat3R, a cross-domain semi-supervised learning framework designed to adapt feed-forward 3D reconstruction models from air to underwater scenes. Uniquely, our method eliminates the need for any annotated underwater data following a teacher-student architecture, that learns robust geometry representations merely on abundant unlabeled real underwater video footage. We also design a cross-view consistency loss that leverages geometric cues from other views to compensate for the information degradati",
       "authors": [
-        "Chen Tang",
-        "Yizhou Wang",
-        "Jianyu Wu",
-        "Lintao Wang",
-        "Shixiang Tang"
+        "Jiangwei Ren",
+        "Xingyu Jiang",
+        "Zijie Song",
+        "Wei Xu",
+        "Hongkai Lin"
       ],
-      "link": "http://arxiv.org/abs/2607.07708v1",
-      "published": "2026-07-08",
+      "link": "http://arxiv.org/abs/2607.08772v1",
+      "published": "2026-07-09",
       "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.CE",
-        "cs.LG"
+        "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "We used a deep-learning algorithm to solve the problem of understanding structural principles with deep-learning neural ...",
-      "datasets": "1.",
-      "future_work": "The Nature of Structural Reasoning."
+      "key_methods": "First, we use a model of the geometric distribution of the geometrical distribution of the data.",
+      "datasets": "This post is a collection of the basic mathematics functions of the first two classes:\nThe first class is a linear algeb...",
+      "future_work": "Future research:\nFuture research:\nFuture research:\nFuture research:\nFuture research:\nFuture research:\nFuture research:\nF..."
     }
   },
   {
     "paper": {
-      "title": "The Subversive Role of Excessive External Shear in Concealing Lensing Anomalies",
-      "summary": "To best reproduce observed multiply-lensed lensed images, lens models usually incorporate shear attributed to objects unrelated to the lensing galaxy (i.e., external shear): whether it be neighbouring galaxies not explicitly included in the lens model or other cosmic structures along the sightline. When constrained solely by the positions of image counterparts, such lens models, even those utilising simple ellipsoidal mass distributions, can satisfactorily -- if not near perfectly -- reproduce the observed image positions, but often leave significant differences in flux ratios between the predicted and observed images. For the narrow-line regions (NLRs) of quasars, which are too large to be affected by micro-lensing from stars in the lensing galaxy, the flux ratio anomalies thus left are c",
+      "title": "ZipDepth: Bringing Lightweight Zero-Shot Monocular Depth Anywhere, on Any Device",
+      "summary": "Monocular depth estimation has seen remarkable progress through foundation models achieving robust zero-shot generalization, yet their computational demands place them far beyond the reach of embedded and mobile platforms. Lightweight alternatives exist, but have been developed almost exclusively within single-domain, self-supervised paradigms, failing silently under domain shift. We present ZipDepth, a compact monocular depth network that bridges this gap by combining an efficient reparameterizable encoder-decoder with large-scale knowledge distillation from a foundation model over a large multi-domain training set. Comprising just 6.1M parameters, ZipDepth runs at real-time rates from server GPUs to power-constrained devices, achieving the best trade-off between zero-shot accuracy and de",
       "authors": [
-        "Amruth Alfred",
-        "Shashpal Singh",
-        "Rommulus Francis Lewis",
-        "Alex Chow",
-        "Jeremy Lim"
+        "Fabio Tosi",
+        "Luca Bartolomei",
+        "Matteo Poggi",
+        "Stefano Mattoccia"
       ],
-      "link": "http://arxiv.org/abs/2607.07709v1",
-      "published": "2026-07-08",
+      "link": "http://arxiv.org/abs/2607.08771v1",
+      "published": "2026-07-09",
       "categories": [
-        "astro-ph.CO",
-        "astro-ph.GA"
+        "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "1.",
-      "datasets": "There are three major ways to manipulate your image, for example by using an image as a focal point.",
-      "future_work": "An online review of a review of a research paper published in Current Biology, doi:10."
+      "key_methods": "To minimize the number of times the sun shines on the ground, we used a series of lightbulbs to create a 100mm-wide squa...",
+      "datasets": "MOSCOW.",
+      "future_work": "For all the questions, let us know in the comments."
     }
   },
   {
     "paper": {
-      "title": "Co-LMLM: Continuous-Query Limited Memory Language Models",
-      "summary": "Limited memory language models (LMLMs) externalize factual knowledge during pretraining to a knowledge base (KB), rather than memorizing it in their weights. During generation, the model then fetches knowledge from the KB as needed. This recently introduced paradigm provides multiple advantages, including knowledge control capabilities that remain beyond conventional LLMs. We propose continuous-query LMLM (CO-LMLM), where the KB pairs continuous keys with textual knowledge values, a significant departure from prior reliance on relational KB and queries. CO-LMLM generates flexible vector queries at minimal cost, while still integrating human-readable and attributable retrieved knowledge into its generation. We pair this design with an annotation pipeline that tags free-form factual spans in",
+      "title": "LongE2V: Long-Horizon Event-based Video Reconstruction, Prediction, and Frame Interpolation with Video Diffusion Models",
+      "summary": "Recovering high-quality video from sparse event streams is a challenging task. Regression methods often blur textures, while existing generative models struggle with long-term stability. We propose LongE2V, a novel approach that leverages pre-trained video diffusion priors to jointly handle event-based video reconstruction, prediction, and frame interpolation. By fine-tuning a foundational video model, our approach achieves high data efficiency and superior perceptual quality. We introduce Autoregressive Unrolling and Adaptive Context Switching to mitigate temporal drift in extremely long sequences. We also propose Reencoding Alignment with Cross Residual Correction to ensure precise bidirectional consistency during frame interpolation. Furthermore, Event Voxel Density Augmentation ensures",
       "authors": [
-        "Yair Feldman",
-        "Linxi Zhao",
-        "Nathan Godey",
-        "Dongyoung Go",
-        "Yilun Hua"
+        "Cheng-De Fan",
+        "Chun-Wei Tuan Mu",
+        "Chen-Wei Chang",
+        "Chin-Yang Lin",
+        "Kun-Ru Wu"
       ],
-      "link": "http://arxiv.org/abs/2607.07707v1",
-      "published": "2026-07-08",
+      "link": "http://arxiv.org/abs/2607.08770v1",
+      "published": "2026-07-09",
       "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.LG"
+        "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "In the first part of the study, we used the C++ language-specific C++ programming language to create a complete set of C...",
-      "datasets": "The C++ Standard Library\nThe C++ Standard Library\nThe C++ Standard Library is a library for code written and evaluated i...",
-      "future_work": "."
+      "key_methods": "The study was conducted in conjunction with the National Center for the Advancement of Science and Technology (NCCAT): O...",
+      "datasets": ".",
+      "future_work": "A possible approach to the post-processing and post-processing problems."
     }
   },
   {
     "paper": {
-      "title": "The Key to Going Linear: Analysis-Driven Transformer Linearization",
-      "summary": "The quadratic cost of causal self-attention severely bottlenecks long-context transformer inference. While numerous post hoc linearization pipelines exist, it is difficult to identify which components preserve model quality. This work isolates the effect of state update design in a strict frozen-backbone regime. We show that softmax relies on key-dependent, rank-1 orthogonal projections, elucidating why delta-style networks outperform purely gated accumulation. We identify a potential source of approximation errors and introduce structural interventions, specifically sink tokens, short convolutions, and fixed-budget cache routing, which reduces the remaining gap. We scale this linearization approach across LLaMA and Qwen models up to 32B parameters, outperforming prior post hoc baselines o",
+      "title": "Geometry and Gradient-based Partitioning for Panoramic Outdoor Reconstruction",
+      "summary": "Scaling 3D Gaussian Splatting (3DGS) to large outdoor scenes is costly in both data acquisition and computation. Adopting panoramic images with equirectangular projection (ERP) can reduce capture effort via their full $360^{\\circ}$ field of view, yet the resulting omnipresent visibility invalidates existing partitioning strategies that rely on local camera frustums, causing block-wise optimization to degenerate into global training. Thus, we propose PanoLOG, a two-stage coarse-to-fine framework equipped with a Geometry and Gradient-based Partitioning Strategy tailored for large-scale panoramic 3DGS reconstruction. In the global coarse stage, PanoLOG leverages sky-sphere modeling and panoramic monocular depth supervision for reliable geometry, while in the refinement stage, G$^2$PS builds a",
       "authors": [
-        "Anna Kuzina",
-        "Paul N. Whatmough",
-        "Babak Ehteshami Bejnordi"
+        "Weijian Chen",
+        "Weibo Yao",
+        "Yuhang Zhang",
+        "Xiaolin Tang",
+        "Guo Wang"
       ],
-      "link": "http://arxiv.org/abs/2607.07706v1",
-      "published": "2026-07-08",
+      "link": "http://arxiv.org/abs/2607.08769v1",
+      "published": "2026-07-09",
       "categories": [
-        "cs.LG"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The data were obtained using a model (which is similar to what you might expect in a linear model) and a model (which is...",
-      "datasets": "One of the advantages of using a linearization is that it allows the user to think about the linearization of a given wa...",
-      "future_work": "The key to going linear is to understand the properties of linearization."
-    }
-  },
-  {
-    "paper": {
-      "title": "Radio emission from close-in exoplanets: Can we extend the radio-magnetic scaling law to the sub-Alfvénic stellar wind regime?",
-      "summary": "Observations of exoplanetary radio aurora can directly probe planetary magnetic fields and magnetic star-planet interactions. However, the search for exoplanetary radio aurora has been without confirmed detections despite favorable predictions based on extrapolations of the radio-magnetic scaling law (RMSL). The RMSL is based on solar system planets in the super-Alvenic solar wind and it is unclear whether the RMSL holds for close-in exoplanets in more magnetic, sub-Alfvenic winds. We aim to test whether the relation can be extended to sub-Alfvenic stellar winds. We employ 3D magnetohydrodynamic simulations of the magnetosphere of a Jupiter-like planet at various distances from the Sun to study the expected radio power, considering atmospheric photoionization, a solar wind model with nomin",
-      "authors": [
-        "Filip Elekes",
-        "Aline A. Vidotto"
-      ],
-      "link": "http://arxiv.org/abs/2607.07704v1",
-      "published": "2026-07-08",
-      "categories": [
-        "astro-ph.EP"
+        "cs.CV"
       ]
     },
     "analysis": {
       "key_methods": ".",
-      "datasets": "Alfvénic stellar wind regime is a more accurate and more reliable method of calculating the minimum energy required for ...",
-      "future_work": "The goal of this paper is to test the theory of the existence of a planet and its inner Solar System."
+      "datasets": "The following table shows the position of the satellite with the position of a satellite.",
+      "future_work": "Using the same techniques to extract and analyze surface features and transform the surfaces of the water used in the wa..."
+    }
+  },
+  {
+    "paper": {
+      "title": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
+      "summary": "The rapid development of large language models and multimodal large language models has accelerated the emergence of proactive agents capable of operating everyday tools and assisting users in real-world environments. However, existing benchmarks struggle to evaluate such agents effectively, as they often rely on sandboxed environments and single-turn evaluation paradigms. Moreover, their scenario-based task taxonomies mix multiple model capabilities within the same task category, making it difficult to identify the root causes of agent failures. To address these limitations, we introduce UniClawBench, the first capability-driven benchmark designed to evaluate proactive agents in dynamic, real-world settings. UniClawBench is built around five foundational model capabilities: Skill Usage, E",
+      "authors": [
+        "Zhekai Chen",
+        "Chengqi Duan",
+        "Kaiyue Sun",
+        "Bohao Li",
+        "Yuqing Wang"
+      ],
+      "link": "http://arxiv.org/abs/2607.08768v1",
+      "published": "2026-07-09",
+      "categories": [
+        "cs.CL"
+      ]
+    },
+    "analysis": {
+      "key_methods": "A common way to calculate the number of days of work and the number of jobs that are currently being performed.",
+      "datasets": "In the past several years, we have found that we have used a number of different tools, including a wide variety of data...",
+      "future_work": "I've been researching the term \"multi-task\" for years now, and this time I'm going to share a series that can be used to..."
     }
   }
 ]
