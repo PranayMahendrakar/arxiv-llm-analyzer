@@ -1,120 +1,118 @@
 [
   {
     "paper": {
-      "title": "PHINN-EEG: Topological Time-Series Analysis of Dream-State EEG -- Dynamic Betti Curves for Dream Content Classification and Topology-Conditioned Neural Signal Synthesis",
-      "summary": "Current electroencephalography (EEG)-based dream detection relies on power spectral density (PSD) and statistical moment features, achieving a state-of-the-art area under the receiver operating characteristic curve (AUC) of approximately 0.70 on the DREAM database (Wong et al., 2025, Nature Communications). We introduce PHINN-EEG (Persistent Homology Inspired Neural Network for EEG), the first topological time-series framework for dream mentation analysis. Using sliding-window Takens delay embeddings and Vietoris-Rips filtrations on multichannel pre-awakening EEG epochs, we extract Dynamic Betti Curves that characterize the geometric architecture of neural activity, not merely its energy. These topological invariants, combined with topology-conditioned flow matching, are analytically proje",
+      "title": "Signatures of $10-10^4\\,{\\rm M}_{\\odot}$ Dark Matter halos in LISA via Stochastic Diffraction",
+      "summary": "Cold Dark Matter predicts a population of low-mass halos which are sensitive to its fundamental nature and the primordial power spectrum, yet remain undetected. Although elusive, their discovery may be possible thanks to wave-optics lensing of gravitational waves (GWs) by the superposition of many halos along the line of sight. We study the statistical properties of stochastic diffractive lensing, which imprints correlated fluctuations on the amplitude and phase of the original waveform. The stochastic distortions can be described by an orthogonal basis that captures the dominant ''tones'' associated with the dark matter properties, or dark timbre, which is not degenerate with binary source parameters. LISA is most sensitive to halos of $O(10\\text{--}10^4\\,M_\\odot)$, and because the imprin",
       "authors": [
-        "Ren Takahashi",
-        "Emre Yusuf",
-        "Jayabrata Bhaduri"
+        "Han Gil Choi",
+        "Juan Urrutia",
+        "Miguel Zumalacárregui"
       ],
-      "link": "http://arxiv.org/abs/2607.09662v1",
-      "published": "2026-07-10",
+      "link": "http://arxiv.org/abs/2607.11887v1",
+      "published": "2026-07-13",
       "categories": [
-        "q-bio.NC",
-        "cs.AI",
-        "cs.LG",
-        "eess.SP",
-        "math.AT"
+        "astro-ph.CO",
+        "astro-ph.HE",
+        "hep-ph"
       ]
     },
     "analysis": {
-      "key_methods": "The EEG data are collected from the EEG data from the four major EEG data repositories: The \"Brainstorm\" and \"Dream\" dat...",
-      "datasets": ".",
-      "future_work": "P."
+      "key_methods": "We used the same type of laser cutter as the laser cutter, which we used for the laser cutter.",
+      "datasets": "A high-performance quantum computer (which is similar to the quantum computer), in which an object is a quantum object, ...",
+      "future_work": "What's next?\nThe next big study is called the LISA Supernova, which is the second of the LISA Supernova."
     }
   },
   {
     "paper": {
-      "title": "PanoWorld: Real-World Panoramic Generation",
-      "summary": "In this work, we aim to address the challenge of long-range memory in panoramic world models by exploiting the rotation-equivariant property of omnidirectional representations, where rotation can be treated as an implicit geometric transformation.Building on this insight, we propose PanoWorld, which simplifies camera trajectories into translations via fixed headings for both current-action modeling and long-range memory through Dense Panoramic Ray-Conditioning (DPRC) and Geometry-aware Memory Augmentation (GMA).Then, a three-stage training pipeline is introduced to progressively optimize each component. To better evaluate physical consistency under large-scale spatial variations and diverse illumination conditions, where existing datasets are relatively stable, we construct World360, a lar",
+      "title": "Read It Back: Pretrained MLLMs Are Zero-Shot Reward Models for Text-to-Image Generation",
+      "summary": "In this paper, we propose SpectraReward, a training-free reward function that turns pretrained MLLMs into off-the-shelf reward models for image-generation reinforcement learning. Instead of asking the MLLM to judge a generated image or answer decomposed verification questions, SpectraReward measures how well the original prompt can be recovered from the generated image through a single image-conditioned, teacher-forced forward pass. We use the average image-conditioned prompt log-likelihood as the reward, directly reusing the MLLM's pretrained image-text alignment ability without preference labels, reward-model fine-tuning. We further introduce Self-SpectraReward, a special case for unified multimodal models where the policy's own understanding branch serves as the reward model for its gen",
       "authors": [
-        "Haoyuan Li",
-        "Dizhe Zhang",
-        "Yuemei Zhou",
-        "Xiangkai Zhang",
-        "Haoran Feng"
+        "Runhui Huang",
+        "Qihui Zhang",
+        "Zhe Liu",
+        "Yu Gao",
+        "Jie Wu"
       ],
-      "link": "http://arxiv.org/abs/2607.09661v1",
-      "published": "2026-07-10",
+      "link": "http://arxiv.org/abs/2607.11886v1",
+      "published": "2026-07-13",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "- For the first time in human history, scientists are using a technique, the same as that used to measure the global tem...",
-      "datasets": "PanoWorld: Real-World Panoramic Generation.",
-      "future_work": "The World's Biggest Super-Rich Super-Rich Super-Rich Super-Rich Super-Rich Super-Rich Super-Rich Super-Rich Super-Rich S..."
+      "key_methods": "The main finding is that the task of combining text and text-to-image generation with text-to-image generation can be ac...",
+      "datasets": ".",
+      "future_work": "The study of text-to-image recognition in real-time could also be used to improve the quality of text-to-image recogniti..."
     }
   },
   {
     "paper": {
-      "title": "Nonlinear particle detectors across the Rindler firewall",
-      "summary": "We investigate Unruh-DeWitt detectors coupled to composite observables of a quantum scalar field, including quadratic coupling to the field momentum and coupling to the local energy density. We develop a distributional framework for evaluating the corresponding detector response functions and apply it to detectors crossing the Rindler firewall. While we recover the finite response of the derivative-coupling model, we show that quadratic momentum coupling leads to ill-defined products of distributions and unavoidable formal $δ(0)$-type divergences. Since the local energy-density response is closely tied to the quadratic momentum response, our results provide strong evidence that the standard sharp firewall model is incompatible with nonlinear detector couplings to local observables. Our ana",
+      "title": "Latent-Identity Tuning in Text-to-Image Personalization Models",
+      "summary": "Generating and editing a person's face demands high precision, as even minor modifications can significantly alter a subject's perceived identity. Current personalization and editing methods built on general-purpose text-to-image models, however, often lack the precision required for fine-grained facial edits. We present a method for fine-grained identity tuning in text-to-image personalization models. Unlike standard image editing, which operates on a given image, identity tuning modifies the latent representation of a specific identity, enabling the generation of diverse images that consistently depict the same edited identity. To enable fine-grained latent identity tuning, we explore the latent space of a pre-trained, frozen encoder for text-to-image personalization. Our approach requir",
       "authors": [
-        "Matheus H. Zambianco",
-        "Eduardo Martín-Martínez"
+        "Daniel Garibi",
+        "Ronen Kamenetsky",
+        "Hadar Averbuch-Elor",
+        "Daniel Cohen-Or",
+        "Or Patashnik"
       ],
-      "link": "http://arxiv.org/abs/2607.09660v1",
-      "published": "2026-07-10",
-      "categories": [
-        "quant-ph",
-        "gr-qc",
-        "hep-th"
-      ]
-    },
-    "analysis": {
-      "key_methods": "A complete dataset of the data set for the Rindler firewall.",
-      "datasets": "The Rindler firewall and the Rindler firewall are the products of a large network of nonlinear particles in a single str...",
-      "future_work": "A simple, nonlinear particle detector for a single-dimensional detector."
-    }
-  },
-  {
-    "paper": {
-      "title": "Scalable Visual Pretraining for Language Intelligence",
-      "summary": "The rapid progress of large foundation models has been driven predominantly by pretraining on large-scale text corpora. However, many forms of knowledge are conveyed through visual representations, where figures, typeset equations, and page layouts carry rich information that cannot be faithfully or completely captured by text alone. Yet current pretraining approaches discard these visual cues by converting visually rich sources, such as documents and web pages, into plain text for learning language intelligence. This paper challenges the default assumption that language models must be trained on text-only representations and shows that Visual Pretraining is a scalable learner for foundation model intelligence. To this end, we conduct a systematic study of unsupervised visual pretraining p",
-      "authors": [
-        "Yiming Zhang",
-        "Zhonghan Zhao",
-        "Wenwei Zhang",
-        "Haiteng Zhao",
-        "Tianyang Lin"
-      ],
-      "link": "http://arxiv.org/abs/2607.09657v1",
-      "published": "2026-07-10",
+      "link": "http://arxiv.org/abs/2607.11885v1",
+      "published": "2026-07-13",
       "categories": [
         "cs.CV",
-        "cs.AI",
-        "cs.MM"
+        "cs.GR"
       ]
     },
     "analysis": {
-      "key_methods": "A representative of a population of 1,000 randomly selected public school students; 12-year-olds were tested at the begi...",
-      "datasets": "Datasets mentioned:.",
-      "future_work": "The next step is to look at these principles and the application of these principles to machine learning."
+      "key_methods": "To compare the frequency of text-to-image personalization models using a series of online data sources, we used a series...",
+      "datasets": "http://www.",
+      "future_work": "Theoretical and practical design for integrating mobile data into the human mind."
     }
   },
   {
     "paper": {
-      "title": "OpenLongTail: Generative Scaling of Long-Tail Driving Data",
-      "summary": "Scaling robust driving policies is fundamentally bottlenecked by the scarcity of edge cases in curated datasets. While the real world continuously captures these critical events, such long-tail events remain underutilized when collected from heterogeneous sources. Specifically, diverse but valuable in-the-wild long-tail videos lack the full view coverage required for training policy models, often missing multi-view poses or originating solely from monocular dash cameras. This modality gap prevents these ubiquitous observations from being converted into scalable training data for long-tail generalization. We introduce OpenLongTail, an open-source generative data engine for scaling autonomous driving policies under long-tail events. To transform heterogeneous data sources into view-aligned a",
+      "title": "Mixture of Frames Policy: Multi-Frame Action Denoising for Bimanual Mobile Manipulation",
+      "summary": "Robotic manipulation is inherently multi-frame: local actions may be simple in an end-effector frame, while transport, upright-object handling, and whole-body coordination are better represented in a base-aligned frame. However, modern diffusion-based visuomotor policies typically commit to a single predefined action frame, forcing one denoiser to model action distributions that are often unnecessarily complex in that frame. We propose Mixture of Frames Policy (MoF), a diffusion policy that performs synchronized action denoising across multiple coordinate frames. MoF maintains a single canonical diffusion state, re-expresses it in several task-relevant frames, applies frame-specialized denoisers, and fuses their noise predictions back in the canonical frame. To make this possible for inter",
       "authors": [
-        "Lulin Liu",
-        "Nuo Chen",
-        "Yan Wang",
-        "Bangya Liu",
-        "Wenyan Cong"
+        "Dian Wang",
+        "Jisang Park",
+        "Xiaomeng Xu",
+        "Han Zhang",
+        "Shuran Song"
       ],
-      "link": "http://arxiv.org/abs/2607.09655v1",
-      "published": "2026-07-10",
+      "link": "http://arxiv.org/abs/2607.11884v1",
+      "published": "2026-07-13",
       "categories": [
-        "cs.CV"
+        "cs.RO"
       ]
     },
     "analysis": {
-      "key_methods": "To conduct a systematic analysis, we used a multi-step algorithm (the ANOVA) for the analysis of the results.",
-      "datasets": "The first paper was published in the Journal of Applied Mathematics and Applied Physics (JASMA).",
-      "future_work": "Using a more detailed approach from the International Automated Driving Data Laboratory, we have developed a new tool to..."
+      "key_methods": "A common field in mobile communication is the use of frames on mobile devices.",
+      "datasets": "Bimanual Mobile Manipulation: Multi-Frame Action Denoising for Bimanual Mobile Manipulation\nMixture of Frames Policy: Mu...",
+      "future_work": "Mixture of frames policy, a framework for the use of frame-based, multispectral, and multispectral manipulations, is ava..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Requential Coding: Pushing the Limits of Model Compression with Self-Generated Training Data",
+      "summary": "Compression is fundamental to intelligence. A model that can represent its training data as a short code has discovered regularities that enable generalization. Large neural networks may learn functions far simpler than their parameter counts suggest, but it is challenging to construct codes that realize this simplicity. Parameter-based methods such as quantization produce code lengths that scale with model size, insensitive to how much information the parameters store. Prequential coding bypasses this issue by compressing the training trajectory, but codes the exact data sequence regardless of how much the model learns, yielding large codes when the data has high entropy. We introduce requential coding, where a teacher model selects training samples drawn from the student's own distributi",
+      "authors": [
+        "Shikai Qiu",
+        "Marc Finzi",
+        "Yujia Zheng",
+        "Kun Zhang",
+        "Andrew Gordon Wilson"
+      ],
+      "link": "http://arxiv.org/abs/2607.11883v1",
+      "published": "2026-07-13",
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The PSA:\nMethods:\nA sample of PSA code is used here.",
+      "datasets": ".",
+      "future_work": "Implementing a model-based training framework with self-generating training data."
     }
   }
 ]
