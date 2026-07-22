@@ -1,121 +1,117 @@
 [
   {
     "paper": {
-      "title": "The Many Senses of Visual Similarity: A Text-Prompted Image Perceptual Metric",
-      "summary": "Human visual similarity judgments are context-dependent. For example, two images may be similar in shape but distinct in color. Existing perceptual similarity metrics, however, collapse these nuances into a single scalar value, offering no mechanism to condition on specific aspects. To bridge this gap, we introduce a large-scale dataset of human similarity judgments over image triplets, where each triplet is annotated across multiple, free-form semantic aspects of similarity. Benchmarking a broad range of frontier vision-language models (VLMs) reveals a considerable performance gap compared to human annotators' consensus. Leveraging our data, we fine-tune a VLM to produce our Text-Prompted Image Perceptual Similarity (TPIPS) metric, capturing multiple senses of visual similarity depending ",
+      "title": "Copy Less, Ground More: Overcoming Repetitive Copying in Long-Context Reasoning via Evidence-Aware Reinforcement Learning",
+      "summary": "Large language models that generate step-by-step reasoning traces have achieved strong performance on complex tasks, and extending them to long-context settings has emerged as an important frontier. However, we identify a critical failure mode in this regime: \\emph{repetitive copying}, where models extensively copy text from the input into their reasoning traces rather than productively solving the problem. We show that this behavior is pervasive across frontier long-context LLMs and intensifies with context length. By separating each prompt into task-relevant key evidence and irrelevant distractor context, we further show that the root cause is insufficient grounding: models copy from the prompt indiscriminately, and those that fail to focus on key evidence are far more likely to answer i",
       "authors": [
-        "Sheng-Yu Wang",
-        "Yotam Nitzan",
-        "Aaron Hertzmann",
-        "Jun-Yan Zhu",
-        "Eli Shechtman"
+        "Lizhe Fang",
+        "Weizhou Shen",
+        "Tianyi Tang",
+        "Yisen Wang"
       ],
-      "link": "http://arxiv.org/abs/2607.18237v1",
-      "published": "2026-07-20",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ]
-    },
-    "analysis": {
-      "key_methods": "Numerical and Statistical Analysis of Visual Similarity: A Text-Prompted Image Perceptual Metric.",
-      "datasets": "The Many Senses of Visual Similarity: A Text-Prompted Image Perceptual Metric.",
-      "future_work": "A way to create a visual representation of the visual representation of a visual representation of the visual representa..."
-    }
-  },
-  {
-    "paper": {
-      "title": "Patch Policy: Efficient Embodied Control via Dense Visual Representations",
-      "summary": "Pretrained dense visual features from Vision Transformers (ViTs) are powerful yet have been underutilized in robot learning. Modern robot policies either compress each observation into a single global token, or rely on visual backbones trained from scratch, sacrificing both fine-grained spatial detail and the benefits of large-scale visual pre-training. While there exist policies that do operate on dense patch features like large vision-language-action models (VLAs), they tend to be heavy and slow, inheriting the full cost of a billion-parameter vision-language model (VLM) backbone. We close this gap with Patch Policy, a minimal architectural extension that enables transformer-based policies to consume dense pre-trained patch tokens directly without the computational overhead of a full VLM",
-      "authors": [
-        "Gaoyue Zhou",
-        "Zichen Jeff Cui",
-        "Ada Langford",
-        "Bowen Tan",
-        "Yann LeCun"
-      ],
-      "link": "http://arxiv.org/abs/2607.18236v1",
-      "published": "2026-07-20",
-      "categories": [
-        "cs.RO",
-        "cs.LG"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The Dense Visual Representations, a paper by Simon Kippel (University of Cambridge, England), was published in the Journ...",
-      "datasets": "I have a lot of questions about Dense Visual Representations, but I don't want to be an expert in this topic.",
-      "future_work": "There is still a long way to go."
-    }
-  },
-  {
-    "paper": {
-      "title": "Automated Discovery Has No Universally Superior Harness",
-      "summary": "Autonomous discovery systems such as OpenEvolve and TTT-Discover are often used as general-purpose harnesses. However, in practice these are composite systems combining several design choices about archives, parent selection, exploration, and budget allocation into a single recipe. Because discovery runs are expensive and inherently stochastic, existing harnesses are often compared using too few independent trials to distinguish key methodological improvements from run-to-run variance. We systematically decompose OpenEvolve-style evolutionary search and the TTT-Discover search harness into its constituent components and systematically evaluate 30 budget-matched harnesses across 12 model-problem pairs using more than 3.1 million LLM rollouts and repeated-trial statistical analysis. Our resu",
-      "authors": [
-        "Akshat Gupta",
-        "Jermaine Lei",
-        "Alexander Lu",
-        "Gopala Anumanchipalli",
-        "Leshem Choshen"
-      ],
-      "link": "http://arxiv.org/abs/2607.18235v1",
-      "published": "2026-07-20",
+      "link": "http://arxiv.org/abs/2607.19345v1",
+      "published": "2026-07-21",
       "categories": [
         "cs.CL",
         "cs.AI"
       ]
     },
     "analysis": {
-      "key_methods": "The authors published a paper in the June 2015 issue of Science.",
-      "datasets": "There is a large number of new information about the world of biology.",
-      "future_work": "The same is true of the paper at the University of Michigan."
+      "key_methods": ".",
+      "datasets": "1.",
+      "future_work": "If we learn that you can’t trust your friends that they don't care about you, what else can you do?\nThere is a lot of wo..."
     }
   },
   {
     "paper": {
-      "title": "Cosmological consequences of a dynamical dark matter in the light of DESI DR2 measurements",
-      "summary": "Recent DESI results exhibit preference for a Null Energy Condition violating dynamical dark energy, with early phantom behaviour. We explore an alternative interpretation in which this preference arises from unconventional dark matter dynamics rather than from dynamical dark energy. We propose a dynamical dark matter (DDM) model, with a non-zero equation of state (EoS) that smoothly interpolates between early time and late time asymptotes across a transition scale factor $a_t$, and study its consequences against cosmological datasets including CMB, DESI DR2 BAO, SNeIa (PantheonPlus, Union3, and DESY5) and growth rate data. We find the early time EoS to be consistent with zero, while the present day value is negative at a significance ranging from $0.42σ$ to $3.02σ$ depending on the dataset",
+      "title": "Appearance Pointers -- Multimodal Region Control of Diffusion Transformers",
+      "summary": "Controllable image generation remains challenging for creative professionals, who often require precise regional control over materials, object identities, and spatial arrangements that cannot be reliably achieved through text prompting alone. Diffusion Transformers (DiTs) can natively ingest heterogeneous tokens stemming from texts and images, but they lack mechanisms for determining where and how these tokens should influence the output. We introduce appearance pointers, compact tokens that guide DiTs toward the correct appearance cues at the correct spatial locations by aligning text or image inputs with user-specified masks. Appearance pointers are produced by a region correspondence network and refined through a spatial aggregation mechanism, enabling the model to handle multiple regi",
       "authors": [
-        "Abhijith Ajith",
-        "Utkarsh Kumar"
+        "Rahul Sajnani",
+        "Yulia Gryaditskaya",
+        "Radomír Měch",
+        "Srinath Sridhar",
+        "Matheus Gadelha"
       ],
-      "link": "http://arxiv.org/abs/2607.18234v1",
-      "published": "2026-07-20",
+      "link": "http://arxiv.org/abs/2607.19344v1",
+      "published": "2026-07-21",
       "categories": [
-        "astro-ph.CO",
-        "gr-qc"
+        "cs.CV",
+        "cs.AI",
+        "cs.GR"
       ]
     },
     "analysis": {
-      "key_methods": ".",
-      "datasets": "1) the super-dark matter with the largest mass and the largest mass (as reported in a paper published on February 7, 201...",
-      "future_work": "We can determine the basis for the most sophisticated and effective supercomputers on the Earth."
+      "key_methods": "1) A large, rotating, rotating, rotating, rotating, rotating, rotating, rotating, rotating, rotating\n2) A smaller, rotat...",
+      "datasets": "The number of differences between the two groups was not significant.",
+      "future_work": "A new tool for creating multimodal region control of Diffusion Transformers."
     }
   },
   {
     "paper": {
-      "title": "Theoretical uncertainties in reconstructing model parameters with gravitational waves from supercooled phase transitions",
-      "summary": "Future interferometers may detect a gravitational-wave (GW) signal from a cosmological first-order phase transition. Reconstructing the underlying particle-physics model from such a signal requires theoretical control over the map from microphysics to the spectrum. For classically scale-invariant extensions of the Standard Model, which generically predict strongly supercooled transitions and strong GW signals, this map depends sensitively on the treatment of quantum and thermal corrections to the nucleation rate. Taking the classically conformal ${\\rm U}(1)_X$ model as representative of this class, we scan its parameter space and compare two resummation schemes. The first is a high-temperature effective field theory, matched at two-loop level and including next-to-leading-order corrections",
+      "title": "Masked Visual Actions for Unified World Modeling",
+      "summary": "Video models absorb rich priors over how the visual world moves, interacts, and responds to contact, making them promising substrates for robotic world modeling. The central challenge is how to communicate action to such models in a form aligned with the visual space in which they learned these interaction priors, yet still grounded in physical manipulation. We introduce Masked Visual Actions, a pixel-space control interface that expresses action as a partially revealed trajectory of an arbitrary entity in a video. Revealing robot motion makes the model act as a forward dynamics model that predicts the scene's response to low-level robot actions, while revealing desired object motion makes the same model recover robot behavior consistent with that outcome. Finetuned with only 15 hours of m",
       "authors": [
-        "Maciej Kierkla",
-        "Marek Lewicki",
-        "Philipp Schicho",
-        "Daniel Schmitt",
-        "Bogumila Swiezewska"
+        "Hadi Alzayer",
+        "Wenlong Huang",
+        "Haonan Chen",
+        "Christopher Luey",
+        "Lvmin Zhang"
       ],
-      "link": "http://arxiv.org/abs/2607.18233v1",
-      "published": "2026-07-20",
+      "link": "http://arxiv.org/abs/2607.19343v1",
+      "published": "2026-07-21",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The Unified World Modeling system was developed using the Unified World Modeling System (UWMS), the UWMS.",
+      "datasets": "The first thing you will see in the table below is a set of data that identifies the global model of the class.",
+      "future_work": "."
+    }
+  },
+  {
+    "paper": {
+      "title": "ExpertVerse: A General-Purpose Benchmark for Expert-Level Reasoning in Knowledge-Intensive Visual Synthesis",
+      "summary": "Recent advances in multimodal generative models have enabled instruction-based image generation to move beyond semantic manipulation to knowledge-driven visual reasoning. However, these methods focus on explicit commonsense reasoning, shallow causal understanding, and direct knowledge recall, failing at knowledge-intensive generation. We develop \\textbf{ExpertVerse}, a capability-centric benchmark to evaluate generative models via knowledge-intensive lens. ExpertVerse stratifies reasoning generation across an orthogonal taxonomy of \\textit{9 cognitive capabilities} and \\textit{8 expert disciplines}, yielding \\textit{58 sub-disciplines}. We curate 1,611 expert-annotated instances covering single-image editing, multi-image composition, and text-to-image generation. We further develop an auto",
+      "authors": [
+        "Yuan Wang",
+        "Yongchao Du",
+        "Mengting Chen",
+        "Jinsong Lan",
+        "Xuetao Feng"
+      ],
+      "link": "http://arxiv.org/abs/2607.19341v1",
+      "published": "2026-07-21",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The first step to perform the following tests is to make sure your browser is up to date on the problem.",
+      "datasets": "-------------- next part -------------- An HTML attachment was scrubbed.",
+      "future_work": "Implementing a formal, formal specification of the principles for the approach to problem solving."
+    }
+  },
+  {
+    "paper": {
+      "title": "Integral representation of the neutrino mass-squared differences",
+      "summary": "Determining the absolute neutrino mass scale remains one of the most compelling challenges in particle physics. To constrain theoretical models, establishing precise relations among neutrino masses is essential. We propose a simple integral representation of the neutrino mass-squared differences $Δm_{ij}^2$ that provides a complementary perspective on these oscillation parameters. We then demonstrate its utility through several examples. Specifically, assuming stringent cosmological bounds that confine the sum of neutrino masses near the normal ordering floor, we derive an analytical condition for the lightest neutrino mass, $m_1 < \\sqrt{61Δm^2_{21}}/30$. Using recent data from the JUNO experiment, this yields a competitive upper limit of $m_1<0.0023$ eV (95\\% C.L.). We also formulate prac",
+      "authors": [
+        "I. Alikhanov"
+      ],
+      "link": "http://arxiv.org/abs/2607.19340v1",
+      "published": "2026-07-21",
       "categories": [
         "hep-ph",
-        "astro-ph.CO",
-        "gr-qc",
-        "hep-th"
+        "hep-ex"
       ]
     },
     "analysis": {
       "key_methods": ".",
-      "datasets": "We have demonstrated that a supermassive black hole of mass is a supermassive black hole with the mass of the Sun, and w...",
-      "future_work": "In the coming months, new research in the journal Nature will help us understand the role of gravitational waves on the ..."
+      "datasets": "The main data for all of the experiments was of the total mass of the two neutrino mass-squared values.",
+      "future_work": "Integral representation of the neutrino mass-squared differences."
     }
   }
 ]
