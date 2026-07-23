@@ -1,117 +1,106 @@
 [
   {
     "paper": {
-      "title": "Copy Less, Ground More: Overcoming Repetitive Copying in Long-Context Reasoning via Evidence-Aware Reinforcement Learning",
-      "summary": "Large language models that generate step-by-step reasoning traces have achieved strong performance on complex tasks, and extending them to long-context settings has emerged as an important frontier. However, we identify a critical failure mode in this regime: \\emph{repetitive copying}, where models extensively copy text from the input into their reasoning traces rather than productively solving the problem. We show that this behavior is pervasive across frontier long-context LLMs and intensifies with context length. By separating each prompt into task-relevant key evidence and irrelevant distractor context, we further show that the root cause is insufficient grounding: models copy from the prompt indiscriminately, and those that fail to focus on key evidence are far more likely to answer i",
+      "title": "Quantum Fisher Information in semiclassical magnon systems",
+      "summary": "Quantum Fisher Information (QFI) is a powerful spectroscopic tool to witness many-body quantum entanglement in solid state materials, but it is not always obvious how to relate it to other characteristics of condensed matter systems. In this study we elaborate on the meaning and interpretation of QFI in condensed matter by examining simple theoretical spin systems. We use finite sized spin systems to illustrate that QFI quantifies the momentum- dependent degree of quantum entanglement (that is the entanglement depth at a given wave vector) within a wave function. We subsequently use semiclassical frustrated spin models to show that, in the context of linear spin wave theory (LSWT), QFI quantifies the momentum-dependent degree of magnon squeezing in the ground state. In antiferromagnets wit",
       "authors": [
-        "Lizhe Fang",
-        "Weizhou Shen",
-        "Tianyi Tang",
-        "Yisen Wang"
+        "Wolfgang Simeth",
+        "Pontus Laurell",
+        "Allen Scheie"
       ],
-      "link": "http://arxiv.org/abs/2607.19345v1",
-      "published": "2026-07-21",
+      "link": "http://arxiv.org/abs/2607.20424v1",
+      "published": "2026-07-22",
       "categories": [
-        "cs.CL",
-        "cs.AI"
+        "cond-mat.str-el"
       ]
     },
     "analysis": {
-      "key_methods": ".",
-      "datasets": "1.",
-      "future_work": "If we learn that you can’t trust your friends that they don't care about you, what else can you do?\nThere is a lot of wo..."
+      "key_methods": "- The X-ray laser laser at the X-ray laser at the X-ray laser at the X-ray laser at the X-ray laser at the X-ray laser a...",
+      "datasets": "The use of the term quantum is considered to have been based on the existence of a very small and highly unstable quantu...",
+      "future_work": "In this section we will discuss the quantum mechanics of the Universe, the relationship of quantum mechanics and quantum..."
     }
   },
   {
     "paper": {
-      "title": "Appearance Pointers -- Multimodal Region Control of Diffusion Transformers",
-      "summary": "Controllable image generation remains challenging for creative professionals, who often require precise regional control over materials, object identities, and spatial arrangements that cannot be reliably achieved through text prompting alone. Diffusion Transformers (DiTs) can natively ingest heterogeneous tokens stemming from texts and images, but they lack mechanisms for determining where and how these tokens should influence the output. We introduce appearance pointers, compact tokens that guide DiTs toward the correct appearance cues at the correct spatial locations by aligning text or image inputs with user-specified masks. Appearance pointers are produced by a region correspondence network and refined through a spatial aggregation mechanism, enabling the model to handle multiple regi",
+      "title": "Primordial black holes forming during kination: the trapped, the overdense, and the void",
+      "summary": "We study primordial black-hole (PBH) formation in a single-field model which passes from slow roll, through a transient ultra-slow-roll phase, into kination. Nonlinear numerical-relativity simulations are used to follow localised, initially sub-Hubble field fluctuations across the non-attractor transition, to determine the resulting super-Hubble curvature profiles, and subsequently to evolve their re-entry during kination. Within the set of initial configurations explored here, we find three qualitatively distinct outcomes, namely a patch which remains trapped in inflation, a positive-curvature overdensity, and a negative-curvature void bounded by an overdense shell. Each may form a PBH, although by a different physical mechanism. For one selected profile in each of the overdense and void ",
       "authors": [
-        "Rahul Sajnani",
-        "Yulia Gryaditskaya",
-        "Radomír Měch",
-        "Srinath Sridhar",
-        "Matheus Gadelha"
+        "Cristian Joana"
       ],
-      "link": "http://arxiv.org/abs/2607.19344v1",
-      "published": "2026-07-21",
+      "link": "http://arxiv.org/abs/2607.20423v1",
+      "published": "2026-07-22",
       "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.GR"
+        "astro-ph.CO"
       ]
     },
     "analysis": {
-      "key_methods": "1) A large, rotating, rotating, rotating, rotating, rotating, rotating, rotating, rotating, rotating\n2) A smaller, rotat...",
-      "datasets": "The number of differences between the two groups was not significant.",
-      "future_work": "A new tool for creating multimodal region control of Diffusion Transformers."
+      "key_methods": "A high-level version of the paper was generated from the original paper.",
+      "datasets": "RNG:\nMARK:\nGAT:\nSTONE:\nRNG:\nWIM:\nRNG:\nGAT:\nSTONE:\nWIM:\nSAND:\nRNG:\nW.",
+      "future_work": "The black holes in the Kinshasa supernova are most likely to be formed by black holes, as the process of darkening the b..."
     }
   },
   {
     "paper": {
-      "title": "Masked Visual Actions for Unified World Modeling",
-      "summary": "Video models absorb rich priors over how the visual world moves, interacts, and responds to contact, making them promising substrates for robotic world modeling. The central challenge is how to communicate action to such models in a form aligned with the visual space in which they learned these interaction priors, yet still grounded in physical manipulation. We introduce Masked Visual Actions, a pixel-space control interface that expresses action as a partially revealed trajectory of an arbitrary entity in a video. Revealing robot motion makes the model act as a forward dynamics model that predicts the scene's response to low-level robot actions, while revealing desired object motion makes the same model recover robot behavior consistent with that outcome. Finetuned with only 15 hours of m",
+      "title": "Stable valleys in the glassy landscape of a low-density parity-check (LDPC) code",
+      "summary": "Classical low-density parity-check (cLDPC) codes defined on expander graphs are a fundamental ingredient in the construction of good quantum LDPC codes, a recent milestone in quantum error correction. They also define interesting statistical mechanics models in their own right, as they include examples of spin glass order without quenched randomness or frustration. We investigate this via a case study of a cLDPC code on a locally tree-like expander graph. Recursive techniques on trees, made possible by the locally tree-like property, probe a menagerie of stable, incongruent valleys induced by imposing different boundary conditions at low temperature. A complementary numerical study of the valleys on closed finite graphs reveals the inequivalence of the microcanonical and canonical ensemble",
       "authors": [
-        "Hadi Alzayer",
-        "Wenlong Huang",
-        "Haonan Chen",
-        "Christopher Luey",
-        "Lvmin Zhang"
+        "Grace M. Sommers",
+        "David A. Huse"
       ],
-      "link": "http://arxiv.org/abs/2607.19343v1",
-      "published": "2026-07-21",
+      "link": "http://arxiv.org/abs/2607.20421v1",
+      "published": "2026-07-22",
       "categories": [
-        "cs.CV",
-        "cs.RO"
+        "cond-mat.stat-mech"
       ]
     },
     "analysis": {
-      "key_methods": "The Unified World Modeling system was developed using the Unified World Modeling System (UWMS), the UWMS.",
-      "datasets": "The first thing you will see in the table below is a set of data that identifies the global model of the class.",
-      "future_work": "."
+      "key_methods": "* The LDPC algorithm was used to generate a single data point for the LSM, with a minimum power of 5.",
+      "datasets": "- Stable valleys in the glassy landscape of a low-density parity-check (LDPC) code.",
+      "future_work": "A more detailed analysis of common areas of low-density parity-check (LDPC) code."
     }
   },
   {
     "paper": {
-      "title": "ExpertVerse: A General-Purpose Benchmark for Expert-Level Reasoning in Knowledge-Intensive Visual Synthesis",
-      "summary": "Recent advances in multimodal generative models have enabled instruction-based image generation to move beyond semantic manipulation to knowledge-driven visual reasoning. However, these methods focus on explicit commonsense reasoning, shallow causal understanding, and direct knowledge recall, failing at knowledge-intensive generation. We develop \\textbf{ExpertVerse}, a capability-centric benchmark to evaluate generative models via knowledge-intensive lens. ExpertVerse stratifies reasoning generation across an orthogonal taxonomy of \\textit{9 cognitive capabilities} and \\textit{8 expert disciplines}, yielding \\textit{58 sub-disciplines}. We curate 1,611 expert-annotated instances covering single-image editing, multi-image composition, and text-to-image generation. We further develop an auto",
+      "title": "Interaction-model dependence in calorimetric energy reconstruction methods due to non-linear material effects in modern neutrino detectors",
+      "summary": "Neutrino oscillation experiments rely on high precision neutrino energy reconstruction. A common reconstruction technique in LAr-TPCs and scintillators is via the calorimetric sum of visible particles created in the interaction. However, non-linearities in the detector response, such as Birks quenching for scintillators and recombination effects for TPCs, lead to ambiguities in the reconstruction of visible hadronic energies. Interaction-model-dependent assumptions are required to resolve these ambiguities, which introduces a bias in reconstruction of neutrino energy. This introduces a systematic uncertainty separate from the well-studied bias due to interaction-model dependent modelling of missing energy caused by, for example, the production of final state neutrons. In this work, we eval",
       "authors": [
-        "Yuan Wang",
-        "Yongchao Du",
-        "Mengting Chen",
-        "Jinsong Lan",
-        "Xuetao Feng"
+        "Katharina Lachner",
+        "Steven Boyd",
+        "Stephen Dolan",
+        "Laura Munteanu"
       ],
-      "link": "http://arxiv.org/abs/2607.19341v1",
-      "published": "2026-07-21",
+      "link": "http://arxiv.org/abs/2607.20419v1",
+      "published": "2026-07-22",
       "categories": [
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The first step to perform the following tests is to make sure your browser is up to date on the problem.",
-      "datasets": "-------------- next part -------------- An HTML attachment was scrubbed.",
-      "future_work": "Implementing a formal, formal specification of the principles for the approach to problem solving."
-    }
-  },
-  {
-    "paper": {
-      "title": "Integral representation of the neutrino mass-squared differences",
-      "summary": "Determining the absolute neutrino mass scale remains one of the most compelling challenges in particle physics. To constrain theoretical models, establishing precise relations among neutrino masses is essential. We propose a simple integral representation of the neutrino mass-squared differences $Δm_{ij}^2$ that provides a complementary perspective on these oscillation parameters. We then demonstrate its utility through several examples. Specifically, assuming stringent cosmological bounds that confine the sum of neutrino masses near the normal ordering floor, we derive an analytical condition for the lightest neutrino mass, $m_1 < \\sqrt{61Δm^2_{21}}/30$. Using recent data from the JUNO experiment, this yields a competitive upper limit of $m_1<0.0023$ eV (95\\% C.L.). We also formulate prac",
-      "authors": [
-        "I. Alikhanov"
-      ],
-      "link": "http://arxiv.org/abs/2607.19340v1",
-      "published": "2026-07-21",
-      "categories": [
-        "hep-ph",
         "hep-ex"
       ]
     },
     "analysis": {
       "key_methods": ".",
-      "datasets": "The main data for all of the experiments was of the total mass of the two neutrino mass-squared values.",
-      "future_work": "Integral representation of the neutrino mass-squared differences."
+      "datasets": "[1] – †‡\n[2] – †‡\n[3] – †‡\n[4] – †‡\n[5] – †‡\n[6] –.",
+      "future_work": "An empirical method for the interaction of linear and nonlinear material effects in the interaction of two independent a..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Lipschitzian SLLNs for random functions",
+      "summary": "We prove strong laws of large numbers for locally Lipschitz functions in the Lipschitz pseudometric. Our results hold under either a topological or a model-theoretic condition, with the latter encompassing functions jointly definable in o-minimal structures but extending substantially beyond this class. Applications include uniform convergence of limiting and Clarke subdifferentials and finite-sample identification of solutions. Consequently, we identify broad classes of functions for which the failure phenomena revealed by our previous negative results [Tian and Royset, arXiv:2511.16568, 2025] do not occur.",
+      "authors": [
+        "Lai Tian",
+        "Johannes O. Royset"
+      ],
+      "link": "http://arxiv.org/abs/2607.20411v1",
+      "published": "2026-07-22",
+      "categories": [
+        "math.OC",
+        "cs.LG",
+        "math.ST"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The following table describes the methods for calculating the number of common functions:\n(a) A\n(b) A\n(c) A\n(d) B\n(e) C\n...",
+      "datasets": "I use the following methods:\nWe are using the following methods:\nWe use the following methods:\nWe use the following meth...",
+      "future_work": "A new technique which could offer more information about the functions of the functions of the functions of the function..."
     }
   }
 ]
