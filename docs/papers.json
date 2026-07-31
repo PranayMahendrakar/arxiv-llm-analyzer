@@ -1,111 +1,119 @@
 [
   {
     "paper": {
-      "title": "TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM",
-      "summary": "Vision-language-action (VLA) models commonly adopt an LLM-centric $V \\to L \\to A$ pathway, where visual observations are projected into the representation space of a large language model before being decoded into robot actions. Although effective, this design incurs substantial computation and memory overhead at every policy invocation. In this work, we introduce TurboVLA, a new VLA paradigm that reformulates the conventional $V \\to L \\to A$ pathway as a direct $V + L \\to A$ mapping. Instead of using a large language model as the central interface between perception and action, TurboVLA independently encodes visual observations and language instructions, directly exchanges information between them through lightweight bidirectional vision-language interaction, and predicts continuous action",
+      "title": "Learning to Trace Seiberg Dualities",
+      "summary": "Dualities play an important role in establishing both microscopic and emergent phenomena in a wide range of physical systems. In practice, though, it can often be computationally challenging to establish when two systems are dual, even when all of the \"rules of the game\" are well-known. Said differently, when confronted with two systems, how can one efficiently establish that they are in fact dual? In this paper we use machine learning methods to address this question for Seiberg dualities of supersymmetric quiver gauge theories. Mathematically, this involves establishing mutations of quivers, which is in turn a variation on the theme of \"learning to unknot\". On the one hand, this leads us to a practical tool for establishing the computational complexity of different dualities. On the othe",
       "authors": [
-        "Hengyi Xie",
-        "Chenfei Yao",
-        "Xianjin Wu",
-        "Xuanyang Xi",
-        "Yiping Tang"
+        "Jonathan J. Heckman",
+        "Shani Meynet",
+        "Alessandro Mininno",
+        "Gary Shiu"
       ],
-      "link": "http://arxiv.org/abs/2607.27205v1",
-      "published": "2026-07-29",
+      "link": "http://arxiv.org/abs/2607.28628v1",
+      "published": "2026-07-30",
+      "categories": [
+        "hep-th",
+        "cs.AI",
+        "cs.LG",
+        "hep-ph"
+      ]
+    },
+    "analysis": {
+      "key_methods": "Using a simple C++ library to understand the way the two parallel functions interact and interact, we can use a library ...",
+      "datasets": "Determine the minimum number of non-standard error messages.",
+      "future_work": "Building a new way to trace the chain of events."
+    }
+  },
+  {
+    "paper": {
+      "title": "ReToken: One Token to Improve Vision-Language Models for Visual Retrieval",
+      "summary": "Long visual context poses a challenge for vision-language models: performance degrades as the number of distractors grows, and processing all tokens at once is computationally infeasible under GPU memory constraints. We present ReToken, a single learnable embedding trained as an explicit retrieval target that selects a sparse set of query-relevant visual tokens from a pre-filled visual KV cache. Trained on only a small image-QA dataset, ReToken yields consistent gains across image and video benchmarks: on Visual Haystacks it improves Qwen3VL-8B by 13.4 points and InternVL3.5 by 12.4 points (>20% relative), and on LVBench it transfers zero-shot to long video for an 8.0-point gain with Qwen3VL-8B. Thanks to its lightweight design, both training and long-video inference fit on a single H100. ",
+      "authors": [
+        "Yao Xiao",
+        "Reuben Tan",
+        "Zhen Zhu",
+        "Yuqun Wu",
+        "Jianfeng Gao"
+      ],
+      "link": "http://arxiv.org/abs/2607.28627v1",
+      "published": "2026-07-30",
       "categories": [
         "cs.CV",
-        "cs.RO"
+        "cs.AI",
+        "cs.LG"
       ]
     },
     "analysis": {
-      "key_methods": "-1) A computer with 2 GB VRAM on the same memory and an HDMI port on one of the GPUs.",
-      "datasets": "In order to show the performance of the NVIDIA GeForce 4200 series, ASUS has added a separate GPU at the back of the GPU...",
-      "future_work": "To see if we can use the technology to develop a system that will be able to take all of the data from every pixel of a ..."
+      "key_methods": "The main goal of the project is to make the following code and model objects that are easily used for debugging:\n{ var u...",
+      "datasets": "The following are the first steps that will help you understand the underlying vision-language models in your applicatio...",
+      "future_work": "The idea is to use three different ways that tokenizing and re-evaluating vision-language models will be possible."
     }
   },
   {
     "paper": {
-      "title": "Anomalies in Hadronic $B \\to VV$ Decays",
-      "summary": "Recently, a fit of charmless $B\\to PP$ decays ($B \\in \\{B^0, B^+, B_s^0\\}$, $P \\in \\{ π, K, η, η' \\}$) to the latest data was performed under the assumption of flavour SU(3) symmetry [SU(3)$_F$]. It was found that there is a $4.1σ$ disagreement with the SU(3)$_F$ limit of the Standard Model [$\\rm SM_{SU(3)_F}$]. In this paper, we extend this analysis to charmless $B \\to VV$ decays ($V \\in \\{ρ, K^*, φ, ω\\}$). The fit examining $B \\to ρK^*$ decays, assuming only isospin symmetry, is found to be acceptable. When we fit to $B \\to VV$ decays with $V \\in \\{ ρ, K^* \\}$ within SU(3)$_F$, we find a $5.2σ$ discrepancy with SM$_{SU(3)_F}$. Finally, when $B \\to VV$ decays with $V \\in \\{ ρ, K^*, φ, ω\\}$ are considered, the discrepancy grows to $>7σ$. The theoretical input in this analysis is modest, so",
+      "title": "ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine",
+      "summary": "Embodied intelligence faces a fundamental data bottleneck. Models must capture how first-person perception, whole-body motion, dexterous manipulation, object state, sound, and touch evolve together as humans pursue goals over time. Existing datasets fragment this experience across viewpoints, modalities, or spatial scales, leaving the full perception-action loop only partially observed. We introduce the Ambient Capture Engine (ACE), a human-centric data engine that transforms real home environments into spatially calibrated, temporally synchronized recording studios. ACE operates at two complementary scales: a table-scale configuration resolves hand-object manipulation, while a room-scale configuration captures whole-body motion, locomotion, and interactions across a furnished home. ACE re",
       "authors": [
-        "Bhubanjyoti Bhattacharya",
-        "Marianne Bouchard",
-        "Alexandre Jean",
-        "David London",
-        "Ipsita Ray"
+        "Yukang Cao",
+        "Haozhe Xie",
+        "Beichen Wen",
+        "Runmao Yao",
+        "Yinghao Liu"
       ],
-      "link": "http://arxiv.org/abs/2607.27202v1",
-      "published": "2026-07-29",
+      "link": "http://arxiv.org/abs/2607.28625v1",
+      "published": "2026-07-30",
       "categories": [
-        "hep-ph",
-        "hep-ex"
-      ]
-    },
-    "analysis": {
-      "key_methods": "This paper shows that a large number of known neural networks have been able to decode and decode complex neural network...",
-      "datasets": "The previous version of this article was based on a review done by the group for a recent paper on the topic.",
-      "future_work": "A new study has identified a number of factors that cause brain damage and depression."
-    }
-  },
-  {
-    "paper": {
-      "title": "Mental World Modeling",
-      "summary": "World models enable a predictive substrate for planning and action, yet existing formulations merely answer a physical question: what/where it is, and how will it evolve. Human behavior, however, is driven by hidden mental state (what a person believes, wants, intends, feels, and considers socially permissible), so a model that tracks the physical scene but not what each agent knows and believes about it predicts the wrong action for the right-looking scene. We formulate Mental World Modeling (MWM), a generic theoretical framework that makes mental variables core components of a world model rather than posthoc rationales: MWM aintains a coupled physical-mental world state, renders a target-specific partial observation, and simulates how candidate actions jointly update both components. We ",
-      "authors": [
-        "Hao Fei",
-        "Yiran Zhao"
-      ],
-      "link": "http://arxiv.org/abs/2607.27201v1",
-      "published": "2026-07-29",
-      "categories": [
-        "cs.CL"
-      ]
-    },
-    "analysis": {
-      "key_methods": "An online survey of 2,946 adults aged 18-49.",
-      "datasets": "The real world model is all about the human body.",
-      "future_work": "A systematic analysis of the literature on mental illness and its effects on the physical world."
-    }
-  },
-  {
-    "paper": {
-      "title": "Settling the Optimal Exponent Relating Sumsets and Difference Sets",
-      "summary": "For a finite nonempty subset $A$ of an abelian group, let $σ(A)=|A+A|/|A|$ and $δ(A)=|A-A|/|A|$. The classical sum-difference inequalities state that $$σ(A)^{1/2}\\leqδ(A)\\leqσ(A)^2.$$ The exponent $2$ in the second inequality is known to be optimal, whereas it has remained open whether the exponent $1/2$ in the first inequality can be improved. We settle this question by constructing an explicit family of finite sets $A_K\\subset\\mathbb{Z}$ such that $$\\frac{\\logσ(A_K)}{\\logδ(A_K)}\\longrightarrow 2,$$ hence the exponent $1/2$ in the first inequality is also optimal. The construction and its proof were developed with the assistance of Hyra, an AI research agent based on the open-weights Hy3 model.",
-      "authors": [
-        "Haowei Lin",
-        "Shanda Li"
-      ],
-      "link": "http://arxiv.org/abs/2607.27199v1",
-      "published": "2026-07-29",
-      "categories": [
-        "math.CO"
-      ]
-    },
-    "analysis": {
-      "key_methods": ".",
-      "datasets": "The most common way to calculate optimal sets is by calculating the amount of energy needed to calculate the number of e...",
-      "future_work": "An open-source, open-source, easy-to-use design approach to solving the real world problems of energy consumption and en..."
-    }
-  },
-  {
-    "paper": {
-      "title": "Mixed partition functions are exactly the graph parameters of exponentially bounded edge-connection rank",
-      "summary": "We prove a conjecture of Regts and Sevenster: a complex-valued graph parameter $f$ with $f(\\varnothing)=1$ has exponentially bounded edge-connection rank if and only if it is a mixed partition function; moreover, the model may be chosen with its numbers of even and odd colours explicitly bounded in terms of the rank bound. From $f$ we construct a connection category, a rigid symmetric $\\mathbb{C}$-linear monoidal category whose morphism spaces have the connection ranks as dimensions and whose trace pairings are nondegenerate. The rank hypothesis forces moderate tensor growth, and a recent theorem of Etingof and Penneys then shows that every nilpotent endomorphism has trace zero; together with the nondegeneracy of the trace pairing, this makes the category semisimple, and a theorem of Delig",
-      "authors": [
-        "William Whistler"
-      ],
-      "link": "http://arxiv.org/abs/2607.27198v1",
-      "published": "2026-07-29",
-      "categories": [
-        "math.CO",
-        "math.QA",
-        "math.RT"
+        "cs.CV"
       ]
     },
     "analysis": {
       "key_methods": "1.",
-      "datasets": "Racket:\nLarger and more complex features are available from the Data Center for the Internet (C2P)\nData Center:\nRacket:\n...",
-      "future_work": "I'd like to propose a new type of partition function:\nTo support this new type of partition function, I'd like to write ..."
+      "datasets": "CIPR\nDataFrame\nDataFrame\nDataFrame\nDataFrame\nDataFrame\nDataFrame\nDataFrame\nDataFrame\nDataFrame\nDataFrame\nDataFrame\nDataF...",
+      "future_work": "The use of the Acoustic Response Scale (ACR) in the field of acoustic perception is also being explored."
+    }
+  },
+  {
+    "paper": {
+      "title": "PhiZero: A World Model Built Around Physical Language",
+      "summary": "We introduce PhiZero, a physical world model built around physical language, a compact discrete representation of world-state transitions. Existing physical world models typically predict future videos directly in pixel space, leaving the underlying world dynamics implicit within high-dimensional visual predictors. Motivated by humans' ability to abstract predictive structure from visual experience and organize it in natural language for explicit reasoning, we learn physical language from in-the-wild videos through self-supervision and use it to explicitly reason about how the physical world evolves. Accordingly, PhiZero adopts a reason-then-render paradigm: it first infers future world evolution as a physical-language sequence and then renders the inferred transitions into videos. Extensi",
+      "authors": [
+        "Shuyao Shang",
+        "Yuqi Wang",
+        "Ruopeng Gao",
+        "Xu Chen",
+        "Tieniu Tan"
+      ],
+      "link": "http://arxiv.org/abs/2607.28624v1",
+      "published": "2026-07-30",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "Figure 2.",
+      "datasets": "-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-.",
+      "future_work": "A New Language for Computing, A New Language for Computing, A New Language for Computing, A New Language for Computing, ..."
+    }
+  },
+  {
+    "paper": {
+      "title": "A Four-dimensional Model-agnostic Probe into the Astrophysical Origins of Binary Black Hole Subpopulations",
+      "summary": "There is strong evidence of multiple binary black hole~(BBH) subpopulations in the cumulative gravitational wave catalog by the LIGO-Virgo-KAGRA collaboration that likely originate through distinct evolutionary channels. The astrophysical interpretation of this complex underlying population is subject to theoretical uncertainties in treatments of binary stellar evolution, core collapse, and host environments. Due to a lack of robust predictions and the sheer diversity of plausible features, strongly modelled population analyses often lead to prior-driven conclusions. On the other hand, flexible alternatives are often difficult to scale in higher dimensions, which can lead to a loss of critical information on astrophysically meaningful correlations. In this \\textit{Letter}, we present the f",
+      "authors": [
+        "Anarya Ray",
+        "Vicky Kalogera"
+      ],
+      "link": "http://arxiv.org/abs/2607.28622v1",
+      "published": "2026-07-30",
+      "categories": [
+        "astro-ph.HE",
+        "gr-qc"
+      ]
+    },
+    "analysis": {
+      "key_methods": "A single-dimensional model of a binary Black Hole subpopulations, including a single-dimensional model of the universe, ...",
+      "datasets": "-A four-dimensional model of the Astrophysical Origins of Binary Black Hole Subpopulations.",
+      "future_work": "A Four-dimensional Model-agnostic Probe into the Astrophysical Origins of Binary Black Hole Subpopulations."
     }
   }
 ]
