@@ -1,114 +1,114 @@
 [
   {
     "paper": {
-      "title": "Toward Robust and 3D-Aware RGB-NIR Imaging in the Dark",
-      "summary": "Robust low-light imaging remains challenging for the community. Recent studies have explored fusing Near-Infrared (NIR) with noisy RGB to achieve improved enhancement, yet most methods depend on carefully curated training data pairs, with limited robustness under different scenarios. This paper offers a new perspective for RGB-NIR low-light imaging by incorporating 3D-aware neural modeling. Without using clean RGB supervision, a powerful model can be optimized to implicitly fuse extremely noisy RGB observations with NIR cues in 3D space, effectively recovering clean RGB images. The proposed model obviates the requirement for clean RGB data collection, generalizes across different noise levels. Extensive evaluations on synthetic and real data demonstrate its superiority. Codes available: ht",
+      "title": "WorldExam: Benchmarking World Models from Apparent Appearance to Inherent Reactivity",
+      "summary": "Controllable video generation models are increasingly being developed as world models. Accordingly, evaluating them in this role extends beyond the apparent appearance of generated videos to the inherent reactivity of the worlds they depict: the ability to infer from the scene state how the world should react and to generate plausible consequences not explicitly described in the input. Yet existing benchmarks mainly assess visual quality or explicit instruction fulfillment by checking whether requested actions and interaction outcomes are realized, leaving inherent reactivity underexamined. We introduce WorldExam, a hierarchical diagnostic benchmark spanning four levels: Visual Quality, Control Adherence, Spatial Consistency, and World Reactivity. It comprises 1,474 cases across eight dedi",
       "authors": [
-        "Muyao Niu",
-        "Mingze Ma",
-        "Yifan Zhan",
-        "Qingtian Zhu",
-        "Zhihang Zhong"
+        "Yuxue Yang",
+        "Shuyao Shang",
+        "Jiahe Wang",
+        "Zitong Zhou",
+        "Liang Tan"
       ],
-      "link": "http://arxiv.org/abs/2607.29684v1",
-      "published": "2026-07-31",
+      "link": "http://arxiv.org/abs/2608.02603v1",
+      "published": "2026-08-03",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "The primary goal of this study was to identify the basic features of RGB-NIR, namely the underlying properties of the in...",
-      "datasets": "Reduce memory costs by decreasing power consumption by decreasing the number of different colors and combinations of col...",
-      "future_work": "Using the techniques of light microscopy and photonautics, researchers from the US Department of Defense and University ..."
+      "key_methods": "--\n--\n--\n--\n--\n--\n--\n--\n--\n--\n--\n--\n--\n--\n--\n--\n--\n--\n--\n--\n--\n--\n--\n--\n--.",
+      "datasets": ".",
+      "future_work": "Future research will focus on the ability to predict the use of an observable component in the React Native ecosystem."
     }
   },
   {
     "paper": {
-      "title": "Emulating the nonlinear effects of modified gravity on the matter power spectrum for reconstruction",
-      "summary": "Including nonlinear information from modified gravity (MG) brings more constraining power to the model-independent reconstruction of MG functions. However, the calculation of the nonlinear matter power spectrum with MGCAMB+ReACT is expensive in repeated likelihood evaluations, which limits the exploration of the high-dimensional parameter space. In this work, we construct a neural-network emulator for the nonlinear correction $R_{\\mathrm{MG}}(k,z)=P_{\\mathrm{MG}}^{\\mathrm{NL}}(k,z)/P_{\\mathrm{MG}}^{\\mathrm{L}}(k,z)$, which is trained with \\texttt{CosmoPower} on approximately $9\\times10^5$ samples and validated with representative spectra, an independent validation set, and MCMC tests with synthetic data. For $Λ$CDM and moderate MG nonlinear corrections, the emulated power spectra agree wit",
+      "title": "AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling",
+      "summary": "Language remains an outlier in generative modeling: while images, video, and audio are increasingly modeled in continuous latent spaces, text generation still relies predominantly on discrete tokens. Existing continuous language models either inherit embedding spaces not designed for joint generation and decoding, or compress autoencoded latents to ease diffusion, sacrificing token-level fidelity. Instead of simplifying the representation to suit the generative model, we preserve a high-capacity, decodable text latent and design the diffusion model to learn its distribution directly.   We introduce AURORA-LM, a continuous-latent diffusion language model that separates the construction of a decodable text representation from the modeling of its distribution. A Query-based Encoder-Decoder or",
       "authors": [
-        "Lanyang Yi",
-        "Kazuya Koyama",
-        "Qi Xiong",
-        "Gong-Bo Zhao"
+        "Jiajun Liang",
+        "Yucheng Liao",
+        "Yukang Cao",
+        "Jiazhe Wei",
+        "Ken Li"
       ],
-      "link": "http://arxiv.org/abs/2607.29683v1",
-      "published": "2026-07-31",
+      "link": "http://arxiv.org/abs/2608.02602v1",
+      "published": "2026-08-03",
       "categories": [
-        "astro-ph.CO"
+        "cs.CL"
       ]
     },
     "analysis": {
       "key_methods": ".",
-      "datasets": "The first three classes of the field are the new theory of the magnetic field.",
-      "future_work": "Analyses of the gravity effect in the gravitational wave field, as well as the gravitational wave field, also includes t..."
+      "datasets": "For the first time, we also introduced a new paradigm for combining two different types of domain-specific, nested, non-...",
+      "future_work": "Open-source, open-source, and open-source."
     }
   },
   {
     "paper": {
-      "title": "Scaling Properties of Text Conditioning in Visual Generation",
-      "summary": "We study empirical scaling properties for text conditioning in visual generation. Such properties have rarely been measured because diffusion loss does not scale with the number of tokens in natural-language prompts. Surprisingly, we find that the converged diffusion loss scales with the amount of structured language in the prompt. To quantify structured language, we adapt two complementary measures: a white-box likelihood metric (GPG) and a black-box attribute metric (ED). Across controlled training runs, the converged diffusion loss decreases approximately linearly with GPG and follows a power law with ED. Guided by these scaling properties, we improve \\emph{diffusability} by constructing structured prompts with semantic and geometric annotations derived from images, and improve \\emph{pr",
+      "title": "Bridging Artificial Intelligence and Power Systems Education Using a Hands-On Executable Framework",
+      "summary": "Artificial intelligence (AI) is increasingly central to power and energy systems, supporting modeling, forecasting, optimization, and control. Yet most existing works emphasize specialized applications and offer little reusable material for newcomers or interdisciplinary learners, who increasingly rely on large language models rather than building their own. This gap points to a need for engineering-grounded AI (EGAI), in which AI workflows follow established engineering and power-system domain rules rather than acting as task-agnostic black boxes. Motivated by a community survey of researchers and practitioners, which shows 92% report at least one barrier before running an AI model and 94% want a power-specific hands-on course. This paper presents a framework consisting of open, executabl",
       "authors": [
-        "Zilong Chen",
-        "Chaorui Deng",
-        "Kunchang Li",
-        "Hongyi Yuan",
-        "Haoqi Fan"
+        "Junjie Yin",
+        "Buxin She",
+        "Xinyu Feng",
+        " Fangxing",
+        " Li"
       ],
-      "link": "http://arxiv.org/abs/2607.29679v1",
-      "published": "2026-07-31",
+      "link": "http://arxiv.org/abs/2608.02599v1",
+      "published": "2026-08-03",
       "categories": [
-        "cs.CV"
+        "eess.SY",
+        "cs.AI"
       ]
     },
     "analysis": {
-      "key_methods": "The first two stages of modeling a text conditioning process.",
-      "datasets": "In the previous article, I mentioned that a single cell of an image is one of the most basic properties of text.",
-      "future_work": "."
+      "key_methods": "The use of the Java-based approach to the coding of a Java application is the same as using Python in this example.",
+      "datasets": "There is a bit of confusion about how to do this.",
+      "future_work": "Designing a powerful, powerful, and reliable framework."
     }
   },
   {
     "paper": {
-      "title": "TokTier: Exact Stateful Tokenization for Agentic LLM Serving",
-      "summary": "LLM serving systems cache prompt KV state, yet most front ends still re-tokenize the full request text on every call. The cost lands on coding agents, which resubmit a long transcript after each small tool result, and reuse is hard because even a short append can change token boundaries near the end of the previous sequence. Across 153,951 calls from two agent ecosystems, the median call appends about 1.4K characters, and only 1.0-3.6% of calls start or rebuild a session with contexts of millions of characters. At a 94.1% fleet prompt-cache hit rate, tokenization reaches up to 64% of time to first token.   TokTier is a stateful tokenization service with one contract: emitted token IDs are always identical to full reference tokenization of the request text. For a session continuation, it re",
+      "title": "Staying Productive Under the Palm Trees. On Graded Coeffect Typing in the Tropical Semiring",
+      "summary": "We show that the tropical semiring over the natural numbers, when used as the grading space in graded coeffect typing, faithfully models the passage of time while simultaneously guaranteeing productivity of well-typed programs. A grade a, when assigned to a function parameter, indicates that the parameter is not necessarily available immediately, but will become available after a time steps. We investigate this idea through two formal systems. We first introduce a graded type system featuring recursive and polymorphic types, and show that, in this setting, a natural restriction on recursive types is sufficient to guarantee productivity, while still allowing the definition of streams and recursive programs on them. In particular, we prove that Nakano's later modality can be embedded directl",
       "authors": [
-        "Zhenyu Zhang",
-        "Zhichao Cao"
+        "Rémy Cerda",
+        "Ugo Dal Lago"
       ],
-      "link": "http://arxiv.org/abs/2607.29678v1",
-      "published": "2026-07-31",
+      "link": "http://arxiv.org/abs/2608.02596v1",
+      "published": "2026-08-03",
       "categories": [
-        "cs.CL",
-        "cs.DC",
-        "cs.PF"
+        "cs.LO",
+        "cs.PL"
       ]
     },
     "analysis": {
-      "key_methods": "The following table shows the current stateful tokenization in the following table.",
-      "datasets": "Cisco\nDatasets mentioned:\nCisco\nDatasets mentioned:\nCisco\nDatasets mentioned:\nCisco.",
-      "future_work": "We hope to see the use of this tokenization for Agentic LLM functions in the future."
+      "key_methods": "The study was conducted by two University of Florida students who participated in a study of the impact of the palm tree...",
+      "datasets": "The term “trends” was used in the 1990s with the use of the term “trending” and “trends” in the 1990s with the use of th...",
+      "future_work": "The Palm Trees are useful for keeping a healthy tree alive."
     }
   },
   {
     "paper": {
-      "title": "The Kikuchi Hierarchy is Sharp for $k$XOR",
-      "summary": "Planted noisy $k$XOR and the strong refutation of random $k$XOR are governed by a conjectured trade-off between signal strength and time: Level $\\ell$ of the Kikuchi hierarchy should achieve the smooth curve \\begin{equation*}   m\\ \\gtrsim\\ ρ^{-2}n^{k/2}/\\ell^{k/2-1}\\ \\text{clauses}   \\quad\\Longleftrightarrow\\quad   \\text{solvable in time }n^{O(\\ell)}, \\end{equation*} where $ρ$ is the bias of the planted signal or, for refutation, the target advantage. However, every spectral analysis of sparse $k$XOR to date loses polylogarithmic factors against this curve, a loss that enters the exponent of the running time.   We show that a normalized variant of the Kikuchi hierarchy achieves the sharp conjectured trade-off, with no logarithmic loss, at every arity $k\\ge3$. At the scale above, our algori",
+      "title": "onepot-Bench 0: towards lab-aware in silico chemistry benchmarks",
+      "summary": "Language models are playing an increasingly important role in laboratory science, performing tasks such as experiment planning, execution, and post-hoc analysis. However, precisely measuring their abilities is difficult, as scientific capabilities require a mixture of both problem-solving skills and domain-specific intuition. Existing evaluations rarely measure the capabilities required to make reliable decisions in a physical laboratory and often rely on public data that may have appeared in model training corpora.   We introduce onepot-Bench 0, a proprietary benchmark suite for evaluating language models on synthetic chemistry capabilities relevant to wet-lab execution. onepot-Bench 0 comprises three complementary evaluations: ChemAbacus measures tool-free cheminformatics literacy and nu",
       "authors": [
-        "Alexander Schmidhuber",
-        "Matthew B. Hastings"
+        "Brandon Wang",
+        "Andrei S. Tyrin",
+        "Daniil A. Boiko"
       ],
-      "link": "http://arxiv.org/abs/2607.29672v1",
-      "published": "2026-07-31",
+      "link": "http://arxiv.org/abs/2608.02595v1",
+      "published": "2026-08-03",
       "categories": [
-        "cs.DS",
-        "cs.CC",
-        "quant-ph"
+        "cs.LG"
       ]
     },
     "analysis": {
-      "key_methods": "The Kikuchi Hierarchy is Sharp for $k$XOR.",
-      "datasets": "$k$XOR.",
-      "future_work": "The Kikuchi Hierarchy is Sharp for $k$XOR."
+      "key_methods": "A large number of simple analyses, as well as the results from a number of studies, were performed using the following a...",
+      "datasets": "The first thing you need to do is to write a set of tests that run on the same hardware (or both) you're going to be run...",
+      "future_work": "A new study of the same-sex marriage debate has found that couples who have married their partners have a higher risk of..."
     }
   }
 ]
