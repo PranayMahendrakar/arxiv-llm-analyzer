@@ -1,113 +1,116 @@
 [
   {
     "paper": {
-      "title": "The QCD Axion and Neutrino Masses",
-      "summary": "The strong CP problem and the origin of neutrino masses are among the clearest motivations for physics beyond the Standard Model. The Peccei-Quinn mechanism offers an elegant dynamical solution to the strong CP problem, predicting the QCD axion, while neutrino masses point to new degrees of freedom or interactions beyond the Standard Model. We explore the possibility that these two phenomena arise from a common origin by identifying the Peccei-Quinn symmetry-breaking scale with the scale responsible for neutrino mass generation. We perform a systematic and unified analysis of this connection in both DFSZ and KSVZ realizations of the Peccei-Quinn mechanism, considering the Type-I, Type-II, and Type-III seesaw mechanisms, the Zee radiative model, and the colored seesaw. For each scenario, we",
+      "title": "Learning When to Trust via Selective Context Preference Optimization",
+      "summary": "Language models increasingly condition their answers on external signals, and a single misleading one can turn a correct answer wrong. The obvious remedy, training models to resist such signals, hides a failure mode: a model that ignores all context looks robust yet is useless when the context is worth trusting. We recast the problem as selective trust and introduce MIST, a human-annotated benchmark that renders each reasoning item under four matched conditions (clean, misleading, correct-context, and irrelevant-context), together with SC2W, a paired metric counting how often a misleading signal flips a clean-correct answer to wrong. Across a comprehensive benchmark study, we observe that such a susceptibility is universal. We then propose SCOPE, which mines clean-correct/misleading-wrong ",
       "authors": [
-        "Hridoy Debnath",
-        "Pavel Fileviez Perez",
-        "Grace Miller"
+        "Xian Sun",
+        "Wei Chow",
+        "Yingshuo Wang",
+        "Junhao Liu",
+        "Wei Gao"
       ],
-      "link": "http://arxiv.org/abs/2608.05150v1",
-      "published": "2026-08-05",
+      "link": "http://arxiv.org/abs/2608.06377v1",
+      "published": "2026-08-06",
       "categories": [
-        "hep-ph"
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
       ]
     },
     "analysis": {
-      "key_methods": "We used a series of numerical models and two-dimensional vector model models (one or two dimensional vectors) to generat...",
-      "datasets": ".",
-      "future_work": "The QCD Axion and Neutrino Masses."
+      "key_methods": "The research was conducted using a multivariate random-effects model.",
+      "datasets": "The following paper uses an univariate model to evaluate the correlation between the two variables:\nUsing the same model...",
+      "future_work": "How to Use A Different Method for Understanding the Differences in the Use of Different Method for Understanding the Dif..."
     }
   },
   {
     "paper": {
-      "title": "CoCo-IR: Contextual Composed Image Retrieval",
-      "summary": "Current instruction-based image retrieval systems are powerful but limited to single-turn interactions, failing to capture the iterative nature of complex, real-world visual searches. To overcome this limitation, we introduce Contextual Composed Image Retrieval (CoCo-IR), a novel task that enables users to progressively refine search results through interactions. We address this new task by proposing a new model based on a Large Multimodal Model (LMM) that functions as a context-aware reasoner for CoCo-IR. Our model interprets the entire interaction history to generate Transformable Image Embeddings (TIE) that evolve across turns. To fuel the model training without expensive human annotations, we develop a fully autonomous, scalable data engine that leverages LMMs to generate high-quality ",
+      "title": "$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation",
+      "summary": "Humanoid household tasks often require concurrent loco-manipulation, where the robot must move, adjust posture, maintain balance, and manipulate objects as a single coordinated behavior. Yet existing humanoid policies typically decompose locomotion and manipulation, while recent world-action models remain either arm-centric or video-centered. We present $ω$-0, a latent predictive whole-body world-action model for real-world humanoid concurrent loco-manipulation. Given a language instruction, current visual observation, and robot proprioceptive state, $ω$-0 directly predicts controller-compatible whole-body action latents for real-robot execution. Rather than reconstructing future videos, $ω$-0 learns compact future observation embeddings as a lightweight predictive objective, coupling late",
       "authors": [
-        "Shengcao Cao",
-        "Tanmaya Shekhar Dabral",
-        "Zhongli Ding",
-        "Madhuri Shanbhogue",
-        "Kaifeng Chen"
+        "Zhe Li",
+        "Zhenzhe Zhang",
+        "Yangyang Wei",
+        "Wenjie Zhang",
+        "Xichen Yuan"
       ],
-      "link": "http://arxiv.org/abs/2608.05149v1",
-      "published": "2026-08-05",
+      "link": "http://arxiv.org/abs/2608.06375v1",
+      "published": "2026-08-06",
       "categories": [
-        "cs.CV"
+        "cs.RO"
       ]
     },
     "analysis": {
-      "key_methods": "As a result, the map of the original map of the actual map of the original map of the original map of the original map o...",
-      "datasets": "1.",
-      "future_work": "We can identify the relationship between self-esteem and the likelihood of self-esteem in the first place."
+      "key_methods": "The data were collected using the IBM-Semiconductor RISC-X (Semiconductor System for Computing Machinery) RISC-X RISC-X ...",
+      "datasets": "The Latent Predictive World Action Model is a combination of the four main features of the Latent Predictive World Actio...",
+      "future_work": "Biotrz, et al."
     }
   },
   {
     "paper": {
-      "title": "Reasoning Core: Designing Broad Procedural Data for Completion-Supervised Reasoning Training",
-      "summary": "Procedural generators produce useful verifiable reasoning problems at scale, but have received less attention as data for completion-supervised fine-tuning. We introduce Reasoning Core, a collection of 50 generators spanning mathematics, logic, planning, state tracking, formal languages, structured data, games, causality, and code, with semantic scorers, difficulty controls, and task evaluators. Under a matched completion-supervised protocol, we compare Reasoning Core with Procedural Warmup, Reasoning Gym, and SynLogic across four base-model settings and multiple training durations. In the primary 3B comparison, Reasoning Core achieves the highest mean scores on DROP, LogiQA, and ARC-Challenge, exceeding both the baseline without procedural data and all three alternative procedural collect",
+      "title": "DyPES-VLA: Learning Shared Dynamics Priors and Embodiment-Specific Control for Cross-Embodiment Manipulation",
+      "summary": "Vision-Language-Action (VLA) models have become a powerful paradigm for robot manipulation, but training a single generalist policy for heterogeneous robot embodiments remains an open problem. Existing methods have two main limitations. First, they underuse dynamics priors shared across diverse visual and interaction data, limiting cross-embodiment transfer. Second, they require extensive manual preprocessing to convert embodiment-specific actions into a common format. To overcome these limitations, we propose DyPES-VLA, a cross-embodiment VLA that learns shared Dynamics Priors and Embodiment-Specific control. First, we learn shared dynamics priors by training the vision-language model (VLM) with a future-prediction objective on cross-embodiment data, driving the shared query representatio",
       "authors": [
-        "Damien Sileo",
-        "Valentin Lacombe",
-        "Dimitri Kachler"
+        "Junfeng Li",
+        "Junjie He",
+        "Zhide Zhong",
+        "Yangyang Zheng",
+        "Pingyue Sheng"
       ],
-      "link": "http://arxiv.org/abs/2608.05148v1",
-      "published": "2026-08-05",
+      "link": "http://arxiv.org/abs/2608.06374v1",
+      "published": "2026-08-06",
+      "categories": [
+        "cs.RO"
+      ]
+    },
+    "analysis": {
+      "key_methods": ".",
+      "datasets": "A.",
+      "future_work": "A major research approach to the development of a complex network model for cross-embodiment manipulation."
+    }
+  },
+  {
+    "paper": {
+      "title": "Global weak solutions to the Cahn-Hilliard equation with degenerate mobility and singular diffusion",
+      "summary": "We study the initial-boundary value problem for the Cahn-Hilliard equation with degenerate mobility and singular diffusion at pure phases. This model describes the dynamics of phase separation in polymer blends with associated Flory-Huggins-de Gennes free energy. We prove the existence of suitable global weak solutions in three-dimensional bounded, smooth, and convex domains, assuming that the initial datum has finite energy. A key novelty of our analysis is the derivation of $L^4(0,T; H^2(Ω))$ estimates for both the solution $u$ and the function $φ(u)=\\arcsin(u)$, obtained without relying on the classical entropy-based approach.",
+      "authors": [
+        "Monica Conti",
+        "Andrea Giorgini",
+        "Greta Ricchi"
+      ],
+      "link": "http://arxiv.org/abs/2608.06371v1",
+      "published": "2026-08-06",
+      "categories": [
+        "math.AP"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The two main reasons (1) the Cahn-Hilliard equation is not used for the Cahn-Hilliard equation is that the equations are...",
+      "datasets": "The key to identifying the difference between the two systems has been the difference between the two systems.",
+      "future_work": "The impact of the Cahn-Hilliard equation on the Cahn-Hilliard equation on the Cahn-Hilliard equation has been published ..."
+    }
+  },
+  {
+    "paper": {
+      "title": "The Bitter Lesson of Tool Calling",
+      "summary": "Tool use transforms LLMs into agents that act beyond their training data, and for code-capable models, programmatic tool calling extends this further by replacing rigid JSON calls with scripts that chain and parallelize naturally. However, a systematic evaluation of tools as code on an established benchmark across current and prior model generations under real-world task conditions has not been conducted. In this work, we empirically compare programmatic tool calling (PTC) to native JSON tool calling across 14 language models on BFCL v4. In the programmatic tool calling paradigm, tools are exposed as typed Python stubs that the model invokes through code, with execution and results handled in a single agent turn. Programmatic tool calling matches or exceeds native JSON tool calling in 11 o",
+      "authors": [
+        "Ishan Patel",
+        "Sahil Sen",
+        "Elias Lumer",
+        "Vamse Kumar Subbiah"
+      ],
+      "link": "http://arxiv.org/abs/2608.06370v1",
+      "published": "2026-08-06",
       "categories": [
         "cs.CL"
       ]
     },
     "analysis": {
-      "key_methods": "A detailed list of the basic principles, including the following.",
-      "datasets": "There is a small set of computational modeling techniques that are already used for computational inference.",
-      "future_work": "Implementing a network of network-based network-based networks."
-    }
-  },
-  {
-    "paper": {
-      "title": "Machine-Learning Search for Lax Connections",
-      "summary": "We apply a machine learning framework to search for Lax connections in two-dimensional non-linear sigma models using local current data. For the $SU(2)$ principal chiral model and the symmetric coset $S^2 = SU(2)/U(1)$, the method successfully recovers the full spectral-parameter families without using the known spectral curves as training targets. For the non-symmetric coset $T^{1,1}$, the optimization converges to reproducible low-loss maps that distill into a compact block-diagonal ansatz. However, analytic verification shows that this candidate is a ``fake Lax'' connection which satisfies on-shell flatness but fails to encode the two-dimensional equations of motion, whereas its point-particle reduction yields a genuine mechanical Lax pair. These results demonstrate that machine learnin",
-      "authors": [
-        "Osamu Fukushima",
-        "Tomohiro Shigemura",
-        "Ryosuke Suda",
-        "Norihiro Tanahashi",
-        "Kentaroh Yoshida"
-      ],
-      "link": "http://arxiv.org/abs/2608.05146v1",
-      "published": "2026-08-05",
-      "categories": [
-        "hep-th",
-        "nlin.SI"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The research was done in the first year of the Lax Connections project.",
-      "datasets": "1.",
-      "future_work": "The Neural Networks of Science."
-    }
-  },
-  {
-    "paper": {
-      "title": "Objects as Audio-Visual Modal Sound Fields",
-      "summary": "While modern 3D reconstruction excels at modeling object geometry and appearance, it largely ignores the rich acoustic cues revealed through physical interaction. Object impact sounds convey material, stiffness, and structural properties that complement vision, yet existing impact sound modeling approaches either rely on expensive physics-based simulation or require large datasets to generalize in a purely data-driven manner. We introduce Audio-Visual Modal Sound Field (AV-MSF), a novel object-level acoustic representation reconstructed from multi-view images and only a few impact sound recordings. AV-MSF builds on 3D Gaussian Splatting integrated with dense 3D visual feature to provide a strong geometry-aware prior, and represents the impact sound field using compact, physically meaningfu",
-      "authors": [
-        "Zisen Shao",
-        "Zihao Wei",
-        "Derong Jin",
-        "Ruohan Gao"
-      ],
-      "link": "http://arxiv.org/abs/2608.05145v1",
-      "published": "2026-08-05",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": "A number of objects were generated in the process of developing the audio-visual effects system.",
-      "datasets": "Jupiter, Saturn, Saturn, Saturn, Saturn, Saturn, Saturn, Saturn, Saturn, Saturn, Saturn, Saturn, Saturn, Saturn, Saturn,...",
-      "future_work": "The goal of the first ever sound field study is to identify and evaluate the properties of audio inputs and outputs of s..."
+      "key_methods": "The term tool called \"toolcall\" refers to an instrument that calls on a non-tool called \"toolcall\" (usually called \"tool...",
+      "datasets": "Let’s create a datastore with a simple function, call it, and then call it for the next command.",
+      "future_work": "In order to better understand how to use the Bitterless API, I am going to need to look at the following ways to build a..."
     }
   }
 ]
