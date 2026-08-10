@@ -1,116 +1,116 @@
 [
   {
     "paper": {
-      "title": "Learning When to Trust via Selective Context Preference Optimization",
-      "summary": "Language models increasingly condition their answers on external signals, and a single misleading one can turn a correct answer wrong. The obvious remedy, training models to resist such signals, hides a failure mode: a model that ignores all context looks robust yet is useless when the context is worth trusting. We recast the problem as selective trust and introduce MIST, a human-annotated benchmark that renders each reasoning item under four matched conditions (clean, misleading, correct-context, and irrelevant-context), together with SC2W, a paired metric counting how often a misleading signal flips a clean-correct answer to wrong. Across a comprehensive benchmark study, we observe that such a susceptibility is universal. We then propose SCOPE, which mines clean-correct/misleading-wrong ",
+      "title": "HST imaging, pipeline modeling, and time-delay predictions of 2 triply-imaged and 15 quadruply-imaged lensed quasars",
+      "summary": "The Hubble-Lemaître tension remains a significant challenge in modern cosmology, exhibiting a discrepancy between early-Universe cosmic microwave background measurements and local distance ladder observations. Strong lensing time-delay cosmography provides an independent, geometric probe of $H_0$ that can help resolve this discrepancy. Although hundreds of lensed quasars have been discovered, only a handful have been analyzed due to the resource-intensive follow-up required to measure precise time delays and break degeneracies. We present uniform gravitational lens modeling of 17 recently discovered lensed quasar systems (2 triply-imaged and 15 quadruply-imaged) to identify and prioritize the most promising candidates for future cosmological study. Using high-resolution near-infrared Hubbl",
       "authors": [
-        "Xian Sun",
-        "Wei Chow",
-        "Yingshuo Wang",
-        "Junhao Liu",
-        "Wei Gao"
+        "William Sheu",
+        "Tommaso Treu",
+        "Adriano Agnello",
+        "Timo Anguita",
+        "Simon Birrer"
       ],
-      "link": "http://arxiv.org/abs/2608.06377v1",
-      "published": "2026-08-06",
+      "link": "http://arxiv.org/abs/2608.07470v1",
+      "published": "2026-08-07",
       "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.LG"
-      ]
-    },
-    "analysis": {
-      "key_methods": "Sessions and a subset of the sample.",
-      "datasets": ".",
-      "future_work": "The New York Times, New York Times, and the Washington Post."
-    }
-  },
-  {
-    "paper": {
-      "title": "$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation",
-      "summary": "Humanoid household tasks often require concurrent loco-manipulation, where the robot must move, adjust posture, maintain balance, and manipulate objects as a single coordinated behavior. Yet existing humanoid policies typically decompose locomotion and manipulation, while recent world-action models remain either arm-centric or video-centered. We present $ω$-0, a latent predictive whole-body world-action model for real-world humanoid concurrent loco-manipulation. Given a language instruction, current visual observation, and robot proprioceptive state, $ω$-0 directly predicts controller-compatible whole-body action latents for real-robot execution. Rather than reconstructing future videos, $ω$-0 learns compact future observation embeddings as a lightweight predictive objective, coupling late",
-      "authors": [
-        "Zhe Li",
-        "Zhenzhe Zhang",
-        "Yangyang Wei",
-        "Wenjie Zhang",
-        "Xichen Yuan"
-      ],
-      "link": "http://arxiv.org/abs/2608.06375v1",
-      "published": "2026-08-06",
-      "categories": [
-        "cs.RO"
-      ]
-    },
-    "analysis": {
-      "key_methods": "A.",
-      "datasets": "In this paper we will use a series of algorithms to determine the optimal response time for a human-made human-made robo...",
-      "future_work": "In the near future, they will explore the effects of the human brain on cognition through the use of a computerized netw..."
-    }
-  },
-  {
-    "paper": {
-      "title": "DyPES-VLA: Learning Shared Dynamics Priors and Embodiment-Specific Control for Cross-Embodiment Manipulation",
-      "summary": "Vision-Language-Action (VLA) models have become a powerful paradigm for robot manipulation, but training a single generalist policy for heterogeneous robot embodiments remains an open problem. Existing methods have two main limitations. First, they underuse dynamics priors shared across diverse visual and interaction data, limiting cross-embodiment transfer. Second, they require extensive manual preprocessing to convert embodiment-specific actions into a common format. To overcome these limitations, we propose DyPES-VLA, a cross-embodiment VLA that learns shared Dynamics Priors and Embodiment-Specific control. First, we learn shared dynamics priors by training the vision-language model (VLM) with a future-prediction objective on cross-embodiment data, driving the shared query representatio",
-      "authors": [
-        "Junfeng Li",
-        "Junjie He",
-        "Zhide Zhong",
-        "Yangyang Zheng",
-        "Pingyue Sheng"
-      ],
-      "link": "http://arxiv.org/abs/2608.06374v1",
-      "published": "2026-08-06",
-      "categories": [
-        "cs.RO"
+        "astro-ph.CO",
+        "astro-ph.GA"
       ]
     },
     "analysis": {
       "key_methods": ".",
-      "datasets": "The following table will be used to illustrate the basic concepts of neural inference, which are summarized in the follo...",
-      "future_work": "Using a simple and efficient network to control shared models and control for cross-embodiment manipulation, with a sing..."
-    }
-  },
-  {
-    "paper": {
-      "title": "Global weak solutions to the Cahn-Hilliard equation with degenerate mobility and singular diffusion",
-      "summary": "We study the initial-boundary value problem for the Cahn-Hilliard equation with degenerate mobility and singular diffusion at pure phases. This model describes the dynamics of phase separation in polymer blends with associated Flory-Huggins-de Gennes free energy. We prove the existence of suitable global weak solutions in three-dimensional bounded, smooth, and convex domains, assuming that the initial datum has finite energy. A key novelty of our analysis is the derivation of $L^4(0,T; H^2(Ω))$ estimates for both the solution $u$ and the function $φ(u)=\\arcsin(u)$, obtained without relying on the classical entropy-based approach.",
-      "authors": [
-        "Monica Conti",
-        "Andrea Giorgini",
-        "Greta Ricchi"
-      ],
-      "link": "http://arxiv.org/abs/2608.06371v1",
-      "published": "2026-08-06",
-      "categories": [
-        "math.AP"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The main objective of the study was to identify the central source of the Cahn-Hilliard equation with degenerate mobilit...",
-      "datasets": "References.",
+      "datasets": "The lensing of a 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D.",
       "future_work": "."
     }
   },
   {
     "paper": {
-      "title": "The Bitter Lesson of Tool Calling",
-      "summary": "Tool use transforms LLMs into agents that act beyond their training data, and for code-capable models, programmatic tool calling extends this further by replacing rigid JSON calls with scripts that chain and parallelize naturally. However, a systematic evaluation of tools as code on an established benchmark across current and prior model generations under real-world task conditions has not been conducted. In this work, we empirically compare programmatic tool calling (PTC) to native JSON tool calling across 14 language models on BFCL v4. In the programmatic tool calling paradigm, tools are exposed as typed Python stubs that the model invokes through code, with execution and results handled in a single agent turn. Programmatic tool calling matches or exceeds native JSON tool calling in 11 o",
+      "title": "Efficient three-dimensional variational data assimilation of multi-plane PIV data",
+      "summary": "We perform three-dimensional variational data assimilation (3DVar) using a discrete adjoint approach to optimise the time-averaged momentum equations. The experimental data consist of sparse stereoscopic particle image velocimetry (PIV) measurements collected along $12$ cross-stream planes in the wake of a vehicle-like bluff body at a Reynolds number $Re_L = 5.64 \\times 10^5$ based on the streamwise body length. Adjoint localisation is proposed and implemented to reduce the memory footprint of the discrete adjoint method for spatially-varying control variables in 3DVar by confining the control variable space to a user-defined subdomain. Restricting the control variable to $12$ % of the full control space yields a maximum reduction in peak memory of $64$ %, while producing assimilated field",
       "authors": [
-        "Ishan Patel",
-        "Sahil Sen",
-        "Elias Lumer",
-        "Vamse Kumar Subbiah"
+        "Uttam Cadambi Padmanaban",
+        "Samaresh Midya",
+        "Ping He",
+        "Bharathram Ganapathisubramani",
+        "Sean Symon"
       ],
-      "link": "http://arxiv.org/abs/2608.06370v1",
-      "published": "2026-08-06",
+      "link": "http://arxiv.org/abs/2608.07469v1",
+      "published": "2026-08-07",
       "categories": [
-        "cs.CL"
+        "physics.flu-dyn"
       ]
     },
     "analysis": {
-      "key_methods": "1.",
-      "datasets": "This is the first time I have used a tool called Tool Calling.",
-      "future_work": "An overview of how to do the basic, most basic, and most useful things."
+      "key_methods": ".",
+      "datasets": ".",
+      "future_work": "We propose a new 3D model of human memory encoding in multivariate data."
+    }
+  },
+  {
+    "paper": {
+      "title": "SimWAM: A Simple World Action Model for End-to-End Autonomous Driving",
+      "summary": "World-Action Models (WAMs) improve end-to-end autonomous driving by transferring video dynamics priors to action prediction, but existing methods require costly future generation at inference. We present SimWAM, a simple yet effective WAM that uses video generation purely as a training signal. It co-trains a pretrained video expert and a lightweight action expert with joint flow matching. An isolated attention mask keeps action prediction independent of future frames, allowing the video branch to be discarded after training and leaving a self-contained planner that directly predicts trajectories. Since the two experts share no parameters and interact only through a unified attention interface, the video backbone could be replaced and the action expert scaled independently without modifying",
+      "authors": [
+        "Zongchuang Zhao",
+        "Xin Zhou",
+        "Tianyang Xu",
+        "Zhengyang Sun",
+        "Kaixuan Zhou"
+      ],
+      "link": "http://arxiv.org/abs/2608.07468v1",
+      "published": "2026-08-07",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "SimWAM: A Simple World Action Model for End-to-End Autonomous Driving.",
+      "datasets": "http://www.",
+      "future_work": "Reverse the idea of a world where a driver is going to drive and when a car starts to accelerate, it will start to accel..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Entanglement Mpemba Effect",
+      "summary": "Generating entanglement rapidly and reliably is essential for quantum information processing, communication, and metrology. Dissipative preparation is attractive because engineered reservoirs robustly drive a system toward an entangled target, yet relaxation can carry a substantial time cost. Here we formulate the entanglement Mpemba effect, whereby an initially less entangled state overtakes a more entangled state under the same open-system dynamics. This effect turns initial-state engineering into a route for faster preparation without altering the dissipative protocol. We derive a general criterion for the reversal from the relaxation spectrum, applicable even when entanglement evolves nonmonotonically. A reversal of deterministic local operations and classical communication (LOCC)-reac",
+      "authors": [
+        "Ruicheng Bao",
+        "Yue Liu"
+      ],
+      "link": "http://arxiv.org/abs/2608.07465v1",
+      "published": "2026-08-07",
+      "categories": [
+        "cond-mat.stat-mech",
+        "quant-ph"
+      ]
+    },
+    "analysis": {
+      "key_methods": ".",
+      "datasets": "The following are example snippets that you can use to generate data to do with an HTML5 version of HTML5.",
+      "future_work": "N."
+    }
+  },
+  {
+    "paper": {
+      "title": "MirrorWorld: Taming Video Diffusion Models for Mirror Reflection Generation",
+      "summary": "Recent advances in video diffusion models (VDMs) have enabled high-fidelity video synthesis. However, generating mirror reflections remains challenging because the content within a mirror must remain consistent with the surrounding scene. Existing VDMs are not specifically designed to model scene-to-mirror relationships, which can lead to reflections with incorrect content or inconsistent spatial arrangements. We observe that mirror reflection generation involves two complementary challenges: determining what scene content should be reflected and how the reflected content should be spatially arranged within the mirror region. Motivated by this observation, we propose MirrorWorld, a reflection-aware video inpainting framework that models scene-to-mirror relationships during generation. Spec",
+      "authors": [
+        "Youjun Zhao",
+        "Alex Warren",
+        "Gary K. L. Tam",
+        "Rynson W. H. Lau"
+      ],
+      "link": "http://arxiv.org/abs/2608.07463v1",
+      "published": "2026-08-07",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ]
+    },
+    "analysis": {
+      "key_methods": "A.",
+      "datasets": "See Also:.",
+      "future_work": "The use of diffraction models to model light scattering patterns of the spectrum for light scattering and reflectivity."
     }
   }
 ]
