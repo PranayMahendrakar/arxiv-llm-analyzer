@@ -1,124 +1,120 @@
 [
   {
     "paper": {
-      "title": "Cell Natural Orbitals in Interacting Topological Bands",
-      "summary": "Topological bands exhibit obstruction to exponentially localized and symmetric Wannier functions, challenging the standard paradigm of representing projected interactions in terms of local orbitals with finite range. To faithfully capture the form factors and quantum geometry of topological bands we introduce a singular-value decomposition of the band-projected density form factors, enabling a geometry-based truncation scheme of the Hilbert space, exposing an intrinsic hierarchy on band-projected interactions that is determined by the underlying wavefunctions. This decomposition is most naturally described in terms of Cell Natural Orbitals (CNOs), as the eigenstates of the unit-cell reduced one-particle density matrix, whose occupation provide a measure of the minimal orbital complexity re",
+      "title": "AdvFD: Boosting Visual Generation via Adversarial Fr'echet Distance Loss",
+      "summary": "Fréchet distance has recently emerged as an effective distribution-level objective for generator post-training, complementing the conventional sample-level diffusion and flow-matching losses. However, directly optimizing Fréchet objectives can cause Fréchet hacking. The target metrics keep improving, but visual quality and Fréchet alignment in other feature spaces may stagnate or deteriorate. We attribute this failure to the static pretrained feature spaces used by existing Fréchet losses. These feature spaces provide incomplete and fixed views of the differences between real and generated distributions. To address this limitation, we propose Adversarial Fréchet Distance (AdvFD), which complements the static representation targets in FD-Loss with a calibrated adversarially learned represen",
       "authors": [
-        "Nishchhal Verma",
-        "Harshitra Mahalingam",
-        "Daniel Muñoz-Segovia",
-        "Raquel Queiroz"
+        "Mingju Gao",
+        "Jingkai Zhou",
+        "Kun Gai",
+        "Changqian Yu",
+        "Hao Tang"
       ],
-      "link": "http://arxiv.org/abs/2608.09932v1",
-      "published": "2026-08-10",
-      "categories": [
-        "cond-mat.str-el",
-        "cond-mat.mes-hall",
-        "cond-mat.mtrl-sci"
-      ]
-    },
-    "analysis": {
-      "key_methods": ".",
-      "datasets": "For example, the Earth's atmosphere is very much flat because of the atmospheric pressure, and there are more gases, whi...",
-      "future_work": "A comparative study on the origin and structure of the Earth's energy system and its implications."
-    }
-  },
-  {
-    "paper": {
-      "title": "Perception Before Supervision: Self-Contained Visual Distillation from Counterfactual Blind Spots",
-      "summary": "Self-improvement for multimodal large language models (MLLMs) is typically driven by reward-based methods that provide only coarse scalar feedback. Distillation offers a richer alternative through dense token-level supervision, but in the visual domain it usually depends on privileged context constructed using external annotations and tools, or stronger models. We introduce \\textbf{CVPD} (Contrastive Counterfactual Visual Process Distillation), which, to the best of our knowledge, is the first fully self-contained framework for dense, on-policy, token-level visual self-distillation for MLLMs. CVPD identifies visual blind spots where zooming into a region changes and sharpens the model's answer distribution, while removing the same region leaves the full-image behavior largely unchanged. Su",
-      "authors": [
-        "Shravan Venkatraman",
-        "Omkar Thawakar",
-        "Ritesh Thawkar",
-        "Abdelrahman Shaker",
-        "Rao Muhammad Anwer"
-      ],
-      "link": "http://arxiv.org/abs/2608.09931v1",
-      "published": "2026-08-10",
+      "link": "http://arxiv.org/abs/2608.11205v1",
+      "published": "2026-08-11",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "A randomized, controlled, randomized, controlled, randomized, randomized, randomized, randomized, randomized, randomized...",
-      "datasets": "I've added some additional information.",
-      "future_work": "One of the principal ways to monitor and measure the effect of visual deprivation on neurodevelopmental function and mem..."
+      "key_methods": ".",
+      "datasets": ".",
+      "future_work": "How to reduce the cost of generating digital data (EFR) by using the ‪EFR‬ approach."
     }
   },
   {
     "paper": {
-      "title": "Beyond Naturalness: Probing Automated Text-To-Speech Evaluators on Linguistically Grounded Dimensions",
-      "summary": "Automated Text-to-Speech (TTS) evaluation methods (Mean Opinion Score (MOS) predictors and Audio Large Language Models (Audio-LLM) judges) are expected to reflect human perception, yet it is unclear how well they capture the distinct aspects of speech that listeners actually perceive. We deconstruct \"naturalness\" into a linguistically grounded annotation schema spanning 10 distinct perceptual dimensions, and use it to construct the first dimension-level meta-evaluation benchmark for TTS, comprising 860 utterances annotated by trained linguist raters. Results from benchmarking four MOS predictors and four Audio-LLM judges reveal that MOS predictors collapse onto acoustic signal quality, while Audio-LLM judges show selective, prompt-dependent detection that does not generalise across all dim",
+      "title": "Surgical WAM: A World-Action Model for Data-Efficient Surgical Robot Learning",
+      "summary": "Learning reliable surgical manipulation policies is bottlenecked by the scarcity of action-labeled demonstrations: teleoperated surgical robot (e.g., dVRK) trajectories with synchronized kinematics are costly to collect, while surgical tasks demand precise contact handling, long-horizon reasoning, and bimanual coordination. Endoscopic video is comparatively inexpensive and abundant relative to synchronized video--kinematics trajectories, and a natural way to exploit it is to learn world models of surgical scenes. However, existing surgical world models use video primarily for simulation or policy evaluation, and rarely translate the learned dynamics into closed-loop control. This gap raises our central question: under a fixed budget of action-labeled demonstrations, does action-free video ",
       "authors": [
-        "Oluwanifemi Bamgbose",
-        "Simon Rosen",
-        "Jash Shah",
-        "Lindsay Devon Brin",
-        "Hoang H Nguyen"
+        "Wenrui Bao",
+        "Tianyun Jiang",
+        "Zhiben Chen",
+        "Ser-Nam Lim",
+        "Peter D. Peng"
       ],
-      "link": "http://arxiv.org/abs/2608.09930v1",
-      "published": "2026-08-10",
+      "link": "http://arxiv.org/abs/2608.11204v1",
+      "published": "2026-08-11",
       "categories": [
-        "cs.SD",
+        "cs.RO",
         "cs.AI",
-        "cs.CL"
+        "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "Methods:\nA.",
-      "datasets": "In this article, I will show the basic principles of machine learning, and how to build artificial intelligences using n...",
-      "future_work": "Explore further:\n\nA."
+      "key_methods": ".",
+      "datasets": "A model of the behavior of a robot was created.",
+      "future_work": "A Study of Artificial Intelligence and Artificial Intelligence."
     }
   },
   {
     "paper": {
-      "title": "Realization Variance of Gravitational Wave Background Anisotropies from Shot Noise for Pulsar Timing Arrays",
-      "summary": "Shot-noise anisotropies in the nHz gravitational wave background (GWB) are a promising target for pulsar timing arrays (PTAs). If the nHz GWB is sourced by merging supermassive black hole binaries (SMBHBs), as current evidence suggests, the shot-noise signal is expected to be large, potentially of order unity at observing frequencies of $f \\sim 1 \\, \\mathrm{yr}^{-1}$. In this regime, the signal is dominated by rare bright binaries, and Poisson fluctuations in the discrete SMBHB population produce significant spatial anisotropies. Here, we use Monte Carlo simulations to model the realization-to-realization scatter in the shot-noise, sampling from empirically calibrated models of the SMBHB source populations. We find that the probability distribution of shot-noise amplitudes is broad, spanni",
+      "title": "Capturing Uncertainty in Human Motion for Representation Learning in Soccer",
+      "summary": "This paper presents a self-supervised representation learning framework for understanding 3D skeleton-based human motion in soccer, using future motion prediction as the learning objective. Since human motion is inherently uncertain, accounting for multiple plausible futures is essential for capturing the underlying motion dynamics and learning effective representations. To this end, we introduce a conditioning module for motion prediction that models a probabilistic distribution over discretized future motions in 3D Euclidean space, learning multimodality with explicit supervision from future trajectories. Experiments on large-scale soccer player tracking data show that our approach substantially improves motion prediction accuracy. Moreover, the learned representations effectively transf",
       "authors": [
-        "Meng-Xiang Lin",
-        "Adam Lidz",
-        "Chung-Pei Ma"
+        "Yizhou Xu",
+        "Lars Bretzner",
+        "Tiesheng Wang",
+        "Atsuto Maki"
       ],
-      "link": "http://arxiv.org/abs/2608.09929v1",
-      "published": "2026-08-10",
+      "link": "http://arxiv.org/abs/2608.11203v1",
+      "published": "2026-08-11",
       "categories": [
-        "astro-ph.CO",
-        "astro-ph.GA",
-        "astro-ph.HE",
-        "gr-qc"
+        "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "The main data set was the time scales, and anisotropies of the two waves were drawn using a real-time camera.",
-      "datasets": "For the first time we've been able to measure how the waves affect the wave speed, but the problem is that the waves are...",
-      "future_work": "In a paper, we describe the evolution of gravitational waves from anisotropies from shooting noise to a wave background."
+      "key_methods": ".",
+      "datasets": "- Realistic representation learning (MLS) is used to teach soccer players how to navigate the field of soccer.",
+      "future_work": "Using interactive video games to play soccer, video games help us understand and improve our skills and improve our comm..."
     }
   },
   {
     "paper": {
-      "title": "Multimodal Model Diffing for Feature Discovery and Control",
-      "summary": "Multimodal Large Language Models (MLLMs) exhibit strong visual understanding, yet the internal features that cause these behaviors remain difficult to identify, audit, or control. While applicable to post-hoc inspection, hidden states that are decomposed into interpretable feature directions using sparse autoencoders (SAEs) neither readily isolate which features are changed by multimodal training, nor are they directly useful for targeted control. We introduce MMDiff, a multimodal model-diffing framework that trains multimodal SAEs and turns them into feature-level interfaces for discovering and controlling multimodal behavior. MMDiff supports three uses: (i) feature isolation, by diffing a base-LM SAE against its multimodal-adapted counterpart to identify features altered by multimodal tr",
+      "title": "VidForensics-M1: Meta-Detection Reinforcement Learning with Verifiable Temporal Grounding for AI-Generated Video Forensics",
+      "summary": "Recent advances in video generation models have significantly improved the realism of synthetic videos, blurring the boundary between generated and authentic content and raising concerns about misinformation. Existing MLLM-based detectors mainly rely on supervised fine-tuning or label-level reinforcement learning, where coarse supervision limits generalization to unseen scenarios and emerging video generators. To overcome these limitations, we are the first to introduce \\textbf{meta-detection} into AI-generated video detection, enabling reliable forgery detection by jointly optimizing predicted labels and supporting evidence within reinforcement learning. This paradigm requires reliable evidence signals and effective mechanisms to integrate them into label-level optimization. Textual ratio",
       "authors": [
-        "Hunar Batra",
-        "Lachin Naghashyar",
-        "Ashkan Khakzar",
-        "Philip Torr",
-        "Christian Schroeder de Witt"
+        "Bowei Liu",
+        "Zheng Lu",
+        "Yuhan Bian",
+        "Xinchen Zhang",
+        "Xingming Shui"
       ],
-      "link": "http://arxiv.org/abs/2608.09928v1",
-      "published": "2026-08-10",
+      "link": "http://arxiv.org/abs/2608.11201v1",
+      "published": "2026-08-11",
       "categories": [
-        "cs.CV",
-        "cs.AI",
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": ".",
+      "datasets": "[1] https://wiki.",
+      "future_work": "The new research will target video-driven predictive analytics and other fields in AI."
+    }
+  },
+  {
+    "paper": {
+      "title": "ConVAWG: A Retrieval-Grounded Framework for Controlled Synthetic Dialogue Generation in Violence Against Women and Girls",
+      "summary": "Synthetic dialogue generation offers a way to study conversational dynamics in sensitive domains where real data are difficult to access, release, or annotate. The underlying abuse may occur online or offline: threats and coercion can appear directly in messages, while behaviours such as surveillance, isolation, stalking, and physical violence may be planned, disclosed, or referred to conversationally. Privacy and legal constraints make it difficult the release of large-scale real conversation datasets; existing work has mostly focused on sentence-level toxicity of online abuses, leaving a gap in modelling abuse as a relational and temporally unfolding phenomenon. In this work, we focus on modelling Violence Against Women and Girls (VAWG) scenarios as multi-turn dialogues. We introduce Con",
+      "authors": [
+        "Chen Lyu",
+        "Xingwei Tan",
+        "Simon Cullen",
+        "Shelley Wilson",
+        "Lois Arthurs"
+      ],
+      "link": "http://arxiv.org/abs/2608.11200v1",
+      "published": "2026-08-11",
+      "categories": [
         "cs.CL",
+        "cs.AI",
         "cs.LG"
       ]
     },
     "analysis": {
       "key_methods": ".",
-      "datasets": "The first line of this post was the current implementation of the Unified Linear Model and the first line of this post w...",
-      "future_work": "How to use the approach and the toolkit to understand the dynamics of the neural networks."
+      "datasets": "We are working to bring together the leading experts in the legal and professional debate on the subject of the Violence...",
+      "future_work": "The implications of the use of the language in violence against women and girls will be published in the U."
     }
   }
 ]
