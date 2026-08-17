@@ -1,118 +1,117 @@
 [
   {
     "paper": {
-      "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
-      "summary": "Transforming multimodal sources into condensed and structured media outputs can be fundamentally conceptualized as a long-horizon agentic process centered on a model-harness system. While an ideal harness system should align with human design priors and accumulate reusable experience through empirical exploration to drive recursive self-improvement, existing paradigms remain static and fall short of this capability. In this paper, we present AutoDesign, a framework that aligns with human design priors, where a meta-harness optimizer guides a code agent to recursively improve harness based on rollout feedback. To instantiate and evaluate this framework, we focus on the academic paper-to-poster generation task and introduce PosterBench, comprising a 100-paper Main Track spanning five discipl",
+      "title": "Blazar Boosted Dark Matter in IceCube",
+      "summary": "We study the sensitivity of IceCube to blazar-boosted dark matter in a fermionic dark matter model with a massive vector mediator coupling to quarks. To this aim, we compute the diffuse flux arising from a sample of 324 blazars with proton spectra inferred from multiwavelength observations, adopting conservative dark matter spike profiles around the central supermassive black holes and consistently accounting for attenuation effects during propagation through the Earth. The dark matter-nucleon scattering cross section is evaluated by including elastic, resonant single pion production, and deep inelastic contributions, with particular emphasis on resonant single-pion production channels in order to smoothly cover the transition between the elastic and deep inelastic regimes. Using IceCube n",
       "authors": [
-        "Yaxin Luo",
-        "Haobin Jiang",
-        "Jialv Zou",
-        "Xu Huang",
-        "Wenhao Yan"
+        "Alberto M. Gago",
+        "Jaime Hoefken Zink",
+        "Joel Jones-Pérez",
+        "Gabriel D. Zapata"
       ],
-      "link": "http://arxiv.org/abs/2608.13560v1",
-      "published": "2026-08-13",
+      "link": "http://arxiv.org/abs/2608.14549v1",
+      "published": "2026-08-14",
       "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.CL"
+        "hep-ph",
+        "astro-ph.HE"
       ]
     },
     "analysis": {
       "key_methods": "1.",
-      "datasets": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design.",
-      "future_work": "In the future, we'll use the standard algorithms to describe the characteristics of a car that has been built to drive i..."
+      "datasets": "\"The new data is in \"the original\" (http://www.",
+      "future_work": "The research led by Dr."
     }
   },
   {
     "paper": {
-      "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
-      "summary": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone does not provide access to the full evidence on which scientific discovery depends. Existing systems typically reason over text, code, labels, or precomputed summaries, leaving scientifically decisive spatial, temporal, cross-channel, and procedural relations unavailable to the agent. We introduce OmniScientist, an end-to-end, omni-modal AI scientist that conducts multidisciplinary research directly from heterogeneous raw evidence. A perception layer and 3 autonomous agents for ideation, experiment, and writeup operate within a deterministic pipeline, allowing observations t",
+      "title": "Forging Self-Funded Marketplaces among Strategic Agents",
+      "summary": "We introduce the problem of designing mechanisms that incentivize strategic agents to form self-funded marketplaces. In our model, if agent $i$ exerts effort $x_i\\in [0,1]$, they incur a cost of $x_i\\cdot c_i$ (where $c_i$ is unknown to the mechanism designer) and they generate revenue $x_i\\cdot r_i$; crucially, $c_i$ can be greater or smaller than $r_i$. Each effort profile $\\mathbf{x}$ yields value $v(\\mathbf{x})$ and the objective is to choose an effort vector that maximizes the value while ensuring that every agent $i$ receives a payment $p_i\\geq x_i\\cdot c_i$ and that $\\mathbf{x}$ is budget-balanced, i.e., $\\sum_{i} p_i \\leq \\sum_{i} x_i\\cdot r_i$. This problem generalizes the well-studied budget-feasible mechanism design problem, where the requirement is that $\\sum_{i} p_i \\leq B$ fo",
       "authors": [
-        "Bobo Li",
-        "Hao Fei",
-        "Tianjie Ju",
-        "Mong-Li Lee",
-        "Wynne Hsu"
+        "Yuan Deng",
+        "Vasilis Gkatzelis",
+        "Xizhi Tan",
+        "Grigoris Velegkas",
+        "Song Zuo"
       ],
-      "link": "http://arxiv.org/abs/2608.13558v1",
-      "published": "2026-08-13",
+      "link": "http://arxiv.org/abs/2608.14548v1",
+      "published": "2026-08-14",
       "categories": [
-        "cs.AI",
-        "cs.CL"
+        "cs.GT"
       ]
     },
     "analysis": {
-      "key_methods": "We present an understanding of a system that is able to provide and predict what is likely to happen in the future.",
-      "datasets": "The Omni-Modal Omni-Discipline AI Scientist is a software engineer and a software engineer on a small business.",
-      "future_work": "Open source robotics and robotics technology in the future."
+      "key_methods": "A total of 577 publicly traded securities were purchased through the Marketplaces in July 2013, the first of which was t...",
+      "datasets": "The data they are generating are very relevant to the research field and the marketplaces that they are using.",
+      "future_work": "What would be the impact of the new technology on your financial security?\nReiter: My goal is to develop a framework for..."
     }
   },
   {
     "paper": {
-      "title": "Localised Horizons and Holographic Thermodynamics: Supercooling in the 1/D Expansion",
-      "summary": "In holography, four-dimensional confining gauge theories are often modelled by five-dimensional Einstein--scalar gravity by choosing a specific form of the scalar potential. In a large class of non-conformal theories, we show that a predictive structure emerges for the thermal confinement transition by generalising the gravitational dual to $D+1$ dimensions and using a $1/D$ expansion. These results are independent of the details of the scalar potential, hinting towards universality. The black brane geometry dual to the deconfined phase can be analytically constructed due to its effects being localised near the horizon at leading order. The solution does not exist below a minimal temperature $T_{\\rm min}$ and the maximum possible supercooling in the transition $ε_{\\rm sc} = 1-T_{\\rm min}/T",
+      "title": "Cosmic Ray Diffusion and the Origin of Very High Energy Gamma-Ray Emission in Young Massive Stellar Clusters",
+      "summary": "The search for Galactic sources capable of accelerating cosmic rays (CRs) to PeV energies has advanced significantly in recent years. High-energy observatories such as LHAASO have detected extended gamma-ray halos around several sources, suggesting that CRs escape their acceleration sites through anomalously slow diffusion. Theoretical studies propose that magnetic mirror diffusion combined with pitch-angle scattering in turbulent flow can naturally suppress CR transport. Here, we first show how mirror diffusion combined with scattering suppresses cosmic-ray transport, leading to an energy-dependent diffusion coefficient $D(E)\\propto E^{1/3}$. We then combine a 3D magnetohydrodynamic (MHD) simulation of a young massive stellar cluster (YMSC) with Monte Carlo CR propagation calculations (CR",
       "authors": [
-        "Prateek Agrawal",
-        "Gaurang Ramakant Kane",
-        "Vazha Loladze"
+        "Lucas Barreto-Mota",
+        "Elisabete M. de Gouveia Dal Pino",
+        "Gaetano Di Marco",
+        "Rafael Alves Batista",
+        "Stela Adduci Faria"
       ],
-      "link": "http://arxiv.org/abs/2608.13557v1",
-      "published": "2026-08-13",
+      "link": "http://arxiv.org/abs/2608.14547v1",
+      "published": "2026-08-14",
       "categories": [
-        "hep-th",
-        "hep-lat",
-        "hep-ph"
+        "astro-ph.HE"
       ]
     },
     "analysis": {
-      "key_methods": "A sample of the Holographic Thermodynamics experiments.",
-      "datasets": "The new Horizons spacecraft, which arrived at Comet 67P/Churyumov-Gerasimenko on Wednesday, is the first to travel from ...",
-      "future_work": "The research was funded by the National Science Foundation (NIU) for the study, which was supported by the National Scie..."
+      "key_methods": "As of June, 2012, the DOE has issued a $100 million grant to the DOE to create a new, and new, new, new, new, new, new, ...",
+      "datasets": "A common, well-organized, and relatively simple, method of measurement is the use of a single-ton laser that has a high ...",
+      "future_work": "How to better detect and analyze the effects of cosmic rays\nVideo:\nThe first solar system is expected to be discovered i..."
     }
   },
   {
     "paper": {
-      "title": "V-RAE: Rethinking Video Latent Spaces for Generation",
-      "summary": "Latent video generation relies on autoencoders to define a compact space in which generative models operate. Although video autoencoder architectures have evolved substantially, their latent spaces are still optimized primarily for pixel-level reconstruction and provide limited high-level semantic organization. A reconstruction-optimal latent space, however, need not be well suited to generative modeling. We propose V-RAE, a video representation autoencoder that builds compact generative latents on top of frozen vision foundation model representations. A lightweight temporal pooling module removes temporal redundancy while preserving semantic structure, and a video decoder reconstructs continuous motion from the compressed features. We evaluate V-RAE with four representative frozen encoder",
+      "title": "CPI-Bench: A Comprehensive,Practical and Intelligent Benchmark for Real-World Image Editing",
+      "summary": "With the rapid advancement of image editing models and their widespread application across various domains, there is an increasingly urgent need to deploy these model capabilities directly into real-world scenarios. However, existing benchmarks remain confined to simple single-image tasks, suffering from limited coverage dimensions and an inability to effectively differentiate performance among diverse models. Consequently, they fail to reliably evaluate model performance in complex multi-image editing, highly demanding reasoning instructions, and practical deployment settings. To address these limitations, we propose CPI-Bench, a Comprehensive, Practical andIntelligent benchmark for real-world image editing. CPI-Bench comprises three core subsets: CPI-General-Bench, which comprehensively ",
       "authors": [
-        "Minghui Guo",
-        "Shengqiong Wu",
-        "Hao Fei"
+        "Qinye Zhou",
+        "Jun Zheng",
+        "Yongchao Du",
+        "Yuan Wang",
+        "Zhengrui Chen"
       ],
-      "link": "http://arxiv.org/abs/2608.13556v1",
-      "published": "2026-08-13",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": "Experiments were performed in a single-unit, three-unit, and two-unit, three-unit, three-unit, three-unit, two-unit, and...",
-      "datasets": ".",
-      "future_work": "How to improve the performance of data processing operations and the performance of data processing operations\nReference..."
-    }
-  },
-  {
-    "paper": {
-      "title": "PlayWorld: Benchmarking World Models with Agent Players over Long-Horizon Objectives",
-      "summary": "Video world models simulate future states conditioned on current observations and user actions. Recent systems have demonstrated impressive video consistency and action controllability over long sequences. However, fairly comparing these interactive models remains challenging. In practice, a human player typically evaluates a world model by pursuing long-horizon objectives through interaction. For example, a user may turn around 360 degrees to see whether the environment remains consistent, or walk into the water and inspect whether realistic water ripples are generated. The action sequence required to achieve the same objective may vary substantially between models, making fixed action-conditioned evaluation unsuitable for cross-model comparison. To address this, we employ multi-modal Age",
-      "authors": [
-        "Kaixin Ding",
-        "Xi Chen",
-        "Minghong Cai",
-        "Zhiyuan Xu",
-        "Yiyang Wang"
-      ],
-      "link": "http://arxiv.org/abs/2608.13552v1",
-      "published": "2026-08-13",
+      "link": "http://arxiv.org/abs/2608.14546v1",
+      "published": "2026-08-14",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "The data gathered by the player is used to perform a player-specific role-playing system.",
-      "datasets": ".",
-      "future_work": "Evaluating the AI in a Simulation Game."
+      "key_methods": "Citations:\nDassey:\nDassey:\nAlfred:\nFulham:\nFulham:\nIvan:\nFulham:\nBart:\nHuffman:\nIvan.",
+      "datasets": "[ edit ]\n\nThe first and last datasets in this article are the dataset that was created in the second half of last year.",
+      "future_work": "In a future paper, I will write about how we can improve the quality of a computer image."
+    }
+  },
+  {
+    "paper": {
+      "title": "MagnifiQ: Patch-aware Text Guided Progressive Upscaling for High-Resolution Image Restoration",
+      "summary": "High-resolution image restoration from degraded inputs is challenging because it must preserve global structural consistency while recovering fine-grained local details, especially at 4K resolution where direct diffusion-based restoration is computationally expensive and prone to repeated or inconsistent textures. In this work, we introduce MagnifiQ, an image restoration framework that progressively upscales and restores images across resolutions, e.g., from 1024x1024 to 4096x4096. Our approach leverages a pre-trained text-to-image diffusion model such as SDXL and adapts it for more scalable high-resolution inference by replacing its original self-attention layers with convolutional operations whose computational cost grows linearly with image resolution. We further propose a progressive u",
+      "authors": [
+        "Mahesh Reddy",
+        "Yashesh Savani",
+        "Antoine Mercier",
+        "Hong Cai",
+        "Fatih Porikli"
+      ],
+      "link": "http://arxiv.org/abs/2608.14543v1",
+      "published": "2026-08-14",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "High-resolution image of the text in the text buffer of the text window for the text window for the text window for the ...",
+      "datasets": "Tail, Aperture, etc.",
+      "future_work": "In a recent paper, researchers at MIT and the European Academy of Sciences published a new approach that uses a “high re..."
     }
   }
 ]
