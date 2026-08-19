@@ -54,81 +54,79 @@
   <div class="stat"><div class="n">5</div><div class="l">Papers</div></div>
   <div class="stat"><div class="n">distilgpt2</div><div class="l">LLM Model</div></div>
   <div class="stat"><div class="n">large language m</div><div class="l">Query</div></div>
-  <div class="stat"><div class="n">2026-08-18</div><div class="l">Updated UTC</div></div>
+  <div class="stat"><div class="n">2026-08-19</div><div class="l">Updated UTC</div></div>
 </div>
 <main>
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2608.16889v1" target="_blank" rel="noopener">Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory</a></h2>
-    <span class="meta">Published: 2026-08-17 | Authors: Bingxin Xu, Yuzhang Shang, Emilio Ferrara | Tags: cs.RO, cs.AI, cs.CV</span>
+    <h2><a href="http://arxiv.org/abs/2608.18077v1" target="_blank" rel="noopener">Hydra-0: Action Flow for Generalist World Modeling and Control</a></h2>
+    <span class="meta">Published: 2026-08-18 | Authors: Hongyu Li, Bowen Wen, Xinghao Zhu, Yixuan Wang, Yilun Du | Tags: cs.RO</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Long-horizon robot manipulation chains many contact-rich skills into one multi-stage task. Vision-language-action (VLA) models increasingly master the individual skills, yet the chain still fails: errors compound beyond the policy's ability to correct, and one subtask silently constrains the next. A promising recipe freezes the VLA and puts an LLM agent in charge: it plans in language, moves in free space with analytic primitives, invokes the VLA only for contact-rich segments, and writes adaptation into language memory. Applied to long horizons, it breaks twice. (1) Competence comes from whole-task exploration at test time, whose cost is multiplicative in stages: if one stage needs T episodes, a K-stage task needs about T^K, and a failure does not reveal which stage caused it. (2) It has </p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>A task is one that the AI is going to do.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>Rotation:
-The BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>The novel is published in November 2015.</p></section>
+    <section class="full"><h3>Abstract</h3><p>We introduce Hydra-0, a generalist world model conditioned on action flow, which represents robot actions as pixel motion. This shared visual interface enables generalist world modeling and control by learning action consequences across embodiments, tasks, environments, and video-generation backbones. Our best configuration achieves 90.4% lower robot-motion error and 60.2% lower object-motion error than our action-conditioned baseline, while supporting zero-shot composition and data-efficient adaptation. On the RoboLab benchmark, Hydra-0 achieves a Pearson correlation of r=0.96 between replayed and reference success rates. Finally, we uncover an emergent inverse mode of this interface: a world action model that predicts compatible robot motion from desired object flow transferred from a hu</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>To test the effectiveness of the Hydra-0 algorithm, we used a variety of experiments, ranging from first-person explorat...</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>I think it’s one of the best ways to learn how to use data processing and automation.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>NEXT:
+The future of the Hydra-0 model and control.</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2608.16887v1" target="_blank" rel="noopener">An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models</a></h2>
-    <span class="meta">Published: 2026-08-17 | Authors: Dengyang Jiang, Ruoyi Du, Zhennan Chen, Dongyang Liu, Zanyi Wang | Tags: cs.CV</span>
+    <h2><a href="http://arxiv.org/abs/2608.18076v1" target="_blank" rel="noopener">From Corpora to Co-Evolving Capabilities: Capability-Centric Data Design for Generalist Image Generation</a></h2>
+    <span class="meta">Published: 2026-08-18 | Authors: Xingjian Wang, Zhao Wang, Taihang Hu, Jun Zheng, Qing Jin | Tags: cs.CV, cs.AI</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>This paper investigates an increasingly important topic in generative modeling: pixel-space diffusion models. Although numerous studies have explored this topic, most focus on small-scale or class-conditional settings. Consequently, a practical recipe for training pixel-space models that rival or exceed well-established latent-space counterparts remains elusive. Through a comprehensive empirical study, we first observe that direct large-scale pre-training in pixel space converges substantially more slowly than in latent space. This observation motivates a latent-to-pixel strategy that acquires generative priors efficiently in latent space and transitions to pixel space during post-training. We then systematically investigate the key design choices governing this transition, including weigh</p></section>
+    <section class="full"><h3>Abstract</h3><p>Large-scale image generation has benefited from advances in data scale, quality, rebalancing, and recaptioning, yet conventional pipelines typically optimize task-specific datasets in isolation. A central challenge is not only how to curate each task-specific corpus, but also how to organize heterogeneous supervision according to the dependencies among generative capabilities. We present a \textbf{capability-driven data infrastructure} that couples capability-specific supervision construction with capability-aligned curriculum scheduling. Its three specialized yet interoperable data engines build complementary relational supervision for text-image grounding, inter-image transformation, and image-knowledge association, while caption experts align T2I and editing supervision across tasks and</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The data is provided for the purposes of this paper.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>Data from the Digital Asset Management Agency (DIA) can be used to create a portfolio for asset management using a datas...</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Current research:
+The next generation of data scientists will need to better understand key types of data and how they i...</p></section>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    <h2><a href="http://arxiv.org/abs/2608.18072v1" target="_blank" rel="noopener">Multi-Agent AI System for Radiology Report Structuring and Quality Assurance with Independent Radiologist Evaluation</a></h2>
+    <span class="meta">Published: 2026-08-18 | Authors: Iryna Hartsock, Cesar Lam, Christopher Otteni, Aliya Qayyum, Robert Gatenby | Tags: cs.CL</span>
+  </div>
+  <div class="card-body">
+    <section class="full"><h3>Abstract</h3><p>Purpose: To develop and evaluate a locally deployed multi-agent AI system for radiology report structuring and quality assurance. Materials and Methods: This retrospective study included 638 radiology reports from CT examinations of the chest, abdomen, and pelvis dictated by 15 board-certified radiologists in 2023 and 2024. A multi-agent AI pipeline was developed to perform report structuring and quality assurance (QA). The system structured the report into standardized anatomical sections at the sentence level using regex rules and local large language models. It also detected mismatches between the Findings and Impression sections, or within sections; gender-anatomy conflicts; and undocumented communication of critical findings. Two board-certified radiologists independently evaluated a </p></section>
     <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>The results of this paper are the result of two experiments in which the two images were processed on a single pixel.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>A more detailed look at the effects of small, but still significant, non-linear images on the performance of the new ima...</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>I've been working on a bunch of projects for the past few years to build a framework for the problem of detecting and de...</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>We would like to thank the colleagues of the National Institutes of Health for their expertise in this field.</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2608.16885v1" target="_blank" rel="noopener">$τ_0$-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation</a></h2>
-    <span class="meta">Published: 2026-08-17 | Authors: Xiaowei Cai, Yunuo Cai, Bingao Chen, Jingxiao Chen, Zhi Chen | Tags: cs.RO</span>
+    <h2><a href="http://arxiv.org/abs/2608.18071v1" target="_blank" rel="noopener">Ultrafast and high resolution spatial light modulation for cold atoms</a></h2>
+    <span class="meta">Published: 2026-08-18 | Authors: Alexander Dennisovich Deters, Yanfei Li, Alexander Douglas, Markus Greiner, Aaron W. Young | Tags: physics.atom-ph, cond-mat.quant-gas, quant-ph</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Long-horizon robot manipulation requires a robot to both execute individual skills reliably and sequence them coherently over extended tasks. Most hierarchical vision-language-action (VLA) models make each such decision with a single forward pass, leaving no mechanism to allocate additional computation to difficult or consequential choices. We introduce $τ_0$-VLA, a hierarchical robot foundation model that formulates high-level subtask generation as a compute-scalable inference problem through world-model-guided test-time computation. At each inference step, the high-level policy uses execution memory to generate a subtask and, when needed, searches over alternatives before committing to its output. A low-level policy then executes the generated subtask across multiple robot embodiments. T</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>(1) In this paper, we design a simple, automated, and multi-threaded robot network that will work on multiple tasks.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>※ ل ل ل ل ل ل ل ل ل ل ل ل ل ل ل ل ل ل ل ل ل ل ل.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>https://www.</p></section>
+    <section class="full"><h3>Abstract</h3><p>Programmable arrays of ultracold atoms are a leading platform for quantum computation and simulation, enabling state-of-the-art implementations of quantum error correction, and analog simulations of Hubbard models that address open problems in condensed matter physics. In these systems, all local control is mediated through precisely shaped optical fields, and so the challenge of managing many-body quantum states becomes an exercise in optical design. In particular, one wishes for fast, flexible control with low disorder and heating, and access to large arrays with many atoms. An ideal optical system therefore must generate arbitrary patterns with high spatial resolution and low disorder, and alter these patterns on a timescale that is faster than the relevant atomic dynamics. Here, we pre</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Spectrum and Light-Ray Spectroscopy, S.</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2608.16881v1" target="_blank" rel="noopener">Simplicial Actions for Distributed Protocols</a></h2>
-    <span class="meta">Published: 2026-08-17 | Authors: Philip Sink | Tags: cs.LO, math.LO</span>
+    <h2><a href="http://arxiv.org/abs/2608.18069v1" target="_blank" rel="noopener">Revisiting the Intra-Team Communication Method to Elicit Level-k Reasoning in Beauty Contests and 11-20 Games</a></h2>
+    <span class="meta">Published: 2026-08-18 | Authors: Zitian Wang, Istiak Ahmed, Patarasate Unjitwattana, Emily Yunxi Xie, Meng-Jhang Fong | Tags: econ.GN</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>This paper captures and extends some of the core results from the tech memo "A New Semantics for Belief Revision in Simplicial Complexes". As such, we set out to explore the implementation of action models in the setting of simplicial semantics for modal logic. Such an idea is not entirely new to the literature, showing up in both "A simplicial complex model for dynamic epistemic logic to study distributed task computability" and "Knowledge and Simplicial Complexes". However, we will explore action models in a more general setting. In particular, we will allow for action models for simplicial models for belief, as in "A Semantics for Belief in Simplicial Complexes". This will let us incorporate the notion of belief revision, as developed in "Simplicial Semantics for Belief Revision", into </p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>Methods used:
-
-Directions:
-1) A simple, distributed system.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>http://www.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Tagged: http://pipermail.</p></section>
-  </div>
-</div>
-
-<div class="card">
-  <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2608.16874v1" target="_blank" rel="noopener">Size matters more than packing in bimodal colloidal gel compositions</a></h2>
-    <span class="meta">Published: 2026-08-17 | Authors: Robert A. Campbell, Ziye Zhuang, Ali Mohraz, Safa Jamali | Tags: cond-mat.soft</span>
-  </div>
-  <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Colloidal gels are frequently modeled as monodisperse particle networks, although practical formulations commonly contain particles with multiple characteristic sizes. Here, we use large-scale, hydrodynamically resolved simulations of colloidal depletion gels to isolate the effects of particle size and local packing in bimodal systems with a small-to-large size ratio of 1:2. Increasing the large-particle fraction introduces new heterotypic angular motifs and substantially increases the fraction of bonds participating in tetrahedral structures, with a maximum at intermediate composition. However, these additional rigid motifs do not reorganize into larger or more highly connected tetrahedral aggregates. The mean coordination and characteristic aggregate size remain nearly composition indepe</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>We divided the gel compositions into four groups.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>Aluminum:
-Diameter: 2.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Releasing nanoparticles in nanoparticles may improve the quality of the particles.</p></section>
+    <section class="full"><h3>Abstract</h3><p>How level-0 players behave and how they are perceived by higher-level players are central questions in the literature on level-k models of boundedly rational strategic reasoning. To study these twin questions, we apply the intra-team communication method developed by Burchardi and Penczynski (2014) to identify level-0 actions and beliefs in the canonical beauty contest game and in a variant of the 11-20 game of Goeree et al. (2018), in which behavior appears inconsistent with the standard level-k model. In the beauty contest game, we replicate Burchardi and Penczynski (2014)'s finding that elicited level-0 beliefs align with observed level-0 actions. In the variant of the 11-20 game, however, elicited level-0 beliefs and observed level-0 actions diverge, and both depart from the standard l</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>(1) A large number of participants were recruited to complete a questionnaire asking the following questions:
+What is th...</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>1.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>An approach that could help designers with the challenge of creating the most effective digital marketing campaigns is a...</p></section>
   </div>
 </div>
 </main>
 <footer>
   <a href="https://github.com/PranayMahendrakar/arxiv-llm-analyzer">PranayMahendrakar/arxiv-llm-analyzer</a>
-  | Powered by DistilGPT2 (HuggingFace Transformers) | No API keys | 2026-08-18 06:41 UTC
+  | Powered by DistilGPT2 (HuggingFace Transformers) | No API keys | 2026-08-19 06:41 UTC
 </footer>
 </body></html>
