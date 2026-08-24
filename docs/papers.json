@@ -1,112 +1,118 @@
 [
   {
     "paper": {
-      "title": "Group-theoretic treatment of strong light-matter coupling with an arbitrary number of excitations",
-      "summary": "Strong light-matter interactions in optical microcavities give rise to hybrid light-matter states known as polaritons. While actively used in modern technologies, theoretical descriptions of such systems are often restricted to the single-excitation case, limiting their ability to capture many-excitation physics and hindering further technological advancements. Here, by exploiting the combinatorial structure of quantum emitters, we investigate the Tavis-Cummings model with arbitrary number of excitations. We derive the structure and properties of its eigensystem and identify allowed radiative transitions in systems of realistic size scales. Our work reveals new behavior inaccessible to the few-excitation regime, while also providing a framework to reduce the computational complexity of sim",
+      "title": "OmniAssistBench: Assistant-style Interaction Benchmark for Omni-LLMs",
+      "summary": "Recent omni-modal large language models (Omni-LLMs) show great potential as real-time video assistants, which continuously perceive environments and guide users to achieve specific goals. Unlike traditional passive video understanding, interactive assistants should actively combine visual states, user goals, and prior knowledge to provide effective help. Evaluating this is rather challenging, as the model's unpredictable response dynamically changes the user's subsequent actions, which static offline datasets cannot accommodate. To address this bottleneck, we introduce OmniAssistBench. To solve the issue of diverging interaction paths where the same user goal can be achieved through various methods, we provide models with predefined priors derived from the source video, requiring them to g",
       "authors": [
-        "Antti Peltola",
-        "Olli Siltanen",
-        "Kimmo Luoma",
-        "Konstantinos S. Daskalakis"
+        "Xianyun Sun",
+        "Chaoyou Fu",
+        "Zhengye Zhang",
+        "Feiyang Duan",
+        "Qingyuan Cao"
       ],
-      "link": "http://arxiv.org/abs/2608.20340v1",
-      "published": "2026-08-20",
-      "categories": [
-        "quant-ph"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The primary purpose of this study was to investigate the feasibility of inducing the formation of a superconducting magn...",
-      "datasets": "A group of small, highly active (and low-energy) electrons in a group of electrons has been discovered in a group of ele...",
-      "future_work": "Additional work is needed to examine the mechanism of the coupling between light and ion-conducting electrons."
-    }
-  },
-  {
-    "paper": {
-      "title": "Information on trajectories: martingales and random times",
-      "summary": "Accounting for information flow on the path space of trajectories of a nonnegative martingale yields exact variational identities for it, even at arbitrary random times. This recovers the widely used classical concentration inequalities, from Ville to PAC-Bayes, and measures what each one discards. The tail a bound controls is itself a relative entropy, resolved by the chain rule into per-step conditional divergences. The discarded slack has an exact form in each of three geometries: a Gibbs tilt for the Azuma-Hoeffding and PAC-Bayes bounds, the crossing itself for Ville's and for pooled tests, and a dominating certificate for the $L^p$ maximal bound. That certificate's optional-stopping deficit resolves per step into Bregman divergences of the running maximum. On a path-time space, the sa",
-      "authors": [
-        "Akshay Balsubramani"
-      ],
-      "link": "http://arxiv.org/abs/2608.20337v1",
-      "published": "2026-08-20",
-      "categories": [
-        "math.PR",
-        "cs.IT",
-        "cs.LG",
-        "math.ST"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The present study was conducted with the participation of the International Conference of the Physical Society of North ...",
-      "datasets": "Mapping\nData points:\nThe same is true for all the data points, which are only used in the following models:\nThe same is ...",
-      "future_work": "The new results of this study are published in ACS Journals."
-    }
-  },
-  {
-    "paper": {
-      "title": "ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models",
-      "summary": "Large Language Models (LLMs) increasingly require selective removal of harmful or sensitive knowledge, called unlearning, yet existing methods and benchmarks fail to evaluate this capability completely. Current approaches rely on disjoint forget and retain sets composed of independent facts, and measure success using simple and direct factual recall. This framing fails to capture a key requirement of unlearning, namely the ability to eliminate harmful behaviors while preserving benign and beneficial knowledge. We argue that effective unlearning must operate at the level of concepts, ensuring complete removal of unsafe applications while maintaining their correct and useful usage, thereby achieving conceptually meaningful and complete unlearning. To better evaluate unlearning techniques fro",
-      "authors": [
-        "Sahil Kale",
-        "Ian Harris"
-      ],
-      "link": "http://arxiv.org/abs/2608.20338v1",
-      "published": "2026-08-20",
-      "categories": [
-        "cs.CL"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The following are related to the following:\nThe following is a PDF of the paper (PDF of the paper is available online at...",
-      "datasets": "We use the following to build a large-scale training pipeline for all of our algorithms:\nTo build a large-scale training...",
-      "future_work": "The same approach was used to solve the problem of self-learning in a large-scale, multistate language."
-    }
-  },
-  {
-    "paper": {
-      "title": "4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
-      "summary": "We present 4DAnyone, a framework for reconstructing 4D humans from an uncalibrated monocular video by generating reconstruction-grade multiview-consistent videos and lifting them into 4D Gaussian Splatting (4DGS). Existing camera-controlled video diffusion models synthesize plausible novel-view videos but fail to maintain consistency when scaled to the tens of target views required for 4DGS reconstruction. We identify this failure as a bounded-attention-context problem: when target views exceed the capacity of a single DiT forward pass, they must be split into groups, exposing two coupled bottlenecks. On the reference-context side, conditioning on all previously generated views grows as $O(N)$, weakening cross-view appearance guidance. On the target-context side, disjoint groups cannot dir",
-      "authors": [
-        "Yudong Jin",
-        "Tao Xie",
-        "Qihang Zhang",
-        "Zehong Shen",
-        "Zhen Xu"
-      ],
-      "link": "http://arxiv.org/abs/2608.20335v1",
-      "published": "2026-08-20",
+      "link": "http://arxiv.org/abs/2608.21360v1",
+      "published": "2026-08-21",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "We used the camera directly from the left to the right, and the camera has a very narrow field of view.",
-      "datasets": "(4D)Mentor: D4D\n(4D)Mentor: D4D\n(4D)Mentor: D4D\n(4D)Mentor: D4D\n(.",
-      "future_work": "Using a 3D camera to create 3D objects."
+      "key_methods": "A list of the methods used in this article is included in the article.",
+      "datasets": "The best way to measure performance is by measuring the number of times the machine is running.",
+      "future_work": "Future development:\nMore information:\nThe OmniAssistBench project is being supported by the following grantees:\nRocheste..."
     }
   },
   {
     "paper": {
-      "title": "WithEveryone: Unified Planning and Identity Grounding for Group Image Generation",
-      "summary": "Identity-preserving image generation becomes increasingly unreliable when a scene must contain many specified people. Beyond retaining each identity, the model must bind every reference to a distinct person and location, while training-time identity losses must establish correspondence among several noisy predicted faces. We introduce WithEveryone, a unified framework for generating group images up to ten reference identities. WithEveryone injects each selected identity as an addressed token, predicts a structured identity--layout plan, and renders the plan as a visual condition. Its key objective, Layout-Grounded ID Loss, uses annotated face regions to supervise the intended identities directly, avoiding unstable embedding-based face matching; ID Representation Forcing additionally trains",
+      "title": "VIALS: A Benchmark for Visual Interpretation of Artifacts in the Life Sciences",
+      "summary": "In professional life sciences workflows, scientists routinely interpret visual artifacts (gel blots, microscopy images, plasmid maps, flow cytometry plots, molecular structures, ...) to inform research decisions. We introduce VIALS, a visual question-answering benchmark with 161 such interpretation tasks, spanning the types of artifacts examined throughout experimental workflows in the biotech industry (rather than polished figures from publications and textbooks). While frontier vision-language models can now fluently describe natural images, we find that they are unable to accurately interpret these scientific images, reflecting limitations in domain knowledge and domain-specific visual reasoning capabilities. In contrast, scientists with relevant domain expertise find these visual inter",
       "authors": [
-        "Hengyuan Xu",
-        "Qixun Wang",
-        "Yiji Cheng",
-        "Miles Yang",
-        "Zhao Zhong"
+        "Elaine Lau",
+        "Thanuka Udumulla",
+        "Lee Izhaki-Tavor",
+        "Francisco Guzmán",
+        "Nicholas Magazine"
       ],
-      "link": "http://arxiv.org/abs/2608.20336v1",
-      "published": "2026-08-20",
+      "link": "http://arxiv.org/abs/2608.21357v1",
+      "published": "2026-08-21",
       "categories": [
-        "cs.CV"
+        "cs.AI"
       ]
     },
     "analysis": {
-      "key_methods": "The National Center for Land Use and Management will offer a variety of planning and identity concepts for these types o...",
-      "datasets": "Datasets:\nDatasets:\nDatasets:\nDatasets:\nDatasets:\nDatasets:\nDatasets:\nDatasets:\nDatasets:\nDatasets:.",
-      "future_work": "WithEveryone: Unified Planning and Identity Grounding for Group Image Generation."
+      "key_methods": "The research was funded by the National Science Foundation, the National Science Foundation, the United States Departmen...",
+      "datasets": "Bibliographic information:\nBibliographic information:\nBibliographic information:\nBibliographic information:\nDictionaries...",
+      "future_work": "VIALS: A Benchmark for Visual Interpretation of Artifacts in the Life Sciences."
+    }
+  },
+  {
+    "paper": {
+      "title": "ViTacPhys: Physical Property-Aware Grasping from Human Visual-Tactile Demonstrations",
+      "summary": "Recent vision-based action models have demonstrated strong capabilities in complex manipulation, but they rarely leverage explicit object physical properties to adapt their policies. We introduce ViTacPhys, a visual-tactile framework and data acquisition system that estimates object mass and friction-coefficient classes, together with continuous stiffness, from human manipulation demonstrations. Trained on data from 60 rigid and deformable objects, ViTacPhys combines temporal visual-tactile modeling, cross-attention multimodal fusion, and a semantic prior derived from a vision-language model. On seen objects, it achieves 97.2% mass classification accuracy, 98.8% friction-coefficient classification accuracy, and a stiffness mean absolute percentage error (MAPE) of 5.51%. On held-out objects",
+      "authors": [
+        "Yiwen Liu",
+        "Yujun Zhu",
+        "Kui Jia",
+        "Zhao Liao",
+        "Yangwei You"
+      ],
+      "link": "http://arxiv.org/abs/2608.21355v1",
+      "published": "2026-08-21",
+      "categories": [
+        "cs.RO"
+      ]
+    },
+    "analysis": {
+      "key_methods": ".",
+      "datasets": "Fusion: 3D-printed skin cells are used to represent images of human visual stimuli.",
+      "future_work": "The authors are focusing on computational models of the human visual cortex, which is a system for the formation of visu..."
+    }
+  },
+  {
+    "paper": {
+      "title": "PerturbRx: Learning Treatment-Conditioned Latent Transitions for Patient Drug Response Prediction",
+      "summary": "Scarce data and tumor heterogeneity limit patient-level cancer treatment-response prediction. Existing approaches predict response from pretreatment molecular profiles and drug representations, without explicitly modeling the molecular changes expected under treatment. We propose PerturbRx, a treatment-conditioned representation learning framework that learns intervention-induced latent transitions and uses them as patient-drug response features. PerturbRx trains a drug- and dose-conditioned transition predictor from context-matched but cell-unpaired control and treated single-cell populations, then freezes and transfers the predictor to pretreatment patient profiles without requiring post-treatment measurements. The transition is combined with patient and drug representations to predict r",
+      "authors": [
+        "Yoshitaka Inoue",
+        "Minoh Jeong",
+        "Alfred Hero",
+        "Rui Kuang",
+        "Augustin Luna"
+      ],
+      "link": "http://arxiv.org/abs/2608.21349v1",
+      "published": "2026-08-21",
+      "categories": [
+        "q-bio.QM",
+        "cs.LG"
+      ]
+    },
+    "analysis": {
+      "key_methods": ".",
+      "datasets": "Nanogran et al.",
+      "future_work": "For more information, please contact us:\n\nhttp://www."
+    }
+  },
+  {
+    "paper": {
+      "title": "Asymmetric Capacity Allocation in Self-Refinement Pipelines",
+      "summary": "Self-refinement, typically structured as generation, critique, and revision, is a widely adopted paradigm for improving LLM generation and serves as a core mechanism in many LLM agents. While the three stages involve different cognitive demands, most existing approaches conveniently treat the model size as an implementation detail rather than a subject of study, which may lead to a waste of resources. Little work has systematically examined how model size affects each stage or whether effective self-refinement requires equally capable models for generation, critique, and revision. We present the first stage-wise model size study of the self-refinement pipeline on 5 benchmarks from different domains using 6 model sizes of Qwen3 and 4 model sizes of Gemma 3. We conclude that larger generator",
+      "authors": [
+        "Zhuoyi Yang",
+        "Ian G. Harris",
+        "Salar Hashemitaheri",
+        "Cassie Huang",
+        "Yuangang Li"
+      ],
+      "link": "http://arxiv.org/abs/2608.21345v1",
+      "published": "2026-08-21",
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The authors used the PPEs as the primary source of data.",
+      "datasets": ".",
+      "future_work": "Theoretical and Applications of PIPEC."
     }
   }
 ]
