@@ -1,118 +1,119 @@
 [
   {
     "paper": {
-      "title": "OmniAssistBench: Assistant-style Interaction Benchmark for Omni-LLMs",
-      "summary": "Recent omni-modal large language models (Omni-LLMs) show great potential as real-time video assistants, which continuously perceive environments and guide users to achieve specific goals. Unlike traditional passive video understanding, interactive assistants should actively combine visual states, user goals, and prior knowledge to provide effective help. Evaluating this is rather challenging, as the model's unpredictable response dynamically changes the user's subsequent actions, which static offline datasets cannot accommodate. To address this bottleneck, we introduce OmniAssistBench. To solve the issue of diverging interaction paths where the same user goal can be achieved through various methods, we provide models with predefined priors derived from the source video, requiring them to g",
+      "title": "How to Train a Critic Stably and Efficiently",
+      "summary": "Group-based reinforcement learning methods such as GRPO for large language models avoid training a critic by sampling multiple responses for each prompt. A reliable critic could instead estimate token-level advantages from one response, but standard critic-based training recipes are often unstable. We study this instability and develop \\textbf{Best-Practice Critic Optimization (BPCO)}, a recipe that combines DPPO, value predictions bounded to the reward range, Monte Carlo value targets, unnormalized policy advantages, and length-adaptive generalized advantage estimation. Because the critic is used only during training, BPCO can also condition it on reward-defining information, such as a reference answer or grading rubric, that is hidden from the policy. Controlled experiments isolate the e",
       "authors": [
-        "Xianyun Sun",
-        "Chaoyou Fu",
-        "Zhengye Zhang",
-        "Feiyang Duan",
-        "Qingyuan Cao"
+        "Penghui Qi",
+        "Xiangxin Zhou",
+        "Wee Sun Lee"
       ],
-      "link": "http://arxiv.org/abs/2608.21360v1",
-      "published": "2026-08-21",
+      "link": "http://arxiv.org/abs/2608.23566v1",
+      "published": "2026-08-24",
       "categories": [
-        "cs.CV"
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
       ]
     },
     "analysis": {
-      "key_methods": "A list of the methods used in this article is included in the article.",
-      "datasets": "The best way to measure performance is by measuring the number of times the machine is running.",
-      "future_work": "Future development:\nMore information:\nThe OmniAssistBench project is being supported by the following grantees:\nRocheste..."
+      "key_methods": "A team of researchers from the University of Wisconsin-Madison created a simple web-based algorithm to identify the opti...",
+      "datasets": "Tables (1)\nTables (2)\nTables (3)\nTables (4)\nData (5)\nTables (5)\nData (6)\nTables (7)\nData (8.",
+      "future_work": "How to Train a Critic Stably and Efficiently."
     }
   },
   {
     "paper": {
-      "title": "VIALS: A Benchmark for Visual Interpretation of Artifacts in the Life Sciences",
-      "summary": "In professional life sciences workflows, scientists routinely interpret visual artifacts (gel blots, microscopy images, plasmid maps, flow cytometry plots, molecular structures, ...) to inform research decisions. We introduce VIALS, a visual question-answering benchmark with 161 such interpretation tasks, spanning the types of artifacts examined throughout experimental workflows in the biotech industry (rather than polished figures from publications and textbooks). While frontier vision-language models can now fluently describe natural images, we find that they are unable to accurately interpret these scientific images, reflecting limitations in domain knowledge and domain-specific visual reasoning capabilities. In contrast, scientists with relevant domain expertise find these visual inter",
+      "title": "ReWorld: An Interactive World Model with Long-Horizon Memory",
+      "summary": "An interactive world model must follow the user's actions, remember the places it has shown, and stream in real time. The tension is structural: control wants a short horizon, memory wants an unbounded one. ReWorld separates the two during training and bounds them at inference. Mixed per-head attention windows confine most heads to the recent past while a small set of global heads attends over the entire history, and random head routing keeps either capability from binding to particular heads; random chunk dropping makes sparse histories in-distribution. At inference the whole past lives under a fixed budget: a bounded KV cache backed by a pose-indexed landmark bank, from which the model retrieves the landmarks nearest the current pose. A metric-scale-aligned data engine places eight sourc",
       "authors": [
-        "Elaine Lau",
-        "Thanuka Udumulla",
-        "Lee Izhaki-Tavor",
-        "Francisco Guzmán",
-        "Nicholas Magazine"
+        "Zhifei Chen",
+        "Luozhou Wang",
+        "Guibao Shen",
+        "Dongyu Yan",
+        "Shuai Yang"
       ],
-      "link": "http://arxiv.org/abs/2608.21357v1",
-      "published": "2026-08-21",
+      "link": "http://arxiv.org/abs/2608.23565v1",
+      "published": "2026-08-24",
       "categories": [
         "cs.AI"
       ]
     },
     "analysis": {
-      "key_methods": "The research was funded by the National Science Foundation, the National Science Foundation, the United States Departmen...",
-      "datasets": "Bibliographic information:\nBibliographic information:\nBibliographic information:\nBibliographic information:\nDictionaries...",
-      "future_work": "VIALS: A Benchmark for Visual Interpretation of Artifacts in the Life Sciences."
+      "key_methods": "In this study, we investigated the potential of a novel memory model with long-horizon memory.",
+      "datasets": "\"The future of memory is in the cloud, and it remains to be seen what the future of these systems will look like.",
+      "future_work": "A New Approach to Memory."
     }
   },
   {
     "paper": {
-      "title": "ViTacPhys: Physical Property-Aware Grasping from Human Visual-Tactile Demonstrations",
-      "summary": "Recent vision-based action models have demonstrated strong capabilities in complex manipulation, but they rarely leverage explicit object physical properties to adapt their policies. We introduce ViTacPhys, a visual-tactile framework and data acquisition system that estimates object mass and friction-coefficient classes, together with continuous stiffness, from human manipulation demonstrations. Trained on data from 60 rigid and deformable objects, ViTacPhys combines temporal visual-tactile modeling, cross-attention multimodal fusion, and a semantic prior derived from a vision-language model. On seen objects, it achieves 97.2% mass classification accuracy, 98.8% friction-coefficient classification accuracy, and a stiffness mean absolute percentage error (MAPE) of 5.51%. On held-out objects",
+      "title": "SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?",
+      "summary": "Modern software systems accumulate technical debt over decades of development, which makes migration expensive and largely manual. As coding agents become increasingly capable at bug fixing, can they autonomously perform such migrations? Existing benchmarks cannot answer this question because they evaluate only behavioural correctness, not whether the migration actually occurred. This leads an easy hack: agents copy the original implementation to make tests pass. We call this Blindness. To address this problem, we introduce SWE Refactor Bench, a benchmark comprising 20 whole-repository migrations, covering 4 kinds of technical debt. A three-stage evaluation protocol measures both migration completeness and behavioural correctness. (1) Migration Audit verifies that the migration occurred. (",
       "authors": [
-        "Yiwen Liu",
-        "Yujun Zhu",
-        "Kui Jia",
-        "Zhao Liao",
-        "Yangwei You"
+        "Deyao Hong",
+        "Yizhe Chi",
+        "Wenyi Li",
+        "Xiaoqiu Wang",
+        "Mingju Gao"
       ],
-      "link": "http://arxiv.org/abs/2608.21355v1",
-      "published": "2026-08-21",
+      "link": "http://arxiv.org/abs/2608.23564v1",
+      "published": "2026-08-24",
       "categories": [
-        "cs.RO"
+        "cs.CL",
+        "cs.AI",
+        "cs.SE"
       ]
     },
     "analysis": {
-      "key_methods": ".",
-      "datasets": "Fusion: 3D-printed skin cells are used to represent images of human visual stimuli.",
-      "future_work": "The authors are focusing on computational models of the human visual cortex, which is a system for the formation of visu..."
+      "key_methods": "We used the following methods:\n(1) use the following methods:\n(2) use the following methods:\n(3) use the following metho...",
+      "datasets": "This post was written for the purpose of writing a Python-based version of this post.",
+      "future_work": "The future of the Coding Agents is very bright, and we are excited to have a lot of new people working on the project."
     }
   },
   {
     "paper": {
-      "title": "PerturbRx: Learning Treatment-Conditioned Latent Transitions for Patient Drug Response Prediction",
-      "summary": "Scarce data and tumor heterogeneity limit patient-level cancer treatment-response prediction. Existing approaches predict response from pretreatment molecular profiles and drug representations, without explicitly modeling the molecular changes expected under treatment. We propose PerturbRx, a treatment-conditioned representation learning framework that learns intervention-induced latent transitions and uses them as patient-drug response features. PerturbRx trains a drug- and dose-conditioned transition predictor from context-matched but cell-unpaired control and treated single-cell populations, then freezes and transfers the predictor to pretreatment patient profiles without requiring post-treatment measurements. The transition is combined with patient and drug representations to predict r",
+      "title": "EG-ARSA: An Expert-Grounded Open Model for Visual Road Safety Auditing in Low-Resource Settings",
+      "summary": "Road traffic injuries remain a major challenge in low- and middle-income countries, where proactive road safety auditing is limited by incomplete crash records, shortages of qualified auditors, and the high cost of large-scale field inspections. To address this problem, we propose Expert-Grounded Distillation (EGD), a novel artificial intelligence framework that transfers institutional road safety expertise into a compact vision-language model for scalable visual road safety auditing. The key innovation is a quantified expert-grounding stage in which the teacher vision-language model is calibrated against authoritative field audits. Large-scale annotation is permitted only after the teacher reaches substantial agreement with expert risk assessments (Cohen's kappa = 0.74). The calibrated te",
       "authors": [
-        "Yoshitaka Inoue",
-        "Minoh Jeong",
-        "Alfred Hero",
-        "Rui Kuang",
-        "Augustin Luna"
+        "Md Thamed Bin Zaman Chowdhury",
+        "Moazzem Hossain"
       ],
-      "link": "http://arxiv.org/abs/2608.21349v1",
-      "published": "2026-08-21",
+      "link": "http://arxiv.org/abs/2608.23563v1",
+      "published": "2026-08-24",
       "categories": [
-        "q-bio.QM",
-        "cs.LG"
+        "cs.CV",
+        "cs.AI"
       ]
     },
     "analysis": {
-      "key_methods": ".",
-      "datasets": "Nanogran et al.",
-      "future_work": "For more information, please contact us:\n\nhttp://www."
-    }
-  },
-  {
-    "paper": {
-      "title": "Asymmetric Capacity Allocation in Self-Refinement Pipelines",
-      "summary": "Self-refinement, typically structured as generation, critique, and revision, is a widely adopted paradigm for improving LLM generation and serves as a core mechanism in many LLM agents. While the three stages involve different cognitive demands, most existing approaches conveniently treat the model size as an implementation detail rather than a subject of study, which may lead to a waste of resources. Little work has systematically examined how model size affects each stage or whether effective self-refinement requires equally capable models for generation, critique, and revision. We present the first stage-wise model size study of the self-refinement pipeline on 5 benchmarks from different domains using 6 model sizes of Qwen3 and 4 model sizes of Gemma 3. We conclude that larger generator",
-      "authors": [
-        "Zhuoyi Yang",
-        "Ian G. Harris",
-        "Salar Hashemitaheri",
-        "Cassie Huang",
-        "Yuangang Li"
-      ],
-      "link": "http://arxiv.org/abs/2608.21345v1",
-      "published": "2026-08-21",
-      "categories": [
-        "cs.LG"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The authors used the PPEs as the primary source of data.",
+      "key_methods": "The author(s) used the following data:\nThe authors(s) used the following data:\nThe author(s) used the following data:\nTh...",
       "datasets": ".",
-      "future_work": "Theoretical and Applications of PIPEC."
+      "future_work": "A study of the possible strategies to reduce the use of low-resource scenarios to assess the effects of long-term hazard..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Physics-Constrained Deep Learning Model for Contactless Blood Pressure Monitoring from Triaxial Bodyseismography",
+      "summary": "Ballistocardiography (BCG) is promising for unobtrusive long-term blood pressure (BP) monitoring in laboratory settings, but traditional BCG signals are vulnerable to the variations in body-bed interaction with shifted fiducial points in temporal or amplitude axis, and BP varies with personal hemodynamic changes, causing misaligned representations that affect model generalizability and robustness. In this work, we propose a non-invasive BP estimation framework, Phy-BP, based on triaxial bodyseismography (BSG) as an extension of BCG. Firstly, an adaptive quality-control algorithm is designed to select BSG segments enriched with cardiogenic components by jointly considering neighboring beat patterns and universal cardiogenic templates. Furthermore, a physical model is established to describe",
+      "authors": [
+        "Yuanyuan Zhang",
+        "Yida Zhang",
+        "Jiahui Li",
+        "Yuyan Wu",
+        "Fei Dou"
+      ],
+      "link": "http://arxiv.org/abs/2608.23562v1",
+      "published": "2026-08-24",
+      "categories": [
+        "eess.SP",
+        "cs.AI",
+        "physics.bio-ph"
+      ]
+    },
+    "analysis": {
+      "key_methods": "To demonstrate the impact of this experiment on the heart rate response in the first part of the experiment, I performed...",
+      "datasets": "Biological Data:\nBiological Data:\nBiological Data:\nBiological Data:\nBiological Data:\nBiological Data:\nBiological Data:\nB...",
+      "future_work": "See also."
     }
   }
 ]

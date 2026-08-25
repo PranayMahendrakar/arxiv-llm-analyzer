@@ -54,85 +54,97 @@
   <div class="stat"><div class="n">5</div><div class="l">Papers</div></div>
   <div class="stat"><div class="n">distilgpt2</div><div class="l">LLM Model</div></div>
   <div class="stat"><div class="n">large language m</div><div class="l">Query</div></div>
-  <div class="stat"><div class="n">2026-08-24</div><div class="l">Updated UTC</div></div>
+  <div class="stat"><div class="n">2026-08-25</div><div class="l">Updated UTC</div></div>
 </div>
 <main>
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2608.21360v1" target="_blank" rel="noopener">OmniAssistBench: Assistant-style Interaction Benchmark for Omni-LLMs</a></h2>
-    <span class="meta">Published: 2026-08-21 | Authors: Xianyun Sun, Chaoyou Fu, Zhengye Zhang, Feiyang Duan, Qingyuan Cao | Tags: cs.CV</span>
+    <h2><a href="http://arxiv.org/abs/2608.23566v1" target="_blank" rel="noopener">How to Train a Critic Stably and Efficiently</a></h2>
+    <span class="meta">Published: 2026-08-24 | Authors: Penghui Qi, Xiangxin Zhou, Wee Sun Lee | Tags: cs.LG, cs.AI, cs.CL</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Recent omni-modal large language models (Omni-LLMs) show great potential as real-time video assistants, which continuously perceive environments and guide users to achieve specific goals. Unlike traditional passive video understanding, interactive assistants should actively combine visual states, user goals, and prior knowledge to provide effective help. Evaluating this is rather challenging, as the model's unpredictable response dynamically changes the user's subsequent actions, which static offline datasets cannot accommodate. To address this bottleneck, we introduce OmniAssistBench. To solve the issue of diverging interaction paths where the same user goal can be achieved through various methods, we provide models with predefined priors derived from the source video, requiring them to g</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>A list of the methods used in this article is included in the article.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>The best way to measure performance is by measuring the number of times the machine is running.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Future development:
-More information:
-The OmniAssistBench project is being supported by the following grantees:
-Rocheste...</p></section>
+    <section class="full"><h3>Abstract</h3><p>Group-based reinforcement learning methods such as GRPO for large language models avoid training a critic by sampling multiple responses for each prompt. A reliable critic could instead estimate token-level advantages from one response, but standard critic-based training recipes are often unstable. We study this instability and develop \textbf{Best-Practice Critic Optimization (BPCO)}, a recipe that combines DPPO, value predictions bounded to the reward range, Monte Carlo value targets, unnormalized policy advantages, and length-adaptive generalized advantage estimation. Because the critic is used only during training, BPCO can also condition it on reward-defining information, such as a reference answer or grading rubric, that is hidden from the policy. Controlled experiments isolate the e</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>A team of researchers from the University of Wisconsin-Madison created a simple web-based algorithm to identify the opti...</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>Tables (1)
+Tables (2)
+Tables (3)
+Tables (4)
+Data (5)
+Tables (5)
+Data (6)
+Tables (7)
+Data (8.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>How to Train a Critic Stably and Efficiently.</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2608.21357v1" target="_blank" rel="noopener">VIALS: A Benchmark for Visual Interpretation of Artifacts in the Life Sciences</a></h2>
-    <span class="meta">Published: 2026-08-21 | Authors: Elaine Lau, Thanuka Udumulla, Lee Izhaki-Tavor, Francisco Guzmán, Nicholas Magazine | Tags: cs.AI</span>
+    <h2><a href="http://arxiv.org/abs/2608.23565v1" target="_blank" rel="noopener">ReWorld: An Interactive World Model with Long-Horizon Memory</a></h2>
+    <span class="meta">Published: 2026-08-24 | Authors: Zhifei Chen, Luozhou Wang, Guibao Shen, Dongyu Yan, Shuai Yang | Tags: cs.AI</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>In professional life sciences workflows, scientists routinely interpret visual artifacts (gel blots, microscopy images, plasmid maps, flow cytometry plots, molecular structures, ...) to inform research decisions. We introduce VIALS, a visual question-answering benchmark with 161 such interpretation tasks, spanning the types of artifacts examined throughout experimental workflows in the biotech industry (rather than polished figures from publications and textbooks). While frontier vision-language models can now fluently describe natural images, we find that they are unable to accurately interpret these scientific images, reflecting limitations in domain knowledge and domain-specific visual reasoning capabilities. In contrast, scientists with relevant domain expertise find these visual inter</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The research was funded by the National Science Foundation, the National Science Foundation, the United States Departmen...</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>Bibliographic information:
-Bibliographic information:
-Bibliographic information:
-Bibliographic information:
-Dictionaries...</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>VIALS: A Benchmark for Visual Interpretation of Artifacts in the Life Sciences.</p></section>
+    <section class="full"><h3>Abstract</h3><p>An interactive world model must follow the user's actions, remember the places it has shown, and stream in real time. The tension is structural: control wants a short horizon, memory wants an unbounded one. ReWorld separates the two during training and bounds them at inference. Mixed per-head attention windows confine most heads to the recent past while a small set of global heads attends over the entire history, and random head routing keeps either capability from binding to particular heads; random chunk dropping makes sparse histories in-distribution. At inference the whole past lives under a fixed budget: a bounded KV cache backed by a pose-indexed landmark bank, from which the model retrieves the landmarks nearest the current pose. A metric-scale-aligned data engine places eight sourc</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>In this study, we investigated the potential of a novel memory model with long-horizon memory.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>"The future of memory is in the cloud, and it remains to be seen what the future of these systems will look like.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>A New Approach to Memory.</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2608.21355v1" target="_blank" rel="noopener">ViTacPhys: Physical Property-Aware Grasping from Human Visual-Tactile Demonstrations</a></h2>
-    <span class="meta">Published: 2026-08-21 | Authors: Yiwen Liu, Yujun Zhu, Kui Jia, Zhao Liao, Yangwei You | Tags: cs.RO</span>
+    <h2><a href="http://arxiv.org/abs/2608.23564v1" target="_blank" rel="noopener">SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?</a></h2>
+    <span class="meta">Published: 2026-08-24 | Authors: Deyao Hong, Yizhe Chi, Wenyi Li, Xiaoqiu Wang, Mingju Gao | Tags: cs.CL, cs.AI, cs.SE</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Recent vision-based action models have demonstrated strong capabilities in complex manipulation, but they rarely leverage explicit object physical properties to adapt their policies. We introduce ViTacPhys, a visual-tactile framework and data acquisition system that estimates object mass and friction-coefficient classes, together with continuous stiffness, from human manipulation demonstrations. Trained on data from 60 rigid and deformable objects, ViTacPhys combines temporal visual-tactile modeling, cross-attention multimodal fusion, and a semantic prior derived from a vision-language model. On seen objects, it achieves 97.2% mass classification accuracy, 98.8% friction-coefficient classification accuracy, and a stiffness mean absolute percentage error (MAPE) of 5.51%. On held-out objects</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>Fusion: 3D-printed skin cells are used to represent images of human visual stimuli.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>The authors are focusing on computational models of the human visual cortex, which is a system for the formation of visu...</p></section>
+    <section class="full"><h3>Abstract</h3><p>Modern software systems accumulate technical debt over decades of development, which makes migration expensive and largely manual. As coding agents become increasingly capable at bug fixing, can they autonomously perform such migrations? Existing benchmarks cannot answer this question because they evaluate only behavioural correctness, not whether the migration actually occurred. This leads an easy hack: agents copy the original implementation to make tests pass. We call this Blindness. To address this problem, we introduce SWE Refactor Bench, a benchmark comprising 20 whole-repository migrations, covering 4 kinds of technical debt. A three-stage evaluation protocol measures both migration completeness and behavioural correctness. (1) Migration Audit verifies that the migration occurred. (</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>We used the following methods:
+(1) use the following methods:
+(2) use the following methods:
+(3) use the following metho...</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>This post was written for the purpose of writing a Python-based version of this post.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>The future of the Coding Agents is very bright, and we are excited to have a lot of new people working on the project.</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2608.21349v1" target="_blank" rel="noopener">PerturbRx: Learning Treatment-Conditioned Latent Transitions for Patient Drug Response Prediction</a></h2>
-    <span class="meta">Published: 2026-08-21 | Authors: Yoshitaka Inoue, Minoh Jeong, Alfred Hero, Rui Kuang, Augustin Luna | Tags: q-bio.QM, cs.LG</span>
+    <h2><a href="http://arxiv.org/abs/2608.23563v1" target="_blank" rel="noopener">EG-ARSA: An Expert-Grounded Open Model for Visual Road Safety Auditing in Low-Resource Settings</a></h2>
+    <span class="meta">Published: 2026-08-24 | Authors: Md Thamed Bin Zaman Chowdhury, Moazzem Hossain | Tags: cs.CV, cs.AI</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Scarce data and tumor heterogeneity limit patient-level cancer treatment-response prediction. Existing approaches predict response from pretreatment molecular profiles and drug representations, without explicitly modeling the molecular changes expected under treatment. We propose PerturbRx, a treatment-conditioned representation learning framework that learns intervention-induced latent transitions and uses them as patient-drug response features. PerturbRx trains a drug- and dose-conditioned transition predictor from context-matched but cell-unpaired control and treated single-cell populations, then freezes and transfers the predictor to pretreatment patient profiles without requiring post-treatment measurements. The transition is combined with patient and drug representations to predict r</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>Nanogran et al.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>For more information, please contact us:
-
-http://www.</p></section>
-  </div>
-</div>
-
-<div class="card">
-  <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2608.21345v1" target="_blank" rel="noopener">Asymmetric Capacity Allocation in Self-Refinement Pipelines</a></h2>
-    <span class="meta">Published: 2026-08-21 | Authors: Zhuoyi Yang, Ian G. Harris, Salar Hashemitaheri, Cassie Huang, Yuangang Li | Tags: cs.LG</span>
-  </div>
-  <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Self-refinement, typically structured as generation, critique, and revision, is a widely adopted paradigm for improving LLM generation and serves as a core mechanism in many LLM agents. While the three stages involve different cognitive demands, most existing approaches conveniently treat the model size as an implementation detail rather than a subject of study, which may lead to a waste of resources. Little work has systematically examined how model size affects each stage or whether effective self-refinement requires equally capable models for generation, critique, and revision. We present the first stage-wise model size study of the self-refinement pipeline on 5 benchmarks from different domains using 6 model sizes of Qwen3 and 4 model sizes of Gemma 3. We conclude that larger generator</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The authors used the PPEs as the primary source of data.</p></section>
+    <section class="full"><h3>Abstract</h3><p>Road traffic injuries remain a major challenge in low- and middle-income countries, where proactive road safety auditing is limited by incomplete crash records, shortages of qualified auditors, and the high cost of large-scale field inspections. To address this problem, we propose Expert-Grounded Distillation (EGD), a novel artificial intelligence framework that transfers institutional road safety expertise into a compact vision-language model for scalable visual road safety auditing. The key innovation is a quantified expert-grounding stage in which the teacher vision-language model is calibrated against authoritative field audits. Large-scale annotation is permitted only after the teacher reaches substantial agreement with expert risk assessments (Cohen's kappa = 0.74). The calibrated te</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The author(s) used the following data:
+The authors(s) used the following data:
+The author(s) used the following data:
+Th...</p></section>
     <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Theoretical and Applications of PIPEC.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>A study of the possible strategies to reduce the use of low-resource scenarios to assess the effects of long-term hazard...</p></section>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    <h2><a href="http://arxiv.org/abs/2608.23562v1" target="_blank" rel="noopener">Physics-Constrained Deep Learning Model for Contactless Blood Pressure Monitoring from Triaxial Bodyseismography</a></h2>
+    <span class="meta">Published: 2026-08-24 | Authors: Yuanyuan Zhang, Yida Zhang, Jiahui Li, Yuyan Wu, Fei Dou | Tags: eess.SP, cs.AI, physics.bio-ph</span>
+  </div>
+  <div class="card-body">
+    <section class="full"><h3>Abstract</h3><p>Ballistocardiography (BCG) is promising for unobtrusive long-term blood pressure (BP) monitoring in laboratory settings, but traditional BCG signals are vulnerable to the variations in body-bed interaction with shifted fiducial points in temporal or amplitude axis, and BP varies with personal hemodynamic changes, causing misaligned representations that affect model generalizability and robustness. In this work, we propose a non-invasive BP estimation framework, Phy-BP, based on triaxial bodyseismography (BSG) as an extension of BCG. Firstly, an adaptive quality-control algorithm is designed to select BSG segments enriched with cardiogenic components by jointly considering neighboring beat patterns and universal cardiogenic templates. Furthermore, a physical model is established to describe</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>To demonstrate the impact of this experiment on the heart rate response in the first part of the experiment, I performed...</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>Biological Data:
+Biological Data:
+Biological Data:
+Biological Data:
+Biological Data:
+Biological Data:
+Biological Data:
+B...</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>See also.</p></section>
   </div>
 </div>
 </main>
 <footer>
   <a href="https://github.com/PranayMahendrakar/arxiv-llm-analyzer">PranayMahendrakar/arxiv-llm-analyzer</a>
-  | Powered by DistilGPT2 (HuggingFace Transformers) | No API keys | 2026-08-24 06:54 UTC
+  | Powered by DistilGPT2 (HuggingFace Transformers) | No API keys | 2026-08-25 06:43 UTC
 </footer>
 </body></html>
