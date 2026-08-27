@@ -54,84 +54,79 @@
   <div class="stat"><div class="n">5</div><div class="l">Papers</div></div>
   <div class="stat"><div class="n">distilgpt2</div><div class="l">LLM Model</div></div>
   <div class="stat"><div class="n">large language m</div><div class="l">Query</div></div>
-  <div class="stat"><div class="n">2026-08-26</div><div class="l">Updated UTC</div></div>
+  <div class="stat"><div class="n">2026-08-27</div><div class="l">Updated UTC</div></div>
 </div>
 <main>
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2608.24885v1" target="_blank" rel="noopener">Do Robotic World Models Really Follow Actions? Diagnosing and Aligning Action-Conditioned Generation for Policy Learning</a></h2>
-    <span class="meta">Published: 2026-08-25 | Authors: Sixiang Chen, Jiaming Liu, Jixian Wu, Yichen Guo, Tinghao Wang | Tags: cs.RO, cs.CV</span>
+    <h2><a href="http://arxiv.org/abs/2608.26105v1" target="_blank" rel="noopener">VBVR-Pro: A Scalable and Verifiable Suite for Native Visual Reasoning</a></h2>
+    <span class="meta">Published: 2026-08-26 | Authors: Junxiang Xu, Ruisi Wang, Fanyi Pu, Maijunxian Wang, Ran Ji | Tags: cs.CV, cs.AI, cs.LG</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Action-conditioned world models are increasingly used as learned simulators for policy evaluation and improvement, yet their effectiveness rests on an unverified assumption: generated futures faithfully reflect arbitrary valid actions. Existing benchmarks are typically confined to expert demonstrations, leaving off-expert action following inadequately evaluated. To address this gap, we introduce WorldEcho, which probes action following over a broader action distribution using visual integrity and SE(3) trajectory alignment. Our diagnosis shows that current world models reasonably execute expert actions but struggle with diverse off-expert trajectories, either ignoring the commanded actions or producing visually invalid rollouts. We further propose WorldSync, which strengthens action follow</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>For information on the literature on Robotic World Modeling, see http://www.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>• A recent study of the role of robot learning in social science and policy development, published in the journal Social...</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>What's a Robotic World?.</p></section>
+    <section class="full"><h3>Abstract</h3><p>Native visual reasoning treats visual generation as the medium of reasoning itself: visual states (i.e. images and videos) are not merely inputs to be understood or outputs to be rendered, but first-class substrates for problem solving beyond language. Yet progress remains bottlenecked by the lack of scalable training tasks, reliable feedback, and controlled comparisons across generative substrates. In this work, we introduce VBVR-Pro, a closed-loop testbed that makes native visual reasoning through generation trainable, verifiable, optimizable, and experimentally controllable. 1) Task scaling. VBVR-Pro turns visual reasoning into a controlled task space of 300 procedurally generated tasks. Models trained on VBVR-Pro show strong transfer beyond the proposed suite across seven external visu</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>In this paper, I have created a Scalable and Verifiable Suite for Native Visual Reasoning.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>1.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>The most recent study to be published in the Journal of Visual and Visual Visual Performance was published in the Septem...</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2608.24882v1" target="_blank" rel="noopener">Latent Action as Intention Enables Efficient Future Imagination for World Action Models</a></h2>
-    <span class="meta">Published: 2026-08-25 | Authors: Xiang Li, Yupeng Zheng, Songen Gu, Huailiang Ma, Feng Yu | Tags: cs.RO</span>
+    <h2><a href="http://arxiv.org/abs/2608.26103v1" target="_blank" rel="noopener">Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization</a></h2>
+    <span class="meta">Published: 2026-08-26 | Authors: Jiaming Zhou, Qihang Zhang, Gangwei Xu, Cunxin Fan, Yujie Zhao | Tags: cs.RO, cs.CV</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>World action models (WAMs) improve robot control by modeling how observations evolve, but generating future observations at test time incurs substantial latency. Fast-WAM removes this process for efficiency; however, our matched implementations show lower generalization for Fast-WAM than for future-aware alternatives, especially with scarce robot demonstrations and in out-of-distribution scenarios. To bridge this gap, we introduce **LAWA**, a WAM architecture that uses compact latent actions as an operational representation of future intentions, enabling efficient test-time future imagination without generating future observations. Specifically, a discrete tokenizer enhanced by action-free pre-training produces manipulation-centric codebook targets. LAWA jointly denoises a continuous laten</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>We used a series of model-specific techniques to develop three ways to increase the number of simulations.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>This paper was co-authored by David Zukas and Christopher Zukas.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>The Future of Imagination for World Action Models.</p></section>
+    <section class="full"><h3>Abstract</h3><p>Zero-shot cross-task generalization, where a policy must execute manipulation tasks never seen during training, remains a central challenge in robot learning. In large language models, a novel task can be performed simply by specifying it in the context, without any parameter update. This form of in-context learning (ICL) turns generalization into a problem of task specification. To achieve cross-task generalization, we bring this paradigm to robotic manipulation, and argue that the natural task specification for manipulation is a human video: unlike language, it provides rich visual cues about the intended task evolution. We present Zero-WAM, a causal video-action model that executes unseen tasks by following in-context human video guidance. To address the scarcity of task-rich paired hum</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The work was performed in collaboration with the Stanford Graduate School of Public Health (Stanford University, Stanfor...</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>https://github.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization.</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2608.24881v1" target="_blank" rel="noopener">What FID Hides: Detecting, Ranking, and Diagnosing Deviations in Generative Evaluation</a></h2>
-    <span class="meta">Published: 2026-08-25 | Authors: Hao Chen | Tags: stat.ML, cs.LG</span>
+    <h2><a href="http://arxiv.org/abs/2608.26101v1" target="_blank" rel="noopener">RefVideo-6M: A Reliable Reference-Based Dataset for Instructional Video Editing</a></h2>
+    <span class="meta">Published: 2026-08-26 | Authors: Bojia Zi, Xiaoyan Yang, Yu Zhou, Ruijie Sun, Lihan Zhang | Tags: cs.CV</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Generative models are commonly ranked by Fréchet Inception Distance (FID) and Kernel Inception Distance (KID), yet FID's first-two-moment summary can miss distributional differences, and a reported scalar gap alone is not a calibrated test against sampling variation. FID's moment restriction has concrete consequences: on ImageNet, visually unrecognizable images optimized only to match the reference Inception mean and covariance obtain FID $24.7$ versus $58.6$ for held-out real images (lower is better). Moreover, FID and KID are scalar discrepancies that are unchanged when the two samples are exchanged and therefore do not encode the direction of a dispersion change: under-dispersion, as can occur in mode collapse, versus over-dispersion. We introduce \textbf{ZID} (\emph{Z-resolved Integrat</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The authors were in the editorial board of the American Psychological Association.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>* The current work is not published in the journal.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>How to create a system for detecting and diagnosing Deviations in Generative Evaluation.</p></section>
+    <section class="full"><h3>Abstract</h3><p>Recent advances in video editing have been largely driven by large-scale instruction-based datasets. However, existing datasets still suffer from two critical limitations. First, target videos are commonly produced by automatic editing models, which may introduce visible artifacts and unreliable supervision signals. Second, most public datasets rely primarily on textual instructions, while lacking visual references that are crucial for precise, identity-preserving, and controllable editing. To address these limitations, we introduce RefVideo-6M, a large-scale reference-guided editing dataset containing 5 million video editing samples and 1 million image editing samples. To ensure reliable supervision, our dataset uses a construction pipeline that treats artifact-free real videos as editing</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>A-B: A-B: A-B: A-B: A-B: A-B: A-B: A-B: A-B: A-B: A-B: A-B: A.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>"Implementing a new, dynamic video editing system is a must," says K.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>(2013) http://www.</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2608.24880v1" target="_blank" rel="noopener">Coherent Direct D-MIMO Localization</a></h2>
-    <span class="meta">Published: 2026-08-25 | Authors: Benjamin J. B. Deutschmann, Lukas D'Angelo, Erik Leitinger, Klaus Witrisal | Tags: eess.SP</span>
+    <h2><a href="http://arxiv.org/abs/2608.26100v1" target="_blank" rel="noopener">Integrated Hardware Annealing based on Langevin Dynamics for Ising Machines</a></h2>
+    <span class="meta">Published: 2026-08-26 | Authors: Yongchao Liu, Lianlong Sun, Michael Huang, Hui Wu | Tags: cs.AR</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Distributed multiple-input multiple-output (D-MIMO) is envisioned as a key deployment architecture for future wireless systems, offering improved coverage and robustness through spatial separation, and favorable geometry for localization and sensing. Its greatest potential for localization lies in joint coherent processing across distributed antenna panels. However, stringent frequency-synchronization and phase-calibration requirements, together with multimodal likelihood functions, hinder the estimation process. Consequently, most existing algorithms process the panels noncoherently, potentially sacrificing localization accuracy. We present a unified family of Bayesian state-space filters that are based on concentrated Type-I and marginal Type-II likelihoods for wideband near-field D-MIMO</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The following study was conducted in the name of the study subject and the author's consent.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>Localization:
-Localization:
-Localization:
-Localization:
-Localization:
-Localization:
-Localization:
-Localization:
-Localiza...</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Coherent Direct D-MIMO Localization.</p></section>
+    <section class="full"><h3>Abstract</h3><p>Ising machines are non-von Neumann machines designed to solve combinatorial optimization problems (COP) by searching for the ground state, or the lowest energy configuration, within the Ising model. However, Ising machines often face the challenges of getting trapped in local minima due to the complex energy landscapes. Hardware annealing algorithms help mitigate this issue by using a probabilistic approach to steer the system toward the ground state. In this paper, we present a hardware annealing algorithm for Ising machines based on Langevin dynamics, a stochastic perturbation by random noise. Theoretical analysis, system-level design, and detailed circuit design are carried out. We evaluate the performance of the algorithm through chip-level simulation using a standard 65-nm CMOS techno</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The first method was to use a DNN (dNN) to evaluate the density of the data.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>(1) Algorithms that can be implemented in multi-process systems (i.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>How to make a computer that uses a digital machine
+For more information, please visit http://www.</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2608.24877v1" target="_blank" rel="noopener">From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms</a></h2>
-    <span class="meta">Published: 2026-08-25 | Authors: Jiangning Zhang, Haojun Chen, Yong Liu | Tags: cs.CV</span>
+    <h2><a href="http://arxiv.org/abs/2608.26099v1" target="_blank" rel="noopener">Exact analytical spectrum, eigenstates, and quantum geometry of the quarter-flux Harper-Hofstadter model</a></h2>
+    <span class="meta">Published: 2026-08-26 | Authors: Isaac Tesfaye, André Eckardt | Tags: cond-mat.quant-gas, cond-mat.mes-hall, quant-ph</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Smart glasses are evolving from capture and display accessories into first-person intelligence platforms that connect human perception, persistent context, and digital or physical action. Their on-body viewpoint aligns with the wearer's vision, audition, motion, and hand-object interaction, but must operate under tight energy, thermal, privacy, and feedback constraints. Despite rapid progress in augmented reality, egocentric vision, multimodal models, human-computer interaction, and embodied intelligence, the literature remains fragmented across devices, tasks, and benchmarks. \textit{The key challenge is not whether a model can recognize, answer, remember, or act in isolation, but whether a complete system can sustain a reliable, temporally valid, correctable, and governable perception-st</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>1) To understand the mechanisms that control the brain, we asked the participants to use a pair of different kinds of el...</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>The first generation of smart glasses we developed in the early 2000s was the first to connect to a smart phone.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Using a smartphone to look at the impact of a wearable device on our behavior.</p></section>
+    <section class="full"><h3>Abstract</h3><p>Quantum geometry has emerged as a guiding principle across atomic and condensed-matter physics, shaping the topological responses of Bloch bands and the stability of the correlated phases they host. Beyond two-band models, however, closed-form expressions for both the spectrum and the quantum geometry are rare. Here we provide such expressions for a paradigmatic four-band model that has recently been realized experimentally with ultracold atoms, photons and in superconducting circuits: the Harper-Hofstadter model at quarter flux, describing charged particles on a two-dimensional square lattice subjected to a uniform magnetic field. We achieve this by first showing that the model possesses a sublattice symmetry, which renders its Bloch Hamiltonian anti-block-diagonal allowing us to derive t</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>Data from the Fermi Quantum Physics Laboratory (UK):
+The Fermi Quantum Physics Laboratory (UK):
+The Fermi Quantum Physic...</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>The second major dataset of the Harper-Hofstadter model, using the Hamiltonian/Haltonian/Higgs pair hypothesis, is a sin...</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>The use of quantum information in quantum gravity is limited to a single, highly efficient system, but in the future, th...</p></section>
   </div>
 </div>
 </main>
 <footer>
   <a href="https://github.com/PranayMahendrakar/arxiv-llm-analyzer">PranayMahendrakar/arxiv-llm-analyzer</a>
-  | Powered by DistilGPT2 (HuggingFace Transformers) | No API keys | 2026-08-26 06:45 UTC
+  | Powered by DistilGPT2 (HuggingFace Transformers) | No API keys | 2026-08-27 17:21 UTC
 </footer>
 </body></html>
