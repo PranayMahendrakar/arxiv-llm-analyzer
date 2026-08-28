@@ -1,120 +1,120 @@
 [
   {
     "paper": {
-      "title": "VBVR-Pro: A Scalable and Verifiable Suite for Native Visual Reasoning",
-      "summary": "Native visual reasoning treats visual generation as the medium of reasoning itself: visual states (i.e. images and videos) are not merely inputs to be understood or outputs to be rendered, but first-class substrates for problem solving beyond language. Yet progress remains bottlenecked by the lack of scalable training tasks, reliable feedback, and controlled comparisons across generative substrates. In this work, we introduce VBVR-Pro, a closed-loop testbed that makes native visual reasoning through generation trainable, verifiable, optimizable, and experimentally controllable. 1) Task scaling. VBVR-Pro turns visual reasoning into a controlled task space of 300 procedurally generated tasks. Models trained on VBVR-Pro show strong transfer beyond the proposed suite across seven external visu",
+      "title": "The Atacama Cosmology Telescope: Constraints on the anisotropic screening and birefringence effects with DR6",
+      "summary": "While we have learned much from recent surveys of the mm-wave sky, many secondary anisotropies of the CMB remain under-explored. We consider two of these here: the anisotropic screening induced by Thomson scattering of CMB photons off free electrons, and cosmic birefringence, the rotation of CMB polarization due to parity-violating physics beyond the standard model. To measure these effects, we apply state-of-the-art estimators for statistical anisotropy to the ACT Data Release 6 CMB data and construct noisy maps and power spectra of both effects. For anisotropic screening, we find no significant detection with the baseline data, and place an upper limit on its power spectrum that is two orders of magnitude above predictions from current reionization models. We obtain evidence for some for",
       "authors": [
-        "Junxiang Xu",
-        "Ruisi Wang",
-        "Fanyi Pu",
-        "Maijunxian Wang",
-        "Ran Ji"
+        "Darby M. Kramer",
+        "Alexander van Engelen",
+        "Frank J. Qu",
+        "Christopher Cain",
+        "Irene Abril-Cabezas"
       ],
-      "link": "http://arxiv.org/abs/2608.26105v1",
-      "published": "2026-08-26",
+      "link": "http://arxiv.org/abs/2608.27458v1",
+      "published": "2026-08-27",
       "categories": [
-        "cs.CV",
+        "astro-ph.CO"
+      ]
+    },
+    "analysis": {
+      "key_methods": "All experiments were conducted in the Netherlands.",
+      "datasets": "Tests:\nTests:\nTests:\nTests:\nTests:\nTests:\nTests:\nTests:\nTests:\nTests:\nTests:\nTests:\nT.",
+      "future_work": "This is the first study using a specific method of observation to demonstrate the effects of DR6 in the light, but it ha..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Spectral Fingerprints of Gauge Theories on a Quantum Computer",
+      "summary": "Maximally mixed state spectral sampling is an unbiased quantum algorithm that allows for extraction of a finite-resolution spectral distribution from a Hamiltonian over potentially the entire allowed range of energies. We show how it may be focused on any desired area of the spectrum in order to learn about the full \\textit{fingerprint} of the model of interest: from its ground state phenomena such as quantum criticality, obtained from the lowest lying energies, to its thermalization behavior, obtained from the mid-spectrum. We demonstrate this technique specifically on a $(1+1)d$ non-Abelian $SO(3)$ gauge theory, providing a comprehensive analysis of the steps necessary for performing this algorithm, as well as what is possible in the near-term with superconducting quantum hardware, perfo",
+      "authors": [
+        "Graham Van Goffrier",
+        "Debasish Banerjee",
+        "Bipasha Chakraborty",
+        "Emilie Huffman"
+      ],
+      "link": "http://arxiv.org/abs/2608.27457v1",
+      "published": "2026-08-27",
+      "categories": [
+        "quant-ph",
+        "cond-mat.str-el",
+        "hep-lat",
+        "hep-th"
+      ]
+    },
+    "analysis": {
+      "key_methods": "A large, multivariate dataset of the logistic regression procedure was constructed.",
+      "datasets": "Theorem:\nTheorem:\nTheorem:\nTheorem:\nTheorem:\nTheorem:\nTheorem:\nTheorem:\nTheorem:\nTheorem:\nTheorem:\nTheorem:\nThe.",
+      "future_work": "[PDF]\nGuson-Guson-Guson-Guson-Guson-Guson-Guson-Guson-Guson-Guson-Guson-Gus."
+    }
+  },
+  {
+    "paper": {
+      "title": "UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City",
+      "summary": "Multimodal large language models (MLLMs) can interpret a street view, but urban agency depends on whether such local evidence remains useful after the agent starts to move. In this paper, we investigate how far current MLLM agents can turn local urban perception into reliable action in a complicated real-scale city. We propose UrbanGround, the first sandbox to make this question testable in a physically constrained replica of Hong Kong built from territory-wide 3D geospatial data. UrbanGround supports closed-loop interaction from a first-person view and provides an interactive map for navigation. Agents can directly enter the 3D city and explore from a first-person view. Our analysis follows the growth of the spatial problem through three research questions. We first test whether an agent ",
+      "authors": [
+        "Tianjie Ju",
+        "Zheng Wu",
+        "Yueqing Sun",
+        "Yuhan Cui",
+        "Bobo Li"
+      ],
+      "link": "http://arxiv.org/abs/2608.27456v1",
+      "published": "2026-08-27",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": ".",
+      "datasets": "There is an interesting paper showing how our understanding of the spatial orientation of cities is based on a real-scal...",
+      "future_work": "Baker, S."
+    }
+  },
+  {
+    "paper": {
+      "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
+      "summary": "Recent advances in inference-time scaling have significantly improved the reasoning performance of large language models (LLMs). However, these methods typically rely on repeated generation or external verification. To address this limitation, we introduce CritICL, a novel inference-time framework that improves reasoning while maintaining high efficiency. Our key insight is that LLM failure modes exhibit structured patterns across model scales within the same family. Instead of treating failures as undesirable outputs, CritICL leverages them as a source of guidance. Specifically, we utilize failure modes derived from weaker models and incorporate them into inference through critique-based in-context examples. We propose two variants: CritICL-dynamic, which adaptively predicts input-specifi",
+      "authors": [
+        "Yufan Wu",
+        "Yinghui He",
+        "Zhengyi Hu",
+        "Lang Wei",
+        "Ruichen Li"
+      ],
+      "link": "http://arxiv.org/abs/2608.27455v1",
+      "published": "2026-08-27",
+      "categories": [
+        "cs.CL"
+      ]
+    },
+    "analysis": {
+      "key_methods": "Inference-Time Weakness:\nThe following steps were based on an internalization strategy developed by the ICS-AMG.",
+      "datasets": "A.",
+      "future_work": "An important new paper is the introduction of a framework for estimating the extent to which the failure rate is too low..."
+    }
+  },
+  {
+    "paper": {
+      "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
+      "summary": "Agent skills package specialized knowledge and workflows into reusable resources that extend AI agent capabilities. Recent work automatically discovers such skills from agent experience, which enables agents to progressively adapt through interaction. However, the insights that guide skill development typically remain scattered across optimization histories, limiting their systematic reuse across iterations. We introduce WikiSkill, a framework that co-evolves agent skills with a persistent knowledge base (wiki). At a high level, WikiSkill separates raw execution experience, accumulated knowledge, and executable skills, while continuously consolidating experience into the wiki, which subsequent skill updates can build on. Across diverse benchmarks and models, WikiSkill consistently outperfo",
+      "authors": [
+        "Liyan Tang",
+        "Cyrus Rashtchian",
+        "Chun-Sung Ferng",
+        "Andrew Tomkins",
+        "Da-Cheng Juan"
+      ],
+      "link": "http://arxiv.org/abs/2608.27454v1",
+      "published": "2026-08-27",
+      "categories": [
         "cs.AI",
-        "cs.LG",
-        "cs.MM",
-        "cs.RO"
+        "cs.CL"
       ]
     },
     "analysis": {
-      "key_methods": "In this paper, I have created a Scalable and Verifiable Suite for Native Visual Reasoning.",
-      "datasets": "1.",
-      "future_work": "The most recent study to be published in the Journal of Visual and Visual Visual Performance was published in the Septem..."
-    }
-  },
-  {
-    "paper": {
-      "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
-      "summary": "Zero-shot cross-task generalization, where a policy must execute manipulation tasks never seen during training, remains a central challenge in robot learning. In large language models, a novel task can be performed simply by specifying it in the context, without any parameter update. This form of in-context learning (ICL) turns generalization into a problem of task specification. To achieve cross-task generalization, we bring this paradigm to robotic manipulation, and argue that the natural task specification for manipulation is a human video: unlike language, it provides rich visual cues about the intended task evolution. We present Zero-WAM, a causal video-action model that executes unseen tasks by following in-context human video guidance. To address the scarcity of task-rich paired hum",
-      "authors": [
-        "Jiaming Zhou",
-        "Qihang Zhang",
-        "Gangwei Xu",
-        "Cunxin Fan",
-        "Yujie Zhao"
-      ],
-      "link": "http://arxiv.org/abs/2608.26103v1",
-      "published": "2026-08-26",
-      "categories": [
-        "cs.RO",
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The work was performed in collaboration with the Stanford Graduate School of Public Health (Stanford University, Stanfor...",
-      "datasets": "https://github.",
-      "future_work": "In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization."
-    }
-  },
-  {
-    "paper": {
-      "title": "RefVideo-6M: A Reliable Reference-Based Dataset for Instructional Video Editing",
-      "summary": "Recent advances in video editing have been largely driven by large-scale instruction-based datasets. However, existing datasets still suffer from two critical limitations. First, target videos are commonly produced by automatic editing models, which may introduce visible artifacts and unreliable supervision signals. Second, most public datasets rely primarily on textual instructions, while lacking visual references that are crucial for precise, identity-preserving, and controllable editing. To address these limitations, we introduce RefVideo-6M, a large-scale reference-guided editing dataset containing 5 million video editing samples and 1 million image editing samples. To ensure reliable supervision, our dataset uses a construction pipeline that treats artifact-free real videos as editing",
-      "authors": [
-        "Bojia Zi",
-        "Xiaoyan Yang",
-        "Yu Zhou",
-        "Ruijie Sun",
-        "Lihan Zhang"
-      ],
-      "link": "http://arxiv.org/abs/2608.26101v1",
-      "published": "2026-08-26",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": "A-B: A-B: A-B: A-B: A-B: A-B: A-B: A-B: A-B: A-B: A-B: A-B: A.",
-      "datasets": "\"Implementing a new, dynamic video editing system is a must,\" says K.",
-      "future_work": "(2013) http://www."
-    }
-  },
-  {
-    "paper": {
-      "title": "Integrated Hardware Annealing based on Langevin Dynamics for Ising Machines",
-      "summary": "Ising machines are non-von Neumann machines designed to solve combinatorial optimization problems (COP) by searching for the ground state, or the lowest energy configuration, within the Ising model. However, Ising machines often face the challenges of getting trapped in local minima due to the complex energy landscapes. Hardware annealing algorithms help mitigate this issue by using a probabilistic approach to steer the system toward the ground state. In this paper, we present a hardware annealing algorithm for Ising machines based on Langevin dynamics, a stochastic perturbation by random noise. Theoretical analysis, system-level design, and detailed circuit design are carried out. We evaluate the performance of the algorithm through chip-level simulation using a standard 65-nm CMOS techno",
-      "authors": [
-        "Yongchao Liu",
-        "Lianlong Sun",
-        "Michael Huang",
-        "Hui Wu"
-      ],
-      "link": "http://arxiv.org/abs/2608.26100v1",
-      "published": "2026-08-26",
-      "categories": [
-        "cs.AR"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The first method was to use a DNN (dNN) to evaluate the density of the data.",
-      "datasets": "(1) Algorithms that can be implemented in multi-process systems (i.",
-      "future_work": "How to make a computer that uses a digital machine\nFor more information, please visit http://www."
-    }
-  },
-  {
-    "paper": {
-      "title": "Exact analytical spectrum, eigenstates, and quantum geometry of the quarter-flux Harper-Hofstadter model",
-      "summary": "Quantum geometry has emerged as a guiding principle across atomic and condensed-matter physics, shaping the topological responses of Bloch bands and the stability of the correlated phases they host. Beyond two-band models, however, closed-form expressions for both the spectrum and the quantum geometry are rare. Here we provide such expressions for a paradigmatic four-band model that has recently been realized experimentally with ultracold atoms, photons and in superconducting circuits: the Harper-Hofstadter model at quarter flux, describing charged particles on a two-dimensional square lattice subjected to a uniform magnetic field. We achieve this by first showing that the model possesses a sublattice symmetry, which renders its Bloch Hamiltonian anti-block-diagonal allowing us to derive t",
-      "authors": [
-        "Isaac Tesfaye",
-        "André Eckardt"
-      ],
-      "link": "http://arxiv.org/abs/2608.26099v1",
-      "published": "2026-08-26",
-      "categories": [
-        "cond-mat.quant-gas",
-        "cond-mat.mes-hall",
-        "quant-ph"
-      ]
-    },
-    "analysis": {
-      "key_methods": "Data from the Fermi Quantum Physics Laboratory (UK):\nThe Fermi Quantum Physics Laboratory (UK):\nThe Fermi Quantum Physic...",
-      "datasets": "The second major dataset of the Harper-Hofstadter model, using the Hamiltonian/Haltonian/Higgs pair hypothesis, is a sin...",
-      "future_work": "The use of quantum information in quantum gravity is limited to a single, highly efficient system, but in the future, th..."
+      "key_methods": "The information obtained is shared with users of the Google Group, the Google Group, and other users of the Google Group.",
+      "datasets": "Datasets:.",
+      "future_work": "The best way to determine the value of an agent is by using the following."
     }
   }
 ]
