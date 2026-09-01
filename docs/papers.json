@@ -1,119 +1,110 @@
 [
   {
     "paper": {
-      "title": "QGPINNs: A Physics-Informed Neural Network Framework for Nonlocal Differential Equations on Quantum Graphs",
-      "summary": "We propose QGPINNs, a physics-informed neural network framework developed in PyTorch for the numerical solution of nonlocal differential equations on quantum graphs. The framework is designed as a general computational implementation in which the solution on each edge of the graph is approximated by a neural network, while a unified graph-based loss function enforces the governing equations together with initial, boundary, and vertex transmission conditions. In particular, the formulation incorporates standard continuity and Kirchhoff-Neumann vertex conditions and Dirichlet boundary conditions into the learning process to couple the local edge-wise neural approximations into a global solution on the graph. The framework is developed for two representative classes of nonlinear models: multi",
+      "title": "Finite-energy spacetimes with torus symmetry. Cauchy stability of Einstein-Euler and Einstein-Navier-Stokes areal flows",
+      "summary": "We establish finite-energy Cauchy stability for vacuum and matter spacetimes with $T^2$ symmetry on $T^3$, under general constitutive equations satisfying hyperbolicity and mild asymptotic conditions at vacuum and large mass-energy density. First, using the area of the symmetry orbits as a time function, we introduce the JKL formulation of Einstein areal flows}, a first-order evolution-constraint system coupling a wave-map structure for the geometry to hyperbolic matter balance laws and weighted transport equations for the twists and the momentum tangent to the symmetry orbits. Second, we also define two classes of hyperbolic Einstein-Navier-Stokes models, constructed from (as we call them) a Navier-Stokes potential and a relaxation rate map. The proposed particle-production model has dive",
       "authors": [
-        "Vaibhav Mehandiratta",
-        "Saket Ramchandra"
+        "Bruno Le Floch",
+        "Philippe G. LeFloch"
       ],
-      "link": "http://arxiv.org/abs/2608.28589v1",
-      "published": "2026-08-28",
+      "link": "http://arxiv.org/abs/2608.31171v1",
+      "published": "2026-08-31",
       "categories": [
-        "cs.LG",
-        "math.NA"
+        "math.AP"
       ]
     },
     "analysis": {
-      "key_methods": "The RNN was defined as a single neural network for a variety of computational tasks.",
-      "datasets": "The following graph is a neural network built on a computer-generated graph.",
-      "future_work": "A group of scientists from the University of Southern California and the University of Michigan have published a paper i..."
+      "key_methods": "The experiments were performed using a 10-step electric circuit.",
+      "datasets": "Lanning and Newton\nThe first steps of the theory of relativity were the first step in the formation of the second step i...",
+      "future_work": "\"Using a new, more precise, atomic-scale, superconducting dynamical dynamical dynamical dynamical dynamical dynamical dy..."
     }
   },
   {
     "paper": {
-      "title": "Bounds for inertialess dynamo",
-      "summary": "We derive necessary conditions for instantaneous dynamo action for rotating convection. A magnetohydrodynamic model is considered in two settings: the rapidly rotating plane layer where inertia and viscosity are absent, and at an arbitrary rotation rate where viscosity is finite. In contrast to kinematic dynamo bounds, the evolution of the magnetic field is coupled via an inertialess force balance. The buoyancy-driven part of the flow $\\mathbf{u}^{\\mathrm{A}}$ in the event of dynamo action must in fact satisfy, for $3\\leq p \\leq \\infty$ $$ Rm\\, A_p\\| \\mathbf{u}^{\\mathrm{A}}\\|_{L^p} \\geq 1 $$ where $A_p$ is an explicit constant, and $Rm$ is the magnetic Reynolds number. In the inviscid model, $\\mathbf{u}^{\\mathrm{A}}$ depends only on the horizontal gradients of the vertical primitive of tem",
+      "title": "Context-Aware Interleaved Batching for WhisperX",
+      "summary": "While WhisperX accelerates speech transcription via intra-audio batching, it isolates audio segments, losing the historical context needed for coherent punctuation and terminology transcription. Conversely, standard Whisper retains context sequentially but suffers from slow inference and hallucination loops. To achieve the best of both worlds, we propose Context-Aware Interleaved Batching. By using VAD-derived segment boundaries, our algorithm stabilizes Whisper's text conditioning, allowing us to safely maintain continuous historical context across batched audio segments. As demonstrated on long-form audio benchmarks, this approach reduces Word Error Rate (WER) and improves proper noun transcription, all while maintaining high-throughput inference speeds.",
       "authors": [
-        "Ali Arslan",
-        "Hezekiah Grayer"
+        "Carlos Bain",
+        "Max Bain"
       ],
-      "link": "http://arxiv.org/abs/2608.28584v1",
-      "published": "2026-08-28",
+      "link": "http://arxiv.org/abs/2608.31170v1",
+      "published": "2026-08-31",
       "categories": [
-        "math.AP",
-        "physics.flu-dyn"
+        "cs.CL"
       ]
     },
     "analysis": {
-      "key_methods": "The experiments were conducted in the laboratory, in the US, in Australia, and the UK.",
-      "datasets": "1.",
-      "future_work": "Using high-performance dynamo, we can test a method to experiment with our dynamo properties."
+      "key_methods": "Asynchronous Interleaved Batching\nUsing a library to run a WhisperX application\nIn order to run a WhisperX application, ...",
+      "datasets": "http://www.",
+      "future_work": "In this paper, we explore the potential of the use of context-aware protocols to facilitate the processing of data with ..."
     }
   },
   {
     "paper": {
-      "title": "Layer-Controlled Intermolecular Coupling and Many-Body Effects in C$_{60}$ Films",
-      "summary": "Crystalline C$_{60}$ is a molecular solid whose electronic properties emerge from the interplay of intermolecular hopping, electron correlations, and electron-vibration coupling. Unlike moir$\\rm\\acute{e}$ van der Waals heterostructures, where interaction strength is commonly tuned by twist angle, molecular materials offer a complementary route in which layer number, molecular orientation, and substrate registry provide experimentally accessible control parameters. Here we present a systematic thickness-dependent angle-resolved photoemission study of C$_{60}$ films, spanning the monolayer to the bulk limit. The HOMO-derived band exhibits a non-monotonic evolution: the intermediate-thickness film shows larger bandwidth, reduced effective mass, and pronounced gap-like and sub-band features. T",
+      "title": "Strain-Tunable Spin Relaxation in Germanium from First Principles",
+      "summary": "Germanium is a leading platform for semiconductor spin qubits and spintronics. Yet its electron and hole spin dynamics remain understood primarily through phenomenological models. Here, we predict electronic transport and spin relaxation in bulk Ge entirely from first principles, combining hybrid-functional band structures with fully relativistic electron-phonon ($e$-ph) interactions. Without empirical parameters, we predict carrier mobilities, velocity-field curves, and electron and hole spin relaxation times in close agreement with experiments over 100$-$400 K. By resolving spin-flip scattering by valley and phonon mode, we identify the microscopic mechanisms governing spin relaxation and show that spin and momentum relaxation, although both mediated by $e$-ph scattering, are controlled ",
       "authors": [
-        "Hai-Lan Luo",
-        "Weitang Li",
-        "Luca Moreschini",
-        "Jonathan Denlinger",
-        "Zhigang Shuai"
+        "Lauren A. Tan",
+        "Shaelyn Iyer",
+        "Ivan Maliyov",
+        "Jinsoo Park",
+        "Marco Bernardi"
       ],
-      "link": "http://arxiv.org/abs/2608.28583v1",
-      "published": "2026-08-28",
+      "link": "http://arxiv.org/abs/2608.31169v1",
+      "published": "2026-08-31",
       "categories": [
-        "cond-mat.mtrl-sci",
-        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci"
+      ]
+    },
+    "analysis": {
+      "key_methods": "1) A.",
+      "datasets": "A.",
+      "future_work": "What are the benefits of a slow-motion spin relaxation?\nThe basic idea is that the spin structure will produce a steady ..."
+    }
+  },
+  {
+    "paper": {
+      "title": "SUN: Persistent Programs For Language-Grounded Control-to-Learning-to-Real Policies",
+      "summary": "Bridging model-based control and learned policies in long-horizon manipulation has harbored a silent disagreement: control executes specified objectives, learning amortizes that behavior into a reactive policy, yet existing protocols discard task semantics, leaving rewards hand-crafted and behavior drifting from what control verified.We introduce Semantically UNified (SUN) Programs, typed executables where geometric and contact relations are defined once and compiled into aligned Model Predictive Control (MPC) costs, satisfaction predicates, RL rewards, transition guards, and diagnostics. Our system, Kuafu, driven by large vision language systems, automatically synthesizes SUN Programs from language and scene semantics, screens feasibility via MPC, and retains semantics while training stag",
+      "authors": [
+        "Weiqi Wang",
+        "Zhi Li",
+        "Yudong Lei",
+        "David Martinez",
+        "Xiaofeng Gao"
+      ],
+      "link": "http://arxiv.org/abs/2608.31167v1",
+      "published": "2026-08-31",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ]
+    },
+    "analysis": {
+      "key_methods": "Predictability of the data\nResults:\nThe total of the data in the study was generated using the data-based model for the ...",
+      "datasets": "Numeric-based programming languages are not always straightforward.",
+      "future_work": "The use of an interactive interactive graph to help you understand the different languages, and how to use them."
+    }
+  },
+  {
+    "paper": {
+      "title": "Efficient search for excitable zero-modes in constrained systems",
+      "summary": "Kinetically constrained systems, such as those representing Rydberg atom arrays in the blockade regime, have gathered considerable attention due to the presence of atypical eigenstates in their spectrum. The latter manifests itself through the presence of quantum many-body scars as well as unusually large zero-mode (ZM) subspaces which contain analytically tractable eigenstates with various entanglement scalings. In particular, some of the latter are excitable zero-modes (EZMs), meaning that they can be promoted to a non-zero energy for open boundary conditions. In this work, I present an efficient protocol for finding analytical expressions for translation-invariant EZMs in constrained systems, based on the eigendecomposition of the local unconstrained Hamiltonian. I demonstrate the power",
+      "authors": [
+        "Jean-Yves Desaules"
+      ],
+      "link": "http://arxiv.org/abs/2608.31165v1",
+      "published": "2026-08-31",
+      "categories": [
+        "quant-ph",
+        "cond-mat.stat-mech",
         "cond-mat.str-el"
       ]
     },
     "analysis": {
-      "key_methods": "A linear network consists of multiple layers of layers of layers.",
-      "datasets": "Image: https://www.",
-      "future_work": "We can apply our approach to C$_{40}$ Films for multiple-body effects from the perspective of a closed-body film."
-    }
-  },
-  {
-    "paper": {
-      "title": "Aero Hand Open: A Simulation-Ready Tendon-Driven Hand for Dexterous Manipulation Learning",
-      "summary": "Tendon-driven hands are anthropomorphic, and moving the actuators off the joints is what makes a hand of this capability affordable to build. Two effects produce that saving. Routing force through a cable removes the requirement that a motor fit inside the joint it drives, so smaller and cheaper motors suffice, and one motor can drive several joints through a single cable, so fewer motors are needed. They are also harder to learn on than a direct-drive hand. The underactuated transmission that produces the saving is itself difficult to represent in a simulator, and the joints one cable drives are not independently commandable. We present Aero Hand Open, a tendon-driven anthropomorphic hand that is released simulation-ready. Three things ship with it. A simulation model reproduces the cable",
-      "authors": [
-        "Nan Wang",
-        "Mohit Yadav",
-        "Jonathan Wulff",
-        "Aidan Rosenbaum",
-        "Kezhou Chen"
-      ],
-      "link": "http://arxiv.org/abs/2608.28578v1",
-      "published": "2026-08-28",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.LG"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The following is a summary of the paper.",
-      "datasets": "http://www.",
-      "future_work": "How to use this tool to develop and implement a tool that can help us to develop and implement a tool that can help us t..."
-    }
-  },
-  {
-    "paper": {
-      "title": "How Long-Range Tails Reshape Non-Hermitian Spectra",
-      "summary": "Exponentially decaying long-range hoppings are ubiquitous in realistic tight-binding models and are often truncated to obtain a finite-range description. We show that this approximation can fail dramatically in non-Hermitian systems under open boundary conditions: an infinitesimal long-range hopping can nonperturbatively reconstruct the spectrum and eigenstates of a short-range non-Hermitian system. The mechanism is controlled by a competition between the decay length of infinitesimal long-range hoppings and the localization length of non-Hermitian skin modes, leading to a sharp transition as the decay rate is tuned. In one dimension, we show that a squeezed generalized Brillouin zone (GBZ) replaces the original GBZ of the short-ranged Hamiltonian, yielding the reconstructed open-boundary ",
-      "authors": [
-        "Ding Gu",
-        "Zhanpeng Fu",
-        "Yu-Min Hu",
-        "Zhong Wang"
-      ],
-      "link": "http://arxiv.org/abs/2608.28577v1",
-      "published": "2026-08-28",
-      "categories": [
-        "quant-ph",
-        "cond-mat.mes-hall",
-        "cond-mat.quant-gas",
-        "physics.optics"
-      ]
-    },
-    "analysis": {
-      "key_methods": "We measured the length of the length of the longest-range tail, compared to a previous study.",
-      "datasets": "The following results were obtained from a survey of the European Space Agency (ESA) and the European Space Agency (ESA)...",
-      "future_work": "1."
+      "key_methods": ".",
+      "datasets": "For an example, the first problem we have is that the zero-modes that we want to compute are not always present, and the...",
+      "future_work": "A way to investigate the role of excitable zero-modes."
     }
   }
 ]
