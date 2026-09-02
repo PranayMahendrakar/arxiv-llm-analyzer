@@ -1,110 +1,114 @@
 [
   {
     "paper": {
-      "title": "Finite-energy spacetimes with torus symmetry. Cauchy stability of Einstein-Euler and Einstein-Navier-Stokes areal flows",
-      "summary": "We establish finite-energy Cauchy stability for vacuum and matter spacetimes with $T^2$ symmetry on $T^3$, under general constitutive equations satisfying hyperbolicity and mild asymptotic conditions at vacuum and large mass-energy density. First, using the area of the symmetry orbits as a time function, we introduce the JKL formulation of Einstein areal flows}, a first-order evolution-constraint system coupling a wave-map structure for the geometry to hyperbolic matter balance laws and weighted transport equations for the twists and the momentum tangent to the symmetry orbits. Second, we also define two classes of hyperbolic Einstein-Navier-Stokes models, constructed from (as we call them) a Navier-Stokes potential and a relaxation rate map. The proposed particle-production model has dive",
+      "title": "Uncovering Understanding-Generation Synergy in Native Unified Multimodal Models: From Representation, Task to System",
+      "summary": "While unified multimodal models (UMMs) jointly perform visual understanding and generation within a single model, functional unification does not guarantee learning synergy: the two objectives may reinforce each other, compete for capacity, or merely coexist. We investigate their relationship at the representation, task, and system levels in a controlled, structurally native setting without pretrained vision priors. At the representation level, we find that each objective provides useful signal to the other: generation enriches the visual features learned for understanding, while understanding strengthens vision--language alignment for generation. However, when both objectives are forced through the same computation path, one tends to dominate. A task-decoupled architecture that specialize",
       "authors": [
-        "Bruno Le Floch",
-        "Philippe G. LeFloch"
+        "Penghao Wu",
+        "Haiwen Diao",
+        "Weichen Fan",
+        "Lewei Lu",
+        "Dahua Lin"
       ],
-      "link": "http://arxiv.org/abs/2608.31171v1",
-      "published": "2026-08-31",
+      "link": "http://arxiv.org/abs/2609.01607v1",
+      "published": "2026-09-01",
       "categories": [
-        "math.AP"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The experiments were performed using a 10-step electric circuit.",
-      "datasets": "Lanning and Newton\nThe first steps of the theory of relativity were the first step in the formation of the second step i...",
-      "future_work": "\"Using a new, more precise, atomic-scale, superconducting dynamical dynamical dynamical dynamical dynamical dynamical dy..."
-    }
-  },
-  {
-    "paper": {
-      "title": "Context-Aware Interleaved Batching for WhisperX",
-      "summary": "While WhisperX accelerates speech transcription via intra-audio batching, it isolates audio segments, losing the historical context needed for coherent punctuation and terminology transcription. Conversely, standard Whisper retains context sequentially but suffers from slow inference and hallucination loops. To achieve the best of both worlds, we propose Context-Aware Interleaved Batching. By using VAD-derived segment boundaries, our algorithm stabilizes Whisper's text conditioning, allowing us to safely maintain continuous historical context across batched audio segments. As demonstrated on long-form audio benchmarks, this approach reduces Word Error Rate (WER) and improves proper noun transcription, all while maintaining high-throughput inference speeds.",
-      "authors": [
-        "Carlos Bain",
-        "Max Bain"
-      ],
-      "link": "http://arxiv.org/abs/2608.31170v1",
-      "published": "2026-08-31",
-      "categories": [
-        "cs.CL"
-      ]
-    },
-    "analysis": {
-      "key_methods": "Asynchronous Interleaved Batching\nUsing a library to run a WhisperX application\nIn order to run a WhisperX application, ...",
-      "datasets": "http://www.",
-      "future_work": "In this paper, we explore the potential of the use of context-aware protocols to facilitate the processing of data with ..."
-    }
-  },
-  {
-    "paper": {
-      "title": "Strain-Tunable Spin Relaxation in Germanium from First Principles",
-      "summary": "Germanium is a leading platform for semiconductor spin qubits and spintronics. Yet its electron and hole spin dynamics remain understood primarily through phenomenological models. Here, we predict electronic transport and spin relaxation in bulk Ge entirely from first principles, combining hybrid-functional band structures with fully relativistic electron-phonon ($e$-ph) interactions. Without empirical parameters, we predict carrier mobilities, velocity-field curves, and electron and hole spin relaxation times in close agreement with experiments over 100$-$400 K. By resolving spin-flip scattering by valley and phonon mode, we identify the microscopic mechanisms governing spin relaxation and show that spin and momentum relaxation, although both mediated by $e$-ph scattering, are controlled ",
-      "authors": [
-        "Lauren A. Tan",
-        "Shaelyn Iyer",
-        "Ivan Maliyov",
-        "Jinsoo Park",
-        "Marco Bernardi"
-      ],
-      "link": "http://arxiv.org/abs/2608.31169v1",
-      "published": "2026-08-31",
-      "categories": [
-        "cond-mat.mtrl-sci"
-      ]
-    },
-    "analysis": {
-      "key_methods": "1) A.",
-      "datasets": "A.",
-      "future_work": "What are the benefits of a slow-motion spin relaxation?\nThe basic idea is that the spin structure will produce a steady ..."
-    }
-  },
-  {
-    "paper": {
-      "title": "SUN: Persistent Programs For Language-Grounded Control-to-Learning-to-Real Policies",
-      "summary": "Bridging model-based control and learned policies in long-horizon manipulation has harbored a silent disagreement: control executes specified objectives, learning amortizes that behavior into a reactive policy, yet existing protocols discard task semantics, leaving rewards hand-crafted and behavior drifting from what control verified.We introduce Semantically UNified (SUN) Programs, typed executables where geometric and contact relations are defined once and compiled into aligned Model Predictive Control (MPC) costs, satisfaction predicates, RL rewards, transition guards, and diagnostics. Our system, Kuafu, driven by large vision language systems, automatically synthesizes SUN Programs from language and scene semantics, screens feasibility via MPC, and retains semantics while training stag",
-      "authors": [
-        "Weiqi Wang",
-        "Zhi Li",
-        "Yudong Lei",
-        "David Martinez",
-        "Xiaofeng Gao"
-      ],
-      "link": "http://arxiv.org/abs/2608.31167v1",
-      "published": "2026-08-31",
-      "categories": [
-        "cs.RO",
-        "cs.AI"
-      ]
-    },
-    "analysis": {
-      "key_methods": "Predictability of the data\nResults:\nThe total of the data in the study was generated using the data-based model for the ...",
-      "datasets": "Numeric-based programming languages are not always straightforward.",
-      "future_work": "The use of an interactive interactive graph to help you understand the different languages, and how to use them."
-    }
-  },
-  {
-    "paper": {
-      "title": "Efficient search for excitable zero-modes in constrained systems",
-      "summary": "Kinetically constrained systems, such as those representing Rydberg atom arrays in the blockade regime, have gathered considerable attention due to the presence of atypical eigenstates in their spectrum. The latter manifests itself through the presence of quantum many-body scars as well as unusually large zero-mode (ZM) subspaces which contain analytically tractable eigenstates with various entanglement scalings. In particular, some of the latter are excitable zero-modes (EZMs), meaning that they can be promoted to a non-zero energy for open boundary conditions. In this work, I present an efficient protocol for finding analytical expressions for translation-invariant EZMs in constrained systems, based on the eigendecomposition of the local unconstrained Hamiltonian. I demonstrate the power",
-      "authors": [
-        "Jean-Yves Desaules"
-      ],
-      "link": "http://arxiv.org/abs/2608.31165v1",
-      "published": "2026-08-31",
-      "categories": [
-        "quant-ph",
-        "cond-mat.stat-mech",
-        "cond-mat.str-el"
+        "cs.CV"
       ]
     },
     "analysis": {
       "key_methods": ".",
-      "datasets": "For an example, the first problem we have is that the zero-modes that we want to compute are not always present, and the...",
-      "future_work": "A way to investigate the role of excitable zero-modes."
+      "datasets": "In this article I will be using a dataset from our native Multimodeable network to create a model that can be used to pr...",
+      "future_work": "More detailed and more detailed descriptions of the interplay between the different interplay between different interpla..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Observable- and state-selective prethermalization and bounds on prethermal lifetimes",
+      "summary": "Prethermalization describes long-lived intermediate regimes that precede equilibrium and can dominate experimentally accessible dynamics. Here, we show that a separation of spectral energy scales, despite giving rise to a hierarchy of dynamical timescales, does not by itself guarantee the appearance of a prethermal plateau. Under the same Hamiltonian, some observables may exhibit prethermal behavior, while others relax directly toward equilibrium. We uncover the mechanism governing this selectivity, showing that the emergence of a prethermal plateau depends not only on the Hamiltonian, but also on the observable and the initial state. Our results apply broadly to systems close to a fully permutation-symmetric limit and are illustrated with a long-range interacting spin model. We further pr",
+      "authors": [
+        "C. L. Sriram",
+        "Soumya Kanti Pal",
+        "Lea F. Santos"
+      ],
+      "link": "http://arxiv.org/abs/2609.01606v1",
+      "published": "2026-09-01",
+      "categories": [
+        "quant-ph",
+        "cond-mat.stat-mech"
+      ]
+    },
+    "analysis": {
+      "key_methods": ".",
+      "datasets": ".",
+      "future_work": "There are many possibilities to explore and develop new approaches to the effects of prethermal lifetimes on the longevi..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Beyond Scores: Understanding LLM-as-a-Judge Mechanisms in Summarization Evaluation",
+      "summary": "LLM-based evaluators of natural language generation (NLG) quality are widely deployed as scoring tools and as automated training signals, yet the internal procedure by which they assign a rating remains poorly understood. We investigate this procedure mechanistically through an eight-attack perturbation taxonomy across the Readability and Adequacy dimensions of NLG quality, a generation pipeline that produces paired clean and corrupt summaries with controlled error intensity and explicit token-level modification maps, and a four-experiment battery of causal tracing, logit-lens vocabulary projection, and attention-head knockout applied to Themis (Llama-3-8B) and Prometheus (Mistral-7B). Both evaluators implement a structured, coherent evaluation pipeline operating in two stages: below layer",
+      "authors": [
+        "Himil Vasava",
+        "Ming Jiang"
+      ],
+      "link": "http://arxiv.org/abs/2609.01604v1",
+      "published": "2026-09-01",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ]
+    },
+    "analysis": {
+      "key_methods": "In this paper, we developed a set of mathematical algorithms for the computation of finite-state numbers and the evaluat...",
+      "datasets": "(1) [a] Theorem [a] Theorem [a] Theorem [a] Theorem [a] Theorem [a] Theorem [a] Theorem [a] Theorem [a] Theorem [.",
+      "future_work": "The present paper is the first to explore the use of algorithms for evaluation of mathematical mathematical programs."
+    }
+  },
+  {
+    "paper": {
+      "title": "Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation",
+      "summary": "Evaluating software engineering agents on realistic benchmarks is costly, since each task may require multi-step code exploration, modification, and test execution. Existing efficient evaluation methods select representative subsets to estimate full-benchmark performance, but are largely result-only: they fit historical pass/fail response matrices or static task semantics, discarding how agents solve problems. We propose PTA-IRT, a Privileged Trajectory-Aware Item Response Theory framework that fuses process and outcome signals. Historical execution trajectories supply process-level evidence beyond pass/fail, such as explored context, attempted edits, and solving paths, which PTA-IRT uses as privileged information for calibration subset selection and ability estimation. Under low calibrati",
+      "authors": [
+        "Kefeng Duan",
+        "Dewu Zheng",
+        "Yanlin Wang",
+        "Xiwen Wang",
+        "Ensheng Shi"
+      ],
+      "link": "http://arxiv.org/abs/2609.01603v1",
+      "published": "2026-09-01",
+      "categories": [
+        "cs.SE",
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The first author of this paper was Daniel H.",
+      "datasets": "This is a dataset that was designed to be used to evaluate the performance of a given task.",
+      "future_work": "Using SWE Agent Benchmarking and Trajectory-Aware Evaluation."
+    }
+  },
+  {
+    "paper": {
+      "title": "Singular Weak-Field Thermodynamics of 2D Superconductors",
+      "summary": "In a bulk 3D type-II superconductor, the lower critical field at which an isolated vortex becomes thermodynamically favorable is a size-independent material property. We show that the situation is different in 2D superconductors: the larger the superconductor, the weaker the field needed to create its first vortex. The lower critical field in 2D is always size-dependent. For a disk of area $\\mathcal A$, the lower critical field $B_v(\\mathcal A)$ scales as $\\mathcal A^{-1}\\ln(\\mathcal A/\\mathcal A_0)$ in the weak-screening regime and as $\\mathcal A^{-1/2}$ in the strong-screening regime. We derive these results from an analytically tractable microscopic model that admits many-body wavefunctions for both the uniform and singly quantized vortex states in a magnetic field, and incorporate scre",
+      "authors": [
+        "Guopeng Xu",
+        "Chunli Huang"
+      ],
+      "link": "http://arxiv.org/abs/2609.01602v1",
+      "published": "2026-09-01",
+      "categories": [
+        "cond-mat.supr-con",
+        "cond-mat.mes-hall"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The researchers used a series of different types of liquid-liquid-liquid-liquid-liquid-liquid-liquid-liquid-liquid-liqui...",
+      "datasets": "[1] The first major drawback of the new-generation superconductors is that they cause some problems.",
+      "future_work": "In vivo experiments will yield the first direct results of superconducting 2D superconductors."
     }
   }
 ]
