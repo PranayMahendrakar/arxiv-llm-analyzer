@@ -1,110 +1,114 @@
 [
   {
     "paper": {
-      "title": "A Common Measure of Communication for Speech Brain-Computer Interfaces",
-      "summary": "Speech brain-computer interfaces (speech BCIs) translate neural activity into language, offering a path towards restoring speech for people with paralysis and, more broadly, enabling new forms of natural human-computer interaction. Despite this promise, the field lacks a common measure of progress because systems use different datasets, recording methods, types of speech, and vocabularies, so their reported scores are rarely comparable. Underlying this measurement problem are two unresolved questions: (i) what distribution of words should a speech BCI enable a user to communicate, and (ii) how much information from this distribution can a system convey. We address both by deriving open-vocabulary mutual information (OVMI), an information-theoretic quantity that measures the information con",
+      "title": "Temporal Self-Distillation: Learning Visual State Tracking in Videos Without Supervision",
+      "summary": "We introduce S$^3$T (Self-Supervised Self-Distillation over Time), which, to the best of our knowledge, is the first fully self-contained framework for continuous video state tracking. Our method treats temporal sampling density as privileged information, based on the hypothesis that a denser view of the same clip recovers the running state more accurately. This view serves as the teacher, while a sparse-view student with the same weights learns to match its next-token distribution. The model generates its own target, so training requires no labels, separate teacher, or reward signal, and adds no inference cost. On LLaVA-OneVision-2-8B, S$^3$T improves VSTAT accuracy by $+1.74$ as a single model, $+2.38$ with souping, and $+2.70$ with additional vision-encoder adaptation, while prior self-",
       "authors": [
-        "Dulhan Jayalath",
-        "Benjamin Ballyk",
-        "Oiwi Parker Jones"
+        "Shravan Venkatraman",
+        "Wenshuai Zhao",
+        "Mohammad Hassan Vali",
+        "Arno Solin"
       ],
-      "link": "http://arxiv.org/abs/2609.02887v1",
-      "published": "2026-09-02",
-      "categories": [
-        "cs.LG",
-        "q-bio.NC"
-      ]
-    },
-    "analysis": {
-      "key_methods": ".",
-      "datasets": "R-N-G (R-N-G)\nR-L-L-L-L-L-L-L-L-L-L-L-L-L-L-L-L-L-.",
-      "future_work": "Future studies of communication between two populations, from the U."
-    }
-  },
-  {
-    "paper": {
-      "title": "SolarWM: Open Data and Scalable Training for Long-Horizon Video World Models",
-      "summary": "We introduce SolarWM, a fully open foundation for building interactive video world models from data preparation through long-horizon inference. Training across heterogeneous data sources and video backbones is challenging: datasets differ in temporal scale, camera geometry, visual quality, motion, and captioning styles, while video generators use distinct representations and architectures. Naive data mixing and model-specific implementations therefore produce inconsistent supervision and make results difficult to reproduce and compare. SolarWM addresses this coupling with a reconfigurable multi-source data engine and a backbone-native adaptation framework. The engine converts 1.43 million canonical clips from 10 datasets into a unified, frame-aligned contract covering visual observations, ",
-      "authors": [
-        "Junchao Huang",
-        "Guian Fang",
-        "Shengju Qian",
-        "Xianghao Kong",
-        "Zhuoran Zhao"
-      ],
-      "link": "http://arxiv.org/abs/2609.02886v1",
-      "published": "2026-09-02",
+      "link": "http://arxiv.org/abs/2609.04203v1",
+      "published": "2026-09-03",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": ".",
-      "datasets": "Sci-Fi\nM.",
-      "future_work": "To implement, use, and design new information on the use and application of such information, in terms of the time requi..."
+      "key_methods": "This post is based on a paper published in the Proceedings of the National Academy of Sciences on Dec.",
+      "datasets": "Here are the images that are shown in the chart.",
+      "future_work": "Citation: Kostal, Kornberg, R."
     }
   },
   {
     "paper": {
-      "title": "Discriminative World Models for Web Agents",
-      "summary": "Recent web agents use world models for test-time action selection by sampling candidate actions, predicting the resulting web states, and ranking them with a ranker model or a Process Reward Model (PRM). These world models are typically trained via supervised next-state prediction to generate fixed representations like HTML or AXTree snapshots. However, this objective is misaligned with the downstream ranker, which relies on predicted states being discriminative across candidates to accurately score them. To address this, we introduce predicted-state matching, a training objective where the predicted representation must distinguish the true resulting state from those reached by alternative actions. We train these models using a branching web-agent dataset derived from WebArena Go-Browse tr",
+      "title": "TokenMatch: 3D Mesh Correspondence Transformer with Curvature-Guided Tokenisation",
+      "summary": "While data-driven 3D shape correspondence estimation has recently seen substantial progress, robust matching under partial observations and strong non-isometric deformations remains challenging. Existing learning-based approaches often rely on hand-crafted descriptors or template-based representations, whereas recent generative models over functional maps suffer from high inference cost, limited interpretability, and poor generalisation to partial shapes. In response to these limitations, this paper introduces TokenMatch, a new transformer-based unified model for estimating 3D shape correspondences. Our feed-forward approach trained exclusively on BeCoS, a challenging non-isometric partial-to-partial shape-matching dataset, can generalise to matching full shapes without retraining or fine-",
       "authors": [
-        "Kelvin Li",
-        "Dhruv Pendharkar",
-        "Anish Pahilajani",
-        "Chuyi Shang",
-        "Leon Oks"
+        "Adeela Islam",
+        "Zorah Lähner",
+        "Vittorio Murino",
+        "Vladislav Golyanik"
       ],
-      "link": "http://arxiv.org/abs/2609.02885v1",
-      "published": "2026-09-02",
+      "link": "http://arxiv.org/abs/2609.04202v1",
+      "published": "2026-09-03",
       "categories": [
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "We had to make a number of layers of the image, but the result was a rather messy one.",
+      "datasets": ":\n– The following table shows the data that the data was generated using its data.",
+      "future_work": "Explore further:\nTo improve the accuracy of the data, we use the following methods:\nGenerate a unique Hash Hash and Hash..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction",
+      "summary": "Online 3D reconstruction models perform poorly on long videos. This happens because regressing poses relative to a fixed first-frame anchor forces extrapolation far beyond the training distribution. Small drifts accumulate and amplify into significant geometric collapse. However, we observe that per-frame depth remains stable throughout this failure. The backbone's local geometry remains intact; only the global pose head breaks down. Motivated by this decoupling, we introduce Scal3R. This approach reformulates online reconstruction as multi-reference relative pose querying. We use lightweight learnable tokens, which make up about ~1% of the parameters, and inject them into a completely frozen backbone via asymmetric attention. This setup queries poses relative to multiple past keyframes. A",
+      "authors": [
+        "Chin-Yang Lin",
+        "Yang-Che Sun",
+        "Cheng Sun",
+        "Fu-En Yang",
+        "Min-Hung Chen"
+      ],
+      "link": "http://arxiv.org/abs/2609.04201v1",
+      "published": "2026-09-03",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "To retrieve the coordinates of the coordinates of the coordinates with the points of origin, the coordinates of the poin...",
+      "datasets": "The Scal3R specification is very important for scalability and is the single most valuable tool in any field in all appl...",
+      "future_work": "In this paper we'll show that in this paper we'll show that the two functions that are actually the same as each other i..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Principia: Relational Physics Tests for Video Models",
+      "summary": "Evaluating physical reasoning in video models is difficult because absolute motion measurements depend on frame rate, object scale, and camera calibration, all of which are often ambiguous or unavailable in generated video. We propose a different approach. When two objects in the same scene obey the same physical law, their motions must satisfy predictable relationships, and these relationships hold independent of calibration. We introduce Principia, a benchmark that evaluates Newtonian physics through relational consistency between paired objects. Principia spans eight phenomena - gravity, restitution, friction, rotational inertia, projectile motion, momentum, pendulum, and mass-spring oscillation - across translational, rotational, collisional, and oscillatory dynamics, using real-world ",
+      "authors": [
+        "Varun Varma Thozhiyoor",
+        "Shivam Tripathi",
+        "Venkatesh Babu Radhakrishnan",
+        "Anand Bhattad"
+      ],
+      "link": "http://arxiv.org/abs/2609.04200v1",
+      "published": "2026-09-03",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The project was funded by the MSCB, the Ministry of Education, the Ministry of Education and the Ministry of Education, ...",
+      "datasets": "To view the tables for the data sets for the datasets for the datasets, see the table for the Data Sets for the Datasets...",
+      "future_work": "We can now start using a simple solution to the computational and computational problems of video modeling, particularly..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
+      "summary": "Many recurring text functions are easy to describe but difficult to implement with rules, while calling a large remote model for every input introduces repeated cost, latency, and dependency on a provider. We present compile by training, which turns a natural-language specification into a reusable neural function. At compile time, teacher models generate task-specific examples that are used to train a small adapter for a compact interpreter. The resulting function runs without the teachers and can be stored, versioned, and composed like ordinary software. On FuzzyBench-Hard, a subset on which the Program-as-Weights fast compiler produced no exact matches, compile by training reaches 83.6% semantic accuracy. This higher accuracy comes with a higher compile-time cost: roughly a minute rather",
+      "authors": [
+        "Yuntian Deng",
+        "Pengyu Nie",
+        "Stuart Shieber"
+      ],
+      "link": "http://arxiv.org/abs/2609.04199v1",
+      "published": "2026-09-03",
+      "categories": [
+        "cs.CL",
         "cs.AI",
         "cs.LG"
       ]
     },
     "analysis": {
-      "key_methods": "The following table shows the first three steps of the model validation, followed by the following table.",
-      "datasets": "Google Scholar\nYamir L.",
-      "future_work": "Do you have any applications that are particularly interesting in the field of web-agents or applications that make the ..."
-    }
-  },
-  {
-    "paper": {
-      "title": "Repairing PBE-Spurious Metallicity for HSE06-Level Screening of 2D Photocatalysts for Green Hydrogen Production",
-      "summary": "Semilocal PBE calculations can remove viable photocatalysts before screening by labeling narrow-gap semiconductors as metals. We address this failure mode in the Computational 2D Materials Database (C2DB) by combining leakage-aware repair of PBE-spurious metallicity with HSE06--PBE $Δ$-learning. Stage~I classifies HSE06-unknown PBE metals using structural, chemical, magnetic, and stability descriptors, while excluding HSE06/GW quantities and PBE electronic shortcuts. Stage~II learns $E_g^{HSE} - E_g^{PBE}$ for the corrected insulating population. The curated XGBoost regressor reconstructs HSE06 gaps with a mean absolute error of 0.108~eV ($R^2=0.989$), compared with 1.036~eV for raw PBE. The Stage~I classifier is used only for triage because the labeled true-metal class contains 29 materia",
-      "authors": [
-        "Ritam Chakraborty",
-        "Arpan Das"
-      ],
-      "link": "http://arxiv.org/abs/2609.02883v1",
-      "published": "2026-09-02",
-      "categories": [
-        "cond-mat.mtrl-sci"
-      ]
-    },
-    "analysis": {
-      "key_methods": ".",
-      "datasets": "The current data collection process:\nA good example of the process is the process that does the extraction of the materi...",
-      "future_work": "A multi-pronged approach to the detection of the chemical-induced release of PBE-spurious chemicals, using a multiple-pr..."
-    }
-  },
-  {
-    "paper": {
-      "title": "Graph Machine: Towards Better Pretraining via Edges",
-      "summary": "We introduce the Graph Machine (GM), an architecture that maintains an $O(n)$-sized state and accesses it through sparse, dynamic routing. Unlike methods with fixed-size states or sparse but static routing, GM preserves $O(n)$ complexity in its sparse layers without restricting the potentially accessible state size to $O(1)$. Instead, GM uses edges - pointer-like objects updated differentiably by a referral mechanism resembling pointer chasing. We replace 75% of the dense Transformer layers in Qwen3-0.6B with GM sparse layers and pretrain from scratch on 15.7B tokens. With only 2 of 4,096 tokens retrieved per KV head in each sparse layer, loss degrades only slightly; with 4, the best model marginally improves loss.",
-      "authors": [
-        "Lintai Hou"
-      ],
-      "link": "http://arxiv.org/abs/2609.02881v1",
-      "published": "2026-09-02",
-      "categories": [
-        "cs.LG"
-      ]
-    },
-    "analysis": {
-      "key_methods": "Methods:\n1.",
-      "datasets": "http://www.",
-      "future_work": "using this knowledge to better understand human behavior\nThe paper is available in the October 15th issue of the Journal..."
+      "key_methods": "- Compile by training: Turning Natural-Language Specifications into Local Neural Functions.",
+      "datasets": "For example, let’s say you want to train a neural network and set a dataset, then you want to train the neural network a...",
+      "future_work": "What can you do that would be like?\nWe want to see if the neural networks that use these neural networks can be used to ..."
     }
   }
 ]
