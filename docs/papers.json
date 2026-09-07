@@ -1,114 +1,118 @@
 [
   {
     "paper": {
-      "title": "Temporal Self-Distillation: Learning Visual State Tracking in Videos Without Supervision",
-      "summary": "We introduce S$^3$T (Self-Supervised Self-Distillation over Time), which, to the best of our knowledge, is the first fully self-contained framework for continuous video state tracking. Our method treats temporal sampling density as privileged information, based on the hypothesis that a denser view of the same clip recovers the running state more accurately. This view serves as the teacher, while a sparse-view student with the same weights learns to match its next-token distribution. The model generates its own target, so training requires no labels, separate teacher, or reward signal, and adds no inference cost. On LLaVA-OneVision-2-8B, S$^3$T improves VSTAT accuracy by $+1.74$ as a single model, $+2.38$ with souping, and $+2.70$ with additional vision-encoder adaptation, while prior self-",
+      "title": "WorldSculpt: Generating Compositional Worlds from Grounded Videos",
+      "summary": "We study the problem of generating a compositional 3D representation of a cluttered scene containing hundreds of objects. The goal is to represent the scene as a collection of individual object meshes placed in a shared world frame, as required by downstream applications such as gaming, AR/VR, simulation, and robotics. This task is challenging in densely cluttered scenes, where objects heavily occlude one another and each view reveals only a fraction of their geometry. Geometry-based approaches typically reconstruct the scene as a single representation and leave incomplete geometry in occluded regions, while existing compositional methods with generative priors are largely limited to relatively simple scenes. We show that complex scenes with hundreds of objects can instead be generated com",
       "authors": [
-        "Shravan Venkatraman",
-        "Wenshuai Zhao",
-        "Mohammad Hassan Vali",
-        "Arno Solin"
+        "Muyao Niu",
+        "Jixuan He",
+        "Ruihan Yu",
+        "Lian Fu",
+        "Yonghao Yu"
       ],
-      "link": "http://arxiv.org/abs/2609.04203v1",
-      "published": "2026-09-03",
+      "link": "http://arxiv.org/abs/2609.05416v1",
+      "published": "2026-09-04",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "The video was captured by a smartphone camera using a high-resolution video camera mounted on a tripod.",
-      "datasets": ".",
-      "future_work": "The use of temporal-self-distillation may be applicable to video capture (as opposed to video capture), but the use of t..."
+      "key_methods": "The first and only final step is to create a simple world with a high level of complexity to create and run in.",
+      "datasets": "Sciences:\nIonic, Mapping and Syntactic Data\nIonic, Mapping and Syntactic Data\nIonic, Mapping and Syntactic Data\nIonic, M...",
+      "future_work": "The world of data science is not just a mathematical world."
     }
   },
   {
     "paper": {
-      "title": "TokenMatch: 3D Mesh Correspondence Transformer with Curvature-Guided Tokenisation",
-      "summary": "While data-driven 3D shape correspondence estimation has recently seen substantial progress, robust matching under partial observations and strong non-isometric deformations remains challenging. Existing learning-based approaches often rely on hand-crafted descriptors or template-based representations, whereas recent generative models over functional maps suffer from high inference cost, limited interpretability, and poor generalisation to partial shapes. In response to these limitations, this paper introduces TokenMatch, a new transformer-based unified model for estimating 3D shape correspondences. Our feed-forward approach trained exclusively on BeCoS, a challenging non-isometric partial-to-partial shape-matching dataset, can generalise to matching full shapes without retraining or fine-",
+      "title": "UniMate: One Unified Model to Animate Diverse Skeletons",
+      "summary": "Recent advances in automatic rigging now deliver animation-ready 3D assets at scale, yet generating the motion to drive them remains a bottleneck. Existing learned animators are topology-constrained: they rely on category-specific templates or require per-skeleton fine-tuning and reference motions at inference. We present UniMate, a unified foundation model that synthesizes articulated motion for arbitrary skeletons from a rigged 3D asset and a text prompt, with no test-time optimization or per-skeleton retraining. UniMate introduces a topology-aware diffusion transformer, which integrates skeletal topology into attention via three mechanisms: (1) a graph-aware attention bias from pairwise joint relations and geodesic distances; (2) a spectral rotary position embedding generalizing RoPE to",
       "authors": [
-        "Adeela Islam",
-        "Zorah Lähner",
-        "Vittorio Murino",
-        "Vladislav Golyanik"
+        "Linzhan Mou",
+        "Jiahui Lei",
+        "Zhiyang Dou",
+        "Chenyue Cai",
+        "Chaoyue Song"
       ],
-      "link": "http://arxiv.org/abs/2609.04202v1",
-      "published": "2026-09-03",
+      "link": "http://arxiv.org/abs/2609.05415v1",
+      "published": "2026-09-04",
       "categories": [
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The token-match is a single-layer computation, and the results can be described in the following lines:\nThe code is a si...",
-      "datasets": "Blockchain-Proof-of-Stake (DPS) (https://github.",
-      "future_work": "Finnings and Future research in the field of object-oriented programming has found that the use of the new method of cre..."
-    }
-  },
-  {
-    "paper": {
-      "title": "Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction",
-      "summary": "Online 3D reconstruction models perform poorly on long videos. This happens because regressing poses relative to a fixed first-frame anchor forces extrapolation far beyond the training distribution. Small drifts accumulate and amplify into significant geometric collapse. However, we observe that per-frame depth remains stable throughout this failure. The backbone's local geometry remains intact; only the global pose head breaks down. Motivated by this decoupling, we introduce Scal3R. This approach reformulates online reconstruction as multi-reference relative pose querying. We use lightweight learnable tokens, which make up about ~1% of the parameters, and inject them into a completely frozen backbone via asymmetric attention. This setup queries poses relative to multiple past keyframes. A",
-      "authors": [
-        "Chin-Yang Lin",
-        "Yang-Che Sun",
-        "Cheng Sun",
-        "Fu-En Yang",
-        "Min-Hung Chen"
-      ],
-      "link": "http://arxiv.org/abs/2609.04201v1",
-      "published": "2026-09-03",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The following table shows how the scalability of an online query is used.",
-      "datasets": "Shallow: Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction.",
-      "future_work": "To make an evaluation of a different approach, it will be useful to compare the approaches in the paper."
-    }
-  },
-  {
-    "paper": {
-      "title": "Principia: Relational Physics Tests for Video Models",
-      "summary": "Evaluating physical reasoning in video models is difficult because absolute motion measurements depend on frame rate, object scale, and camera calibration, all of which are often ambiguous or unavailable in generated video. We propose a different approach. When two objects in the same scene obey the same physical law, their motions must satisfy predictable relationships, and these relationships hold independent of calibration. We introduce Principia, a benchmark that evaluates Newtonian physics through relational consistency between paired objects. Principia spans eight phenomena - gravity, restitution, friction, rotational inertia, projectile motion, momentum, pendulum, and mass-spring oscillation - across translational, rotational, collisional, and oscillatory dynamics, using real-world ",
-      "authors": [
-        "Varun Varma Thozhiyoor",
-        "Shivam Tripathi",
-        "Venkatesh Babu Radhakrishnan",
-        "Anand Bhattad"
-      ],
-      "link": "http://arxiv.org/abs/2609.04200v1",
-      "published": "2026-09-03",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The following equations were used to calculate the distribution of linear equations for discrete equations for the two m...",
-      "datasets": "[1] :\n[2] :\n[3] :\n[4] :\n[5] :\n[6] :\n[7] :\n[8] :\n[9] :\n[10] :.",
-      "future_work": "In 2012, the National Science Foundation (NSF) published an article on the subject of video simulation for the first tim..."
-    }
-  },
-  {
-    "paper": {
-      "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
-      "summary": "Many recurring text functions are easy to describe but difficult to implement with rules, while calling a large remote model for every input introduces repeated cost, latency, and dependency on a provider. We present compile by training, which turns a natural-language specification into a reusable neural function. At compile time, teacher models generate task-specific examples that are used to train a small adapter for a compact interpreter. The resulting function runs without the teachers and can be stored, versioned, and composed like ordinary software. On FuzzyBench-Hard, a subset on which the Program-as-Weights fast compiler produced no exact matches, compile by training reaches 83.6% semantic accuracy. This higher accuracy comes with a higher compile-time cost: roughly a minute rather",
-      "authors": [
-        "Yuntian Deng",
-        "Pengyu Nie",
-        "Stuart Shieber"
-      ],
-      "link": "http://arxiv.org/abs/2609.04199v1",
-      "published": "2026-09-03",
-      "categories": [
-        "cs.CL",
-        "cs.AI",
+        "cs.CV",
+        "cs.GR",
         "cs.LG"
       ]
     },
     "analysis": {
-      "key_methods": "To test the basic techniques used here, we used a number of methods for training the neural network to recognize the beh...",
-      "datasets": "What you need to know:\nHow to do this:\nThis is the first step.",
-      "future_work": "The goal of the project is to identify a way to build a neural language for the people with autism who are autistic."
+      "key_methods": "Study:\nThe authors provided data on the study participants.",
+      "datasets": ".",
+      "future_work": "Theoretical and applied to the quantum mechanics of quantum mechanics could use the quantum mechanics of quantum mechani..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Two extremely irradiated volatile-rich sub-Neptunes with companions in the TOI-426 and TOI-1839 systems: Insights into arrival and survival near the lower edge of the Neptunian desert",
+      "summary": "Using TESS photometry and 147 HARPS radial velocities, we confirm two extremely irradiated, volatile-rich sub-Neptunes near the lower edge of the Neptunian desert: TOI-426 b and TOI-1839 b, orbiting the solar-type stars HD 34390 and TYC 304-865-1. We modelled stellar activity with shared-timescale and multidimensional Gaussian processes. The planets have orbital periods of approximately 1.32 and 1.42 days, radii of $2.19\\pm0.09$ and $2.27\\pm0.10$ Earth radii, and masses of $6.7\\pm1.8$ and $7.10\\pm0.78$ Earth masses, respectively. They receive approximately 1700 and 1050 times Earth's irradiation, yet their densities require substantial volatile content. We also detect a transiting sub-Neptune, TOI-1839 c, at approximately 4.02 days and a giant companion, TOI-426 c, with a period of $235.8^",
+      "authors": [
+        "A. Castro-González",
+        "O. Barragán",
+        "D. J. Armstrong",
+        "A. Aguichine",
+        "V. Bourrier"
+      ],
+      "link": "http://arxiv.org/abs/2609.05413v1",
+      "published": "2026-09-04",
+      "categories": [
+        "astro-ph.EP"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The International Space Station.",
+      "datasets": "At least two supermassive black holes in the Earth's crust, which are thought to be an early stage in the evolution of l...",
+      "future_work": "In 2012, I was invited to the International Planetary Society to investigate the use of methane in the I."
+    }
+  },
+  {
+    "paper": {
+      "title": "Tracing the Cosmic Origins: Machine Learning Reconstruction of the Primordial Density Field from EoR Observations",
+      "summary": "Reconstructing the initial conditions of the Universe from late-time tracers would unlock cosmological information buried by non-linear structure formation and astrophysics. We reconstruct the initial density field at $z\\sim300$ from simulated 21-cm and CO(1-0) line-intensity maps at $z\\sim8$ generated with LIMFAST. Using a three-dimensional U-Net, we reconstruct the initial conditions and evaluate its impact on cosmological parameter constraints. The two tracers probe complementary environments: 21-cm emission traces neutral, low-density regions of the intergalactic medium, while CO traces overdense, star-forming regions. To emulate realistic observations, we model instrumental effects for SKA1-Low- and COMAP-ERA-like surveys, including finite angular resolution and thermal noise. We asse",
+      "authors": [
+        "Anchal Saxena",
+        "P. Daniel Meerburg",
+        "Guochao Sun",
+        "Tzu-Ching Chang",
+        "Lluís Mas-Ribas"
+      ],
+      "link": "http://arxiv.org/abs/2609.05412v1",
+      "published": "2026-09-04",
+      "categories": [
+        "astro-ph.CO",
+        "astro-ph.IM"
+      ]
+    },
+    "analysis": {
+      "key_methods": ".",
+      "datasets": "[1] Theorem:\nTheorem:\nTheorem:\nTheorem:\nTheorem:\nTheorem:\nTheorem:\nTheorem:\nTheorem:\nTheorem:\nTheorem:\nTheorem.",
+      "future_work": "The new model will involve a 3D model of the structure of the Earth and its surface."
+    }
+  },
+  {
+    "paper": {
+      "title": "Early against Late: A contrast on dark energy in the light of DESI DR2",
+      "summary": "Recent findings from Dark Energy Spectroscopic Instrument (DESI) Baryon Acoustic Oscillation (BAO) measurements, combined with Type Ia supernovae and Cosmic Microwave Background (CMB) data, suggest potential parameter-level deviations from $Λ\\text{CDM}$. However, parameter exclusions omit prior-volume penalties, whereas Bayesian evidence uncovers a stark dichotomy between early- and late-time dynamics. To quantify this effect, we perform a Bayesian model comparison that explicitly accounts for the cosmological epoch of dark energy dynamics, contrasting two schemes acting in opposite epochs of cosmic history: pre-recombination Early Dark Energy (EDE) and late-time Chevallier--Polarski--Linder (CPL), both measured against a baseline $Λ$CDM. We validate the learned harmonic-mean estimator aga",
+      "authors": [
+        "Miguel A. Zapata",
+        "Karim Carrion",
+        "Gabriela Garcia-Arroyo"
+      ],
+      "link": "http://arxiv.org/abs/2609.05410v1",
+      "published": "2026-09-04",
+      "categories": [
+        "astro-ph.CO"
+      ]
+    },
+    "analysis": {
+      "key_methods": "Study data from the International Dark Energy Research Institute (IERI) on 13 August and 14 September.",
+      "datasets": "(1) The energy contained in the atomic nucleus is measured using a new method.",
+      "future_work": "A combination of the photovoltaic and thermal photovoltaic systems that is now enabled by the photovoltaic and thermal p..."
     }
   }
 ]
