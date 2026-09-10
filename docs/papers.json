@@ -1,116 +1,114 @@
 [
   {
     "paper": {
-      "title": "TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model",
-      "summary": "We study the problem of navigating cluttered indoor environments with a humanoid robot. Unlike conventional methods that model navigation as a 2D path planning problem, humanoid traversal in cluttered environments requires continuous geometry-aware whole-body adaptation, including coordinated arm placement, torso adjustment, and gait modulation for collision-free movement through complex 3D spaces. We introduce TANGO, the first whole-body vision-language navigation framework for language-conditioned humanoid traversal in cluttered environments. Given a natural-language instruction and egocentric RGB observations, TANGO directly predicts 29-DoF joint-space actions for downstream whole-body control. We train TANGO entirely in simulation by synthesizing diverse collision-free traversal behavi",
+      "title": "Symplectic Hopf Insulator: Delicate Topology in Bosonic Bogoliubov-de Gennes Systems",
+      "summary": "Recent advances in topological phases have highlighted the role of symplectic (Krein-space) topology in the classification of bosonic Bogoliubov-de Gennes (BBdG) systems. In this work, we construct a BBdG realization of Hopf topology, which we dub the symplectic Hopf insulator, starting from a microscopic Bose-Hubbard generalization of the Moore-Ran-Wen model with weak on-site interactions treated within a Bogoliubov approximation. The resulting BBdG system admits a symplectic Hopf invariant, which we show to be integer-quantized for isolated bands. We establish that this topology is intrinsically delicate, requiring exactly two bosonic modes per unit cell, while remaining robust against weak interactions over a range of mass parameters. Upon terminating the three-dimensional insulator at ",
       "authors": [
-        "Anqi Li",
-        "Yuxin Chen",
-        "Zhaobo Li",
-        "Zhuo Cao",
-        "Junli Ren"
+        "Isaac Tesfaye",
+        "Giandomenico Palumbo"
       ],
-      "link": "http://arxiv.org/abs/2609.09158v1",
-      "published": "2026-09-08",
+      "link": "http://arxiv.org/abs/2609.10541v1",
+      "published": "2026-09-09",
       "categories": [
-        "cs.RO",
-        "cs.AI"
+        "cond-mat.mes-hall",
+        "cond-mat.quant-gas"
       ]
     },
     "analysis": {
-      "key_methods": "First, we used a combination of Google Maps and Google Maps to model the interior of a human's brain, using Google Voice...",
-      "datasets": "Actions (and Objectives):\n1.",
-      "future_work": "."
+      "key_methods": "The researchers used a model of the bibliographic text to describe the results of a book published in the Journal of the...",
+      "datasets": "Elegant Ape Teller: a paper on the theory of the evolution of the Bosonic Bostromes.",
+      "future_work": "A detailed description of the basic structure of the system."
     }
   },
   {
     "paper": {
-      "title": "Learning Length-Extrapolatable Recurrent Models",
-      "summary": "Recurrent models provide a natural path to long-context modeling, yet models trained with backpropagation through time (BPTT) often fail beyond their training horizon. Classical analyses emphasize gradients that vanish or explode along temporal paths. However, dense per-token losses can still train a shared recurrent rule despite severe decay, showing that decay alone does not determine whether learning fails. We instead study state credit: the signal through which future losses reach earlier recurrent states before contributing to parameter updates. Accordingly, we intervene directly on state credit and propose Credit Stabilization through Time (CST). During backward propagation, CST locally rescales the state-credit signal to stabilize its norm without rotating the component being correc",
+      "title": "Programmable World Model",
+      "summary": "Recent video world models generate increasingly realistic and interactive visual experiences, yet lack reliable mechanisms for maintaining persistent world state and enforcing programmable rules over extended interactions. We introduce Programmable World Model, a framework that decouples world-state evolution from visual observation generation. An agent translates natural-language instructions into executable programs that specify entity states and state-transition rules, enabling direct control over individual entities and their interactions. A lightweight engine executes these programs to update and maintain an explicit, persistent global world state, including off-screen entities and non-visual attributes. To connect world state with visual generation, we introduce state-augmented 3D or",
       "authors": [
-        "Hanwen Jiang"
+        "Zheng-Hui Huang",
+        "Guixu Lin",
+        "Jiacheng Lin",
+        "Yi-Chuan Huang",
+        "Ruihan Yu"
       ],
-      "link": "http://arxiv.org/abs/2609.09157v1",
-      "published": "2026-09-08",
-      "categories": [
-        "cs.LG",
-        "cs.CL"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The following code was designed to make a simple recurrent model:\nConcepts:\nRecurrent\nConcepts:\nRecurrent\nConcepts:\nRecu...",
-      "datasets": "The following diagrams are not necessary for the use of the data structures or the training data.",
-      "future_work": "We need to design and implement a self-contained model of the self-contained model."
-    }
-  },
-  {
-    "paper": {
-      "title": "ReCite: Agentic Reasoning for Faithful Citation",
-      "summary": "Accurate citations are the foundation of academic writing, tracing intellectual origins and substantiating core claims. However, manually navigating the growing volume of scientific literature is increasingly difficult, prompting reliance on automatic citation recommendation. While modern retrieval-augmented architectures have largely mitigated the fabrication of non-existent papers, current systems relying on semantic similarity struggle with misattribution, often citing authentic papers that fail to logically support the author's claim. To address this challenge, we argue that accurate citation requires a shift from similarity-based search to active, claim-level reasoning. We propose ReCite, a decoupled agentic framework that orchestrates location perception, intent-aware query planning,",
-      "authors": [
-        "Yuyang Huang",
-        "Bobo Li",
-        "Jiajia Song",
-        "Yuzhe Ding",
-        "Chong Teng"
-      ],
-      "link": "http://arxiv.org/abs/2609.09156v1",
-      "published": "2026-09-08",
-      "categories": [
-        "cs.CL"
-      ]
-    },
-    "analysis": {
-      "key_methods": ".",
-      "datasets": ".",
-      "future_work": "Theoretical and Experimental, and Theoretical, and the Interdisciplinary Investigation of Faithful Citation."
-    }
-  },
-  {
-    "paper": {
-      "title": "SyncWorld: Visual Calibration Enables World Models as Zero-Shot Simulators",
-      "summary": "World models are increasingly used as policy-in-the-loop imagination environments, where reliable rollouts require fine-grained controllability with respect to low-level robot actions. A key obstacle to scaling such models in robotics is that actions are not a universal language in pixel space: changes in visual environment, camera view, robot placement, or embodiment alter how the same numerical action manifests visually, leading to conflicting supervision under mixed training and brittle generalization at deployment. We introduce SyncWorld, an action-conditioned world model that serves as a zero-shot simulator across unseen environments without any additional training. SyncWorld leverages a visual calibration episode---paired frames and actions that showcase all the controllable degrees ",
-      "authors": [
-        "Yuncong Yang",
-        "Zhengtao Han",
-        "Furkan Ozyurt",
-        "Zeyuan Yang",
-        "Han Yang"
-      ],
-      "link": "http://arxiv.org/abs/2609.09155v1",
-      "published": "2026-09-08",
+      "link": "http://arxiv.org/abs/2609.10540v1",
+      "published": "2026-09-09",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "For the time being, the team of NIST researchers has been developing a method that can be used to perform real-time glob...",
-      "datasets": "I've been using a few of the data in my work on Project Spark, but I'm not sure how many data can be used to generate pr...",
-      "future_work": "Preliminary research:\nSiemens is using a powerful, scalable, scalable, and scalable computer simulation system to simula..."
+      "key_methods": "To start a simulation of the computer system, we created a model.",
+      "datasets": "1.",
+      "future_work": "For example, a computer-based world model might be able to analyze data from various locations in a particular location."
     }
   },
   {
     "paper": {
-      "title": "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents",
-      "summary": "Large language models are increasingly deployed as agents that plan over long horizons and act through external tools. Most agents select actions through unconstrained generation over an accumulating history, leaving implicit the procedural knowledge of what to do, in what order, and under which conditions. As trajectories lengthen, agents can lose track of their objectives, invoke tools out of order, and repeat unproductive actions. We introduce the Procedural Graph: just as a knowledge graph organizes factual knowledge into (entity, relation, entity) triplets for what-is questions, a Procedural Graph organizes procedural knowledge into (procedure, relation, procedure) triplets for what-to-do questions. At each decision step, the framework localizes the agent's active node, and a guidance",
+      "title": "IdeaAMBIG: Benchmarking Implementation-Critical Gaps in Research-Idea Specifications",
+      "summary": "A research idea may be novel, coherent, and scientifically plausible, yet its proposed method may remain insufficiently specified for faithful implementation. We study the codification readiness of implementation-facing research-method specifications, defined by whether they provide sufficient methodological information for a competent implementer or coding agent to construct the intended method without unsupported assumptions. We construct evidence-grounded specifications and their supported resolutions from papers, codebases, issue threads, and reproduction artifacts. We introduce IdeaAMBIG, a benchmark of 660 evidence-grounded instances: 163 real-world gaps from reproducibility reports and GitHub issues, and 497 controlled synthetic gaps injected into codification-ready references. Idea",
       "authors": [
-        "Yuxing Lu",
-        "Yicheng Chen",
-        "Shanchan Wu",
-        "Sercan Ö. Arık"
+        "Yiling Ma",
+        "Yilun Zhao",
+        "Sihong Wu",
+        "Manasi Patwardhan",
+        "Arman Cohan"
       ],
-      "link": "http://arxiv.org/abs/2609.09153v1",
-      "published": "2026-09-08",
+      "link": "http://arxiv.org/abs/2609.10539v1",
+      "published": "2026-09-09",
       "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.MA"
+        "cs.CL"
       ]
     },
     "analysis": {
-      "key_methods": "The first step is the following:\n(a) The first step is the following:\n(b) The second step is the following:\n(c) The thir...",
-      "datasets": "Abstract\nThe LLM agent protocol is a state-of-the-art system for generating and storing data.",
-      "future_work": "Mapping the data of the data of the agents by the use of the Mapper."
+      "key_methods": "A.",
+      "datasets": "The first major problem of this project is that it is not possible to measure the efficiency of the data with a single c...",
+      "future_work": "A lot of high-level research is being done on the new GAPX and GAPX, though I think they may still need to be done at a ..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Towards Tackling Application Logic Flaws through Autonomous Formal-Logic Modeling and Automated Reasoning",
+      "summary": "Logic flaws pose significant challenges in the design and implementation of modern, semantically rich systems and applications, impacting security, privacy, and trust. These flaws are inherently tied to business-specific semantics and threat models, making their discovery and reasoning difficult and hard to scale. Real-world systems often exhibit diverse application features, complex protocol logic, and domain-specific threat models, necessitating substantial human effort and domain expertise for effective security analysis. In this paper, we introduce LL-Verifier, a novel, automated framework for identifying logic vulnerabilities built on (1) large language models for autonomous modeling, and (2) logic model checkers for rigorous reasoning. LL-Verifier processes natural language inputs, i",
+      "authors": [
+        "Yiwei Fang",
+        "Yichen Liu",
+        "Ze Jin",
+        "Haoqiang Wang",
+        "Qixu Liu"
+      ],
+      "link": "http://arxiv.org/abs/2609.10537v1",
+      "published": "2026-09-09",
+      "categories": [
+        "cs.CR"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The authors had a combined history of work on autonomous forms of logic, including in the field of autonomous forms of c...",
+      "datasets": "Tackling Application Logic Flaws through Autonomous Formal-Logic Modeling and Automated Reasoning.",
+      "future_work": "Abstract."
+    }
+  },
+  {
+    "paper": {
+      "title": "Performance Comparison of the Nonlinear Curvature and Shack-Hartmann Wavefront Sensors in Strong Turbulence",
+      "summary": "Strong turbulence induces spatial variations in beam intensity that hinder the reconstruction process of many commonly deployed adaptive optics (AO) systems that use gradient-based wavefront sensors (WFS), such as the Shack-Hartmann wavefront sensor (SHWFS) and pyramid wavefront sensor. The nonlinear curvature WFS (nlCWFS) uses Fresnel diffraction to extract wavefront phase and amplitude information, suggesting that it may be able to operate under challenging turbulence conditions. In this work, we investigate nlCWFS reconstruction accuracy as a function of turbulence strength and relative flux by modeling high spherical-wave Rytov number ($R_{sw}$) environments where scintillation and branch points impact sensing performance. We present open-loop as well as static and dynamic closed-loop ",
+      "authors": [
+        "Sam J. Potier",
+        "Arlene J. Aleman",
+        "Justin R. Crepp",
+        "Stanimir Letchev"
+      ],
+      "link": "http://arxiv.org/abs/2609.10536v1",
+      "published": "2026-09-09",
+      "categories": [
+        "astro-ph.IM"
+      ]
+    },
+    "analysis": {
+      "key_methods": "Experiment (2011)\nThe first step was to measure the amplitude of the wavefront wavefront wavefront wavefront wavefront w...",
+      "datasets": "In the previous paper, we examined the response of the D-band response to the D-band wavefront wavefront wavefront wavef...",
+      "future_work": "Future study will explore the potential of noise-dependent processes in high-resolution images."
     }
   }
 ]
