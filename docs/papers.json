@@ -1,120 +1,121 @@
 [
   {
     "paper": {
-      "title": "From Density to Mass: A New Parametrized Framework for Dark Matter Environment Around Black Holes",
-      "summary": "Astrophysical black holes (BHs) are not isolated vacuum objects but are expected to reside within complex environments, such as dark matter (DM) halos and baryonic distributions. Such environments can modify the spacetime geometry surrounding the BH and leave observable imprints on gravitational-wave (GW) signals, including shifts in the quasinormal mode (QNM) spectrum, tidal Love numbers (TLNs), and the inspiral dynamics of extreme-mass-ratio inspirals (EMRIs). We develop a general framework for describing DM-dressed BH spacetimes by parameterizing the geometry directly in terms of the enclosed mass function, rather than the traditional density-based profile. This mass-based formulation is naturally connected to the total gravitational field, accommodates several common halo profiles as l",
+      "title": "Point2Part: Unified 3D Partitioning from Point Prompts",
+      "summary": "Existing 3D part decomposition methods do not necessarily partition the original shape into non-overlapping parts that collectively cover the entire shape, allowing overlaps or gaps that hinder downstream part-level applications. We instead formulate part decomposition as a joint partitioning of the entire shape, where the predicted parts are non-overlapping and jointly recover the entire shape. Our key insight is that part decomposition should consider all desired parts jointly, rather than modeling each part independently. To this end, we develop a promptable model for 3D part decomposition from images or meshes. Users can specify desired parts through 3D point prompts for controllable decomposition. Given one point prompt per desired part, our model produces the corresponding parts as a",
       "authors": [
-        "Rajes Ghosh",
-        "Nicholas Speeney",
-        "Avijit Chowdhury",
-        "Chiranjeeb Singha",
-        "Miguel A. S. Pinto"
+        "Hao-Tang Tsui",
+        "Yu-Rou Tuan",
+        "Xiaoxuan Ma",
+        "Nicolas Ugrinovic",
+        "Takaaki Shiratori"
       ],
-      "link": "http://arxiv.org/abs/2609.35771v1",
-      "published": "2026-09-28",
+      "link": "http://arxiv.org/abs/2609.38180v1",
+      "published": "2026-09-29",
       "categories": [
-        "gr-qc",
-        "astro-ph.GA"
+        "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "The U.",
-      "datasets": "Graphic:\nThe Black Holes\nA detailed list of the top 10 Dark Matter Holes in the Dark Matter Atmosphere (BHME), from the ...",
-      "future_work": "Mapping Dark Matter and the Dark Matter Environment in the Dark Matter Environment\nThe Dark Matter Dynamics Experiment (..."
+      "key_methods": "To:\nPoint2Part: Unified 3D Partitioning from Point Prompts.",
+      "datasets": ".",
+      "future_work": "1."
     }
   },
   {
     "paper": {
-      "title": "Telescopic Language Models",
-      "summary": "One deployed language model must often serve many compute budgets, yet serving each budget still means a separate training or compression run per point. We train a Telescopic Language Model (TLM) to be that continuum: a nested-capacity Transformer supervised by stochastic prefix supervision with a full anchor. At every step, one randomly truncated prefix of the capacity axis is trained against the full next-token target, alongside one full-capacity pass, so the trained artifact is a valid language model at every depth. Two forward-backward passes per step, no architectural change, nothing extra at inference. Fixed-exit suites such as Matryoshka Language Model Suites (MLMS) occupy one point in this design space, and the point has a cost: supervising only a few fixed exits leaves the nested ",
+      "title": "Skill-Space Shooting for Autonomous Robot Policy Improvement",
+      "summary": "Robots deployed in the physical world must be able to improve beyond their initial training as they encounter new situations and failures. For this improvement to scale across tasks, it must make effective use of experience without requiring human demonstration of each correction. Recent agentic systems offer a way to reduce this reliance on human effort by using foundation models to autonomously compose learned behaviors to complete tasks. Yet completing tasks this way does not itself teach a task policy to overcome its own failures; that requires turning these behaviors into learnable corrections for the policy. Our insight is that many such corrections are familiar short behaviors, or skills: they recur across tasks and describe actions that foundation models can reason about from a sce",
       "authors": [
-        "Zhilin Guo",
-        "Boqiao Zhang",
-        "Hakan Aktas",
-        "Kyle Fogarty",
-        "Nursena Koprucu Aslan"
+        "Zihang Rui",
+        "Renhao Wang",
+        "Haoxu Huang",
+        "Yang Gao"
       ],
-      "link": "http://arxiv.org/abs/2609.35769v1",
-      "published": "2026-09-28",
+      "link": "http://arxiv.org/abs/2609.38178v1",
+      "published": "2026-09-29",
       "categories": [
-        "cs.CL",
-        "cs.AI"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The use of spectral parameters for spectral analysis of spectral parameters is a particularly important part of the appr...",
-      "datasets": "The main data sources are derived from these models.",
-      "future_work": "The authors are the authors of the paper:\nKi-Müller (H."
-    }
-  },
-  {
-    "paper": {
-      "title": "PDMD: Projected Distribution Matching Distillation for Video Diffusion Models",
-      "summary": "Modern video diffusion models require tens of denoising evaluations over long spatiotemporal token sequences. Distribution Matching Distillation (DMD) reduces the number of function evaluations (NFE) to just a few. However, DMD samples can degrade during training, exhibiting progressive oversaturation and artifacts. We trace this instability to critic errors, which enter successive student updates and accumulate over time. We introduce Projected Distribution Matching Distillation (PDMD) to filter critic errors. PDMD projects out the component of the DMD update parallel to the student-critic endpoint residual. At a fixed noisy query, we prove that this residual is an unbiased estimate of the critic's endpoint error. Under high-dimensional assumptions, this projection removes a constant frac",
-      "authors": [
-        "Zimo Wang",
-        "Junkun Yuan",
-        "Angtian Wang",
-        "Haotian Yang",
-        "Canyu Zhang"
-      ],
-      "link": "http://arxiv.org/abs/2609.35768v1",
-      "published": "2026-09-28",
-      "categories": [
-        "cs.CV",
+        "cs.RO",
+        "cs.AI",
         "cs.LG"
       ]
     },
     "analysis": {
-      "key_methods": ".",
-      "datasets": "Evaluation of PDMD: Pairs of Distillation with Distillation with Distillation with Distillation With Distillation with D...",
-      "future_work": "The latest generation of video diffusion models is using a technique used to map the distribution of diffusive noise, re..."
+      "key_methods": "The use of data gathered from a self-driving car was the first such vehicle that was used by autonomous vehicle research...",
+      "datasets": "Google's Google Maps app (which is still on beta) uses the Google Search Search feature, and it is not just for a lot of...",
+      "future_work": "How to improve AI in the autonomous and autonomous vehicles."
     }
   },
   {
     "paper": {
-      "title": "Learning Native Reflection in Unified Models with Interleaved Reinforcement Learning",
-      "summary": "Unified multimodal models can both look at and render images, so in principle they can repair their own generations: diagnose what an image gets wrong, revise it, observe the result, and diagnose again. Whether a revision helps is known only after it is rendered, so the reflection text and the image generation must be learned jointly, over the whole loop. Supervised fine-tuning (SFT) on reflection trajectories gives a cold start but does not find the high-success repair paths, and naive RL that optimizes only the renderer or only one head leaves most of the gain untapped. We introduce UMM-Reflection, which applies reinforcement learning (RL) to complete reflection trajectories inside one unified model: sibling trajectories share one initial image, so the group-relative advantage compares r",
+      "title": "Imagine3D-LLM: Teaching MLLMs to Imagine 3D Scenes Before Answering",
+      "summary": "Reasoning about the 3D world from multi-view images remains a fundamental challenge for Multimodal Large Language Models (MLLMs). While modern MLLMs handle single-image inputs effectively, they struggle to integrate evidence across viewpoints into a coherent 3D understanding. A growing body of work attempts to close this gap by injecting 3D awareness into MLLMs, either by boosting fine-grained pixel-level cross-view correspondence or by fusing features from 3D geometry foundation models, yet a substantial gap to human reasoning persists. In this work, we revisit human spatial reasoning, which suggests that rather than relying on fine-grained geometry cues, humans roughly identify common objects across views, infer the relative geometry between viewpoints, and assemble a coarse 3D layout of",
       "authors": [
-        "Yijia Fan",
-        "Ziqi Huang",
-        "Zhongang Cai",
-        "Yan Li",
-        "Zimo Wen"
+        "Jaewoo Jung",
+        "Hyeonseo Yu",
+        "Honggyu An",
+        "Jisang Han",
+        "Mungyeom Kim"
       ],
-      "link": "http://arxiv.org/abs/2609.35767v1",
-      "published": "2026-09-28",
+      "link": "http://arxiv.org/abs/2609.38177v1",
+      "published": "2026-09-29",
       "categories": [
         "cs.CV",
-        "cs.AI"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The current knowledge base is large enough to allow for extensive search, clustering and inference.",
-      "datasets": "Numerous other papers that show that the implementation of a single model is more efficient than the implementation of a...",
-      "future_work": "Using the Learning-Integrated Learning Learning-Integrated Learning-Integrated Learning-Integrated Learning-Integrated L..."
-    }
-  },
-  {
-    "paper": {
-      "title": "Retrieving Biblical Intertextual References in Karen Blixen's Seven Gothic Tales",
-      "summary": "Identifying intertextual references is central to literary scholarship, but computationally difficult when source material is transformed through paraphrase, allusion, historical language, and translation. We investigate this problem through biblical intertextuality in Karen Blixen's Seven Gothic Tales. Drawing on the commentary to a critical edition, we construct a benchmark of 189 annotated references and evaluate retrieval against all 31,170 verses of historically plausible Danish Old and New Testament translations. We compare TF-IDF and BM25 with multilingual and Danish sentence encoders, examine the effect of linguistic normalization, and fine-tune a Danish encoder using hard negatives and five-fold cross-validation. We analyze performance across automatically derived lexical-overlap ",
-      "authors": [
-        "András Kovács",
-        "Alexander Conroy",
-        "Daniel Hershcovich",
-        "Jens Bjerring-Hansen"
-      ],
-      "link": "http://arxiv.org/abs/2609.35765v1",
-      "published": "2026-09-28",
-      "categories": [
         "cs.CL"
       ]
     },
     "analysis": {
-      "key_methods": ".",
-      "datasets": "Re:\nM.",
-      "future_work": "Karen Blixen's seven Gothic Tales."
+      "key_methods": "Tutorials and techniques:\nThe Tutorials (0-1):\n1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17.",
+      "datasets": "The first step of thinking about 3D scenes is to create a set of data structures.",
+      "future_work": "Using 3D-LLM in 3D scenes, using 3D-LLM for 3D scenes, using 3D-LLM for 3D scenes, using 3D-LLM for 3D scenes, using 3D-..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Breakdown of Local Denoising as Semantic Speciation",
+      "summary": "The dynamics of generative models exhibit two apparently distinct temporal windows: a speciation window, in which a sample commits to a semantic class, and a nonlocality window, in which local context windows become insufficient for generation. Motivated by evidence of their near-concurrence in a variety of frontier models, we investigate their relationship through the spatial distribution of semantic information. Under a \"common cause\" hypothesis, we prove that the nonlocality window must lie in the speciation window. This hypothesis postulates that semantic labels explain a fraction of the correlations between distant tokens, a condition that is natural for many real datasets. We further give conditions under which both windows shrink to a single limiting time as system size grows, defin",
+      "authors": [
+        "Guangkuo Liu",
+        "Mert Okyay",
+        "Yifan F. Zhang",
+        "Fangjun Hu",
+        "Rahul Nandkishore"
+      ],
+      "link": "http://arxiv.org/abs/2609.38176v1",
+      "published": "2026-09-29",
+      "categories": [
+        "cs.LG",
+        "cond-mat.dis-nn",
+        "cond-mat.stat-mech"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The authors identified the number of clusters in a cluster (the number of nodes in one cluster) and a cluster (the numbe...",
+      "datasets": "Datasets mentioned:\nDatasets mentioned:\nDatasets mentioned:\nDatasets mentioned:\nDatasets mentioned:\nDatasets mentioned:\n...",
+      "future_work": "How to make language representations compatible with language representations."
+    }
+  },
+  {
+    "paper": {
+      "title": "Adversarial Training for Pixel Diffusion",
+      "summary": "Pixel diffusion models generate RGB images directly, avoiding the bottleneck of an autoencoder, yet their outputs still systematically underrepresent fine-scale natural-image statistics. We show that adversarial learning provides an effective post-training correction for this deficiency. Starting from a pretrained model, we retain its original diffusion or flow-matching objective and add an adversarial loss to the predicted output at non-high-noise timesteps, leaving the model architecture and sampling procedure unchanged. To our knowledge, this is the first systematic study of adversarial post-training for pixel diffusion. Across two pixel backbones, the method jointly improves distribution fidelity, coverage, prompt alignment, and perceptual quality. We further investigate why it works. ",
+      "authors": [
+        "Xin Lin",
+        "Zhifei Zhang",
+        "Yuqian Zhou",
+        "Haitian Zheng",
+        "Zhe Lin"
+      ],
+      "link": "http://arxiv.org/abs/2609.38170v1",
+      "published": "2026-09-29",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "A.",
+      "datasets": "We’ve been using a lot of these algorithms to find color, depth, density, and coloration on a small scale, so we are cur...",
+      "future_work": "Using the LensorFlow Framework to create a complete network of data structures of a user's favorite color palettes, and ..."
     }
   }
 ]
