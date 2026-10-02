@@ -1,120 +1,116 @@
 [
   {
     "paper": {
-      "title": "Probing the Reionization History and Bubble Sizes with JWST Lyman-$α$ Fraction Measurements",
-      "summary": "Recent James Webb Space Telescope (JWST) measurements quantify the fraction of ultraviolet-selected galaxies showing detectable Lyman-alpha (Ly-$α$) lines at $z \\sim 6-14$. These Ly-$α$ fractions are partly shaped by Ly-$α$ scattering from neutral hydrogen in the surrounding intergalactic medium (IGM), and so the observed Ly-$α$ fraction evolution can inform our understanding of the reionization history and the size distribution of ionized bubbles during reionization. We compare the JWST measurements with Ly-$α$ transmission calculations based on both the THESAN reionization simulations and a flexible semi-analytic model. In each case, we calibrate a sub-grid model for the intrinsic Ly-$α$ emission lines emerging from the interstellar medium (ISM) and circumgalactic medium (CGM) of the hos",
+      "title": "Moore, Escher, Penrose: A Conformal Golden Braid",
+      "summary": "I don't think I have ever done anything as peculiar in my life. Among other things, it shows a young man looking with interest at a print on the wall of an exhibition that features himself. How can this be? Perhaps I am not far removed from Einstein's curved universe.'' So wrote M.C. Escher about his 1956 lithograph Print Gallery. Nearly half a century later, a mathematical analysis related its geometry to an untwisted source image through a conformal power map $z \\mapsto z^α$, $α\\in \\mathbb{C}$. Building on this construction, we use a frozen text-to-image diffusion model to generate new self-referential scenes. Prompting alone does not enforce the recursion, while a post-hoc transformation can leave structures poorly connected. Applying the transformation during sampling is also insuffici",
       "authors": [
-        "Aritra Kundu",
-        "Adam Lidz",
-        "Guochao Sun"
+        "Sophia Feldman",
+        "Assaf Shocher"
       ],
-      "link": "http://arxiv.org/abs/2609.40363v1",
-      "published": "2026-09-30",
-      "categories": [
-        "astro-ph.GA",
-        "astro-ph.CO"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The first step was to measure the size of the bubble bubble with an equation that defined the size of the bubble with an...",
-      "datasets": "A) Large-Scale Sized Browsers, which are highly sensitive to water (including the liquid water, which can cause turbulen...",
-      "future_work": "E."
-    }
-  },
-  {
-    "paper": {
-      "title": "Multimodal Flow: Unified Flow Modeling of Language and Vision in Embedding Spaces",
-      "summary": "We present Multimodal Flow, a fully continuous generative model of language and vision. Most unified multimodal models either model both language and quantized images as discrete tokens or combine discrete language prediction with continuous image generation. The former introduces a visual quantization bottleneck. The latter requires modality-dependent objectives and sampling procedures. Fully continuous modeling avoids these trade-offs and enables a shared generative process, but remains underexplored for multimodal pretraining. Multimodal Flow introduces a unified continuous architecture that integrates multimodal continuous representations with a shared chunk-causal flow backbone. It organizes text blocks and images as ordered continuous hyperchunks, preserving textual token order and v",
-      "authors": [
-        "Hongyuan Tao",
-        "Xinggang Wang",
-        "Lianghui Zhu",
-        "Yongkang Li",
-        "Yunchao Wei"
-      ],
-      "link": "http://arxiv.org/abs/2609.40362v1",
-      "published": "2026-09-30",
+      "link": "http://arxiv.org/abs/2610.02210v1",
+      "published": "2026-10-01",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "(1)\n(2)\n(3)\n(4)\n(5)\n(6)\n(7)\n(8)\n(9)\n(10)\n(11)\n(12).",
-      "datasets": "Browsers on the Internet of Things:\nLanguages on the Internet of Things:\nApplying Language to Workflows:\nCommunications ...",
-      "future_work": "P."
+      "key_methods": "Samples:\nGrocery.",
+      "datasets": ".",
+      "future_work": "The study was supported by the National Science Foundation and the National Science Foundation through the National Scie..."
     }
   },
   {
     "paper": {
-      "title": "Ranking-Aware Prompt Optimization for Multimodal Clinical Diagnosis",
-      "summary": "Multimodal large language models (MLLMs) are rapidly advancing clinical diagnosis, yet their adaptation pipelines remain anchored to accuracy-based objectives. Clinical data are heavily class-imbalanced: a constant-majority predictor can score above 90% accuracy while being clinically useless. We therefore evaluate and optimize for AUROC, a threshold-free score that ranks positives above negatives and is invariant to class balance. We focus on prompt optimization in MLLMs. Reflective methods such as GEPA use a binary scores matrix with one row per evaluation instance and one column per candidate prompt; cells record per-instance correctness, so the column average is accuracy and drives candidate selection. We introduce pair-level Pareto prompt evolution (Ranking-PE), which replaces each co",
+      "title": "Sphere Encoder 2",
+      "summary": "Sphere Encoder is an autoencoder that generates images by decoding random points from a high-dimensional latent sphere. We identify two limitations of the original formulation that reduce its generation quality. First, random points concentrate near the equator relative to the pole on an encoded latent, but the training rotation never reaches this region, leaving a gap that limits one-step generation. Second, training for generation with pixel-wise reconstruction loss encourages the decoder to average over plausible images, producing blurry images that lack high-frequency details. We present Sphere Encoder 2 to address both limitations, substantially improving image generation quality while maintaining the speed and simplicity of a autoencoder. Models are released at \\href{https://github.c",
       "authors": [
-        "Tian Xia",
-        "Minghao Liu",
-        "Yiqing Liang",
-        "Laixi Shi",
-        "Jiayun Wang"
+        "Kaiyu Yue",
+        "Sean McLeish",
+        "Ruchit Rawal",
+        "Brian Bartoldson",
+        "Menglin Jia"
       ],
-      "link": "http://arxiv.org/abs/2609.40361v1",
-      "published": "2026-09-30",
+      "link": "http://arxiv.org/abs/2610.02208v1",
+      "published": "2026-10-01",
       "categories": [
-        "cs.LG",
-        "cs.CL",
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": ".",
-      "datasets": "This post was originally published at http://www.",
-      "future_work": "We hope to develop a tool that automatically identifies and makes informed decisions about patients."
+      "key_methods": "The researchers used the †Sigma Alpha–beta 3, δα π−beta 3, δα π−beta 3 and δα π−beta 3.",
+      "datasets": "The first part of this article was an overview of the new 3D printer, and the new 3D printer.",
+      "future_work": "Biotemporal Neural Network 3."
     }
   },
   {
     "paper": {
-      "title": "Semifactual Credit-Augmented Policy Optimization",
-      "summary": "Reinforcement learning with verifiable rewards (RLVR) has improved the reasoning capabilities of large language models (LLMs), yet their predictions remain sensitive to task-irrelevant prompt features. We investigate this sensitivity through semifactual prompt interventions that preserve the underlying problem and its answer. Our analysis reveals substantial variation in token-level sensitivity and shows that suppressing high-drift token candidates during decoding improves reasoning accuracy without updating model weights. These findings highlight a limitation of Group Relative Policy Optimization (GRPO), which assigns the same outcome-derived advantage to every response token and may reinforce potential spurious dependence alongside useful reasoning. Motivated by this observation, we intr",
+      "title": "One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars",
+      "summary": "3D Gaussian avatars support fast rendering, however, their real-time animation is often challenged by the costly neural inference. We address this bottleneck and show that the animation of pretrained avatar models can be closely approximated by a linear combination of identity-independent blendshapes. Building on this finding, we introduce GALA (Gaussian Animation via Linear Approximation), a distillation method that replaces per-frame heavy neural decoding with a shallow coefficient predictor and a linear blend. To improve fidelity and reduce memory requirements, we propose to construct the basis using block-local PCA under a rendering-aware metric and a memory budget. Our method learns a shallow MLP network to predict blendshape coefficients and applies to various animation architectures",
       "authors": [
-        "Junshu Pan",
-        "Zhizhang Fu",
-        "Shulin Huang",
-        "Yiran Ding",
-        "Zifan Cheng"
+        "Ramazan Fazylov",
+        "Stamatis Lefkimmiatis",
+        "Ivan Laptev"
       ],
-      "link": "http://arxiv.org/abs/2609.40360v1",
-      "published": "2026-09-30",
+      "link": "http://arxiv.org/abs/2610.02207v1",
+      "published": "2026-10-01",
       "categories": [
-        "cs.LG",
+        "cs.CV",
         "cs.AI",
-        "cs.CL"
+        "cs.HC",
+        "cs.LG"
       ]
     },
     "analysis": {
-      "key_methods": "data mining, peer reviewed research, social media, and more, including:.",
-      "datasets": "The latest paper on how to make smart contracts work is in Proceedings of the National Academy of Sciences and the ICA's...",
-      "future_work": "To see more details on the current and future approaches to the use of data-driven computing, please visit the official ..."
+      "key_methods": "First, we used a set of two layers.",
+      "datasets": "R2: Gaussian Blendshape Distillation for Real-Time Avatars.",
+      "future_work": "We need to develop a way to use Gaussian blending to simulate the impact of an image on an avatar."
     }
   },
   {
     "paper": {
-      "title": "Physis-Lang: Self-Evolving Language as a Physical Representation for Video World Model",
-      "summary": "Video world models are expected to predict how the physical world evolves, yet they often produce visually plausible videos that violate basic physical principles. Existing approaches commonly assume that natural language is insufficient to represent the physical knowledge required for reliable generation, and therefore introduce additional visual, latent, numerical, or planning-based signals. We revisit this assumption and introduce Physis-Lang, a self-evolving framework that treats physical language as a shared and optimizable representation across data curation, model training, and video generation. Physis-Lang represents physical processes through language that describes their relevant entities, causes, interactions, governing principles, temporal evolution, and effects. To improve thi",
+      "title": "KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards",
+      "summary": "LLMs are increasingly applied to cybersecurity workflows, where they are expected to translate analysts' intent into tool invocations. However, existing evaluations focus on knowledge-based assessments or end-to-end agentic tasks, and do not directly measure LLMs' ability to generate executable commands for real-world cybersecurity tools. This gap is critical because cybersecurity operations rely on strict command-line interfaces (CLIs), where minor syntax errors, incorrect flag--value bindings, or argument misordering can invalidate execution. We introduce KaliBench, a fine-grained benchmark and dataset for natural-language--to--CLI translation on Kali Linux, comprising 8,504 query--command pairs spanning 1,642 tools across 23 capability dimensions and 5 security phases. KaliBench is cons",
       "authors": [
-        "Liming Lu",
-        "Xianzheng Ma",
-        "Wenkun He",
-        "Guanqi Zhan",
-        "Yilin Zhao"
+        "Pengfei Li",
+        "Naufal Suryanto",
+        "Sicheng Zhang",
+        "Muzammal Naseer"
       ],
-      "link": "http://arxiv.org/abs/2609.40358v1",
-      "published": "2026-09-30",
+      "link": "http://arxiv.org/abs/2610.02206v1",
+      "published": "2026-10-01",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.CR"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The default value of $5.",
+      "datasets": "KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards.",
+      "future_work": "We are excited to announce that KaliBench is coming to Linux."
+    }
+  },
+  {
+    "paper": {
+      "title": "ROWBench: Do Video Models Render What the Program Specifies?",
+      "summary": "Programmable world models separate executable dynamics from visual generation, offering a promising foundation for next-generation game engines. However, their visual adherence to explicit rules and interactions remains insufficiently evaluated. Existing benchmarks assess visual quality, controllability, and instruction or physical adherence, but rarely test fidelity to fine-grained, program-specified world events. We introduce PROWBench, comprising 170 programmatically constructed episodes and 600 proxy videos covering diverse scenes and interactions. PROWBench logs entity states and timestamped events, including those outside the camera's field of view, as replayable world records, from which it renders synchronized views and proxy representations. This enables generated videos to be che",
+      "authors": [
+        "Zheng-Hui Huang",
+        "Guixu Lin",
+        "Yu-Ju Tsai",
+        "Jian-Kai Zhu",
+        "Fengbo Lan"
+      ],
+      "link": "http://arxiv.org/abs/2610.02205v1",
+      "published": "2026-10-01",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "To identify the physical representation of the video world, we used a 3D mapping of the video world.",
-      "datasets": "1.",
-      "future_work": "A new tool to learn how to read and write audio content, and how to translate the text into a readable format."
+      "key_methods": "The first step is to get the program's parameters directly to the GPU, then to define what the program specifies.",
+      "datasets": "ROWBench: What Data Is Real?\nROWBench: What Data Is Real?\nData Is Real?\nROWBench: What Data Is Real? (and How I Can Do T...",
+      "future_work": "We'll show that using a simple model on the GPU, as well as a simple model on the GPU, can be used to provide an intuiti..."
     }
   }
 ]
