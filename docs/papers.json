@@ -1,112 +1,114 @@
 [
   {
     "paper": {
-      "title": "Decoupling Exploration from Optimization in RLVR",
-      "summary": "Modern language models undergo reinforcement learning with verifiable rewards (RLVR) on top of already-trained checkpoints. A key promise of RLVR is the discovery of new reasoning strategies. In principle, a model can sample novel ideas absent from its prior training data. In practice, however, augmenting RLVR with strong novelty incentives has seen limited success and can degrade model quality. Because verifiable rewards supervise only a narrow slice of the model's knowledge and behavior, such degradations are difficult to recover from. Instead, we decouple exploration from optimization in a framework we call Exploration-Distillation (ExpDis). We train one or more explorer policies with a novelty bonus in the reward, filter their trajectories for correctness and quality, and distill them ",
+      "title": "Rubric-CEPR: Self-Evolving Image Editing via Reward-Verified Self-Distillation",
+      "summary": "Instruction-guided image editors have become highly capable, yet improving them further still depends on human-edited training pairs or external reward models. Such supervision is costly to obtain and can reward plausible failures: a realistic output may leave the requested change undone or alter content that should be preserved. In this work, we strive to improve a pretrained image editor using only its own generations, without human-edited targets or an external training-time reward model. To this end, we propose a self-evolving framework, named Rubric-CEPR, that verifies the editor's own samples with its internal representations through a rubric-augmented Contrastive Edit-Preservation Reward (CEPR). A Planner proposes structured edit instructions from unlabeled images, the Editor sample",
       "authors": [
-        "Saif Punjwani",
-        "Micah Goldblum"
+        "Ritesh Thawkar",
+        "Shubham Patle",
+        "Shravan Venkatraman",
+        "Rao Muhammad Anwer"
       ],
-      "link": "http://arxiv.org/abs/2610.10536v1",
-      "published": "2026-10-07",
+      "link": "http://arxiv.org/abs/2610.12469v1",
+      "published": "2026-10-08",
       "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CL"
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The researchers used the \"Self-Evolving\" feature to create a self-aware image, and then visualize a random image so that...",
+      "datasets": "-Q: What kind of work is it?\n-Q: How long does the process take?\n-Q: What kind of information is it stored on your accou...",
+      "future_work": "One of the key benefits of self-discovery is that the self-develation process is able to quickly generate good results."
+    }
+  },
+  {
+    "paper": {
+      "title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
+      "summary": "We present DreamTrue, a multi-view, cross-embodiment robot world model for action-faithful and physically plausible video prediction. Training such a model on existing robot datasets faces two obstacles: imprecise calibration can impair action following, while limited coverage of unsuccessful interactions can bias predictions toward successful outcomes. To improve action following across embodiments, we render action trajectories into image-space conditions and introduce offline geometric calibration to align these conditions with the target videos. To broaden interaction coverage, we introduce counterfactual post-training, modifying recorded action trajectories and generating future videos under a wider range of actions and contact configurations. To provide feedback on these predictions ",
+      "authors": [
+        "Junyan Li",
+        "Ruizhi Li",
+        "Yu Liu",
+        "Xiangshuo Liu",
+        "Mingchao Sun"
+      ],
+      "link": "http://arxiv.org/abs/2610.12468v1",
+      "published": "2026-10-08",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "1.",
+      "datasets": "A group of students from the U.",
+      "future_work": "Roughly $1 million will be spent on \"counterfactual post-training\" robotics."
+    }
+  },
+  {
+    "paper": {
+      "title": "CSF: Contextual Safety Filtering for Motion Generators",
+      "summary": "Text-conditioned motion generators produce trackable whole-body motion, but they have no notion of scene-dependent safety: the same action may target an object or a person. Existing safeguards either inspect the prompt, require labeled motion data, or enforce geometric constraints; therefore, they do not directly account for how scene context changes a motion's meaning. We introduce contextual safety filtering (CSF), a training-free filter that grounds natural-language safety rules in safe and unsafe reference trajectories produced by the generator. For each active rule, safe and unsafe reference trajectories define an affine safety value that a safe reference tracking CBF-QP enforces. Across four pretrained generators with different architectures, CSF activates the intended rules in all e",
+      "authors": [
+        "Lizhi Yang",
+        "Yiling Hou",
+        "Yao Tang",
+        "Junheng Li",
+        "Daniel Weng"
+      ],
+      "link": "http://arxiv.org/abs/2610.12467v1",
+      "published": "2026-10-08",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The following is a preliminary study of the literature in the field of computer vision.",
+      "datasets": "Annotation:\nAnnotation:\nAnnotation:\nAnnotation:\nAnnotation:\nAnnotation:\nAnnotation:\nAnnotation:\nAnnotation:\nAnnotation:\n...",
+      "future_work": "Using these tools, we will soon be able to conduct a systematic, controlled, and un-blinded design of a 3D printing plat..."
+    }
+  },
+  {
+    "paper": {
+      "title": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
+      "summary": "In 2026, cybersecurity evaluations involving OpenAI, Anthropic, and Google agents reached real systems outside their authorized test scope. The paths were different. OpenAI agents exploited research infrastructure, coordinated across runs, and compromised parts of Hugging Face's production environment. Anthropic reported cases in which a misconfigured third-party environment exposed real systems to agents pursuing simulated cyber tasks. In a separately reported evaluation, Google's Gemini accessed three real organizations through an unintended internet route; Google stated that the model stopped in all three instances. Taken together, the cases show why an evaluation cannot rely on an assumed boundary. That boundary must be verified while the agent is operating. This comparative instrument",
+      "authors": [
+        "Abbas Raftari"
+      ],
+      "link": "http://arxiv.org/abs/2610.12463v1",
+      "published": "2026-10-08",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
       ]
     },
     "analysis": {
       "key_methods": ".",
-      "datasets": "RSS: A2V2-RSS, A2V3-RSS, A2V4-RSS, A2V5-RSS.",
-      "future_work": "An example of the use of LNG approaches in RLVR."
+      "datasets": "As we mentioned earlier, we used a dataset to identify the major threats to the environment, including the availability ...",
+      "future_work": "Sidhah Dharim, M."
     }
   },
   {
     "paper": {
-      "title": "A weakly modelled view of the joint compact-binary mass plane: population structure and spectral-siren cosmology",
-      "summary": "We introduce a flexible mixture model for the joint source-frame component-mass distribution of compact binaries, inferred simultaneously with cosmology, together with a framework that identifies structures in the reconstructed density, quantifying their posterior stability, local prominence, and cosmological relevance. Applied to GWTC-5.0, the workflow clarifies several familiar and emergent structures. The $\\sim35~M_\\odot$ feature is classified as a clear near-equal-mass peak despite an ambiguous interpretation in the primary-mass projection. A weaker unequal-mass concentration near $(21,12)~M_\\odot$ is recovered frequently but with lower prominence. A tentative joint transition near $60~M_\\odot$ appears at mildly unequal masses, with a more robust manifestation in the primary-mass proje",
+      "title": "Disk Structure May Determine AGN Variability and Explain the Accretion Disk Size Problem: No Broad Line Region Required",
+      "summary": "Variability is a crucial probe of active galactic nuclei (AGN) disks, but the impact of the structure and internal physics of the disk on this variability is poorly understood. We perform 3D multi-frequency radiation magnetohydrodynamic simulations of the $1300-5940~\\rmÅ$ emitting region of an AGN disk. This turbulent disk simulation happens to stochastically have different disk thickness above and below the midplane. Light curves emitted from the thin top of the disk are broadly consistent with traditional variability models, where the X-ray irradiation emitted from the corona is the main driver of variability in UV-optical light curves. Conversely, the UV-optical light curves emitted from the thicker bottom of the disk are not strongly correlated with the X-ray light curve and have disk ",
       "authors": [
-        "Viola De Renzis",
-        "Alessandro Agapito",
-        "Michele Mancarella"
+        "Amy Secunda",
+        "Yan-Fei Jiang",
+        "Jenny E. Greene"
       ],
-      "link": "http://arxiv.org/abs/2610.10535v1",
-      "published": "2026-10-07",
+      "link": "http://arxiv.org/abs/2610.12462v1",
+      "published": "2026-10-08",
       "categories": [
-        "gr-qc"
+        "astro-ph.HE",
+        "astro-ph.GA"
       ]
     },
     "analysis": {
-      "key_methods": "The mass plane was built by an expert group of mathematicians and mathematicians from Germany.",
-      "datasets": "A model of the joint compact-binary mass plane (FPS) and a model of the joint compact-binary mass plane (FPS) by B.",
-      "future_work": "Modeling the distribution of the entire mass plane."
-    }
-  },
-  {
-    "paper": {
-      "title": "EngramEdit: Decoupled Knowledge Updates in LLMs through Conditional Memory",
-      "summary": "Conditional memory architectures such as DeepSeek Engram use input n-grams to look up learned embeddings, expanding the capacity of large language models (LLMs) with limited additional computation. Beyond model scaling, this architecture has demonstrated the potential to decouple factual knowledge storage from general-purpose computation, offering a promising route to updating factual knowledge while keeping the Transformer backbone fixed. Realizing this potential is challenging because different expressions of a fact may activate different n-gram embeddings, while updating shared embeddings can unintentionally change the model's predictions about other facts. We propose EngramEdit for decoupled knowledge updates through conditional memory. EngramEdit first computes target memory represent",
-      "authors": [
-        "Hongru Cai",
-        "Ran Wei",
-        "Wenjie Wang",
-        "Chengfa Wu",
-        "Ning Song"
-      ],
-      "link": "http://arxiv.org/abs/2610.10533v1",
-      "published": "2026-10-07",
-      "categories": [
-        "cs.CL"
-      ]
-    },
-    "analysis": {
-      "key_methods": "For the test code, the test code was:\nThis is the first time I have done a single test.",
-      "datasets": "You can copy, use, and paste the following commands:\nCopy:\nCopy:\nCopy:\nCopy:\nCopy:\nCopy:\nCopy:\nCopy:\nCopy:\nCopy:\nCopy:\nC...",
-      "future_work": "Linguistic programming is a major area of your research: it is the fastest way of achieving your goals, improving your p..."
-    }
-  },
-  {
-    "paper": {
-      "title": "Efficient Estimation of Logical Sensitivities Through Fault-Counting",
-      "summary": "Quantum error-correcting circuits are affected by multiple physical noise mechanisms, whose contributions to logical failure must be understood to evaluate code performance and guide improvements in hardware. The individual error budget contributions for an error type $i$ can be characterized by its logical sensitivity $ν_i = \\frac{\\partial p_L}{\\partial p_i}$, which measures the response of the logical error rate $p_L$ to each physical noise parameter $p_i$. Normally, $ν_i$ is measured using linear fits such as finite differences, where $p_L$ is measured at two or more values of $p_i$ to calculate partial derivatives. In this paper, we develop a differentiable estimator to obtain all components of $\\nabla_{\\mathbf p}p_L$ simultaneously from a single Monte Carlo data set at one noise confi",
-      "authors": [
-        "Winston Fu",
-        "J. Wilson Staples",
-        "Jeff D. Thompson"
-      ],
-      "link": "http://arxiv.org/abs/2610.10531v1",
-      "published": "2026-10-07",
-      "categories": [
-        "quant-ph"
-      ]
-    },
-    "analysis": {
-      "key_methods": "A) A) A) A) The first step of a model, such as a simple model, is to compare the logistic parameters and the logistic pa...",
-      "datasets": "Faster-optimized RCS for the RCS are available in the GitHub repository, and can be downloaded here.",
-      "future_work": "."
-    }
-  },
-  {
-    "paper": {
-      "title": "Constraints on Primordial Oscillatory Features from the Power Spectrum and Bispectrum of Redshift-Space Galaxy Clustering in DESI DR1",
-      "summary": "We constrain oscillatory features in the primordial power spectrum using the public DESI DR1 galaxy and quasar clustering data. Our analysis is based on a custom pipeline for the redshift-space power spectrum and bispectrum of the six main DESI DR1 tracers, modeled with the Lagrangian effective field theory,which provides a principled resummation of the non-linear damping of the features. We consider oscillations that are linear and logarithmic in wavenumber, and, for the first time, consistently include the galaxy bispectrum in the search. We also study the dependence of the results on the background cosmology, which is important given the tension between the DESI BAO and \\textit{Planck} data within the baseline cosmological model. Marginalizing over $Λ$CDM parameters, we bound the amplit",
-      "authors": [
-        "Shi-Fan Chen",
-        "Anton Chudaykin",
-        "Mikhail M. Ivanov",
-        "Oliver H. E. Philcox",
-        "Mario Ballardini"
-      ],
-      "link": "http://arxiv.org/abs/2610.10530v1",
-      "published": "2026-10-07",
-      "categories": [
-        "astro-ph.CO"
-      ]
-    },
-    "analysis": {
-      "key_methods": "(1) Analysing the power spectral spectrum of the Solar System using the BRI-GIS, the BRI-GIS and the BRI-GIS-C, the BRI-...",
-      "datasets": "The power spectrum is not an absolute absolute zero, but rather a very specific number of fundamental fundamental featur...",
-      "future_work": "A new method to predict the evolution of the signal signature of the signal that is given by the signal signature is exp..."
+      "key_methods": "A.",
+      "datasets": "[4]\n[5]\n[6]\n[7]\n[8]\n[9]\n[10]\n[11]\n[12]\n[13]\n[14]\n[15]\n[.",
+      "future_work": "The current work on a novel, novel, and novel system is on the way."
     }
   }
 ]
