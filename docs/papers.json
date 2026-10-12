@@ -1,114 +1,118 @@
 [
   {
     "paper": {
-      "title": "Rubric-CEPR: Self-Evolving Image Editing via Reward-Verified Self-Distillation",
-      "summary": "Instruction-guided image editors have become highly capable, yet improving them further still depends on human-edited training pairs or external reward models. Such supervision is costly to obtain and can reward plausible failures: a realistic output may leave the requested change undone or alter content that should be preserved. In this work, we strive to improve a pretrained image editor using only its own generations, without human-edited targets or an external training-time reward model. To this end, we propose a self-evolving framework, named Rubric-CEPR, that verifies the editor's own samples with its internal representations through a rubric-augmented Contrastive Edit-Preservation Reward (CEPR). A Planner proposes structured edit instructions from unlabeled images, the Editor sample",
+      "title": "Can Language Models Play the Wikipedia Game?",
+      "summary": "Language models increasingly support or automate information retrieval from document collections too large to index. This task is difficult when it requires specialist linguistic or scientific knowledge. We used the Wikipedia Game to test language models on an analogous information retrieval task. In the game, players must reach a target article using only article links. We compared sentence embedding models and LLMs across five Wikipedia languages and five academic-literature datasets. We construct very large local graphs of Wikipedia pages and of paper citations using OpenAlex and provide code to build and navigate them. This allows the study of language models' navigation capabilities without relying on third-party APIs. We compared the models with human and TF-IDF benchmarks. The Wikip",
       "authors": [
-        "Ritesh Thawkar",
-        "Shubham Patle",
-        "Shravan Venkatraman",
-        "Rao Muhammad Anwer"
+        "Alexander Hickey",
+        "Joanna Knight",
+        "James Bishop"
       ],
-      "link": "http://arxiv.org/abs/2610.12469v1",
-      "published": "2026-10-08",
+      "link": "http://arxiv.org/abs/2610.13948v1",
+      "published": "2026-10-09",
+      "categories": [
+        "cs.AI",
+        "cs.IR"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The following table summarizes the methods used with the syntax.",
+      "datasets": "The following table shows the types of languages and their interactions with Wikipedia.",
+      "future_work": "A study of the language model predicts that language models will eventually be more robust than natural language models."
+    }
+  },
+  {
+    "paper": {
+      "title": "Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipeline and Benchmark",
+      "summary": "In this paper, we study physically grounded articulated 3D asset generation---moving the goal from reproducing how objects look to capturing how they move and function. Inspired by the literature on procedural and agentic generation, we present Artisan, a system that extends the latest method Articraft by introducing a multi-agent pipeline with physical simulation feedback, enabling comprehensive attributes beyond geometry, appearance, and physically plausible articulation, such as collision-free motion, stability under gravity, and accurate mass and material properties. Furthermore, we construct a unified benchmark spanning four key aspects: spatial fidelity, physical plausibility, downstream task performance, and overall quality. The benchmark encompasses 100 reference assets from ArtVIP",
+      "authors": [
+        "Xudong Cai",
+        "Ruijie Zhu",
+        "Haoliang Shang",
+        "Ruining Li",
+        "Marc Pollefeys"
+      ],
+      "link": "http://arxiv.org/abs/2610.13947v1",
+      "published": "2026-10-09",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "The first three experiments were designed to test the effectiveness of self-image editing using a real-time, single-choi...",
+      "key_methods": "(a) Modeling the field and its associated properties (as required by the law)\n(b) Estimating the field and its associate...",
+      "datasets": "The most common example of a multisource project is the multi-agent pipeline.",
+      "future_work": "For example, we may explore a 3D printed 2D print design for the following platforms:\n- 3D Print\n- 3D Printing\n- 3D Prin..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Splat2Act: From Captured Scenes to Personalized VLA Manipulation",
+      "summary": "A user who brings a generalist manipulation policy into their home or office wants it to pick up their objects from their shelves, counters, and tables. Yet even a strong generalist like $π_{0.5}$ achieves 0% pickup success in our captured deployment scenes without adaptation, and collecting real demonstrations in every user's environment is prohibitively expensive. We present Splat2Act, an automated real-to-sim-to-real pipeline that personalizes a pretrained vision-language-action (VLA) policy to a specific scene and object set using only a handheld phone scan and images of the user's objects. Unlike prior real-to-sim work that reconstructs individual tabletops, Splat2Act operates on building-scale indoor environments: it builds a photorealistic digital twin with 3D Gaussian Splatting and",
+      "authors": [
+        "Xiaomeng Ye",
+        "Krishna Jaganathan",
+        "Gyubeum Lim",
+        "Gunjan Chhablani",
+        "Muhammad Zubair Irshad"
+      ],
+      "link": "http://arxiv.org/abs/2610.13945v1",
+      "published": "2026-10-09",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "First, as we discussed earlier, to allow the user to freely control their experience and communicate with the user.",
       "datasets": ".",
-      "future_work": "The basic idea behind this novel method of self-repetition is to use the human genome to produce images of the body and ..."
+      "future_work": "In this paper, the authors demonstrate that the use of virtual reality (VR) is not only possible but also potentially us..."
     }
   },
   {
     "paper": {
-      "title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
-      "summary": "We present DreamTrue, a multi-view, cross-embodiment robot world model for action-faithful and physically plausible video prediction. Training such a model on existing robot datasets faces two obstacles: imprecise calibration can impair action following, while limited coverage of unsuccessful interactions can bias predictions toward successful outcomes. To improve action following across embodiments, we render action trajectories into image-space conditions and introduce offline geometric calibration to align these conditions with the target videos. To broaden interaction coverage, we introduce counterfactual post-training, modifying recorded action trajectories and generating future videos under a wider range of actions and contact configurations. To provide feedback on these predictions ",
+      "title": "An entangling Hubbard quasiparticle collider on a digital quantum processor",
+      "summary": "Scattering of quasiparticles provides direct access to the interactions that govern strongly correlated systems. In this work, we realize the quasiparticle scattering experiment of the Fermi-Hubbard model on a digital quantum processor by colliding a doublon and a holon in the half-filled chain of 21 sites encoded on 42 qubits of the ibm_boston processor. For the first time, we measure the transmission probability of quasiparticles of the Hubbard model on quantum hardware, which agrees with the Bethe-ansatz scattering matrix without free parameters. Beyond the scattering probabilities, the collision generates entanglement by superposing the transmitted and reflected components, which we infer from the particle-number fluctuation. In sharp contrast, a control collision between two doublons ",
       "authors": [
-        "Junyan Li",
-        "Ruizhi Li",
-        "Yu Liu",
-        "Xiangshuo Liu",
-        "Mingchao Sun"
+        "Chan Bin Bark",
+        "Hanbyul Kim",
+        "Yoonil Koo",
+        "SeungBeom Hong",
+        "Seik Pak"
       ],
-      "link": "http://arxiv.org/abs/2610.12468v1",
-      "published": "2026-10-08",
+      "link": "http://arxiv.org/abs/2610.13946v1",
+      "published": "2026-10-09",
       "categories": [
-        "cs.RO",
+        "quant-ph",
+        "cond-mat.str-el"
+      ]
+    },
+    "analysis": {
+      "key_methods": "Strip-cutting is the process of cutting a book of small pieces into pieces in a non-linear manner.",
+      "datasets": "1.",
+      "future_work": "A new version of the Quantum Mechanics paper on quantum mechanics is published today in the Proceedings of the National ..."
+    }
+  },
+  {
+    "paper": {
+      "title": "InstantFusion: A Shared Latent Interface for Heterogeneous Image Generators",
+      "summary": "Diffusion/flow models have emerged as the de facto paradigms for image generation, giving rise to a diverse family of modern generators with increasingly heterogeneous architectures and representations. Despite their remarkable generation capabilities, the cross-model alignment of latent representations and the consistency of their underlying denoising dynamics remain underexplored. In this work, we uncover an intriguing cross-model compatibility: independently trained generators exhibit similar latent spatial organization, while directly handing off intermediate states between unaligned models can still preserve coarse visual content. Motivated by these observations, we propose InstantFusion, a lightweight shared latent interface that connects the denoising trajectories of heterogeneous i",
+      "authors": [
+        "Xuanlang Dai",
+        "Jiazi Bu",
+        "Yujie Zhou",
+        "Yuhong Liu",
+        "Beichen Zhang"
+      ],
+      "link": "http://arxiv.org/abs/2610.13944v1",
+      "published": "2026-10-09",
+      "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "1.",
-      "datasets": "Meyer, D.",
-      "future_work": "Santorum: The Secret of Self-Illusion."
-    }
-  },
-  {
-    "paper": {
-      "title": "CSF: Contextual Safety Filtering for Motion Generators",
-      "summary": "Text-conditioned motion generators produce trackable whole-body motion, but they have no notion of scene-dependent safety: the same action may target an object or a person. Existing safeguards either inspect the prompt, require labeled motion data, or enforce geometric constraints; therefore, they do not directly account for how scene context changes a motion's meaning. We introduce contextual safety filtering (CSF), a training-free filter that grounds natural-language safety rules in safe and unsafe reference trajectories produced by the generator. For each active rule, safe and unsafe reference trajectories define an affine safety value that a safe reference tracking CBF-QP enforces. Across four pretrained generators with different architectures, CSF activates the intended rules in all e",
-      "authors": [
-        "Lizhi Yang",
-        "Yiling Hou",
-        "Yao Tang",
-        "Junheng Li",
-        "Daniel Weng"
-      ],
-      "link": "http://arxiv.org/abs/2610.12467v1",
-      "published": "2026-10-08",
-      "categories": [
-        "cs.RO",
-        "cs.LG"
-      ]
-    },
-    "analysis": {
-      "key_methods": "#include <svg.",
-      "datasets": "Sprint:\nThis is a very useful feature of the FSF: it’s a handy tool to visualize the results of a motion-generator, but ...",
-      "future_work": "In order to better understand the mechanism behind the issue, we can begin to build a better understanding of the mechan..."
-    }
-  },
-  {
-    "paper": {
-      "title": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
-      "summary": "In 2026, cybersecurity evaluations involving OpenAI, Anthropic, and Google agents reached real systems outside their authorized test scope. The paths were different. OpenAI agents exploited research infrastructure, coordinated across runs, and compromised parts of Hugging Face's production environment. Anthropic reported cases in which a misconfigured third-party environment exposed real systems to agents pursuing simulated cyber tasks. In a separately reported evaluation, Google's Gemini accessed three real organizations through an unintended internet route; Google stated that the model stopped in all three instances. Taken together, the cases show why an evaluation cannot rely on an assumed boundary. That boundary must be verified while the agent is operating. This comparative instrument",
-      "authors": [
-        "Abbas Raftari"
-      ],
-      "link": "http://arxiv.org/abs/2610.12463v1",
-      "published": "2026-10-08",
-      "categories": [
-        "cs.CR",
-        "cs.AI"
-      ]
-    },
-    "analysis": {
-      "key_methods": ".",
-      "datasets": "A few of the most interesting examples of the software are the first examples of \"deployment\" in this paper.",
-      "future_work": "- from Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents."
-    }
-  },
-  {
-    "paper": {
-      "title": "Disk Structure May Determine AGN Variability and Explain the Accretion Disk Size Problem: No Broad Line Region Required",
-      "summary": "Variability is a crucial probe of active galactic nuclei (AGN) disks, but the impact of the structure and internal physics of the disk on this variability is poorly understood. We perform 3D multi-frequency radiation magnetohydrodynamic simulations of the $1300-5940~\\rmÅ$ emitting region of an AGN disk. This turbulent disk simulation happens to stochastically have different disk thickness above and below the midplane. Light curves emitted from the thin top of the disk are broadly consistent with traditional variability models, where the X-ray irradiation emitted from the corona is the main driver of variability in UV-optical light curves. Conversely, the UV-optical light curves emitted from the thicker bottom of the disk are not strongly correlated with the X-ray light curve and have disk ",
-      "authors": [
-        "Amy Secunda",
-        "Yan-Fei Jiang",
-        "Jenny E. Greene"
-      ],
-      "link": "http://arxiv.org/abs/2610.12462v1",
-      "published": "2026-10-08",
-      "categories": [
-        "astro-ph.HE",
-        "astro-ph.GA"
-      ]
-    },
-    "analysis": {
-      "key_methods": "Sorted a random-number-based, random-number-based, random-number-based, random-number-based algorithm in a random-number...",
-      "datasets": "1.",
-      "future_work": "Using the first available data from the EO’s model, the EO has revealed the average size of a typical AGN."
+      "key_methods": "To get the data from the data, I used a different method:\nfetching a JSON object from a JSON field:\nfetching the JSON ob...",
+      "datasets": ".",
+      "future_work": "This paper is published online in the journal Nature Communications, the journal of the American Academy of Sciences."
     }
   }
 ]
