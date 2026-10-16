@@ -1,83 +1,17 @@
 [
   {
     "paper": {
-      "title": "A global analysis of ${\\bar B}\\to DP$ and ${\\bar B} \\to {\\bar D} P$ decays",
-      "summary": "Recently, a fit to the 15 measured branching ratios of ${\\bar B} \\to D P$ decays ($B = \\{B^+, B^0, B_s^0\\}$, $D = \\{D^0, D^+, D_s^+\\}$, $P \\in \\{π, K\\}$) was performed under the assumption of flavor SU(3) symmetry [SU(3)$_F$]. A terrible fit was found: there was a $> 5σ$ disagreement with the SU(3)$_F$ limit of the Standard Model [SM$_{\\rm{SU(3)}_F}$]. It was also found that this discrepancy can be removed by adding $\\sim 20\\%$ SU(3)$_F$-breaking effects. Now, the ${\\bar B} \\to D^0 P$ amplitudes can contribute to other observables (direct and indirect CP asymmetries) if they interfere with the amplitudes for ${\\bar B} \\to {\\bar D}^0 P$ decays. This happens if the $D^0$ and ${\\bar D}^0$ decay to the same final state (e.g., $K^+ K^-$, $π^+ π^-$, $K^\\pm π^\\mp$, etc.). In this paper, we perfor",
+      "title": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
+      "summary": "Personalization is essential for general-purpose robots to transition into household environments and achieve true practicality. While general robotic manipulation has been extensively studied, personalized robotic manipulation (PeRM) lacks a controlled benchmark for separating task completion from preference satisfaction. We introduce LIBERO-PeRM, a benchmark for preference learning in embodied agents. LIBERO-PeRM studies five questions: 1) how policies follow preferences in zero-shot settings; 2) how they learn single preferences from demonstrations; 3) how efficiently they acquire preferences as demonstrations increase; 4) how learned preferences generalize across layouts and tasks; and 5) how policies compose preferences and behave under conflicts. We propose a controlled formulation a",
       "authors": [
-        "Bhubanjyoti Bhattacharya",
-        "Rida Boumris",
-        "David London"
+        "Zhixu Li",
+        "Keqian Tang",
+        "Litian Gong",
+        "Jingyu Yao",
+        "Wenqian Zhang"
       ],
-      "link": "http://arxiv.org/abs/2610.20611v1",
-      "published": "2026-10-14",
-      "categories": [
-        "hep-ph"
-      ]
-    },
-    "analysis": {
-      "key_methods": "Using a simple arithmetic method, the method is simple to use.",
-      "datasets": "A.",
-      "future_work": "A new approach to calculating the value of the keychain is a new approach to computing the original value of the keychai..."
-    }
-  },
-  {
-    "paper": {
-      "title": "Can Learning to Answer Spatial Questions Improve Novel-View Generation?",
-      "summary": "Generating novel views from limited observations requires preserving both the appearance and spatial structure of a scene. Although recent approaches exploit fine-grained geometric cues, they do not explicitly model high-level semantic and spatial properties such as object identity, attributes, and inter-object relationships. In this work, we investigate whether 3D language understanding can provide complementary supervision for novel-view generation. We introduce Ask4NV, built on a pretrained unified multimodal model with a Mixture-of-Transformers (MoT) architecture. Our model incorporates camera geometry into both VAE and ViT representations and leverages understanding features during generation through joint self-attention with a modality-aware attention masking strategy. Experiments de",
-      "authors": [
-        "Jahyeok Koo",
-        "Hyeonseo Yu",
-        "Seungho Jang",
-        "Jaewoo Jung",
-        "Jiwon Kang"
-      ],
-      "link": "http://arxiv.org/abs/2610.20610v1",
-      "published": "2026-10-14",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": ".",
-      "datasets": "The paper is also available in the Proceedings of the Royal Society B.",
-      "future_work": "Fully funded by the Center for Global Public Policy and the U."
-    }
-  },
-  {
-    "paper": {
-      "title": "SafeDriveVLA: Navigation-Conditioned World Model Dreaming for Conflict-Aware End-to-End Autonomous Driving",
-      "summary": "Vision-Language-Action (VLA) models are gaining attention in autonomous driving, inheriting commonsense priors from large language models (LLMs) and widening the navigation interface from a fixed command set to free-form natural-language instructions. However, this open-ended interface exposes a new vulnerability surface: an inattentive driver may issue instructions that are unsafe given the current scene, and a malicious user may issue dangerous ones on purpose. We present the first benchmark suite that evaluates navigation following and conflict awareness together, along with adversarial robustness. Existing VLAs fall short on both: SimLingo completes no language-instructed lane change in closed loop, and all models degrade sharply under conflicting signals. We propose SafeDriveVLA, the ",
-      "authors": [
-        "Shaoyuan Xie",
-        "Zihan Zhang",
-        "Jingxuan Wang",
-        "Jiashu Qu",
-        "Xiaoqing Liang"
-      ],
-      "link": "http://arxiv.org/abs/2610.20609v1",
-      "published": "2026-10-14",
-      "categories": [
-        "cs.RO"
-      ]
-    },
-    "analysis": {
-      "key_methods": "Pilot control:\nVehicle control:\nMotorcycle control:\nMotorcycle control:\nMotorcycle control:\nMotorcycle control:\nMotorcyc...",
-      "datasets": "The U.",
-      "future_work": "In the future, driverless cars will be able to do the same thing to drive in the same way they do in a different way."
-    }
-  },
-  {
-    "paper": {
-      "title": "Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
-      "summary": "Recent advances in robot learning have driven rapid progress in humanoid control, enabling increasingly agile behaviors in the real world. However, humanoid control networks are typically obtained through conventional training procedures, while comparatively little attention has been given to directly modeling the distribution of their learned weights and generating functional networks in weight space. In this work, we investigate whether high-performing humanoid control networks can be generatively modeled directly through their weights. We adopt a latent diffusion framework that couples a linear autoencoder with a Diffusion Transformer. The autoencoder compresses actor network parameters into a compact latent space, and the Diffusion Transformer models the distribution of these latents. ",
-      "authors": [
-        "Huixuan Cheng",
-        "Bike Zhang",
-        "Shankar Sastry",
-        "Koushil Sreenath"
-      ],
-      "link": "http://arxiv.org/abs/2610.20606v1",
-      "published": "2026-10-14",
+      "link": "http://arxiv.org/abs/2610.22372v1",
+      "published": "2026-10-15",
       "categories": [
         "cs.RO",
         "cs.AI",
@@ -85,32 +19,99 @@
       ]
     },
     "analysis": {
-      "key_methods": "We recruited 2,400 undergraduates from more than 60 states.",
+      "key_methods": "TensorFlow\n\nWe used an MDF set of a single algorithm.",
       "datasets": ".",
-      "future_work": "Tens of thousands of people worldwide, including the United States, China, India, Japan, Mexico, Netherlands, Peru, Sing..."
+      "future_work": "More information:\nDr."
     }
   },
   {
     "paper": {
-      "title": "VITAL: From Visual Motion to Precise Action",
-      "summary": "World-action models aim to turn visual anticipation into driving decisions, yet typically train action experts on trajectory representations defined independently of visual dynamics. This motivates deriving action targets directly from visual motion. We first examine a simpler setting in which trajectories are reconstructed from recorded future images. Even without the need for future prediction, reconstruction captures the dominant maneuver but leaves centimeter-scale errors. We therefore introduce VITAL (Vision-Induced Tokens for Action Learning), an action tokenizer that couples a visually derived motion scaffold with a compact residual encoding the trajectory error left by that scaffold. This representation makes visual motion the principal prediction target and gives small metric corr",
+      "title": "Which Tokens to Merge? Diffusion Dynamics for Efficient Image Generation",
+      "summary": "Token merging has emerged as an effective training-free strategy for accelerating diffusion models by reducing redundant token computation while minimizing generation degradation. A key challenge is determining which tokens can be safely merged and which should be preserved for subsequent computation. Existing method addresses this by preserving prompt-aligned foreground regions, thereby protecting semantically relevant structures. However, this text-relevance criterion overlooks background objects, local details that are not explicitly mentioned in the prompt, leading to degraded structural coherence. In this work, we propose Dynamics-aware Token Merging (DaTMe), a training-free framework that grounds token merging in the underlying diffusion dynamics. Our key insight is that token import",
       "authors": [
-        "Ao Liang",
-        "Youquan Liu",
-        "Mingxiao Li",
-        "Wei Chow",
-        "Lingdong Kong"
+        "SeungJu Cha",
+        "Ye-Chan Kim",
+        "HyunGee Kim",
+        "Sungho Koh",
+        "Dong-Jin Kim"
       ],
-      "link": "http://arxiv.org/abs/2610.20604v1",
-      "published": "2026-10-14",
+      "link": "http://arxiv.org/abs/2610.22370v1",
+      "published": "2026-10-15",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "VITAL: From Visual Motion to Precise Action.",
-      "datasets": "The most commonly used data set is the time you need to work with multiple data sets.",
-      "future_work": "The next generation of 3D and 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D."
+      "key_methods": "The following algorithm was used to generate the image and create the image using a hash algorithm.",
+      "datasets": "The idea behind this post was to be able to use the same amount of data processing resources available for the same proc...",
+      "future_work": "Could it be possible for a more efficient image generation?\nI think it's possible."
+    }
+  },
+  {
+    "paper": {
+      "title": "SoftCache: Adaptive Step Size Caching for Diffusion Transformers",
+      "summary": "Diffusion and flow models generate a sample over iterative steps, each a full pass through a large network, and that pass dominates generation cost. Training-free caching accelerates them by reusing activations from recent evaluations instead of recomputing them. Dynamic caching methods decide when to refresh by accumulating a cheap probe of the network input into a staleness signal and spending a fresh evaluation once it crosses a threshold. They perform hard caching: the signal is a binary switch between refresh and reuse, and every step, fresh or cached, advances by the prescribed step size. We observe that the signal carries much more than this switch. How far it sits below the threshold, its headroom, predicts the error induced by reuse. We propose SoftCache, which performs soft cachi",
+      "authors": [
+        "Shimon Malnick",
+        "Nadav Orenstein",
+        "Ohad Fried",
+        "Shai Avidan"
+      ],
+      "link": "http://arxiv.org/abs/2610.22369v1",
+      "published": "2026-10-15",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The following section was written to ensure that the final version of the code is complete.",
+      "datasets": "(Part 1)\n(Part 2)\n(Part 3)\n(Part 4)\n(Part 5)\n(Part 6)\n(Part 7)\n(Part 8)\n(Part 9)\n(Part 10).",
+      "future_work": "This project is very easy to build and test, but I am not sure how to achieve this."
+    }
+  },
+  {
+    "paper": {
+      "title": "Discovering state-of-the-art quantum circuits with large language models",
+      "summary": "Significant efforts are currently being directed toward the implementation of large-scale quantum information processors, but realizing useful quantum advantage also requires the development of efficient quantum algorithms. While for many practical problems the dominant resource costs are associated with a small set of computational primitives, optimizing them in the quantum setting presents unique challenges, including a reversibility constraint absent from ordinary classical computation. Here we introduce an evolutionary framework in which large language models (LLMs) propose circuit designs and an independent evaluator verifies and scores them. We apply this framework to tasks spanning numerical computation, chemistry, optimization, quantum simulation, and number theory. In seven of the",
+      "authors": [
+        "Andi Gu",
+        "Alek H. Kemeny",
+        "Susanne F. Yelin",
+        "Mikhail D. Lukin"
+      ],
+      "link": "http://arxiv.org/abs/2610.22367v1",
+      "published": "2026-10-15",
+      "categories": [
+        "quant-ph",
+        "cs.AI"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The computational complexity of both of these techniques.",
+      "datasets": "The first big hurdle is to find a single-state state\nThis is a big challenge because so much is involved in the theoreti...",
+      "future_work": "Using a new method to understand the physics of quantum circuits, researchers will present a new understanding of quantu..."
+    }
+  },
+  {
+    "paper": {
+      "title": "$^6$He structure from semiclassical 3D models based on $\\textit{ab initio}$ spatial correlations",
+      "summary": "We construct semiclassical 3D models based on $\\textit{ab initio}$ no-core shell model calculated two-body spatial correlations, which represent the preferred spatial configuration of nucleons for the ground state of $^6$He. We demonstrate that the presence of the two valence neutrons distorts and flattens the $α$ core in $^6$He, marking a clear departure from the tetrahedral configuration of free $^4$He, and that the two valence neutrons and the center of mass of the $α$ cluster ($α$-CM) are roughly located at the three distinct vertices of an equilateral triangle. We compute the geometric parameters that commonly characterize $^6$He structure, 1) $θ_{nn}$, the opening angle of the two valence neutrons with respect to $α$-CM, and 2) $r_{nn}$, the root-mean-square separation between the tw",
+      "authors": [
+        "Mengyao Huang",
+        "Tobias Frederico",
+        "Peng Yin",
+        "James P. Vary"
+      ],
+      "link": "http://arxiv.org/abs/2610.22365v1",
+      "published": "2026-10-15",
+      "categories": [
+        "nucl-th"
+      ]
+    },
+    "analysis": {
+      "key_methods": "[1] Sigmund Löfner, Peter Löfner, John Löfner, John Löfner, John Löfner, John Löfner, John Löfner, John L.",
+      "datasets": "RPM: $^6$2$3$4$5$6$7$8$9$10$11$12$13$14$15$16$17$18$19$20$21$22$.",
+      "future_work": "$$$$."
     }
   }
 ]
