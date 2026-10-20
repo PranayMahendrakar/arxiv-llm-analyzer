@@ -54,92 +54,85 @@
   <div class="stat"><div class="n">5</div><div class="l">Papers</div></div>
   <div class="stat"><div class="n">distilgpt2</div><div class="l">LLM Model</div></div>
   <div class="stat"><div class="n">large language m</div><div class="l">Query</div></div>
-  <div class="stat"><div class="n">2026-10-18</div><div class="l">Updated UTC</div></div>
+  <div class="stat"><div class="n">2026-10-20</div><div class="l">Updated UTC</div></div>
 </div>
 <main>
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2610.22372v1" target="_blank" rel="noopener">LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation</a></h2>
-    <span class="meta">Published: 2026-10-15 | Authors: Zhixu Li, Keqian Tang, Litian Gong, Jingyu Yao, Wenqian Zhang | Tags: cs.RO, cs.AI, cs.LG</span>
+    <h2><a href="http://arxiv.org/abs/2610.26863v1" target="_blank" rel="noopener">Text-to-Image Generative Modeling Without Language Pretraining</a></h2>
+    <span class="meta">Published: 2026-10-19 | Authors: Keshigeyan Chandrasegaran, Yue Zhao, Armin W. Thomas, Ehsan Adeli, Jiajun Wu | Tags: cs.LG, cs.CV</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Personalization is essential for general-purpose robots to transition into household environments and achieve true practicality. While general robotic manipulation has been extensively studied, personalized robotic manipulation (PeRM) lacks a controlled benchmark for separating task completion from preference satisfaction. We introduce LIBERO-PeRM, a benchmark for preference learning in embodied agents. LIBERO-PeRM studies five questions: 1) how policies follow preferences in zero-shot settings; 2) how they learn single preferences from demonstrations; 3) how efficiently they acquire preferences as demonstrations increase; 4) how learned preferences generalize across layouts and tasks; and 5) how policies compose preferences and behave under conflicts. We propose a controlled formulation a</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>(1)
-(2)
-(3)
-(4)
-(5)
-(6)
-(7)
-(8)
-(9)
-(10)
-(11)
-(12)
-(.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>I want to start with an experiment that I use to measure the effectiveness of physical manipulation of a robot.</p></section>
+    <section class="full"><h3>Abstract</h3><p>Modern text-to-image (T2I) systems use internet-scale language pretraining for text-conditioned image generation. We ask whether language pretraining is necessary for strong T2I generation. We introduce Halcyon, a family of early-fusion multimodal autoregressive models pretrained entirely from scratch on GPIC, a dataset of 100M image-text pairs. Halcyon-0.52B outperforms LlamaGen-XL/8 (48.0 vs. 63.3 gFD) with 18.2$\times$ less pretraining compute. Further, Halcyon-1.6B outperforms JiT-T2I-XXL/8++ (35.3 vs. 41.0 gFD) with 275$\times$ less pretraining compute. Controlled experiments show that text-only pretraining does not improve T2I generation. Halcyon also learns image captioning by replacing caption dropout with I2T supervision, maintaining competitive T2I generation quality under the sa</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>Sketch-based computational modeling of the language.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>The text-to-image generator is simple:
+let text = text.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>The concept of a language for generating a representation of a problem is becoming increasingly clear.</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2610.22370v1" target="_blank" rel="noopener">Which Tokens to Merge? Diffusion Dynamics for Efficient Image Generation</a></h2>
-    <span class="meta">Published: 2026-10-15 | Authors: SeungJu Cha, Ye-Chan Kim, HyunGee Kim, Sungho Koh, Dong-Jin Kim | Tags: cs.CV</span>
+    <h2><a href="http://arxiv.org/abs/2610.26860v1" target="_blank" rel="noopener">OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory</a></h2>
+    <span class="meta">Published: 2026-10-19 | Authors: Yu Zhou, Cheng-Fu Yang, Rui Sun, Di Wu, Sibo Peng | Tags: cs.CL, cs.AI, cs.CV</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Token merging has emerged as an effective training-free strategy for accelerating diffusion models by reducing redundant token computation while minimizing generation degradation. A key challenge is determining which tokens can be safely merged and which should be preserved for subsequent computation. Existing method addresses this by preserving prompt-aligned foreground regions, thereby protecting semantically relevant structures. However, this text-relevance criterion overlooks background objects, local details that are not explicitly mentioned in the prompt, leading to degraded structural coherence. In this work, we propose Dynamics-aware Token Merging (DaTMe), a training-free framework that grounds token merging in the underlying diffusion dynamics. Our key insight is that token import</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>In the previous article, we described how to implement the Diffusion Dynamics API.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>[1] An object that is a binary data store is referred to as a “binary data store.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>How to Transform a System Image Generation with Image Generation by H.</p></section>
+    <section class="full"><h3>Abstract</h3><p>Multimodal large language models (MLLMs) have made rapid progress on visual reasoning, yet many tasks require evidence that is difficult to obtain through internal reasoning alone: our controlled study on 22 benchmarks shows that simply increasing the inference budget of the base model yields only modest gains. Such tasks demand grounded perception, external knowledge, and numerical measurements obtained through heterogeneous tools, whose outputs must be made interpretable to the model and retained across reasoning steps. We introduce OpenVLHarness, a multimodal reasoning harness organized around a capability layer and persistent multimodal memory. The capability layer combines task-level tool interfaces with evidence rendering, providing consistent access to heterogeneous backends and con</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>Assembling and performing the following steps:
+In addition to the following steps:
+First:
+First:
+First:
+First:
+First:
+Fi...</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>http://www.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Using OpenVLharness in the Open Machine Learning and Machine Learning Project.</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2610.22369v1" target="_blank" rel="noopener">SoftCache: Adaptive Step Size Caching for Diffusion Transformers</a></h2>
-    <span class="meta">Published: 2026-10-15 | Authors: Shimon Malnick, Nadav Orenstein, Ohad Fried, Shai Avidan | Tags: cs.CV</span>
+    <h2><a href="http://arxiv.org/abs/2610.26861v1" target="_blank" rel="noopener">Can It Actually Work? Synthesizing Functional CAD Mechanisms</a></h2>
+    <span class="meta">Published: 2026-10-19 | Authors: Wenqian Zhang, Yangyi Huang, Zigeng Xu, Weiyang Liu, Zhen Liu | Tags: cs.CV, cs.CL, cs.GR</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Diffusion and flow models generate a sample over iterative steps, each a full pass through a large network, and that pass dominates generation cost. Training-free caching accelerates them by reusing activations from recent evaluations instead of recomputing them. Dynamic caching methods decide when to refresh by accumulating a cheap probe of the network input into a staleness signal and spending a fresh evaluation once it crosses a threshold. They perform hard caching: the signal is a binary switch between refresh and reuse, and every step, fresh or cached, advances by the prescribed step size. We observe that the signal carries much more than this switch. How far it sits below the threshold, its headroom, predicts the error induced by reuse. We propose SoftCache, which performs soft cachi</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>First, a simple Python script, which can be run automatically and dynamically in Java.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>The first step is to use the following step to convert the data into a file format:
-// The same file format is used to c...</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Acknowledgements
-Klaus is working with the University of California, Berkeley to improve the performance of the algorith...</p></section>
+    <section class="full"><h3>Abstract</h3><p>While LLM agents can generate visually plausible CAD assemblies, these designs often fail to fulfill their intended physical functions. We study functional CAD design, a setting where agents interpret underspecified requests to construct and iteratively revise mechanisms that satisfy functional requirements in physical simulation. Verifying these requirements is nontrivial: different candidate mechanisms may realize the same function through entirely different components, controls, and operating sequences. To bridge this gap, we propose FunCAD-Harness, a framework that translates abstract requirements into candidate-specific physical tests and uses simulation feedback to guide design revisions. To systematically evaluate this capability, we introduce FunCADBench, a benchmark spanning 46 me</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>To generate a full-scale, pre-fabricated CAD model, we used a simple, non-linear model of the CAD design.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>The fundamental problems of CCD are:
+The first is that there is no valid functional language for the CAD model! We were ...</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Using functional CAD, we found that functional CAD is much more complex than that of other CAD models.</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2610.22367v1" target="_blank" rel="noopener">Discovering state-of-the-art quantum circuits with large language models</a></h2>
-    <span class="meta">Published: 2026-10-15 | Authors: Andi Gu, Alek H. Kemeny, Susanne F. Yelin, Mikhail D. Lukin | Tags: quant-ph, cs.AI</span>
+    <h2><a href="http://arxiv.org/abs/2610.26859v1" target="_blank" rel="noopener">Boundary-Sensitive Quantum Order on Non-Amenable Lattices</a></h2>
+    <span class="meta">Published: 2026-10-19 | Authors: Xingzhi Wang, Zohar Nussinov, Gerardo Ortiz | Tags: cond-mat.stat-mech, cond-mat.mes-hall, cond-mat.other</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Significant efforts are currently being directed toward the implementation of large-scale quantum information processors, but realizing useful quantum advantage also requires the development of efficient quantum algorithms. While for many practical problems the dominant resource costs are associated with a small set of computational primitives, optimizing them in the quantum setting presents unique challenges, including a reversibility constraint absent from ordinary classical computation. Here we introduce an evolutionary framework in which large language models (LLMs) propose circuit designs and an independent evaluator verifies and scores them. We apply this framework to tasks spanning numerical computation, chemistry, optimization, quantum simulation, and number theory. In seven of the</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>Introduction
-The study of the quantum field was conducted in collaboration with the University of Washington, D.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>A few things:
-The first is that the current state of the state of the state of the quantum state is not in the state of ...</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Use of quantum computing to create new technologies.</p></section>
+    <section class="full"><h3>Abstract</h3><p>We show that quantum systems on non-amenable lattices, whose boundaries constitute an extensive fraction of the system, host novel forms of bulk ordering with no Euclidean counterpart. Combining boundary-retaining iDMRG with an exact symmetry-fixing duality, we investigate $p<5$ state clock models on the coordination-3 infinite Cayley tree. We find that between the ordered and disordered phases lies an emergent intermediate phase with bulk order induced by an arbitrarily weak boundary field rather than by conventional spontaneous symmetry-breaking. This establishes boundary-sensitive order as a distinct quantum ordering mechanism defying Landau's spontaneous symmetry-breaking paradigm. The intermediate phase realizes a bulk-boundary correspondence in which the unpolarized boundary selects </p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The experiments were performed by the U.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>A.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Interdisciplinary research in the field of quantum mechanics and quantum theory is currently taking place in the United ...</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2610.22365v1" target="_blank" rel="noopener">$^6$He structure from semiclassical 3D models based on $\textit{ab initio}$ spatial correlations</a></h2>
-    <span class="meta">Published: 2026-10-15 | Authors: Mengyao Huang, Tobias Frederico, Peng Yin, James P. Vary | Tags: nucl-th</span>
+    <h2><a href="http://arxiv.org/abs/2610.26858v1" target="_blank" rel="noopener">Kondo Lattice model for field induced triplet pairing in CeRh$_2$As$_2$</a></h2>
+    <span class="meta">Published: 2026-10-19 | Authors: Indra Gankhuyag, Piers Coleman | Tags: cond-mat.str-el</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>We construct semiclassical 3D models based on $\textit{ab initio}$ no-core shell model calculated two-body spatial correlations, which represent the preferred spatial configuration of nucleons for the ground state of $^6$He. We demonstrate that the presence of the two valence neutrons distorts and flattens the $α$ core in $^6$He, marking a clear departure from the tetrahedral configuration of free $^4$He, and that the two valence neutrons and the center of mass of the $α$ cluster ($α$-CM) are roughly located at the three distinct vertices of an equilateral triangle. We compute the geometric parameters that commonly characterize $^6$He structure, 1) $θ_{nn}$, the opening angle of the two valence neutrons with respect to $α$-CM, and 2) $r_{nn}$, the root-mean-square separation between the tw</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>To test the properties of the model, we used the assumption that the model is very stable.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>The 3D model can be used to model the structure of the 3D models by applying the equation of $\frac{1}{2}{3}$, with the ...</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>It is possible to use a set of models to explore the influence of 3D models on the properties of all three different typ...</p></section>
+    <section class="full"><h3>Abstract</h3><p>Spin triplet superconductors are of interest because of their topological properties, and their robustness to high magnetic fields. CeRh$_2$As$_2$ is a unique heavy fermion superconductor with both even-parity and candidate odd-parity superconducting phases with a special feature enabling a field induced phase transition between the two. The field induced transition which switches the parity of the Cooper pairs is enabled by a staggered antisymmetric spin orbit coupling (ASOC) interaction. However, the heavy fermion origins of the superconductivity in CeRh$_2$As$_2$ and the origin of the antisymmetric spin-orbit coupling are currently unexplored. Here, we develop a Kondo lattice model for CeRh$_2$As$_2$ and demonstrate how local hybridization between Cerium $d$- and $f$-orbitals, driven by</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>We used a matrix to calculate the inverse relationship between a set of two sets of two sets of two sets of two sets of ...</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>Figure 1: A doublet pairing of an acrobatic triplet pair from the same model to a doublet pair from the same model to a ...</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>An alternative approach to the idea of a doublet pairing is to use the same approach to doublet pairing in CeRh$_2$B$A$A...</p></section>
   </div>
 </div>
 </main>
 <footer>
   <a href="https://github.com/PranayMahendrakar/arxiv-llm-analyzer">PranayMahendrakar/arxiv-llm-analyzer</a>
-  | Powered by DistilGPT2 (HuggingFace Transformers) | No API keys | 2026-10-18 10:25 UTC
+  | Powered by DistilGPT2 (HuggingFace Transformers) | No API keys | 2026-10-20 10:57 UTC
 </footer>
 </body></html>

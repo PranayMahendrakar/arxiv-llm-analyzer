@@ -1,117 +1,123 @@
 [
   {
     "paper": {
-      "title": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
-      "summary": "Personalization is essential for general-purpose robots to transition into household environments and achieve true practicality. While general robotic manipulation has been extensively studied, personalized robotic manipulation (PeRM) lacks a controlled benchmark for separating task completion from preference satisfaction. We introduce LIBERO-PeRM, a benchmark for preference learning in embodied agents. LIBERO-PeRM studies five questions: 1) how policies follow preferences in zero-shot settings; 2) how they learn single preferences from demonstrations; 3) how efficiently they acquire preferences as demonstrations increase; 4) how learned preferences generalize across layouts and tasks; and 5) how policies compose preferences and behave under conflicts. We propose a controlled formulation a",
+      "title": "Text-to-Image Generative Modeling Without Language Pretraining",
+      "summary": "Modern text-to-image (T2I) systems use internet-scale language pretraining for text-conditioned image generation. We ask whether language pretraining is necessary for strong T2I generation. We introduce Halcyon, a family of early-fusion multimodal autoregressive models pretrained entirely from scratch on GPIC, a dataset of 100M image-text pairs. Halcyon-0.52B outperforms LlamaGen-XL/8 (48.0 vs. 63.3 gFD) with 18.2$\\times$ less pretraining compute. Further, Halcyon-1.6B outperforms JiT-T2I-XXL/8++ (35.3 vs. 41.0 gFD) with 275$\\times$ less pretraining compute. Controlled experiments show that text-only pretraining does not improve T2I generation. Halcyon also learns image captioning by replacing caption dropout with I2T supervision, maintaining competitive T2I generation quality under the sa",
       "authors": [
-        "Zhixu Li",
-        "Keqian Tang",
-        "Litian Gong",
-        "Jingyu Yao",
-        "Wenqian Zhang"
+        "Keshigeyan Chandrasegaran",
+        "Yue Zhao",
+        "Armin W. Thomas",
+        "Ehsan Adeli",
+        "Jiajun Wu"
       ],
-      "link": "http://arxiv.org/abs/2610.22372v1",
-      "published": "2026-10-15",
+      "link": "http://arxiv.org/abs/2610.26863v1",
+      "published": "2026-10-19",
       "categories": [
-        "cs.RO",
+        "cs.LG",
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "Sketch-based computational modeling of the language.",
+      "datasets": "The text-to-image generator is simple:\nlet text = text.",
+      "future_work": "The concept of a language for generating a representation of a problem is becoming increasingly clear."
+    }
+  },
+  {
+    "paper": {
+      "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
+      "summary": "Multimodal large language models (MLLMs) have made rapid progress on visual reasoning, yet many tasks require evidence that is difficult to obtain through internal reasoning alone: our controlled study on 22 benchmarks shows that simply increasing the inference budget of the base model yields only modest gains. Such tasks demand grounded perception, external knowledge, and numerical measurements obtained through heterogeneous tools, whose outputs must be made interpretable to the model and retained across reasoning steps. We introduce OpenVLHarness, a multimodal reasoning harness organized around a capability layer and persistent multimodal memory. The capability layer combines task-level tool interfaces with evidence rendering, providing consistent access to heterogeneous backends and con",
+      "authors": [
+        "Yu Zhou",
+        "Cheng-Fu Yang",
+        "Rui Sun",
+        "Di Wu",
+        "Sibo Peng"
+      ],
+      "link": "http://arxiv.org/abs/2610.26860v1",
+      "published": "2026-10-19",
+      "categories": [
+        "cs.CL",
         "cs.AI",
-        "cs.LG"
+        "cs.CV",
+        "cs.LG",
+        "cs.MM"
       ]
     },
     "analysis": {
-      "key_methods": ".",
-      "datasets": "(1)\n(2)\n(3)\n(4)\n(5)\n(6)\n(7)\n(8)\n(9)\n(10)\n(11)\n(12)\n(.",
-      "future_work": "I want to start with an experiment that I use to measure the effectiveness of physical manipulation of a robot."
+      "key_methods": "Assembling and performing the following steps:\nIn addition to the following steps:\nFirst:\nFirst:\nFirst:\nFirst:\nFirst:\nFi...",
+      "datasets": "http://www.",
+      "future_work": "Using OpenVLharness in the Open Machine Learning and Machine Learning Project."
     }
   },
   {
     "paper": {
-      "title": "Which Tokens to Merge? Diffusion Dynamics for Efficient Image Generation",
-      "summary": "Token merging has emerged as an effective training-free strategy for accelerating diffusion models by reducing redundant token computation while minimizing generation degradation. A key challenge is determining which tokens can be safely merged and which should be preserved for subsequent computation. Existing method addresses this by preserving prompt-aligned foreground regions, thereby protecting semantically relevant structures. However, this text-relevance criterion overlooks background objects, local details that are not explicitly mentioned in the prompt, leading to degraded structural coherence. In this work, we propose Dynamics-aware Token Merging (DaTMe), a training-free framework that grounds token merging in the underlying diffusion dynamics. Our key insight is that token import",
+      "title": "Can It Actually Work? Synthesizing Functional CAD Mechanisms",
+      "summary": "While LLM agents can generate visually plausible CAD assemblies, these designs often fail to fulfill their intended physical functions. We study functional CAD design, a setting where agents interpret underspecified requests to construct and iteratively revise mechanisms that satisfy functional requirements in physical simulation. Verifying these requirements is nontrivial: different candidate mechanisms may realize the same function through entirely different components, controls, and operating sequences. To bridge this gap, we propose FunCAD-Harness, a framework that translates abstract requirements into candidate-specific physical tests and uses simulation feedback to guide design revisions. To systematically evaluate this capability, we introduce FunCADBench, a benchmark spanning 46 me",
       "authors": [
-        "SeungJu Cha",
-        "Ye-Chan Kim",
-        "HyunGee Kim",
-        "Sungho Koh",
-        "Dong-Jin Kim"
+        "Wenqian Zhang",
+        "Yangyi Huang",
+        "Zigeng Xu",
+        "Weiyang Liu",
+        "Zhen Liu"
       ],
-      "link": "http://arxiv.org/abs/2610.22370v1",
-      "published": "2026-10-15",
+      "link": "http://arxiv.org/abs/2610.26861v1",
+      "published": "2026-10-19",
       "categories": [
-        "cs.CV"
+        "cs.CV",
+        "cs.CL",
+        "cs.GR"
       ]
     },
     "analysis": {
-      "key_methods": "In the previous article, we described how to implement the Diffusion Dynamics API.",
-      "datasets": "[1] An object that is a binary data store is referred to as a “binary data store.",
-      "future_work": "How to Transform a System Image Generation with Image Generation by H."
+      "key_methods": "To generate a full-scale, pre-fabricated CAD model, we used a simple, non-linear model of the CAD design.",
+      "datasets": "The fundamental problems of CCD are:\nThe first is that there is no valid functional language for the CAD model! We were ...",
+      "future_work": "Using functional CAD, we found that functional CAD is much more complex than that of other CAD models."
     }
   },
   {
     "paper": {
-      "title": "SoftCache: Adaptive Step Size Caching for Diffusion Transformers",
-      "summary": "Diffusion and flow models generate a sample over iterative steps, each a full pass through a large network, and that pass dominates generation cost. Training-free caching accelerates them by reusing activations from recent evaluations instead of recomputing them. Dynamic caching methods decide when to refresh by accumulating a cheap probe of the network input into a staleness signal and spending a fresh evaluation once it crosses a threshold. They perform hard caching: the signal is a binary switch between refresh and reuse, and every step, fresh or cached, advances by the prescribed step size. We observe that the signal carries much more than this switch. How far it sits below the threshold, its headroom, predicts the error induced by reuse. We propose SoftCache, which performs soft cachi",
+      "title": "Boundary-Sensitive Quantum Order on Non-Amenable Lattices",
+      "summary": "We show that quantum systems on non-amenable lattices, whose boundaries constitute an extensive fraction of the system, host novel forms of bulk ordering with no Euclidean counterpart. Combining boundary-retaining iDMRG with an exact symmetry-fixing duality, we investigate $p<5$ state clock models on the coordination-3 infinite Cayley tree. We find that between the ordered and disordered phases lies an emergent intermediate phase with bulk order induced by an arbitrarily weak boundary field rather than by conventional spontaneous symmetry-breaking. This establishes boundary-sensitive order as a distinct quantum ordering mechanism defying Landau's spontaneous symmetry-breaking paradigm. The intermediate phase realizes a bulk-boundary correspondence in which the unpolarized boundary selects ",
       "authors": [
-        "Shimon Malnick",
-        "Nadav Orenstein",
-        "Ohad Fried",
-        "Shai Avidan"
+        "Xingzhi Wang",
+        "Zohar Nussinov",
+        "Gerardo Ortiz"
       ],
-      "link": "http://arxiv.org/abs/2610.22369v1",
-      "published": "2026-10-15",
+      "link": "http://arxiv.org/abs/2610.26859v1",
+      "published": "2026-10-19",
       "categories": [
-        "cs.CV"
+        "cond-mat.stat-mech",
+        "cond-mat.mes-hall",
+        "cond-mat.other",
+        "hep-th",
+        "quant-ph"
       ]
     },
     "analysis": {
-      "key_methods": "First, a simple Python script, which can be run automatically and dynamically in Java.",
-      "datasets": "The first step is to use the following step to convert the data into a file format:\n// The same file format is used to c...",
-      "future_work": "Acknowledgements\nKlaus is working with the University of California, Berkeley to improve the performance of the algorith..."
+      "key_methods": "The experiments were performed by the U.",
+      "datasets": "A.",
+      "future_work": "Interdisciplinary research in the field of quantum mechanics and quantum theory is currently taking place in the United ..."
     }
   },
   {
     "paper": {
-      "title": "Discovering state-of-the-art quantum circuits with large language models",
-      "summary": "Significant efforts are currently being directed toward the implementation of large-scale quantum information processors, but realizing useful quantum advantage also requires the development of efficient quantum algorithms. While for many practical problems the dominant resource costs are associated with a small set of computational primitives, optimizing them in the quantum setting presents unique challenges, including a reversibility constraint absent from ordinary classical computation. Here we introduce an evolutionary framework in which large language models (LLMs) propose circuit designs and an independent evaluator verifies and scores them. We apply this framework to tasks spanning numerical computation, chemistry, optimization, quantum simulation, and number theory. In seven of the",
+      "title": "Kondo Lattice model for field induced triplet pairing in CeRh$_2$As$_2$",
+      "summary": "Spin triplet superconductors are of interest because of their topological properties, and their robustness to high magnetic fields. CeRh$_2$As$_2$ is a unique heavy fermion superconductor with both even-parity and candidate odd-parity superconducting phases with a special feature enabling a field induced phase transition between the two. The field induced transition which switches the parity of the Cooper pairs is enabled by a staggered antisymmetric spin orbit coupling (ASOC) interaction. However, the heavy fermion origins of the superconductivity in CeRh$_2$As$_2$ and the origin of the antisymmetric spin-orbit coupling are currently unexplored. Here, we develop a Kondo lattice model for CeRh$_2$As$_2$ and demonstrate how local hybridization between Cerium $d$- and $f$-orbitals, driven by",
       "authors": [
-        "Andi Gu",
-        "Alek H. Kemeny",
-        "Susanne F. Yelin",
-        "Mikhail D. Lukin"
+        "Indra Gankhuyag",
+        "Piers Coleman"
       ],
-      "link": "http://arxiv.org/abs/2610.22367v1",
-      "published": "2026-10-15",
+      "link": "http://arxiv.org/abs/2610.26858v1",
+      "published": "2026-10-19",
       "categories": [
-        "quant-ph",
-        "cs.AI"
+        "cond-mat.str-el"
       ]
     },
     "analysis": {
-      "key_methods": "Introduction\nThe study of the quantum field was conducted in collaboration with the University of Washington, D.",
-      "datasets": "A few things:\nThe first is that the current state of the state of the state of the quantum state is not in the state of ...",
-      "future_work": "Use of quantum computing to create new technologies."
-    }
-  },
-  {
-    "paper": {
-      "title": "$^6$He structure from semiclassical 3D models based on $\\textit{ab initio}$ spatial correlations",
-      "summary": "We construct semiclassical 3D models based on $\\textit{ab initio}$ no-core shell model calculated two-body spatial correlations, which represent the preferred spatial configuration of nucleons for the ground state of $^6$He. We demonstrate that the presence of the two valence neutrons distorts and flattens the $α$ core in $^6$He, marking a clear departure from the tetrahedral configuration of free $^4$He, and that the two valence neutrons and the center of mass of the $α$ cluster ($α$-CM) are roughly located at the three distinct vertices of an equilateral triangle. We compute the geometric parameters that commonly characterize $^6$He structure, 1) $θ_{nn}$, the opening angle of the two valence neutrons with respect to $α$-CM, and 2) $r_{nn}$, the root-mean-square separation between the tw",
-      "authors": [
-        "Mengyao Huang",
-        "Tobias Frederico",
-        "Peng Yin",
-        "James P. Vary"
-      ],
-      "link": "http://arxiv.org/abs/2610.22365v1",
-      "published": "2026-10-15",
-      "categories": [
-        "nucl-th"
-      ]
-    },
-    "analysis": {
-      "key_methods": "To test the properties of the model, we used the assumption that the model is very stable.",
-      "datasets": "The 3D model can be used to model the structure of the 3D models by applying the equation of $\\frac{1}{2}{3}$, with the ...",
-      "future_work": "It is possible to use a set of models to explore the influence of 3D models on the properties of all three different typ..."
+      "key_methods": "We used a matrix to calculate the inverse relationship between a set of two sets of two sets of two sets of two sets of ...",
+      "datasets": "Figure 1: A doublet pairing of an acrobatic triplet pair from the same model to a doublet pair from the same model to a ...",
+      "future_work": "An alternative approach to the idea of a doublet pairing is to use the same approach to doublet pairing in CeRh$_2$B$A$A..."
     }
   }
 ]
