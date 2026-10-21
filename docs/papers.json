@@ -1,123 +1,123 @@
 [
   {
     "paper": {
-      "title": "Text-to-Image Generative Modeling Without Language Pretraining",
-      "summary": "Modern text-to-image (T2I) systems use internet-scale language pretraining for text-conditioned image generation. We ask whether language pretraining is necessary for strong T2I generation. We introduce Halcyon, a family of early-fusion multimodal autoregressive models pretrained entirely from scratch on GPIC, a dataset of 100M image-text pairs. Halcyon-0.52B outperforms LlamaGen-XL/8 (48.0 vs. 63.3 gFD) with 18.2$\\times$ less pretraining compute. Further, Halcyon-1.6B outperforms JiT-T2I-XXL/8++ (35.3 vs. 41.0 gFD) with 275$\\times$ less pretraining compute. Controlled experiments show that text-only pretraining does not improve T2I generation. Halcyon also learns image captioning by replacing caption dropout with I2T supervision, maintaining competitive T2I generation quality under the sa",
+      "title": "Constraints on Millimeter-wave Extragalactic Transient Populations from 4 Years of SPT-3G data",
+      "summary": "Wide-field cosmic microwave background (CMB) instruments have reached sufficient sensitivity and cadence to conduct untargeted millimeter-wave searches for astronomical transients. To date, such searches have primarily discovered stellar flares, while extragalactic detections remain limited to a few flaring blazars and active galactic nuclei. In contrast, recent simulations suggest that current and future CMB experiments should detect a few to dozens of extragalactic transients per year from sources including gamma-ray bursts (GRBs), tidal disruption events, and fast blue optical transients. At timescales under one week, predicted detections are dominated by flares from reverse shocks in long-duration GRBs, with some benchmark models predicting rates of ~10 detections per year for the SPT-",
       "authors": [
-        "Keshigeyan Chandrasegaran",
-        "Yue Zhao",
-        "Armin W. Thomas",
-        "Ehsan Adeli",
-        "Jiajun Wu"
+        "S. Guns",
+        "C. Tandoi",
+        "D. Anbajagane",
+        "E. Anderes",
+        "A. J. Anderson"
       ],
-      "link": "http://arxiv.org/abs/2610.26863v1",
-      "published": "2026-10-19",
+      "link": "http://arxiv.org/abs/2610.28633v1",
+      "published": "2026-10-20",
       "categories": [
+        "astro-ph.HE"
+      ]
+    },
+    "analysis": {
+      "key_methods": ".",
+      "datasets": "(1) The authors declare no competing interests.",
+      "future_work": "Can we just look at the data that is being generated from different wavelengths?\nOne such example is the laser beam of t..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs",
+      "summary": "Video generation models can now depict remarkably realistic motion. Yet it is unclear how to use this motion beyond pixels: to animate a specific 3D asset and replay the animation in its 3D scene. For instance, a video model can show a monkey jumping over a crossbar, but it cannot return that jump as replayable 3D motion placed in the 3D scene. Here we present a model that directly co-generates the video and 3D motion for any supplied rig, along with a camera that registers this motion to the scene. Prior video-motion models either handle only human skeletons, often adding billions of parameters, or triangulate 3D motion from generated 2D pose maps. We instead keep 3D motion in a separate model that supports arbitrary skeletons, and connect it to a pretrained video model through a small se",
+      "authors": [
+        "Noam Rotstein",
+        "Yoad Tewel",
+        "Chen Tessler",
+        "Haggai Maron",
+        "Gal Chechik"
+      ],
+      "link": "http://arxiv.org/abs/2610.28632v1",
+      "published": "2026-10-20",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.GR",
         "cs.LG",
+        "cs.RO"
+      ]
+    },
+    "analysis": {
+      "key_methods": "First, we used a camera to record an object in a manner similar to the one used by Microsoft:\n// Microsoft Kinect\n// Mic...",
+      "datasets": "http://www.",
+      "future_work": "1."
+    }
+  },
+  {
+    "paper": {
+      "title": "AEON: Unifying Video and 3D World Models",
+      "summary": "Current world models for explicit world simulation typically follow two distinct pathways: (1) video generative models (e.g., Sora), which simulate realistic appearances but fail to preserve 3D consistency; and (2) 3D generative models (e.g., Marble), which generate geometrically consistent scenes but often yield static, less realistic observations. We present AEON, a unified framework that bridges video-based and 3D-based world models and combines the benefits of both. The key insight of AEON lies in a generative model that operates within the text- or image-conditioned video latent space while producing renderable 4D graphics primitives---specifically, 4D Gaussian Splatting (4DGS)---as the explicit world representation. We train a 4D reconstruction model to predict both 4DGS and camera p",
+      "authors": [
+        "Weiqi Zhang",
+        "Wenyuan Zhang",
+        "Yu-Shen Liu",
+        "Junsheng Zhou"
+      ],
+      "link": "http://arxiv.org/abs/2610.28631v1",
+      "published": "2026-10-20",
+      "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "Sketch-based computational modeling of the language.",
-      "datasets": "The text-to-image generator is simple:\nlet text = text.",
-      "future_work": "The concept of a language for generating a representation of a problem is becoming increasingly clear."
-    }
-  },
-  {
-    "paper": {
-      "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
-      "summary": "Multimodal large language models (MLLMs) have made rapid progress on visual reasoning, yet many tasks require evidence that is difficult to obtain through internal reasoning alone: our controlled study on 22 benchmarks shows that simply increasing the inference budget of the base model yields only modest gains. Such tasks demand grounded perception, external knowledge, and numerical measurements obtained through heterogeneous tools, whose outputs must be made interpretable to the model and retained across reasoning steps. We introduce OpenVLHarness, a multimodal reasoning harness organized around a capability layer and persistent multimodal memory. The capability layer combines task-level tool interfaces with evidence rendering, providing consistent access to heterogeneous backends and con",
-      "authors": [
-        "Yu Zhou",
-        "Cheng-Fu Yang",
-        "Rui Sun",
-        "Di Wu",
-        "Sibo Peng"
-      ],
-      "link": "http://arxiv.org/abs/2610.26860v1",
-      "published": "2026-10-19",
-      "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.CV",
-        "cs.LG",
-        "cs.MM"
-      ]
-    },
-    "analysis": {
-      "key_methods": "Assembling and performing the following steps:\nIn addition to the following steps:\nFirst:\nFirst:\nFirst:\nFirst:\nFirst:\nFi...",
+      "key_methods": "Ranin and van Vonderen:\nGPS-GPS (video):\nGPS-GPS (video):\nGPS-GPS (video):\nGPS-GPS (video):\nGPS-.",
       "datasets": "http://www.",
-      "future_work": "Using OpenVLharness in the Open Machine Learning and Machine Learning Project."
+      "future_work": "The Future of 3D World Models is currently under way to be published in the journal Applied Applications and Machine Lea..."
     }
   },
   {
     "paper": {
-      "title": "Can It Actually Work? Synthesizing Functional CAD Mechanisms",
-      "summary": "While LLM agents can generate visually plausible CAD assemblies, these designs often fail to fulfill their intended physical functions. We study functional CAD design, a setting where agents interpret underspecified requests to construct and iteratively revise mechanisms that satisfy functional requirements in physical simulation. Verifying these requirements is nontrivial: different candidate mechanisms may realize the same function through entirely different components, controls, and operating sequences. To bridge this gap, we propose FunCAD-Harness, a framework that translates abstract requirements into candidate-specific physical tests and uses simulation feedback to guide design revisions. To systematically evaluate this capability, we introduce FunCADBench, a benchmark spanning 46 me",
+      "title": "SolarRenderer: Few-Step Generative Reference Rendering",
+      "summary": "Game engines and coding agents can specify the layout, motion, and camera of a scene, yet turning such coarse structure into realistic video requires a renderer that follows the structure and completes the appearance it leaves open. Existing renderers are tied to the representation of one engine, need tens of denoising steps or a costly distillation of their own, and learn from conditions that are not aligned with their target videos. We present SolarRenderer, a structure-conditioned video renderer that adapts a frozen MiniMax-H3 33B backbone with two lightweight LoRAs. Structural videos enter the native reference pathway of the backbone at the positions of the frames they describe, without a type identifier and described only in plain text, so that a single control LoRA follows arbitrary ",
       "authors": [
-        "Wenqian Zhang",
-        "Yangyi Huang",
-        "Zigeng Xu",
-        "Weiyang Liu",
-        "Zhen Liu"
+        "Guian Fang",
+        "Shengju Qian",
+        "Dongyue Lu",
+        "Junchao Huang",
+        "Lutao Jiang"
       ],
-      "link": "http://arxiv.org/abs/2610.26861v1",
-      "published": "2026-10-19",
+      "link": "http://arxiv.org/abs/2610.28630v1",
+      "published": "2026-10-20",
       "categories": [
-        "cs.CV",
-        "cs.CL",
-        "cs.GR"
+        "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "To generate a full-scale, pre-fabricated CAD model, we used a simple, non-linear model of the CAD design.",
-      "datasets": "The fundamental problems of CCD are:\nThe first is that there is no valid functional language for the CAD model! We were ...",
-      "future_work": "Using functional CAD, we found that functional CAD is much more complex than that of other CAD models."
+      "key_methods": "A few years ago, I was looking for a way to generate a non-linearized 3D model of the world around us.",
+      "datasets": "[1] http://www.",
+      "future_work": "."
     }
   },
   {
     "paper": {
-      "title": "Boundary-Sensitive Quantum Order on Non-Amenable Lattices",
-      "summary": "We show that quantum systems on non-amenable lattices, whose boundaries constitute an extensive fraction of the system, host novel forms of bulk ordering with no Euclidean counterpart. Combining boundary-retaining iDMRG with an exact symmetry-fixing duality, we investigate $p<5$ state clock models on the coordination-3 infinite Cayley tree. We find that between the ordered and disordered phases lies an emergent intermediate phase with bulk order induced by an arbitrarily weak boundary field rather than by conventional spontaneous symmetry-breaking. This establishes boundary-sensitive order as a distinct quantum ordering mechanism defying Landau's spontaneous symmetry-breaking paradigm. The intermediate phase realizes a bulk-boundary correspondence in which the unpolarized boundary selects ",
+      "title": "GBClaw: An agentic AI framework for atomistic grain boundary research and mechanistic discovery",
+      "summary": "Agentic artificial intelligence (AI) systems hold immense potential for automating complex workflows in materials discovery and design, but extending them to domain-intensive mechanistic investigations remains challenging. Here, we present GBClaw, an agentic AI framework for investigating the structure and deformation of general grain boundaries (GBs). Although general GBs constitute the vast majority of real-world interfaces in polycrystalline materials, they remain understudied because their structural complexity and interfacial mismatch complicate experimental and modeling research. GBClaw integrates large language models (LLMs) into a modular architecture comprising an orchestrator, specialized agents, domain-specific tools, simulation interfaces, and hierarchical memory. Through dynam",
       "authors": [
-        "Xingzhi Wang",
-        "Zohar Nussinov",
-        "Gerardo Ortiz"
+        "Yazhuo Liu",
+        "Kunqing Ding",
+        "Xiaoguo Gong",
+        "Zifeng Wang",
+        "Yichen Yang"
       ],
-      "link": "http://arxiv.org/abs/2610.26859v1",
-      "published": "2026-10-19",
+      "link": "http://arxiv.org/abs/2610.28629v1",
+      "published": "2026-10-20",
       "categories": [
-        "cond-mat.stat-mech",
+        "cond-mat.mtrl-sci",
         "cond-mat.mes-hall",
-        "cond-mat.other",
-        "hep-th",
-        "quant-ph"
+        "cs.AI",
+        "cs.MA"
       ]
     },
     "analysis": {
-      "key_methods": "The experiments were performed by the U.",
-      "datasets": "A.",
-      "future_work": "Interdisciplinary research in the field of quantum mechanics and quantum theory is currently taking place in the United ..."
-    }
-  },
-  {
-    "paper": {
-      "title": "Kondo Lattice model for field induced triplet pairing in CeRh$_2$As$_2$",
-      "summary": "Spin triplet superconductors are of interest because of their topological properties, and their robustness to high magnetic fields. CeRh$_2$As$_2$ is a unique heavy fermion superconductor with both even-parity and candidate odd-parity superconducting phases with a special feature enabling a field induced phase transition between the two. The field induced transition which switches the parity of the Cooper pairs is enabled by a staggered antisymmetric spin orbit coupling (ASOC) interaction. However, the heavy fermion origins of the superconductivity in CeRh$_2$As$_2$ and the origin of the antisymmetric spin-orbit coupling are currently unexplored. Here, we develop a Kondo lattice model for CeRh$_2$As$_2$ and demonstrate how local hybridization between Cerium $d$- and $f$-orbitals, driven by",
-      "authors": [
-        "Indra Gankhuyag",
-        "Piers Coleman"
-      ],
-      "link": "http://arxiv.org/abs/2610.26858v1",
-      "published": "2026-10-19",
-      "categories": [
-        "cond-mat.str-el"
-      ]
-    },
-    "analysis": {
-      "key_methods": "We used a matrix to calculate the inverse relationship between a set of two sets of two sets of two sets of two sets of ...",
-      "datasets": "Figure 1: A doublet pairing of an acrobatic triplet pair from the same model to a doublet pair from the same model to a ...",
-      "future_work": "An alternative approach to the idea of a doublet pairing is to use the same approach to doublet pairing in CeRh$_2$B$A$A..."
+      "key_methods": ".",
+      "datasets": "Source: Dataset (http://dataset.",
+      "future_work": "The work of the USGS\n[Source: UGS\n[Source: UGS\n[Source: UGS]\n[Source: UGS]."
     }
   }
 ]
