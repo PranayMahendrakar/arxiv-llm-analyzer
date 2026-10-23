@@ -1,110 +1,119 @@
 [
   {
     "paper": {
-      "title": "Agentic World Action Models",
-      "summary": "Recent world action models provide visual foresight and future prediction for robot manipulation, but lack explicit mechanisms for compositional skill reuse. Agentic robotics combines code-based planning and reasoning with reusable skills, but often lacks predictive grounding in physical dynamics. We introduce AW-0, an agentic world action model framework that integrates code-based planning with joint video and action prediction. We jointly model code, future video, and robot actions as three coupled generative streams within a unified mixture-of-transformers architecture. Within this architecture a code expert generates parameterized skill routines and control logic while video and action experts generate future visual states and low-level motor commands. Code serves two complementary rol",
+      "title": "Ricci flow of Integrable Sigma Models, Hitchin Systems and Quantum Seiberg-Witten theory",
+      "summary": "We construct a family of integrable 2d sigma models through 4d Chern-Simons theory and show that their classical point-particle reduction corresponds to a Hitchin system. The integrable Hitchin quantisation then provides a natural candidate Hamiltonian for the one-loop reduced dynamics of the sigma models, which coincides with the Perelman operator in all cases examined. This allows us to study the corresponding spectral problems using 4d $\\mathcal{N}=2$ gauge theory and 2d conformal field theory methods. For the sausage model, we derive exact quantisation conditions and compute exponentially small corrections essential for the agreement with numerical finite-volume results.",
       "authors": [
-        "Zhuoyang Liu",
-        "Dantong Niu",
-        "Botong Zhang",
-        "Boning Shao",
-        "Jing Wang"
+        "G. Bonelli",
+        "S. Lacroix",
+        "T. Pedroni",
+        "A. Tanzini"
       ],
-      "link": "http://arxiv.org/abs/2610.30136v1",
-      "published": "2026-10-21",
+      "link": "http://arxiv.org/abs/2610.31672v1",
+      "published": "2026-10-22",
       "categories": [
-        "cs.RO"
+        "hep-th",
+        "math-ph"
       ]
     },
     "analysis": {
-      "key_methods": "Figure 1.",
-      "datasets": "Bibliographic records:\nBibliographic records:\nBibliographic records:\nBibliographic records:\nBibliographic records:\nBibli...",
-      "future_work": "Developing a new model for the use of artificial intelligence for the surveillance of people and organizations."
+      "key_methods": "The paper was funded by the National Science Foundation (n=148959).",
+      "datasets": "1.",
+      "future_work": "The Future of Quantum Seiberg-Witten Theory\nA review of this article was published in the journal Molecular Physiology a..."
     }
   },
   {
     "paper": {
-      "title": "When to retire: the cultural evolution of post-reproductive oblique teaching",
-      "summary": "Teaching is ubiquitous across human societies. Instruction from parents to offspring is the most fundamental form of teaching, explained primarily through kin selection and inclusive fitness. Instruction to non-kin, known as oblique teaching, also plays a dominant role in modern societies, where teaching is often institutionalized. Nonetheless, it remains puzzling how or when oblique teaching can evolve. Here we address the evolution of oblique teaching by developing a mathematical model of stage-structured populations. Younger individuals engage in a useful activity, called hunting, and reproduce. At some point in life, they cease contributing directly to hunting and reproduction, and instead serve exclusively as teachers who increase the hunting expertise of the young. We refer to this t",
+      "title": "A Unified Framework for Image-to-3D Part Generation via Variable Granularity",
+      "summary": "Controllable 3D part generation is pivotal for digital asset creation, yet existing methods lack the flexibility to accommodate diverse user workflows requiring varying levels of control. In this paper, we introduce FlexPart, a unified image-to-3D part generation framework that supports variable-granularity geometric conditions within a single model. By seamlessly integrating heterogeneous inputs, ranging from sparse points to dense bounding boxes and masks, via gated adaptive modulation, FlexPart unlocks a powerful cross-modal synergy. We also propose an asymmetric geometric guidance mechanism that leverages strong spatial priors to align representations across granularities, improving geometric consistency and facilitating inter-task synergy. Under mask conditioning on PartVerseXL, FlexP",
       "authors": [
-        "Hirotaka Goto",
-        "Joshua B. Plotkin"
+        "Qiwen Gu",
+        "Xin Zhou",
+        "Xiwu Chen",
+        "Zhongyang Zhu",
+        "Zhuo Zhang"
       ],
-      "link": "http://arxiv.org/abs/2610.30135v1",
-      "published": "2026-10-21",
-      "categories": [
-        "q-bio.PE"
-      ]
-    },
-    "analysis": {
-      "key_methods": "1.",
-      "datasets": "The notion that post-reproductive oblique teaching is the basis of the post-reproductive oblique teaching is not the onl...",
-      "future_work": "How to make a post-reproductive oblique teaching effective to those of us who have passed it on to us, and it is now pos..."
-    }
-  },
-  {
-    "paper": {
-      "title": "Optimal galaxy magnification: generalized fundamental-plane residuals and number counts are all you need",
-      "summary": "Weak-lensing magnification complements cosmic shear through its effects on galaxy fluxes, sizes, and number counts. We derive the optimal magnification statistics from galaxy properties and show that the optimal measurement can be decomposed into an optimal mean statistic and total number counts. The optimal mean statistic can be constructed from the residual distribution of a generalized fundamental plane (GFP), $F(i,\\boldsymbol{X})$, which predicts galaxy size or, equivalently, flux from surface brightness $i$ and additional lensing-invariant properties $\\boldsymbol{X}$. The function $F$ can take any form that reduces the intrinsic scatter and thereby improves magnification precision. For a Gaussian residual distribution, the optimal mean statistic reduces to the inverse-variance-weighte",
-      "authors": [
-        "Kun Xu",
-        "Ravi K. Sheth"
-      ],
-      "link": "http://arxiv.org/abs/2610.30133v1",
-      "published": "2026-10-21",
-      "categories": [
-        "astro-ph.CO",
-        "astro-ph.GA"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The standard image-based image-based image-based image-based image-based image-based image-based image-based image-based...",
-      "datasets": "Note:\nThis is a PDF format.",
-      "future_work": "We'll be focusing on how to model the galaxy from the ground."
-    }
-  },
-  {
-    "paper": {
-      "title": "LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data",
-      "summary": "Reinforcement learning (RL) is an effective way to strengthen the long-context reasoning of large language models (LLMs), but it needs training data that are long, diverse, challenging, and verifiable. Human annotation of such data is expensive, naturally occurring data are too scarce to sustain RL, and existing synthesis methods depend on external corpora or stronger teacher models, which become harder to obtain as the trained models get stronger. Recently, RL from zero data, in which a model learns from tasks it proposes itself, has achieved excellent performance, but existing methods target short-context tasks. Therefore, we propose $\\textbf{LongZero}$, a method that lets an LLM improve its own long-context reasoning without any external data. Instead of writing questions and answers ov",
-      "authors": [
-        "Zhennan Wan",
-        "Jianfei Chen"
-      ],
-      "link": "http://arxiv.org/abs/2610.30132v1",
-      "published": "2026-10-21",
-      "categories": [
-        "cs.CL",
-        "cs.LG"
-      ]
-    },
-    "analysis": {
-      "key_methods": "Method:\nData:\nSample:\nMethods:\nMethod:\n(Note: The LMS only uses the ‏-type‏ parameter, if you are interested in reading ...",
-      "datasets": "Theorem:\nTheorem:\nDoctors should be able to be defined by the LAML.",
-      "future_work": "Using these techniques, you can learn how to write smart contracts, and implement big data on an even bigger scale."
-    }
-  },
-  {
-    "paper": {
-      "title": "Rethinking Video Autoencoders for Interactive World Models",
-      "summary": "Video world models predict future frames from past frames and actions. They serve as simulators in which agents train, plan or are evaluated, and that humans can control interactively. They generate in the latent space of a video autoencoder, whose compression sets their cost per frame and how long each action waits to take effect. Yet world models often reuse the autoencoders of text-to-video generators, built for offline generation with no agent waiting and, without their training data and code, not retrainable at another compression. We therefore ask how, where and how much a world model should compress. We build CADRE, an open family of causal diffusion representation autoencoders spanning multiple spatio-temporal compressions. Its members differ only in a small bottleneck on frozen fe",
-      "authors": [
-        "Adrien Ramanana Rahary",
-        "Yutong Bai",
-        "Nicolas Dufour",
-        "Patrick Pérez",
-        "David Picard"
-      ],
-      "link": "http://arxiv.org/abs/2610.30129v1",
-      "published": "2026-10-21",
+      "link": "http://arxiv.org/abs/2610.31671v1",
+      "published": "2026-10-22",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": ".",
-      "datasets": "http://www.",
-      "future_work": "A post-mortem analysis of the data and the implications of the work and the conclusions of the analysis."
+      "key_methods": "The following text was drawn from the original source (as described in the original source) and has not been used in the...",
+      "datasets": "The data used in this article is a set of images, so we can use them as components of our images to build a more detaile...",
+      "future_work": "A Unified Framework for Image-to-3D Part Generation via Variable Granularity."
+    }
+  },
+  {
+    "paper": {
+      "title": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
+      "summary": "Robotic foundation models are typically evaluated through costly closed-loop rollouts, which motivates cheap offline proxies for model capability. The Platonic Representation Hypothesis (PRH) suggests that as representations improve, different modalities such as vision and language converge toward a shared statistical model of reality. We ask whether motion trajectories form another such modality: as embodied models become more capable, should their sensory representations converge toward the structure of physical motion? To examine this, we propose Sensorimotor Alignment ($S^2$), a training-free offline metric that measures how well a model's sensory representation aligns with the geometry of physical motion. We find that $S^2$ correlates positively with downstream robot task success acro",
+      "authors": [
+        "Yunfei Xie",
+        "Howard H. Qian",
+        "Shiyi Lan",
+        "Kaiyu Hang",
+        "Chen Wei"
+      ],
+      "link": "http://arxiv.org/abs/2610.31670v1",
+      "published": "2026-10-22",
+      "categories": [
+        "cs.CV",
+        "cs.LG",
+        "cs.RO"
+      ]
+    },
+    "analysis": {
+      "key_methods": "We found that the first phase of the autonomous self-driving vehicle, which would be a self-driving vehicle, would be th...",
+      "datasets": "The original paper on the implementation of the 3D interface, titled ‟C2,‟C3, was published in the online Journal of the...",
+      "future_work": "A Bayesian Model for Embodied Policy Success and A Bayesian Model for Embodied Policy Success and A Bayesian Model for E..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
+      "summary": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopts world modeling as a unifying lens for examining these developments. Viewing an observed video as a partial, lossy, and temporally ordered projection of a latent temporal world, we organize the literature around four complementary operations: reading infers world properties from observed video; writing synthesizes video from specified or learned world conditions; sharing integrates understanding and generation through common modeling mechanisms; and interacting predicts and ",
+      "authors": [
+        "Shengqiong Wu",
+        "Meng Luo",
+        "Bobo Li",
+        "Ziwei Liu",
+        "Shuicheng Yan"
+      ],
+      "link": "http://arxiv.org/abs/2610.31668v1",
+      "published": "2026-10-22",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "We were trained in an active and active online community to participate in the World Wide Web.",
+      "datasets": ".",
+      "future_work": "How to use the Internet for a better understanding of the world to help humans better understand what is happening in th..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
+      "summary": "Test-time scaling has emerged as a key inference strategy for reasoning models, where a model generates a large number of candidate solutions in the hope of finding at least one correct solution. Running all candidate solutions to completion can be computationally demanding, so recent work prunes the candidate pool after generating only a short prefix, committing further computation only to the surviving candidates. Existing pruning strategies divide broadly into two categories: Quality-based methods assign a score to each partial solution and discard those predicted to ultimately lead to an incorrect final solution, while diversity-based methods select partial solutions that follow different reasoning trajectories and are therefore likely to cover different final solutions. The tension be",
+      "authors": [
+        "Mahdi Salmani",
+        "Adel Javanmard",
+        "Devansh Gupta",
+        "Meisam Razaviyayn"
+      ],
+      "link": "http://arxiv.org/abs/2610.31667v1",
+      "published": "2026-10-22",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The following algorithms are used to define the standard design of the study:\nConclusions:\nThe researchers identified a ...",
+      "datasets": "1.",
+      "future_work": "What are some of your thoughts about these two approaches?\n[Note: I'm not saying they are perfect."
     }
   }
 ]
