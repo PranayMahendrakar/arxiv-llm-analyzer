@@ -1,110 +1,115 @@
 [
   {
     "paper": {
-      "title": "The Language of Instruction: Genre and Generative AI",
-      "summary": "This article argues that instruction-fine-tuned language models should be understood as implementing a genre, what is proposed as the instructional-conversational genre. This genre is an amalgamation of discursive language from prior conversations between generative models and humans recursively run through these massive neural networks. It is instantiated in applications through instruction fine-tuning, the inclusion of a pretext known as a system prompt, and the formalization of inputs in mark-up languages characterized by the use of special tokens and role assignment in turntaking structures.",
+      "title": "Retriever-Free Retrieval: Navigating Documents with Decision Models",
+      "summary": "While language models have become dramatically more capable, retrieval still largely relies on lexical matching or similarity in fixed embedding spaces. This creates a capability asymmetry: what the retriever fails to find, even the strongest generator cannot recover. We propose DecisionRAG, which brings the capabilities of pretrained language models to retrieval using decision models that jointly evaluate candidate branches in a single forward pass, without generating any tokens, and show that judging candidates in a shared context makes their relevance estimates comparable. Like a person browsing a library, DecisionRAG navigates the corpus's inherent structure from broad topics down to individual passages, deciding at each level which branches are worth exploring. Without task-specific t",
       "authors": [
-        "James E. Dobson"
+        "Chao Wan",
+        "Paul Jünger",
+        "Beixi Du",
+        "Bodong Liu",
+        "Navaneetha Krishnan"
       ],
-      "link": "http://arxiv.org/abs/2610.32982v1",
-      "published": "2026-10-23",
+      "link": "http://arxiv.org/abs/2610.35868v1",
+      "published": "2026-10-26",
       "categories": [
-        "cs.CL",
-        "cs.CY"
+        "cs.AI"
       ]
     },
     "analysis": {
-      "key_methods": "A paper was prepared for Google Scholar and was presented at the Google Scholar conference.",
-      "datasets": "C#\nC# Language\nC# Language\nC#\nC# Language\nC#\nC# Language\nC#\nC#\nC# Language\nC#\nC#\nC#\nC#\nC#.",
-      "future_work": "In the next decade, we will be studying the cognitive and social aspects of the brain, including the use of social netwo..."
+      "key_methods": "Method of study:\nRelevant questions:\nIntroduction\nThis paper describes how people interact with the Retriever-Free Retri...",
+      "datasets": "Bibliography:\n(1)\nBibliography:\n(2)\nBibliography:\n(3)\nBibliography:\n(4)\nBibliography:\n(5)\nBibliography:\n(6).",
+      "future_work": "Learning the Empirical Structure of Objectives and Concepts."
     }
   },
   {
     "paper": {
-      "title": "Separating Thinking from Spelling for Efficient Generative Recommendation",
-      "summary": "Generative recommenders retrieve items by writing their semantic IDs (SIDs) code by code under trie-constrained beam search, an approach now deployed on large web platforms. Standard autoregressive interfaces pay for the SID length K twice: a history of T items enters the backbone as TK code tokens, and every beam-search step runs through the backbone, so returning B candidates costs O(BK) backbone decode tokens per user. The second cost often dominates, and it grows with the backbone, the SID depth and the candidate budget.   We introduce Deco (decoding from concepts), which separates reading the history from writing the identifier. The backbone reads each history item as one fused token and condenses the history once into a compact next-item concept; a light KV-cached decoder conditioned",
+      "title": "Center-of-Mass Interpretation of Evolution Strategies",
+      "summary": "Evolution strategies (ES) update a model by sampling a population of perturbed copies, scoring each one, and moving in the reward-weighted direction of the perturbations. This update is usually presented as an estimate of a smoothed gradient. We present a geometrical interpretation of this update instead. Treat each perturbed model as a particle and its reward as the particle's mass. Before scoring, every particle has the same mass and the population balances at its centroid. Once rewards are assigned, it balances at its reward-weighted center of mass instead. We show that the mean-subtracted ES update is exactly this displacement, scaled by a scalar factor that depends on the mean reward, for any finite population. The physical reading needs nonnegative rewards, which can always be arrang",
       "authors": [
-        "Danil Gusak",
-        "Anna Volodkevich",
-        "Ivan Oseledets",
-        "Evgeny Frolov"
+        "Akshat Gupta"
       ],
-      "link": "http://arxiv.org/abs/2610.32980v1",
-      "published": "2026-10-23",
+      "link": "http://arxiv.org/abs/2610.35865v1",
+      "published": "2026-10-26",
       "categories": [
-        "cs.IR"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The first three lines were:\nThe first two lines were:\nThe second two lines were:\nThe third two lines were:\nThe third two...",
-      "datasets": "http://www.",
-      "future_work": "Further work:\nE-Lite, K."
-    }
-  },
-  {
-    "paper": {
-      "title": "Fréchet Kriging for Metric Space-Valued Spatial Data",
-      "summary": "Spatial prediction of non-Euclidean data, such as probability distributions, symmetric positive definite matrices, and networks, arises in many modern applications. Such data are naturally modeled as elements of general metric spaces, where classical kriging methods that rely on vector space structure are no longer directly applicable. We introduce Fréchet kriging, a general framework for spatial prediction of metric space-valued data. Fréchet kriging replaces the weighted average in classical ordinary kriging with a weighted Fréchet mean, while the weights are determined by characterizing the spatial dependence structure through a generalized variogram. This construction allows the proposed method to preserve the intrinsic geometry of the response space without requiring an embedding into",
-      "authors": [
-        "Ryo Okano",
-        "Daisuke Kurisu",
-        "Hans-Georg Müller"
-      ],
-      "link": "http://arxiv.org/abs/2610.32979v1",
-      "published": "2026-10-23",
-      "categories": [
-        "stat.ME"
+        "cs.AI",
+        "cs.CL"
       ]
     },
     "analysis": {
       "key_methods": ".",
-      "datasets": "We've seen that much more data is available from various datasets.",
-      "future_work": "the Large Hadron Collider\nThe next phase of the ATLAS project will focus on the study of the impact of gravity on gravit..."
+      "datasets": "DNS\nDNS\nDNS\nDNS\nDNS\nDNS\nDNS\nDNS\nDNS\nDNS\nDNS\nDNS\nDNS\nDNS\nDNS\nDNS\nD.",
+      "future_work": "The effects of climate change on humans, and the impact of climate change on the ability of humans to adapt to the chang..."
     }
   },
   {
     "paper": {
-      "title": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
-      "summary": "Training generalizable embodied agents requires realistic, varied, and simulation-ready indoor environments. Language-guided methods support semantic planning and object-level reasoning, but precise spatial grounding remains difficult. Visual generative models offer rich priors over plausible arrangements, yet their outputs require geometric reasoning to become physically valid 3D scenes. We introduce SceneBloom, an agentic framework that combines visual layout sampling with contract-guided 3D compilation. A hierarchical sampler uses diffusion priors to generate furniture arrangements within functional zones. A compiler then uses relations extracted from each proposal to guide geometric fitting and local pose correction. Across five room types, SceneBloom attains the highest visual quality",
+      "title": "Auto-Research Arena: Benchmarking and Advancing Auto-Research in Language Modeling",
+      "summary": "As autonomous research systems become more capable, benchmarks must both evaluate their performance and support meaningful research progress. We introduce Auto-Research Arena, a multi-target benchmark for evaluating autonomous research systems and discovering ideas in language modeling. Arena supports diverse research objectives within a shared experimental environment by separating admissibility from improvement: model quality and resource constraints determine whether a result qualifies, while the selected target measures progress among admissible results. We instantiate Arena in language model pretraining with nine targets spanning model, data, training, and inference efficiency, and evaluate seven research harnesses using two foundation models. Arena clearly differentiates existing har",
       "authors": [
-        "Yuhan Liu",
-        "Lianhui Qin",
-        "Shenji Wan"
+        "Xi Chen",
+        "Chongjian Ge",
+        "Yiran Xu",
+        "Yiqun Mei",
+        "Henrik I. Christensen"
       ],
-      "link": "http://arxiv.org/abs/2610.32978v1",
-      "published": "2026-10-23",
+      "link": "http://arxiv.org/abs/2610.35866v1",
+      "published": "2026-10-26",
       "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.RO"
+        "cs.LG"
       ]
     },
     "analysis": {
-      "key_methods": "Data extraction, classification, and analysis\nRings: The main data sources in this study are:\nhttp://www.",
-      "datasets": "In the original article, Daniel D.",
-      "future_work": "The first attempt to integrate real-time data into the real-time learning framework."
+      "key_methods": "A.",
+      "datasets": "Languages:\nTheorem: Theorem: Theorem: Theorem: Theorem: Theorem: Theorem: Theorem: Theorem: Theorem: Theorem: Theorem: T...",
+      "future_work": "The University of California Santa Barbara’s first machine-learning system is now known as Autotube (ASAN) and will take..."
     }
   },
   {
     "paper": {
-      "title": "UniAction: Unified Action Conditioning for World Models",
-      "summary": "Actions that condition world models are highly heterogeneous, and thus existing action-conditioned world models are typically built for individual action types, fragmenting already limited action-annotated data across separate models. We introduce UniAction, a unified action-conditioning framework that represents any action as a sparse set of action elements, each with a discrete semantic identity and a continuous spatiotemporal grounding coordinate. By mapping these coordinates directly into the pretrained video model's native positional space, UniAction allows heterogeneous actions to condition a shared world model within the same spatiotemporal structure. We further introduce cardinality-calibrated attention to address the bias from differing action representation granularities. We eval",
+      "title": "VibeVideoBench:Evaluating Multimodal Agents on Code-Driven Video Generation",
+      "summary": "Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a ruleconsistent game or narration synchronized to on-screen events. A different route is emerging: multimodal agents that write code to render every frame and synthesize every sound. We introduce VibeVideoBench, a benchmark for evaluating agents on code-driven video generation. Its 239 self-contained tasks in English and Chinese span 12 categories, from data stories and music-driven pieces to classroom lessons and paper explainers; each asks an agent, running in its native harness inside a sandbox, to deliver a finished MP4 with sound within one hour. Evaluation is hierarchical and evidence-based: program checks of the delivery spec, about 13k task-specific rubric checks trace",
       "authors": [
-        "Bowen Xue",
-        "Zizhang Li",
-        "Hong-Xing Yu",
-        "Jiajun Wu"
+        "Muxi Diao",
+        "Wenbin Xu",
+        "Lele Yang",
+        "Xuyang Ma",
+        "Yuzhe Chen"
       ],
-      "link": "http://arxiv.org/abs/2610.32977v1",
-      "published": "2026-10-23",
+      "link": "http://arxiv.org/abs/2610.35864v1",
+      "published": "2026-10-26",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "The initial version of the document is available as a pdf file: http://i.",
-      "datasets": "I am really looking forward to the implementation of Unified Action Conditioning for World Models.",
-      "future_work": "http://www."
+      "key_methods": "For determining how often people use code to manage their data, I used a very simple algorithm to identify where they ar...",
+      "datasets": ".",
+      "future_work": "I›️️​."
+    }
+  },
+  {
+    "paper": {
+      "title": "Direct measurement of the ${}^{23}\\mathrm{Mg}(p, γ){}^{24}\\mathrm{Al}$ reaction using the DRAGON recoil separator and a hybrid array of $γ$-ray detectors",
+      "summary": "Background: The $^{23}$Mg$(p,γ)^{24}$Al reaction plays a key role in nova nucleosynthesis, serving as a bridge between the Ne-Na and Mg-Al cycles and impacting synthesis of a wide variety of nuclides. It is crucial that the rate of this reaction be well constrained by experimental data, in particular the properties of the key resonance at $E_{\\mathrm{cm}}\\approx480$ keV, which dominates the rate at nova temperatures.   Purpose: Our study aims to improve experimental constraints on the energy and strength of the key $E_{\\mathrm{cm}}\\approx480$ keV $^{23}$Mg$(p,γ)^{24}$Al resonance through a new direct measurement of its strength and energy.   Methods: We used a $^{23}\\mathrm{Mg}$ radioactive beam to directly observe capture into the $E_{\\mathrm{cm}}\\approx480$ keV resonance in inverse kinem",
+      "authors": [
+        "A. C. Edwin",
+        "G. Christian",
+        "A. Lennarz",
+        "I. Casandjian",
+        "S. M. Collins"
+      ],
+      "link": "http://arxiv.org/abs/2610.35860v1",
+      "published": "2026-10-26",
+      "categories": [
+        "nucl-ex",
+        "astro-ph.SR"
+      ]
+    },
+    "analysis": {
+      "key_methods": "To measure the distance of the electron in a sample, a single photon must be detected in the experiment\nThe total number...",
+      "datasets": "[3] We will be publishing a new paper with a full paper.",
+      "future_work": "This paper will be called “Growth and Growth” in the field of optical imaging."
     }
   }
 ]
