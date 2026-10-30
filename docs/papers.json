@@ -1,113 +1,117 @@
 [
   {
     "paper": {
-      "title": "The 't Hooft model on (A)dS$_2$",
-      "summary": "We solve large-$N$ two-dimensional QCD with fundamental quarks---the 't Hooft model---on rigid AdS$_2$ and dS$_2$. Their isometries preserve the null gauge $A_-=0$ and in affine coordinates the curvature enters the light-front Hamiltonian only through the special-conformal generator of the null line. The $SL(2,\\mathbb{R)}$ Casimir then results in an exact meson equation: 't Hooft's equation plus a Legendre operator whose sign is determined by the curvature. On AdS$_2$ it is related to equations proposed in the context of folded/segmented strings and light-front holography. The pion is massless in the chiral limit and obeys a Gell-Mann--Oakes--Renner relation that fixes the chiral condensate, the dimensions cross over from Regge to logarithmic growth once the flux tube exceeds the curvature",
+      "title": "Elucidating the Design Space of LM Data Attribution",
+      "summary": "Data attribution methods for Language Models (LMs) are typically evaluated using downstream tasks like fact retrieval. However, existing evaluations vary multiple dataset properties simultaneously, making it impossible to isolate exactly why an attribution algorithm fails. To diagnose these failures, we explore the design space of LLM data attribution, with a primary focus on evaluation. We introduce the Controlled Attribution Benchmark (CATT) for fact tracing, in which we fine-tune LLMs on entirely fictitious knowledge, providing unambiguous ground truth for attribution. This synthetic setup allows us to systematically alter one dataset configuration at a time, such as document redundancy and lexical distractors. With this configurable evaluation, we demonstrate that redundancy and distra",
       "authors": [
-        "Panos Betzios"
+        "Steven Yu",
+        "Sheng-Yu Wang",
+        "Kimia Hamidieh",
+        "Antonio Torralba",
+        "David Bau"
       ],
-      "link": "http://arxiv.org/abs/2610.37667v1",
-      "published": "2026-10-27",
+      "link": "http://arxiv.org/abs/2610.40655v1",
+      "published": "2026-10-29",
       "categories": [
-        "hep-th"
+        "cs.CL"
       ]
     },
     "analysis": {
-      "key_methods": "[ 1 ]\n[ 2 ]\n[ 3 ]\n[ 4 ]\n[ 5 ]\n[ 6 ]\n[ 7 ]\n[ 8 ]\n[ 9 ]\n[ 10 ]\n[ 11 ]\n[ 12 ]\n[.",
-      "datasets": "The 't Hooft model on (B)dS$_2$.",
-      "future_work": "The 't Hooft model on (A)dS$_2$."
+      "key_methods": "The study was funded by the Natural Resources Defense Council's National Science Foundation grant (10.",
+      "datasets": ".",
+      "future_work": "Hemma and Thomas G."
     }
   },
   {
     "paper": {
-      "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
-      "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fundamental trade-off between scalable data and explicit action grounding. We introduce ThinkWorld, a VLA learning framework that grounds action reasoning in world dynamics and strengthens it through reinforcement learning with world imagination. ThinkWorld represents each action thought as a Chain-of-Dynamics (CoD), a sequence of discrete motion tokens that captures the intermediate dynamics connecting the current world to a future state and serves as a common action representati",
+      "title": "Rethinking Neural Thickets Without Weight Perturbations",
+      "summary": "The Neural Thickets hypothesis posits that pretrained language models lie in dense neighborhoods of task-specific experts in weight space, which random Gaussian perturbations can uncover. We reproduce the reported gains, but show that they do not require this geometric explanation. Perturbing a single decoder block already recovers much of the improvement, while keeping the model entirely frozen and adding a random bias to its output logits matches or exceeds full-weight perturbations on most reasoning tasks. This suggests an alternative explanation based on output diversity, validation-based selection, and voting. We formalize this view as Perturb-Select-Vote (PSV), a general procedure that generates perturbed predictors, selects high-performing members on a small validation set, and aggr",
       "authors": [
-        "Chaehyun Kim",
-        "Chi-Pin Huang",
-        "Jisoo Kim",
-        "Min-Hung Chen",
-        "Yu-Chiang Frank Wang"
+        "Nicolas Dufour",
+        "Elouan Gardès",
+        "Amil Dravid",
+        "Patrick Pérez",
+        "Loic Landrieu"
       ],
-      "link": "http://arxiv.org/abs/2610.37666v1",
-      "published": "2026-10-27",
+      "link": "http://arxiv.org/abs/2610.40649v1",
+      "published": "2026-10-29",
       "categories": [
-        "cs.RO",
+        "cs.LG",
         "cs.AI",
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "A, B, C, D, E, F, G, I, J, M, N, O, P, Q, R, S, T, and Y.",
-      "datasets": "The following table summarizes the data from a data-based world generated by a data-based world.",
-      "future_work": "A key component of the present paper is the use of a dynamical chain of deterministic, non-linear, single-dimensional, n..."
+      "key_methods": ".",
+      "datasets": ".",
+      "future_work": "Sciences:\nThe American Society for the Advancement of Science, 2009."
     }
   },
   {
     "paper": {
-      "title": "Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?",
-      "summary": "Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multimodal modeling under a shared next-token prediction objective. However, quantization error is widely assumed to cause unavoidable semantic loss, fundamentally limiting the semantic fidelity of discrete visual tokens and positioning continuous visual representations as an intrinsic upper bound. Using multimodal understanding as a proxy for semantic fidelity, we revisit this assumption and find quantization error unreliable, as discrete representations with substantially larger errors can achieve better understanding. Instead, the effective bit budget of discrete indices emerges as a key determinant of downstream performance. However, existing quantizers eventually saturate ",
+      "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
+      "summary": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, while high-frequency detail can be modeled locally. Based on this insight, we introduce SpecSlot, a pixel-space rectified-flow Transformer that decouples output detail from the length of the global attention sequence. SpecSlot expands each spatial anchor into multiple slots, each assigned a disjoint band of DCT coefficients; this separates anchor density from spectral subdivision. Only the lowest-frequency slot from each anchor participates in global attention, while all slots int",
       "authors": [
-        "Jialv Zou",
-        "Xiaotong Li",
-        "Zhengrong Yue",
-        "Xu Huang",
-        "Yaxin Luo"
+        "Jiongfan Yang",
+        "Weichen Fan",
+        "Haiwen Diao",
+        "Zhongang Cai",
+        "Ziwei Liu"
       ],
-      "link": "http://arxiv.org/abs/2610.37662v1",
-      "published": "2026-10-27",
+      "link": "http://arxiv.org/abs/2610.40647v1",
+      "published": "2026-10-29",
       "categories": [
-        "cs.CV"
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "cs.NE"
       ]
     },
     "analysis": {
-      "key_methods": "The paper was designed to be presented in a wide variety of languages and is available in all languages.",
-      "datasets": "Fascinating.",
-      "future_work": "Using noninvasive neural networks to understand the underlying neural circuits that help us to communicate, visualize, a..."
+      "key_methods": "As described above, the main goal of this paper is to present the best known method for computing a pixel-space generate...",
+      "datasets": "The first few weeks of the month consisted of:\n1) the first batch of the following lines showing the data.",
+      "future_work": "Developed by the company, PixelSpace is an innovative platform for building and sharing information about the real-time ..."
     }
   },
   {
     "paper": {
-      "title": "Optimal quantum discrimination at Liouvillian exceptional points",
-      "summary": "Central to non-Hermitian sensing is the question of whether exceptional points (EPs) can make weak perturbations easier to detect. We show that despite enhanced spectral response, in finite-dimensional Lindblad systems with a unique stationary state and a nonzero relaxation gap, EPs offer no fundamental advantage in how the observation time required for reliable detection of a weak perturbation scales with the perturbation strength. We nevertheless demonstrate that by selectively choosing perturbations that enhance the quantum Fisher information rate, EPs can shorten the observation time needed to reach a predefined detection accuracy relative to a comparable non-EP reference at the same decay rate. As an illustration, we show using an optomechanical model at an EP that we can detect a wea",
+      "title": "JT gravity as a conformal scaling limit of random flat combinatorial disks",
+      "summary": "We prove that flat Jackiw--Teitelboim (JT) gravity arises as a conformal scaling limit of random flat combinatorial disks. We give a clean criterion, formulated in terms of branching explorations, for a discrete model to converge to this conjecturally universal limit. For simplicity, we apply this criterion to a Boltzmann ensemble of disks with rectilinear boundary, defined by summing over combinatorial types and integrating over lengths. As the length of a distinguished side tends to infinity, the rescaled surface converges in law to a continuum random surface prescribed by Ferrari's path-integral formulation of JT gravity. Convergence is in the topology of smooth convergence of the conformal factors on compact subsets of the interior when uniformizing in a fixed domain; the limiting conf",
       "authors": [
-        "Aritra Ghosh",
-        "M. Bhattacharya"
+        "Morris Ang"
       ],
-      "link": "http://arxiv.org/abs/2610.37660v1",
-      "published": "2026-10-27",
+      "link": "http://arxiv.org/abs/2610.40645v1",
+      "published": "2026-10-29",
       "categories": [
-        "quant-ph",
-        "math-ph",
-        "physics.optics"
+        "math.PR",
+        "math-ph"
       ]
     },
     "analysis": {
-      "key_methods": "A single, two-way, double-blind, double-blind, double-blind, double-blind, double-blind, double-blind, double-blind, dou...",
-      "datasets": "Liouvillian quantum discrimination at Liouvillian exceptional points.",
-      "future_work": "Optimal quantum discrimination at Liouvillian exceptional points."
+      "key_methods": "Calculating an FOC or a FOC.",
+      "datasets": "Gravity as a conformal scaling limit of random flat combinatorial disks.",
+      "future_work": "A, U, T, W, and K."
     }
   },
   {
     "paper": {
-      "title": "When Should We Intervene at Test Time?",
-      "summary": "Test-time adaptation helps a deployed model respond to changing inputs, but the same intervention can rescue one batch and damage the next. Updating normalization statistics, for example, can improve corrupted images yet fail when a batch contains mostly one class. Average accuracy hides these failures and cannot tell a model when to use an intervention. Target labels can guide this decision, but they are scarce and some choices are already clear. We introduce PORTAL, a controller that chooses when to deploy an intervention, which inputs to label, and when to stop querying. Each available prediction rule is a candidate, and its predictions are fixed before current feedback arrives. Every acquired label therefore evaluates all candidates on the same input. PORTAL combines these shared compa",
+      "title": "Adaptive Scenario Generation for KL-DRO Around a Learned Density Model",
+      "summary": "Distributionally robust optimization (DRO) hedges data-driven two-stage stochastic programs against error in the distribution estimated from a finite record, and standard ambiguity sets differ in how they treat realizations absent from that record. A divergence ball around the empirical distribution contains only reweightings of the record, whereas a transport ball also contains distributions supported off the record, including on realizations the data-generating process cannot produce, against which the decision is then hedged as well. We instead propose a Kullback-Leibler (KL) ball centered at a density model fitted to the record, the learned nominal, which lets the adversary up-weight costly unobserved realizations in proportion to the probability the model assigns them. Solving the res",
       "authors": [
-        "Jiahao Zhang",
-        "Xinling Wen",
-        "Liangliang Li",
-        "Yu Chen"
+        "Aron Brenner",
+        "Saurabh Amin"
       ],
-      "link": "http://arxiv.org/abs/2610.37658v1",
-      "published": "2026-10-27",
+      "link": "http://arxiv.org/abs/2610.40644v1",
+      "published": "2026-10-29",
       "categories": [
+        "eess.SY",
         "cs.LG"
       ]
     },
     "analysis": {
-      "key_methods": "1.",
-      "datasets": "Datasets and data structures are used to provide data structures and models.",
-      "future_work": "How do we get there?."
+      "key_methods": "The primary goal of this study was to show the potential for a population-based approach to the KL-DRO challenge.",
+      "datasets": "As a result, the KL-DRO is a better-known model for KL-DRO, and it is better than any of the other options.",
+      "future_work": "We have shown that long-term memory capacity in humans and animals is dependent on the ability to learn a new sequence o..."
     }
   }
 ]
