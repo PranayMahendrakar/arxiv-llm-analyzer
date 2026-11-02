@@ -1,117 +1,122 @@
 [
   {
     "paper": {
-      "title": "Elucidating the Design Space of LM Data Attribution",
-      "summary": "Data attribution methods for Language Models (LMs) are typically evaluated using downstream tasks like fact retrieval. However, existing evaluations vary multiple dataset properties simultaneously, making it impossible to isolate exactly why an attribution algorithm fails. To diagnose these failures, we explore the design space of LLM data attribution, with a primary focus on evaluation. We introduce the Controlled Attribution Benchmark (CATT) for fact tracing, in which we fine-tune LLMs on entirely fictitious knowledge, providing unambiguous ground truth for attribution. This synthetic setup allows us to systematically alter one dataset configuration at a time, such as document redundancy and lexical distractors. With this configurable evaluation, we demonstrate that redundancy and distra",
+      "title": "GazeRIB: Systematic Evaluation of Multi-Reader Gaze-Guided Chest X-ray Learning",
+      "summary": "Radiologists' visual attention can supervise medical image learning, but how reader panel composition affects its value remains untested. We evaluated GazeRIB (Gaze-guided Radiologist-Informed Blackout), which masks unviewed regions during training and uses unmasked images at inference. Eight experts repeatedly read the same 80 chest X-rays (CXRs). We compared individual readers with three-, five- and eight-reader panels across seven architectures and 10 seeds, evaluating 910 models on a separate 2,897-CXR cohort for four-class severity prediction. Every panel improved macro F1 over the no-gaze baseline by 5.33-7.47 percentage points (pp; Bonferroni-adjusted p < 0.007); no individual reader reached significance on this endpoint. Three readers captured 73-80% of the eight-reader gain in mac",
       "authors": [
-        "Steven Yu",
-        "Sheng-Yu Wang",
-        "Kimia Hamidieh",
-        "Antonio Torralba",
-        "David Bau"
+        "Nattakorn Kittisut",
+        "Roy M. Gabriel",
+        "Marly van Assen",
+        "Mohammadreza Zandehshahvar",
+        "Carlo N. De Cecco"
       ],
-      "link": "http://arxiv.org/abs/2610.40655v1",
-      "published": "2026-10-29",
+      "link": "http://arxiv.org/abs/2610.42152v1",
+      "published": "2026-10-30",
+      "categories": [
+        "cs.CV",
+        "cs.HC",
+        "eess.IV",
+        "eess.SP"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The first phase of the first phase of the first phase of the first phase of the first phase of the first phase of the fi...",
+      "datasets": "This was posted on Feb 12, 2015 at 12:23 am and is filed under the terms of the \"GazeRIB\" section of the Gaze Rental Pro...",
+      "future_work": "GazeRIB: Systematic Evaluation of Multi-Reader Gaze-Guided Chest X-ray Learning."
+    }
+  },
+  {
+    "paper": {
+      "title": "Model-Independent Assessments of Tidal Alignment and Density-Weighting Dependence in Galaxy Intrinsic Alignments",
+      "summary": "Intrinsic alignments (IA) of galaxies are an important source of systematic uncertainty in weak gravitational lensing measurements and also serve as a test for models of galaxy formation and evolution. These galaxy alignments are usually modeled assuming that the IA are sourced by the tidal fields around the galaxies. However, galaxy properties, like their proximity to other galaxies and their mass, provide alignment contributions beyond the tidal field. In this work, we perform novel model-agnostic tests to determine the impact of density-weighting on the IA of galaxies using data from the IllustrisTNG cosmological hydrodynamical simulation and SDSS-III (BOSS). We show that the primary effect of density-weighting is an increase of the alignment amplitude at large scales, whereas the small",
+      "authors": [
+        "Paul Rogozenski",
+        "Sukhdeep Singh",
+        "Jonathan Blazek",
+        "Rachel Mandelbaum",
+        "Hung-Jin Huang"
+      ],
+      "link": "http://arxiv.org/abs/2610.42151v1",
+      "published": "2026-10-30",
+      "categories": [
+        "astro-ph.CO"
+      ]
+    },
+    "analysis": {
+      "key_methods": ".",
+      "datasets": "Tidal Alignment and Density-Weighting Dependency in Galaxy Intrinsic Alignments, A.",
+      "future_work": "Frequency and size of the cell is a critical factor in cell composition, such as the concentration of hydrogen and oxyge..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Latent Reasoning in Continuous Space for Unified Multimodal Models",
+      "summary": "Unified Multimodal Models (UMMs) achieve remarkable success on diverse multimodal understanding and generation tasks, yet they still struggle to effectively leverage language-based chain-of-thought reasoning for image generation. As a result, existing reasoning-augmented UMMs often fail to inherit the test-time scaling and fine-grained controllability observed in large language models. We attribute this failure to a fundamental modality mismatch: reasoning is performed in a discrete token space, whereas image generation operates in a continuous space. To bridge this gap, we introduce a Latent Reasoning framework in Continuous space (LARC), which alleviates the token-level bottleneck by reasoning over continuous hidden states. Specifically, the training framework consists of two stages: (i)",
+      "authors": [
+        "Byungwoo Jeon",
+        "Yoonwoo Jeong",
+        "Hyunseok Lee",
+        "Minsu Cho",
+        "Jinwoo Shin"
+      ],
+      "link": "http://arxiv.org/abs/2610.42149v1",
+      "published": "2026-10-30",
+      "categories": [
+        "cs.CV",
+        "cs.CL",
+        "cs.LG"
+      ]
+    },
+    "analysis": {
+      "key_methods": "In the previous paper we used a multimodal model, which is used to calculate the spatial coordinates of the spacetime of...",
+      "datasets": ".",
+      "future_work": "If you have any questions about the implications of the use of continuous space for the purpose of integrating data into..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Flide: Accelerating Decision Inference with Exact State Forking",
+      "summary": "Decision models such as Jev have emerged as a highly promising paradigm for LLM agent systems, providing lightweight and reliable categorical reasoning for rapid System One execution. However, existing generation-oriented inference engines fail to support these workloads effectively, suffering from severe prefix recomputation overheads or distorted output probabilities. To address this challenge, we propose Flide, an efficient and exact inference engine that decouples the logical tree structure of a decision request from its physical execution within a single flattened token stream. Through ForkAttention, Flide navigates request dependencies using GPU-resident indices across both standard attention and recurrent Gated DeltaNet layers, guaranteeing in exact arithmetic that every query branc",
+      "authors": [
+        "Bobo Li",
+        "Jiajia Song",
+        "Hao Fei",
+        "Wynne Hsu",
+        "Mong Li Lee"
+      ],
+      "link": "http://arxiv.org/abs/2610.42148v1",
+      "published": "2026-10-30",
       "categories": [
         "cs.CL"
       ]
     },
     "analysis": {
-      "key_methods": "The LM Data Science Team, NASA, S.",
-      "datasets": "Elucidating the Design Space of LM Data Attribution.",
-      "future_work": "How to identify data using a technique such as the one described above, using a method that can be used to identify data..."
+      "key_methods": "The following tables represent the results of a randomized, double-blind, double-blind, double-blind, double-blind, doub...",
+      "datasets": "http://www.",
+      "future_work": "Methods for Evaluating the Theory of Modeling and Evolution."
     }
   },
   {
     "paper": {
-      "title": "Rethinking Neural Thickets Without Weight Perturbations",
-      "summary": "The Neural Thickets hypothesis posits that pretrained language models lie in dense neighborhoods of task-specific experts in weight space, which random Gaussian perturbations can uncover. We reproduce the reported gains, but show that they do not require this geometric explanation. Perturbing a single decoder block already recovers much of the improvement, while keeping the model entirely frozen and adding a random bias to its output logits matches or exceeds full-weight perturbations on most reasoning tasks. This suggests an alternative explanation based on output diversity, validation-based selection, and voting. We formalize this view as Perturb-Select-Vote (PSV), a general procedure that generates perturbed predictors, selects high-performing members on a small validation set, and aggr",
+      "title": "Latent Sparse Attention: Towards Subquadratic Ultra-Long Context Attention",
+      "summary": "Agentic workflows are increasingly shifting towards long-horizon tasks, such as open-ended scientific work, where models benefit from long context windows. However, at ultra-long context (above 1M tokens), full attention is prohibitively expensive. A promising approach is sparse attention, in which a dedicated indexer selects a subset of keys for the attention. Yet current methods of indexing either still have quadratic cost in context size or lose accuracy at ultra-long context scale. We address this with Latent Sparse Attention (LSA), an efficient attention method that maintains accuracy at ultra-long context. In LSA, keys are hierarchically clustered in a learned latent space, and queries score the hierarchy of clusters instead of scoring every key, making prefill, decode and training f",
       "authors": [
-        "Nicolas Dufour",
-        "Elouan Gardès",
-        "Amil Dravid",
-        "Patrick Pérez",
-        "Loic Landrieu"
+        "Ales Kubicek",
+        "Andrea Caciolai",
+        "Liangzu Peng",
+        "Sukrit Sumant",
+        "Benjamin Hoover"
       ],
-      "link": "http://arxiv.org/abs/2610.40649v1",
-      "published": "2026-10-29",
+      "link": "http://arxiv.org/abs/2610.42147v1",
+      "published": "2026-10-30",
       "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CV"
+        "cs.AI"
       ]
     },
     "analysis": {
       "key_methods": ".",
-      "datasets": ".",
-      "future_work": "In this article I will present my work on the concept of weight-loss and a new concept for weight-loss: a new concept fo..."
-    }
-  },
-  {
-    "paper": {
-      "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
-      "summary": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, while high-frequency detail can be modeled locally. Based on this insight, we introduce SpecSlot, a pixel-space rectified-flow Transformer that decouples output detail from the length of the global attention sequence. SpecSlot expands each spatial anchor into multiple slots, each assigned a disjoint band of DCT coefficients; this separates anchor density from spectral subdivision. Only the lowest-frequency slot from each anchor participates in global attention, while all slots int",
-      "authors": [
-        "Jiongfan Yang",
-        "Weichen Fan",
-        "Haiwen Diao",
-        "Zhongang Cai",
-        "Ziwei Liu"
-      ],
-      "link": "http://arxiv.org/abs/2610.40647v1",
-      "published": "2026-10-29",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.LG",
-        "cs.NE"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The following are generated in source code.",
-      "datasets": "There are a lot of different versions of the original.",
-      "future_work": "A new set of smart-ass solutions is to create new kinds of smart-ass solutions for the growing number of smart-ass solut..."
-    }
-  },
-  {
-    "paper": {
-      "title": "JT gravity as a conformal scaling limit of random flat combinatorial disks",
-      "summary": "We prove that flat Jackiw--Teitelboim (JT) gravity arises as a conformal scaling limit of random flat combinatorial disks. We give a clean criterion, formulated in terms of branching explorations, for a discrete model to converge to this conjecturally universal limit. For simplicity, we apply this criterion to a Boltzmann ensemble of disks with rectilinear boundary, defined by summing over combinatorial types and integrating over lengths. As the length of a distinguished side tends to infinity, the rescaled surface converges in law to a continuum random surface prescribed by Ferrari's path-integral formulation of JT gravity. Convergence is in the topology of smooth convergence of the conformal factors on compact subsets of the interior when uniformizing in a fixed domain; the limiting conf",
-      "authors": [
-        "Morris Ang"
-      ],
-      "link": "http://arxiv.org/abs/2610.40645v1",
-      "published": "2026-10-29",
-      "categories": [
-        "math.PR",
-        "math-ph"
-      ]
-    },
-    "analysis": {
-      "key_methods": "We used a linear linear linear linear linear log-linear linear linear log-linear linear log-linear log-linear linear log...",
-      "datasets": ".",
-      "future_work": "How do we get these non-linear, self-regulating non-linear linear discarding functions?\n\nThis paper introduces the conce..."
-    }
-  },
-  {
-    "paper": {
-      "title": "Adaptive Scenario Generation for KL-DRO Around a Learned Density Model",
-      "summary": "Distributionally robust optimization (DRO) hedges data-driven two-stage stochastic programs against error in the distribution estimated from a finite record, and standard ambiguity sets differ in how they treat realizations absent from that record. A divergence ball around the empirical distribution contains only reweightings of the record, whereas a transport ball also contains distributions supported off the record, including on realizations the data-generating process cannot produce, against which the decision is then hedged as well. We instead propose a Kullback-Leibler (KL) ball centered at a density model fitted to the record, the learned nominal, which lets the adversary up-weight costly unobserved realizations in proportion to the probability the model assigns them. Solving the res",
-      "authors": [
-        "Aron Brenner",
-        "Saurabh Amin"
-      ],
-      "link": "http://arxiv.org/abs/2610.40644v1",
-      "published": "2026-10-29",
-      "categories": [
-        "eess.SY",
-        "cs.LG"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The first phase of the KL-DRO Model was a theoretical experiment that was designed to simulate the KL-DRO model of KL-DR...",
-      "datasets": "(a) Adaptive Scenario Generates to KL-DRO.",
-      "future_work": "Adaptive Scenario Generation for KL-DRO Around a Learned Density Model."
+      "datasets": "A) I see this as something else, rather than being a direct consequence of my work on the subject.",
+      "future_work": "In the past, we have been investigating how, by contrast, we can learn how to recognize and recognize different location..."
     }
   }
 ]
