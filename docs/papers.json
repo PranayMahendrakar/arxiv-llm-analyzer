@@ -1,118 +1,117 @@
 [
   {
     "paper": {
-      "title": "From Pixels to Actions - Towards Native Vision-Language-Action Policies",
-      "summary": "Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes. This raises a fundamental question: should action policies inherit a fixed visual endpoint, or directly access evolving visual computation? We introduce NEO-VLA, a structurally encoder-free vision-language-action framework. Images are tokenized by lightweight patch convolutional layers and evolve jointly with language throughout the backbone, allowing a flow-matching action expert to draw from instruction-conditioned visual representations at different depths. Th",
+      "title": "BeAR: The Bern Atmospheric Retrieval code - A GPU-accelerated framework for low-resolution, high-resolution, and joint retrievals of exoplanet atmospheres",
+      "summary": "We present BeAR, the Bern Atmospheric Retrieval code and successor of Helios-r, and its new high-resolution cross-correlation framework for emission and transmission spectra. BeAR performs joint retrievals by adding the log-likelihoods of high- and low-resolution data computed from the same model atmosphere. The framework implements established cross-correlation log-likelihoods, with the line-depth scaling either fitted analytically or sampled as a free parameter, their per-pixel generalization, fast model filtering, and model re-injection adapted to this filtering. The forward model and likelihood run entirely on a graphics processing unit (GPU). One forward model takes about 1 ms on an NVIDIA GH200, allowing millions of models per minute on a GPU cluster. In separate retrievals of Gemini",
       "authors": [
-        "Weichen Fan",
-        "Haiwen Diao",
-        "Penghao Wu",
-        "Siyuan Hu",
-        "Ziqi Huang"
+        "Esther Wang",
+        "Daniel Kitzmann",
+        "H. Jens Hoeijmakers",
+        "Joost P. Wardenier",
+        "Helena Lecoq-Molinos"
       ],
-      "link": "http://arxiv.org/abs/2611.06918v1",
-      "published": "2026-11-04",
-      "categories": [
-        "cs.CV"
-      ]
-    },
-    "analysis": {
-      "key_methods": "1) Create a document with the following contents:\npublic class Pixels { /** * Construct a document to illustrate your vi...",
-      "datasets": "We also provided our own tools for creating and sharing these tools.",
-      "future_work": "A more detailed and more detailed approach to managing native-language-action policy."
-    }
-  },
-  {
-    "paper": {
-      "title": "ReveaLLAGN 3: Revealing the Infrared Spectral Energy Distributions of Low Luminosity AGN",
-      "summary": "The spectral energy distributions of active galactic nuclei (AGN) provide valuable information on the emission mechanisms taking place in their inner regions. Here we use the James Webb Space Telescope to study the near and mid-infrared spectral energy distributions of seven nearby low-luminosity active galaxy nuclei from 1.7 to 24 $μm$. We cleanly separate the AGN spectrum by performing spatial fits of the two-dimensional images across all wavelengths. We then compare these clean unresolved spectra to aperture-based spectra and show that they effectively remove galaxy contamination. Comparing our infrared measurements to X-ray emission, we find that low-luminosity AGN have enhanced near-infrared emission relative to more luminous AGN, a trend that correlates with radio-loudness, while the",
-      "authors": [
-        "David Ohlson",
-        "Anil C. Seth",
-        "Kameron Goold",
-        "Nischal Acharya",
-        "Torsten Böker"
-      ],
-      "link": "http://arxiv.org/abs/2611.06916v1",
-      "published": "2026-11-04",
-      "categories": [
-        "astro-ph.GA"
-      ]
-    },
-    "analysis": {
-      "key_methods": ".",
-      "datasets": "The Fermi Gamma-ray Spectrographs of the NGC 3500 (Amm) can be used to measure the light-intensity of the light emitted ...",
-      "future_work": "."
-    }
-  },
-  {
-    "paper": {
-      "title": "Preparing for the Gaia DR4 Epochalypse: Simulated Epoch Astrometry for Substellar Companion Orbit-Modeling Benchmarks",
-      "summary": "Gaia's fourth data release (DR4) will provide epoch astrometry for billions of sources, enabling the detection of potentially tens of thousands of substellar companions. We present the epochalypse catalog: Gaia DR4-like epoch astrometry for testing orbit-modeling pipelines on a common set of injected systems with known parameters. Onto each of the $5{,}040{,}328$ main-sequence Gaia stars within $500\\,{ \\rm pc}$ in the G23H catalog, we inject a zero-, one-, and two-companions system, for $15{,}120{,}984$ systems in total. Companion masses and semimajor axes are drawn log-uniformly over $1\\,M_{ \\rm Mars}$--$80\\,M_{ \\rm Jup}$ and $0.03$--$100\\,{ \\rm au}$, with no occurrence model and no detectability cut, so orbital periods extend well beyond the mission baseline and the companion-free popula",
-      "authors": [
-        "Daniel A. Yahalomi",
-        "Adrian M. Price-Whelan",
-        "Jessica Speedie",
-        "William Thompson",
-        "Megan Bedell"
-      ],
-      "link": "http://arxiv.org/abs/2611.06915v1",
-      "published": "2026-11-04",
+      "link": "http://arxiv.org/abs/2611.08489v1",
+      "published": "2026-11-05",
       "categories": [
         "astro-ph.EP",
         "astro-ph.IM"
       ]
     },
     "analysis": {
-      "key_methods": "The Gaia DR4 model was used to simulate the Earth's orbit around the Sun using a simulation of the Earth's orbit around ...",
-      "datasets": "The Gaia DR4 Epochalypse is an astrometry based on the first ever Gaia spacecraft and is a new study on the evolution of...",
-      "future_work": "A new super-resolution model of the Gaia-Discovery mission could be used to study the formation of the Gaia-Discovery mo..."
+      "key_methods": ".",
+      "datasets": "The Bern Atmospheric Retrieval code - A GPU-accelerated framework for low-resolution, high-resolution, and joint retriev...",
+      "future_work": "A novel and novel way to generate large amounts of data in a highly-contributed (and often massively high-resolution) da..."
     }
   },
   {
     "paper": {
-      "title": "A Framework for Context Enrichment and Selective Robustness in LLM Social Agents",
-      "summary": "Researchers use large language models as agents in social simulations, where agents are prompted with observations and background information intended to shape their actions. Yet LLM agents have been shown to substantially change their behavior under meaning-preserving prompt variations, creating a validation problem for social simulation. One plausible hypothesis is that this brittleness reflects a lack of grounding and can be reduced by enriching the context provided to the agents. Whether richer context improves robustness remains unclear, in part because context richness and robustness are rarely defined in ways that support controlled comparisons. We address the first need with controlled context enrichment, a set of prompt substitution rules that systematically enriches distinct type",
+      "title": "Provable circuit-level thresholds for non-abelian topological phases",
+      "summary": "We provide an explicit scheme to realize a quantum memory in any 2D non-chiral topological order. For this, we construct syndrome extraction circuits based on the Turaev-Viro path integral as well as a classical algorithm for decoding on the fly. We prove that our scheme has a threshold under a local stochastic circuit-level noise model and discuss how to generalize it to implement topological logical gates.",
       "authors": [
-        "Mattia Greiche",
-        "Reihaneh Rabbany",
-        "Maximilian Puelma Touzel"
+        "Yuanjie Ren",
+        "Margarita Davydova",
+        "Shankar Balasubramanian",
+        "Andreas Bauer"
       ],
-      "link": "http://arxiv.org/abs/2611.06914v1",
-      "published": "2026-11-04",
+      "link": "http://arxiv.org/abs/2611.08488v1",
+      "published": "2026-11-05",
       "categories": [
-        "cs.MA",
-        "cs.CL",
-        "cs.LG"
+        "quant-ph",
+        "cond-mat.str-el",
+        "math-ph"
       ]
     },
     "analysis": {
-      "key_methods": "The authors presented a sample dataset.",
-      "datasets": "The following work has been used in a number of research studies.",
-      "future_work": "In addition to the work of Geller, Kallner, and Geller, there is an active effort to improve the understanding of the so..."
+      "key_methods": "The study has been supported by the National Institutes of Health (NIH) and the United States Army Research Institute (U...",
+      "datasets": "Precision frequency of the C-VPCP-X-A-RxC-LxA-RxLX-A-RxC-LX-A-RxC-LX-A-R.",
+      "future_work": "Using the same algorithm to measure the number of times the number of non-abelian topological phases is used to predict ..."
     }
   },
   {
     "paper": {
-      "title": "FlowReconBench: Accuracy, calibration and cost of learned and classical flow reconstruction from sparse sensors",
-      "summary": "Reconstructing full flow fields from sparse sensors requires prior assumptions about unmeasured regions and physical variables. Yet it remains unclear when learned models outperform classical estimators and which aspects of their predictions can be trusted. FlowReconBench evaluates ten learned and five classical methods on three regimes: a laminar cylinder wake across Reynolds numbers, two-dimensional Kolmogorov turbulence and a large-scale three-dimensional (3D) isotropic turbulence. Methods share leakage-controlled splits and sensor draws and are scored on per-channel error, ensemble spread, calibration, spectra and cost. The leading method changes for each regime. Classical methods perform strongly in low-order and dense-sensing regimes. On the cylinder wake, linear stochastic estimatio",
+      "title": "User Embeddings are Superpositions of Interpretable Behavioral Modes",
+      "summary": "User embeddings are central components of modern recommendation, personalization, and behavioral modeling systems. Though these embeddings can compactly encode rich behavioral information, they are inherently dense and opaque, limiting interpretability. To address this gap, we argue that user embeddings can be understood as sparse superpositions of interpretable behavioral modes. This structure is directly predicted by generative models of user behavior for linear embeddings and extends approximately to deep-learning representations by the superposition hypothesis. Superimposed modes can naturally be recovered by sparse dictionary learning methods, such as sparse autoencoders (SAEs), and recovered modes can be automatically named and queried in natural language. We validate mode recovery a",
       "authors": [
-        "Nicolas Tricard",
-        "Linzheng Wang",
-        "Jason Chen",
-        "Sili Deng"
+        "Jonathan Kozaczuk",
+        "Zheng Dong",
+        "Noyan Evirgen",
+        "Keivan Majidi",
+        "Eddie K. H. Ng"
       ],
-      "link": "http://arxiv.org/abs/2611.06912v1",
-      "published": "2026-11-04",
+      "link": "http://arxiv.org/abs/2611.08487v1",
+      "published": "2026-11-05",
       "categories": [
-        "physics.flu-dyn",
         "cs.LG"
       ]
     },
     "analysis": {
-      "key_methods": "The flowReconBench was created using the following algorithm:\nFlowReconBench was created using the following algorithm:\n...",
-      "datasets": "The data obtained in the article was from the R.",
-      "future_work": "We will publish results from a previous paper on the flow and operation of a flow decoder in a paper published in the Ne..."
+      "key_methods": "Machine learning (MBS) was applied to all students at the University of California, Berkeley.",
+      "datasets": ".",
+      "future_work": "Author: David J."
+    }
+  },
+  {
+    "paper": {
+      "title": "Do You Miss the Nights We Spent Crafting Figures? Rethinking Teaser and Framework Figures in the Age of Generative AI",
+      "summary": "Scientific figures give research ideas a visual form through choices of abstraction, composition, and emphasis. Generative AI offers new ways to realize these choices, raising questions about explanatory clarity and purposeful visual expression. We examine these questions through a visual retrospective of 371 motivation and framework figures from 200 papers. The corpus comprises a quota-based main sample of 160 papers spanning four temporal periods and a separate purposive style-contrast sample of 40 papers. A single multimodal judge evaluates six dimensions of communication and design, with three repeated judgments per figure. We attempt source-constrained revisions of all 371 figures, of which 369 pass the recorded fidelity checks. Original-figure ratings show no uniform decline across p",
+      "authors": [
+        "Xiaoqi Zhao",
+        "Youwei Pang",
+        "Kailai Zhou"
+      ],
+      "link": "http://arxiv.org/abs/2611.08486v1",
+      "published": "2026-11-05",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The primary goal of the study was to demonstrate the relationship between game design and game design to the quality of ...",
+      "datasets": "The following table is based on a dataset released by Adobe Research in 2012, an early version of the Dataset, based on ...",
+      "future_work": "In the future, it may be possible to find ways to create interactive forms of robots that can perform tasks that are not..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Where and Why is Grounded Reasoning Useful?",
+      "summary": "Grounded reasoning, where a model outputs text coordinates of relevant locations in chain-of-thought reasoning, is a common strategy for solving complex visual reasoning problems. However, the benefits and limitations of grounded reasoning are understudied. We study where and why grounded reasoning is most useful. To do so, we introduce a chain-of-thought analysis method to measure how much a model uses its outputted grounding in its thinking trace and perform a detailed ablation study of a grounded reasoning training recipe. We find that grounded reasoning improves counting but shows no significant gain over baselines without coordinate grounding across a wide range of spatial reasoning and perception benchmarks. Using several synthetic tasks, we show that grounded reasoning is most usefu",
+      "authors": [
+        "David Yan",
+        "Le Xue",
+        "Forrest Huang",
+        "Qiuyi Zhang",
+        "Dustin Tran"
+      ],
+      "link": "http://arxiv.org/abs/2611.08485v1",
+      "published": "2026-11-05",
+      "categories": [
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "Method:\nMethod:\nMethod:\nMethod:\nMethod:\nMethod:\nMethod:\nMethod:\nMethod:\nMethod:\nMethod:\nMethod:\nMethod:\nMethod:\nMethod:\n...",
+      "datasets": "One of the best ways to get ideas for a database database is to combine a single database.",
+      "future_work": "Why are grounded reasoning useful?\nThis article is part of a series on the philosophy and nature of the field."
     }
   }
 ]
