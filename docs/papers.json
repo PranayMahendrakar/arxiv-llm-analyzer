@@ -1,117 +1,117 @@
 [
   {
     "paper": {
-      "title": "BeAR: The Bern Atmospheric Retrieval code - A GPU-accelerated framework for low-resolution, high-resolution, and joint retrievals of exoplanet atmospheres",
-      "summary": "We present BeAR, the Bern Atmospheric Retrieval code and successor of Helios-r, and its new high-resolution cross-correlation framework for emission and transmission spectra. BeAR performs joint retrievals by adding the log-likelihoods of high- and low-resolution data computed from the same model atmosphere. The framework implements established cross-correlation log-likelihoods, with the line-depth scaling either fitted analytically or sampled as a free parameter, their per-pixel generalization, fast model filtering, and model re-injection adapted to this filtering. The forward model and likelihood run entirely on a graphics processing unit (GPU). One forward model takes about 1 ms on an NVIDIA GH200, allowing millions of models per minute on a GPU cluster. In separate retrievals of Gemini",
+      "title": "Video-Coder: Reinforcing Agentic Coding for Video Generation",
+      "summary": "Recent years have witnessed remarkable progress in video generation in terms of visual quality and temporal consistency. However, generating videos with precise spatial structure, coherent motion dynamics, and controllable scene composition remains challenging. In this paper, we introduce Video-Coder, the first attempt to train a code-driven video generation agent, which autonomously writes and executes code to construct a dynamic 3D scene (Draft Video) that provides structure and motion signals to downstream video generators. To support this paradigm, we design a dedicated data pipeline and curate two high-quality datasets, Video-Coder-SFT-6k and Video-Coder-RL-2k, which contain diverse prompts and ground-truth reference videos. We further develop the Video- Coder Harness, a unified inter",
       "authors": [
-        "Esther Wang",
-        "Daniel Kitzmann",
-        "H. Jens Hoeijmakers",
-        "Joost P. Wardenier",
-        "Helena Lecoq-Molinos"
+        "Chaoyang Wang",
+        "Sicheng Gao",
+        "Junan Hu",
+        "Kunyang Li",
+        "Dongyang Chen"
       ],
-      "link": "http://arxiv.org/abs/2611.08489v1",
-      "published": "2026-11-05",
+      "link": "http://arxiv.org/abs/2611.09894v1",
+      "published": "2026-11-06",
       "categories": [
-        "astro-ph.EP",
-        "astro-ph.IM"
+        "cs.CV"
+      ]
+    },
+    "analysis": {
+      "key_methods": "A standard computer program (C++) is used for decoding and decoding.",
+      "datasets": "The goal of this paper is to show that for every hour we can decode the text content, it is used to find the content tha...",
+      "future_work": "Creating a new class of Coder that creates a new class of Coder that creates a new class of Coder that creates a new cla..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Challenges for minimal warm inflation in the Standard Model and beyond",
+      "summary": "A minimal realisation of warm inflation, even within the Standard Model, assumes that the inflaton $φ$ couples via the effective operator $φ\\, G\\tilde G$. We show that the SM solutions are in tension with the plasma calculation (as each sphaleron transition releases an energy much larger than the temperature) and with the assumed effective operator description. Embedding $φ$ as the Goldstone boson of a renormalizable Peccei-Quinn theory requires an anomaly coefficient $\\gtrsim100$, implying a Landau pole for QCD. These tensions are relaxed for more strongly coupled dark gauge sectors.",
+      "authors": [
+        "Anish Ghoshal",
+        "Alessandro Strumia"
+      ],
+      "link": "http://arxiv.org/abs/2611.09893v1",
+      "published": "2026-11-06",
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO"
       ]
     },
     "analysis": {
       "key_methods": ".",
-      "datasets": "B.",
-      "future_work": "MOSCOW (Reuters) - The European Space Agency (ESA) has announced plans for an unprecedented and unprecedented high-resol..."
+      "datasets": "Lacking data from a small subset of the data can be difficult to reconcile with the fact that the current system is base...",
+      "future_work": "Future studies will explore the impacts of this new concept in general."
     }
   },
   {
     "paper": {
-      "title": "Provable circuit-level thresholds for non-abelian topological phases",
-      "summary": "We provide an explicit scheme to realize a quantum memory in any 2D non-chiral topological order. For this, we construct syndrome extraction circuits based on the Turaev-Viro path integral as well as a classical algorithm for decoding on the fly. We prove that our scheme has a threshold under a local stochastic circuit-level noise model and discuss how to generalize it to implement topological logical gates.",
+      "title": "On Agentic Manipulation Policies",
+      "summary": "Recent work on robot manipulation has focused on specialist policies trained on demonstrations. We show that generalist AI models can control manipulators more reliably than specialist policies such as vision-language-action models (VLAs) and world-action models (WAMs). We systematically analyze agentic manipulation policies (AMPs), in which a generalist AI model commands the manipulator directly, adapting its actions as the task unfolds. We present AMP1, a reference harness that runs unchanged across single-arm, bimanual, and mobile manipulation. AMP1 achieves state-of-the-art results on the RoboLab-120 and CaP-Gym benchmarks, with no demonstrations or task-specific training. On RoboLab-120, AMP1 reaches an 85.6\\% success rate zero-shot, compared to 49.2\\% and 42.9\\% for leading VLA and W",
       "authors": [
-        "Yuanjie Ren",
-        "Margarita Davydova",
-        "Shankar Balasubramanian",
-        "Andreas Bauer"
+        "Chen Chen",
+        "Omid Bagherieh",
+        "Naveen Nikamanth Appiah Balaji",
+        "Jesse T. Gonzalez",
+        "Negin Heravi"
       ],
-      "link": "http://arxiv.org/abs/2611.08488v1",
-      "published": "2026-11-05",
+      "link": "http://arxiv.org/abs/2611.09892v1",
+      "published": "2026-11-06",
       "categories": [
-        "quant-ph",
-        "cond-mat.str-el",
-        "math-ph"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The first step was to define the threshold threshold threshold for non-abelian topological phases.",
-      "datasets": ":\n:\n:\n:\n:\n:\n:\n:\n:\n:\n:\n:\n:\n:\n:\n:\n:\n:\n:\n:\n:\n:\n:\n:\n:.",
-      "future_work": "."
-    }
-  },
-  {
-    "paper": {
-      "title": "User Embeddings are Superpositions of Interpretable Behavioral Modes",
-      "summary": "User embeddings are central components of modern recommendation, personalization, and behavioral modeling systems. Though these embeddings can compactly encode rich behavioral information, they are inherently dense and opaque, limiting interpretability. To address this gap, we argue that user embeddings can be understood as sparse superpositions of interpretable behavioral modes. This structure is directly predicted by generative models of user behavior for linear embeddings and extends approximately to deep-learning representations by the superposition hypothesis. Superimposed modes can naturally be recovered by sparse dictionary learning methods, such as sparse autoencoders (SAEs), and recovered modes can be automatically named and queried in natural language. We validate mode recovery a",
-      "authors": [
-        "Jonathan Kozaczuk",
-        "Zheng Dong",
-        "Noyan Evirgen",
-        "Keivan Majidi",
-        "Eddie K. H. Ng"
-      ],
-      "link": "http://arxiv.org/abs/2611.08487v1",
-      "published": "2026-11-05",
-      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV",
         "cs.LG"
       ]
     },
     "analysis": {
-      "key_methods": "The first is to examine how the individual process of interpreting and interpreting behavior and behaviors are performed.",
-      "datasets": "I've got a couple of interesting concepts:\nThe first idea is that the computer can learn the algorithms for the behavior...",
-      "future_work": "Our understanding of the nature of our human body’s biological systems and the potential for future neuroimaging."
+      "key_methods": "The primary research and study design was conducted by Dr.",
+      "datasets": "The above data shows that when the U.",
+      "future_work": "The first step is to develop a new approach to the use of agentsic manipulation (T."
     }
   },
   {
     "paper": {
-      "title": "Do You Miss the Nights We Spent Crafting Figures? Rethinking Teaser and Framework Figures in the Age of Generative AI",
-      "summary": "Scientific figures give research ideas a visual form through choices of abstraction, composition, and emphasis. Generative AI offers new ways to realize these choices, raising questions about explanatory clarity and purposeful visual expression. We examine these questions through a visual retrospective of 371 motivation and framework figures from 200 papers. The corpus comprises a quota-based main sample of 160 papers spanning four temporal periods and a separate purposive style-contrast sample of 40 papers. A single multimodal judge evaluates six dimensions of communication and design, with three repeated judgments per figure. We attempt source-constrained revisions of all 371 figures, of which 369 pass the recorded fidelity checks. Original-figure ratings show no uniform decline across p",
+      "title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
+      "summary": "Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, which forces them to solve every problem from scratch. We show that once a task has been reasoned through, the application of its solution to a new problem instance can be done very efficiently and with little involvement from language models. We introduce agentic reasoning caching, a method for constructing robust CPU-executable agentic reasoning caches (ARCs) from LLM reasoning traces. ARCs show on-par performance with frontier LLMs across a range of difficult mathematical and scientific tasks, are fully explainable, continually trainable, robust to input perturbations, and 16-291x cheaper to invoke than the source model.",
       "authors": [
-        "Xiaoqi Zhao",
-        "Youwei Pang",
-        "Kailai Zhou"
+        "Peter Belcak",
+        "Greg Heinrich",
+        "Saurav Muralidharan",
+        "Shizhe Diao",
+        "Pavlo Molchanov"
       ],
-      "link": "http://arxiv.org/abs/2611.08486v1",
-      "published": "2026-11-05",
+      "link": "http://arxiv.org/abs/2611.09891v1",
+      "published": "2026-11-06",
       "categories": [
-        "cs.CV"
+        "cs.AI"
       ]
     },
     "analysis": {
-      "key_methods": "Materials:\n- A sample of 20 000-1200-0-0190-0-0099-1-0-0099-1-0-0099-1-0-0099-1-0-0099.",
-      "datasets": "The following are a few of the ways you can make them more accessible to you.",
-      "future_work": "How to build and control massive and dynamic, dynamic, and persistent intelligent robots."
+      "key_methods": "1)\nTo make a simple Python script for the server, we must first define a few simple rules:\n2)\n3)\n4)\n5)\n6)\n7)\n8)\n9)\n10).",
+      "datasets": "I’m not sure why I’m going to write this post on this one.",
+      "future_work": "A method of designing an algorithm that uses the following assumptions is a good example of this."
     }
   },
   {
     "paper": {
-      "title": "Where and Why is Grounded Reasoning Useful?",
-      "summary": "Grounded reasoning, where a model outputs text coordinates of relevant locations in chain-of-thought reasoning, is a common strategy for solving complex visual reasoning problems. However, the benefits and limitations of grounded reasoning are understudied. We study where and why grounded reasoning is most useful. To do so, we introduce a chain-of-thought analysis method to measure how much a model uses its outputted grounding in its thinking trace and perform a detailed ablation study of a grounded reasoning training recipe. We find that grounded reasoning improves counting but shows no significant gain over baselines without coordinate grounding across a wide range of spatial reasoning and perception benchmarks. Using several synthetic tasks, we show that grounded reasoning is most usefu",
+      "title": "SciCheck: A Framework for Verifying the Integrity of Deep Learning Training",
+      "summary": "Deep learning training is difficult to verify within a scientific workflow: its architecture, hyperparameters, and procedure are rarely fixed until training has been attempted, and two honest runs never produce the same weights, so recomputation cannot serve as a check. We present SciCheck, a framework in which the scientist explores training configurations freely and posts a blueprint to a provenance ledger for each candidate they want verified, and a verifying scientist judges the resulting run in two layers: a statistical judge model that compares per-step gradient statistics against the verifier's own reference run, and a spot-check that re-executes randomly chosen training segments whose checkpoints are committed to the ledger one epoch at a time. On an MLP, a CNN, and an autoencoder ",
       "authors": [
-        "David Yan",
-        "Le Xue",
-        "Forrest Huang",
-        "Qiuyi Zhang",
-        "Dustin Tran"
+        "Alexander Nguyen",
+        "Dylan Gresham",
+        "Gaby G. Dagher",
+        "Min Long"
       ],
-      "link": "http://arxiv.org/abs/2611.08485v1",
-      "published": "2026-11-05",
+      "link": "http://arxiv.org/abs/2611.09889v1",
+      "published": "2026-11-06",
       "categories": [
-        "cs.CV"
+        "cs.CR"
       ]
     },
     "analysis": {
-      "key_methods": "The author is Robert C.",
-      "datasets": "The paper does not address all of these questions, but it makes clear that the paper is more relevant to the field of ph...",
-      "future_work": "Where and Why is Grounded Reasoning Useful?\nAdvertisements."
+      "key_methods": ".",
+      "datasets": "Data Source: IBM, Google,\nReverse:\n(Note: the data contained in the datasets are the same as the values in the datasets,...",
+      "future_work": "How Deep Learning Works."
     }
   }
 ]
