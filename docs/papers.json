@@ -1,119 +1,116 @@
 [
   {
     "paper": {
-      "title": "The full Gaia colour-magnitude diagram with white dwarfs reveals a declining Milky Way star formation history",
-      "summary": "White dwarfs (WDs) provide a fossil record of the Milky Way star formation history (SFH) through the combined effects of stellar evolution and cooling. They have, however, generally been modelled in isolation from the non-degenerate population, so that no single self-consistent set of Galactic assumptions has been required to reproduce both. We present CALOMERA, a semi-analytic chemo-dynamical population synthesis framework in which the vertical density profiles of mono-age subpopulations are computed self-consistently with the Galactic potential and coupled to modern WD cooling sequences, metallicity-dependent progenitor lifetimes and synthetic photometry. We calibrate 18 parameters describing the initial mass function, SFH, initial-final mass relation and WD population against a Gaia DR3",
+      "title": "Pairing AIS with RF: Analysis of a Markovian Approach for Maritime Data Fusion",
+      "summary": "Monitoring maritime activities is important for safety and security, particularly for detecting illegal activities, but remains challenging due to the size and complexity of the maritime domain. The Automatic Identification System (AIS) is commonly used for this purpose, despite its known vulnerabilities. In contrast, space-based radio frequency (RF) observations provide an independent source of vessel activity but lack ship identification and therefore cannot identify vessels on their own. Following the CRISP-DM process, this study applies a Pair Hidden Markov Model (PHMM) to align individual RF detections with AIS trajectories, using temporal and spatial information while modeling noise and timing discrepancies. We evaluate it on NOAA AIS data with synthetic RF detections against nearest",
       "authors": [
-        "K. Sysoliatina",
-        "Akash Vani"
+        "Daniel Grimm",
+        "Kyra Jongman",
+        "Renato Cordeiro Ferreira",
+        "Giuseppe Cascavilla",
+        "Alfredo Cuzzocrea"
       ],
-      "link": "http://arxiv.org/abs/2611.17337v1",
-      "published": "2026-11-12",
+      "link": "http://arxiv.org/abs/2611.18563v1",
+      "published": "2026-11-13",
       "categories": [
-        "astro-ph.GA",
-        "astro-ph.SR"
+        "cs.LG",
+        "cs.CR"
       ]
     },
     "analysis": {
-      "key_methods": "(a) The central and secondary features of the Milky Way are a high density of hydrogen and helium.",
-      "datasets": "Earth is a distant galaxy, surrounded by the Milky Way.",
-      "future_work": "From the early days of the universe, this paper aims to understand the evolution of Milky Way stars by analysing the dat..."
+      "key_methods": "Analysis of the data set of the US Marine Corps, US Marine Corps, US National Guard, US Naval Research Laboratory, US Na...",
+      "datasets": "The following table describes a method to compare a Markovian approach to a Markovian approach to a Markovian approach t...",
+      "future_work": "Using a computerized search engine to analyze data from all the data from a single database, the team showed that the mo..."
     }
   },
   {
     "paper": {
-      "title": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
-      "summary": "Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compression made training tractable, but now limits high-resolution, controllable, and interactive generation -- doubling resolution quadruples token count, conditions apply to groups of frames rather than individual ones, and each response must wait for the rest of its multi-frame block. We present PixVid, a simple yet effective method that lifts a pretrained latent video model to directly generate every frame in pixel space. PixVid keeps the diffusion transformer and replaces the VAE decoder with a convolutional head that renders its outputs into pixels. We find that predicting clean video rather than velocity, together with a larger noise shift, is key to quality. Finetuned fro",
+      "title": "FETTUCCINE: Fast and efficient brain-to-text decoding on mobile devices",
+      "summary": "Recent advances in speech neuroprostheses have enabled new communication avenues for people who have lost the ability to speak due to neurological illness or injury. These systems can decode neural activity during attempted speech into text by relying on language priors to achieve high decoding accuracy. This performance currently comes at the cost of using a compute-intensive language modeling stack, presenting a major bottleneck for real-world use. Further, current language models incur highly variable and disruptive inference latencies, limiting communication throughput and preventing users from reliably participating in natural conversation. We introduce FETTUCCINE, an end-to-end brain-to-text framework that leverages the speed and portability of automatic speech recognition (ASR) mode",
       "authors": [
-        "Yanke Song",
-        "Shuo Chen",
-        "Chris Rockwell",
-        "Guande He",
-        "Nan Liu"
+        "Jonathan D. McCart",
+        "Pranav I. Deevi",
+        "Mehdi Azabou",
+        "Nanda H. Krishna",
+        "Caleb A. McKinney"
       ],
-      "link": "http://arxiv.org/abs/2611.17336v1",
-      "published": "2026-11-12",
+      "link": "http://arxiv.org/abs/2611.18561v1",
+      "published": "2026-11-13",
       "categories": [
-        "cs.CV"
+        "q-bio.NC",
+        "cs.LG"
       ]
     },
     "analysis": {
-      "key_methods": "A computer program that converts a small amount of data to pixels with a pixel depth of about 45 degrees and a pixel dep...",
-      "datasets": "To create a Pixel Space Pixel, you need to build a Pixel Camera.",
-      "future_work": "The idea of using a high-resolution image to make a 3D object using a 3D image was inspired by a 2013 paper published in..."
+      "key_methods": ".",
+      "datasets": "A few other topics in the paper were:\n1.",
+      "future_work": "For all the benefits of the new technology, it would be in the right place for the brain to be used to decode text."
     }
   },
   {
     "paper": {
-      "title": "Long-lived light-driven bimagnons at finite momentum in NiO",
-      "summary": "Light can manipulate magnetic order and its excitations on ultrafast timescales, including through resonantly driven phonons. In antiferromagnets, light can also create correlated magnon pairs, or bimagnons. Unlike single magnons, whose damping has been measured and modeled in detail, little is known about the lifetime, interactions and decay of such correlated pairs: prior two-magnon measurements show broad linewidths or coherences that dephase within 200 fs. Here we pump the phonon-assisted two-magnon absorption of NiO with mid-infrared pulses, far below its bandgap, and probe the resulting magnetic dynamics at finite momentum with time-resolved resonant inelastic X-ray scattering (RIXS). Upon photoexcitation, the one-magnon linewidth and energy are essentially unchanged, indicating that",
+      "title": "Training Reasoning Models in Simulation to Natively Use Real Robots",
+      "summary": "Robot-use agents (RUAs) have emerged as a promising approach to general-purpose robot control. However, strong performance has so far been achieved only by frontier proprietary models such as GPT-6 Astra and Claude Fable 5.2, whereas open-weight models remain substantially less capable. We show that an open-weight 27B reasoning model can be trained to use real robots natively through reinforcement learning, entirely in simulation and without demonstrations. Like a computer-use agent (CUA), the model observes the environment, reasons in a chain of thought, and generates the next end-effector pose, without any harness. We build a Post-training Engine for Agentic Robotics (PEAR) and use it to train the model on simulated robot tasks at scale with robot-use reinforcement learning (RURL), mirro",
       "authors": [
-        "Xian P. Yang",
-        "Christopher T. Parzyck",
-        "Martin Cross",
-        "Ella Blake",
-        "Octave Duros"
+        "Jiaming Tang",
+        "Zhuoyang Zhang",
+        "Junxian Guo",
+        "Fangzhou Zhao",
+        "Yilong Zhao"
       ],
-      "link": "http://arxiv.org/abs/2611.17335v1",
-      "published": "2026-11-12",
+      "link": "http://arxiv.org/abs/2611.18562v1",
+      "published": "2026-11-13",
       "categories": [
-        "cond-mat.str-el",
-        "cond-mat.mtrl-sci",
-        "physics.optics",
-        "quant-ph"
+        "cs.RO",
+        "cs.LG"
       ]
     },
     "analysis": {
-      "key_methods": "In the first half of 2016, light-driven bimagnons were replaced with light-driven bimagnons at the lowest phase of the N...",
-      "datasets": "“I have not published a paper on the Bimagnon bimagnons.",
-      "future_work": "The ability of a light field to act as a light source for dark matter and gravitational waves to accelerate to the stars..."
+      "key_methods": "First, we used an algorithm to train a set of human models.",
+      "datasets": "The problem with the problem of simulation is that it requires several layers of data.",
+      "future_work": "Theoretical and practical application of simulation to the real world is crucial for understanding the ways in which the..."
     }
   },
   {
     "paper": {
-      "title": "Unbundling Multimodal Vision Encoding",
-      "summary": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely. Vision encoders bundle together three design choices: a visual prior from upstream pretraining, dedicated vision capacity, and pre-fusion placement of that capacity (i.e., before the multimodal backbone). Because published models also differ in data, architecture, and compute, comparing them cannot isolate the effect of each choice. We disentangle these choices via a controlled framework where we pretrain all models from scratch on common data and compare them on visual question answering and language benchmarks at matched lifetime compute. We find that the visual",
+      "title": "BAL: Bidirectional Autoregression in Latent Space for Learning Human Movement Representations",
+      "summary": "Learning semantically meaningful human movement representations from 3D pose sequences is essential for human behavior modeling. Existing self-supervised methods derive supervision from artificial assumptions, e.g., invariance to augmentation within a certain range or recoverability of masked regions at a certain temporal scale, introducing heuristic hyperparameters that make the learned semantics sensitive to their settings. We propose BAL, a self-supervised framework that instead exploits supervision intrinsic to human movement: the natural ordering structure of everyday behavior. BAL autoregressively predicts in a semantically abstract latent space, analogous to how humans anticipate others' actions rather than their precise joint configurations. Bidirectional autoregressive prediction,",
       "authors": [
-        "Ellis Brown",
-        "Chris Hoang",
-        "Shengyi Qian",
-        "Shang-Wen Li",
-        "Mike Lewis"
+        "Genki Kinoshita",
+        "Ko Nishino"
       ],
-      "link": "http://arxiv.org/abs/2611.17334v1",
-      "published": "2026-11-12",
+      "link": "http://arxiv.org/abs/2611.18559v1",
+      "published": "2026-11-13",
       "categories": [
         "cs.CV",
         "cs.LG"
       ]
     },
     "analysis": {
-      "key_methods": "To use a set of three algorithms to generate the images, we used a subset of the images created by the team of researche...",
-      "datasets": "http://www.",
-      "future_work": "Further research is needed to understand how important it is to understand how important it is to understand how importa..."
+      "key_methods": ".",
+      "datasets": "Dots:\nAberdeen, UK:\nAberdeen, UK:\nAberdeen, UK:\nBolts:\nBolts:\nCarpenter, UK:\nCarpenter, UK:.",
+      "future_work": "The purpose of this paper is to establish a mechanism for using the deep learning model of a human movement (or an examp..."
     }
   },
   {
     "paper": {
-      "title": "TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models",
-      "summary": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality. We propose Test-Time Baking (TTB), a strategy that learns to bake global scene information from cross-view attention into a lightweight MLP, enabling fast and high-fidelity novel-view decoding. The first key is to repurpose the fast-weight MLP of TTT to learn the cross-view attention mapping explicitly from its input-output pairs, rather than replacing attention entirely, achieving the same rendering efficiency as TTT while delivering substantially higher quality. The second key addresses a modality misalignment between co",
+      "title": "Reconstruction of Dynamical Dark Energy and Gravity from latest cosmological data",
+      "summary": "Recent cosmological observations have renewed interest in non-standard late-time evolution. We investigate whether departures from the standard expansion history are accompanied by modifications of gravitational dynamics through a joint, non-parametric reconstruction of the effective dark energy density, $Ω_{\\rm X}(a)$, and the gravitational response functions $μ(a)$ and $Σ(a)$. Combining CMB, DESI DR2 BAO, Pantheon+, and large scale structure observations, including DES Year 3 $6\\times2$pt data, we perform reconstructions with and without a theory motivated correlation prior derived from stable Horndeski models. We find a persistent maximum in $Ω_{\\rm X}$ at $z\\simeq0.5$--$0.7$, corresponding to a crossing of the effective phantom divide. This feature is already present in the CMB+BAO com",
       "authors": [
-        "Chin-Yang Lin",
-        "Ryo Hachiuma",
-        "Jaesung Choe",
-        "Min-Hung Chen",
-        "Yu-Chiang Frank Wang"
+        "Maria Luisa Gallavotti",
+        "Alessandra Silvestri"
       ],
-      "link": "http://arxiv.org/abs/2611.17331v1",
-      "published": "2026-11-12",
+      "link": "http://arxiv.org/abs/2611.18558v1",
+      "published": "2026-11-13",
       "categories": [
-        "cs.CV"
+        "astro-ph.CO",
+        "gr-qc"
       ]
     },
     "analysis": {
-      "key_methods": "OCaml, Riemann, Riemann, and Jürgen H.",
-      "datasets": "Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models.",
-      "future_work": "Further Reading\nA new paper, published this week in the Proceedings of the National Academy of Sciences (PNAS) in the jo..."
+      "key_methods": "Frequency and duration\nThe time frames were calculated using a standard cosmological time frame.",
+      "datasets": "1) The Moon at 2,000 miles (3,000 kilometers) and the Sun at 4,000 miles (6,000 kilometers) were the result of a collisi...",
+      "future_work": "NERDS, NASA, and the European Space Agency, NERDS, and the European Space Agency, NERDS, and the European Space Agency, ..."
     }
   }
 ]
