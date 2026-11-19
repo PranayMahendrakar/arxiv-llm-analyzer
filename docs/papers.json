@@ -1,121 +1,120 @@
 [
   {
     "paper": {
-      "title": "Latent Lattice Language Models",
-      "summary": "Language models typically increase per-token computation through deeper or looped layers and latent reasoning steps, while richer residual connections improve information flow across layers. We instead increase computational capacity: the number of active computational states a model maintains. We introduce the Lattice of Latents, a set of per-layer horizontal latent streams that run recurrently along time, alongside the vertical residual stream that flows through depth. Like hyper-connections, mHC, and attention or value residuals, the Lattice enhances the residual stream, but rather than adding or rerouting residual pathways through depth, it provides companion computational states that persist across tokens. Unlike hybrid Transformer-SSM architectures, whose recurrent states primarily s",
+      "title": "UltraTex: Aligning Physical Knowledge for High-Fidelity PBR Texture Generation",
+      "summary": "Generating physically based rendering (PBR) texture maps for a 3D mesh from a single reference image is highly ambiguous, as the observed appearance entangles material identity, surface reflectance, and illumination. While current generative methods produce realistic albedo maps, they still struggle to infer accurate metallic and roughness attributes for relighting. We present UltraTex, a cascaded multi-view framework that moves beyond appearance matching by integrating physical knowledge into multi-view diffusion-based PBR generation. UltraTex first jointly predicts albedo and world-space shading normals to generate more detailed albedo maps, and then predicts metallic-roughness (MR) maps conditioned on the generated albedo, reference image, and material semantic priors. To inject materia",
       "authors": [
-        "Shivam Duggal",
-        "Zongze Wu",
-        "William T. Freeman",
-        "Antonio Torralba",
-        "Richard Zhang"
+        "Jingzhi Bao",
+        "Xiaohe Ma",
+        "Hong Li",
+        "Yuanming Hu",
+        "Xiaoguang Han"
       ],
-      "link": "http://arxiv.org/abs/2611.21608v1",
-      "published": "2026-11-16",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CL"
-      ]
-    },
-    "analysis": {
-      "key_methods": "A.",
-      "datasets": "Alphabetical:\nAlphabetical:\nAlphabetical:\nAlphabetical:\nAlphabetical:\nAlphabetical:\nAlphabetical:\nAlphabetical:.",
-      "future_work": "We have shown that latent Lattice is an effective and effective language model for humans."
-    }
-  },
-  {
-    "paper": {
-      "title": "ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters",
-      "summary": "Frontier Vision-Language Models (VLMs) such as GPT-6 Astra have demonstrated remarkable capabilities in robot control, suggesting that broad pretraining provides knowledge valuable for physical action. Yet most Vision-Language-Action (VLA) policies still rely on much smaller VLM backbones, leaving this potential largely untapped. We ask whether frontier-scale representations can provide a stronger foundation for robot learning. We introduce ScaleVLA, which connects a 552B DeepSeek-V4.1-Flash backbone to a trainable action DiT, and systematically compare VLMs from 2B to 552B under a shared training setup. We evaluate three fundamental capabilities of robot foundation models. In sample efficiency, just 10 demonstrations outperform a 2B backbone trained with 50 (87.8% vs. 85.6%). In generaliz",
-      "authors": [
-        "Ruixi Yu",
-        "Dairu Liu",
-        "Xuchuan Chen",
-        "Zekun Qi",
-        "Zekai Li"
-      ],
-      "link": "http://arxiv.org/abs/2611.21607v1",
-      "published": "2026-11-16",
-      "categories": [
-        "cs.RO"
-      ]
-    },
-    "analysis": {
-      "key_methods": "The following is the following:\nThe following table is a simulation on the I.",
-      "datasets": "The following are used in the specification of this specification.",
-      "future_work": "Using the new high-resolution optical-electromagnetic (MRI) system, the researchers have created a highly detailed compu..."
-    }
-  },
-  {
-    "paper": {
-      "title": "ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization",
-      "summary": "Visual agents answer questions about ultra-high-resolution photos by zooming into the relevant regions. However, existing agents often answer from common sense instead of reading the evidence. Reinforcement learning (RL) on the final answer cannot correct this, because a guess earns the same reward as reading. We propose Cross-Input Relative Policy Optimization (CrossRPO), which trains agents on contrast sets. A contrast set asks one question about several versions of an image that differ only in a small region with the evidence and have different answers, so only reading the evidence solves the whole set. CrossRPO rewards solving the whole set, and we prove that it does not reinforce a set answered from common sense. We build contrast sets for training (ViRA-Train) and evaluation (ViRA-Be",
-      "authors": [
-        "Huawei Lin",
-        "Jinting Liu",
-        "Tongyan Wang",
-        "Xuyang Chen",
-        "Ruihua Shi"
-      ],
-      "link": "http://arxiv.org/abs/2611.21605v1",
-      "published": "2026-11-16",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ]
-    },
-    "analysis": {
-      "key_methods": ".",
-      "datasets": "We’ve also included some of the most important information about cross-input and cross-image performance.",
-      "future_work": "IWIK, V."
-    }
-  },
-  {
-    "paper": {
-      "title": "FaceJev: Direct Visual Decisions for Face Forgery Detection",
-      "summary": "Face forgery detection methods often perform well on seen manipulations but generalize poorly to unseen ones. Multimodal Large Language Models (MLLMs) can recognize facial parts and assess their visual plausibility. Existing MLLM-based methods typically express these judgments through textual explanations, but seldom treat individual part decisions as explicit learning targets. We present FaceJev, an MLLM-based method for face forgery detection through direct visual decisions. Following the Jev formulation, FaceJev answers eight independent questions about facial parts using a shared image encoding and reads anomaly probabilities from the native answer logits. A face is classified as forged if any part is predicted to be abnormal, directly linking the detection result to the part decisions",
-      "authors": [
-        "Siran Peng",
-        "Tianshuo Zhang",
-        "Yibo Xue",
-        "Ajian Liu",
-        "Haoyuan Zhang"
-      ],
-      "link": "http://arxiv.org/abs/2611.21604v1",
-      "published": "2026-11-16",
+      "link": "http://arxiv.org/abs/2611.24941v1",
+      "published": "2026-11-18",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": ":\n:\n:\n:\n:\n:\n:\n:\n:\n:\n:\n:\n:\n:\n:\n:\n:\n:\n:\n:\n:\n:\n:\n:.",
-      "datasets": "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -.",
-      "future_work": "Use of face recognition technology to identify faces that pose to other faces."
+      "key_methods": "The G-PBR texture pipeline was used to generate a G-PBR texture pipeline that could be used to generate a higher-fidelit...",
+      "datasets": "-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-.",
+      "future_work": "Using a new technique to make it more efficient, more efficient, and more efficient, is currently a long way off."
     }
   },
   {
     "paper": {
-      "title": "Quantifying the added value of human forecaster discussions for tropical cyclone intensity prediction",
-      "summary": "The National Hurricane Center routinely releases Tropical Cyclone Discussions that offer insights into its tropical cyclone forecasts. This study examines the added value of these discussions for intensity forecasting beyond a set of numerical predictors. For 637 Atlantic and eastern North Pacific tropical cyclones from the 2002-2023 hurricane seasons, we analyze the discussion text and its combination with 13 hurricane environmental predictors from SHIPS and ERA5 10-meter wind fields, for forecasting intensity changes at lead times of 24 to 120 hours using three modeling methods. In one approach, an end-to-end deep learning framework for the text shows that the discussions alone offer comparable value for 24-hour intensity forecasts to the SHIPS predictors. Adding discussion information t",
+      "title": "$Z$-sight: Unifying Vision-Language-Action and Latent World Modeling",
+      "summary": "We introduce $Z$-sight, a unified robot foundation model that couples vision-language-action (VLA) and generative latent world modeling. Video-based world action models (WAMs) show the value of joint future-and-action generation for control, yet inherit the heavy cost of video generators. Recent latent-space policies avoid pixel generation, yet typically align intermediate features or rely on frozen target encoders, decoupling future prediction from the VLM's native feature space. $Z$-sight instead predicts the future directly in the visual token space in which its VLM perceives the present. Coupling a foresight expert and a continuous action expert with the VLM in a mixture-of-transformers, $Z$-sight jointly denoises future spatial tokens and actions at inference without pixel reconstruct",
       "authors": [
-        "Ilia Azizi",
-        "Frederick Iat-Hin Tam",
-        "Marc-Olivier Boldi",
-        "Valérie Chavez-Demoulin",
-        "Tom Beucler"
+        "Junjie Ye",
+        "Yiqi Zhao",
+        "Muchen Xu",
+        "Celina Shiyu Wang",
+        "Hao Dong"
       ],
-      "link": "http://arxiv.org/abs/2611.21602v1",
-      "published": "2026-11-16",
+      "link": "http://arxiv.org/abs/2611.24940v1",
+      "published": "2026-11-18",
       "categories": [
-        "cs.LG",
-        "cs.CL"
+        "cs.RO",
+        "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "The study was conducted on August 12, 2009 in the Brazilian Meteorological Agency, the Brazilian Meteorological Agency, ...",
-      "datasets": "LONG-TIME-ON-COUNTER:.",
-      "future_work": "Data gathered from NOAA’s National Oceanic and Atmospheric Administration’s National Oceanic and Atmospheric Administrat..."
+      "key_methods": "The data were collected from the following datasets:\nhttp://www.",
+      "datasets": "I've already seen the world of visualized spaces on paper, but this particular set of images is not just in the visual s...",
+      "future_work": "Further research:\nBorber & Associates:\nBorber & Associates:\nBorber & Associates:\nBorber & Associates:\nBorber & Associate..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Map-Level Inference of Primordial Gravitational Waves from the CMB with Spherical Neural Networks",
+      "summary": "We train a spherical graph convolutional network to infer the tensor-to-scalar ratio $r$ directly from multifrequency cosmic microwave background (CMB) $B$-mode maps on the cut sky. We test the network on simulations of a generic ground-based experiment including lensed CMB, inhomogeneous noise, and stochastic Galactic dust and synchrotron emission. We compare the network with a multifrequency bandpower likelihood built from the same 20,000 simulations used to train it. Working directly on the maps, with no power-spectrum estimation or component separation, the network reduces the root-mean-square error on $r$ by a factor of 1.3 and gives well-calibrated 68% intervals 1.2 times narrower than the likelihood with the same prior. Saliency maps show that the network learns to favor the deepest",
+      "authors": [
+        "Anto I. Lonappan",
+        "Adrian E. Bayer",
+        "Brian Keating",
+        "Kam Arnold",
+        "Giuseppe Puglisi"
+      ],
+      "link": "http://arxiv.org/abs/2611.24939v1",
+      "published": "2026-11-18",
+      "categories": [
+        "astro-ph.CO",
+        "astro-ph.IM"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The CMB-1C model was used to map the surface of the CMB-2C model.",
+      "datasets": "The first thing to notice is that the first thing to notice is that the first thing to notice is that the first thing to...",
+      "future_work": "Using a high-resolution map-level model of the wave-level dynamics of the Universe, we have demonstrated a very importan..."
+    }
+  },
+  {
+    "paper": {
+      "title": "Phoenix: Learning Scene Structure Representations for Generalizable World-Action Models",
+      "summary": "World-action models jointly predict future observations and actions, yet reconstruction-oriented visual representations do not explicitly emphasize the spatial relationships and object-state changes needed for manipulation. We introduce Phoenix, which learns representations of scene structure for world-action modeling. Specifically, Phoenix Encoder enriches DINOv3's general visual semantics through dual-teacher distillation of geometric and spatiotemporal semantic knowledge. Next, CS-VAE causally aggregates and compresses Phoenix Encoder features into generative latents while preserving scene information and spatial layout. Finally, Phoenix jointly predicts these latents, complementary appearance latents, and robot actions, linking scene evolution with action generation. To study pretraini",
+      "authors": [
+        "Yupeng Zheng",
+        "Chaoyue Li",
+        "Linbo Wang",
+        "Xiang Li",
+        "Yuhang Zheng"
+      ],
+      "link": "http://arxiv.org/abs/2611.24938v1",
+      "published": "2026-11-18",
+      "categories": [
+        "cs.RO"
+      ]
+    },
+    "analysis": {
+      "key_methods": "The first step was to evaluate each of the following model and then compare the results to each other.",
+      "datasets": "http://en.",
+      "future_work": "The research is supported by the National Institutes of Health, the National Institute of Child Health and Human Develop..."
+    }
+  },
+  {
+    "paper": {
+      "title": "LEMUR: A Searchable Web Archive of Deep Chandra Images of Galaxies and Galaxy Clusters",
+      "summary": "We present LEMUR, a publicly accessible archive of uniformly reduced, deep Chandra images of 2,569 galaxies and galaxy clusters (including groups), comprising 5,505 ACIS observations and 138.8 Ms of exposure. By combining the publicly available imaging observations of each target, we provide background-subtracted, exposure-corrected images in broad, soft, and hard bands at the native ACIS pixel scale of 0.492 arcsec. Our primary goal is to make the wealth of archival Chandra observations accessible to researchers without requiring specialized expertise in X-ray data reduction.   Each observation is reprocessed with CIAO, filtered for background flares, and reduced with settings chosen to preserve faint diffuse emission; the merged images are exposure corrected and background subtracted usi",
+      "authors": [
+        "Carter L. Rhea",
+        "Julie Hlavacek-Larrondo",
+        "Marine Prunier",
+        "Hyunseop Choi",
+        "Megan Donahue"
+      ],
+      "link": "http://arxiv.org/abs/2611.24937v1",
+      "published": "2026-11-18",
+      "categories": [
+        "astro-ph.GA",
+        "astro-ph.IM"
+      ]
+    },
+    "analysis": {
+      "key_methods": "\"Discovery Search\" is a searchable web archive of deep Chandra images of galaxies and galaxies and galaxies and galaxies...",
+      "datasets": "Advertisements.",
+      "future_work": "The Universe as a Whole in the New Universe."
     }
   }
 ]
