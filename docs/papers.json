@@ -1,120 +1,117 @@
 [
   {
     "paper": {
-      "title": "UltraTex: Aligning Physical Knowledge for High-Fidelity PBR Texture Generation",
-      "summary": "Generating physically based rendering (PBR) texture maps for a 3D mesh from a single reference image is highly ambiguous, as the observed appearance entangles material identity, surface reflectance, and illumination. While current generative methods produce realistic albedo maps, they still struggle to infer accurate metallic and roughness attributes for relighting. We present UltraTex, a cascaded multi-view framework that moves beyond appearance matching by integrating physical knowledge into multi-view diffusion-based PBR generation. UltraTex first jointly predicts albedo and world-space shading normals to generate more detailed albedo maps, and then predicts metallic-roughness (MR) maps conditioned on the generated albedo, reference image, and material semantic priors. To inject materia",
+      "title": "Posterior Matching Distillation",
+      "summary": "Diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the student's output distribution to the teacher's. This matching is often driven by reverse-KL objectives, whose mode-seeking bias favors dominant teacher modes at the expense of diversity across samples. We introduce Posterior Matching Distillation (PMD), a new member of the distribution-based distillation family that combines mode-covering posterior sampling with any-step generation. At zero population loss, PMD recovers the teacher's full posterior of clean images at each trained noise level. Its stochastic student supports any-step sampling budgets within the trained timestep g",
       "authors": [
-        "Jingzhi Bao",
-        "Xiaohe Ma",
-        "Hong Li",
-        "Yuanming Hu",
-        "Xiaoguang Han"
+        "Hidir Yesiltepe",
+        "Julius Berner",
+        "Arash Vahdat",
+        "Pinar Yanardag"
       ],
-      "link": "http://arxiv.org/abs/2611.24941v1",
-      "published": "2026-11-18",
+      "link": "http://arxiv.org/abs/2611.26629v1",
+      "published": "2026-11-19",
       "categories": [
         "cs.CV"
       ]
     },
     "analysis": {
-      "key_methods": "The G-PBR texture pipeline was used to generate a G-PBR texture pipeline that could be used to generate a higher-fidelit...",
-      "datasets": "-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-.",
-      "future_work": "Using a new technique to make it more efficient, more efficient, and more efficient, is currently a long way off."
+      "key_methods": ".",
+      "datasets": ".",
+      "future_work": "A study of a population of 1."
     }
   },
   {
     "paper": {
-      "title": "$Z$-sight: Unifying Vision-Language-Action and Latent World Modeling",
-      "summary": "We introduce $Z$-sight, a unified robot foundation model that couples vision-language-action (VLA) and generative latent world modeling. Video-based world action models (WAMs) show the value of joint future-and-action generation for control, yet inherit the heavy cost of video generators. Recent latent-space policies avoid pixel generation, yet typically align intermediate features or rely on frozen target encoders, decoupling future prediction from the VLM's native feature space. $Z$-sight instead predicts the future directly in the visual token space in which its VLM perceives the present. Coupling a foresight expert and a continuous action expert with the VLM in a mixture-of-transformers, $Z$-sight jointly denoises future spatial tokens and actions at inference without pixel reconstruct",
+      "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+      "summary": "Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers. Because capabilities such as rendering requested text or composing multiple objects are inherently prompt-dependent, a natural hypothesis is that improving them requires learning complex, input-dependent transformations. To isolate how much of these gains an input-independent shift explains, we probe each RL-tuned model with a deliberately simple parameterization: a fixed set of steering vectors added to the block outputs of the frozen base model. On SD3.5-M, these vectors hold 65x fewer parameters than the RL-tuned LoRA (0.29M against 18.8M). We fit them to match the velocity predictions of public RL-tuned checkpoints, with no reward in",
       "authors": [
-        "Junjie Ye",
-        "Yiqi Zhao",
-        "Muchen Xu",
-        "Celina Shiyu Wang",
-        "Hao Dong"
+        "Tuna Han Salih Meral",
+        "Kaan Oktay",
+        "Alec Helbling",
+        "Atakan Kara",
+        "Duen Horng Chau"
       ],
-      "link": "http://arxiv.org/abs/2611.24940v1",
-      "published": "2026-11-18",
+      "link": "http://arxiv.org/abs/2611.26627v1",
+      "published": "2026-11-19",
       "categories": [
-        "cs.RO",
-        "cs.CV"
+        "cs.CV",
+        "cs.LG"
       ]
     },
     "analysis": {
-      "key_methods": "The data were collected from the following datasets:\nhttp://www.",
-      "datasets": "I've already seen the world of visualized spaces on paper, but this particular set of images is not just in the visual s...",
-      "future_work": "Further research:\nBorber & Associates:\nBorber & Associates:\nBorber & Associates:\nBorber & Associates:\nBorber & Associate..."
+      "key_methods": "A large-scale, controlled, randomized controlled trial with an open-access, open-access open-access paper was designed t...",
+      "datasets": "I had the same issue with the first model of the model in the game as I was playing it with the game.",
+      "future_work": "An experiment using a set of laser beams to detect motion in the near-real world."
     }
   },
   {
     "paper": {
-      "title": "Map-Level Inference of Primordial Gravitational Waves from the CMB with Spherical Neural Networks",
-      "summary": "We train a spherical graph convolutional network to infer the tensor-to-scalar ratio $r$ directly from multifrequency cosmic microwave background (CMB) $B$-mode maps on the cut sky. We test the network on simulations of a generic ground-based experiment including lensed CMB, inhomogeneous noise, and stochastic Galactic dust and synchrotron emission. We compare the network with a multifrequency bandpower likelihood built from the same 20,000 simulations used to train it. Working directly on the maps, with no power-spectrum estimation or component separation, the network reduces the root-mean-square error on $r$ by a factor of 1.3 and gives well-calibrated 68% intervals 1.2 times narrower than the likelihood with the same prior. Saliency maps show that the network learns to favor the deepest",
+      "title": "AnyVIO: Feed-Forward Streaming Visual-Inertial Odometry Across Platforms",
+      "summary": "Geometric foundation models (GFMs) estimate camera mo- tion and scene structure from images without requiring ex- pert parameter tuning, but either lack metric scale or rely on learned priors to infer scale, which is unobservable from monocular images alone. Inertial sensing offers a way to observe metric scale, but existing methods add inertial in- formation through a filter or factor graph, which reintro- duces bespoke parameter tuning and optimization costs that can grow with the trajectory. To bridge this gap, we present AnyVIO, a real-time, feed-forward streaming model for monocular visual-inertial odometry (VIO), which combines a streaming GFM with an inertial foundation model (IFM). Both the GFM and IFM predict the metric motion between consecutive frames, and a lightweight learned ",
       "authors": [
-        "Anto I. Lonappan",
-        "Adrian E. Bayer",
-        "Brian Keating",
-        "Kam Arnold",
-        "Giuseppe Puglisi"
+        "Omoruyi Atekha",
+        "Marcus Greiff",
+        "Ray Zhang",
+        "Luca Carlone"
       ],
-      "link": "http://arxiv.org/abs/2611.24939v1",
-      "published": "2026-11-18",
+      "link": "http://arxiv.org/abs/2611.26625v1",
+      "published": "2026-11-19",
       "categories": [
-        "astro-ph.CO",
-        "astro-ph.IM"
+        "eess.IV"
       ]
     },
     "analysis": {
-      "key_methods": "The CMB-1C model was used to map the surface of the CMB-2C model.",
-      "datasets": "The first thing to notice is that the first thing to notice is that the first thing to notice is that the first thing to...",
-      "future_work": "Using a high-resolution map-level model of the wave-level dynamics of the Universe, we have demonstrated a very importan..."
+      "key_methods": "The following methods used:\n1.",
+      "datasets": "AUTHOR: Jules M.",
+      "future_work": "This paper is based on two of the most recent papers on the relationship between data-based streaming and data-based str..."
     }
   },
   {
     "paper": {
-      "title": "Phoenix: Learning Scene Structure Representations for Generalizable World-Action Models",
-      "summary": "World-action models jointly predict future observations and actions, yet reconstruction-oriented visual representations do not explicitly emphasize the spatial relationships and object-state changes needed for manipulation. We introduce Phoenix, which learns representations of scene structure for world-action modeling. Specifically, Phoenix Encoder enriches DINOv3's general visual semantics through dual-teacher distillation of geometric and spatiotemporal semantic knowledge. Next, CS-VAE causally aggregates and compresses Phoenix Encoder features into generative latents while preserving scene information and spatial layout. Finally, Phoenix jointly predicts these latents, complementary appearance latents, and robot actions, linking scene evolution with action generation. To study pretraini",
+      "title": "TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming",
+      "summary": "Hybrid architectures have become mainstream among open-weight language models. Their global-attention and bounded-state layers maintain heterogeneous caches whose demands vary with context length and concurrency. We present TideCache, a serving system on CPU--GPU superchips with three components for allocating GPU memory among caches and managing their residency across GPU and host memory. The Transparent Cache Pool redistributes physical pages among cache components behind fixed virtual addresses, preserving cache layouts and backend interfaces. The Cache Streamer uses computation intervals provided by bounded-state layers to prefetch the next global-attention layer's prefix into GPU slots shared across global-attention layers, reducing GPU residency while overlapping layer-wise transfers",
       "authors": [
-        "Yupeng Zheng",
-        "Chaoyue Li",
-        "Linbo Wang",
-        "Xiang Li",
-        "Yuhang Zheng"
+        "Jinbin Luo",
+        "Xiaozhe Yao",
+        "Shang Yang",
+        "Zhijian Liu",
+        "Song Han"
       ],
-      "link": "http://arxiv.org/abs/2611.24938v1",
-      "published": "2026-11-18",
+      "link": "http://arxiv.org/abs/2611.26619v1",
+      "published": "2026-11-19",
       "categories": [
-        "cs.RO"
+        "cs.DC",
+        "cs.LG"
       ]
     },
     "analysis": {
-      "key_methods": "The first step was to evaluate each of the following model and then compare the results to each other.",
-      "datasets": "http://en.",
-      "future_work": "The research is supported by the National Institutes of Health, the National Institute of Child Health and Human Develop..."
+      "key_methods": "Abstract\n\nThe following code is a collection of the following code, using the following code:\n// Create a stack of array...",
+      "datasets": "Table 1\nTable 2\nTable 3\nLets use Java as our default backend and we want to use it to create a cluster.",
+      "future_work": "For example, I‰️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️."
     }
   },
   {
     "paper": {
-      "title": "LEMUR: A Searchable Web Archive of Deep Chandra Images of Galaxies and Galaxy Clusters",
-      "summary": "We present LEMUR, a publicly accessible archive of uniformly reduced, deep Chandra images of 2,569 galaxies and galaxy clusters (including groups), comprising 5,505 ACIS observations and 138.8 Ms of exposure. By combining the publicly available imaging observations of each target, we provide background-subtracted, exposure-corrected images in broad, soft, and hard bands at the native ACIS pixel scale of 0.492 arcsec. Our primary goal is to make the wealth of archival Chandra observations accessible to researchers without requiring specialized expertise in X-ray data reduction.   Each observation is reprocessed with CIAO, filtered for background flares, and reduced with settings chosen to preserve faint diffuse emission; the merged images are exposure corrected and background subtracted usi",
+      "title": "Every galaxy is a radio source: a stellar-mass dependent minimum 150 MHz luminosity identified in the LoTSS Deep Fields",
+      "summary": "The second data release of the LOFAR Two-metre Sky Survey (LoTSS) Deep Fields includes the deepest wide-field 150 MHz mosaics in existence, covering the ELAIS-N1 field. Combining these radio observations with star-formation rate (SFR) and stellar mass estimates for 113,228 near-infrared selected galaxies derived using Prospector, we re-examine the relationship between galaxies' 150 MHz luminosities ($L_{150\\rm{MHz}}$), SFRs and stellar masses. We not only recover the established radio luminosity-SFR relation and its dependence on stellar mass, but also discover a mass-dependent minimum radio luminosity that is independent of SFR. This behaviour is especially evident in galaxies with low specific SFR (sSFR $\\equiv$ SFR/$M_*$), at $L_{150\\rm MHz} \\sim 10^{20}-10^{22}$ W Hz$^{-1}$, where star",
       "authors": [
-        "Carter L. Rhea",
-        "Julie Hlavacek-Larrondo",
-        "Marine Prunier",
-        "Hyunseop Choi",
-        "Megan Donahue"
+        "Shravya Shenoy",
+        "Daniel J. B. Smith",
+        "Martin J. Hardcastle",
+        "Soumyadeep Das",
+        "Marina I. Arnaudova"
       ],
-      "link": "http://arxiv.org/abs/2611.24937v1",
-      "published": "2026-11-18",
+      "link": "http://arxiv.org/abs/2611.26618v1",
+      "published": "2026-11-19",
       "categories": [
-        "astro-ph.GA",
-        "astro-ph.IM"
+        "astro-ph.GA"
       ]
     },
     "analysis": {
-      "key_methods": "\"Discovery Search\" is a searchable web archive of deep Chandra images of galaxies and galaxies and galaxies and galaxies...",
-      "datasets": "Advertisements.",
-      "future_work": "The Universe as a Whole in the New Universe."
+      "key_methods": "Analysing the data and the simulations were performed in the LHC, the LHC and the LHC.",
+      "datasets": "The La Liga, La Liga, La Liga, La Liga, La Liga, La Liga, La Liga, La Liga, La Liga, La Liga, La Liga, La Liga, La Liga,...",
+      "future_work": "A new study, published online September 22, 2017, in the Astrophysical Journal, is based on a model from the Sloan Insti..."
     }
   }
 ]
