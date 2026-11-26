@@ -54,77 +54,94 @@
   <div class="stat"><div class="n">5</div><div class="l">Papers</div></div>
   <div class="stat"><div class="n">distilgpt2</div><div class="l">LLM Model</div></div>
   <div class="stat"><div class="n">large language m</div><div class="l">Query</div></div>
-  <div class="stat"><div class="n">2026-11-25</div><div class="l">Updated UTC</div></div>
+  <div class="stat"><div class="n">2026-11-26</div><div class="l">Updated UTC</div></div>
 </div>
 <main>
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2611.33157v1" target="_blank" rel="noopener">PointX: Multi-View Consistent Intrinsics by Querying Surface Points</a></h2>
-    <span class="meta">Published: 2026-11-24 | Authors: Miguel Farinha, Sam Sartor, Iliyan Georgiev, Giuseppe Vecchio, Ronald Clark | Tags: cs.CV</span>
+    <h2><a href="http://arxiv.org/abs/2611.34944v1" target="_blank" rel="noopener">AnyCam: Anything Can Represent Camera for Video Generation</a></h2>
+    <span class="meta">Published: 2026-11-25 | Authors: Weijie Lyu, Zhixin Shu, Yuntian Ke, Ming-Hsuan Yang | Tags: cs.CV</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>The appearance of a scene is determined by the albedo, roughness, metallicity and normal of every point on its surface, and by the light that reaches it, its irradiance. Recovering these intrinsics from images is ambiguous, and methods that predict them per pixel give the same surface point a different decomposition in every view. We introduce PointX, a simple feed-forward model that predicts intrinsics per 3D surface point instead. A multi-view transformer encodes a set of unposed images, and for any queried surface point, PointX pools the point's tokens across the views in which it appears and decodes the point's intrinsics once. Each point of a 3D reconstruction of the scene, such as a point cloud or a mesh, thus receives a single prediction, which is exactly consistent across views by </p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>First, we can use multiple view points (x, y) for multiple views.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>The RIM is an internal implementation of PointX.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>To build on my previous work I used a simple x-ray machine to see if I could compute the following x-ray image:
-[image2]...</p></section>
+    <section class="full"><h3>Abstract</h3><p>Camera-controlled video generation re-renders a video along a target camera trajectory, yet moving the camera around an object, the most natural way to change the viewpoint of an object-centric scene, remains difficult. Existing methods condition either on camera parameters, which are scale-ambiguous in monocular video, or on explicit geometry such as warped point clouds or depth, which breaks down under large viewpoint changes. We present AnyCam, a method that represents the camera with an anchor object in the scene: we reconstruct it in 3D and render it along the target trajectory, a camera signal that is scale-aware, view-complete and easy to specify relative to the object. A video diffusion model transfers the content and dynamics of the source video to the new viewpoint. Its H-Concat </p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>First and foremost, we’re going to use the camera to create a file called a ‖sensor’.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>Cameras (Cameras)
+CAMFAR: Digital Cameras
+CAMFAR: Digital Cameras
+CAMFAR: Digital Cameras
+CAMFAR: Digital Cameras
+CAMFAR.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>If you want to see what camera can represent your camera, you can also be part of a project called the Camera for Video ...</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2611.33156v1" target="_blank" rel="noopener">Antiferromagnetic phase of MnTe2: spin-order-induced renormalization of phonon Raman spectrum</a></h2>
-    <span class="meta">Published: 2026-11-24 | Authors: Taras Palasyuk, Ashutosh S. Wadge, Eduard E. Zubov, Igor Antoniazzi,  Gayatri | Tags: cond-mat.mtrl-sci</span>
+    <h2><a href="http://arxiv.org/abs/2611.34943v1" target="_blank" rel="noopener">Tracking Any Point with Agentic Visual Reasoning</a></h2>
+    <span class="meta">Published: 2026-11-25 | Authors: Xuweiyi Chen, Jin Yao, Linzhan Mou, Lei Gong, Di Liu | Tags: cs.CV</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Recently, two modes of spin wave excitations (magnons) were detected in Raman scattering spectra of MnTe2. It is an unconventional magnet that features a pyrite-type crystal structure hosting a non-collinear, non-coplanar antiferromagnetic (AFM) spin order below the Néel temperature. In this brief communication, the focus is primarily on the effect of spin ordering on lattice dynamics (phonons) that has been established through temperature (5 - 300 K), linear polarization angle (0 deg - 360 deg) and external magnetic field (up to 16 T) dependent measurements. It has been found that below the magnetic transition temperature, the frequencies of four out of five Raman-active lattice vibrations (i.e., Eg and three Tg phonon modes) revealed significant departure from the mechanism of the three-</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>All experiments were carried out in the first phase of the experiments.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>The structure of the Neumann, T, and H-band-wave waveforms is defined by the two phases: first, the first phase (in the ...</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>(1) The first novel and most promising novel treatment of MnTe2, a phenomenon known as a new type of "synaptic" phase, i...</p></section>
+    <section class="full"><h3>Abstract</h3><p>A general-purpose Vision-Language Model (VLM) has surpassed expert vision models in many domains such as object detection and video recognition. However, point correspondence is known to be challenging for VLMs since it goes beyond object-level recognition: it requires pixel-level localization of the same physical surface point across observations, even when appearance changes or the point disappears and later reappears. In this paper, we introduce AgenTAP, a VLM-based agent that directly predicts point coordinates and visibility and actively reasons over videos. Starting from its own estimate, the agent autonomously chooses what to inspect and uses the resulting evidence to verify point identity and refine its predictions. With GPT-6 Astra, it surpasses expert vision models in both point </p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>A user was asked to provide a list of points he or she could set in the field.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>Tapping In Person by Agentic Visual Reasoning
+Tapping In Person by Agentic Visual Reasoning
+Tapping In Person by Agentic...</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Using this article to build on our findings, we propose to use an algorithm to measure the number of points of data we a...</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2611.33155v1" target="_blank" rel="noopener">Topological insulators on site-eliminated, projected, and patterned fractal lattices</a></h2>
-    <span class="meta">Published: 2026-11-24 | Authors: Aiden Mains, Danile Salib, Christopher Leong, Bitan Roy | Tags: cond-mat.mes-hall, cond-mat.dis-nn, cond-mat.mtrl-sci</span>
+    <h2><a href="http://arxiv.org/abs/2611.34942v1" target="_blank" rel="noopener">Spectrum Adaptation of AI-Native Autoencoder Communications with Transfer Learning</a></h2>
+    <span class="meta">Published: 2026-11-25 | Authors: Yalin E. Sagduyu, Tugba Erpek | Tags: cs.NI, cs.AI, eess.SP</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>Identifying fractal lattices of fractional (Hausdorff) dimension as geometric descendants of parent crystals, we showcase the successful realization of canonical topological insulators in one-, two-, and three-dimensional crystals on their self-similar descents using three complementary approaches, starting from lattice-regularized models in integer dimensions. (a) In the first approach, we construct the fractal Hamiltonian by removing all parent-lattice sites that do not belong to such a network (method of site elimination). (b) In the second one, we integrate or project out the same set of sites to obtain an effective Hamiltonian for the fractal lattice (method of projection or renormalization). (c) In the third approach, we retain the parent-crystal lattice intact but spatially pattern </p></section>
+    <section class="full"><h3>Abstract</h3><p>End-to-end physical-layer learning replaces separate modulation, coding, and detection operations with an autoencoder (AE) that consists of a jointly trained encoder-decoder pair at the transmitter and the receiver. This paper studies AI-native communications with AEs and quantifies the sensitivity to training-test mismatch in channel models. Models trained only on an AWGN channel achieve low bit error rates (BERs) under matched conditions but degrade severely on Rayleigh fading with practical front-end impairments. To reduce the time and energy required to adapt to new channel conditions, we propose a low-latency transfer-learning procedure that starts from an AWGN-pretrained system and fine-tunes only a small subset of transmitter and receiver layers while freezing the remainder. We furt</p></section>
     <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>A theoretical simulation of the fractal lattice.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>Firmware:
+Firmware:
+Firmware:
+Firmware:
+Firmware:
+Firmware:
+Firmware:
+Firmware:
+Firmware:
+Firmware:.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Theoretical, Cellular, and Brain.</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2611.33153v1" target="_blank" rel="noopener">DiaCap: Jointly Learning Who Speaks When for Audiovisual Dialogue Captioning</a></h2>
-    <span class="meta">Published: 2026-11-24 | Authors: Binfei Ji, Zhiwen Cao, Anqi Yang, Prem Seetharaman, Shuo Yang | Tags: cs.CV, cs.CL, cs.MM</span>
+    <h2><a href="http://arxiv.org/abs/2611.34941v1" target="_blank" rel="noopener">Improving and Expanding Video Editing Capabilities Without Videos</a></h2>
+    <span class="meta">Published: 2026-11-25 | Authors: Ji Xie, Yanhao Jia, Xiangpeng Yang, Martin Q. Ma, Sihan Xu | Tags: cs.CV</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>We present DiaCap, an audiovisual LLM for comprehensive dialogue captioning, which produces the transcript, timestamps, and a visual description of the speaker for every utterance in a video. Considering that utterance timing and audiovisual diarization are tightly coupled, DiaCap unifies the tasks in a single model, trained in two complementary stages. First, we train DiaCap on 225K curated clips, using synthetic captions that densely label every utterance in detail. Second, we further refine the model via reinforcement learning on 2.9K human-corrected clips, using fine-grained feedback that directly evaluates utterance timing, speaker grouping, and speaker binding. On DiaDemBench, which we extend with utterance-level timestamps and subtitle redaction, both DiaCap with off-the-shelf trans</p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The Department of Communication and Information and Information Technology (D.</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>Eisenhower: Let's not be so distracted by the fact that we should be listening and listening.</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>A study will be available in the Journal of Audiovisual Language and Cultural Studies.</p></section>
+    <section class="full"><h3>Abstract</h3><p>Image editing models can follow a wide range of instructions, but video editing models still lag behind, limited in part by the difficulty of collecting paired source and edited videos. Is it possible to transfer advanced image editing capabilities to video editors without new paired videos? We introduce Image-to-Video Transfer (I2VT), which improves pretrained video editors and expands them to new editing tasks using an image editor. It enables efficient post-training with no architectural changes and no new videos, using only individual images. Our key idea is to let the video editor role-play as an image editor: it edits an image as a one-frame video, with the image editor guiding the video editor's predictions at each denoising step. Although the video editor sees only single images du</p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The first step was to create one video editing solution.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>Riot:
+Coding software will be faster and easier to edit than any other computer.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>Using the technique of the video editing test, in this paper, I present a method that allows video editors to use videos...</p></section>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">
-    <h2><a href="http://arxiv.org/abs/2611.33151v1" target="_blank" rel="noopener">BioLoom: Scaling Biomedical Vision-Language Models by Learning from the Structure of Scientific Articles</a></h2>
-    <span class="meta">Published: 2026-11-24 | Authors: Yuwei Yang, Xiaoxiao Sun, Alejandro Lozano, Yuan-Sen Ting, Yuhui Yuan | Tags: cs.CV, cs.LG</span>
+    <h2><a href="http://arxiv.org/abs/2611.34939v1" target="_blank" rel="noopener">A Mesh for Every Moment</a></h2>
+    <span class="meta">Published: 2026-11-25 | Authors: Roy Or-El, Jeong Joon Park, Ira Kemelmacher-Shlizerman | Tags: cs.CV, cs.GR</span>
   </div>
   <div class="card-body">
-    <section class="full"><h3>Abstract</h3><p>The development of biomedical vision-language models (VLMs) with contrastive image-text pretraining has been driven by scaling to increasingly large and diverse image-text datasets. Beyond scaling, further progress can come from learning richer representations from existing data. We hypothesize that the structure of scientific literature itself provides an additional source of supervision: figures, panels, captions, and accompanying article text encode rich relationships across modalities. Yet, treating these as independent image-text pairs overlooks their relationships. To address this limitation, we incorporate these structural relationships into contrastive image-text supervision. We preserve exact image-text matches while introducing weaker positive supervision for related pairs, such </p></section>
-    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>1) Using a 3D model of molecular waves and a 3D model of molecular waves, we found that the spatial information of the w...</p></section>
-    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>I have recently discovered that the structure of the brain is composed of two important elements: the structure of the b...</p></section>
-    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>We might be able to better understand the relationship between scientific knowledge and the development of medical knowl...</p></section>
+    <section class="full"><h3>Abstract</h3><p>We present MEMO (a Mesh for Every MOment), a method that reconstructs the geometry of complete dynamic scenes, captured by multiple synchronized cameras, and extracts a mesh at every frame. Existing dynamic Gaussian splatting methods either model appearance alone or target isolated objects segmented by foreground masks, and all of them recover meshes by TSDF fusion or Poisson reconstruction, whose fixed grids limit the detail they can capture. At the core of MEMO is a per-Gaussian motion model inspired by Gaussian processes, which represents each Gaussian's position and rotation over time as a combination of temporal Gaussian kernels. The model keeps every Gaussian a valid surface element throughout the sequence and carries an implicit representation of the dynamic geometry, so a mesh can </p></section>
+    <section><h3>Key Methods <span class="ai-badge">AI</span></h3><p>The model:
+The data and data from the data are stored in a file format.</p></section>
+    <section><h3>Datasets Used <span class="ai-badge">AI</span></h3><p>http://www.</p></section>
+    <section class="full"><h3>Future Work <span class="ai-badge">AI</span></h3><p>A Mesh For Every Moment.</p></section>
   </div>
 </div>
 </main>
 <footer>
   <a href="https://github.com/PranayMahendrakar/arxiv-llm-analyzer">PranayMahendrakar/arxiv-llm-analyzer</a>
-  | Powered by DistilGPT2 (HuggingFace Transformers) | No API keys | 2026-11-25 16:49 UTC
+  | Powered by DistilGPT2 (HuggingFace Transformers) | No API keys | 2026-11-26 16:25 UTC
 </footer>
 </body></html>
